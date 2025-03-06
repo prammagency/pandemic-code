@@ -1,0 +1,5570 @@
+{
+  "timestamp": "2025-03-05 22:25:13",
+  "json_files": {
+    "total": 459,
+    "complete": 450,
+    "incomplete": 9,
+    "error": 0,
+    "average_completeness": 0.984313725490196,
+    "completion_percentage": 98.0392156862745
+  },
+  "html_files": {
+    "total": 87,
+    "with_json_equivalent": 87,
+    "without_json_equivalent": 0,
+    "recommended_for_extraction": 0
+  },
+  "json_results": [
+    {
+      "file": "org_dreambot_api_Client.json",
+      "name": "Client",
+      "full_name": "org.dreambot.api.Client",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_ClientSettings.json",
+      "name": "ClientSettings",
+      "full_name": "org.dreambot.api.ClientSettings",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_ClientSettings_SettingsTab.json",
+      "name": "ClientSettings.SettingsTab",
+      "full_name": "org.dreambot.api.ClientSettings.SettingsTab",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_data_ActionMode.json",
+      "name": "ActionMode",
+      "full_name": "org.dreambot.api.data.ActionMode",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_data_ClientLayout.json",
+      "name": "ClientLayout",
+      "full_name": "org.dreambot.api.data.ClientLayout",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_data_consumables_Food.json",
+      "name": "Food",
+      "full_name": "org.dreambot.api.data.consumables.Food",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_data_GameState.json",
+      "name": "GameState",
+      "full_name": "org.dreambot.api.data.GameState",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_data_requirements_CombatRequirement.json",
+      "name": "CombatRequirement",
+      "full_name": "org.dreambot.api.data.requirements.CombatRequirement",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_data_requirements_ConditionalRequirement.json",
+      "name": "ConditionalRequirement",
+      "full_name": "org.dreambot.api.data.requirements.ConditionalRequirement",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_data_requirements_FavourRequirement.json",
+      "name": "FavourRequirement",
+      "full_name": "org.dreambot.api.data.requirements.FavourRequirement",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_data_requirements_LocationRequirement.json",
+      "name": "LocationRequirement",
+      "full_name": "org.dreambot.api.data.requirements.LocationRequirement",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_data_requirements_QuestPointRequirement.json",
+      "name": "QuestPointRequirement",
+      "full_name": "org.dreambot.api.data.requirements.QuestPointRequirement",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_data_requirements_QuestRequirement.json",
+      "name": "QuestRequirement",
+      "full_name": "org.dreambot.api.data.requirements.QuestRequirement",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_data_requirements_Requirement.json",
+      "name": "Requirement",
+      "full_name": "org.dreambot.api.data.requirements.Requirement",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_data_requirements_SkillRequirement.json",
+      "name": "SkillRequirement",
+      "full_name": "org.dreambot.api.data.requirements.SkillRequirement",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_data_requirements_SkillTotalRequirement.json",
+      "name": "SkillTotalRequirement",
+      "full_name": "org.dreambot.api.data.requirements.SkillTotalRequirement",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_AbstractEvent.json",
+      "name": "AbstractEvent",
+      "full_name": "org.dreambot.api.input.event.AbstractEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_InteractionEvent.json",
+      "name": "InteractionEvent",
+      "full_name": "org.dreambot.api.input.event.impl.InteractionEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_InteractionSetting.json",
+      "name": "InteractionSetting",
+      "full_name": "org.dreambot.api.input.event.impl.InteractionSetting",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_keyboard_awt_DBKeyEvent.json",
+      "name": "DBKeyEvent",
+      "full_name": "org.dreambot.api.input.event.impl.keyboard.awt.DBKeyEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_keyboard_awt_Key.json",
+      "name": "Key",
+      "full_name": "org.dreambot.api.input.event.impl.keyboard.awt.Key",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_keyboard_KeyboardEvent.json",
+      "name": "KeyboardEvent",
+      "full_name": "org.dreambot.api.input.event.impl.keyboard.KeyboardEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_keyboard_KeyEventGenerator.json",
+      "name": "KeyEventGenerator",
+      "full_name": "org.dreambot.api.input.event.impl.keyboard.KeyEventGenerator",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_keyboard_KeyLocation.json",
+      "name": "KeyLocation",
+      "full_name": "org.dreambot.api.input.event.impl.keyboard.KeyLocation",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_keyboard_type_AbstractKeyEvent.json",
+      "name": "AbstractKeyEvent",
+      "full_name": "org.dreambot.api.input.event.impl.keyboard.type.AbstractKeyEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_keyboard_type_HoldKey.json",
+      "name": "HoldKey",
+      "full_name": "org.dreambot.api.input.event.impl.keyboard.type.HoldKey",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_keyboard_type_PressKey.json",
+      "name": "PressKey",
+      "full_name": "org.dreambot.api.input.event.impl.keyboard.type.PressKey",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_keyboard_type_ReleaseKey.json",
+      "name": "ReleaseKey",
+      "full_name": "org.dreambot.api.input.event.impl.keyboard.type.ReleaseKey",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_keyboard_type_TypeKey.json",
+      "name": "TypeKey",
+      "full_name": "org.dreambot.api.input.event.impl.keyboard.type.TypeKey",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_mouse_AbstractMouseEvent.json",
+      "name": "AbstractMouseEvent",
+      "full_name": "org.dreambot.api.input.event.impl.mouse.AbstractMouseEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_mouse_awt_DBMouseEvent.json",
+      "name": "DBMouseEvent",
+      "full_name": "org.dreambot.api.input.event.impl.mouse.awt.DBMouseEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_mouse_awt_DBMouseWheelEvent.json",
+      "name": "DBMouseWheelEvent",
+      "full_name": "org.dreambot.api.input.event.impl.mouse.awt.DBMouseWheelEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_mouse_impl_click_ClickEvent.json",
+      "name": "ClickEvent",
+      "full_name": "org.dreambot.api.input.event.impl.mouse.impl.click.ClickEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_mouse_impl_click_ClickMode.json",
+      "name": "ClickMode",
+      "full_name": "org.dreambot.api.input.event.impl.mouse.impl.click.ClickMode",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_mouse_impl_MoveEvent.json",
+      "name": "MoveEvent",
+      "full_name": "org.dreambot.api.input.event.impl.mouse.impl.MoveEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_mouse_impl_wheel_WheelEvent.json",
+      "name": "WheelEvent",
+      "full_name": "org.dreambot.api.input.event.impl.mouse.impl.wheel.WheelEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_mouse_impl_wheel_WheelMode.json",
+      "name": "WheelMode",
+      "full_name": "org.dreambot.api.input.event.impl.mouse.impl.wheel.WheelMode",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_mouse_MouseButton.json",
+      "name": "MouseButton",
+      "full_name": "org.dreambot.api.input.event.impl.mouse.MouseButton",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_mouse_MouseEvent.json",
+      "name": "MouseEvent",
+      "full_name": "org.dreambot.api.input.event.impl.mouse.MouseEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_mouse_MouseEventGenerator.json",
+      "name": "MouseEventGenerator",
+      "full_name": "org.dreambot.api.input.event.impl.mouse.MouseEventGenerator",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_mouse_MouseMode.json",
+      "name": "MouseMode",
+      "full_name": "org.dreambot.api.input.event.impl.mouse.MouseMode",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_mouse_type_AbstractMouseEvent.json",
+      "name": "AbstractMouseEvent",
+      "full_name": "org.dreambot.api.input.event.impl.mouse.type.AbstractMouseEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_mouse_type_ClickEvent.json",
+      "name": "ClickEvent",
+      "full_name": "org.dreambot.api.input.event.impl.mouse.type.ClickEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_mouse_type_EnterEvent.json",
+      "name": "EnterEvent",
+      "full_name": "org.dreambot.api.input.event.impl.mouse.type.EnterEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_mouse_type_ExitEvent.json",
+      "name": "ExitEvent",
+      "full_name": "org.dreambot.api.input.event.impl.mouse.type.ExitEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_mouse_type_MoveEvent.json",
+      "name": "MoveEvent",
+      "full_name": "org.dreambot.api.input.event.impl.mouse.type.MoveEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_mouse_type_PressEvent.json",
+      "name": "PressEvent",
+      "full_name": "org.dreambot.api.input.event.impl.mouse.type.PressEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_mouse_type_ReleaseEvent.json",
+      "name": "ReleaseEvent",
+      "full_name": "org.dreambot.api.input.event.impl.mouse.type.ReleaseEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_mouse_type_WheelEvent.json",
+      "name": "WheelEvent",
+      "full_name": "org.dreambot.api.input.event.impl.mouse.type.WheelEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_mouse_vector_impl_MouseVector.json",
+      "name": "MouseVector",
+      "full_name": "org.dreambot.api.input.event.impl.mouse.vector.impl.MouseVector",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_mouse_vector_Vector.json",
+      "name": "Vector",
+      "full_name": "org.dreambot.api.input.event.impl.mouse.vector.Vector",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_mouse_WheelMode.json",
+      "name": "WheelMode",
+      "full_name": "org.dreambot.api.input.event.impl.mouse.WheelMode",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_Keyboard.json",
+      "name": "Keyboard",
+      "full_name": "org.dreambot.api.input.Keyboard",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_keyboard_KeyboardProfile.json",
+      "name": "KeyboardProfile",
+      "full_name": "org.dreambot.api.input.keyboard.KeyboardProfile",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_keyboard_KeyboardTypingAlgorithm.json",
+      "name": "KeyboardTypingAlgorithm",
+      "full_name": "org.dreambot.api.input.keyboard.KeyboardTypingAlgorithm",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_keyboard_StandardKeyboardAlgorithm.json",
+      "name": "StandardKeyboardAlgorithm",
+      "full_name": "org.dreambot.api.input.keyboard.StandardKeyboardAlgorithm",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_Mouse.json",
+      "name": "Mouse",
+      "full_name": "org.dreambot.api.input.Mouse",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_mouse_algorithm_MouseAlgorithm.json",
+      "name": "MouseAlgorithm",
+      "full_name": "org.dreambot.api.input.mouse.algorithm.MouseAlgorithm",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_mouse_algorithm_MouseMovementAlgorithm.json",
+      "name": "MouseMovementAlgorithm",
+      "full_name": "org.dreambot.api.input.mouse.algorithm.MouseMovementAlgorithm",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_mouse_algorithm_MouseProfile.json",
+      "name": "MouseProfile",
+      "full_name": "org.dreambot.api.input.mouse.algorithm.MouseProfile",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_mouse_algorithm_StandardMouseAlgorithm.json",
+      "name": "StandardMouseAlgorithm",
+      "full_name": "org.dreambot.api.input.mouse.algorithm.StandardMouseAlgorithm",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_mouse_destination_AbstractMouseDestination.json",
+      "name": "AbstractMouseDestination",
+      "full_name": "org.dreambot.api.input.mouse.destination.AbstractMouseDestination",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_mouse_destination_impl_EntityDestination.json",
+      "name": "EntityDestination",
+      "full_name": "org.dreambot.api.input.mouse.destination.impl.EntityDestination",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_mouse_destination_impl_MiniMapTileDestination.json",
+      "name": "MiniMapTileDestination",
+      "full_name": "org.dreambot.api.input.mouse.destination.impl.MiniMapTileDestination",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_mouse_destination_impl_PointDestination.json",
+      "name": "PointDestination",
+      "full_name": "org.dreambot.api.input.mouse.destination.impl.PointDestination",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_mouse_destination_impl_shape_AreaDestination.json",
+      "name": "AreaDestination",
+      "full_name": "org.dreambot.api.input.mouse.destination.impl.shape.AreaDestination",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_mouse_destination_impl_shape_PolygonDestination.json",
+      "name": "PolygonDestination",
+      "full_name": "org.dreambot.api.input.mouse.destination.impl.shape.PolygonDestination",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_mouse_destination_impl_shape_RectangleDestination.json",
+      "name": "RectangleDestination",
+      "full_name": "org.dreambot.api.input.mouse.destination.impl.shape.RectangleDestination",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_mouse_destination_impl_shape_ShapeDestination.json",
+      "name": "ShapeDestination",
+      "full_name": "org.dreambot.api.input.mouse.destination.impl.shape.ShapeDestination",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_input_mouse_destination_impl_TileDestination.json",
+      "name": "TileDestination",
+      "full_name": "org.dreambot.api.input.mouse.destination.impl.TileDestination",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_Animations.json",
+      "name": "Animations",
+      "full_name": "org.dreambot.api.methods.Animations",
+      "type": "class",
+      "issues": [
+        "Field IDLE missing description",
+        "Field HERBLORE_PESTLE_AND_MORTAR missing description",
+        "Field WOODCUTTING_BRONZE missing description",
+        "Field WOODCUTTING_IRON missing description",
+        "Field WOODCUTTING_STEEL missing description",
+        "Field WOODCUTTING_BLACK missing description",
+        "Field WOODCUTTING_MITHRIL missing description",
+        "Field WOODCUTTING_ADAMANT missing description",
+        "Field WOODCUTTING_RUNE missing description",
+        "Field WOODCUTTING_GILDED missing description",
+        "Field WOODCUTTING_DRAGON missing description",
+        "Field WOODCUTTING_INFERNAL missing description",
+        "Field WOODCUTTING_3A_AXE missing description",
+        "Field WOODCUTTING_CRYSTAL missing description",
+        "Field CONSUMING missing description",
+        "Field FIREMAKING missing description",
+        "Field DEATH missing description",
+        "Field COOKING_FIRE missing description",
+        "Field COOKING_RANGE missing description",
+        "Field COOKING_WINE missing description",
+        "Field FLETCHING_BOW_CUTTING missing description",
+        "Field HUNTER_LAY_BOXTRAP_BIRDSNARE missing description",
+        "Field HUNTER_LAY_DEADFALLTRAP missing description",
+        "Field HUNTER_LAY_NETTRAP missing description",
+        "Field HUNTER_LAY_MANIACAL_MONKEY_BOULDER_TRAP missing description",
+        "Field HUNTER_CHECK_BIRD_SNARE missing description",
+        "Field HUNTER_CHECK_BOX_TRAP missing description",
+        "Field HERBLORE_MAKE_TAR missing description",
+        "Field FLETCHING_STRING_NORMAL_SHORTBOW missing description",
+        "Field FLETCHING_STRING_NORMAL_LONGBOW missing description",
+        "Field FLETCHING_STRING_OAK_SHORTBOW missing description",
+        "Field FLETCHING_STRING_OAK_LONGBOW missing description",
+        "Field FLETCHING_STRING_WILLOW_SHORTBOW missing description",
+        "Field FLETCHING_STRING_WILLOW_LONGBOW missing description",
+        "Field FLETCHING_STRING_MAPLE_SHORTBOW missing description",
+        "Field FLETCHING_STRING_MAPLE_LONGBOW missing description",
+        "Field FLETCHING_STRING_YEW_SHORTBOW missing description",
+        "Field FLETCHING_STRING_YEW_LONGBOW missing description",
+        "Field FLETCHING_STRING_MAGIC_SHORTBOW missing description",
+        "Field FLETCHING_STRING_MAGIC_LONGBOW missing description",
+        "Field FLETCHING_ATTACH_BOLT_TIPS_TO_BRONZE_BOLT missing description",
+        "Field FLETCHING_ATTACH_BOLT_TIPS_TO_IRON_BROAD_BOLT missing description",
+        "Field FLETCHING_ATTACH_BOLT_TIPS_TO_BLURITE_BOLT missing description",
+        "Field FLETCHING_ATTACH_BOLT_TIPS_TO_STEEL_BOLT missing description",
+        "Field FLETCHING_ATTACH_BOLT_TIPS_TO_MITHRIL_BOLT missing description",
+        "Field FLETCHING_ATTACH_BOLT_TIPS_TO_ADAMANT_BOLT missing description",
+        "Field FLETCHING_ATTACH_BOLT_TIPS_TO_RUNE_BOLT missing description",
+        "Field FLETCHING_ATTACH_BOLT_TIPS_TO_DRAGON_BOLT missing description",
+        "Field FLETCHING_ATTACH_HEADS missing description",
+        "Field FLETCHING_ATTACH_FEATHERS_TO_ARROWSHAFT missing description",
+        "Field GEM_CUTTING_OPAL missing description",
+        "Field GEM_CUTTING_JADE missing description",
+        "Field GEM_CUTTING_REDTOPAZ missing description",
+        "Field GEM_CUTTING_SAPPHIRE missing description",
+        "Field GEM_CUTTING_EMERALD missing description",
+        "Field GEM_CUTTING_RUBY missing description",
+        "Field GEM_CUTTING_DIAMOND missing description",
+        "Field GEM_CUTTING_AMETHYST missing description",
+        "Field CRAFTING_LEATHER missing description",
+        "Field CRAFTING_GLASSBLOWING missing description",
+        "Field CRAFTING_SPINNING missing description",
+        "Field CRAFTING_POTTERS_WHEEL missing description",
+        "Field CRAFTING_POTTERY_OVEN missing description",
+        "Field SMITHING_SMELTING missing description",
+        "Field SMITHING_CANNONBALL missing description",
+        "Field SMITHING_ANVIL missing description",
+        "Field FISHING_BIG_NET missing description",
+        "Field FISHING_NET missing description",
+        "Field FISHING_POLE_CAST missing description",
+        "Field FISHING_CAGE missing description",
+        "Field FISHING_HARPOON missing description",
+        "Field FISHING_BARBTAIL_HARPOON missing description",
+        "Field FISHING_DRAGON_HARPOON missing description",
+        "Field FISHING_INFERNAL_HARPOON missing description",
+        "Field FISHING_CRYSTAL_HARPOON missing description",
+        "Field FISHING_OILY_ROD missing description",
+        "Field FISHING_KARAMBWAN missing description",
+        "Field FISHING_CRUSHING_INFERNAL_EELS missing description",
+        "Field FISHING_CUTTING_SACRED_EELS missing description",
+        "Field FISHING_BAREHAND missing description",
+        "Field FISHING_BAREHAND_WINDUP_1 missing description",
+        "Field FISHING_BAREHAND_WINDUP_2 missing description",
+        "Field FISHING_BAREHAND_CAUGHT_SHARK_1 missing description",
+        "Field FISHING_BAREHAND_CAUGHT_SHARK_2 missing description",
+        "Field FISHING_BAREHAND_CAUGHT_SWORDFISH_1 missing description",
+        "Field FISHING_BAREHAND_CAUGHT_SWORDFISH_2 missing description",
+        "Field FISHING_BAREHAND_CAUGHT_TUNA_1 missing description",
+        "Field FISHING_BAREHAND_CAUGHT_TUNA_2 missing description",
+        "Field FISHING_PEARL_ROD missing description",
+        "Field FISHING_PEARL_FLY_ROD missing description",
+        "Field FISHING_PEARL_BARBARIAN_ROD missing description",
+        "Field FISHING_PEARL_ROD_2 missing description",
+        "Field FISHING_PEARL_FLY_ROD_2 missing description",
+        "Field FISHING_PEARL_BARBARIAN_ROD_2 missing description",
+        "Field FISHING_PEARL_OILY_ROD missing description",
+        "Field MINING_BRONZE_PICKAXE missing description",
+        "Field MINING_IRON_PICKAXE missing description",
+        "Field MINING_STEEL_PICKAXE missing description",
+        "Field MINING_BLACK_PICKAXE missing description",
+        "Field MINING_MITHRIL_PICKAXE missing description",
+        "Field MINING_ADAMANT_PICKAXE missing description",
+        "Field MINING_RUNE_PICKAXE missing description",
+        "Field MINING_GILDED_PICKAXE missing description",
+        "Field MINING_DRAGON_PICKAXE missing description",
+        "Field MINING_DRAGON_PICKAXE_UPGRADED missing description",
+        "Field MINING_DRAGON_PICKAXE_OR missing description",
+        "Field MINING_INFERNAL_PICKAXE missing description",
+        "Field MINING_3A_PICKAXE missing description",
+        "Field MINING_CRYSTAL_PICKAXE missing description",
+        "Field MINING_MOTHERLODE_BRONZE missing description",
+        "Field MINING_MOTHERLODE_IRON missing description",
+        "Field MINING_MOTHERLODE_STEEL missing description",
+        "Field MINING_MOTHERLODE_BLACK missing description",
+        "Field MINING_MOTHERLODE_MITHRIL missing description",
+        "Field MINING_MOTHERLODE_ADAMANT missing description",
+        "Field MINING_MOTHERLODE_RUNE missing description",
+        "Field MINING_MOTHERLODE_GILDED missing description",
+        "Field MINING_MOTHERLODE_DRAGON missing description",
+        "Field MINING_MOTHERLODE_DRAGON_UPGRADED missing description",
+        "Field MINING_MOTHERLODE_DRAGON_OR missing description",
+        "Field MINING_MOTHERLODE_INFERNAL missing description",
+        "Field MINING_MOTHERLODE_3A missing description",
+        "Field MINING_MOTHERLODE_CRYSTAL missing description",
+        "Field DENSE_ESSENCE_CHIPPING missing description",
+        "Field DENSE_ESSENCE_CHISELING missing description",
+        "Field HERBLORE_POTIONMAKING missing description",
+        "Field MAGIC_CHARGING_ORBS missing description",
+        "Field MAGIC_MAKE_TABLET missing description",
+        "Field MAGIC_ENCHANTING_JEWELRY missing description",
+        "Field MAGIC_ENCHANTING_AMULET_1 missing description",
+        "Field MAGIC_ENCHANTING_AMULET_2 missing description",
+        "Field MAGIC_ENCHANTING_AMULET_3 missing description",
+        "Field MAGIC_ENCHANTING_BOLTS missing description",
+        "Field BURYING_BONES missing description",
+        "Field USING_GILDED_ALTAR missing description",
+        "Field LOOKING_INTO missing description",
+        "Field DIG missing description",
+        "Field DEMONIC_GORILLA_MAGIC_ATTACK missing description",
+        "Field DEMONIC_GORILLA_MELEE_ATTACK missing description",
+        "Field DEMONIC_GORILLA_RANGED_ATTACK missing description",
+        "Field DEMONIC_GORILLA_AOE_ATTACK missing description",
+        "Field DEMONIC_GORILLA_PRAYER_SWITCH missing description",
+        "Field DEMONIC_GORILLA_DEFEND missing description",
+        "Field BOOK_HOME_TELEPORT_1 missing description",
+        "Field BOOK_HOME_TELEPORT_2 missing description",
+        "Field BOOK_HOME_TELEPORT_3 missing description",
+        "Field BOOK_HOME_TELEPORT_4 missing description",
+        "Field BOOK_HOME_TELEPORT_5 missing description",
+        "Field COW_HOME_TELEPORT_1 missing description",
+        "Field COW_HOME_TELEPORT_2 missing description",
+        "Field COW_HOME_TELEPORT_3 missing description",
+        "Field COW_HOME_TELEPORT_4 missing description",
+        "Field COW_HOME_TELEPORT_5 missing description",
+        "Field COW_HOME_TELEPORT_6 missing description",
+        "Field CONSTRUCTION missing description",
+        "Field SAND_COLLECTION missing description",
+        "Field PISCARILIUS_CRANE_REPAIR missing description",
+        "Field HOME_MAKE_TABLET missing description",
+        "Field DRAGONFIRE_SHIELD_SPECIAL missing description",
+        "Field TZTOK_JAD_MAGIC_ATTACK missing description",
+        "Field TZTOK_JAD_RANGE_ATTACK missing description",
+        "Field HELLHOUND_DEFENCE missing description",
+        "Field FARMING_HARVEST_FRUIT_TREE missing description",
+        "Field FARMING_HARVEST_BUSH missing description",
+        "Field FARMING_HARVEST_HERB missing description",
+        "Field FARMING_USE_COMPOST missing description",
+        "Field FARMING_CURE_WITH_POTION missing description",
+        "Field FARMING_PLANT_SEED missing description",
+        "Field FARMING_HARVEST_FLOWER missing description",
+        "Field FARMING_MIX_ULTRACOMPOST missing description",
+        "Field FARMING_HARVEST_ALLOTMENT missing description",
+        "Field ENERGY_TRANSFER_VENGEANCE_OTHER missing description",
+        "Field MAGIC_LUNAR_SHARED missing description",
+        "Field MAGIC_LUNAR_CURE_PLANT missing description",
+        "Field MAGIC_LUNAR_GEOMANCY missing description",
+        "Field MAGIC_LUNAR_PLANK_MAKE missing description",
+        "Field MAGIC_LUNAR_STRING_JEWELRY missing description",
+        "Field MAGIC_ARCEUUS_RESURRECT_CROPS missing description",
+        "Field CRAFTING_BATTLESTAVES missing description",
+        "Field CAVE_KRAKEN_DEATH missing description",
+        "Field WIZARD_DEATH missing description",
+        "Field GARGOYLE_DEATH missing description",
+        "Field MARBLE_GARGOYLE_DEATH missing description",
+        "Field LIZARD_DEATH missing description",
+        "Field ROCKSLUG_DEATH missing description",
+        "Field ZYGOMITE_DEATH missing description",
+        "Field IMP_DEATH missing description",
+        "Field INCENSE_BURNER missing description",
+        "Field Constructor missing description",
+        "Field Animations missing description"
+      ],
+      "missing_elements": [],
+      "status": "incomplete",
+      "completeness": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_bond_Bond.json",
+      "name": "Bond",
+      "full_name": "org.dreambot.api.methods.bond.Bond",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_Calculations.json",
+      "name": "Calculations",
+      "full_name": "org.dreambot.api.methods.Calculations",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_clan_chat_ClanChat.json",
+      "name": "ClanChat",
+      "full_name": "org.dreambot.api.methods.clan.chat.ClanChat",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_clan_chat_ClanChatMember.json",
+      "name": "ClanChatMember",
+      "full_name": "org.dreambot.api.methods.clan.chat.ClanChatMember",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_clan_chat_ClanChatMember_Rank.json",
+      "name": "ClanChatMember.Rank",
+      "full_name": "org.dreambot.api.methods.clan.chat.ClanChatMember.Rank",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_clan_chat_ClanChatTab.json",
+      "name": "ClanChatTab",
+      "full_name": "org.dreambot.api.methods.clan.chat.ClanChatTab",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_clan_Clan.json",
+      "name": "Clan",
+      "full_name": "org.dreambot.api.methods.clan.Clan",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_clan_ClanMember.json",
+      "name": "ClanMember",
+      "full_name": "org.dreambot.api.methods.clan.ClanMember",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_clan_ClanMemberHandler.json",
+      "name": "ClanMemberHandler",
+      "full_name": "org.dreambot.api.methods.clan.ClanMemberHandler",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_clan_ClanMember_Rank.json",
+      "name": "ClanMember.Rank",
+      "full_name": "org.dreambot.api.methods.clan.ClanMember.Rank",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_clan_guild_Clan.json",
+      "name": "Clan",
+      "full_name": "org.dreambot.api.methods.clan.guild.Clan",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_clan_guild_ClanMember.json",
+      "name": "ClanMember",
+      "full_name": "org.dreambot.api.methods.clan.guild.ClanMember",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_combat_Combat.json",
+      "name": "Combat",
+      "full_name": "org.dreambot.api.methods.combat.Combat",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_combat_CombatStyle.json",
+      "name": "CombatStyle",
+      "full_name": "org.dreambot.api.methods.combat.CombatStyle",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_container_general_ItemContainer.json",
+      "name": "ItemContainer",
+      "full_name": "org.dreambot.api.methods.container.general.ItemContainer",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_container_general_ItemContainerId.json",
+      "name": "ItemContainerId",
+      "full_name": "org.dreambot.api.methods.container.general.ItemContainerId",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_container_general_ItemContainers.json",
+      "name": "ItemContainers",
+      "full_name": "org.dreambot.api.methods.container.general.ItemContainers",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_container_impl_bank_Bank.json",
+      "name": "Bank",
+      "full_name": "org.dreambot.api.methods.container.impl.bank.Bank",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_container_impl_bank_BankLocation.json",
+      "name": "BankLocation",
+      "full_name": "org.dreambot.api.methods.container.impl.bank.BankLocation",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_container_impl_bank_BankMode.json",
+      "name": "BankMode",
+      "full_name": "org.dreambot.api.methods.container.impl.bank.BankMode",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_container_impl_bank_BankQuantitySelection.json",
+      "name": "BankQuantitySelection",
+      "full_name": "org.dreambot.api.methods.container.impl.bank.BankQuantitySelection",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_container_impl_bank_BankScroll.json",
+      "name": "BankScroll",
+      "full_name": "org.dreambot.api.methods.container.impl.bank.BankScroll",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_container_impl_bank_BankTab.json",
+      "name": "BankTab",
+      "full_name": "org.dreambot.api.methods.container.impl.bank.BankTab",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_container_impl_bank_BankType.json",
+      "name": "BankType",
+      "full_name": "org.dreambot.api.methods.container.impl.bank.BankType",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_container_impl_ContainerType.json",
+      "name": "ContainerType",
+      "full_name": "org.dreambot.api.methods.container.impl.ContainerType",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_container_impl_DropPattern.json",
+      "name": "DropPattern",
+      "full_name": "org.dreambot.api.methods.container.impl.DropPattern",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_container_impl_equipment_Equipment.json",
+      "name": "Equipment",
+      "full_name": "org.dreambot.api.methods.container.impl.equipment.Equipment",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_container_impl_equipment_EquipmentSlot.json",
+      "name": "EquipmentSlot",
+      "full_name": "org.dreambot.api.methods.container.impl.equipment.EquipmentSlot",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_container_impl_Inventory.json",
+      "name": "Inventory",
+      "full_name": "org.dreambot.api.methods.container.impl.Inventory",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_container_impl_Shop.json",
+      "name": "Shop",
+      "full_name": "org.dreambot.api.methods.container.impl.Shop",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_container_impl_StandardDropPattern.json",
+      "name": "StandardDropPattern",
+      "full_name": "org.dreambot.api.methods.container.impl.StandardDropPattern",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_cs2_RuneScriptEvent.json",
+      "name": "RuneScriptEvent",
+      "full_name": "org.dreambot.api.methods.cs2.RuneScriptEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_cs2_ScriptId.json",
+      "name": "ScriptId",
+      "full_name": "org.dreambot.api.methods.cs2.ScriptId",
+      "type": "class",
+      "issues": [
+        "Field CHAT_SEND missing description",
+        "Field BUILD_CHATBOX missing description",
+        "Field CHAT_TEXT_INPUT_REBUILD missing description",
+        "Field MESSAGE_LAYER_CLOSE missing description",
+        "Field MESSAGE_LAYER_OPEN missing description",
+        "Field CHAT_PROMPT_INIT missing description",
+        "Field QUEST_STATUS_GET missing description",
+        "Field GE_ITEM_SEARCH missing description",
+        "Field BANKMAIN_SEARCHING missing description",
+        "Field CHATBOX_INIT missing description",
+        "Field CAMERA_ZOOM missing description",
+        "Field CAMERA_PITCH_YAW missing description",
+        "Field Constructor missing description",
+        "Field ScriptId missing description"
+      ],
+      "missing_elements": [],
+      "status": "incomplete",
+      "completeness": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_cs2_VarClientInt.json",
+      "name": "VarClientInt",
+      "full_name": "org.dreambot.api.methods.cs2.VarClientInt",
+      "type": "class",
+      "issues": [
+        "Field TOOLTIP_TIMEOUT missing description",
+        "Field TOOLTIP_VISIBLE missing description",
+        "Field INPUT_TYPE missing description",
+        "Field MEMBERSHIP_STATUS missing description",
+        "Field INVENTORY_TAB missing description",
+        "Field Constructor missing description",
+        "Field VarClientInt missing description"
+      ],
+      "missing_elements": [],
+      "status": "incomplete",
+      "completeness": 0.30000000000000004
+    },
+    {
+      "file": "org_dreambot_api_methods_cs2_VarClientString.json",
+      "name": "VarClientString",
+      "full_name": "org.dreambot.api.methods.cs2.VarClientString",
+      "type": "class",
+      "issues": [
+        "Field DUEL_OPPONENT_NAME missing description",
+        "Field CHATBOX_TYPED_TEXT missing description",
+        "Field INPUT_TEXT missing description",
+        "Field PRIVATE_MESSAGE_TARGET missing description",
+        "Field RECENT_FRIENDS_CHAT missing description",
+        "Field NOTIFICATION_TOP_TEXT missing description",
+        "Field NOTIFICATION_BOTTOM_TEXT missing description",
+        "Field Constructor missing description",
+        "Field VarClientString missing description"
+      ],
+      "missing_elements": [],
+      "status": "incomplete",
+      "completeness": 0.09999999999999998
+    },
+    {
+      "file": "org_dreambot_api_methods_depositbox_DepositBox.json",
+      "name": "DepositBox",
+      "full_name": "org.dreambot.api.methods.depositbox.DepositBox",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_dialogues_Dialogues.json",
+      "name": "Dialogues",
+      "full_name": "org.dreambot.api.methods.dialogues.Dialogues",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_diary_ArdougneDiary.json",
+      "name": "ArdougneDiary",
+      "full_name": "org.dreambot.api.methods.diary.ArdougneDiary",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_diary_DesertDiary.json",
+      "name": "DesertDiary",
+      "full_name": "org.dreambot.api.methods.diary.DesertDiary",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_diary_Diaries.json",
+      "name": "Diaries",
+      "full_name": "org.dreambot.api.methods.diary.Diaries",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_diary_Diary.json",
+      "name": "Diary",
+      "full_name": "org.dreambot.api.methods.diary.Diary",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_diary_FaladorDiary.json",
+      "name": "FaladorDiary",
+      "full_name": "org.dreambot.api.methods.diary.FaladorDiary",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_diary_FremennikDiary.json",
+      "name": "FremennikDiary",
+      "full_name": "org.dreambot.api.methods.diary.FremennikDiary",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_diary_KandarinDiary.json",
+      "name": "KandarinDiary",
+      "full_name": "org.dreambot.api.methods.diary.KandarinDiary",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_diary_KaramjaDiary.json",
+      "name": "KaramjaDiary",
+      "full_name": "org.dreambot.api.methods.diary.KaramjaDiary",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_diary_KourendKebosDiary.json",
+      "name": "KourendKebosDiary",
+      "full_name": "org.dreambot.api.methods.diary.KourendKebosDiary",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_diary_LumbridgeDraynorDiary.json",
+      "name": "LumbridgeDraynorDiary",
+      "full_name": "org.dreambot.api.methods.diary.LumbridgeDraynorDiary",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_diary_MorytaniaDiary.json",
+      "name": "MorytaniaDiary",
+      "full_name": "org.dreambot.api.methods.diary.MorytaniaDiary",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_diary_requirement_DiaryRequirement.json",
+      "name": "DiaryRequirement",
+      "full_name": "org.dreambot.api.methods.diary.requirement.DiaryRequirement",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_diary_requirement_impl_AnyRequirement.json",
+      "name": "AnyRequirement",
+      "full_name": "org.dreambot.api.methods.diary.requirement.impl.AnyRequirement",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_diary_requirement_impl_CombatRequirement.json",
+      "name": "CombatRequirement",
+      "full_name": "org.dreambot.api.methods.diary.requirement.impl.CombatRequirement",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_diary_requirement_impl_CombinedSkillRequirement.json",
+      "name": "CombinedSkillRequirement",
+      "full_name": "org.dreambot.api.methods.diary.requirement.impl.CombinedSkillRequirement",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_diary_requirement_impl_FavourRequirement.json",
+      "name": "FavourRequirement",
+      "full_name": "org.dreambot.api.methods.diary.requirement.impl.FavourRequirement",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_diary_requirement_impl_FavourRequirement_House.json",
+      "name": "FavourRequirement.House",
+      "full_name": "org.dreambot.api.methods.diary.requirement.impl.FavourRequirement.House",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_diary_requirement_impl_QuestPointRequirement.json",
+      "name": "QuestPointRequirement",
+      "full_name": "org.dreambot.api.methods.diary.requirement.impl.QuestPointRequirement",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_diary_requirement_impl_QuestRequirement.json",
+      "name": "QuestRequirement",
+      "full_name": "org.dreambot.api.methods.diary.requirement.impl.QuestRequirement",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_diary_requirement_impl_SkillRequirement.json",
+      "name": "SkillRequirement",
+      "full_name": "org.dreambot.api.methods.diary.requirement.impl.SkillRequirement",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_diary_requirement_Requirement.json",
+      "name": "Requirement",
+      "full_name": "org.dreambot.api.methods.diary.requirement.Requirement",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_diary_VarrockDiary.json",
+      "name": "VarrockDiary",
+      "full_name": "org.dreambot.api.methods.diary.VarrockDiary",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_diary_WesternProvincesDiary.json",
+      "name": "WesternProvincesDiary",
+      "full_name": "org.dreambot.api.methods.diary.WesternProvincesDiary",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_diary_WildernessDiary.json",
+      "name": "WildernessDiary",
+      "full_name": "org.dreambot.api.methods.diary.WildernessDiary",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_emotes_Emote.json",
+      "name": "Emote",
+      "full_name": "org.dreambot.api.methods.emotes.Emote",
+      "type": "enum",
+      "issues": [
+        "Field childwidget missing description",
+        "Field Method missing description",
+        "Field values missing description",
+        "Field valueOf missing description",
+        "Field forChildWidgetId missing description"
+      ],
+      "missing_elements": [],
+      "status": "incomplete",
+      "completeness": 0.5
+    },
+    {
+      "file": "org_dreambot_api_methods_emotes_Emotes.json",
+      "name": "Emotes",
+      "full_name": "org.dreambot.api.methods.emotes.Emotes",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_event_CameraEvent.json",
+      "name": "CameraEvent",
+      "full_name": "org.dreambot.api.methods.event.CameraEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_event_CameraEvent_CameraType.json",
+      "name": "CameraEvent.CameraType",
+      "full_name": "org.dreambot.api.methods.event.CameraEvent.CameraType",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_event_KeyboardEvent.json",
+      "name": "KeyboardEvent",
+      "full_name": "org.dreambot.api.methods.event.KeyboardEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_fairyring_FairyLocation.json",
+      "name": "FairyLocation",
+      "full_name": "org.dreambot.api.methods.fairyring.FairyLocation",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_fairyring_FairyRings.json",
+      "name": "FairyRings",
+      "full_name": "org.dreambot.api.methods.fairyring.FairyRings",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_favour_House.json",
+      "name": "House",
+      "full_name": "org.dreambot.api.methods.favour.House",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_filter_Filter.json",
+      "name": "Filter",
+      "full_name": "org.dreambot.api.methods.filter.Filter",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_filter_impl_ActionFilter.json",
+      "name": "ActionFilter",
+      "full_name": "org.dreambot.api.methods.filter.impl.ActionFilter",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_filter_impl_AreaFilter.json",
+      "name": "AreaFilter",
+      "full_name": "org.dreambot.api.methods.filter.impl.AreaFilter",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_filter_impl_EntityFilter.json",
+      "name": "EntityFilter",
+      "full_name": "org.dreambot.api.methods.filter.impl.EntityFilter",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_filter_impl_IdFilter.json",
+      "name": "IdFilter",
+      "full_name": "org.dreambot.api.methods.filter.impl.IdFilter",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_filter_impl_ItemFilter.json",
+      "name": "ItemFilter",
+      "full_name": "org.dreambot.api.methods.filter.impl.ItemFilter",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_filter_impl_NameFilter.json",
+      "name": "NameFilter",
+      "full_name": "org.dreambot.api.methods.filter.impl.NameFilter",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_ForumRank.json",
+      "name": "ForumRank",
+      "full_name": "org.dreambot.api.methods.ForumRank",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_ForumUser.json",
+      "name": "ForumUser",
+      "full_name": "org.dreambot.api.methods.ForumUser",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_friend_Friend.json",
+      "name": "Friend",
+      "full_name": "org.dreambot.api.methods.friend.Friend",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_friend_FriendHandler.json",
+      "name": "FriendHandler",
+      "full_name": "org.dreambot.api.methods.friend.FriendHandler",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_friend_Friends.json",
+      "name": "Friends",
+      "full_name": "org.dreambot.api.methods.friend.Friends",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_friend_NameProvider.json",
+      "name": "NameProvider",
+      "full_name": "org.dreambot.api.methods.friend.NameProvider",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_friend_NameProviderHandler.json",
+      "name": "NameProviderHandler",
+      "full_name": "org.dreambot.api.methods.friend.NameProviderHandler",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_friend_SocialHandler.json",
+      "name": "SocialHandler",
+      "full_name": "org.dreambot.api.methods.friend.SocialHandler",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_grandexchange_GrandExchange.json",
+      "name": "GrandExchange",
+      "full_name": "org.dreambot.api.methods.grandexchange.GrandExchange",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_grandexchange_GrandExchangeItem.json",
+      "name": "GrandExchangeItem",
+      "full_name": "org.dreambot.api.methods.grandexchange.GrandExchangeItem",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_grandexchange_LivePrices.json",
+      "name": "LivePrices",
+      "full_name": "org.dreambot.api.methods.grandexchange.LivePrices",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_grandexchange_Status.json",
+      "name": "Status",
+      "full_name": "org.dreambot.api.methods.grandexchange.Status",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_hint_HintArrow.json",
+      "name": "HintArrow",
+      "full_name": "org.dreambot.api.methods.hint.HintArrow",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_hint_HintArrowType.json",
+      "name": "HintArrowType",
+      "full_name": "org.dreambot.api.methods.hint.HintArrowType",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_hotkeys_Hotkey.json",
+      "name": "Hotkey",
+      "full_name": "org.dreambot.api.methods.hotkeys.Hotkey",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_hotkeys_NPCAttackOption.json",
+      "name": "NPCAttackOption",
+      "full_name": "org.dreambot.api.methods.hotkeys.NPCAttackOption",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_hotkeys_PlayerAttackOption.json",
+      "name": "PlayerAttackOption",
+      "full_name": "org.dreambot.api.methods.hotkeys.PlayerAttackOption",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_hotkeys_TabKey.json",
+      "name": "TabKey",
+      "full_name": "org.dreambot.api.methods.hotkeys.TabKey",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_ignore_Ignored.json",
+      "name": "Ignored",
+      "full_name": "org.dreambot.api.methods.ignore.Ignored",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [
+        "methods and fields"
+      ],
+      "status": "incomplete",
+      "completeness": 0.9
+    },
+    {
+      "file": "org_dreambot_api_methods_ignore_IgnoredProvider.json",
+      "name": "IgnoredProvider",
+      "full_name": "org.dreambot.api.methods.ignore.IgnoredProvider",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_input_Camera.json",
+      "name": "Camera",
+      "full_name": "org.dreambot.api.methods.input.Camera",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_input_CameraMode.json",
+      "name": "CameraMode",
+      "full_name": "org.dreambot.api.methods.input.CameraMode",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_input_Keyboard.json",
+      "name": "Keyboard",
+      "full_name": "org.dreambot.api.methods.input.Keyboard",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_input_MouseKeys.json",
+      "name": "MouseKeys",
+      "full_name": "org.dreambot.api.methods.input.MouseKeys",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_input_mouse_CrosshairState.json",
+      "name": "CrosshairState",
+      "full_name": "org.dreambot.api.methods.input.mouse.CrosshairState",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_input_mouse_MouseSetting.json",
+      "name": "MouseSetting",
+      "full_name": "org.dreambot.api.methods.input.mouse.MouseSetting",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_input_mouse_MouseSettings.json",
+      "name": "MouseSettings",
+      "full_name": "org.dreambot.api.methods.input.mouse.MouseSettings",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_input_mouse_MouseSettings_Hand.json",
+      "name": "MouseSettings.Hand",
+      "full_name": "org.dreambot.api.methods.input.mouse.MouseSettings.Hand",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_input_mouse_MouseTiming.json",
+      "name": "MouseTiming",
+      "full_name": "org.dreambot.api.methods.input.mouse.MouseTiming",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_input_mouse_MouseTracker.json",
+      "name": "MouseTracker",
+      "full_name": "org.dreambot.api.methods.input.mouse.MouseTracker",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_interactive_GameObjects.json",
+      "name": "GameObjects",
+      "full_name": "org.dreambot.api.methods.interactive.GameObjects",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_interactive_GraphicsObjects.json",
+      "name": "GraphicsObjects",
+      "full_name": "org.dreambot.api.methods.interactive.GraphicsObjects",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_interactive_Interactables.json",
+      "name": "Interactables",
+      "full_name": "org.dreambot.api.methods.interactive.Interactables",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_interactive_NPCs.json",
+      "name": "NPCs",
+      "full_name": "org.dreambot.api.methods.interactive.NPCs",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_interactive_Players.json",
+      "name": "Players",
+      "full_name": "org.dreambot.api.methods.interactive.Players",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_interactive_Projectiles.json",
+      "name": "Projectiles",
+      "full_name": "org.dreambot.api.methods.interactive.Projectiles",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_item_GroundItems.json",
+      "name": "GroundItems",
+      "full_name": "org.dreambot.api.methods.item.GroundItems",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_login_LoginStage.json",
+      "name": "LoginStage",
+      "full_name": "org.dreambot.api.methods.login.LoginStage",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_login_LoginStats.json",
+      "name": "LoginStats",
+      "full_name": "org.dreambot.api.methods.login.LoginStats",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_login_LoginUtility.json",
+      "name": "LoginUtility",
+      "full_name": "org.dreambot.api.methods.login.LoginUtility",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_magic_Ancient.json",
+      "name": "Ancient",
+      "full_name": "org.dreambot.api.methods.magic.Ancient",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_magic_Arceus.json",
+      "name": "Arceus",
+      "full_name": "org.dreambot.api.methods.magic.Arceus",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_magic_Arceuus.json",
+      "name": "Arceuus",
+      "full_name": "org.dreambot.api.methods.magic.Arceuus",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_magic_cost_Rune.json",
+      "name": "Rune",
+      "full_name": "org.dreambot.api.methods.magic.cost.Rune",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_magic_Lunar.json",
+      "name": "Lunar",
+      "full_name": "org.dreambot.api.methods.magic.Lunar",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_magic_Magic.json",
+      "name": "Magic",
+      "full_name": "org.dreambot.api.methods.magic.Magic",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_magic_Normal.json",
+      "name": "Normal",
+      "full_name": "org.dreambot.api.methods.magic.Normal",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_magic_Spell.json",
+      "name": "Spell",
+      "full_name": "org.dreambot.api.methods.magic.Spell",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_magic_Spellbook.json",
+      "name": "Spellbook",
+      "full_name": "org.dreambot.api.methods.magic.Spellbook",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_map_Area.json",
+      "name": "Area",
+      "full_name": "org.dreambot.api.methods.map.Area",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_map_Map.json",
+      "name": "Map",
+      "full_name": "org.dreambot.api.methods.map.Map",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_map_Tile.json",
+      "name": "Tile",
+      "full_name": "org.dreambot.api.methods.map.Tile",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_MethodProvider.json",
+      "name": "MethodProvider",
+      "full_name": "org.dreambot.api.methods.MethodProvider",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_minigame_Minigame.json",
+      "name": "Minigame",
+      "full_name": "org.dreambot.api.methods.minigame.Minigame",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_minigame_MinigameTeleports.json",
+      "name": "MinigameTeleports",
+      "full_name": "org.dreambot.api.methods.minigame.MinigameTeleports",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_prayer_Prayer.json",
+      "name": "Prayer",
+      "full_name": "org.dreambot.api.methods.prayer.Prayer",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_prayer_Prayers.json",
+      "name": "Prayers",
+      "full_name": "org.dreambot.api.methods.prayer.Prayers",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_quest_book_FreeQuest.json",
+      "name": "FreeQuest",
+      "full_name": "org.dreambot.api.methods.quest.book.FreeQuest",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_quest_book_MiniQuest.json",
+      "name": "MiniQuest",
+      "full_name": "org.dreambot.api.methods.quest.book.MiniQuest",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_quest_book_PaidQuest.json",
+      "name": "PaidQuest",
+      "full_name": "org.dreambot.api.methods.quest.book.PaidQuest",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_quest_book_Quest.json",
+      "name": "Quest",
+      "full_name": "org.dreambot.api.methods.quest.book.Quest",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_quest_book_Quest_State.json",
+      "name": "Quest.State",
+      "full_name": "org.dreambot.api.methods.quest.book.Quest.State",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_quest_book_Quest_Type.json",
+      "name": "Quest.Type",
+      "full_name": "org.dreambot.api.methods.quest.book.Quest.Type",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_quest_book_requirement_QuestRequirement.json",
+      "name": "QuestRequirement",
+      "full_name": "org.dreambot.api.methods.quest.book.requirement.QuestRequirement",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_quest_book_requirement_Requirement.json",
+      "name": "Requirement",
+      "full_name": "org.dreambot.api.methods.quest.book.requirement.Requirement",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_quest_book_requirement_skill_SkillReq.json",
+      "name": "SkillReq",
+      "full_name": "org.dreambot.api.methods.quest.book.requirement.skill.SkillReq",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_quest_book_requirement_skill_SkillRequirement.json",
+      "name": "SkillRequirement",
+      "full_name": "org.dreambot.api.methods.quest.book.requirement.skill.SkillRequirement",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_quest_Quests.json",
+      "name": "Quests",
+      "full_name": "org.dreambot.api.methods.quest.Quests",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_Randoms.json",
+      "name": "Randoms",
+      "full_name": "org.dreambot.api.methods.Randoms",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_RSLoginResponse.json",
+      "name": "RSLoginResponse",
+      "full_name": "org.dreambot.api.methods.RSLoginResponse",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_settings_PlayerSettings.json",
+      "name": "PlayerSettings",
+      "full_name": "org.dreambot.api.methods.settings.PlayerSettings",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_settings_Varcs.json",
+      "name": "Varcs",
+      "full_name": "org.dreambot.api.methods.settings.Varcs",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_settings_vars_VarBit.json",
+      "name": "VarBit",
+      "full_name": "org.dreambot.api.methods.settings.vars.VarBit",
+      "type": "class",
+      "issues": [
+        "Field SHIFT_DROP missing description",
+        "Field MULTICOMBAT missing description",
+        "Field WITHDRAW_X_AMOUNT missing description",
+        "Field POH_LOCATION missing description",
+        "Field DIARY_ARDOUGNE_EASY missing description",
+        "Field DIARY_ARDOUGNE_MEDIUM missing description",
+        "Field DIARY_ARDOUGNE_HARD missing description",
+        "Field DIARY_ARDOUGNE_ELITE missing description",
+        "Field DIARY_DESERT_EASY missing description",
+        "Field DIARY_DESERT_MEDIUM missing description",
+        "Field DIARY_DESERT_HARD missing description",
+        "Field DIARY_DESERT_ELITE missing description",
+        "Field DIARY_FALADOR_EASY missing description",
+        "Field DIARY_FALADOR_MEDIUM missing description",
+        "Field DIARY_FALADOR_HARD missing description",
+        "Field DIARY_FALADOR_ELITE missing description",
+        "Field DIARY_FREMENNIK_EASY missing description",
+        "Field DIARY_FREMENNIK_MEDIUM missing description",
+        "Field DIARY_FREMENNIK_HARD missing description",
+        "Field DIARY_FREMENNIK_ELITE missing description",
+        "Field DIARY_KANDARIN_EASY missing description",
+        "Field DIARY_KANDARIN_MEDIUM missing description",
+        "Field DIARY_KANDARIN_HARD missing description",
+        "Field DIARY_KANDARIN_ELITE missing description",
+        "Field DIARY_KARAMJA_EASY missing description",
+        "Field DIARY_KARAMJA_MEDIUM missing description",
+        "Field DIARY_KARAMJA_HARD missing description",
+        "Field DIARY_KARAMJA_ELITE missing description",
+        "Field DIARY_KOUREND_EASY missing description",
+        "Field DIARY_KOUREND_MEDIUM missing description",
+        "Field DIARY_KOUREND_HARD missing description",
+        "Field DIARY_KOUREND_ELITE missing description",
+        "Field DIARY_LUMBRIDGE_EASY missing description",
+        "Field DIARY_LUMBRIDGE_MEDIUM missing description",
+        "Field DIARY_LUMBRIDGE_HARD missing description",
+        "Field DIARY_LUMBRIDGE_ELITE missing description",
+        "Field DIARY_MORYTANIA_EASY missing description",
+        "Field DIARY_MORYTANIA_MEDIUM missing description",
+        "Field DIARY_MORYTANIA_HARD missing description",
+        "Field DIARY_MORYTANIA_ELITE missing description",
+        "Field DIARY_VARROCK_EASY missing description",
+        "Field DIARY_VARROCK_MEDIUM missing description",
+        "Field DIARY_VARROCK_HARD missing description",
+        "Field DIARY_VARROCK_ELITE missing description",
+        "Field DIARY_WESTERN_EASY missing description",
+        "Field DIARY_WESTERN_MEDIUM missing description",
+        "Field DIARY_WESTERN_HARD missing description",
+        "Field DIARY_WESTERN_ELITE missing description",
+        "Field DIARY_WILDERNESS_EASY missing description",
+        "Field DIARY_WILDERNESS_MEDIUM missing description",
+        "Field DIARY_WILDERNESS_HARD missing description",
+        "Field DIARY_WILDERNESS_ELITE missing description",
+        "Field ACCOUNT_TYPE missing description",
+        "Field Constructor missing description",
+        "Field VarBit missing description"
+      ],
+      "missing_elements": [],
+      "status": "incomplete",
+      "completeness": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_settings_vars_VarPlayer.json",
+      "name": "VarPlayer",
+      "full_name": "org.dreambot.api.methods.settings.vars.VarPlayer",
+      "type": "class",
+      "issues": [
+        "Field MEMBERSHIP_REMAINING missing description",
+        "Field PLAYER_ATTACK_OPTIONS_PLAYER_SETTING missing description",
+        "Field NPC_ATTACK_OPTIONS_PLAYER_SETTING missing description",
+        "Field CHAT_EFFECTS_PLAYER_SETTING missing description",
+        "Field AREA_SOUND_PLAYER_SETTING missing description",
+        "Field EFFECTS_SOUND_PLAYER_SETTING missing description",
+        "Field MUSIC_SOUND_PLAYER_SETTING missing description",
+        "Field BRIGHTNESS_PLAYER_SETTING missing description",
+        "Field IS_POISONED_SETTING missing description",
+        "Field AUTO_RETALIATE_SETTING missing description",
+        "Field SPECIAL_ATTACK_SETTING missing description",
+        "Field IS_ACTIVATED_SETTING missing description",
+        "Field IS_DISEASED_SETTING missing description",
+        "Field IS_ANTIFIRE_ENABLED missing description",
+        "Field IS_EXT_ANTIFIRE_ENABLED missing description",
+        "Field MULT_COMBAT missing description",
+        "Field Constructor missing description",
+        "Field VarPlayer missing description"
+      ],
+      "missing_elements": [],
+      "status": "incomplete",
+      "completeness": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_skills_Skill.json",
+      "name": "Skill",
+      "full_name": "org.dreambot.api.methods.skills.Skill",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_skills_Skills.json",
+      "name": "Skills",
+      "full_name": "org.dreambot.api.methods.skills.Skills",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_skills_SkillTracker.json",
+      "name": "SkillTracker",
+      "full_name": "org.dreambot.api.methods.skills.SkillTracker",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_tabs_Tab.json",
+      "name": "Tab",
+      "full_name": "org.dreambot.api.methods.tabs.Tab",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_tabs_Tabs.json",
+      "name": "Tabs",
+      "full_name": "org.dreambot.api.methods.tabs.Tabs",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_trade_Trade.json",
+      "name": "Trade",
+      "full_name": "org.dreambot.api.methods.trade.Trade",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_trade_TradeUser.json",
+      "name": "TradeUser",
+      "full_name": "org.dreambot.api.methods.trade.TradeUser",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_ViewportTools.json",
+      "name": "ViewportTools",
+      "full_name": "org.dreambot.api.methods.ViewportTools",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_impl_Walking.json",
+      "name": "Walking",
+      "full_name": "org.dreambot.api.methods.walking.impl.Walking",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_pathfinding_data_TileFlags.json",
+      "name": "TileFlags",
+      "full_name": "org.dreambot.api.methods.walking.pathfinding.data.TileFlags",
+      "type": "class",
+      "issues": [
+        "Field NULL missing description",
+        "Field WALL_BLOCK_NORTHWEST missing description",
+        "Field WALL_BLOCK_NORTH missing description",
+        "Field WALL_BLOCK_NORTHEAST missing description",
+        "Field WALL_BLOCK_EAST missing description",
+        "Field WALL_BLOCK_SOUTHEAST missing description",
+        "Field WALL_BLOCK_SOUTH missing description",
+        "Field WALL_BLOCK_SOUTHWEST missing description",
+        "Field WALL_BLOCK_WEST missing description",
+        "Field WALL_BLOCK_SIGHT_NORTHWEST missing description",
+        "Field WALL_BLOCK_SIGHT_NORTH missing description",
+        "Field WALL_BLOCK_SIGHT_NORTHEAST missing description",
+        "Field WALL_BLOCK_SIGHT_EAST missing description",
+        "Field WALL_BLOCK_SIGHT_SOUTHEAST missing description",
+        "Field WALL_BLOCK_SIGHT_SOUTH missing description",
+        "Field WALL_BLOCK_SIGHT_SOUTHWEST missing description",
+        "Field WALL_BLOCK_SIGHT_WEST missing description",
+        "Field OBJECT_TILE missing description",
+        "Field DECORATION_BLOCK missing description",
+        "Field BLOCK_FLOOR missing description",
+        "Field NON_WALKABLE missing description",
+        "Field WALL_ALLOW_RANGE_NORTHWEST missing description",
+        "Field WALL_ALLOW_RANGE_NORTH missing description",
+        "Field WALL_ALLOW_RANGE_NORTHEAST missing description",
+        "Field WALL_ALLOW_RANGE_EAST missing description",
+        "Field WALL_ALLOW_RANGE_SOUTHEAST missing description",
+        "Field WALL_ALLOW_RANGE_SOUTH missing description",
+        "Field WALL_ALLOW_RANGE_SOUTHWEST missing description",
+        "Field WALL_ALLOW_RANGE_WEST missing description",
+        "Field OBJECT_ALLOW_RANGE missing description",
+        "Field UNLOADED missing description",
+        "Field OBJECT_BLOCK_SIGHT missing description",
+        "Field WALL_NORTHWEST missing description",
+        "Field WALL_NORTH missing description",
+        "Field WALL_NORTHEAST missing description",
+        "Field WALL_EAST missing description",
+        "Field WALL_SOUTHEAST missing description",
+        "Field WALL_SOUTH missing description",
+        "Field WALL_SOUTHWEST missing description",
+        "Field WALL_WEST missing description",
+        "Field Constructor missing description",
+        "Field TileFlags missing description"
+      ],
+      "missing_elements": [],
+      "status": "incomplete",
+      "completeness": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_pathfinding_impl_local_AbsoluteHeuristic.json",
+      "name": "AbsoluteHeuristic",
+      "full_name": "org.dreambot.api.methods.walking.pathfinding.impl.local.AbsoluteHeuristic",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_pathfinding_impl_local_Heuristic.json",
+      "name": "Heuristic",
+      "full_name": "org.dreambot.api.methods.walking.pathfinding.impl.local.Heuristic",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_pathfinding_impl_local_LocalPathFinder.json",
+      "name": "LocalPathFinder",
+      "full_name": "org.dreambot.api.methods.walking.pathfinding.impl.local.LocalPathFinder",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_pathfinding_impl_node_PathNode.json",
+      "name": "PathNode",
+      "full_name": "org.dreambot.api.methods.walking.pathfinding.impl.node.PathNode",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_pathfinding_impl_obstacle_impl_ClimbableObstacle.json",
+      "name": "ClimbableObstacle",
+      "full_name": "org.dreambot.api.methods.walking.pathfinding.impl.obstacle.impl.ClimbableObstacle",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_pathfinding_impl_obstacle_impl_ClimbableObstacle_ClimbableObstacleBuilder.json",
+      "name": "ClimbableObstacle.ClimbableObstacleBuilder",
+      "full_name": "org.dreambot.api.methods.walking.pathfinding.impl.obstacle.impl.ClimbableObstacle.ClimbableObstacleBuilder",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_pathfinding_impl_obstacle_impl_DestructableObstacle.json",
+      "name": "DestructableObstacle",
+      "full_name": "org.dreambot.api.methods.walking.pathfinding.impl.obstacle.impl.DestructableObstacle",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_pathfinding_impl_obstacle_impl_DestructableObstacle_DestructableObstacleBuilder.json",
+      "name": "DestructableObstacle.DestructableObstacleBuilder",
+      "full_name": "org.dreambot.api.methods.walking.pathfinding.impl.obstacle.impl.DestructableObstacle.DestructableObstacleBuilder",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_pathfinding_impl_obstacle_impl_PassableObstacle.json",
+      "name": "PassableObstacle",
+      "full_name": "org.dreambot.api.methods.walking.pathfinding.impl.obstacle.impl.PassableObstacle",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_pathfinding_impl_obstacle_impl_PassableObstacle_PassableObstacleBuilder.json",
+      "name": "PassableObstacle.PassableObstacleBuilder",
+      "full_name": "org.dreambot.api.methods.walking.pathfinding.impl.obstacle.impl.PassableObstacle.PassableObstacleBuilder",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_pathfinding_impl_obstacle_impl_SOSDoor.json",
+      "name": "SOSDoor",
+      "full_name": "org.dreambot.api.methods.walking.pathfinding.impl.obstacle.impl.SOSDoor",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_pathfinding_impl_obstacle_impl_TeleportObstacle.json",
+      "name": "TeleportObstacle",
+      "full_name": "org.dreambot.api.methods.walking.pathfinding.impl.obstacle.impl.TeleportObstacle",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_pathfinding_impl_obstacle_PathObstacle.json",
+      "name": "PathObstacle",
+      "full_name": "org.dreambot.api.methods.walking.pathfinding.impl.obstacle.PathObstacle",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_pathfinding_impl_PathFinder.json",
+      "name": "PathFinder",
+      "full_name": "org.dreambot.api.methods.walking.pathfinding.impl.PathFinder",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_pathfinding_impl_web_WebFinder.json",
+      "name": "WebFinder",
+      "full_name": "org.dreambot.api.methods.walking.pathfinding.impl.web.WebFinder",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_pathfinding_impl_web_WebPathNode.json",
+      "name": "WebPathNode",
+      "full_name": "org.dreambot.api.methods.walking.pathfinding.impl.web.WebPathNode",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_pathfinding_impl_web_WebPathQuery.json",
+      "name": "WebPathQuery",
+      "full_name": "org.dreambot.api.methods.walking.pathfinding.impl.web.WebPathQuery",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_pathfinding_impl_web_WebPathQuery_WebPathQueryBuilder.json",
+      "name": "WebPathQuery.WebPathQueryBuilder",
+      "full_name": "org.dreambot.api.methods.walking.pathfinding.impl.web.WebPathQuery.WebPathQueryBuilder",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_pathfinding_impl_web_WebPathResponse.json",
+      "name": "WebPathResponse",
+      "full_name": "org.dreambot.api.methods.walking.pathfinding.impl.web.WebPathResponse",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_pathfinding_impl_web_WebPathResponse_WebPathResponseBuilder.json",
+      "name": "WebPathResponse.WebPathResponseBuilder",
+      "full_name": "org.dreambot.api.methods.walking.pathfinding.impl.web.WebPathResponse.WebPathResponseBuilder",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_path_AbstractPath.json",
+      "name": "AbstractPath",
+      "full_name": "org.dreambot.api.methods.walking.path.AbstractPath",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_path_impl_GlobalPath.json",
+      "name": "GlobalPath",
+      "full_name": "org.dreambot.api.methods.walking.path.impl.GlobalPath",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_path_impl_LocalPath.json",
+      "name": "LocalPath",
+      "full_name": "org.dreambot.api.methods.walking.path.impl.LocalPath",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_path_PathDirection.json",
+      "name": "PathDirection",
+      "full_name": "org.dreambot.api.methods.walking.path.PathDirection",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_TileObstacle.json",
+      "name": "TileObstacle",
+      "full_name": "org.dreambot.api.methods.walking.TileObstacle",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_TileObstacle_Type.json",
+      "name": "TileObstacle.Type",
+      "full_name": "org.dreambot.api.methods.walking.TileObstacle.Type",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_AbstractWebNode.json",
+      "name": "AbstractWebNode",
+      "full_name": "org.dreambot.api.methods.walking.web.node.AbstractWebNode",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_builder_WebNodeBuilder.json",
+      "name": "WebNodeBuilder",
+      "full_name": "org.dreambot.api.methods.walking.web.node.builder.WebNodeBuilder",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_CustomWebPath.json",
+      "name": "CustomWebPath",
+      "full_name": "org.dreambot.api.methods.walking.web.node.CustomWebPath",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_impl_AgilityWebNode.json",
+      "name": "AgilityWebNode",
+      "full_name": "org.dreambot.api.methods.walking.web.node.impl.AgilityWebNode",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_impl_BankWebNode.json",
+      "name": "BankWebNode",
+      "full_name": "org.dreambot.api.methods.walking.web.node.impl.BankWebNode",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_impl_BasicWebNode.json",
+      "name": "BasicWebNode",
+      "full_name": "org.dreambot.api.methods.walking.web.node.impl.BasicWebNode",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_impl_EntranceWebNode.json",
+      "name": "EntranceWebNode",
+      "full_name": "org.dreambot.api.methods.walking.web.node.impl.EntranceWebNode",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_impl_items_RequiredItem.json",
+      "name": "RequiredItem",
+      "full_name": "org.dreambot.api.methods.walking.web.node.impl.items.RequiredItem",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_impl_items_RequiredItem_RequiredItemBuilder.json",
+      "name": "RequiredItem.RequiredItemBuilder",
+      "full_name": "org.dreambot.api.methods.walking.web.node.impl.items.RequiredItem.RequiredItemBuilder",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_impl_pathaware_CharterWebNode.json",
+      "name": "CharterWebNode",
+      "full_name": "org.dreambot.api.methods.walking.web.node.impl.pathaware.CharterWebNode",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_impl_pathaware_ConditionalLocation.json",
+      "name": "ConditionalLocation",
+      "full_name": "org.dreambot.api.methods.walking.web.node.impl.pathaware.ConditionalLocation",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_impl_pathaware_FairyRingWebNode.json",
+      "name": "FairyRingWebNode",
+      "full_name": "org.dreambot.api.methods.walking.web.node.impl.pathaware.FairyRingWebNode",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_impl_pathaware_GnomeGliderWebNode.json",
+      "name": "GnomeGliderWebNode",
+      "full_name": "org.dreambot.api.methods.walking.web.node.impl.pathaware.GnomeGliderWebNode",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_impl_pathaware_MagicCarpetWebNode.json",
+      "name": "MagicCarpetWebNode",
+      "full_name": "org.dreambot.api.methods.walking.web.node.impl.pathaware.MagicCarpetWebNode",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_impl_pathaware_MountainGuideWebNode.json",
+      "name": "MountainGuideWebNode",
+      "full_name": "org.dreambot.api.methods.walking.web.node.impl.pathaware.MountainGuideWebNode",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_impl_pathaware_PathAwareWebNode.json",
+      "name": "PathAwareWebNode",
+      "full_name": "org.dreambot.api.methods.walking.web.node.impl.pathaware.PathAwareWebNode",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_impl_pathaware_SelfConnectingWebNode.json",
+      "name": "SelfConnectingWebNode",
+      "full_name": "org.dreambot.api.methods.walking.web.node.impl.pathaware.SelfConnectingWebNode",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_impl_pathaware_ShipWebNode.json",
+      "name": "ShipWebNode",
+      "full_name": "org.dreambot.api.methods.walking.web.node.impl.pathaware.ShipWebNode",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_impl_pathaware_SpiritTreeWebNode.json",
+      "name": "SpiritTreeWebNode",
+      "full_name": "org.dreambot.api.methods.walking.web.node.impl.pathaware.SpiritTreeWebNode",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_impl_teleports_ItemTeleport.json",
+      "name": "ItemTeleport",
+      "full_name": "org.dreambot.api.methods.walking.web.node.impl.teleports.ItemTeleport",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_impl_teleports_MagicTeleport.json",
+      "name": "MagicTeleport",
+      "full_name": "org.dreambot.api.methods.walking.web.node.impl.teleports.MagicTeleport",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_impl_teleports_poh_HousePortal.json",
+      "name": "HousePortal",
+      "full_name": "org.dreambot.api.methods.walking.web.node.impl.teleports.poh.HousePortal",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_impl_teleports_poh_JewelryBox.json",
+      "name": "JewelryBox",
+      "full_name": "org.dreambot.api.methods.walking.web.node.impl.teleports.poh.JewelryBox",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_impl_teleports_Teleport.json",
+      "name": "Teleport",
+      "full_name": "org.dreambot.api.methods.walking.web.node.impl.teleports.Teleport",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_impl_teleports_TeleportSettings.json",
+      "name": "TeleportSettings",
+      "full_name": "org.dreambot.api.methods.walking.web.node.impl.teleports.TeleportSettings",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_impl_teleports_TeleportWebNode.json",
+      "name": "TeleportWebNode",
+      "full_name": "org.dreambot.api.methods.walking.web.node.impl.teleports.TeleportWebNode",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_impl_TollWebNode.json",
+      "name": "TollWebNode",
+      "full_name": "org.dreambot.api.methods.walking.web.node.impl.TollWebNode",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_WebNodeType.json",
+      "name": "WebNodeType",
+      "full_name": "org.dreambot.api.methods.walking.web.node.WebNodeType",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_widget_helpers_ItemProcessing.json",
+      "name": "ItemProcessing",
+      "full_name": "org.dreambot.api.methods.widget.helpers.ItemProcessing",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_widget_helpers_Smithing.json",
+      "name": "Smithing",
+      "full_name": "org.dreambot.api.methods.widget.helpers.Smithing",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_widget_Widget.json",
+      "name": "Widget",
+      "full_name": "org.dreambot.api.methods.widget.Widget",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_widget_Widgets.json",
+      "name": "Widgets",
+      "full_name": "org.dreambot.api.methods.widget.Widgets",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_worldhopper_JSocket.json",
+      "name": "JSocket",
+      "full_name": "org.dreambot.api.methods.worldhopper.JSocket",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_worldhopper_WorldHopper.json",
+      "name": "WorldHopper",
+      "full_name": "org.dreambot.api.methods.worldhopper.WorldHopper",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_world_Location.json",
+      "name": "Location",
+      "full_name": "org.dreambot.api.methods.world.Location",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_world_World.json",
+      "name": "World",
+      "full_name": "org.dreambot.api.methods.world.World",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_world_Worlds.json",
+      "name": "Worlds",
+      "full_name": "org.dreambot.api.methods.world.Worlds",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_world_WorldType.json",
+      "name": "WorldType",
+      "full_name": "org.dreambot.api.methods.world.WorldType",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_methods_world_World_WorldBuilder.json",
+      "name": "World.WorldBuilder",
+      "full_name": "org.dreambot.api.methods.world.World.WorldBuilder",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_randoms_BankPinConfirmSolver.json",
+      "name": "BankPinConfirmSolver",
+      "full_name": "org.dreambot.api.randoms.BankPinConfirmSolver",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_randoms_BankPinSolver.json",
+      "name": "BankPinSolver",
+      "full_name": "org.dreambot.api.randoms.BankPinSolver",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_randoms_BreakSolver.json",
+      "name": "BreakSolver",
+      "full_name": "org.dreambot.api.randoms.BreakSolver",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_randoms_DeathsDoor.json",
+      "name": "DeathsDoor",
+      "full_name": "org.dreambot.api.randoms.DeathsDoor",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_randoms_DismissBankNotificationTutorial.json",
+      "name": "DismissBankNotificationTutorial",
+      "full_name": "org.dreambot.api.randoms.DismissBankNotificationTutorial",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_randoms_DismissBankTutorial.json",
+      "name": "DismissBankTutorial",
+      "full_name": "org.dreambot.api.randoms.DismissBankTutorial",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_randoms_DismissSolver.json",
+      "name": "DismissSolver",
+      "full_name": "org.dreambot.api.randoms.DismissSolver",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_randoms_GameLayoutSolver.json",
+      "name": "GameLayoutSolver",
+      "full_name": "org.dreambot.api.randoms.GameLayoutSolver",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_randoms_GenieSolver.json",
+      "name": "GenieSolver",
+      "full_name": "org.dreambot.api.randoms.GenieSolver",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_randoms_LoginSolver.json",
+      "name": "LoginSolver",
+      "full_name": "org.dreambot.api.randoms.LoginSolver",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_randoms_RandomEvent.json",
+      "name": "RandomEvent",
+      "full_name": "org.dreambot.api.randoms.RandomEvent",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_randoms_RandomManager.json",
+      "name": "RandomManager",
+      "full_name": "org.dreambot.api.randoms.RandomManager",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_randoms_RandomManager_State.json",
+      "name": "RandomManager.State",
+      "full_name": "org.dreambot.api.randoms.RandomManager.State",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_randoms_RandomSolver.json",
+      "name": "RandomSolver",
+      "full_name": "org.dreambot.api.randoms.RandomSolver",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_randoms_RoofDisabler.json",
+      "name": "RoofDisabler",
+      "full_name": "org.dreambot.api.randoms.RoofDisabler",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_randoms_WelcomeScreenSolver.json",
+      "name": "WelcomeScreenSolver",
+      "full_name": "org.dreambot.api.randoms.WelcomeScreenSolver",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_AbstractScript.json",
+      "name": "AbstractScript",
+      "full_name": "org.dreambot.api.script.AbstractScript",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_Category.json",
+      "name": "Category",
+      "full_name": "org.dreambot.api.script.Category",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_ActionEvent.json",
+      "name": "ActionEvent",
+      "full_name": "org.dreambot.api.script.event.impl.ActionEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_BankItemEvent.json",
+      "name": "BankItemEvent",
+      "full_name": "org.dreambot.api.script.event.impl.BankItemEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_BreakEvent.json",
+      "name": "BreakEvent",
+      "full_name": "org.dreambot.api.script.event.impl.BreakEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_EquipmentItemEvent.json",
+      "name": "EquipmentItemEvent",
+      "full_name": "org.dreambot.api.script.event.impl.EquipmentItemEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_ExperienceEvent.json",
+      "name": "ExperienceEvent",
+      "full_name": "org.dreambot.api.script.event.impl.ExperienceEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_GameObjectSpawnEvent.json",
+      "name": "GameObjectSpawnEvent",
+      "full_name": "org.dreambot.api.script.event.impl.GameObjectSpawnEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_GameStateEvent.json",
+      "name": "GameStateEvent",
+      "full_name": "org.dreambot.api.script.event.impl.GameStateEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_GroundItemSpawnEvent.json",
+      "name": "GroundItemSpawnEvent",
+      "full_name": "org.dreambot.api.script.event.impl.GroundItemSpawnEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_HitSplatEvent.json",
+      "name": "HitSplatEvent",
+      "full_name": "org.dreambot.api.script.event.impl.HitSplatEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_HumanMouseEvent.json",
+      "name": "HumanMouseEvent",
+      "full_name": "org.dreambot.api.script.event.impl.HumanMouseEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_InventoryItemEvent.json",
+      "name": "InventoryItemEvent",
+      "full_name": "org.dreambot.api.script.event.impl.InventoryItemEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_LoadingStateEvent.json",
+      "name": "LoadingStateEvent",
+      "full_name": "org.dreambot.api.script.event.impl.LoadingStateEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_LoginResponseEvent.json",
+      "name": "LoginResponseEvent",
+      "full_name": "org.dreambot.api.script.event.impl.LoginResponseEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_LoginStageEvent.json",
+      "name": "LoginStageEvent",
+      "full_name": "org.dreambot.api.script.event.impl.LoginStageEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_LootBagItemEvent.json",
+      "name": "LootBagItemEvent",
+      "full_name": "org.dreambot.api.script.event.impl.LootBagItemEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_MenuAddedEvent.json",
+      "name": "MenuAddedEvent",
+      "full_name": "org.dreambot.api.script.event.impl.MenuAddedEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_MessageEvent.json",
+      "name": "MessageEvent",
+      "full_name": "org.dreambot.api.script.event.impl.MessageEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_NpcAnimationEvent.json",
+      "name": "NpcAnimationEvent",
+      "full_name": "org.dreambot.api.script.event.impl.NpcAnimationEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_PaintEvent.json",
+      "name": "PaintEvent",
+      "full_name": "org.dreambot.api.script.event.impl.PaintEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_PlayerAnimationEvent.json",
+      "name": "PlayerAnimationEvent",
+      "full_name": "org.dreambot.api.script.event.impl.PlayerAnimationEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_ProjectileTargetEvent.json",
+      "name": "ProjectileTargetEvent",
+      "full_name": "org.dreambot.api.script.event.impl.ProjectileTargetEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_RegionLoadEvent.json",
+      "name": "RegionLoadEvent",
+      "full_name": "org.dreambot.api.script.event.impl.RegionLoadEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_RSCanvasFocusEvent.json",
+      "name": "RSCanvasFocusEvent",
+      "full_name": "org.dreambot.api.script.event.impl.RSCanvasFocusEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_RSCanvasKeyboardEvent.json",
+      "name": "RSCanvasKeyboardEvent",
+      "full_name": "org.dreambot.api.script.event.impl.RSCanvasKeyboardEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_RSCanvasMouseEvent.json",
+      "name": "RSCanvasMouseEvent",
+      "full_name": "org.dreambot.api.script.event.impl.RSCanvasMouseEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_ScriptPrefiredEvent.json",
+      "name": "ScriptPrefiredEvent",
+      "full_name": "org.dreambot.api.script.event.impl.ScriptPrefiredEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_ServerTickEvent.json",
+      "name": "ServerTickEvent",
+      "full_name": "org.dreambot.api.script.event.impl.ServerTickEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_SpawnEvent.json",
+      "name": "SpawnEvent",
+      "full_name": "org.dreambot.api.script.event.impl.SpawnEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_SpotAnimationEvent.json",
+      "name": "SpotAnimationEvent",
+      "full_name": "org.dreambot.api.script.event.impl.SpotAnimationEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_TickEvent.json",
+      "name": "TickEvent",
+      "full_name": "org.dreambot.api.script.event.impl.TickEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_VarBitEvent.json",
+      "name": "VarBitEvent",
+      "full_name": "org.dreambot.api.script.event.impl.VarBitEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_VarpEvent.json",
+      "name": "VarpEvent",
+      "full_name": "org.dreambot.api.script.event.impl.VarpEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_impl_WidgetDecodedEvent.json",
+      "name": "WidgetDecodedEvent",
+      "full_name": "org.dreambot.api.script.event.impl.WidgetDecodedEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_event_ScriptEvent.json",
+      "name": "ScriptEvent",
+      "full_name": "org.dreambot.api.script.event.ScriptEvent",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_frameworks_treebranch_Branch.json",
+      "name": "Branch",
+      "full_name": "org.dreambot.api.script.frameworks.treebranch.Branch",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_frameworks_treebranch_Leaf.json",
+      "name": "Leaf",
+      "full_name": "org.dreambot.api.script.frameworks.treebranch.Leaf",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_frameworks_treebranch_Root.json",
+      "name": "Root",
+      "full_name": "org.dreambot.api.script.frameworks.treebranch.Root",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_frameworks_treebranch_TreeScript.json",
+      "name": "TreeScript",
+      "full_name": "org.dreambot.api.script.frameworks.treebranch.TreeScript",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_impl_TaskScript.json",
+      "name": "TaskScript",
+      "full_name": "org.dreambot.api.script.impl.TaskScript",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_listener_ActionListener.json",
+      "name": "ActionListener",
+      "full_name": "org.dreambot.api.script.listener.ActionListener",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_listener_AnimationListener.json",
+      "name": "AnimationListener",
+      "full_name": "org.dreambot.api.script.listener.AnimationListener",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_listener_BreakListener.json",
+      "name": "BreakListener",
+      "full_name": "org.dreambot.api.script.listener.BreakListener",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_listener_ChatListener.json",
+      "name": "ChatListener",
+      "full_name": "org.dreambot.api.script.listener.ChatListener",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_listener_ExperienceListener.json",
+      "name": "ExperienceListener",
+      "full_name": "org.dreambot.api.script.listener.ExperienceListener",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_listener_GameStateListener.json",
+      "name": "GameStateListener",
+      "full_name": "org.dreambot.api.script.listener.GameStateListener",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_listener_GameTickListener.json",
+      "name": "GameTickListener",
+      "full_name": "org.dreambot.api.script.listener.GameTickListener",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_listener_HitSplatListener.json",
+      "name": "HitSplatListener",
+      "full_name": "org.dreambot.api.script.listener.HitSplatListener",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_listener_HumanMouseListener.json",
+      "name": "HumanMouseListener",
+      "full_name": "org.dreambot.api.script.listener.HumanMouseListener",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_listener_ItemContainerListener.json",
+      "name": "ItemContainerListener",
+      "full_name": "org.dreambot.api.script.listener.ItemContainerListener",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_listener_LoginListener.json",
+      "name": "LoginListener",
+      "full_name": "org.dreambot.api.script.listener.LoginListener",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_listener_MenuRowListener.json",
+      "name": "MenuRowListener",
+      "full_name": "org.dreambot.api.script.listener.MenuRowListener",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_listener_PaintListener.json",
+      "name": "PaintListener",
+      "full_name": "org.dreambot.api.script.listener.PaintListener",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_listener_ProjectileListener.json",
+      "name": "ProjectileListener",
+      "full_name": "org.dreambot.api.script.listener.ProjectileListener",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_listener_RegionLoadListener.json",
+      "name": "RegionLoadListener",
+      "full_name": "org.dreambot.api.script.listener.RegionLoadListener",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_listener_RSScriptEventListener.json",
+      "name": "RSScriptEventListener",
+      "full_name": "org.dreambot.api.script.listener.RSScriptEventListener",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_listener_RuneScriptListener.json",
+      "name": "RuneScriptListener",
+      "full_name": "org.dreambot.api.script.listener.RuneScriptListener",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_listener_SpawnListener.json",
+      "name": "SpawnListener",
+      "full_name": "org.dreambot.api.script.listener.SpawnListener",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_listener_VarListener.json",
+      "name": "VarListener",
+      "full_name": "org.dreambot.api.script.listener.VarListener",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_listener_WidgetEventListener.json",
+      "name": "WidgetEventListener",
+      "full_name": "org.dreambot.api.script.listener.WidgetEventListener",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_loader_LocalLoader.json",
+      "name": "LocalLoader",
+      "full_name": "org.dreambot.api.script.loader.LocalLoader",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_loader_NetworkLoader.json",
+      "name": "NetworkLoader",
+      "full_name": "org.dreambot.api.script.loader.NetworkLoader",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_schedule_conditions_RunningTime.json",
+      "name": "RunningTime",
+      "full_name": "org.dreambot.api.script.schedule.conditions.RunningTime",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_schedule_conditions_ScriptStop.json",
+      "name": "ScriptStop",
+      "full_name": "org.dreambot.api.script.schedule.conditions.ScriptStop",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_schedule_conditions_SkillBased.json",
+      "name": "SkillBased",
+      "full_name": "org.dreambot.api.script.schedule.conditions.SkillBased",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_schedule_conditions_StopCondition.json",
+      "name": "StopCondition",
+      "full_name": "org.dreambot.api.script.schedule.conditions.StopCondition",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_schedule_ScheduledScript.json",
+      "name": "ScheduledScript",
+      "full_name": "org.dreambot.api.script.schedule.ScheduledScript",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_schedule_ScheduleSettings.json",
+      "name": "ScheduleSettings",
+      "full_name": "org.dreambot.api.script.schedule.ScheduleSettings",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_schedule_ScriptSchedule.json",
+      "name": "ScriptSchedule",
+      "full_name": "org.dreambot.api.script.schedule.ScriptSchedule",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_schedule_ScriptScheduler.json",
+      "name": "ScriptScheduler",
+      "full_name": "org.dreambot.api.script.schedule.ScriptScheduler",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_ScriptManager.json",
+      "name": "ScriptManager",
+      "full_name": "org.dreambot.api.script.ScriptManager",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_ScriptManager_State.json",
+      "name": "ScriptManager.State",
+      "full_name": "org.dreambot.api.script.ScriptManager.State",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_ScriptManifest.json",
+      "name": "ScriptManifest",
+      "full_name": "org.dreambot.api.script.ScriptManifest",
+      "type": "annotation",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_TaskNode.json",
+      "name": "TaskNode",
+      "full_name": "org.dreambot.api.script.TaskNode",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_script_Unobfuscated.json",
+      "name": "Unobfuscated",
+      "full_name": "org.dreambot.api.script.Unobfuscated",
+      "type": "annotation",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_settings_CacheSettings.json",
+      "name": "CacheSettings",
+      "full_name": "org.dreambot.api.settings.CacheSettings",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_settings_ScriptSettings.json",
+      "name": "ScriptSettings",
+      "full_name": "org.dreambot.api.settings.ScriptSettings",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_utilities_AccountManager.json",
+      "name": "AccountManager",
+      "full_name": "org.dreambot.api.utilities.AccountManager",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_utilities_ColorPicker.json",
+      "name": "ColorPicker",
+      "full_name": "org.dreambot.api.utilities.ColorPicker",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_utilities_Hash.json",
+      "name": "Hash",
+      "full_name": "org.dreambot.api.utilities.Hash",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_utilities_Images.json",
+      "name": "Images",
+      "full_name": "org.dreambot.api.utilities.Images",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_utilities_impl_Condition.json",
+      "name": "Condition",
+      "full_name": "org.dreambot.api.utilities.impl.Condition",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_utilities_InventoryMonitor.json",
+      "name": "InventoryMonitor",
+      "full_name": "org.dreambot.api.utilities.InventoryMonitor",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_utilities_ISAACCipher.json",
+      "name": "ISAACCipher",
+      "full_name": "org.dreambot.api.utilities.ISAACCipher",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_utilities_Logger.json",
+      "name": "Logger",
+      "full_name": "org.dreambot.api.utilities.Logger",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_utilities_Logger_LogType.json",
+      "name": "Logger.LogType",
+      "full_name": "org.dreambot.api.utilities.Logger.LogType",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_utilities_NodeContainerUtilities.json",
+      "name": "NodeContainerUtilities",
+      "full_name": "org.dreambot.api.utilities.NodeContainerUtilities",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_utilities_ShiftKeys.json",
+      "name": "ShiftKeys",
+      "full_name": "org.dreambot.api.utilities.ShiftKeys",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_utilities_Sleep.json",
+      "name": "Sleep",
+      "full_name": "org.dreambot.api.utilities.Sleep",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_utilities_StatusBar.json",
+      "name": "StatusBar",
+      "full_name": "org.dreambot.api.utilities.StatusBar",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_utilities_Timer.json",
+      "name": "Timer",
+      "full_name": "org.dreambot.api.utilities.Timer",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_utilities_Vector.json",
+      "name": "Vector",
+      "full_name": "org.dreambot.api.utilities.Vector",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_cache_nodes_AnimationSequenceWrapper.json",
+      "name": "AnimationSequenceWrapper",
+      "full_name": "org.dreambot.api.wrappers.cache.nodes.AnimationSequenceWrapper",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_cache_nodes_CacheNode.json",
+      "name": "CacheNode",
+      "full_name": "org.dreambot.api.wrappers.cache.nodes.CacheNode",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_cache_nodes_impl_Node.json",
+      "name": "Node",
+      "full_name": "org.dreambot.api.wrappers.cache.nodes.impl.Node",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_cache_nodes_MessageNode.json",
+      "name": "MessageNode",
+      "full_name": "org.dreambot.api.wrappers.cache.nodes.MessageNode",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_cache_nodes_NodeSub.json",
+      "name": "NodeSub",
+      "full_name": "org.dreambot.api.wrappers.cache.nodes.NodeSub",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_cache_nodes_NodeWrapper.json",
+      "name": "NodeWrapper",
+      "full_name": "org.dreambot.api.wrappers.cache.nodes.NodeWrapper",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_cache_nodes_RenderableNode.json",
+      "name": "RenderableNode",
+      "full_name": "org.dreambot.api.wrappers.cache.nodes.RenderableNode",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_graphics_GraphicsObject.json",
+      "name": "GraphicsObject",
+      "full_name": "org.dreambot.api.wrappers.graphics.GraphicsObject",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_graphics_ModelWrapper.json",
+      "name": "ModelWrapper",
+      "full_name": "org.dreambot.api.wrappers.graphics.ModelWrapper",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_graphics_NpcOverride.json",
+      "name": "NpcOverride",
+      "full_name": "org.dreambot.api.wrappers.graphics.NpcOverride",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_graphics_Projectile.json",
+      "name": "Projectile",
+      "full_name": "org.dreambot.api.wrappers.graphics.Projectile",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_graphics_SpotAnimation.json",
+      "name": "SpotAnimation",
+      "full_name": "org.dreambot.api.wrappers.graphics.SpotAnimation",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_graphics_Viewport.json",
+      "name": "Viewport",
+      "full_name": "org.dreambot.api.wrappers.graphics.Viewport",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_interactive_action_RSAction.json",
+      "name": "RSAction",
+      "full_name": "org.dreambot.api.wrappers.interactive.action.RSAction",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_interactive_AnimableGameObject.json",
+      "name": "AnimableGameObject",
+      "full_name": "org.dreambot.api.wrappers.interactive.AnimableGameObject",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_interactive_BoundaryObject.json",
+      "name": "BoundaryObject",
+      "full_name": "org.dreambot.api.wrappers.interactive.BoundaryObject",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_interactive_Character.json",
+      "name": "Character",
+      "full_name": "org.dreambot.api.wrappers.interactive.Character",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_interactive_composite_ItemComposite.json",
+      "name": "ItemComposite",
+      "full_name": "org.dreambot.api.wrappers.interactive.composite.ItemComposite",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_interactive_composite_NameComposite.json",
+      "name": "NameComposite",
+      "full_name": "org.dreambot.api.wrappers.interactive.composite.NameComposite",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_interactive_composite_NpcComposite.json",
+      "name": "NpcComposite",
+      "full_name": "org.dreambot.api.wrappers.interactive.composite.NpcComposite",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_interactive_composite_PlayerComposite.json",
+      "name": "PlayerComposite",
+      "full_name": "org.dreambot.api.wrappers.interactive.composite.PlayerComposite",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_interactive_Entity.json",
+      "name": "Entity",
+      "full_name": "org.dreambot.api.wrappers.interactive.Entity",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_interactive_FloorDecoration.json",
+      "name": "FloorDecoration",
+      "full_name": "org.dreambot.api.wrappers.interactive.FloorDecoration",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_interactive_GameObject.json",
+      "name": "GameObject",
+      "full_name": "org.dreambot.api.wrappers.interactive.GameObject",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_interactive_Identifiable.json",
+      "name": "Identifiable",
+      "full_name": "org.dreambot.api.wrappers.interactive.Identifiable",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_interactive_interact_Interactable.json",
+      "name": "Interactable",
+      "full_name": "org.dreambot.api.wrappers.interactive.interact.Interactable",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_interactive_Locatable.json",
+      "name": "Locatable",
+      "full_name": "org.dreambot.api.wrappers.interactive.Locatable",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_interactive_Model.json",
+      "name": "Model",
+      "full_name": "org.dreambot.api.wrappers.interactive.Model",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_interactive_NPC.json",
+      "name": "NPC",
+      "full_name": "org.dreambot.api.wrappers.interactive.NPC",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_interactive_Player.json",
+      "name": "Player",
+      "full_name": "org.dreambot.api.wrappers.interactive.Player",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_interactive_SceneObject.json",
+      "name": "SceneObject",
+      "full_name": "org.dreambot.api.wrappers.interactive.SceneObject",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_interactive_util_Direction.json",
+      "name": "Direction",
+      "full_name": "org.dreambot.api.wrappers.interactive.util.Direction",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_interactive_util_HealthBar.json",
+      "name": "HealthBar",
+      "full_name": "org.dreambot.api.wrappers.interactive.util.HealthBar",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_interactive_util_HealthBarComposite.json",
+      "name": "HealthBarComposite",
+      "full_name": "org.dreambot.api.wrappers.interactive.util.HealthBarComposite",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_interactive_util_HealthBarData.json",
+      "name": "HealthBarData",
+      "full_name": "org.dreambot.api.wrappers.interactive.util.HealthBarData",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_interactive_Verified.json",
+      "name": "Verified",
+      "full_name": "org.dreambot.api.wrappers.interactive.Verified",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_interactive_WalkingQueueSpeed.json",
+      "name": "WalkingQueueSpeed",
+      "full_name": "org.dreambot.api.wrappers.interactive.WalkingQueueSpeed",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_interactive_WallObject.json",
+      "name": "WallObject",
+      "full_name": "org.dreambot.api.wrappers.interactive.WallObject",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_items_GroundItem.json",
+      "name": "GroundItem",
+      "full_name": "org.dreambot.api.wrappers.items.GroundItem",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_items_Item.json",
+      "name": "Item",
+      "full_name": "org.dreambot.api.wrappers.items.Item",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_items_ItemLayer.json",
+      "name": "ItemLayer",
+      "full_name": "org.dreambot.api.wrappers.items.ItemLayer",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_map_impl_CollisionMap.json",
+      "name": "CollisionMap",
+      "full_name": "org.dreambot.api.wrappers.map.impl.CollisionMap",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_map_Region.json",
+      "name": "Region",
+      "full_name": "org.dreambot.api.wrappers.map.Region",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_map_TileMap.json",
+      "name": "TileMap",
+      "full_name": "org.dreambot.api.wrappers.map.TileMap",
+      "type": "interface",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_map_TileReference.json",
+      "name": "TileReference",
+      "full_name": "org.dreambot.api.wrappers.map.TileReference",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_widgets_builder_MenuRowBuilder.json",
+      "name": "MenuRowBuilder",
+      "full_name": "org.dreambot.api.wrappers.widgets.builder.MenuRowBuilder",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_widgets_builder_MenuRowQueue.json",
+      "name": "MenuRowQueue",
+      "full_name": "org.dreambot.api.wrappers.widgets.builder.MenuRowQueue",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_widgets_GameMenu.json",
+      "name": "GameMenu",
+      "full_name": "org.dreambot.api.wrappers.widgets.GameMenu",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_widgets_Menu.json",
+      "name": "Menu",
+      "full_name": "org.dreambot.api.wrappers.widgets.Menu",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_widgets_MenuRow.json",
+      "name": "MenuRow",
+      "full_name": "org.dreambot.api.wrappers.widgets.MenuRow",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_widgets_message_Message.json",
+      "name": "Message",
+      "full_name": "org.dreambot.api.wrappers.widgets.message.Message",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_widgets_message_MessageType.json",
+      "name": "MessageType",
+      "full_name": "org.dreambot.api.wrappers.widgets.message.MessageType",
+      "type": "enum",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_widgets_WidgetChild.json",
+      "name": "WidgetChild",
+      "full_name": "org.dreambot.api.wrappers.widgets.WidgetChild",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    },
+    {
+      "file": "org_dreambot_core_Instance.json",
+      "name": "Instance",
+      "full_name": "org.dreambot.core.Instance",
+      "type": "class",
+      "issues": [],
+      "missing_elements": [],
+      "status": "complete",
+      "completeness": 1.0
+    }
+  ],
+  "html_results": [
+    {
+      "file": "org_dreambot_api_ClientSettings_SettingsTab.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_data_ActionMode.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_data_ClientLayout.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_data_consumables_Food.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_data_GameState.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_InteractionSetting.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_keyboard_awt_Key.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_keyboard_KeyLocation.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_mouse_impl_click_ClickMode.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_mouse_impl_wheel_WheelMode.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_mouse_MouseButton.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_mouse_MouseMode.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_input_event_impl_mouse_WheelMode.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_Animations.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_clan_chat_ClanChatMember_Rank.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_clan_chat_ClanChatTab.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_clan_ClanMember_Rank.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_combat_CombatStyle.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_container_general_ItemContainerId.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_container_impl_bank_BankLocation.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_container_impl_bank_BankMode.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_container_impl_bank_BankQuantitySelection.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_container_impl_bank_BankScroll.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_container_impl_bank_BankTab.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_container_impl_bank_BankType.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_container_impl_ContainerType.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_container_impl_equipment_EquipmentSlot.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_cs2_ScriptId.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_cs2_VarClientInt.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_cs2_VarClientString.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_diary_requirement_impl_FavourRequirement_House.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_emotes_Emote.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_event_CameraEvent_CameraType.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_fairyring_FairyLocation.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_favour_House.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_ForumRank.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_grandexchange_Status.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_hint_HintArrowType.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_hotkeys_Hotkey.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_hotkeys_NPCAttackOption.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_hotkeys_PlayerAttackOption.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_hotkeys_TabKey.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_ignore_Ignored.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_input_CameraMode.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_input_mouse_CrosshairState.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_input_mouse_MouseSetting.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_input_mouse_MouseSettings_Hand.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_interactive_Interactables.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_login_LoginStage.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_magic_Ancient.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_magic_Arceus.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_magic_Arceuus.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_magic_Lunar.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_magic_Normal.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_magic_Spellbook.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_minigame_Minigame.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_prayer_Prayer.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_quest_book_FreeQuest.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_quest_book_MiniQuest.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_quest_book_PaidQuest.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_quest_book_Quest_State.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_quest_book_Quest_Type.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_RSLoginResponse.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_settings_vars_VarBit.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_settings_vars_VarPlayer.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_skills_Skill.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_tabs_Tab.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_trade_TradeUser.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_pathfinding_data_TileFlags.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_path_PathDirection.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_TileObstacle_Type.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_impl_teleports_ItemTeleport.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_impl_teleports_MagicTeleport.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_impl_teleports_poh_HousePortal.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_impl_teleports_poh_JewelryBox.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_web_node_WebNodeType.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_world_Location.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_methods_world_WorldType.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_randoms_RandomEvent.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_randoms_RandomManager_State.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_script_Category.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_script_ScriptManager_State.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_utilities_Logger_LogType.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_utilities_ShiftKeys.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_cache_nodes_AnimationSequenceWrapper.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_interactive_util_Direction.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    },
+    {
+      "file": "org_dreambot_api_wrappers_widgets_message_MessageType.html",
+      "has_json_equivalent": true,
+      "recommended_action": "reference_only",
+      "entity_type": "unknown",
+      "estimated_methods": 0
+    }
+  ]
+}
