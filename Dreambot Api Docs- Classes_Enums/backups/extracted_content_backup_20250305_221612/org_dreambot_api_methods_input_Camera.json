@@ -1,0 +1,534 @@
+{
+  "name": "Camera",
+  "full_name": "org.dreambot.api.methods.input.Camera",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/input/Camera.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.input",
+  "description": "Created by Nezz",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "CameraMode",
+      "return_type": "CameraMode",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Returns the current camera mode, showing how the client will move the camera by default",
+      "deprecated": false
+    },
+    {
+      "name": "CameraEvent",
+      "return_type": "CameraEvent",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Generates and runs a CameraEvent to rotate camera to specified yaw",
+      "deprecated": false
+    },
+    {
+      "name": "getCameraMode",
+      "signature": "public static CameraMode getCameraMode()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the current camera mode, showing how the client will move the camera by default",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setCameraMode",
+      "signature": "public static void setCameraMode\u200b(CameraMode mode)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getPitch",
+      "signature": "public static int getPitch()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the pitch of the camera",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getYaw",
+      "signature": "public static int getYaw()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the yaw of the camera",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getX",
+      "signature": "public static int getX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the X of the camera",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getY",
+      "signature": "public static int getY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Y of the camera",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getZ",
+      "signature": "public static int getZ()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Z of the camera",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getZoom",
+      "signature": "public static int getZoom()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the camera's current zoom level",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLowestPitch",
+      "signature": "public static int getLowestPitch()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the lowest availble pitch Recently updated to just be a flat 128",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "firePitchAndYawEvent",
+      "signature": "public static void firePitchAndYawEvent\u200b(int pitch, int yaw)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Fires the RuneScriptEvent to change camera pitch/yaw Does not verify your inputs",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "fireZoomEvent",
+      "signature": "public static void fireZoomEvent\u200b(int zoom)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Fires the RuneScriptEvent to change camera zoom Does not verify your inputs",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setZoom",
+      "signature": "public static boolean setZoom\u200b(int zoomLevel)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the camera's zoom level using the scroll wheel If the scrolling overshoots the target zoom level, the method will not re-adjust but the method may still return false if it overshoots by too far.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "rotateToEntity",
+      "signature": "public static boolean rotateToEntity\u200b(Entity entity)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Rotates the camera to face an entity",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "rotateToTile",
+      "signature": "public static boolean rotateToTile\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Rotates the camera to face a tile",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "rotateTo",
+      "signature": "public static boolean rotateTo\u200b(int yaw, int pitch)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Rotates camera to a particular yaw and pitch",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "rotateToYaw",
+      "signature": "public static boolean rotateToYaw\u200b(int yaw)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Rotates camera yaw to specified angle",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "rotateToPitch",
+      "signature": "public static boolean rotateToPitch\u200b(int pitch)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Rotates camera pitch to specified angle",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "mouseRotateToEntity",
+      "signature": "public static boolean mouseRotateToEntity\u200b(Entity entity)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Rotates camera to face an entity by using the mouse scroll wheel",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "mouseRotateToTile",
+      "signature": "public static boolean mouseRotateToTile\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Rotates camera to face a tile by using the mouse scroll wheel",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "mouseRotateTo",
+      "signature": "public static boolean mouseRotateTo\u200b(int yaw, int pitch)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Rotates camera to a particular yaw and pitch using the mouse scroll wheel",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "mouseRotateToYaw",
+      "signature": "public static boolean mouseRotateToYaw\u200b(int yaw)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Rotates camera yaw to specified angle using the mouse scroll wheel",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "mouseRotateToPitch",
+      "signature": "public static boolean mouseRotateToPitch\u200b(int pitch)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Rotates camera pitch to specified angle using the mouse scroll wheel",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "keyboardRotateToEntity",
+      "signature": "public static boolean keyboardRotateToEntity\u200b(Entity entity)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Rotates camera to face an entity by using the keyboard",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "keyboardRotateToTile",
+      "signature": "public static boolean keyboardRotateToTile\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Rotates camera to face a tile by using the keyboard",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "keyboardRotateTo",
+      "signature": "public static boolean keyboardRotateTo\u200b(int yaw, int pitch)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Rotates camera to a particular yaw and pitch using the keyboard",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "keyboardRotateToYaw",
+      "signature": "public static boolean keyboardRotateToYaw\u200b(int yaw)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Rotates camera yaw to specified angle using the keyboard",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "keyboardRotateToPitch",
+      "signature": "public static boolean keyboardRotateToPitch\u200b(int pitch)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Rotates camera pitch to specified angle using the keyboard",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "rotateToEntityEvent",
+      "signature": "public static CameraEvent rotateToEntityEvent\u200b(Entity entity)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Generates and runs a CameraEvent to rotate camera to specified entity",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "rotateToTileEvent",
+      "signature": "public static CameraEvent rotateToTileEvent\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Generates and runs a CameraEvent to rotate camera to specified tile",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "rotateToEvent",
+      "signature": "public static CameraEvent rotateToEvent\u200b(int yaw, int pitch)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Generates and runs a CameraEvent to rotate camera to specified yaw and pitch",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "rotateToYawEvent",
+      "signature": "public static CameraEvent rotateToYawEvent\u200b(int yaw)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Generates and runs a CameraEvent to rotate camera to specified yaw",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "rotateToPitchEvent",
+      "signature": "public static CameraEvent rotateToPitchEvent\u200b(int pitch)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Generates and runs a CameraEvent to rotate camera to specified pitch",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getYawForTile",
+      "signature": "public static int getYawForTile\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the yaw required to view the given tile",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getYawForEntity",
+      "signature": "public static int getYawForEntity\u200b(Entity entity)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the yaw required to look at the given entity See getYawForTile(Tile) where the tile is Entity.getTile()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getPitchForTile",
+      "signature": "public static int getPitchForTile\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the pitch required to look at the given Tile",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getPitchForEntity",
+      "signature": "public static int getPitchForEntity\u200b(Entity entity)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the pitch required to look at the given entity See getPitchForTile(Tile) where the tile is Entity.getTile()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMaxZoom",
+      "signature": "public static int getMaxZoom()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the maximum zoom value, this is the value representing being zoomed all the way out",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMinZoom",
+      "signature": "public static int getMinZoom()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the minimum zoom value, this is the value representing being zoomed all the way in.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

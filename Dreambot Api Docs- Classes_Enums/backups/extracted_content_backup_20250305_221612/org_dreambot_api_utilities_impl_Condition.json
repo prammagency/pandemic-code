@@ -1,0 +1,96 @@
+{
+  "name": "Condition",
+  "full_name": "org.dreambot.api.utilities.impl.Condition",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/utilities/impl/Condition.html",
+  "type": "interface",
+  "package": "org.dreambot.api.utilities.impl",
+  "description": "",
+  "page_structure": {
+    "type": "interface",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Condition",
+      "return_type": "Condition",
+      "modifiers": [
+        "default"
+      ],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "verify",
+      "signature": "boolean verify()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "and",
+      "signature": "default Condition and\u200b(Condition c)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "or",
+      "signature": "default Condition or\u200b(Condition c)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "not",
+      "signature": "default Condition not\u200b(Condition c)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "negate",
+      "signature": "default Condition negate()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

@@ -1,0 +1,61 @@
+{
+  "name": "ScriptSettings",
+  "full_name": "org.dreambot.api.settings.ScriptSettings",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/settings/ScriptSettings.html",
+  "type": "class",
+  "package": "org.dreambot.api.settings",
+  "description": "Checks if a saved file exists at the provided file location steps and (if provided) checks if it can be loaded as the provided class",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "load",
+      "signature": "public static <T> T load\u200b(java.lang.Class<T> clazz, java.lang.String... fileLocationSteps)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Loads a given class from a settings object, location base is scripts.path",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "save",
+      "signature": "public static boolean save\u200b(java.lang.Object obj, java.lang.String... fileLocationSteps)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Saves a given object using GSON pretty print to the given file.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "exists",
+      "signature": "public static <T> boolean exists\u200b(@Nullable java.lang.Class<T> clazz, java.lang.String... fileLocationSteps)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if a saved file exists at the provided file location steps and (if provided) checks if it can be loaded as the provided class",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

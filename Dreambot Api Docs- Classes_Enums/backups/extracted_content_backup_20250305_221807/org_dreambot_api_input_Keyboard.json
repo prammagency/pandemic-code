@@ -1,0 +1,343 @@
+{
+  "name": "Keyboard",
+  "full_name": "org.dreambot.api.input.Keyboard",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/input/Keyboard.html",
+  "type": "class",
+  "package": "org.dreambot.api.input",
+  "description": "Keyboard API class.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "KeyboardTypingAlgorithm",
+      "return_type": "KeyboardTypingAlgorithm",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Keyboard typing algorithm, handles the actual typing implementations",
+      "deprecated": false
+    },
+    {
+      "name": "getKeyboardTypingAlgorithm",
+      "signature": "public static KeyboardTypingAlgorithm getKeyboardTypingAlgorithm()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Keyboard typing algorithm, handles the actual typing implementations",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setKeyboardTypingAlgorithm",
+      "signature": "public static void setKeyboardTypingAlgorithm\u200b(KeyboardTypingAlgorithm algo)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the Keyboard typing algorithm, parent class of KeyboardTypingAlgorithm",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCurrentModifiers",
+      "signature": "public static int getCurrentModifiers()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Currently held down modifiers, shift, ctrl, alt, etc Use bitwise checks on events like InputEvent.SHIFT_MASK to check if modifier is active",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isPressed",
+      "signature": "public static boolean isPressed\u200b(Key key)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if a key is pressed",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "markPressed",
+      "signature": "public static void markPressed\u200b(Key key)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Marks the given Key as pressed. Primarily for internal usage. Also marks this key as held with markHeld(Key, boolean)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "markReleased",
+      "signature": "public static void markReleased\u200b(Key key)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Marks a given Key as released. Primarily for internal usage. Also marks this key as not held with markHeld(Key, boolean)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isHeld",
+      "signature": "public static boolean isHeld\u200b(Key key)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if a given Key is currently being held",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "markHeld",
+      "signature": "public static void markHeld\u200b(Key key, boolean held)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Marks the Key as being held, does NOT send any events.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "closeInterfaceWithEsc",
+      "signature": "public static boolean closeInterfaceWithEsc()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "If closing interfaces with esc is enabled in the game, this will close interfaces with the esc key",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "type",
+      "signature": "public static boolean type\u200b(java.lang.Object message)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Types out a given message, will press enter at the end if successful",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "typeKey",
+      "signature": "public static boolean typeKey\u200b(int keyCode)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Types a Key based on the keyCode passed in. Handles the full press, type(if necessary), release Defaults to not push enter. Examples: KeyEvent.VK_F1 Recommended to use typeKey(Key) instead.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "pressEsc",
+      "signature": "public static void pressEsc()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Presses the ESC key Handles full press/release",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "holdKey",
+      "signature": "public static void holdKey\u200b(Key key, Condition release)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "See holdKey(Key, Condition, long) with a default timeout of 3000",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "holdShift",
+      "signature": "public static void holdShift\u200b(Condition release)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Holds Key.SHIFT until the given Condition.verify() returns true Defaults to a 3 second timeout Defaults to the KeyLocation.LEFT shift Can be canceled using markHeld(Key, boolean) with false",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "holdControl",
+      "signature": "public static void holdControl\u200b(Condition release)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Holds Key.CTRL until the given Condition.verify() returns true Defaults to a 3 second timeout Defaults to the KeyLocation.LEFT control Can be canceled using markHeld(Key, boolean) with false",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "holdSpace",
+      "signature": "public static void holdSpace\u200b(Condition release)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Holds Key.SPACE until the given Condition.verify() returns true Defaults to a 3 second timeout Can be canceled using markHeld(Key, boolean) with false",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "pressShift",
+      "signature": "public static void pressShift()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Calls the PressKey event for Key.SHIFT Defaults to the KeyLocation.LEFT shift Does NOT handle release.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "releaseShift",
+      "signature": "public static void releaseShift()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Calls the ReleaseKey event for Key.SHIFT Defaults to the KeyLocation.LEFT shift",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "releaseKey",
+      "signature": "public static void releaseKey\u200b(Key key)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Releases a Key if it marked as pressed or held",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "releaseChar",
+      "signature": "public static void releaseChar\u200b(char character)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Creates and runs a ReleaseEvent on a character. Does NOT verify if that character was currently being held or not.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWordsPerMinute",
+      "signature": "public static double getWordsPerMinute()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the current KeyboardProfile.getWordsPerMinute()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setWordsPerMinute",
+      "signature": "public static void setWordsPerMinute\u200b(double wpm)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the KeyboardProfile.setWordsPerMinute(double)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "loseFocus",
+      "signature": "public static void loseFocus()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Emulates alt+tabbing to lose focus on the client Ignored if client currently does not have focus",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "gainFocus",
+      "signature": "public static void gainFocus()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Emulates alt+tabbing to gain focus on the client Ignored if client already has focus",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

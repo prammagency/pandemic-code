@@ -1,0 +1,257 @@
+{
+  "name": "TileObstacle",
+  "full_name": "org.dreambot.api.methods.walking.TileObstacle",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/TileObstacle.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.walking",
+  "description": "",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [
+    {
+      "name": "Constructor Summary\n\nConstructors\u00a0\n\nConstructor\nDescription\n\n\nTileObstacle\u200b(TileObstacle.Type\u00a0obstacleType,\n            GameObject\u00a0obstacle)",
+      "description": "",
+      "modifiers": []
+    }
+  ],
+  "methods": [
+    {
+      "name": "GameObject",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "TileObstacle.Type",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "Tile",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "getTile",
+      "signature": "public Tile getTile()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setTile",
+      "signature": "public void setTile\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getObstacle",
+      "signature": "public GameObject getObstacle()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setObstacle",
+      "signature": "public void setObstacle\u200b(GameObject obstacle)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getObstacleType",
+      "signature": "public TileObstacle.Type getObstacleType()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setObstacleType",
+      "signature": "public void setObstacleType\u200b(TileObstacle.Type obstacleType)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isCompleted",
+      "signature": "public boolean isCompleted()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setCompleted",
+      "signature": "public void setCompleted\u200b(boolean completed)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setEntry",
+      "signature": "public void setEntry()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setAscending",
+      "signature": "public void setAscending()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setDescending",
+      "signature": "public void setDescending()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isEntry",
+      "signature": "public boolean isEntry()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isAscending",
+      "signature": "public boolean isAscending()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isDescending",
+      "signature": "public boolean isDescending()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "handle",
+      "signature": "public boolean handle()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAction",
+      "signature": "public java.lang.String getAction()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

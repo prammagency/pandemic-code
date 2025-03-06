@@ -1,0 +1,221 @@
+{
+  "sleep": "500",
+  "name": "",
+  "version": 1.0,
+  "actions": [
+    {
+      "id": "IF_INVENTORY_IS_NOT_EMPTY"
+    },
+    {
+      "id": "IF_INVENTORY_IS_EMPTY"
+    },
+    {
+      "id": "IF_INVENTORY_IS_FULL"
+    },
+    {
+      "id": "IF_INVENTORY_IS_NOT_FULL"
+    },
+    {
+      "id": "IF_INVENTORY_CONTAINS_ANY",
+      "properties": {
+        "Filter Item By": {
+          "class": "Item",
+          "logic": "NONE",
+          "type": "NONE",
+          "operator": "EQUALS"
+        }
+      },
+      "children": [
+        {
+          "id": "IF_INVENTORY_DOES_NOT_CONTAIN_ANY",
+          "properties": {
+            "Filter Item By": {
+              "class": "Item",
+              "logic": "NONE",
+              "type": "NONE",
+              "operator": "EQUALS"
+            }
+          },
+          "children": [
+            {
+              "id": "IF_INVENTORY_DOES_NOT_CONTAIN_ANY",
+              "properties": {
+                "Filter Item By": {
+                  "class": "Item",
+                  "logic": "NONE",
+                  "type": "NONE",
+                  "operator": "EQUALS"
+                }
+              },
+              "children": [
+                {
+                  "id": "IF_INVENTORY_ONLY_CONTAINS",
+                  "properties": {
+                    "Filter Items By": {
+                      "class": "Item",
+                      "logic": "NONE",
+                      "type": "NONE",
+                      "operator": "EQUALS"
+                    }
+                  }
+                },
+                {
+                  "id": "IF_INVENTORY_DOES_NOT_ONLY_CONTAIN",
+                  "properties": {
+                    "Filter Items By": {
+                      "class": "Item",
+                      "logic": "NONE",
+                      "type": "NONE",
+                      "operator": "EQUALS"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "IF_INVENTORY_COUNT",
+                      "properties": {
+                        "count": {
+                          "class": "Number",
+                          "operator": "EQUALS",
+                          "value": ""
+                        },
+                        "Filter Item By": {
+                          "class": "Item",
+                          "logic": "NONE",
+                          "type": "NONE",
+                          "operator": "EQUALS"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "IF_INVENTORY_ITEM_IS_SELECTED"
+                        },
+                        {
+                          "id": "IF_INVENTORY_ITEM_IS_NOT_SELECTED"
+                        },
+                        {
+                          "id": "IF_EMPTY_SLOT_COUNT",
+                          "properties": {
+                            "count": {
+                              "class": "Number",
+                              "operator": "EQUALS",
+                              "value": "x"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": "IF_INVENTORY_HAS_CHANGED"
+                            },
+                            {
+                              "id": "INTERACT_WITH_INVENTORY_ITEM",
+                              "properties": {
+                                "Filter Item By": {
+                                  "class": "Item",
+                                  "logic": "NONE",
+                                  "type": "NONE",
+                                  "operator": "EQUALS"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "id": "COMBINE",
+                                  "properties": {
+                                    "Filter Second By": {
+                                      "class": "Item",
+                                      "logic": "NONE",
+                                      "type": "NONE",
+                                      "operator": "EQUALS"
+                                    },
+                                    "Filter First By": {
+                                      "class": "Item",
+                                      "logic": "NONE",
+                                      "type": "NONE",
+                                      "operator": "EQUALS"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "id": "DROP_ITEM_MATCHING",
+                                      "properties": {
+                                        "Filter Item By": {
+                                          "class": "Item",
+                                          "logic": "NONE",
+                                          "type": "NONE",
+                                          "operator": "EQUALS"
+                                        }
+                                      },
+                                      "children": [
+                                        {
+                                          "id": "DROP_ALL_ITEMS"
+                                        },
+                                        {
+                                          "id": "DROP_ALL_MATCHING_ITEMS",
+                                          "properties": {
+                                            "Filter Item By": {
+                                              "class": "Item",
+                                              "logic": "NONE",
+                                              "type": "NONE",
+                                              "operator": "EQUALS"
+                                            }
+                                          },
+                                          "children": [
+                                            {
+                                              "id": "DROP_ALL_EXCEPT",
+                                              "properties": {
+                                                "Filter Item By": {
+                                                  "class": "Item",
+                                                  "logic": "NONE",
+                                                  "type": "NONE",
+                                                  "operator": "EQUALS"
+                                                }
+                                              },
+                                              "children": [
+                                                {
+                                                  "id": "MOVE_INVENTORY_ITEM_TO_SLOT",
+                                                  "properties": {
+                                                    "Filter Item By": {
+                                                      "class": "Item",
+                                                      "logic": "NONE",
+                                                      "type": "NAME",
+                                                      "operator": "EQUALS",
+                                                      "value": "x"
+                                                    },
+                                                    "Slot": "x"
+                                                  },
+                                                  "children": [
+                                                    {
+                                                      "id": "INVENTORY_DESELECT"
+                                                    },
+                                                    {
+                                                      "id": "SET_INTERACTION_ORDER",
+                                                      "children": [
+                                                        {
+                                                          "id": "RESET_INTERACTION_ORDER"
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

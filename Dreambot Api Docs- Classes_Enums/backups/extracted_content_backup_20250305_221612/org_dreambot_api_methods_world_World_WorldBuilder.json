@@ -1,0 +1,296 @@
+{
+  "name": "World.WorldBuilder",
+  "full_name": "org.dreambot.api.methods.world.World.WorldBuilder",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/world/World.WorldBuilder.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.world",
+  "description": "",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "World",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "World.WorldBuilder",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "build",
+      "signature": "public World build()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "withPvp",
+      "signature": "public World.WorldBuilder withPvp\u200b(boolean pvp)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "withPvpArena",
+      "signature": "public World.WorldBuilder withPvpArena\u200b(boolean pvpArena)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "withBeta",
+      "signature": "public World.WorldBuilder withBeta\u200b(boolean beta)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "withTarget",
+      "signature": "public World.WorldBuilder withTarget\u200b(boolean target)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "withLeague",
+      "signature": "public World.WorldBuilder withLeague\u200b(boolean league)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "withDescription",
+      "signature": "public World.WorldBuilder withDescription\u200b(java.lang.String desc)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "withHost",
+      "signature": "public World.WorldBuilder withHost\u200b(java.lang.String host)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "withMask",
+      "signature": "public World.WorldBuilder withMask\u200b(int mask)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "withSuspicious",
+      "signature": "public World.WorldBuilder withSuspicious\u200b(boolean sus)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "withLms",
+      "signature": "public World.WorldBuilder withLms\u200b(boolean lms)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "withDmm",
+      "signature": "public World.WorldBuilder withDmm\u200b(boolean dmm)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "withHighRisk",
+      "signature": "public World.WorldBuilder withHighRisk\u200b(boolean highRisk)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "withID",
+      "signature": "public World.WorldBuilder withID\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "withLocation",
+      "signature": "public World.WorldBuilder withLocation\u200b(int location)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "withMembers",
+      "signature": "public World.WorldBuilder withMembers\u200b(boolean member)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "withMinLevel",
+      "signature": "public World.WorldBuilder withMinLevel\u200b(int minLevel)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "withFreshStart",
+      "signature": "public World.WorldBuilder withFreshStart\u200b(boolean freshStart)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "withTournament",
+      "signature": "public World.WorldBuilder withTournament\u200b(boolean tournament)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "withPopulation",
+      "signature": "public World.WorldBuilder withPopulation\u200b(int population)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

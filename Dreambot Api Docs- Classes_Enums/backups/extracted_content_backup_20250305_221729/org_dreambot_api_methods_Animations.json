@@ -1,0 +1,3656 @@
+{
+  "name": "Animations",
+  "full_name": "org.dreambot.api.methods.Animations",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/Animations.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods",
+  "description": "A helper class containing certain, commonly used animation ids. If you think there are missing animations, please post on the forums so we can add it. Base class is RuneLite's AnimationID (https://github.com/runelite/runelite/blob/master/runelite-api/src/main/java/net/runelite/api/AnimationID.java)",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Field Detail",
+      "signature": "public static final\u00a0int IDLE",
+      "description": "Performs the Field Detail operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "Field Detail",
+      "signature": "public static final\u00a0int IDLE",
+      "description": "Performs the Field Detail operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "IDLE",
+      "signature": "public static final\u00a0int IDLE",
+      "description": "Performs the IDLE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "HERBLORE_PESTLE_AND_MORTAR",
+      "signature": "public static final\u00a0int HERBLORE_PESTLE_AND_MORTAR",
+      "description": "Performs the HERBLORE_PESTLE_AND_MORTAR operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WOODCUTTING_BRONZE",
+      "signature": "public static final\u00a0int WOODCUTTING_BRONZE",
+      "description": "Performs the WOODCUTTING_BRONZE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WOODCUTTING_IRON",
+      "signature": "public static final\u00a0int WOODCUTTING_IRON",
+      "description": "Performs the WOODCUTTING_IRON operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WOODCUTTING_STEEL",
+      "signature": "public static final\u00a0int WOODCUTTING_STEEL",
+      "description": "Performs the WOODCUTTING_STEEL operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WOODCUTTING_BLACK",
+      "signature": "public static final\u00a0int WOODCUTTING_BLACK",
+      "description": "Performs the WOODCUTTING_BLACK operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WOODCUTTING_MITHRIL",
+      "signature": "public static final\u00a0int WOODCUTTING_MITHRIL",
+      "description": "Performs the WOODCUTTING_MITHRIL operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WOODCUTTING_ADAMANT",
+      "signature": "public static final\u00a0int WOODCUTTING_ADAMANT",
+      "description": "Performs the WOODCUTTING_ADAMANT operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WOODCUTTING_RUNE",
+      "signature": "public static final\u00a0int WOODCUTTING_RUNE",
+      "description": "Performs the WOODCUTTING_RUNE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WOODCUTTING_GILDED",
+      "signature": "public static final\u00a0int WOODCUTTING_GILDED",
+      "description": "Performs the WOODCUTTING_GILDED operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WOODCUTTING_DRAGON",
+      "signature": "public static final\u00a0int WOODCUTTING_DRAGON",
+      "description": "Performs the WOODCUTTING_DRAGON operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WOODCUTTING_INFERNAL",
+      "signature": "public static final\u00a0int WOODCUTTING_INFERNAL",
+      "description": "Performs the WOODCUTTING_INFERNAL operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WOODCUTTING_3A_AXE",
+      "signature": "public static final\u00a0int WOODCUTTING_3A_AXE",
+      "description": "Performs the WOODCUTTING_3A_AXE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WOODCUTTING_CRYSTAL",
+      "signature": "public static final\u00a0int WOODCUTTING_CRYSTAL",
+      "description": "Performs the WOODCUTTING_CRYSTAL operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "CONSUMING",
+      "signature": "public static final\u00a0int CONSUMING",
+      "description": "Performs the CONSUMING operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FIREMAKING",
+      "signature": "public static final\u00a0int FIREMAKING",
+      "description": "Performs the FIREMAKING operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DEATH",
+      "signature": "public static final\u00a0int DEATH",
+      "description": "Performs the DEATH operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "COOKING_FIRE",
+      "signature": "public static final\u00a0int COOKING_FIRE",
+      "description": "Performs the COOKING_FIRE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "COOKING_RANGE",
+      "signature": "public static final\u00a0int COOKING_RANGE",
+      "description": "Performs the COOKING_RANGE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "COOKING_WINE",
+      "signature": "public static final\u00a0int COOKING_WINE",
+      "description": "Performs the COOKING_WINE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_BOW_CUTTING",
+      "signature": "public static final\u00a0int FLETCHING_BOW_CUTTING",
+      "description": "Performs the FLETCHING_BOW_CUTTING operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "HUNTER_LAY_BOXTRAP_BIRDSNARE",
+      "signature": "public static final\u00a0int HUNTER_LAY_BOXTRAP_BIRDSNARE",
+      "description": "Performs the HUNTER_LAY_BOXTRAP_BIRDSNARE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "HUNTER_LAY_DEADFALLTRAP",
+      "signature": "public static final\u00a0int HUNTER_LAY_DEADFALLTRAP",
+      "description": "Performs the HUNTER_LAY_DEADFALLTRAP operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "HUNTER_LAY_NETTRAP",
+      "signature": "public static final\u00a0int HUNTER_LAY_NETTRAP",
+      "description": "Performs the HUNTER_LAY_NETTRAP operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "HUNTER_LAY_MANIACAL_MONKEY_BOULDER_TRAP",
+      "signature": "public static final\u00a0int HUNTER_LAY_MANIACAL_MONKEY_BOULDER_TRAP",
+      "description": "Performs the HUNTER_LAY_MANIACAL_MONKEY_BOULDER_TRAP operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "HUNTER_CHECK_BIRD_SNARE",
+      "signature": "public static final\u00a0int HUNTER_CHECK_BIRD_SNARE",
+      "description": "Performs the HUNTER_CHECK_BIRD_SNARE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "HUNTER_CHECK_BOX_TRAP",
+      "signature": "public static final\u00a0int HUNTER_CHECK_BOX_TRAP",
+      "description": "Performs the HUNTER_CHECK_BOX_TRAP operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "HERBLORE_MAKE_TAR",
+      "signature": "public static final\u00a0int HERBLORE_MAKE_TAR",
+      "description": "Performs the HERBLORE_MAKE_TAR operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_STRING_NORMAL_SHORTBOW",
+      "signature": "public static final\u00a0int FLETCHING_STRING_NORMAL_SHORTBOW",
+      "description": "Performs the FLETCHING_STRING_NORMAL_SHORTBOW operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_STRING_NORMAL_LONGBOW",
+      "signature": "public static final\u00a0int FLETCHING_STRING_NORMAL_LONGBOW",
+      "description": "Performs the FLETCHING_STRING_NORMAL_LONGBOW operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_STRING_OAK_SHORTBOW",
+      "signature": "public static final\u00a0int FLETCHING_STRING_OAK_SHORTBOW",
+      "description": "Performs the FLETCHING_STRING_OAK_SHORTBOW operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_STRING_OAK_LONGBOW",
+      "signature": "public static final\u00a0int FLETCHING_STRING_OAK_LONGBOW",
+      "description": "Performs the FLETCHING_STRING_OAK_LONGBOW operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_STRING_WILLOW_SHORTBOW",
+      "signature": "public static final\u00a0int FLETCHING_STRING_WILLOW_SHORTBOW",
+      "description": "Performs the FLETCHING_STRING_WILLOW_SHORTBOW operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_STRING_WILLOW_LONGBOW",
+      "signature": "public static final\u00a0int FLETCHING_STRING_WILLOW_LONGBOW",
+      "description": "Performs the FLETCHING_STRING_WILLOW_LONGBOW operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_STRING_MAPLE_SHORTBOW",
+      "signature": "public static final\u00a0int FLETCHING_STRING_MAPLE_SHORTBOW",
+      "description": "Performs the FLETCHING_STRING_MAPLE_SHORTBOW operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_STRING_MAPLE_LONGBOW",
+      "signature": "public static final\u00a0int FLETCHING_STRING_MAPLE_LONGBOW",
+      "description": "Performs the FLETCHING_STRING_MAPLE_LONGBOW operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_STRING_YEW_SHORTBOW",
+      "signature": "public static final\u00a0int FLETCHING_STRING_YEW_SHORTBOW",
+      "description": "Performs the FLETCHING_STRING_YEW_SHORTBOW operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_STRING_YEW_LONGBOW",
+      "signature": "public static final\u00a0int FLETCHING_STRING_YEW_LONGBOW",
+      "description": "Performs the FLETCHING_STRING_YEW_LONGBOW operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_STRING_MAGIC_SHORTBOW",
+      "signature": "public static final\u00a0int FLETCHING_STRING_MAGIC_SHORTBOW",
+      "description": "Performs the FLETCHING_STRING_MAGIC_SHORTBOW operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_STRING_MAGIC_LONGBOW",
+      "signature": "public static final\u00a0int FLETCHING_STRING_MAGIC_LONGBOW",
+      "description": "Performs the FLETCHING_STRING_MAGIC_LONGBOW operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_ATTACH_BOLT_TIPS_TO_BRONZE_BOLT",
+      "signature": "public static final\u00a0int FLETCHING_ATTACH_BOLT_TIPS_TO_BRONZE_BOLT",
+      "description": "Performs the FLETCHING_ATTACH_BOLT_TIPS_TO_BRONZE_BOLT operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_ATTACH_BOLT_TIPS_TO_IRON_BROAD_BOLT",
+      "signature": "public static final\u00a0int FLETCHING_ATTACH_BOLT_TIPS_TO_IRON_BROAD_BOLT",
+      "description": "Performs the FLETCHING_ATTACH_BOLT_TIPS_TO_IRON_BROAD_BOLT operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_ATTACH_BOLT_TIPS_TO_BLURITE_BOLT",
+      "signature": "public static final\u00a0int FLETCHING_ATTACH_BOLT_TIPS_TO_BLURITE_BOLT",
+      "description": "Performs the FLETCHING_ATTACH_BOLT_TIPS_TO_BLURITE_BOLT operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_ATTACH_BOLT_TIPS_TO_STEEL_BOLT",
+      "signature": "public static final\u00a0int FLETCHING_ATTACH_BOLT_TIPS_TO_STEEL_BOLT",
+      "description": "Performs the FLETCHING_ATTACH_BOLT_TIPS_TO_STEEL_BOLT operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_ATTACH_BOLT_TIPS_TO_MITHRIL_BOLT",
+      "signature": "public static final\u00a0int FLETCHING_ATTACH_BOLT_TIPS_TO_MITHRIL_BOLT",
+      "description": "Performs the FLETCHING_ATTACH_BOLT_TIPS_TO_MITHRIL_BOLT operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_ATTACH_BOLT_TIPS_TO_ADAMANT_BOLT",
+      "signature": "public static final\u00a0int FLETCHING_ATTACH_BOLT_TIPS_TO_ADAMANT_BOLT",
+      "description": "Performs the FLETCHING_ATTACH_BOLT_TIPS_TO_ADAMANT_BOLT operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_ATTACH_BOLT_TIPS_TO_RUNE_BOLT",
+      "signature": "public static final\u00a0int FLETCHING_ATTACH_BOLT_TIPS_TO_RUNE_BOLT",
+      "description": "Performs the FLETCHING_ATTACH_BOLT_TIPS_TO_RUNE_BOLT operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_ATTACH_BOLT_TIPS_TO_DRAGON_BOLT",
+      "signature": "public static final\u00a0int FLETCHING_ATTACH_BOLT_TIPS_TO_DRAGON_BOLT",
+      "description": "Performs the FLETCHING_ATTACH_BOLT_TIPS_TO_DRAGON_BOLT operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_ATTACH_HEADS",
+      "signature": "public static final\u00a0int FLETCHING_ATTACH_HEADS",
+      "description": "Performs the FLETCHING_ATTACH_HEADS operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_ATTACH_FEATHERS_TO_ARROWSHAFT",
+      "signature": "public static final\u00a0int FLETCHING_ATTACH_FEATHERS_TO_ARROWSHAFT",
+      "description": "Performs the FLETCHING_ATTACH_FEATHERS_TO_ARROWSHAFT operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "GEM_CUTTING_OPAL",
+      "signature": "public static final\u00a0int GEM_CUTTING_OPAL",
+      "description": "Performs the GEM_CUTTING_OPAL operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "GEM_CUTTING_JADE",
+      "signature": "public static final\u00a0int GEM_CUTTING_JADE",
+      "description": "Performs the GEM_CUTTING_JADE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "GEM_CUTTING_REDTOPAZ",
+      "signature": "public static final\u00a0int GEM_CUTTING_REDTOPAZ",
+      "description": "Performs the GEM_CUTTING_REDTOPAZ operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "GEM_CUTTING_SAPPHIRE",
+      "signature": "public static final\u00a0int GEM_CUTTING_SAPPHIRE",
+      "description": "Performs the GEM_CUTTING_SAPPHIRE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "GEM_CUTTING_EMERALD",
+      "signature": "public static final\u00a0int GEM_CUTTING_EMERALD",
+      "description": "Performs the GEM_CUTTING_EMERALD operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "GEM_CUTTING_RUBY",
+      "signature": "public static final\u00a0int GEM_CUTTING_RUBY",
+      "description": "Performs the GEM_CUTTING_RUBY operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "GEM_CUTTING_DIAMOND",
+      "signature": "public static final\u00a0int GEM_CUTTING_DIAMOND",
+      "description": "Performs the GEM_CUTTING_DIAMOND operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "GEM_CUTTING_AMETHYST",
+      "signature": "public static final\u00a0int GEM_CUTTING_AMETHYST",
+      "description": "Performs the GEM_CUTTING_AMETHYST operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "CRAFTING_LEATHER",
+      "signature": "public static final\u00a0int CRAFTING_LEATHER",
+      "description": "Performs the CRAFTING_LEATHER operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "CRAFTING_GLASSBLOWING",
+      "signature": "public static final\u00a0int CRAFTING_GLASSBLOWING",
+      "description": "Performs the CRAFTING_GLASSBLOWING operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "CRAFTING_SPINNING",
+      "signature": "public static final\u00a0int CRAFTING_SPINNING",
+      "description": "Performs the CRAFTING_SPINNING operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "CRAFTING_POTTERS_WHEEL",
+      "signature": "public static final\u00a0int CRAFTING_POTTERS_WHEEL",
+      "description": "Performs the CRAFTING_POTTERS_WHEEL operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "CRAFTING_POTTERY_OVEN",
+      "signature": "public static final\u00a0int CRAFTING_POTTERY_OVEN",
+      "description": "Performs the CRAFTING_POTTERY_OVEN operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "SMITHING_SMELTING",
+      "signature": "public static final\u00a0int SMITHING_SMELTING",
+      "description": "Performs the SMITHING_SMELTING operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "SMITHING_CANNONBALL",
+      "signature": "public static final\u00a0int SMITHING_CANNONBALL",
+      "description": "Performs the SMITHING_CANNONBALL operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "SMITHING_ANVIL",
+      "signature": "public static final\u00a0int SMITHING_ANVIL",
+      "description": "Performs the SMITHING_ANVIL operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_BIG_NET",
+      "signature": "public static final\u00a0int FISHING_BIG_NET",
+      "description": "Performs the FISHING_BIG_NET operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_NET",
+      "signature": "public static final\u00a0int FISHING_NET",
+      "description": "Performs the FISHING_NET operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_POLE_CAST",
+      "signature": "public static final\u00a0int FISHING_POLE_CAST",
+      "description": "Performs the FISHING_POLE_CAST operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_CAGE",
+      "signature": "public static final\u00a0int FISHING_CAGE",
+      "description": "Performs the FISHING_CAGE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_HARPOON",
+      "signature": "public static final\u00a0int FISHING_HARPOON",
+      "description": "Performs the FISHING_HARPOON operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_BARBTAIL_HARPOON",
+      "signature": "public static final\u00a0int FISHING_BARBTAIL_HARPOON",
+      "description": "Performs the FISHING_BARBTAIL_HARPOON operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_DRAGON_HARPOON",
+      "signature": "public static final\u00a0int FISHING_DRAGON_HARPOON",
+      "description": "Performs the FISHING_DRAGON_HARPOON operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_INFERNAL_HARPOON",
+      "signature": "public static final\u00a0int FISHING_INFERNAL_HARPOON",
+      "description": "Performs the FISHING_INFERNAL_HARPOON operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_CRYSTAL_HARPOON",
+      "signature": "public static final\u00a0int FISHING_CRYSTAL_HARPOON",
+      "description": "Performs the FISHING_CRYSTAL_HARPOON operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_OILY_ROD",
+      "signature": "public static final\u00a0int FISHING_OILY_ROD",
+      "description": "Performs the FISHING_OILY_ROD operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_KARAMBWAN",
+      "signature": "public static final\u00a0int FISHING_KARAMBWAN",
+      "description": "Performs the FISHING_KARAMBWAN operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_CRUSHING_INFERNAL_EELS",
+      "signature": "public static final\u00a0int FISHING_CRUSHING_INFERNAL_EELS",
+      "description": "Performs the FISHING_CRUSHING_INFERNAL_EELS operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_CUTTING_SACRED_EELS",
+      "signature": "public static final\u00a0int FISHING_CUTTING_SACRED_EELS",
+      "description": "Performs the FISHING_CUTTING_SACRED_EELS operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_BAREHAND",
+      "signature": "public static final\u00a0int FISHING_BAREHAND",
+      "description": "Performs the FISHING_BAREHAND operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_BAREHAND_WINDUP_1",
+      "signature": "public static final\u00a0int FISHING_BAREHAND_WINDUP_1",
+      "description": "Performs the FISHING_BAREHAND_WINDUP_1 operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_BAREHAND_WINDUP_2",
+      "signature": "public static final\u00a0int FISHING_BAREHAND_WINDUP_2",
+      "description": "Performs the FISHING_BAREHAND_WINDUP_2 operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_BAREHAND_CAUGHT_SHARK_1",
+      "signature": "public static final\u00a0int FISHING_BAREHAND_CAUGHT_SHARK_1",
+      "description": "Performs the FISHING_BAREHAND_CAUGHT_SHARK_1 operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_BAREHAND_CAUGHT_SHARK_2",
+      "signature": "public static final\u00a0int FISHING_BAREHAND_CAUGHT_SHARK_2",
+      "description": "Performs the FISHING_BAREHAND_CAUGHT_SHARK_2 operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_BAREHAND_CAUGHT_SWORDFISH_1",
+      "signature": "public static final\u00a0int FISHING_BAREHAND_CAUGHT_SWORDFISH_1",
+      "description": "Performs the FISHING_BAREHAND_CAUGHT_SWORDFISH_1 operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_BAREHAND_CAUGHT_SWORDFISH_2",
+      "signature": "public static final\u00a0int FISHING_BAREHAND_CAUGHT_SWORDFISH_2",
+      "description": "Performs the FISHING_BAREHAND_CAUGHT_SWORDFISH_2 operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_BAREHAND_CAUGHT_TUNA_1",
+      "signature": "public static final\u00a0int FISHING_BAREHAND_CAUGHT_TUNA_1",
+      "description": "Performs the FISHING_BAREHAND_CAUGHT_TUNA_1 operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_BAREHAND_CAUGHT_TUNA_2",
+      "signature": "public static final\u00a0int FISHING_BAREHAND_CAUGHT_TUNA_2",
+      "description": "Performs the FISHING_BAREHAND_CAUGHT_TUNA_2 operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_PEARL_ROD",
+      "signature": "public static final\u00a0int FISHING_PEARL_ROD",
+      "description": "Performs the FISHING_PEARL_ROD operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_PEARL_FLY_ROD",
+      "signature": "public static final\u00a0int FISHING_PEARL_FLY_ROD",
+      "description": "Performs the FISHING_PEARL_FLY_ROD operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_PEARL_BARBARIAN_ROD",
+      "signature": "public static final\u00a0int FISHING_PEARL_BARBARIAN_ROD",
+      "description": "Performs the FISHING_PEARL_BARBARIAN_ROD operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_PEARL_ROD_2",
+      "signature": "public static final\u00a0int FISHING_PEARL_ROD_2",
+      "description": "Performs the FISHING_PEARL_ROD_2 operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_PEARL_FLY_ROD_2",
+      "signature": "public static final\u00a0int FISHING_PEARL_FLY_ROD_2",
+      "description": "Performs the FISHING_PEARL_FLY_ROD_2 operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_PEARL_BARBARIAN_ROD_2",
+      "signature": "public static final\u00a0int FISHING_PEARL_BARBARIAN_ROD_2",
+      "description": "Performs the FISHING_PEARL_BARBARIAN_ROD_2 operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_PEARL_OILY_ROD",
+      "signature": "public static final\u00a0int FISHING_PEARL_OILY_ROD",
+      "description": "Performs the FISHING_PEARL_OILY_ROD operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MINING_BRONZE_PICKAXE",
+      "signature": "public static final\u00a0int MINING_BRONZE_PICKAXE",
+      "description": "Performs the MINING_BRONZE_PICKAXE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MINING_IRON_PICKAXE",
+      "signature": "public static final\u00a0int MINING_IRON_PICKAXE",
+      "description": "Performs the MINING_IRON_PICKAXE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MINING_STEEL_PICKAXE",
+      "signature": "public static final\u00a0int MINING_STEEL_PICKAXE",
+      "description": "Performs the MINING_STEEL_PICKAXE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MINING_BLACK_PICKAXE",
+      "signature": "public static final\u00a0int MINING_BLACK_PICKAXE",
+      "description": "Performs the MINING_BLACK_PICKAXE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MINING_MITHRIL_PICKAXE",
+      "signature": "public static final\u00a0int MINING_MITHRIL_PICKAXE",
+      "description": "Performs the MINING_MITHRIL_PICKAXE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MINING_ADAMANT_PICKAXE",
+      "signature": "public static final\u00a0int MINING_ADAMANT_PICKAXE",
+      "description": "Performs the MINING_ADAMANT_PICKAXE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MINING_RUNE_PICKAXE",
+      "signature": "public static final\u00a0int MINING_RUNE_PICKAXE",
+      "description": "Performs the MINING_RUNE_PICKAXE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MINING_GILDED_PICKAXE",
+      "signature": "public static final\u00a0int MINING_GILDED_PICKAXE",
+      "description": "Performs the MINING_GILDED_PICKAXE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MINING_DRAGON_PICKAXE",
+      "signature": "public static final\u00a0int MINING_DRAGON_PICKAXE",
+      "description": "Performs the MINING_DRAGON_PICKAXE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MINING_DRAGON_PICKAXE_UPGRADED",
+      "signature": "public static final\u00a0int MINING_DRAGON_PICKAXE_UPGRADED",
+      "description": "Performs the MINING_DRAGON_PICKAXE_UPGRADED operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MINING_DRAGON_PICKAXE_OR",
+      "signature": "public static final\u00a0int MINING_DRAGON_PICKAXE_OR",
+      "description": "Performs the MINING_DRAGON_PICKAXE_OR operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MINING_INFERNAL_PICKAXE",
+      "signature": "public static final\u00a0int MINING_INFERNAL_PICKAXE",
+      "description": "Performs the MINING_INFERNAL_PICKAXE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MINING_3A_PICKAXE",
+      "signature": "public static final\u00a0int MINING_3A_PICKAXE",
+      "description": "Performs the MINING_3A_PICKAXE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MINING_CRYSTAL_PICKAXE",
+      "signature": "public static final\u00a0int MINING_CRYSTAL_PICKAXE",
+      "description": "Performs the MINING_CRYSTAL_PICKAXE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MINING_MOTHERLODE_BRONZE",
+      "signature": "public static final\u00a0int MINING_MOTHERLODE_BRONZE",
+      "description": "Performs the MINING_MOTHERLODE_BRONZE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MINING_MOTHERLODE_IRON",
+      "signature": "public static final\u00a0int MINING_MOTHERLODE_IRON",
+      "description": "Performs the MINING_MOTHERLODE_IRON operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MINING_MOTHERLODE_STEEL",
+      "signature": "public static final\u00a0int MINING_MOTHERLODE_STEEL",
+      "description": "Performs the MINING_MOTHERLODE_STEEL operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MINING_MOTHERLODE_BLACK",
+      "signature": "public static final\u00a0int MINING_MOTHERLODE_BLACK",
+      "description": "Performs the MINING_MOTHERLODE_BLACK operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MINING_MOTHERLODE_MITHRIL",
+      "signature": "public static final\u00a0int MINING_MOTHERLODE_MITHRIL",
+      "description": "Performs the MINING_MOTHERLODE_MITHRIL operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MINING_MOTHERLODE_ADAMANT",
+      "signature": "public static final\u00a0int MINING_MOTHERLODE_ADAMANT",
+      "description": "Performs the MINING_MOTHERLODE_ADAMANT operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MINING_MOTHERLODE_RUNE",
+      "signature": "public static final\u00a0int MINING_MOTHERLODE_RUNE",
+      "description": "Performs the MINING_MOTHERLODE_RUNE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MINING_MOTHERLODE_GILDED",
+      "signature": "public static final\u00a0int MINING_MOTHERLODE_GILDED",
+      "description": "Performs the MINING_MOTHERLODE_GILDED operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MINING_MOTHERLODE_DRAGON",
+      "signature": "public static final\u00a0int MINING_MOTHERLODE_DRAGON",
+      "description": "Performs the MINING_MOTHERLODE_DRAGON operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MINING_MOTHERLODE_DRAGON_UPGRADED",
+      "signature": "public static final\u00a0int MINING_MOTHERLODE_DRAGON_UPGRADED",
+      "description": "Performs the MINING_MOTHERLODE_DRAGON_UPGRADED operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MINING_MOTHERLODE_DRAGON_OR",
+      "signature": "public static final\u00a0int MINING_MOTHERLODE_DRAGON_OR",
+      "description": "Performs the MINING_MOTHERLODE_DRAGON_OR operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MINING_MOTHERLODE_INFERNAL",
+      "signature": "public static final\u00a0int MINING_MOTHERLODE_INFERNAL",
+      "description": "Performs the MINING_MOTHERLODE_INFERNAL operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MINING_MOTHERLODE_3A",
+      "signature": "public static final\u00a0int MINING_MOTHERLODE_3A",
+      "description": "Performs the MINING_MOTHERLODE_3A operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MINING_MOTHERLODE_CRYSTAL",
+      "signature": "public static final\u00a0int MINING_MOTHERLODE_CRYSTAL",
+      "description": "Performs the MINING_MOTHERLODE_CRYSTAL operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DENSE_ESSENCE_CHIPPING",
+      "signature": "public static final\u00a0int DENSE_ESSENCE_CHIPPING",
+      "description": "Performs the DENSE_ESSENCE_CHIPPING operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DENSE_ESSENCE_CHISELING",
+      "signature": "public static final\u00a0int DENSE_ESSENCE_CHISELING",
+      "description": "Performs the DENSE_ESSENCE_CHISELING operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "HERBLORE_POTIONMAKING",
+      "signature": "public static final\u00a0int HERBLORE_POTIONMAKING",
+      "description": "Performs the HERBLORE_POTIONMAKING operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MAGIC_CHARGING_ORBS",
+      "signature": "public static final\u00a0int MAGIC_CHARGING_ORBS",
+      "description": "Performs the MAGIC_CHARGING_ORBS operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MAGIC_MAKE_TABLET",
+      "signature": "public static final\u00a0int MAGIC_MAKE_TABLET",
+      "description": "Performs the MAGIC_MAKE_TABLET operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MAGIC_ENCHANTING_JEWELRY",
+      "signature": "public static final\u00a0int MAGIC_ENCHANTING_JEWELRY",
+      "description": "Performs the MAGIC_ENCHANTING_JEWELRY operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MAGIC_ENCHANTING_AMULET_1",
+      "signature": "public static final\u00a0int MAGIC_ENCHANTING_AMULET_1",
+      "description": "Performs the MAGIC_ENCHANTING_AMULET_1 operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MAGIC_ENCHANTING_AMULET_2",
+      "signature": "public static final\u00a0int MAGIC_ENCHANTING_AMULET_2",
+      "description": "Performs the MAGIC_ENCHANTING_AMULET_2 operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MAGIC_ENCHANTING_AMULET_3",
+      "signature": "public static final\u00a0int MAGIC_ENCHANTING_AMULET_3",
+      "description": "Performs the MAGIC_ENCHANTING_AMULET_3 operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MAGIC_ENCHANTING_BOLTS",
+      "signature": "public static final\u00a0int MAGIC_ENCHANTING_BOLTS",
+      "description": "Performs the MAGIC_ENCHANTING_BOLTS operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "BURYING_BONES",
+      "signature": "public static final\u00a0int BURYING_BONES",
+      "description": "Performs the BURYING_BONES operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "USING_GILDED_ALTAR",
+      "signature": "public static final\u00a0int USING_GILDED_ALTAR",
+      "description": "Performs the USING_GILDED_ALTAR operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "LOOKING_INTO",
+      "signature": "public static final\u00a0int LOOKING_INTO",
+      "description": "Performs the LOOKING_INTO operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIG",
+      "signature": "public static final\u00a0int DIG",
+      "description": "Performs the DIG operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DEMONIC_GORILLA_MAGIC_ATTACK",
+      "signature": "public static final\u00a0int DEMONIC_GORILLA_MAGIC_ATTACK",
+      "description": "Performs the DEMONIC_GORILLA_MAGIC_ATTACK operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DEMONIC_GORILLA_MELEE_ATTACK",
+      "signature": "public static final\u00a0int DEMONIC_GORILLA_MELEE_ATTACK",
+      "description": "Performs the DEMONIC_GORILLA_MELEE_ATTACK operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DEMONIC_GORILLA_RANGED_ATTACK",
+      "signature": "public static final\u00a0int DEMONIC_GORILLA_RANGED_ATTACK",
+      "description": "Performs the DEMONIC_GORILLA_RANGED_ATTACK operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DEMONIC_GORILLA_AOE_ATTACK",
+      "signature": "public static final\u00a0int DEMONIC_GORILLA_AOE_ATTACK",
+      "description": "Performs the DEMONIC_GORILLA_AOE_ATTACK operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DEMONIC_GORILLA_PRAYER_SWITCH",
+      "signature": "public static final\u00a0int DEMONIC_GORILLA_PRAYER_SWITCH",
+      "description": "Performs the DEMONIC_GORILLA_PRAYER_SWITCH operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DEMONIC_GORILLA_DEFEND",
+      "signature": "public static final\u00a0int DEMONIC_GORILLA_DEFEND",
+      "description": "Performs the DEMONIC_GORILLA_DEFEND operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "BOOK_HOME_TELEPORT_1",
+      "signature": "public static final\u00a0int BOOK_HOME_TELEPORT_1",
+      "description": "Performs the BOOK_HOME_TELEPORT_1 operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "BOOK_HOME_TELEPORT_2",
+      "signature": "public static final\u00a0int BOOK_HOME_TELEPORT_2",
+      "description": "Performs the BOOK_HOME_TELEPORT_2 operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "BOOK_HOME_TELEPORT_3",
+      "signature": "public static final\u00a0int BOOK_HOME_TELEPORT_3",
+      "description": "Performs the BOOK_HOME_TELEPORT_3 operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "BOOK_HOME_TELEPORT_4",
+      "signature": "public static final\u00a0int BOOK_HOME_TELEPORT_4",
+      "description": "Performs the BOOK_HOME_TELEPORT_4 operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "BOOK_HOME_TELEPORT_5",
+      "signature": "public static final\u00a0int BOOK_HOME_TELEPORT_5",
+      "description": "Performs the BOOK_HOME_TELEPORT_5 operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "COW_HOME_TELEPORT_1",
+      "signature": "public static final\u00a0int COW_HOME_TELEPORT_1",
+      "description": "Performs the COW_HOME_TELEPORT_1 operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "COW_HOME_TELEPORT_2",
+      "signature": "public static final\u00a0int COW_HOME_TELEPORT_2",
+      "description": "Performs the COW_HOME_TELEPORT_2 operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "COW_HOME_TELEPORT_3",
+      "signature": "public static final\u00a0int COW_HOME_TELEPORT_3",
+      "description": "Performs the COW_HOME_TELEPORT_3 operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "COW_HOME_TELEPORT_4",
+      "signature": "public static final\u00a0int COW_HOME_TELEPORT_4",
+      "description": "Performs the COW_HOME_TELEPORT_4 operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "COW_HOME_TELEPORT_5",
+      "signature": "public static final\u00a0int COW_HOME_TELEPORT_5",
+      "description": "Performs the COW_HOME_TELEPORT_5 operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "COW_HOME_TELEPORT_6",
+      "signature": "public static final\u00a0int COW_HOME_TELEPORT_6",
+      "description": "Performs the COW_HOME_TELEPORT_6 operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "CONSTRUCTION",
+      "signature": "public static final\u00a0int CONSTRUCTION",
+      "description": "Performs the CONSTRUCTION operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "SAND_COLLECTION",
+      "signature": "public static final\u00a0int SAND_COLLECTION",
+      "description": "Performs the SAND_COLLECTION operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "PISCARILIUS_CRANE_REPAIR",
+      "signature": "public static final\u00a0int PISCARILIUS_CRANE_REPAIR",
+      "description": "Performs the PISCARILIUS_CRANE_REPAIR operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "HOME_MAKE_TABLET",
+      "signature": "public static final\u00a0int HOME_MAKE_TABLET",
+      "description": "Performs the HOME_MAKE_TABLET operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DRAGONFIRE_SHIELD_SPECIAL",
+      "signature": "public static final\u00a0int DRAGONFIRE_SHIELD_SPECIAL",
+      "description": "Performs the DRAGONFIRE_SHIELD_SPECIAL operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "TZTOK_JAD_MAGIC_ATTACK",
+      "signature": "public static final\u00a0int TZTOK_JAD_MAGIC_ATTACK",
+      "description": "Performs the TZTOK_JAD_MAGIC_ATTACK operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "TZTOK_JAD_RANGE_ATTACK",
+      "signature": "public static final\u00a0int TZTOK_JAD_RANGE_ATTACK",
+      "description": "Performs the TZTOK_JAD_RANGE_ATTACK operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "HELLHOUND_DEFENCE",
+      "signature": "public static final\u00a0int HELLHOUND_DEFENCE",
+      "description": "Performs the HELLHOUND_DEFENCE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FARMING_HARVEST_FRUIT_TREE",
+      "signature": "public static final\u00a0int FARMING_HARVEST_FRUIT_TREE",
+      "description": "Performs the FARMING_HARVEST_FRUIT_TREE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FARMING_HARVEST_BUSH",
+      "signature": "public static final\u00a0int FARMING_HARVEST_BUSH",
+      "description": "Performs the FARMING_HARVEST_BUSH operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FARMING_HARVEST_HERB",
+      "signature": "public static final\u00a0int FARMING_HARVEST_HERB",
+      "description": "Performs the FARMING_HARVEST_HERB operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FARMING_USE_COMPOST",
+      "signature": "public static final\u00a0int FARMING_USE_COMPOST",
+      "description": "Performs the FARMING_USE_COMPOST operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FARMING_CURE_WITH_POTION",
+      "signature": "public static final\u00a0int FARMING_CURE_WITH_POTION",
+      "description": "Performs the FARMING_CURE_WITH_POTION operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FARMING_PLANT_SEED",
+      "signature": "public static final\u00a0int FARMING_PLANT_SEED",
+      "description": "Performs the FARMING_PLANT_SEED operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FARMING_HARVEST_FLOWER",
+      "signature": "public static final\u00a0int FARMING_HARVEST_FLOWER",
+      "description": "Performs the FARMING_HARVEST_FLOWER operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FARMING_MIX_ULTRACOMPOST",
+      "signature": "public static final\u00a0int FARMING_MIX_ULTRACOMPOST",
+      "description": "Performs the FARMING_MIX_ULTRACOMPOST operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "FARMING_HARVEST_ALLOTMENT",
+      "signature": "public static final\u00a0int FARMING_HARVEST_ALLOTMENT",
+      "description": "Performs the FARMING_HARVEST_ALLOTMENT operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "ENERGY_TRANSFER_VENGEANCE_OTHER",
+      "signature": "public static final\u00a0int ENERGY_TRANSFER_VENGEANCE_OTHER",
+      "description": "Performs the ENERGY_TRANSFER_VENGEANCE_OTHER operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MAGIC_LUNAR_SHARED",
+      "signature": "public static final\u00a0int MAGIC_LUNAR_SHARED",
+      "description": "Performs the MAGIC_LUNAR_SHARED operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MAGIC_LUNAR_CURE_PLANT",
+      "signature": "public static final\u00a0int MAGIC_LUNAR_CURE_PLANT",
+      "description": "Performs the MAGIC_LUNAR_CURE_PLANT operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MAGIC_LUNAR_GEOMANCY",
+      "signature": "public static final\u00a0int MAGIC_LUNAR_GEOMANCY",
+      "description": "Performs the MAGIC_LUNAR_GEOMANCY operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MAGIC_LUNAR_PLANK_MAKE",
+      "signature": "public static final\u00a0int MAGIC_LUNAR_PLANK_MAKE",
+      "description": "Performs the MAGIC_LUNAR_PLANK_MAKE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MAGIC_LUNAR_STRING_JEWELRY",
+      "signature": "public static final\u00a0int MAGIC_LUNAR_STRING_JEWELRY",
+      "description": "Performs the MAGIC_LUNAR_STRING_JEWELRY operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MAGIC_ARCEUUS_RESURRECT_CROPS",
+      "signature": "public static final\u00a0int MAGIC_ARCEUUS_RESURRECT_CROPS",
+      "description": "Performs the MAGIC_ARCEUUS_RESURRECT_CROPS operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "CRAFTING_BATTLESTAVES",
+      "signature": "public static final\u00a0int CRAFTING_BATTLESTAVES",
+      "description": "Performs the CRAFTING_BATTLESTAVES operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "CAVE_KRAKEN_DEATH",
+      "signature": "public static final\u00a0int CAVE_KRAKEN_DEATH",
+      "description": "Performs the CAVE_KRAKEN_DEATH operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WIZARD_DEATH",
+      "signature": "public static final\u00a0int WIZARD_DEATH",
+      "description": "Performs the WIZARD_DEATH operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "GARGOYLE_DEATH",
+      "signature": "public static final\u00a0int GARGOYLE_DEATH",
+      "description": "Performs the GARGOYLE_DEATH operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MARBLE_GARGOYLE_DEATH",
+      "signature": "public static final\u00a0int MARBLE_GARGOYLE_DEATH",
+      "description": "Performs the MARBLE_GARGOYLE_DEATH operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "LIZARD_DEATH",
+      "signature": "public static final\u00a0int LIZARD_DEATH",
+      "description": "Performs the LIZARD_DEATH operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "ROCKSLUG_DEATH",
+      "signature": "public static final\u00a0int ROCKSLUG_DEATH",
+      "description": "Performs the ROCKSLUG_DEATH operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "ZYGOMITE_DEATH",
+      "signature": "public static final\u00a0int ZYGOMITE_DEATH",
+      "description": "Performs the ZYGOMITE_DEATH operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "IMP_DEATH",
+      "signature": "public static final\u00a0int IMP_DEATH",
+      "description": "Performs the IMP_DEATH operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "INCENSE_BURNER",
+      "signature": "public static final\u00a0int INCENSE_BURNER",
+      "description": "Performs the INCENSE_BURNER operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "Constructor Detail",
+      "signature": "public\u00a0Animations()",
+      "description": "Performs the Constructor Detail operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "Animations",
+      "signature": "public\u00a0Animations()",
+      "description": "Performs the Animations operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [
+    {
+      "name": "IDLE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "HERBLORE_PESTLE_AND_MORTAR",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WOODCUTTING_BRONZE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WOODCUTTING_IRON",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WOODCUTTING_STEEL",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WOODCUTTING_BLACK",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WOODCUTTING_MITHRIL",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WOODCUTTING_ADAMANT",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WOODCUTTING_RUNE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WOODCUTTING_GILDED",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WOODCUTTING_DRAGON",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WOODCUTTING_INFERNAL",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WOODCUTTING_3A_AXE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WOODCUTTING_CRYSTAL",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "CONSUMING",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FIREMAKING",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DEATH",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "COOKING_FIRE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "COOKING_RANGE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "COOKING_WINE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_BOW_CUTTING",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "HUNTER_LAY_BOXTRAP_BIRDSNARE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "HUNTER_LAY_DEADFALLTRAP",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "HUNTER_LAY_NETTRAP",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "HUNTER_LAY_MANIACAL_MONKEY_BOULDER_TRAP",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "HUNTER_CHECK_BIRD_SNARE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "HUNTER_CHECK_BOX_TRAP",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "HERBLORE_MAKE_TAR",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_STRING_NORMAL_SHORTBOW",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_STRING_NORMAL_LONGBOW",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_STRING_OAK_SHORTBOW",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_STRING_OAK_LONGBOW",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_STRING_WILLOW_SHORTBOW",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_STRING_WILLOW_LONGBOW",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_STRING_MAPLE_SHORTBOW",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_STRING_MAPLE_LONGBOW",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_STRING_YEW_SHORTBOW",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_STRING_YEW_LONGBOW",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_STRING_MAGIC_SHORTBOW",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_STRING_MAGIC_LONGBOW",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_ATTACH_BOLT_TIPS_TO_BRONZE_BOLT",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_ATTACH_BOLT_TIPS_TO_IRON_BROAD_BOLT",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_ATTACH_BOLT_TIPS_TO_BLURITE_BOLT",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_ATTACH_BOLT_TIPS_TO_STEEL_BOLT",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_ATTACH_BOLT_TIPS_TO_MITHRIL_BOLT",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_ATTACH_BOLT_TIPS_TO_ADAMANT_BOLT",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_ATTACH_BOLT_TIPS_TO_RUNE_BOLT",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_ATTACH_BOLT_TIPS_TO_DRAGON_BOLT",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_ATTACH_HEADS",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FLETCHING_ATTACH_FEATHERS_TO_ARROWSHAFT",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "GEM_CUTTING_OPAL",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "GEM_CUTTING_JADE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "GEM_CUTTING_REDTOPAZ",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "GEM_CUTTING_SAPPHIRE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "GEM_CUTTING_EMERALD",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "GEM_CUTTING_RUBY",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "GEM_CUTTING_DIAMOND",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "GEM_CUTTING_AMETHYST",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "CRAFTING_LEATHER",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "CRAFTING_GLASSBLOWING",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "CRAFTING_SPINNING",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "CRAFTING_POTTERS_WHEEL",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "CRAFTING_POTTERY_OVEN",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "SMITHING_SMELTING",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "SMITHING_CANNONBALL",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "SMITHING_ANVIL",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_BIG_NET",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_NET",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_POLE_CAST",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_CAGE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_HARPOON",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_BARBTAIL_HARPOON",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_DRAGON_HARPOON",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_INFERNAL_HARPOON",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_CRYSTAL_HARPOON",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_OILY_ROD",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_KARAMBWAN",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_CRUSHING_INFERNAL_EELS",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_CUTTING_SACRED_EELS",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_BAREHAND",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_BAREHAND_WINDUP_1",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_BAREHAND_WINDUP_2",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_BAREHAND_CAUGHT_SHARK_1",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_BAREHAND_CAUGHT_SHARK_2",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_BAREHAND_CAUGHT_SWORDFISH_1",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_BAREHAND_CAUGHT_SWORDFISH_2",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_BAREHAND_CAUGHT_TUNA_1",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_BAREHAND_CAUGHT_TUNA_2",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_PEARL_ROD",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_PEARL_FLY_ROD",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_PEARL_BARBARIAN_ROD",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_PEARL_ROD_2",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_PEARL_FLY_ROD_2",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_PEARL_BARBARIAN_ROD_2",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FISHING_PEARL_OILY_ROD",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MINING_BRONZE_PICKAXE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MINING_IRON_PICKAXE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MINING_STEEL_PICKAXE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MINING_BLACK_PICKAXE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MINING_MITHRIL_PICKAXE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MINING_ADAMANT_PICKAXE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MINING_RUNE_PICKAXE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MINING_GILDED_PICKAXE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MINING_DRAGON_PICKAXE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MINING_DRAGON_PICKAXE_UPGRADED",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MINING_DRAGON_PICKAXE_OR",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MINING_INFERNAL_PICKAXE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MINING_3A_PICKAXE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MINING_CRYSTAL_PICKAXE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MINING_MOTHERLODE_BRONZE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MINING_MOTHERLODE_IRON",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MINING_MOTHERLODE_STEEL",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MINING_MOTHERLODE_BLACK",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MINING_MOTHERLODE_MITHRIL",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MINING_MOTHERLODE_ADAMANT",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MINING_MOTHERLODE_RUNE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MINING_MOTHERLODE_GILDED",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MINING_MOTHERLODE_DRAGON",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MINING_MOTHERLODE_DRAGON_UPGRADED",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MINING_MOTHERLODE_DRAGON_OR",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MINING_MOTHERLODE_INFERNAL",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MINING_MOTHERLODE_3A",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MINING_MOTHERLODE_CRYSTAL",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DENSE_ESSENCE_CHIPPING",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DENSE_ESSENCE_CHISELING",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "HERBLORE_POTIONMAKING",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MAGIC_CHARGING_ORBS",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MAGIC_MAKE_TABLET",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MAGIC_ENCHANTING_JEWELRY",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MAGIC_ENCHANTING_AMULET_1",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MAGIC_ENCHANTING_AMULET_2",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MAGIC_ENCHANTING_AMULET_3",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MAGIC_ENCHANTING_BOLTS",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "BURYING_BONES",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "USING_GILDED_ALTAR",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "LOOKING_INTO",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIG",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DEMONIC_GORILLA_MAGIC_ATTACK",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DEMONIC_GORILLA_MELEE_ATTACK",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DEMONIC_GORILLA_RANGED_ATTACK",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DEMONIC_GORILLA_AOE_ATTACK",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DEMONIC_GORILLA_PRAYER_SWITCH",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DEMONIC_GORILLA_DEFEND",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "BOOK_HOME_TELEPORT_1",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "BOOK_HOME_TELEPORT_2",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "BOOK_HOME_TELEPORT_3",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "BOOK_HOME_TELEPORT_4",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "BOOK_HOME_TELEPORT_5",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "COW_HOME_TELEPORT_1",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "COW_HOME_TELEPORT_2",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "COW_HOME_TELEPORT_3",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "COW_HOME_TELEPORT_4",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "COW_HOME_TELEPORT_5",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "COW_HOME_TELEPORT_6",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "CONSTRUCTION",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "SAND_COLLECTION",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "PISCARILIUS_CRANE_REPAIR",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "HOME_MAKE_TABLET",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DRAGONFIRE_SHIELD_SPECIAL",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "TZTOK_JAD_MAGIC_ATTACK",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "TZTOK_JAD_RANGE_ATTACK",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "HELLHOUND_DEFENCE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FARMING_HARVEST_FRUIT_TREE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FARMING_HARVEST_BUSH",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FARMING_HARVEST_HERB",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FARMING_USE_COMPOST",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FARMING_CURE_WITH_POTION",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FARMING_PLANT_SEED",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FARMING_HARVEST_FLOWER",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FARMING_MIX_ULTRACOMPOST",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "FARMING_HARVEST_ALLOTMENT",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "ENERGY_TRANSFER_VENGEANCE_OTHER",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MAGIC_LUNAR_SHARED",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MAGIC_LUNAR_CURE_PLANT",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MAGIC_LUNAR_GEOMANCY",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MAGIC_LUNAR_PLANK_MAKE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MAGIC_LUNAR_STRING_JEWELRY",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MAGIC_ARCEUUS_RESURRECT_CROPS",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "CRAFTING_BATTLESTAVES",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "CAVE_KRAKEN_DEATH",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WIZARD_DEATH",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "GARGOYLE_DEATH",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MARBLE_GARGOYLE_DEATH",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "LIZARD_DEATH",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "ROCKSLUG_DEATH",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "ZYGOMITE_DEATH",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "IMP_DEATH",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "INCENSE_BURNER",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "Constructor",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "Animations",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    }
+  ],
+  "constructors": [],
+  "extraction_fallback_used": true
+}

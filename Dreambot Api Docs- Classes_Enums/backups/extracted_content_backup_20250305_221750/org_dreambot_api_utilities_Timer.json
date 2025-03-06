@@ -1,0 +1,191 @@
+{
+  "name": "Timer",
+  "full_name": "org.dreambot.api.utilities.Timer",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/utilities/Timer.html",
+  "type": "class",
+  "package": "org.dreambot.api.utilities",
+  "description": "Create a Timer",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "formatTime",
+      "signature": "public java.lang.String formatTime()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the formatTime operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "formatRemainingTime",
+      "signature": "public java.lang.String formatRemainingTime()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the formatRemainingTime operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setRunTime",
+      "signature": "public void setRunTime\u200b(long runTime)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the runtime.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "finished",
+      "signature": "public boolean finished()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the finished operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "start",
+      "signature": "public void start()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the start operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "pause",
+      "signature": "public void pause()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the pause operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "resume",
+      "signature": "public void resume()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the resume operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "remaining",
+      "signature": "public long remaining()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the remaining operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isPaused",
+      "signature": "public boolean isPaused()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if paused.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "elapsed",
+      "signature": "public long elapsed()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the elapsed operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "reset",
+      "signature": "public void reset()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the reset operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getHourlyRate",
+      "signature": "public int getHourlyRate\u200b(int current)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the hourlyrate.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLongHourlyRate",
+      "signature": "public long getLongHourlyRate\u200b(long current)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the longhourlyrate.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

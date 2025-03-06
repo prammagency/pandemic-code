@@ -1,0 +1,265 @@
+{
+  "name": "WebPathQuery",
+  "full_name": "org.dreambot.api.methods.walking.pathfinding.impl.web.WebPathQuery",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/web/WebPathQuery.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.walking.pathfinding.impl.web",
+  "description": "Web Path Query to calculate a possible web path from a tile to a tile with the option of including the bank cache for required items.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [
+    {
+      "name": "Method Summary\n\nAll Methods\u00a0Static Methods\u00a0Instance Methods\u00a0Concrete Methods\u00a0\n\nModifier and Type\nMethod\nDescription\n\n\nstatic WebPathQuery.WebPathQueryBuilder\nbuilder()\n\u00a0\n\n\nWebPathResponse\ncalculate()\n\nCalculates and returns a WebPathResponse\n Sets the calculated response to the field calculated\n\n\n\nboolean\ncanUseBankCache()\n\u00a0\n\n\nWebPathResponse\ngetCalculated()\n\u00a0\n\n\nTile\ngetFrom()\n\u00a0\n\n\nGlobalPath<AbstractWebNode>\ngetGlobalPath()\n\nReturns a GlobalPath that contains all of the web nodes from the calculated response.\n\n\n\nTile\ngetTo()\n\u00a0\n\n\njava.util.List<Item>\ngetWithItems()\n\u00a0\n\n\nboolean\nhasRequiredItems()\n\nChecks to see if you have all required items for the calculated WebPathResponse\n\n\n\nboolean\nisUseBankCache()\n\u00a0\n\n\nvoid\nsetCalculated\u200b(WebPathResponse\u00a0calculated)\n\u00a0\n\n\nvoid\nsetFrom\u200b(Tile\u00a0from)\n\u00a0\n\n\nvoid\nsetTo\u200b(Tile\u00a0to)\n\u00a0\n\n\nvoid\nsetUseBankCache\u200b(boolean\u00a0useBankCache)\n\u00a0\n\n\nvoid\nsetWithItems\u200b(java.util.List<Item>\u00a0withItems)\n\u00a0\n\n\n\n\n\n\nMethods inherited from class\u00a0java.lang.Object\nequals, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait",
+      "description": "",
+      "modifiers": []
+    },
+    {
+      "name": "Methods inherited from class\u00a0java.lang.Object\nequals, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait",
+      "description": "",
+      "modifiers": []
+    }
+  ],
+  "methods": [
+    {
+      "name": "WebPathQuery.WebPathQueryBuilder",
+      "return_type": "WebPathQuery.WebPathQueryBuilder",
+      "modifiers": [
+        "static"
+      ],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "WebPathResponse",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "Tile",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "GlobalPath",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns a GlobalPath that contains all of the web nodes from the calculated response.",
+      "deprecated": false
+    },
+    {
+      "name": "Item",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "canUseBankCache",
+      "signature": "public boolean canUseBankCache()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "calculate",
+      "signature": "public WebPathResponse calculate()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Calculates and returns a WebPathResponse Sets the calculated response to the field calculated",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hasRequiredItems",
+      "signature": "public boolean hasRequiredItems()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks to see if you have all required items for the calculated WebPathResponse",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getGlobalPath",
+      "signature": "public GlobalPath<AbstractWebNode> getGlobalPath()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns a GlobalPath that contains all of the web nodes from the calculated response. Returns empty global path if path has not been calculated yet.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "builder",
+      "signature": "public static WebPathQuery.WebPathQueryBuilder builder()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getFrom",
+      "signature": "public Tile getFrom()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTo",
+      "signature": "public Tile getTo()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isUseBankCache",
+      "signature": "public boolean isUseBankCache()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWithItems",
+      "signature": "public java.util.List<Item> getWithItems()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCalculated",
+      "signature": "public WebPathResponse getCalculated()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setFrom",
+      "signature": "public void setFrom\u200b(Tile from)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setTo",
+      "signature": "public void setTo\u200b(Tile to)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setUseBankCache",
+      "signature": "public void setUseBankCache\u200b(boolean useBankCache)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setWithItems",
+      "signature": "public void setWithItems\u200b(java.util.List<Item> withItems)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setCalculated",
+      "signature": "public void setCalculated\u200b(WebPathResponse calculated)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

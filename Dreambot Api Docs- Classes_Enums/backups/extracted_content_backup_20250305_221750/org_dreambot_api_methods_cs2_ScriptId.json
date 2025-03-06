@@ -1,0 +1,312 @@
+{
+  "name": "ScriptId",
+  "full_name": "org.dreambot.api.methods.cs2.ScriptId",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/cs2/ScriptId.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.cs2",
+  "description": "Sets the camera pitch and yaw event.createEvent(CAMERA_PITCH_YAW, pitch, yaw);",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Field Detail",
+      "signature": "public static final\u00a0int CHAT_SEND",
+      "description": "Sends a chat message. Requires 1 String and 4 ints for script arguments.\n String message to send\n int modes\n int clan type\n int use target (1/0)\n int set target",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "Field Detail",
+      "signature": "public static final\u00a0int CHAT_SEND",
+      "description": "Sends a chat message. Requires 1 String and 4 ints for script arguments.\n String message to send\n int modes\n int clan type\n int use target (1/0)\n int set target",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "CHAT_SEND",
+      "signature": "public static final\u00a0int CHAT_SEND",
+      "description": "Sends a chat message. Requires 1 String and 4 ints for script arguments.\n String message to send\n int modes\n int clan type\n int use target (1/0)\n int set target",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "BUILD_CHATBOX",
+      "signature": "public static final\u00a0int BUILD_CHATBOX",
+      "description": "Performs the BUILD_CHATBOX operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "CHAT_TEXT_INPUT_REBUILD",
+      "signature": "public static final\u00a0int CHAT_TEXT_INPUT_REBUILD",
+      "description": "Rebuilds the text input widget inside the chat interface. Takes 1 String argument in the script.\n String message prefix. Only used in the GE search interfaces.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MESSAGE_LAYER_CLOSE",
+      "signature": "public static final\u00a0int MESSAGE_LAYER_CLOSE",
+      "description": "Closes the chatbox input. Takes 3 ints as parameters to the script.\n int clear current text\n int restore to chat view\n int submit close to server",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MESSAGE_LAYER_OPEN",
+      "signature": "public static final\u00a0int MESSAGE_LAYER_OPEN",
+      "description": "Readies the chatbox panel for things like the chatbox input\n Inverse of MESSAGE_LAYER_CLOSE\n Takes 1 int as parameters to the script.\n int input type - message layer type to change to.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "CHAT_PROMPT_INIT",
+      "signature": "public static final\u00a0int CHAT_PROMPT_INIT",
+      "description": "Performs the CHAT_PROMPT_INIT operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "QUEST_STATUS_GET",
+      "signature": "public static final\u00a0int QUEST_STATUS_GET",
+      "description": "Queries the completion state of a quest by its struct id. Takes 1 int as an argument\n int ID of the quest",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "GE_ITEM_SEARCH",
+      "signature": "public static final\u00a0int GE_ITEM_SEARCH",
+      "description": "Builds the grand exchange item search widget. Takes 3 ints as parameters",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "BANKMAIN_SEARCHING",
+      "signature": "public static final\u00a0int BANKMAIN_SEARCHING",
+      "description": "Performs the BANKMAIN_SEARCHING operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "CHATBOX_INIT",
+      "signature": "public static final\u00a0int CHATBOX_INIT",
+      "description": "Performs the CHATBOX_INIT operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "CAMERA_ZOOM",
+      "signature": "public static final\u00a0int CAMERA_ZOOM",
+      "description": "Sets the camera zoom\n event.createEvent(CAMERA_ZOOM, zoom, zoom);",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "CAMERA_PITCH_YAW",
+      "signature": "public static final\u00a0int CAMERA_PITCH_YAW",
+      "description": "Sets the camera pitch and yaw\n event.createEvent(CAMERA_PITCH_YAW, pitch, yaw);",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "Constructor Detail",
+      "signature": "public\u00a0ScriptId()",
+      "description": "Performs the Constructor Detail operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "ScriptId",
+      "signature": "public\u00a0ScriptId()",
+      "description": "Performs the ScriptId operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [
+    {
+      "name": "CHAT_SEND",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "BUILD_CHATBOX",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "CHAT_TEXT_INPUT_REBUILD",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MESSAGE_LAYER_CLOSE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MESSAGE_LAYER_OPEN",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "CHAT_PROMPT_INIT",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "QUEST_STATUS_GET",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "GE_ITEM_SEARCH",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "BANKMAIN_SEARCHING",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "CHATBOX_INIT",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "CAMERA_ZOOM",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "CAMERA_PITCH_YAW",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "Constructor",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "ScriptId",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    }
+  ],
+  "constructors": [],
+  "extraction_fallback_used": true
+}

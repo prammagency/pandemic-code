@@ -1,0 +1,165 @@
+{
+  "name": "SpawnListener",
+  "full_name": "org.dreambot.api.script.listener.SpawnListener",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/script/listener/SpawnListener.html",
+  "type": "interface",
+  "package": "org.dreambot.api.script.listener",
+  "description": "This is a spawn listener used by scripts or other classes Events sent by an injected spawn listener, only dispatched while a script is running. Listener is stopped on script stop, and reset on new script start. New Injections required to use",
+  "page_structure": {
+    "type": "interface",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "onGameObjectSpawn",
+      "return_type": "",
+      "modifiers": [],
+      "description": "onGameObject @Deprecated default void onGameObject\u200b(GameObject object) Deprecated. See onGameObjectSpawn(GameObject)",
+      "deprecated": false,
+      "signature": "default void onGameObjectSpawn\u200b(GameObject object)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      }
+    },
+    {
+      "name": "onGameObject",
+      "signature": "@Deprecated default void onGameObject\u200b(GameObject object)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "See onGameObjectSpawn(GameObject)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onGameObjectDespawn",
+      "signature": "default void onGameObjectDespawn\u200b(GameObject object)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the onGameObjectDespawn operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onGroundItemSpawn",
+      "signature": "default void onGroundItemSpawn\u200b(GroundItem object)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the onGroundItemSpawn operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onGroundItemDespawn",
+      "signature": "default void onGroundItemDespawn\u200b(GroundItem object)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the onGroundItemDespawn operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onGroundItemUpdate",
+      "signature": "default void onGroundItemUpdate\u200b(GroundItem object)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the onGroundItemUpdate operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onNpcSpawn",
+      "signature": "default void onNpcSpawn\u200b(NPC npc)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the onNpcSpawn operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onNpcDespawn",
+      "signature": "default void onNpcDespawn\u200b(NPC npc)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the onNpcDespawn operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onPlayerSpawn",
+      "signature": "default void onPlayerSpawn\u200b(Player entity)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the onPlayerSpawn operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onLocalPlayerSpawn",
+      "signature": "default void onLocalPlayerSpawn\u200b(Player entity)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the onLocalPlayerSpawn operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onPlayerDespawn",
+      "signature": "default void onPlayerDespawn\u200b(Player entity)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the onPlayerDespawn operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

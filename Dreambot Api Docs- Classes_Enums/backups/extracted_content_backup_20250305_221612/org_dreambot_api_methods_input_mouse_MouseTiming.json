@@ -1,0 +1,35 @@
+{
+  "name": "MouseTiming",
+  "full_name": "org.dreambot.api.methods.input.mouse.MouseTiming",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/input/mouse/MouseTiming.html",
+  "type": "interface",
+  "package": "org.dreambot.api.methods.input.mouse",
+  "description": "",
+  "page_structure": {
+    "type": "interface",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "getClickTimingInMilliseconds",
+      "return_type": "",
+      "modifiers": [],
+      "description": "getClickTimingInMilliseconds int getClickTimingInMilliseconds()",
+      "deprecated": false,
+      "signature": "int getClickTimingInMilliseconds()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      }
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

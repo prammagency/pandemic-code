@@ -1,0 +1,388 @@
+{
+  "name": "VarPlayer",
+  "full_name": "org.dreambot.api.methods.settings.vars.VarPlayer",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/settings/vars/VarPlayer.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.settings.vars",
+  "description": "Use these in conjunction with PlayerSettings.getConfig(int)",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Field Detail",
+      "signature": "public static final\u00a0int MEMBERSHIP_REMAINING",
+      "description": "Performs the Field Detail operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "Field Detail",
+      "signature": "public static final\u00a0int MEMBERSHIP_REMAINING",
+      "description": "Performs the Field Detail operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MEMBERSHIP_REMAINING",
+      "signature": "public static final\u00a0int MEMBERSHIP_REMAINING",
+      "description": "Performs the MEMBERSHIP_REMAINING operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "PLAYER_ATTACK_OPTIONS_PLAYER_SETTING",
+      "signature": "public static final\u00a0int PLAYER_ATTACK_OPTIONS_PLAYER_SETTING",
+      "description": "Performs the PLAYER_ATTACK_OPTIONS_PLAYER_SETTING operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "NPC_ATTACK_OPTIONS_PLAYER_SETTING",
+      "signature": "public static final\u00a0int NPC_ATTACK_OPTIONS_PLAYER_SETTING",
+      "description": "Performs the NPC_ATTACK_OPTIONS_PLAYER_SETTING operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "CHAT_EFFECTS_PLAYER_SETTING",
+      "signature": "public static final\u00a0int CHAT_EFFECTS_PLAYER_SETTING",
+      "description": "Performs the CHAT_EFFECTS_PLAYER_SETTING operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "AREA_SOUND_PLAYER_SETTING",
+      "signature": "public static final\u00a0int AREA_SOUND_PLAYER_SETTING",
+      "description": "Performs the AREA_SOUND_PLAYER_SETTING operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "EFFECTS_SOUND_PLAYER_SETTING",
+      "signature": "public static final\u00a0int EFFECTS_SOUND_PLAYER_SETTING",
+      "description": "Performs the EFFECTS_SOUND_PLAYER_SETTING operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MUSIC_SOUND_PLAYER_SETTING",
+      "signature": "public static final\u00a0int MUSIC_SOUND_PLAYER_SETTING",
+      "description": "Performs the MUSIC_SOUND_PLAYER_SETTING operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "BRIGHTNESS_PLAYER_SETTING",
+      "signature": "public static final\u00a0int BRIGHTNESS_PLAYER_SETTING",
+      "description": "Performs the BRIGHTNESS_PLAYER_SETTING operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "IS_POISONED_SETTING",
+      "signature": "public static final\u00a0int IS_POISONED_SETTING",
+      "description": "Performs the IS_POISONED_SETTING operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "AUTO_RETALIATE_SETTING",
+      "signature": "public static final\u00a0int AUTO_RETALIATE_SETTING",
+      "description": "Performs the AUTO_RETALIATE_SETTING operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "SPECIAL_ATTACK_SETTING",
+      "signature": "public static final\u00a0int SPECIAL_ATTACK_SETTING",
+      "description": "Performs the SPECIAL_ATTACK_SETTING operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "IS_ACTIVATED_SETTING",
+      "signature": "public static final\u00a0int IS_ACTIVATED_SETTING",
+      "description": "Performs the IS_ACTIVATED_SETTING operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "IS_DISEASED_SETTING",
+      "signature": "public static final\u00a0int IS_DISEASED_SETTING",
+      "description": "Performs the IS_DISEASED_SETTING operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "IS_ANTIFIRE_ENABLED",
+      "signature": "public static final\u00a0int IS_ANTIFIRE_ENABLED",
+      "description": "Performs the IS_ANTIFIRE_ENABLED operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "IS_EXT_ANTIFIRE_ENABLED",
+      "signature": "public static final\u00a0int IS_EXT_ANTIFIRE_ENABLED",
+      "description": "Performs the IS_EXT_ANTIFIRE_ENABLED operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MULT_COMBAT",
+      "signature": "public static final\u00a0int MULT_COMBAT",
+      "description": "Performs the MULT_COMBAT operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "Constructor Detail",
+      "signature": "public\u00a0VarPlayer()",
+      "description": "Performs the Constructor Detail operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "VarPlayer",
+      "signature": "public\u00a0VarPlayer()",
+      "description": "Performs the VarPlayer operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [
+    {
+      "name": "MEMBERSHIP_REMAINING",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "PLAYER_ATTACK_OPTIONS_PLAYER_SETTING",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "NPC_ATTACK_OPTIONS_PLAYER_SETTING",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "CHAT_EFFECTS_PLAYER_SETTING",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "AREA_SOUND_PLAYER_SETTING",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "EFFECTS_SOUND_PLAYER_SETTING",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MUSIC_SOUND_PLAYER_SETTING",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "BRIGHTNESS_PLAYER_SETTING",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "IS_POISONED_SETTING",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "AUTO_RETALIATE_SETTING",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "SPECIAL_ATTACK_SETTING",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "IS_ACTIVATED_SETTING",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "IS_DISEASED_SETTING",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "IS_ANTIFIRE_ENABLED",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "IS_EXT_ANTIFIRE_ENABLED",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MULT_COMBAT",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "Constructor",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "VarPlayer",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    }
+  ],
+  "constructors": [],
+  "extraction_fallback_used": true
+}

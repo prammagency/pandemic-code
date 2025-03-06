@@ -1,0 +1,239 @@
+[1/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/package-summary.html
+Processed package 'org.dreambot.api'
+[2/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/data/package-summary.html
+Processed package 'org.dreambot.api.data'
+[3/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/data/consumables/package-summary.html
+Processed package 'org.dreambot.api.data.consumables'
+[4/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/data/requirements/package-summary.html
+Processed package 'org.dreambot.api.data.requirements'
+[5/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/input/package-summary.html
+Processed package 'org.dreambot.api.input'
+[6/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/input/event/package-summary.html
+Processed package 'org.dreambot.api.input.event'
+[7/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/package-summary.html
+Processed package 'org.dreambot.api.input.event.impl'
+[8/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/keyboard/package-summary.html
+Processed package 'org.dreambot.api.input.event.impl.keyboard'
+[9/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/keyboard/awt/package-summary.html
+Processed package 'org.dreambot.api.input.event.impl.keyboard.awt'
+[10/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/keyboard/type/package-summary.html
+Processed package 'org.dreambot.api.input.event.impl.keyboard.type'
+[11/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/package-summary.html
+Processed package 'org.dreambot.api.input.event.impl.mouse'
+[12/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/awt/package-summary.html
+Processed package 'org.dreambot.api.input.event.impl.mouse.awt'
+[13/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/impl/package-summary.html
+Processed package 'org.dreambot.api.input.event.impl.mouse.impl'
+[14/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/impl/click/package-summary.html
+Processed package 'org.dreambot.api.input.event.impl.mouse.impl.click'
+[15/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/impl/wheel/package-summary.html
+Processed package 'org.dreambot.api.input.event.impl.mouse.impl.wheel'
+[16/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/type/package-summary.html
+Processed package 'org.dreambot.api.input.event.impl.mouse.type'
+[17/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/vector/package-summary.html
+Processed package 'org.dreambot.api.input.event.impl.mouse.vector'
+[18/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/vector/impl/package-summary.html
+Processed package 'org.dreambot.api.input.event.impl.mouse.vector.impl'
+[19/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/input/keyboard/package-summary.html
+Processed package 'org.dreambot.api.input.keyboard'
+[20/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/input/mouse/algorithm/package-summary.html
+Processed package 'org.dreambot.api.input.mouse.algorithm'
+[21/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/input/mouse/destination/package-summary.html
+Processed package 'org.dreambot.api.input.mouse.destination'
+[22/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/input/mouse/destination/impl/package-summary.html
+Processed package 'org.dreambot.api.input.mouse.destination.impl'
+[23/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/input/mouse/destination/impl/shape/package-summary.html
+Processed package 'org.dreambot.api.input.mouse.destination.impl.shape'
+[24/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/package-summary.html
+Processed package 'org.dreambot.api.methods'
+[25/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/bond/package-summary.html
+Processed package 'org.dreambot.api.methods.bond'
+[26/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/clan/package-summary.html
+Processed package 'org.dreambot.api.methods.clan'
+[27/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/clan/chat/package-summary.html
+Processed package 'org.dreambot.api.methods.clan.chat'
+[28/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/clan/guild/package-summary.html
+Processed package 'org.dreambot.api.methods.clan.guild'
+[29/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/combat/package-summary.html
+Processed package 'org.dreambot.api.methods.combat'
+[30/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/container/general/package-summary.html
+Processed package 'org.dreambot.api.methods.container.general'
+[31/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/container/impl/package-summary.html
+Processed package 'org.dreambot.api.methods.container.impl'
+[32/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/container/impl/bank/package-summary.html
+Processed package 'org.dreambot.api.methods.container.impl.bank'
+[33/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/container/impl/equipment/package-summary.html
+Processed package 'org.dreambot.api.methods.container.impl.equipment'
+[34/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/cs2/package-summary.html
+Processed package 'org.dreambot.api.methods.cs2'
+[35/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/depositbox/package-summary.html
+Processed package 'org.dreambot.api.methods.depositbox'
+[36/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/dialogues/package-summary.html
+Processed package 'org.dreambot.api.methods.dialogues'
+[37/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/diary/package-summary.html
+Processed package 'org.dreambot.api.methods.diary'
+[38/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/diary/requirement/package-summary.html
+Processed package 'org.dreambot.api.methods.diary.requirement'
+[39/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/diary/requirement/impl/package-summary.html
+Processed package 'org.dreambot.api.methods.diary.requirement.impl'
+[40/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/emotes/package-summary.html
+Processed package 'org.dreambot.api.methods.emotes'
+[41/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/event/package-summary.html
+Processed package 'org.dreambot.api.methods.event'
+[42/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/fairyring/package-summary.html
+Processed package 'org.dreambot.api.methods.fairyring'
+[43/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/favour/package-summary.html
+Processed package 'org.dreambot.api.methods.favour'
+[44/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/filter/package-summary.html
+Processed package 'org.dreambot.api.methods.filter'
+[45/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/filter/impl/package-summary.html
+Processed package 'org.dreambot.api.methods.filter.impl'
+[46/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/friend/package-summary.html
+Processed package 'org.dreambot.api.methods.friend'
+[47/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/grandexchange/package-summary.html
+Processed package 'org.dreambot.api.methods.grandexchange'
+[48/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/hint/package-summary.html
+Processed package 'org.dreambot.api.methods.hint'
+[49/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/hotkeys/package-summary.html
+Processed package 'org.dreambot.api.methods.hotkeys'
+[50/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/ignore/package-summary.html
+Processed package 'org.dreambot.api.methods.ignore'
+[51/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/input/package-summary.html
+Processed package 'org.dreambot.api.methods.input'
+[52/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/input/mouse/package-summary.html
+Processed package 'org.dreambot.api.methods.input.mouse'
+[53/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/interactive/package-summary.html
+Processed package 'org.dreambot.api.methods.interactive'
+[54/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/item/package-summary.html
+Processed package 'org.dreambot.api.methods.item'
+[55/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/login/package-summary.html
+Processed package 'org.dreambot.api.methods.login'
+[56/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/magic/package-summary.html
+Processed package 'org.dreambot.api.methods.magic'
+[57/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/magic/cost/package-summary.html
+Processed package 'org.dreambot.api.methods.magic.cost'
+[58/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/map/package-summary.html
+Processed package 'org.dreambot.api.methods.map'
+[59/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/minigame/package-summary.html
+Processed package 'org.dreambot.api.methods.minigame'
+[60/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/prayer/package-summary.html
+Processed package 'org.dreambot.api.methods.prayer'
+[61/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/quest/package-summary.html
+Processed package 'org.dreambot.api.methods.quest'
+[62/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/quest/book/package-summary.html
+Processed package 'org.dreambot.api.methods.quest.book'
+[63/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/quest/book/requirement/package-summary.html
+Processed package 'org.dreambot.api.methods.quest.book.requirement'
+[64/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/quest/book/requirement/skill/package-summary.html
+Processed package 'org.dreambot.api.methods.quest.book.requirement.skill'
+[65/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/settings/package-summary.html
+Processed package 'org.dreambot.api.methods.settings'
+[66/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/settings/vars/package-summary.html
+Processed package 'org.dreambot.api.methods.settings.vars'
+[67/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/skills/package-summary.html
+Processed package 'org.dreambot.api.methods.skills'
+[68/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/tabs/package-summary.html
+Processed package 'org.dreambot.api.methods.tabs'
+[69/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/trade/package-summary.html
+Processed package 'org.dreambot.api.methods.trade'
+[70/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/walking/package-summary.html
+Processed package 'org.dreambot.api.methods.walking'
+[71/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/walking/impl/package-summary.html
+Processed package 'org.dreambot.api.methods.walking.impl'
+[72/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/walking/path/package-summary.html
+Processed package 'org.dreambot.api.methods.walking.path'
+[73/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/walking/path/impl/package-summary.html
+Processed package 'org.dreambot.api.methods.walking.path.impl'
+[74/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/data/package-summary.html
+Processed package 'org.dreambot.api.methods.walking.pathfinding.data'
+[75/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/package-summary.html
+Processed package 'org.dreambot.api.methods.walking.pathfinding.impl'
+[76/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/local/package-summary.html
+Processed package 'org.dreambot.api.methods.walking.pathfinding.impl.local'
+[77/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/node/package-summary.html
+Processed package 'org.dreambot.api.methods.walking.pathfinding.impl.node'
+[78/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/obstacle/package-summary.html
+Processed package 'org.dreambot.api.methods.walking.pathfinding.impl.obstacle'
+[79/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/obstacle/impl/package-summary.html
+Processed package 'org.dreambot.api.methods.walking.pathfinding.impl.obstacle.impl'
+[80/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/web/package-summary.html
+Processed package 'org.dreambot.api.methods.walking.pathfinding.impl.web'
+[81/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/package-summary.html
+Processed package 'org.dreambot.api.methods.walking.web.node'
+[82/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/builder/package-summary.html
+Processed package 'org.dreambot.api.methods.walking.web.node.builder'
+[83/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/package-summary.html
+Processed package 'org.dreambot.api.methods.walking.web.node.impl'
+[84/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/items/package-summary.html
+Processed package 'org.dreambot.api.methods.walking.web.node.impl.items'
+[85/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/pathaware/package-summary.html
+Processed package 'org.dreambot.api.methods.walking.web.node.impl.pathaware'
+[86/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/teleports/package-summary.html
+Processed package 'org.dreambot.api.methods.walking.web.node.impl.teleports'
+[87/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/teleports/poh/package-summary.html
+Processed package 'org.dreambot.api.methods.walking.web.node.impl.teleports.poh'
+[88/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/widget/package-summary.html
+Processed package 'org.dreambot.api.methods.widget'
+[89/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/widget/helpers/package-summary.html
+Processed package 'org.dreambot.api.methods.widget.helpers'
+[90/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/world/package-summary.html
+Processed package 'org.dreambot.api.methods.world'
+[91/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/methods/worldhopper/package-summary.html
+Processed package 'org.dreambot.api.methods.worldhopper'
+[92/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/randoms/package-summary.html
+Processed package 'org.dreambot.api.randoms'
+[93/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/script/package-summary.html
+Processed package 'org.dreambot.api.script'
+[94/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/script/event/package-summary.html
+Processed package 'org.dreambot.api.script.event'
+[95/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/package-summary.html
+Processed package 'org.dreambot.api.script.event.impl'
+[96/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/script/frameworks/treebranch/package-summary.html
+Processed package 'org.dreambot.api.script.frameworks.treebranch'
+[97/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/script/impl/package-summary.html
+Processed package 'org.dreambot.api.script.impl'
+[98/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/script/listener/package-summary.html
+Processed package 'org.dreambot.api.script.listener'
+[99/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/script/loader/package-summary.html
+Processed package 'org.dreambot.api.script.loader'
+[100/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/script/schedule/package-summary.html
+Processed package 'org.dreambot.api.script.schedule'
+[101/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/script/schedule/conditions/package-summary.html
+Processed package 'org.dreambot.api.script.schedule.conditions'
+[102/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/settings/package-summary.html
+Processed package 'org.dreambot.api.settings'
+[103/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/utilities/package-summary.html
+Processed package 'org.dreambot.api.utilities'
+[104/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/utilities/impl/package-summary.html
+Processed package 'org.dreambot.api.utilities.impl'
+[105/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/wrappers/cache/nodes/package-summary.html
+Processed package 'org.dreambot.api.wrappers.cache.nodes'
+[106/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/wrappers/cache/nodes/impl/package-summary.html
+Processed package 'org.dreambot.api.wrappers.cache.nodes.impl'
+[107/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/wrappers/graphics/package-summary.html
+Processed package 'org.dreambot.api.wrappers.graphics'
+[108/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/package-summary.html
+Processed package 'org.dreambot.api.wrappers.interactive'
+[109/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/action/package-summary.html
+Processed package 'org.dreambot.api.wrappers.interactive.action'
+[110/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/composite/package-summary.html
+Processed package 'org.dreambot.api.wrappers.interactive.composite'
+[111/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/interact/package-summary.html
+Processed package 'org.dreambot.api.wrappers.interactive.interact'
+[112/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/util/package-summary.html
+Processed package 'org.dreambot.api.wrappers.interactive.util'
+[113/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/wrappers/items/package-summary.html
+Processed package 'org.dreambot.api.wrappers.items'
+[114/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/wrappers/map/package-summary.html
+Processed package 'org.dreambot.api.wrappers.map'
+[115/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/wrappers/map/impl/package-summary.html
+Processed package 'org.dreambot.api.wrappers.map.impl'
+[116/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/wrappers/widgets/package-summary.html
+Processed package 'org.dreambot.api.wrappers.widgets'
+[117/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/wrappers/widgets/builder/package-summary.html
+Processed package 'org.dreambot.api.wrappers.widgets.builder'
+[118/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/api/wrappers/widgets/message/package-summary.html
+Processed package 'org.dreambot.api.wrappers.widgets.message'
+[119/119] Processing package URL: https://dreambot.org/javadocs/org/dreambot/core/package-summary.html
+Processed package 'org.dreambot.core'
+Structured documentation saved to: D:\RS_AI\ALL DOCS\New Classes and enums filtered by package\structured_entities.json

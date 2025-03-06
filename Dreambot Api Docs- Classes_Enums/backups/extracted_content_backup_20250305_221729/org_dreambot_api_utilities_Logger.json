@@ -1,0 +1,249 @@
+{
+  "name": "Logger",
+  "full_name": "org.dreambot.api.utilities.Logger",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/utilities/Logger.html",
+  "type": "class",
+  "package": "org.dreambot.api.utilities",
+  "description": "Returns the path to the log file for this instance",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [
+    {
+      "name": "Constructor Summary\n\nConstructors\u00a0\n\nConstructor\nDescription\n\n\nLogger()",
+      "description": "",
+      "modifiers": []
+    }
+  ],
+  "methods": [
+    {
+      "name": "isDisplayDebugMessages",
+      "signature": "public static boolean isDisplayDebugMessages()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if displaydebugmessages.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setDisplayDebugMessages",
+      "signature": "public static void setDisplayDebugMessages\u200b(boolean displayDebugMessages)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the displaydebugmessages.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isCommandLogging",
+      "signature": "public static boolean isCommandLogging()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if commandlogging.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setCommandLogging",
+      "signature": "public static void setCommandLogging\u200b(boolean commandLogging)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the commandlogging.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isConsoleLogging",
+      "signature": "public static boolean isConsoleLogging()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if consolelogging.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setConsoleLogging",
+      "signature": "public static void setConsoleLogging\u200b(boolean consoleLogging)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the consolelogging.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "log",
+      "signature": "public static void log\u200b(Logger.LogType level, java.lang.Object obj)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the log operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "error",
+      "signature": "public static void error\u200b(java.lang.Object object, java.lang.Throwable e)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the error operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "format",
+      "signature": "public static void format\u200b(java.lang.String format, java.lang.Object... args)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the format operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "info",
+      "signature": "public static void info\u200b(java.lang.Object object)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the info operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "debug",
+      "signature": "public static void debug\u200b(java.lang.Object object)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the debug operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isDebugDisabled",
+      "signature": "public static boolean isDebugDisabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if debugdisabled.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setForceNoDebug",
+      "signature": "public static void setForceNoDebug\u200b(boolean forced)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the forcenodebug.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "warn",
+      "signature": "public static void warn\u200b(java.lang.Object object)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the warn operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "commandLog",
+      "signature": "public static void commandLog\u200b(Logger.LogType level, java.lang.Object obj)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the commandLog operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "consoleLog",
+      "signature": "public static void consoleLog\u200b(Logger.LogType level, java.lang.Object obj)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the consoleLog operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCurrentLogPath",
+      "signature": "public static java.lang.String getCurrentLogPath()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the path to the log file for this instance",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

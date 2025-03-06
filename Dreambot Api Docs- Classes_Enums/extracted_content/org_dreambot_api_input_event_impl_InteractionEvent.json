@@ -1,0 +1,177 @@
+{
+  "name": "InteractionEvent",
+  "full_name": "org.dreambot.api.input.event.impl.InteractionEvent",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/InteractionEvent.html",
+  "type": "class",
+  "package": "org.dreambot.api.input.event.impl",
+  "description": "Created by Chris on 2/22/2015.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.input.event.AbstractEvent",
+    "org.dreambot.api.input.event.impl.mouse.AbstractMouseEvent",
+    "org.dreambot.api.input.event.impl.mouse.impl.MoveEvent",
+    "AbstractMouseDestination"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Condition",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the Condition operation.",
+      "deprecated": false
+    },
+    {
+      "name": "getInterrupt",
+      "signature": "public Condition getInterrupt()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the interrupt.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setInterrupt",
+      "signature": "public void setInterrupt\u200b(Condition c)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the interrupt.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "interactForceLeft",
+      "signature": "public boolean interactForceLeft\u200b(java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Interacts with current object by forcing a left click. (Interact without using Menus)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "interactForceRight",
+      "signature": "public boolean interactForceRight\u200b(java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Interacts with the current object by forcing a left right. (Interact using Menus)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "interact",
+      "signature": "public boolean interact\u200b(java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Interacts with the given object using an action. Will choose best type interaction, using both left and right clicks.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "failed",
+      "signature": "public Condition failed()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: MoveEvent",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "stop",
+      "signature": "public void stop()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Kills the current interaction event instance.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isHoverOnly",
+      "signature": "public boolean isHoverOnly()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if hoveronly.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setHoverOnly",
+      "signature": "public void setHoverOnly\u200b(boolean hoverOnly)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the hoveronly.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMaxRetryAttempts",
+      "signature": "public static int getMaxRetryAttempts()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the maxretryattempts.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setMaxRetryAttempts",
+      "signature": "public static void setMaxRetryAttempts\u200b(int maxRetryAttempts)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the maxretryattempts.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

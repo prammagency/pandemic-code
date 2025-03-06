@@ -1,0 +1,164 @@
+{
+  "name": "Lunar",
+  "full_name": "org.dreambot.api.methods.magic.Lunar",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/magic/Lunar.html",
+  "type": "enum",
+  "package": "org.dreambot.api.methods.magic",
+  "description": "Created by Pandemic",
+  "page_structure": {
+    "type": "enum",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "Lunar"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Rune",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "Lunar",
+      "return_type": "Lunar[]",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Returns an array containing the constants of this enum type, in the order they are declared.",
+      "deprecated": false
+    },
+    {
+      "name": "values",
+      "signature": "public static Lunar[] values()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns an array containing the constants of this enum type, in the order they are declared. This method may be used to iterate over the constants as follows: for (Lunar c : Lunar.values()) System.out.println(c);",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "valueOf",
+      "signature": "public static Lunar valueOf\u200b(java.lang.String name)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the enum constant of this type with the specified name. The string must match exactly an identifier used to declare an enum constant in this type. (Extraneous whitespace characters are not permitted.)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getExperience",
+      "signature": "public double getExperience()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLevel",
+      "signature": "public int getLevel()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getParent",
+      "signature": "public int getParent()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getChild",
+      "signature": "public int getChild()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCost",
+      "signature": "public Rune[] getCost()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMaxHit",
+      "signature": "public int getMaxHit()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toString",
+      "signature": "public java.lang.String toString()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": [],
+  "enum_constants": [
+    {
+      "name": "Enum",
+      "description": "Constant Summary\n\nEnum Constants  Enum Constant | Description  \n---|---  \n`BAKE_PIE` |    \n`BARBARIAN_TELEPORT` |    \n`BOOST_POTION_SHARE` |    \n`CATHERBY_TELEPORT` |    \n`CURE_GROUP` |    \n`CURE_ME` |    \n`CURE_OTHER` |    \n`CURE_PLANT` |    \n`DREAM` |    \n`ENERGY_TRANSFER` |    \n`FERTILE_SOIL` |    \n`FISHING_GUILD_TELEPORT` |    \n`GEOMANCY` |    \n`HEAL_GROUP` |    \n`HEAL_OTHER` |    \n`HUMIDIFY` |    \n`HUNTER_KIT` |    \n`ICE_PLATEAU_TELEPORT` |    \n`KHAZARD_TELEPORT` |    \n`LUNAR_HOME_TELEPORT` |    \n`MAGIC_IMBUE` |    \n`MONSTER_EXAMINE` |    \n`MOONCLAN_TELEPORT` |    \n`NPC_CONTACT` |    \n`OURANIA_TELEPORT` |    \n`PLANK_MAKE` |    \n`RECHARGE_DRAGONSTONE` |    \n`SPELLBOOK_SWAP` |    \n`SPIN_FLAX` |    \n`STAT_RESTORE_POTION_SHARE` |    \n`STAT_SPY` |    \n`STRING_JEWELLERY` |    \n`SUPERGLASS_MAKE` |    \n`TAN_LEATHER` |    \n`TELE_GROUP_BARBARIAN` |    \n`TELE_GROUP_CATHERBY` |    \n`TELE_GROUP_FISHING_GUILD` |    \n`TELE_GROUP_ICE_PLATEAU` |    \n`TELE_GROUP_KHAZARD` |    \n`TELE_GROUP_MOONCLAN` |    \n`TELE_GROUP_WATERBIRTH` |    \n`VENGEANCE` |    \n`VENGEANCE_OTHER` |    \n`WATERBIRTH_TELEPORT` |    \n    * ### Method Summary\n\nAll Methods [Static Methods](javascript:show\\(1\\);) [Instance Methods](javascript:show\\(2\\);) [Concrete Methods](javascript:show\\(8\\);)  Modifier and Type | Method | Description  \n---|---|---  \n`int` | `getChild()` |    \n`[Rune](cost/Rune.html \"class in org.dreambot.api.methods.magic.cost\")[]` | `getCost()` |    \n`double` | `getExperience()` |    \n`int` | `getLevel()` |    \n`int` | `getMaxHit()` |    \n`int` | `getParent()` |    \n`java.lang.String` | `toString()` |    \n`static [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\")` | `valueOf\u200b(java.lang.String name)` |  Returns the enum constant of this type with the specified name.  \n`static [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\")[]` | `values()` |  Returns an array containing the constants of this enum type, in the order they are declared.  \n      * ### Methods inherited from class java.lang.Enum\n\n`compareTo, equals, getDeclaringClass, hashCode, name, ordinal, valueOf`\n\n      * ### Methods inherited from class java.lang.Object\n\n`getClass, notify, notifyAll, wait, wait, wait`\n\n      * ### Methods inherited from interface org.dreambot.api.methods.magic.[Spell](Spell.html \"interface in org.dreambot.api.methods.magic\")\n\n`[getWidget](Spell.html#getWidget\\(\\))`\n\n  *     * ### Enum Constant Detail\n\n      * #### LUNAR_HOME_TELEPORT\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") LUNAR_HOME_TELEPORT\n\n      * #### BAKE_PIE\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") BAKE_PIE\n\n      * #### CURE_PLANT\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") CURE_PLANT\n\n      * #### MONSTER_EXAMINE\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") MONSTER_EXAMINE\n\n      * #### NPC_CONTACT\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") NPC_CONTACT\n\n      * #### CURE_OTHER\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") CURE_OTHER\n\n      * #### HUMIDIFY\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") HUMIDIFY\n\n      * #### MOONCLAN_TELEPORT\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") MOONCLAN_TELEPORT\n\n      * #### TELE_GROUP_MOONCLAN\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") TELE_GROUP_MOONCLAN\n\n      * #### CURE_ME\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") CURE_ME\n\n      * #### HUNTER_KIT\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") HUNTER_KIT\n\n      * #### WATERBIRTH_TELEPORT\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") WATERBIRTH_TELEPORT\n\n      * #### TELE_GROUP_WATERBIRTH\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") TELE_GROUP_WATERBIRTH\n\n      * #### CURE_GROUP\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") CURE_GROUP\n\n      * #### STAT_SPY\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") STAT_SPY\n\n      * #### BARBARIAN_TELEPORT\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") BARBARIAN_TELEPORT\n\n      * #### TELE_GROUP_BARBARIAN\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") TELE_GROUP_BARBARIAN\n\n      * #### SUPERGLASS_MAKE\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") SUPERGLASS_MAKE\n\n      * #### TAN_LEATHER\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") TAN_LEATHER\n\n      * #### KHAZARD_TELEPORT\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") KHAZARD_TELEPORT\n\n      * #### TELE_GROUP_KHAZARD\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") TELE_GROUP_KHAZARD\n\n      * #### DREAM\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") DREAM\n\n      * #### STRING_JEWELLERY\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") STRING_JEWELLERY\n\n      * #### STAT_RESTORE_POTION_SHARE\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") STAT_RESTORE_POTION_SHARE\n\n      * #### MAGIC_IMBUE\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") MAGIC_IMBUE\n\n      * #### FERTILE_SOIL\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") FERTILE_SOIL\n\n      * #### BOOST_POTION_SHARE\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") BOOST_POTION_SHARE\n\n      * #### FISHING_GUILD_TELEPORT\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") FISHING_GUILD_TELEPORT\n\n      * #### TELE_GROUP_FISHING_GUILD\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") TELE_GROUP_FISHING_GUILD\n\n      * #### PLANK_MAKE\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") PLANK_MAKE\n\n      * #### CATHERBY_TELEPORT\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") CATHERBY_TELEPORT\n\n      * #### TELE_GROUP_CATHERBY\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") TELE_GROUP_CATHERBY\n\n      * #### RECHARGE_DRAGONSTONE\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") RECHARGE_DRAGONSTONE\n\n      * #### ICE_PLATEAU_TELEPORT\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") ICE_PLATEAU_TELEPORT\n\n      * #### TELE_GROUP_ICE_PLATEAU\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") TELE_GROUP_ICE_PLATEAU\n\n      * #### ENERGY_TRANSFER\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") ENERGY_TRANSFER\n\n      * #### HEAL_OTHER\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") HEAL_OTHER\n\n      * #### VENGEANCE_OTHER\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") VENGEANCE_OTHER\n\n      * #### VENGEANCE\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") VENGEANCE\n\n      * #### HEAL_GROUP\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") HEAL_GROUP\n\n      * #### SPELLBOOK_SWAP\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") SPELLBOOK_SWAP\n\n      * #### GEOMANCY\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") GEOMANCY\n\n      * #### SPIN_FLAX\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") SPIN_FLAX\n\n      * #### OURANIA_TELEPORT\n            \n                        public static final [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") OURANIA_TELEPORT\n\n    * ### Method Detail\n\n      * #### values\n            \n                        public static [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\")[] values()\n\nReturns an array containing the constants of this enum type, in the order they\nare declared. This method may be used to iterate over the constants as\nfollows:\n\n            \n                        for (Lunar c : Lunar.values())\n                System.out.println(c);\n            \n\nReturns:\n\n    an array containing the constants of this enum type, in the order they are declared\n      * #### valueOf\n            \n                        public static [Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\") valueOf\u200b(java.lang.String name)\n\nReturns the enum constant of this type with the specified name. The string\nmust match _exactly_ an identifier used to declare an enum constant in this\ntype. (Extraneous whitespace characters are not permitted.)\n\nParameters:\n\n    `name` \\- the name of the enum constant to be returned.\nReturns:\n\n    the enum constant with the specified name\nThrows:\n\n    `java.lang.IllegalArgumentException` \\- if this enum type has no constant with the specified name\n    `java.lang.NullPointerException` \\- if the argument is null\n      * #### getExperience\n            \n                        public double getExperience()\n\n      * #### getLevel\n            \n                        public int getLevel()\n\nSpecified by:\n\n    `[getLevel](Spell.html#getLevel\\(\\))` in interface `[Spell](Spell.html \"interface in org.dreambot.api.methods.magic\")`\n      * #### getParent\n            \n                        public int getParent()\n\nSpecified by:\n\n    `[getParent](Spell.html#getParent\\(\\))` in interface `[Spell](Spell.html \"interface in org.dreambot.api.methods.magic\")`\n      * #### getChild\n            \n                        public int getChild()\n\nSpecified by:\n\n    `[getChild](Spell.html#getChild\\(\\))` in interface `[Spell](Spell.html \"interface in org.dreambot.api.methods.magic\")`\n      * #### getCost\n            \n                        public [Rune](cost/Rune.html \"class in org.dreambot.api.methods.magic.cost\")[] getCost()\n\nSpecified by:\n\n    `[getCost](Spell.html#getCost\\(\\))` in interface `[Spell](Spell.html \"interface in org.dreambot.api.methods.magic\")`\n      * #### getMaxHit\n            \n                        public int getMaxHit()\n\nSpecified by:\n\n    `[getMaxHit](Spell.html#getMaxHit\\(\\))` in interface `[Spell](Spell.html \"interface in org.dreambot.api.methods.magic\")`\n      * #### toString\n            \n                        public java.lang.String toString()\n\nOverrides:\n\n    `toString` in class `java.lang.Enum<[Lunar](Lunar.html \"enum in org.dreambot.api.methods.magic\")>`\n\nSkip navigation links\n\n  * [Overview](../../../../../overview-summary.html)\n  * [Package](package-summary.html)\n  * Class\n  * [Tree](package-tree.html)\n  * [Deprecated](../../../../../deprecated-list.html)\n  * [Index](../../../../../index-all.html)\n  * [Help](../../../../../help-doc.html)\n\n  * [Frames](../../../../../index.html?org/dreambot/api/methods/magic/Lunar.html)\n  * [No Frames](Lunar.html)\n\n  * [All Classes](../../../../../allclasses-noframe.html)\n\nJavaScript is disabled on your browser.\n\n  * Summary: \n  * Nested | \n  * Enum Constants | \n  * Field | \n  * Method\n\n  * Detail: \n  * Enum Constants | \n  * Field | \n  * Method"
+    }
+  ],
+  "extraction_fallback_used": true
+}

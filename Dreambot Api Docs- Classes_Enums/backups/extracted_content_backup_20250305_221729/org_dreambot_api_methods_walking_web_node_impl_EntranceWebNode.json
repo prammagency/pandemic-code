@@ -1,0 +1,299 @@
+{
+  "name": "EntranceWebNode",
+  "full_name": "org.dreambot.api.methods.walking.web.node.impl.EntranceWebNode",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/EntranceWebNode.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.walking.web.node.impl",
+  "description": "Web node that uses an object to go somewhere on a different plane or far away Default weight of 25",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.methods.walking.web.node.AbstractWebNode"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Condition",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the Condition operation.",
+      "deprecated": false
+    },
+    {
+      "name": "Tile",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the Tile operation.",
+      "deprecated": false
+    },
+    {
+      "name": "RequiredItem",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the RequiredItem operation.",
+      "deprecated": false
+    },
+    {
+      "name": "WebNodeType",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the WebNodeType of this node, used during path finding to ensure they're not disabled by the script",
+      "deprecated": false
+    },
+    {
+      "name": "getType",
+      "signature": "public WebNodeType getType()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: AbstractWebNode",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "execute",
+      "signature": "public boolean execute\u200b(AbstractWebNode nextNode)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: AbstractWebNode",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hasRequirements",
+      "signature": "public boolean hasRequirements()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: AbstractWebNode",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "forceNext",
+      "signature": "public boolean forceNext()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: AbstractWebNode",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isValid",
+      "signature": "public boolean isValid()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: AbstractWebNode",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toString",
+      "signature": "public java.lang.String toString()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the toString operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getEntityName",
+      "signature": "public java.lang.String getEntityName()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the entityname.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAction",
+      "signature": "public java.lang.String getAction()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the action.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getActions",
+      "signature": "public java.lang.String[] getActions()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the actions.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCondition",
+      "signature": "public Condition getCondition()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the condition.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isUseSleeps",
+      "signature": "public boolean isUseSleeps()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if usesleeps.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getForcedObjTile",
+      "signature": "public Tile getForcedObjTile()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the forcedobjtile.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRequiredItems",
+      "signature": "public java.util.List<RequiredItem> getRequiredItems()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the requireditems.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setEntityName",
+      "signature": "public void setEntityName\u200b(java.lang.String entityName)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the entityname.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setAction",
+      "signature": "public void setAction\u200b(java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the action.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setActions",
+      "signature": "public void setActions\u200b(java.lang.String[] actions)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the actions.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setCondition",
+      "signature": "public void setCondition\u200b(Condition condition)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the condition.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setUseSleeps",
+      "signature": "public void setUseSleeps\u200b(boolean useSleeps)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the usesleeps.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setForcedObjTile",
+      "signature": "public void setForcedObjTile\u200b(Tile forcedObjTile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the forcedobjtile.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

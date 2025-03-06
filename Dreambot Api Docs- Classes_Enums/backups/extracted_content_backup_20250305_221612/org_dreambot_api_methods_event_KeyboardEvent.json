@@ -1,0 +1,191 @@
+{
+  "name": "KeyboardEvent",
+  "full_name": "org.dreambot.api.methods.event.KeyboardEvent",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/event/KeyboardEvent.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.event",
+  "description": "Deprecated.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "generateEvent",
+      "signature": "public void generateEvent()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "pressEnter",
+      "signature": "public void pressEnter()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "pressBackspace",
+      "signature": "public void pressBackspace()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "pressEsc",
+      "signature": "public void pressEsc()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "pressSpecialKey",
+      "signature": "public void pressSpecialKey\u200b(int key)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "shift",
+      "signature": "public void shift\u200b(int eventType)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Pushes shift and then sleeps for the calculated sleep time afterwards",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "control",
+      "signature": "public void control\u200b(int eventType)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Pushes control and then sleeps for the calculated sleep time afterwards",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "dispatchPressed",
+      "signature": "public void dispatchPressed\u200b(char character)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "dispatchTyped",
+      "signature": "public void dispatchTyped\u200b(char character)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "dispatchReleased",
+      "signature": "public void dispatchReleased\u200b(char character)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "run",
+      "signature": "public void run()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMistake",
+      "signature": "public java.lang.String getMistake\u200b(char c)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRandomCharInString",
+      "signature": "public java.lang.String getRandomCharInString\u200b(java.lang.String string)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

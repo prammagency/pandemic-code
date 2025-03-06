@@ -1,0 +1,325 @@
+{
+  "name": "PathObstacle",
+  "full_name": "org.dreambot.api.methods.walking.pathfinding.impl.obstacle.PathObstacle",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/obstacle/PathObstacle.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.walking.pathfinding.impl.obstacle",
+  "description": "Created with IntelliJ IDEA.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "PathObstacle",
+      "return_type": "PathObstacle",
+      "modifiers": [
+        "abstract"
+      ],
+      "description": "Creates a new PathObstacle setting the obstacles tile Note: This MUST return a new PathObstacle with the correct obstacle tile",
+      "deprecated": false
+    },
+    {
+      "name": "Condition",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "Tile",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the start tile for the obstacle",
+      "deprecated": false
+    },
+    {
+      "name": "GameObject",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get obstacle.",
+      "deprecated": false
+    },
+    {
+      "name": "duplicate",
+      "signature": "public abstract PathObstacle duplicate\u200b(Tile obsTile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Creates a new PathObstacle setting the obstacles tile Note: This MUST return a new PathObstacle with the correct obstacle tile",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getName",
+      "signature": "public java.lang.String getName()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets name.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setName",
+      "signature": "public void setName\u200b(java.lang.String name)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets name.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAction",
+      "signature": "public java.lang.String getAction()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets action.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setAction",
+      "signature": "public void setAction\u200b(java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets action.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getEndTile",
+      "signature": "public Tile getEndTile()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the ending tile of the obstacle",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setEndTile",
+      "signature": "public void setEndTile\u200b(Tile endTile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the ending tile of the obstacle",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getObstacleTile",
+      "signature": "public Tile getObstacleTile()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Tile the obstacle is on",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setObstacleTile",
+      "signature": "public void setObstacleTile\u200b(Tile obstacleTile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the Tile the obstacle is on",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getStartTile",
+      "signature": "public Tile getStartTile()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the start tile for the obstacle",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setStartTile",
+      "signature": "public void setStartTile\u200b(Tile start)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the start tile of the obstacle",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getObstacle",
+      "signature": "public GameObject getObstacle()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get obstacle.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "exists",
+      "signature": "public boolean exists()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks whether the obstacles name, action, end tile, start tile, existing tile, and object itself exist",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isCompleted",
+      "signature": "public abstract boolean isCompleted()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the obstacle has been completed",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isValid",
+      "signature": "public boolean isValid()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks to see if the obstacle exists",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "traverse",
+      "signature": "public boolean traverse()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Traverses the obstacle **NOTE** this is not abstract to preserve current compilation of existing overrides At some point when deprecated methods start to be removed, this *will* become abstract",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getPriority",
+      "signature": "public int getPriority()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the priority of the obstacle, a higher integer means a higher priority, the highest priority obstacle found on a tile will be executed.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "equals",
+      "signature": "public boolean equals\u200b(java.lang.Object obj)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hashCode",
+      "signature": "public int hashCode()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCondition",
+      "signature": "public Condition getCondition()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setCondition",
+      "signature": "public void setCondition\u200b(Condition condition)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

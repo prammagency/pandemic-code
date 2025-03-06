@@ -1,0 +1,90 @@
+{
+  "name": "Branch",
+  "full_name": "org.dreambot.api.script.frameworks.treebranch.Branch",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/script/frameworks/treebranch/Branch.html",
+  "type": "class",
+  "package": "org.dreambot.api.script.frameworks.treebranch",
+  "description": "Branch of the framework, holds on to leaf children",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.script.frameworks.treebranch.Leaf"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Branch",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Add leaves to this branch",
+      "deprecated": false
+    },
+    {
+      "name": "Leaf",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "addLeaves",
+      "signature": "public final Branch addLeaves\u200b(Leaf... leaves)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Add leaves to this branch",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "clear",
+      "signature": "public final void clear()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Clears the leaves of this branch",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onLoop",
+      "signature": "public int onLoop()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Runs the first valid leaf that is found Sets the currently executing branch and leaf information with TreeScript.setCurrentBranchName(String) and TreeScript.setCurrentLeafName(String)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getChildren",
+      "signature": "public java.util.List<Leaf> getChildren()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

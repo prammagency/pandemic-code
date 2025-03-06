@@ -1,0 +1,48 @@
+{
+  "name": "Identifiable",
+  "full_name": "org.dreambot.api.wrappers.interactive.Identifiable",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/Identifiable.html",
+  "type": "interface",
+  "package": "org.dreambot.api.wrappers.interactive",
+  "description": "Created with IntelliJ IDEA. User: NotoriousPP Date: 7/29/2014 Time: 12:31 PM",
+  "page_structure": {
+    "type": "interface",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "getID",
+      "return_type": "",
+      "modifiers": [],
+      "description": "getID int getID() Gets ID number of the given object. Returns: the ID number as integer.",
+      "deprecated": false,
+      "signature": "int getID()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      }
+    },
+    {
+      "name": "getName",
+      "return_type": "",
+      "modifiers": [],
+      "description": "getName java.lang.String getName() Gets the name of the given object. Returns: the name as a string.",
+      "deprecated": false,
+      "signature": "java.lang.String getName()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      }
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

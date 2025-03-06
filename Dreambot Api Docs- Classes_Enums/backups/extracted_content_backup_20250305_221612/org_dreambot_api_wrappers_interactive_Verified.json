@@ -1,0 +1,35 @@
+{
+  "name": "Verified",
+  "full_name": "org.dreambot.api.wrappers.interactive.Verified",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/Verified.html",
+  "type": "interface",
+  "package": "org.dreambot.api.wrappers.interactive",
+  "description": "Created with IntelliJ IDEA. User: NotoriousPP Date: 7/29/2014 Time: 12:29 PM",
+  "page_structure": {
+    "type": "interface",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "exists",
+      "return_type": "",
+      "modifiers": [],
+      "description": "exists boolean exists() Determines where or not this object exists in game. Returns: true, if the object exist, otherwise false.",
+      "deprecated": false,
+      "signature": "boolean exists()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      }
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

@@ -1,0 +1,133 @@
+{
+  "name": "NodeSub",
+  "full_name": "org.dreambot.api.wrappers.cache.nodes.NodeSub",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/cache/nodes/NodeSub.html",
+  "type": "class",
+  "package": "org.dreambot.api.wrappers.cache.nodes",
+  "description": "Class NodeSub in the org.dreambot.api.wrappers.cache.nodes package provides functionality for DreamBot scripts.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "NodeSub",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the NodeSub operation.",
+      "deprecated": false
+    },
+    {
+      "name": "getUID",
+      "signature": "public long getUID()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the uid.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setUid",
+      "signature": "public void setUid\u200b(long uid)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the uid.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getPrevious",
+      "signature": "public NodeSub getPrevious()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the previous.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setPrevious",
+      "signature": "public void setPrevious\u200b(NodeSub previous)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the previous.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getNext",
+      "signature": "public NodeSub getNext()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the next.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setNext",
+      "signature": "public void setNext\u200b(NodeSub next)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the next.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hasNext",
+      "signature": "public boolean hasNext()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if has next.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "remove",
+      "signature": "public final void remove()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the remove operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

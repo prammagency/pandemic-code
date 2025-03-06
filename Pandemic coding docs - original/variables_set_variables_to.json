@@ -1,0 +1,516 @@
+{
+  "sleep": "500",
+  "name": "",
+  "version": 1.0,
+  "actions": [
+    {
+      "id": "SET_VARIABLE",
+      "children": [
+        {
+          "id": "SET_VARIABLE_TO_VARIABLES_JSON",
+          "children": [
+            {
+              "id": "SET_VARIABLE_TO_RANDOM",
+              "children": [
+                {
+                  "id": "SET_VARIABLE_TO_FILE_TEXT",
+                  "children": [
+                    {
+                      "id": "SET_VARIABLE_TO_LAST_OUTPUT",
+                      "children": [
+                        {
+                          "id": "SET_VARIABLE_TO_PARAMETER",
+                          "children": [
+                            {
+                              "id": "SET_VARIABLE_TO_VARIABLE_VALUE",
+                              "children": [
+                                {
+                                  "id": "SET_VARIABLE_TO_GAME_TICK",
+                                  "children": [
+                                    {
+                                      "id": "SET_VARIABLE_TO_CURRENT_TIME",
+                                      "children": [
+                                        {
+                                          "id": "SET_VARIABLE_TO_DAY_OF_WEEK",
+                                          "children": [
+                                            {
+                                              "id": "SET_VARIABLE_TO_SCRIPT_RUNTIME",
+                                              "children": [
+                                                {
+                                                  "id": "SET_VARIABLE_TO_TRANSLATED_TILE",
+                                                  "children": [
+                                                    {
+                                                      "id": "SET_VARIABLE_TO_DESTINATION",
+                                                      "children": [
+                                                        {
+                                                          "id": "SET_VARIABLE_TO_BASE_X",
+                                                          "children": [
+                                                            {
+                                                              "id": "SET_VARIABLE_TO_BASE_Y",
+                                                              "children": [
+                                                                {
+                                                                  "id": "SET_VARIABLE_TO_CURRENT_WORLD",
+                                                                  "children": [
+                                                                    {
+                                                                      "id": "SET_TO_SOCKET_LAST_CONNECTED_IP",
+                                                                      "children": [
+                                                                        {
+                                                                          "id": "SET_TO_AREA_AROUND_TILE",
+                                                                          "children": [
+                                                                            {
+                                                                              "id": "SET_TO_RANDOM_TILE_IN_AREA",
+                                                                              "children": [
+                                                                                {
+                                                                                  "id": "SET_TO_BITWISE_AND",
+                                                                                  "children": [
+                                                                                    {
+                                                                                      "id": "SET_TO_BITWISE_OR",
+                                                                                      "children": [
+                                                                                        {
+                                                                                          "id": "SET_TO_BITWISE_LEFT_SHIFT",
+                                                                                          "children": [
+                                                                                            {
+                                                                                              "id": "SET_TO_BITWISE_RIGHT_SHIFT"
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    },
+                                                                                    {
+                                                                                      "id": "SET_VARIABLE_TO_YAW",
+                                                                                      "children": [
+                                                                                        {
+                                                                                          "id": "SET_VARIABLE_TO_PITCH",
+                                                                                          "children": [
+                                                                                            {
+                                                                                              "id": "SET_VARIABLE_TO_ZOOM",
+                                                                                              "children": [
+                                                                                                {
+                                                                                                  "id": "SET_VARIABLE_TO_MAX_ZOOM",
+                                                                                                  "children": [
+                                                                                                    {
+                                                                                                      "id": "SET_VARIABLE_TO_CANVAS_WIDTH",
+                                                                                                      "children": [
+                                                                                                        {
+                                                                                                          "id": "SET_VARIABLE_TO_CANVAS_HEIGHT",
+                                                                                                          "children": [
+                                                                                                            {
+                                                                                                              "id": "SET_VARIABLE_TO_DREAMBOT_USERNAME",
+                                                                                                              "children": [
+                                                                                                                {
+                                                                                                                  "id": "SET_VARIABLE_TO_DREAMBOT_MEMBER_ID",
+                                                                                                                  "children": [
+                                                                                                                    {
+                                                                                                                      "id": "SET_VARIABLE_TO_MOUSE_SPEED",
+                                                                                                                      "children": [
+                                                                                                                        {
+                                                                                                                          "id": "SET_TO_CLIENT_ACCOUNT_NICKNAME",
+                                                                                                                          "children": [
+                                                                                                                            {
+                                                                                                                              "id": "SET_TO_CLIENT_ACCOUNT_USERNAME",
+                                                                                                                              "children": [
+                                                                                                                                {
+                                                                                                                                  "id": "SET_VARIABLE_TO_CLIENT_FPS",
+                                                                                                                                  "children": [
+                                                                                                                                    {
+                                                                                                                                      "id": "SET_TO_ITEM_NAME",
+                                                                                                                                      "children": [
+                                                                                                                                        {
+                                                                                                                                          "id": "SET_TO_ITEM_LIVE_PRICE",
+                                                                                                                                          "children": [
+                                                                                                                                            {
+                                                                                                                                              "id": "SET_TO_ITEM_LIVE_PRICE_NAME",
+                                                                                                                                              "children": [
+                                                                                                                                                {
+                                                                                                                                                  "id": "SET_TO_ITEM_SHOP_PRICE",
+                                                                                                                                                  "children": [
+                                                                                                                                                    {
+                                                                                                                                                      "id": "SET_TO_ITEM_HIGH_ALCH_PRICE",
+                                                                                                                                                      "children": [
+                                                                                                                                                        {
+                                                                                                                                                          "id": "SET_TO_ITEM_LOW_ALCH_PRICE",
+                                                                                                                                                          "children": [
+                                                                                                                                                            {
+                                                                                                                                                              "id": "SET_TO_LAST_MATCHING_ENTITY_ID",
+                                                                                                                                                              "children": [
+                                                                                                                                                                {
+                                                                                                                                                                  "id": "SET_TO_LAST_MATCHING_ENTITY_NAME",
+                                                                                                                                                                  "children": [
+                                                                                                                                                                    {
+                                                                                                                                                                      "id": "SET_TO_LAST_MATCHING_ENTITY_LEVEL",
+                                                                                                                                                                      "children": [
+                                                                                                                                                                        {
+                                                                                                                                                                          "id": "SET_TO_LAST_MATCHING_ENTITY_INDEX",
+                                                                                                                                                                          "children": [
+                                                                                                                                                                            {
+                                                                                                                                                                              "id": "SET_TO_LAST_MATCHING_ENTITY_HEALTH_PERCENTAGE",
+                                                                                                                                                                              "children": [
+                                                                                                                                                                                {
+                                                                                                                                                                                  "id": "SET_TO_LAST_MATCHING_ENTITY_TILE",
+                                                                                                                                                                                  "children": [
+                                                                                                                                                                                    {
+                                                                                                                                                                                      "id": "SET_TO_LAST_MATCHING_ENTITY_SERVER_TILE",
+                                                                                                                                                                                      "children": [
+                                                                                                                                                                                        {
+                                                                                                                                                                                          "id": "SET_TO_LAST_MATCHING_ENTITY_X",
+                                                                                                                                                                                          "children": [
+                                                                                                                                                                                            {
+                                                                                                                                                                                              "id": "SET_TO_LAST_MATCHING_ENTITY_Y",
+                                                                                                                                                                                              "children": [
+                                                                                                                                                                                                {
+                                                                                                                                                                                                  "id": "SET_TO_LAST_MATCHING_ENTITY_GRID_X",
+                                                                                                                                                                                                  "children": [
+                                                                                                                                                                                                    {
+                                                                                                                                                                                                      "id": "SET_TO_LAST_MATCHING_ENTITY_GRID_Y",
+                                                                                                                                                                                                      "children": [
+                                                                                                                                                                                                        {
+                                                                                                                                                                                                          "id": "SET_TO_LAST_MATCHING_ENTITY_ORIENTATION",
+                                                                                                                                                                                                          "children": [
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                              "id": "SET_TO_LAST_MATCHING_ITEM_ID",
+                                                                                                                                                                                                              "children": [
+                                                                                                                                                                                                                {
+                                                                                                                                                                                                                  "id": "SET_TO_LAST_MATCHING_ITEM_NAME",
+                                                                                                                                                                                                                  "children": [
+                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                      "id": "SET_TO_LAST_MATCHING_ITEM_AMOUNT",
+                                                                                                                                                                                                                      "children": [
+                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                          "id": "SET_TO_LAST_MATCHING_ITEM_LIVE_PRICE",
+                                                                                                                                                                                                                          "children": [
+                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                              "id": "SET_TO_LAST_MATCHING_ITEM_LIVE_PRICE",
+                                                                                                                                                                                                                              "children": [
+                                                                                                                                                                                                                                {
+                                                                                                                                                                                                                                  "id": "SET_TO_LAST_MATCHING_ITEM_SHOP_PRICE",
+                                                                                                                                                                                                                                  "children": [
+                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                      "id": "SET_TO_LAST_MATCHING_ITEM_HIGH_ALCH_PRICE",
+                                                                                                                                                                                                                                      "children": [
+                                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                                          "id": "SET_TO_LAST_MATCHING_ITEM_LOW_ALCH_PRICE",
+                                                                                                                                                                                                                                          "children": [
+                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                              "id": "SET_TO_LAST_MATCHING_ITEM_SLOT",
+                                                                                                                                                                                                                                              "children": [
+                                                                                                                                                                                                                                                {
+                                                                                                                                                                                                                                                  "id": "SET_TO_WIDGET_TEXT",
+                                                                                                                                                                                                                                                  "children": [
+                                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                                      "id": "SET_TO_WIDGET_NUMBER_IN_TEXT",
+                                                                                                                                                                                                                                                      "children": [
+                                                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                                                          "id": "SET_TO_WIDGET_TEXT_COLOR",
+                                                                                                                                                                                                                                                          "children": [
+                                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                                              "id": "SET_TO_WIDGET_X",
+                                                                                                                                                                                                                                                              "children": [
+                                                                                                                                                                                                                                                                {
+                                                                                                                                                                                                                                                                  "id": "SET_TO_WIDGET_Y",
+                                                                                                                                                                                                                                                                  "children": [
+                                                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                                                      "id": "SET_TO_WIDGET_WIDTH",
+                                                                                                                                                                                                                                                                      "children": [
+                                                                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                                                                          "id": "SET_TO_WIDGET_HEIGHT",
+                                                                                                                                                                                                                                                                          "children": [
+                                                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                                                              "id": "SET_TO_WIDGET_PARENT_ID",
+                                                                                                                                                                                                                                                                              "children": [
+                                                                                                                                                                                                                                                                                {
+                                                                                                                                                                                                                                                                                  "id": "SET_TO_WIDGET_TYPE",
+                                                                                                                                                                                                                                                                                  "children": [
+                                                                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                                                                      "id": "SET_TO_WIDGET_TEXTURE_ID",
+                                                                                                                                                                                                                                                                                      "children": [
+                                                                                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                                                                                          "id": "SET_TO_WIDGET_ITEM_ID",
+                                                                                                                                                                                                                                                                                          "children": [
+                                                                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                                                                              "id": "SET_TO_WIDGET_ITEM_AMOUNT"
+                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                          ]
+                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                      ]
+                                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                  ]
+                                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                                              ]
+                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                          ]
+                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                      ]
+                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                  ]
+                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                              ]
+                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                          ]
+                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                      ]
+                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                  ]
+                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                              ]
+                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                          ]
+                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                      ]
+                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                  ]
+                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                              ]
+                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                          ]
+                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                      ]
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                  ]
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                              ]
+                                                                                                                                                                                                            }
+                                                                                                                                                                                                          ]
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                      ]
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                  ]
+                                                                                                                                                                                                }
+                                                                                                                                                                                              ]
+                                                                                                                                                                                            }
+                                                                                                                                                                                          ]
+                                                                                                                                                                                        }
+                                                                                                                                                                                      ]
+                                                                                                                                                                                    }
+                                                                                                                                                                                  ]
+                                                                                                                                                                                }
+                                                                                                                                                                              ]
+                                                                                                                                                                            }
+                                                                                                                                                                          ]
+                                                                                                                                                                        }
+                                                                                                                                                                      ]
+                                                                                                                                                                    }
+                                                                                                                                                                  ]
+                                                                                                                                                                }
+                                                                                                                                                              ]
+                                                                                                                                                            }
+                                                                                                                                                          ]
+                                                                                                                                                        }
+                                                                                                                                                      ]
+                                                                                                                                                    }
+                                                                                                                                                  ]
+                                                                                                                                                }
+                                                                                                                                              ]
+                                                                                                                                            }
+                                                                                                                                          ]
+                                                                                                                                        }
+                                                                                                                                      ]
+                                                                                                                                    }
+                                                                                                                                  ]
+                                                                                                                                }
+                                                                                                                              ]
+                                                                                                                            }
+                                                                                                                          ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "id": "SET_TO_LOCAL_PLAYER",
+                                                                                                                          "children": [
+                                                                                                                            {
+                                                                                                                              "id": "SET_VARIABLE_TO_LOCAL_NAME",
+                                                                                                                              "children": [
+                                                                                                                                {
+                                                                                                                                  "id": "SET_VARIABLE_TO_LOCAL_HEALTH_PERCENTAGE",
+                                                                                                                                  "children": [
+                                                                                                                                    {
+                                                                                                                                      "id": "SET_VARIABLE_TO_LOCAL_TILE",
+                                                                                                                                      "children": [
+                                                                                                                                        {
+                                                                                                                                          "id": "SET_VARIABLE_TO_LOCAL_SERVER_TILE",
+                                                                                                                                          "children": [
+                                                                                                                                            {
+                                                                                                                                              "id": "SET_VARIABLE_TO_LOCAL_X",
+                                                                                                                                              "children": [
+                                                                                                                                                {
+                                                                                                                                                  "id": "SET_VARIABLE_TO_LOCAL_Y",
+                                                                                                                                                  "children": [
+                                                                                                                                                    {
+                                                                                                                                                      "id": "SET_VARIABLE_TO_LOCAL_Z",
+                                                                                                                                                      "children": [
+                                                                                                                                                        {
+                                                                                                                                                          "id": "SET_VARIABLE_TO_LOCAL_ORIENTATION",
+                                                                                                                                                          "children": [
+                                                                                                                                                            {
+                                                                                                                                                              "id": "SET_TO_LOCAL_PLAYER_ANIMATION",
+                                                                                                                                                              "children": [
+                                                                                                                                                                {
+                                                                                                                                                                  "id": "SET_TO_LOCAL_PLAYER_REAL_SKILL_LEVEL",
+                                                                                                                                                                  "properties": {
+                                                                                                                                                                    "Skill": {
+                                                                                                                                                                      "class": "Skill",
+                                                                                                                                                                      "value": "AGILITY"
+                                                                                                                                                                    }
+                                                                                                                                                                  },
+                                                                                                                                                                  "children": [
+                                                                                                                                                                    {
+                                                                                                                                                                      "id": "SET_TO_LOCAL_PLAYER_COMBAT_LEVEL",
+                                                                                                                                                                      "children": [
+                                                                                                                                                                        {
+                                                                                                                                                                          "id": "SET_TO_LOCAL_PLAYER_BOOSTED_SKILL_LEVEL",
+                                                                                                                                                                          "properties": {
+                                                                                                                                                                            "Skill": {
+                                                                                                                                                                              "class": "Skill",
+                                                                                                                                                                              "value": "AGILITY"
+                                                                                                                                                                            }
+                                                                                                                                                                          },
+                                                                                                                                                                          "children": [
+                                                                                                                                                                            {
+                                                                                                                                                                              "id": "SET_TO_LOCAL_PLAYER_EXPERIENCE",
+                                                                                                                                                                              "properties": {
+                                                                                                                                                                                "Skill": {
+                                                                                                                                                                                  "class": "Skill",
+                                                                                                                                                                                  "value": "AGILITY"
+                                                                                                                                                                                }
+                                                                                                                                                                              },
+                                                                                                                                                                              "children": [
+                                                                                                                                                                                {
+                                                                                                                                                                                  "id": "SET_TO_LAST_EXPERIENCE_GAIN",
+                                                                                                                                                                                  "properties": {
+                                                                                                                                                                                    "Skill": {
+                                                                                                                                                                                      "class": "Skill",
+                                                                                                                                                                                      "value": "AGILITY"
+                                                                                                                                                                                    }
+                                                                                                                                                                                  },
+                                                                                                                                                                                  "children": [
+                                                                                                                                                                                    {
+                                                                                                                                                                                      "id": "SET_TO_EXPERIENCE_UNTIL_LEVEL",
+                                                                                                                                                                                      "properties": {
+                                                                                                                                                                                        "Skill": {
+                                                                                                                                                                                          "class": "Skill",
+                                                                                                                                                                                          "value": "AGILITY"
+                                                                                                                                                                                        }
+                                                                                                                                                                                      },
+                                                                                                                                                                                      "children": [
+                                                                                                                                                                                        {
+                                                                                                                                                                                          "id": "SET_TO_EXPERIENCE_FOR_LEVEL",
+                                                                                                                                                                                          "children": [
+                                                                                                                                                                                            {
+                                                                                                                                                                                              "id": "SET_TO_LOCAL_PLAYER_TOTAL_LEVEL",
+                                                                                                                                                                                              "children": [
+                                                                                                                                                                                                {
+                                                                                                                                                                                                  "id": "SET_TO_LOCAL_PLAYER_TOTAL_EXPERIENCE",
+                                                                                                                                                                                                  "children": [
+                                                                                                                                                                                                    {
+                                                                                                                                                                                                      "id": "SET_VARIABLE_TO_MOUSE_X",
+                                                                                                                                                                                                      "children": [
+                                                                                                                                                                                                        {
+                                                                                                                                                                                                          "id": "SET_VARIABLE_TO_MOUSE_Y",
+                                                                                                                                                                                                          "children": [
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                              "id": "SET_TO_VARIABLE_ENTITY_ID",
+                                                                                                                                                                                                              "children": [
+                                                                                                                                                                                                                {
+                                                                                                                                                                                                                  "id": "SET_TO_VARIABLE_ENTITY_LEVEL"
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                              ]
+                                                                                                                                                                                                            }
+                                                                                                                                                                                                          ]
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                      ]
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                  ]
+                                                                                                                                                                                                }
+                                                                                                                                                                                              ]
+                                                                                                                                                                                            }
+                                                                                                                                                                                          ]
+                                                                                                                                                                                        }
+                                                                                                                                                                                      ]
+                                                                                                                                                                                    }
+                                                                                                                                                                                  ]
+                                                                                                                                                                                }
+                                                                                                                                                                              ]
+                                                                                                                                                                            }
+                                                                                                                                                                          ]
+                                                                                                                                                                        }
+                                                                                                                                                                      ]
+                                                                                                                                                                    }
+                                                                                                                                                                  ]
+                                                                                                                                                                }
+                                                                                                                                                              ]
+                                                                                                                                                            }
+                                                                                                                                                          ]
+                                                                                                                                                        }
+                                                                                                                                                      ]
+                                                                                                                                                    }
+                                                                                                                                                  ]
+                                                                                                                                                }
+                                                                                                                                              ]
+                                                                                                                                            }
+                                                                                                                                          ]
+                                                                                                                                        }
+                                                                                                                                      ]
+                                                                                                                                    }
+                                                                                                                                  ]
+                                                                                                                                }
+                                                                                                                              ]
+                                                                                                                            }
+                                                                                                                          ]
+                                                                                                                        }
+                                                                                                                      ]
+                                                                                                                    }
+                                                                                                                  ]
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    }
+                                                                                                  ]
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

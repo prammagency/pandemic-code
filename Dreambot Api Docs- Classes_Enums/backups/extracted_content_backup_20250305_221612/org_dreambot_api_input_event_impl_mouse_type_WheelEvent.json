@@ -1,0 +1,38 @@
+{
+  "name": "WheelEvent",
+  "full_name": "org.dreambot.api.input.event.impl.mouse.type.WheelEvent",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/type/WheelEvent.html",
+  "type": "class",
+  "package": "org.dreambot.api.input.event.impl.mouse.type",
+  "description": "Creates and sends a MouseEvent.MOUSE_WHEEL event based on the given WheelMode",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.input.event.AbstractEvent",
+    "org.dreambot.api.input.event.impl.mouse.type.AbstractMouseEvent"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "run",
+      "signature": "public void run()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

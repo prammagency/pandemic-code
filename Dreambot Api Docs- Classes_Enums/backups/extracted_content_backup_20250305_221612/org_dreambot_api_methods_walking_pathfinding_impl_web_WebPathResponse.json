@@ -1,0 +1,234 @@
+{
+  "name": "WebPathResponse",
+  "full_name": "org.dreambot.api.methods.walking.pathfinding.impl.web.WebPathResponse",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/web/WebPathResponse.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.walking.pathfinding.impl.web",
+  "description": "Checks if you have all RequiredItems for this path response, boolean to determine if bank cache can be used for this check.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [
+    {
+      "name": "Method Summary\n\nAll Methods\u00a0Static Methods\u00a0Instance Methods\u00a0Concrete Methods\u00a0\n\nModifier and Type\nMethod\nDescription\n\n\nstatic WebPathResponse.WebPathResponseBuilder\nbuilder()\n\u00a0\n\n\njava.util.List<Teleport>\ngetAllTeleports()\n\u00a0\n\n\njava.util.List<TeleportWebNode>\ngetCustomTeleportNodes()\n\u00a0\n\n\njava.util.List<RequiredItem>\ngetEntranceItems()\n\u00a0\n\n\njava.util.List<ItemTeleport>\ngetItemTeleports()\n\u00a0\n\n\njava.util.List<MagicTeleport>\ngetMagicTeleports()\n\u00a0\n\n\njava.util.List<AbstractWebNode>\ngetNodes()\n\u00a0\n\n\nWebPathQuery\ngetQuery()\n\u00a0\n\n\njava.util.List<RequiredItem>\ngetRequiredItems()\n\u00a0\n\n\nboolean\nhaveAllRequiredItems\u200b(boolean\u00a0withBank)\n\nChecks if you have all RequiredItems for this path response, boolean to determine if bank cache can be used for this check.\n\n\n\nvoid\nsetQuery\u200b(WebPathQuery\u00a0query)\n\u00a0\n\n\n\n\n\n\nMethods inherited from class\u00a0java.lang.Object\nequals, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait",
+      "description": "",
+      "modifiers": []
+    },
+    {
+      "name": "Methods inherited from class\u00a0java.lang.Object\nequals, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait",
+      "description": "",
+      "modifiers": []
+    }
+  ],
+  "methods": [
+    {
+      "name": "WebPathResponse.WebPathResponseBuilder",
+      "return_type": "WebPathResponse.WebPathResponseBuilder",
+      "modifiers": [
+        "static"
+      ],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "Teleport",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "TeleportWebNode",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "RequiredItem",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "ItemTeleport",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "MagicTeleport",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "AbstractWebNode",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "WebPathQuery",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "getQuery",
+      "signature": "public WebPathQuery getQuery()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAllTeleports",
+      "signature": "public java.util.List<Teleport> getAllTeleports()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getItemTeleports",
+      "signature": "public java.util.List<ItemTeleport> getItemTeleports()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMagicTeleports",
+      "signature": "public java.util.List<MagicTeleport> getMagicTeleports()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCustomTeleportNodes",
+      "signature": "public java.util.List<TeleportWebNode> getCustomTeleportNodes()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getEntranceItems",
+      "signature": "public java.util.List<RequiredItem> getEntranceItems()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRequiredItems",
+      "signature": "public java.util.List<RequiredItem> getRequiredItems()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "haveAllRequiredItems",
+      "signature": "public boolean haveAllRequiredItems\u200b(boolean withBank)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if you have all RequiredItems for this path response, boolean to determine if bank cache can be used for this check.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "builder",
+      "signature": "public static WebPathResponse.WebPathResponseBuilder builder()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getNodes",
+      "signature": "public java.util.List<AbstractWebNode> getNodes()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setQuery",
+      "signature": "public void setQuery\u200b(WebPathQuery query)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

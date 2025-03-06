@@ -1,0 +1,94 @@
+{
+  "name": "SkillBased",
+  "full_name": "org.dreambot.api.script.schedule.conditions.SkillBased",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/script/schedule/conditions/SkillBased.html",
+  "type": "class",
+  "package": "org.dreambot.api.script.schedule.conditions",
+  "description": "Class SkillBased in the org.dreambot.api.script.schedule.conditions package provides functionality for DreamBot scripts.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Skill",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the Skill operation.",
+      "deprecated": false
+    },
+    {
+      "name": "shouldStop",
+      "signature": "public boolean shouldStop()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the shouldStop operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSkill",
+      "signature": "public Skill getSkill()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the skill.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLevel",
+      "signature": "public int getLevel()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the level.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setSkill",
+      "signature": "public void setSkill\u200b(Skill skill)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the skill.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setLevel",
+      "signature": "public void setLevel\u200b(int level)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the level.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

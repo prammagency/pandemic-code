@@ -1,0 +1,382 @@
+{
+  "sleep": "500",
+  "name": "",
+  "version": 1.0,
+  "actions": [
+    {
+      "id": "IF_DISTANCE_TO_TILE_IS",
+      "properties": {
+        "distance": {
+          "class": "Number",
+          "operator": "EQUALS",
+          "value": "",
+          "filters": [
+            {
+              "logic": "AND",
+              "operator": "DOES_NOT_EQUAL",
+              "value": ""
+            },
+            {
+              "logic": "AND",
+              "operator": "LESS_THAN",
+              "value": ""
+            },
+            {
+              "logic": "AND",
+              "operator": "LESS_THAN_OR_EQUALS",
+              "value": ""
+            },
+            {
+              "logic": "AND",
+              "operator": "GREATER_THAN",
+              "value": ""
+            },
+            {
+              "logic": "AND",
+              "operator": "GREATER_THAN_OR_EQUALS",
+              "value": ""
+            }
+          ]
+        }
+      },
+      "children": [
+        {
+          "id": "IF_DISTANCE_TO_DESTINATION_IS",
+          "properties": {
+            "distance": {
+              "class": "Number",
+              "operator": "EQUALS",
+              "value": ""
+            }
+          },
+          "children": [
+            {
+              "id": "IF_DISTANCE_TO_CLOSEST_BANK_IS",
+              "properties": {
+                "distance": {
+                  "class": "Number",
+                  "operator": "EQUALS",
+                  "value": ""
+                }
+              },
+              "children": [
+                {
+                  "id": "IF_DISTANCE_TO_VARIABLE_IS",
+                  "properties": {
+                    "distance": {
+                      "class": "Number",
+                      "operator": "EQUALS",
+                      "value": "y"
+                    },
+                    "Variable name": "x"
+                  },
+                  "children": [
+                    {
+                      "id": "IF_DISTANCE_TO_BANK_IS",
+                      "properties": {
+                        "distance": {
+                          "class": "Number",
+                          "operator": "EQUALS",
+                          "value": ""
+                        },
+                        "Bank": {
+                          "class": "BankLocation",
+                          "value": "AL_KHARID"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "IF_DISTANCE_BETWEEN_TILES_IS",
+                          "properties": {
+                            "distance": {
+                              "class": "Number",
+                              "operator": "EQUALS",
+                              "value": ""
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": "IF_DISTANCE_BETWEEN_VARIABLES_IS",
+                              "properties": {
+                                "distance": {
+                                  "class": "Number",
+                                  "operator": "EQUALS",
+                                  "value": ""
+                                }
+                              },
+                              "children": [
+                                {
+                                  "id": "IF_TILE_IS_IN_AREA",
+                                  "children": [
+                                    {
+                                      "id": "IF_TILE_IS_NOT_IN_AREA",
+                                      "children": [
+                                        {
+                                          "id": "IF_DESTINATION_IS_IN_AREA",
+                                          "children": [
+                                            {
+                                              "id": "IF_DESTINATION_IS_NOT_IN_AREA",
+                                              "children": [
+                                                {
+                                                  "id": "IF_RUN_IS_ENABLED"
+                                                },
+                                                {
+                                                  "id": "IF_RUN_IS_NOT_ENABLED"
+                                                },
+                                                {
+                                                  "id": "IF_RUN_ENERGY_IS",
+                                                  "properties": {
+                                                    "energy": {
+                                                      "class": "Number",
+                                                      "operator": "EQUALS",
+                                                      "value": ""
+                                                    }
+                                                  },
+                                                  "children": [
+                                                    {
+                                                      "id": "IF_TILE_IS_REACHABLE",
+                                                      "children": [
+                                                        {
+                                                          "id": "IF_TILE_IS_NOT_REACHABLE",
+                                                          "children": [
+                                                            {
+                                                              "id": "IF_TILE_IS_WALKABLE",
+                                                              "children": [
+                                                                {
+                                                                  "id": "IF_TILE_IS_NOT_WALKABLE",
+                                                                  "children": [
+                                                                    {
+                                                                      "id": "IF_TILE_IS_BLOCKED",
+                                                                      "children": [
+                                                                        {
+                                                                          "id": "IF_TILE_IS_NOT_BLOCKED",
+                                                                          "children": [
+                                                                            {
+                                                                              "id": "WALK_FULLY_TO_TILE",
+                                                                              "children": [
+                                                                                {
+                                                                                  "id": "WALK_FULLY_TO_AREA",
+                                                                                  "children": [
+                                                                                    {
+                                                                                      "id": "WALK_FULLY_TO_CLOSEST_TILE_IN_AREA",
+                                                                                      "children": [
+                                                                                        {
+                                                                                          "id": "WALK_FULLY_TO_NEAREST_BANK",
+                                                                                          "children": [
+                                                                                            {
+                                                                                              "id": "WALK_FULLY_TO_NEAREST_BANK_WITH_TELEPORTS"
+                                                                                            },
+                                                                                            {
+                                                                                              "id": "WALK_FULLY_TO_SPECIFIC_BANK",
+                                                                                              "properties": {
+                                                                                                "__TEXT__Bank": "Al Kharid"
+                                                                                              },
+                                                                                              "children": [
+                                                                                                {
+                                                                                                  "id": "WALK_TO_TILE",
+                                                                                                  "children": [
+                                                                                                    {
+                                                                                                      "id": "WALK_TO_AREA_ON_SCREEN",
+                                                                                                      "children": [
+                                                                                                        {
+                                                                                                          "id": "WALK_TO_CLOSEST_TILE_IN_AREA",
+                                                                                                          "children": [
+                                                                                                            {
+                                                                                                              "id": "WALK_TO_NEAREST_BANK"
+                                                                                                            },
+                                                                                                            {
+                                                                                                              "id": "WALK_TO_NEAREST_BANK_WITH_TELEPORTS"
+                                                                                                            },
+                                                                                                            {
+                                                                                                              "id": "WALK_TO_SPECIFIC_BANK",
+                                                                                                              "properties": {
+                                                                                                                "Bank": {
+                                                                                                                  "class": "BankLocation",
+                                                                                                                  "value": "AL_KHARID"
+                                                                                                                }
+                                                                                                              },
+                                                                                                              "children": [
+                                                                                                                {
+                                                                                                                  "id": "WALK_TOWARDS_NPC",
+                                                                                                                  "properties": {
+                                                                                                                    "Filter NPC By": {
+                                                                                                                      "class": "NPC",
+                                                                                                                      "logic": "NONE",
+                                                                                                                      "type": "NONE",
+                                                                                                                      "operator": "EQUALS"
+                                                                                                                    }
+                                                                                                                  },
+                                                                                                                  "children": [
+                                                                                                                    {
+                                                                                                                      "id": "WALK_TOWARDS_GAME_OBJECT",
+                                                                                                                      "properties": {
+                                                                                                                        "Filter Object By": {
+                                                                                                                          "class": "GameObject",
+                                                                                                                          "logic": "NONE",
+                                                                                                                          "type": "NONE",
+                                                                                                                          "operator": "EQUALS"
+                                                                                                                        }
+                                                                                                                      },
+                                                                                                                      "children": [
+                                                                                                                        {
+                                                                                                                          "id": "WALK_TOWARDS_PLAYER",
+                                                                                                                          "properties": {
+                                                                                                                            "Filter Player By": {
+                                                                                                                              "class": "Player",
+                                                                                                                              "logic": "NONE",
+                                                                                                                              "type": "NONE",
+                                                                                                                              "operator": "EQUALS"
+                                                                                                                            }
+                                                                                                                          },
+                                                                                                                          "children": [
+                                                                                                                            {
+                                                                                                                              "id": "WALK_TOWARDS_GROUND_ITEM",
+                                                                                                                              "properties": {
+                                                                                                                                "Filter Item By": {
+                                                                                                                                  "class": "GroundItem",
+                                                                                                                                  "logic": "NONE",
+                                                                                                                                  "type": "NONE",
+                                                                                                                                  "operator": "EQUALS"
+                                                                                                                                }
+                                                                                                                              }
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                              "id": "ENABLE_WEB_NODE_TYPE",
+                                                                                                                              "properties": {
+                                                                                                                                "Type": {
+                                                                                                                                  "enum": "WebNodeType",
+                                                                                                                                  "value": "BASIC_NODE"
+                                                                                                                                }
+                                                                                                                              },
+                                                                                                                              "children": [
+                                                                                                                                {
+                                                                                                                                  "id": "DISABLE_WEB_NODE_TYPE",
+                                                                                                                                  "properties": {
+                                                                                                                                    "Type": {
+                                                                                                                                      "enum": "WebNodeType",
+                                                                                                                                      "value": "BASIC_NODE"
+                                                                                                                                    }
+                                                                                                                                  },
+                                                                                                                                  "children": [
+                                                                                                                                    {
+                                                                                                                                      "id": "ENABLE_MAGIC_TELEPORTS"
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "id": "DISABLE_MAGIC_TELEPORT",
+                                                                                                                                      "properties": {
+                                                                                                                                        "Teleport": {
+                                                                                                                                          "enum": "MagicTeleport",
+                                                                                                                                          "value": "LUMBRIDGE_HOME_TELEPORT"
+                                                                                                                                        }
+                                                                                                                                      },
+                                                                                                                                      "children": [
+                                                                                                                                        {
+                                                                                                                                          "id": "ADD_PASSABLE_LOCAL_OBSTACLE",
+                                                                                                                                          "children": [
+                                                                                                                                            {
+                                                                                                                                              "id": "ADD_DESTRUCTABLE_LOCAL_OBSTACLE",
+                                                                                                                                              "children": [
+                                                                                                                                                {
+                                                                                                                                                  "id": "ADD_CLIMBABLE_LOCAL_OBSTACLE",
+                                                                                                                                                  "children": [
+                                                                                                                                                    {
+                                                                                                                                                      "id": "REMOVE_LOCAL_OBSTACLE",
+                                                                                                                                                      "children": [
+                                                                                                                                                        {
+                                                                                                                                                          "id": "WALK_TO_TILE_ON_SCREEN",
+                                                                                                                                                          "children": [
+                                                                                                                                                            {
+                                                                                                                                                              "id": "ENABLE_RUN"
+                                                                                                                                                            },
+                                                                                                                                                            {
+                                                                                                                                                              "id": "DISABLE_RUN"
+                                                                                                                                                            },
+                                                                                                                                                            {
+                                                                                                                                                              "id": "SET_RUN_ENERGY_THRESHOLD",
+                                                                                                                                                              "children": [
+                                                                                                                                                                {
+                                                                                                                                                                  "id": "ENABLE_OBSTACLE_SLEEPING"
+                                                                                                                                                                },
+                                                                                                                                                                {
+                                                                                                                                                                  "id": "DISABLE_OBSTACLE_SLEEPING"
+                                                                                                                                                                }
+                                                                                                                                                              ]
+                                                                                                                                                            }
+                                                                                                                                                          ]
+                                                                                                                                                        }
+                                                                                                                                                      ]
+                                                                                                                                                    }
+                                                                                                                                                  ]
+                                                                                                                                                }
+                                                                                                                                              ]
+                                                                                                                                            }
+                                                                                                                                          ]
+                                                                                                                                        }
+                                                                                                                                      ]
+                                                                                                                                    }
+                                                                                                                                  ]
+                                                                                                                                }
+                                                                                                                              ]
+                                                                                                                            }
+                                                                                                                          ]
+                                                                                                                        }
+                                                                                                                      ]
+                                                                                                                    }
+                                                                                                                  ]
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    }
+                                                                                                  ]
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

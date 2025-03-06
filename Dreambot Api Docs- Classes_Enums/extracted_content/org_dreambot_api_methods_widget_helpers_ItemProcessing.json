@@ -1,0 +1,87 @@
+{
+  "name": "ItemProcessing",
+  "full_name": "org.dreambot.api.methods.widget.helpers.ItemProcessing",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/widget/helpers/ItemProcessing.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.widget.helpers",
+  "description": "This helper class makes processing / crafting / creating items easier",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "makeAll",
+      "signature": "public static boolean makeAll\u200b(java.lang.String itemName)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This will make all of the chosen item Note: The name will be checked against the item in the widget, it may be different than the item it produces",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "make",
+      "signature": "public static boolean make\u200b(java.lang.String itemName, int quantity)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This will make the chosen item Note: The name will be checked against the item in the widget, it may be different than the item it produces",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSelectedQuantity",
+      "signature": "public static int getSelectedQuantity()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This returns the currently selected quantity",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setSelectedQuantity",
+      "signature": "public static boolean setSelectedQuantity\u200b(int quantity)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This will set the selected quantity on the interface",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isOpen",
+      "signature": "public static boolean isOpen()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This checks if the item processing interface is open",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

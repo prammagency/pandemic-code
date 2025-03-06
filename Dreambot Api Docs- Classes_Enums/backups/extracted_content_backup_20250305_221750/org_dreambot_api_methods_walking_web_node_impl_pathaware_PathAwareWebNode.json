@@ -1,0 +1,35 @@
+{
+  "name": "PathAwareWebNode",
+  "full_name": "org.dreambot.api.methods.walking.web.node.impl.pathaware.PathAwareWebNode",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/pathaware/PathAwareWebNode.html",
+  "type": "interface",
+  "package": "org.dreambot.api.methods.walking.web.node.impl.pathaware",
+  "description": "Path aware web nodes are given the next web node in the path in the execute(AbstractWebNode) method",
+  "page_structure": {
+    "type": "interface",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "execute",
+      "return_type": "",
+      "modifiers": [],
+      "description": "execute boolean execute\u200b(AbstractWebNode next) This is the same as AbstractWebNode.execute() except the web walker will pass the next web node in the path after this node. Important note: if your node implements this interface, the walker will call execute(AbstractWebNode) instead of AbstractWebNode.execute(). Parameters: next - the web node after this node in the web path, or null if this is the last web node Returns: true if the node is successfully handled, false otherwise",
+      "deprecated": false,
+      "signature": "boolean execute\u200b(AbstractWebNode next)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      }
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

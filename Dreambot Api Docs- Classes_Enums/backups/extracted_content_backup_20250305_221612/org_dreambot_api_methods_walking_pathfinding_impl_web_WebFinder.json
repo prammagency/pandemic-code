@@ -1,0 +1,628 @@
+{
+  "name": "WebFinder",
+  "full_name": "org.dreambot.api.methods.walking.pathfinding.impl.web.WebFinder",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/web/WebFinder.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.walking.pathfinding.impl.web",
+  "description": "Web pathfinding class, generally shouldn't need to be accessed directly",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "GlobalPath",
+      "return_type": "GlobalPath<AbstractWebNode>",
+      "modifiers": [
+        "@Nullable"
+      ],
+      "description": "Deprecated.",
+      "deprecated": false
+    },
+    {
+      "name": "AbstractWebNode",
+      "return_type": "java.util.ArrayList<AbstractWebNode>",
+      "modifiers": [
+        "@NonNull"
+      ],
+      "description": "Returns a list of all AbstractWebNode's within the given distance on any plane",
+      "deprecated": false
+    },
+    {
+      "name": "WebPathQuery",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "WebFinder",
+      "return_type": "WebFinder",
+      "modifiers": [
+        "static"
+      ],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "getWebFinder",
+      "signature": "public static WebFinder getWebFinder()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "loadWebNodes",
+      "signature": "public static void loadWebNodes()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isLoaded",
+      "signature": "public static boolean isLoaded()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the base web nodes have been loaded into the client",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setWebNodeVersion",
+      "signature": "public static void setWebNodeVersion\u200b(@NonNull java.lang.String version)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This can be used to load web nodes from a prior version, allowing you to ensure any future node updates don't affect your custom web nodes. This method will do a full reset of the WebFinder and then load the nodes, any customization to any walking related methods will need to happen AFTER calling this method.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWebNodeVersion",
+      "signature": "public static @NonNull java.lang.String getWebNodeVersion()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isWebNodeVersionAtLeast",
+      "signature": "public static boolean isWebNodeVersionAtLeast\u200b(@NonNull java.lang.String version)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "calculate",
+      "signature": "public GlobalPath<AbstractWebNode> calculate\u200b(WebPathQuery query)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Calculates a web path with a given start node, destination node, and a maximum depth",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "disableTeleport",
+      "signature": "public void disableTeleport\u200b(@NonNull Teleport teleport)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Disables a teleport from being used in the pathfinder",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "enableTeleport",
+      "signature": "public void enableTeleport\u200b(@NonNull Teleport teleport)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Re-enables a previously disabled teleport to be used in the pathfinder",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "disableWebNodeType",
+      "signature": "public void disableWebNodeType\u200b(@NonNull WebNodeType type)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Disables a type of web nodes from being used in the pathfinder",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isWebNodeTypeEnabled",
+      "signature": "public boolean isWebNodeTypeEnabled\u200b(@NonNull WebNodeType type)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "enableWebNodeType",
+      "signature": "public void enableWebNodeType\u200b(@NonNull WebNodeType type)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Re-enables a previously disabled type of web nodes to be used in the pathfinder",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "canEquipTeleports",
+      "signature": "public boolean canEquipTeleports()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "disableEquippingTeleports",
+      "signature": "public void disableEquippingTeleports()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "enableEquippingTeleports",
+      "signature": "public void enableEquippingTeleports()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "canUseInventoryTeleports",
+      "signature": "public boolean canUseInventoryTeleports()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "canUseEquipmentTeleports",
+      "signature": "public boolean canUseEquipmentTeleports()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "disableInventoryTeleports",
+      "signature": "public void disableInventoryTeleports()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "enableInventoryTeleports",
+      "signature": "public void enableInventoryTeleports()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "disableEquipmentTeleports",
+      "signature": "public void disableEquipmentTeleports()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "enableEquipmentTeleports",
+      "signature": "public void enableEquipmentTeleports()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getNearest",
+      "signature": "public @Nullable AbstractWebNode getNearest\u200b(@NonNull AbstractWebNode target)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the closest BasicWebNode to the given AbstractWebNode that's within five tiles of the given node",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "addNode",
+      "signature": "public boolean addNode\u200b(@NonNull Tile newNodeTarget)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Creates and adds a new BasicWebNode at the provided tile and connects it to the nearest web node in our web",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "createAndAddNode",
+      "signature": "public @Nullable AbstractWebNode createAndAddNode\u200b(@NonNull Tile newNodeTarget)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Creates and adds a new BasicWebNode at the provided tile and connects it to the nearest web node in our web",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getNearestGlobal",
+      "signature": "public @Nullable AbstractWebNode getNearestGlobal\u200b(@NonNull Tile target, int threshold)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getNodesWithin",
+      "signature": "public @NonNull java.util.ArrayList<AbstractWebNode> getNodesWithin\u200b(int distance, @NonNull Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns a list of all AbstractWebNode's within the given distance on any plane",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "removeNode",
+      "signature": "public void removeNode\u200b(int idx)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "addCustomWebPath",
+      "signature": "public void addCustomWebPath\u200b(@NonNull CustomWebPath customWebPath)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "addBlacklistedNode",
+      "signature": "public void addBlacklistedNode\u200b(@NonNull AbstractWebNode node)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "clearBlacklist",
+      "signature": "public void clearBlacklist()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "clearCustomNodes",
+      "signature": "public void clearCustomNodes()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getId",
+      "signature": "public int getId\u200b(@NonNull AbstractWebNode abstractWebNode)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "addWebNode",
+      "signature": "public void addWebNode\u200b(@NonNull AbstractWebNode node)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This adds a custom web node to our standard web nodes without adding any connections automatically",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "addWebNodes",
+      "signature": "public void addWebNodes\u200b(@NonNull AbstractWebNode... nodes)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This just calls addWebNode for each web node passed in",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "get",
+      "signature": "public @Nullable AbstractWebNode get\u200b(int index)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the web node with the given index NOTE: You shouldn't be connecting to our web nodes using this method, as the index can change at any time. You should use getNearest(Tile, int) to find the correct node.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "resetWebNodes",
+      "signature": "public void resetWebNodes()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLastCalculatedPath",
+      "signature": "@Deprecated public @Nullable GlobalPath<AbstractWebNode> getLastCalculatedPath()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAll",
+      "signature": "public @NonNull java.util.List<AbstractWebNode> getAll()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setPathRandomization",
+      "signature": "public void setPathRandomization\u200b(double randomization)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the randomization factor used when web pathfinding. A value of 0.0 will disable any randomization, and any positive value will allow for less optimal paths to be generated. The default value of this is 0, meaning we'll only return the most optimal path.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleWebNodeDebug",
+      "signature": "public static void toggleWebNodeDebug\u200b(boolean enable)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isWebNodeDebugEnabled",
+      "signature": "public static boolean isWebNodeDebugEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getPathRandomization",
+      "signature": "public double getPathRandomization()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCurrentPathQuery",
+      "signature": "public WebPathQuery getCurrentPathQuery()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setCurrentPathQuery",
+      "signature": "public void setCurrentPathQuery\u200b(WebPathQuery currentPathQuery)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

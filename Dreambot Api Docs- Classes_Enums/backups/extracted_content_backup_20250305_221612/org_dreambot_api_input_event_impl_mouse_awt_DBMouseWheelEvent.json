@@ -1,0 +1,35 @@
+{
+  "name": "DBMouseWheelEvent",
+  "full_name": "org.dreambot.api.input.event.impl.mouse.awt.DBMouseWheelEvent",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/awt/DBMouseWheelEvent.html",
+  "type": "class",
+  "package": "org.dreambot.api.input.event.impl.mouse.awt",
+  "description": "DreamBot implementation of MouseWheelEvent Sets all required internal fields Primarily used internally, you should be using AbstractMouseEvent implementations for sending mouse events Sets abs x/y to 0 as expected, if your OS/JVM behaves differently please report your OS and JVM to one of the developers so we can research it in more depth",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "toString",
+      "signature": "public java.lang.String toString()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

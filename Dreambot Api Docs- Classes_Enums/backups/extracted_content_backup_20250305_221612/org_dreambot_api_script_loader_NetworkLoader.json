@@ -1,0 +1,48 @@
+{
+  "name": "NetworkLoader",
+  "full_name": "org.dreambot.api.script.loader.NetworkLoader",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/script/loader/NetworkLoader.html",
+  "type": "class",
+  "package": "org.dreambot.api.script.loader",
+  "description": "Deprecated.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "getAllFreeScripts",
+      "signature": "public static java.util.List<org.dreambot.internal.scripts.ScriptWrapper> getAllFreeScripts()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAllPremiumScripts",
+      "signature": "public static java.util.List<org.dreambot.internal.scripts.ScriptWrapper> getAllPremiumScripts()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

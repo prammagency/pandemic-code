@@ -1,0 +1,55 @@
+{
+  "name": "ItemContainer",
+  "full_name": "org.dreambot.api.methods.container.general.ItemContainer",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/container/general/ItemContainer.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.container.general",
+  "description": "ItemContainer node, contains a list of items Examples of ItemContainers are Bank, Inventory, Equipment Known ID's can be found at ItemContainerId This will not set Item.getDestination() when building the items",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Item",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the items in this item container Does not add empty slots to the list Does not set item destinations",
+      "deprecated": false
+    },
+    {
+      "name": "getItems",
+      "signature": "public java.util.List<Item> getItems()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the items in this item container Does not add empty slots to the list Does not set item destinations",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getContainerId",
+      "signature": "public int getContainerId()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

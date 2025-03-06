@@ -1,0 +1,102 @@
+{
+  "name": "PointDestination",
+  "full_name": "org.dreambot.api.input.mouse.destination.impl.PointDestination",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/input/mouse/destination/impl/PointDestination.html",
+  "type": "class",
+  "package": "org.dreambot.api.input.mouse.destination.impl",
+  "description": "Created with IntelliJ IDEA.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.input.mouse.destination.AbstractMouseDestination"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "getDestinationShape",
+      "signature": "public java.awt.Shape getDestinationShape()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the abstract destination shape.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isVisible",
+      "signature": "public boolean isVisible()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines whether this destination is visible.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "type",
+      "signature": "public int type()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Mouse destination type id.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "containsMouse",
+      "signature": "public boolean containsMouse()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines if the destination shape contains the mouse.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSuitablePoint",
+      "signature": "public java.awt.Point getSuitablePoint()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a gaussian distributed offset point within the bounding box of this mouse destination.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "canInteract",
+      "signature": "public boolean canInteract()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: AbstractMouseDestination",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

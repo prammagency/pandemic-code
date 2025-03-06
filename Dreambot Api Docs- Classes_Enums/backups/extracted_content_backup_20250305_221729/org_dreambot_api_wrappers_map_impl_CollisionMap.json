@@ -1,0 +1,250 @@
+{
+  "name": "CollisionMap",
+  "full_name": "org.dreambot.api.wrappers.map.impl.CollisionMap",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/map/impl/CollisionMap.html",
+  "type": "class",
+  "package": "org.dreambot.api.wrappers.map.impl",
+  "description": "Collision map wrapper class.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Tile",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the collision map offset tile (Uses getOffsetX() and getOffsetY())",
+      "deprecated": false
+    },
+    {
+      "name": "isBlocked",
+      "signature": "public static boolean isBlocked\u200b(int flag)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines if given tile flag represents a blocked/non-walkable tile.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isCardinalDirectionBlocked",
+      "signature": "public static boolean isCardinalDirectionBlocked\u200b(int cardinal, int flag, int neighbor)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines if the cardinal direction of your choice is blocked. The four Cardinal direction include: \u00e2\u0080\u00a2 North \u00e2\u0080\u00a2 East \u00e2\u0080\u00a2 South \u00e2\u0080\u00a2 West",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isOrdinalDirectionBlocked",
+      "signature": "public static boolean isOrdinalDirectionBlocked\u200b(int ordinal, int ne, int nw, int se, int sw)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Is ordinal direction blocked.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getBaseX",
+      "signature": "public int getBaseX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the base X coordinate for this collision map.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getBaseY",
+      "signature": "public int getBaseY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the base Y coordinate for this collision map.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getHeight",
+      "signature": "public int getHeight()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets height.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOffsetX",
+      "signature": "public int getOffsetX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets offset x.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOffsetY",
+      "signature": "public int getOffsetY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets offset y.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOffset",
+      "signature": "public Tile getOffset()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the collision map offset tile (Uses getOffsetX() and getOffsetY())",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWidth",
+      "signature": "public int getWidth()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets width of the collision map.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getFlags",
+      "signature": "public int[][] getFlags()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get the tile flags for this collision map.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getFlag",
+      "signature": "public int getFlag\u200b(int gridX, int gridY)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets collision flag for the given grid location.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isSolid",
+      "signature": "public boolean isSolid\u200b(int x, int y)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Check if the given location is blocked, i.values. blocks movement of the supplied mover.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCost",
+      "signature": "public float getCost\u200b(int sx, int sy, int tx, int ty)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get the cost of moving through the given tile. This can be used to make certain areas more desirable. A simple and valid implementation of this method would be to return 1 in all cases.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "visit",
+      "signature": "public void visit\u200b(int x, int y)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Notification that the path finder visited a given tile. This is used for debugging new heuristics.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isWalkable",
+      "signature": "public boolean isWalkable\u200b(int x1, int y1, int x2, int y2)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Check if the given location is walkable, i.values. no blocked movement.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDirection",
+      "signature": "public int getDirection\u200b(int x, int y)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Retrieves the direction of the given x-y coordinates as a CollisionMap Flag.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

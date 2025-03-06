@@ -1,0 +1,35 @@
+{
+  "name": "PaintListener",
+  "full_name": "org.dreambot.api.script.listener.PaintListener",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/script/listener/PaintListener.html",
+  "type": "interface",
+  "package": "org.dreambot.api.script.listener",
+  "description": "Created with IntelliJ IDEA.",
+  "page_structure": {
+    "type": "interface",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "onPaint",
+      "signature": "default void onPaint\u200b(java.awt.Graphics graphics)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Handles the graphic for the script.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

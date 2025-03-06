@@ -1,0 +1,96 @@
+{
+  "name": "SkillTotalRequirement",
+  "full_name": "org.dreambot.api.data.requirements.SkillTotalRequirement",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/data/requirements/SkillTotalRequirement.html",
+  "type": "class",
+  "package": "org.dreambot.api.data.requirements",
+  "description": "Class SkillTotalRequirement in the org.dreambot.api.data.requirements package provides functionality for DreamBot scripts.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.data.requirements.Requirement"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Skill",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the Skill operation.",
+      "deprecated": false
+    },
+    {
+      "name": "meetsRequirement",
+      "signature": "public boolean meetsRequirement()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the meetsRequirement operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSkills",
+      "signature": "public java.util.List<Skill> getSkills()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the skills.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTotal",
+      "signature": "public int getTotal()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the total.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setSkills",
+      "signature": "public void setSkills\u200b(java.util.List<Skill> skills)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the skills.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setTotal",
+      "signature": "public void setTotal\u200b(int total)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the total.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

@@ -1,0 +1,61 @@
+{
+  "name": "CacheSettings",
+  "full_name": "org.dreambot.api.settings.CacheSettings",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/settings/CacheSettings.html",
+  "type": "class",
+  "package": "org.dreambot.api.settings",
+  "description": "Gets the time in ms for a cache key",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "setCacheTimer",
+      "signature": "public static void setCacheTimer\u200b(java.lang.String key, java.lang.Integer cacheTime)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets a cache time for the given key.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCacheTime",
+      "signature": "public static int getCacheTime\u200b(java.lang.String key)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the time in ms for a cache key",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "resetToDefaults",
+      "signature": "public static void resetToDefaults()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Clears the cache timers and resets internal cache timers to defaults. See class docs for internal DreamBot cache timers and their defaults.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

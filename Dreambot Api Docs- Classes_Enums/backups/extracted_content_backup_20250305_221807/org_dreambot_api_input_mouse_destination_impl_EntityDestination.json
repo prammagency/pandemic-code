@@ -1,0 +1,155 @@
+{
+  "name": "EntityDestination",
+  "full_name": "org.dreambot.api.input.mouse.destination.impl.EntityDestination",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/input/mouse/destination/impl/EntityDestination.html",
+  "type": "class",
+  "package": "org.dreambot.api.input.mouse.destination.impl",
+  "description": "Created with IntelliJ IDEA.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.input.mouse.destination.AbstractMouseDestination",
+    "Entity"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "getDestinationShape",
+      "signature": "public java.awt.Shape getDestinationShape()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the abstract destination shape.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSuitablePoint",
+      "signature": "public java.awt.Point getSuitablePoint()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: AbstractMouseDestination",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "canInteract",
+      "signature": "public boolean canInteract\u200b(java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the canInteract operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isVisible",
+      "signature": "public boolean isVisible()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines whether this destination is visible.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "type",
+      "signature": "public int type()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Mouse destination type id.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "containsMouse",
+      "signature": "public boolean containsMouse()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: AbstractMouseDestination",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "handleWalk",
+      "signature": "public boolean handleWalk()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Handles walking portion of event interactions. This is used internally by interact() Default implementation is to just return true, required to override this in any implementations.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "handleCamera",
+      "signature": "public boolean handleCamera()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Handles camera portion of event interaction. This is used internally by interact().",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "verifyPostInteract",
+      "signature": "public boolean verifyPostInteract()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: AbstractMouseDestination",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "contains",
+      "signature": "public boolean contains\u200b(java.awt.Point point)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: AbstractMouseDestination",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

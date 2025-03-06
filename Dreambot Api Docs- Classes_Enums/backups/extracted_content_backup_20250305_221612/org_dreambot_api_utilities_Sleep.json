@@ -1,0 +1,113 @@
+{
+  "name": "Sleep",
+  "full_name": "org.dreambot.api.utilities.Sleep",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/utilities/Sleep.html",
+  "type": "class",
+  "package": "org.dreambot.api.utilities",
+  "description": "Contains static methods for sleeping",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "sleep",
+      "signature": "public static void sleep\u200b(long ms)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sleeps for specified milliseconds Do NOT use this in custom mouse algorithms, as it will cause blocking forever during random events, use Thread#sleep instead",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "sleepUntil",
+      "signature": "public static boolean sleepUntil\u200b(Condition predicate, long timeout)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sleeps until the passed predicate returns true or sleeping for longer than the timeout. Polls every 50ms by default. See setDefaultPoll(long) to change the default poll",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "sleepWhile",
+      "signature": "public static boolean sleepWhile\u200b(Condition predicate, long timeout)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sleeps until the passed predicate returns false. Polls every 50ms by default. See setDefaultPoll(long) for updating the default poll value",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "sleepTick",
+      "signature": "public static void sleepTick()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sleeps until the start of the next game tick",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "sleepTicks",
+      "signature": "public static void sleepTicks\u200b(int ticks)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sleeps through the specified number of game ticks",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDefaultPoll",
+      "signature": "public static long getDefaultPoll()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setDefaultPoll",
+      "signature": "public static void setDefaultPoll\u200b(long defaultPoll)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

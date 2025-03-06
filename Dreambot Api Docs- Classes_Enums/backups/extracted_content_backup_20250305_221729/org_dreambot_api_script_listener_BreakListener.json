@@ -1,0 +1,48 @@
+{
+  "name": "BreakListener",
+  "full_name": "org.dreambot.api.script.listener.BreakListener",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/script/listener/BreakListener.html",
+  "type": "interface",
+  "package": "org.dreambot.api.script.listener",
+  "description": "Interface BreakListener in the org.dreambot.api.script.listener package defines methods for DreamBot script functionality.",
+  "page_structure": {
+    "type": "interface",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "onBreakStart",
+      "signature": "default void onBreakStart\u200b(BreakEvent event)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the onBreakStart operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onBreakEnd",
+      "signature": "default void onBreakEnd\u200b(BreakEvent event)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the onBreakEnd operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

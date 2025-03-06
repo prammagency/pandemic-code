@@ -1,0 +1,675 @@
+{
+  "name": "MouseSettings",
+  "full_name": "org.dreambot.api.methods.input.mouse.MouseSettings",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/input/mouse/MouseSettings.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.input.mouse",
+  "description": "Do not worry about this class too much. This class specifies the settings for the mouse controller.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [
+    {
+      "name": "Constructor Summary\n\nConstructors\u00a0\n\nConstructor\nDescription\n\n\nMouseSettings\u200b(Instance\u00a0instance)",
+      "description": "",
+      "modifiers": []
+    }
+  ],
+  "methods": [
+    {
+      "name": "MouseTiming",
+      "return_type": "MouseTiming",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Returns the client's mouse timing generator, used to determine the time in milliseconds between pressing down and releasing the mouse buttons",
+      "deprecated": false
+    },
+    {
+      "name": "MouseSettings.Hand",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets preferred hand",
+      "deprecated": false
+    },
+    {
+      "name": "MouseSettings",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the MouseSettings operation.",
+      "deprecated": false
+    },
+    {
+      "name": "resetMouseTimings",
+      "signature": "public static void resetMouseTimings()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Resets mouse timings to their client default",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMouseTiming",
+      "signature": "public static MouseTiming getMouseTiming()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the client's mouse timing generator, used to determine the time in milliseconds between pressing down and releasing the mouse buttons",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setMouseTiming",
+      "signature": "public static void setMouseTiming\u200b(MouseTiming mouseTiming)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the mousetiming.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSpeed",
+      "signature": "public static int getSpeed()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the client's current speed, between 1 and 100.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setSpeed",
+      "signature": "public static void setSpeed\u200b(int accel)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the speed.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "resetSpeed",
+      "signature": "public MouseSettings resetSpeed()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the resetSpeed operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRectDest",
+      "signature": "public java.awt.Rectangle getRectDest()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the rectdest.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setRectDest",
+      "signature": "public MouseSettings setRectDest\u200b(java.awt.Rectangle rectDest)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the rectdest.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "r",
+      "signature": "public double r()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the r operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMaxdTheta",
+      "signature": "public int getMaxdTheta()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the maxdtheta.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDecelRadiusDeviation",
+      "signature": "public int getDecelRadiusDeviation()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the decelradiusdeviation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDecayDistanceExponent",
+      "signature": "public double getDecayDistanceExponent()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the decaydistanceexponent.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMinMagnitude",
+      "signature": "public int getMinMagnitude()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the minmagnitude.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAccelerationDeviation",
+      "signature": "public int getAccelerationDeviation()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the accelerationdeviation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMinDecelMagnitude",
+      "signature": "public int getMinDecelMagnitude()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the mindecelmagnitude.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMaxDecelDistance",
+      "signature": "public int getMaxDecelDistance()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the maxdeceldistance.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAccelerationRate",
+      "signature": "public int getAccelerationRate()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the accelerationrate.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMaxMagnitude",
+      "signature": "public int getMaxMagnitude()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the maxmagnitude.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDecelDecayRate",
+      "signature": "public double getDecelDecayRate()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the deceldecayrate.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAngleDeviationRate",
+      "signature": "public int getAngleDeviationRate()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the angledeviationrate.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMeanDecelRadius",
+      "signature": "public int getMeanDecelRadius()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the meandecelradius.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCalcsPerSecond",
+      "signature": "public int getCalcsPerSecond()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the calcspersecond.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isWalking",
+      "signature": "public boolean isWalking()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if walking.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setWalking",
+      "signature": "public MouseSettings setWalking\u200b(boolean walk)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the walking.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setTarget",
+      "signature": "public MouseSettings setTarget\u200b(java.lang.String action, java.lang.String object)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the target",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAction",
+      "signature": "public java.lang.String getAction()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the action of the target",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setAction",
+      "signature": "public MouseSettings setAction\u200b(java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the action",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getObject",
+      "signature": "public java.lang.String getObject()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the object of the target",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setObject",
+      "signature": "public MouseSettings setObject\u200b(java.lang.String object)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the object",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isMultiThread",
+      "signature": "public boolean isMultiThread()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Whether or not it is multithreaded",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setMultiThread",
+      "signature": "public void setMultiThread\u200b(boolean multiThread)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets multithreaded true or false",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isLeftClick",
+      "signature": "public boolean isLeftClick()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns whether it's left click",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setLeftClick",
+      "signature": "public MouseSettings setLeftClick\u200b(boolean leftClick)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets whether it's left click",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isRightClick",
+      "signature": "public boolean isRightClick()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets whether it's right click",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setRightClick",
+      "signature": "public MouseSettings setRightClick\u200b(boolean rightClick)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets right click",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isClick",
+      "signature": "public boolean isClick()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets whether should click",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setClick",
+      "signature": "public MouseSettings setClick\u200b(boolean click)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets click",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isOvershoot",
+      "signature": "public boolean isOvershoot()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets whether it should overshoot",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setOvershoot",
+      "signature": "public MouseSettings setOvershoot\u200b(boolean overshoot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets overshoot",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isDrag",
+      "signature": "public boolean isDrag()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets whether it should drag",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setDrag",
+      "signature": "public MouseSettings setDrag\u200b(boolean drag)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets drag",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getBounds",
+      "signature": "public java.awt.Rectangle getBounds()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Rectangle of the bounds",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setBounds",
+      "signature": "public MouseSettings setBounds\u200b(java.awt.Rectangle bounds)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets bounds the mouse cannot leave during events",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "reset",
+      "signature": "public void reset()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Resets mouse settings",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getPreferredHand",
+      "signature": "public MouseSettings.Hand getPreferredHand()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets preferred hand",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setPreferredHand",
+      "signature": "public void setPreferredHand\u200b(MouseSettings.Hand preferredHand)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets preferred hand (Left/Right)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isUseMiddleMouseInInteracts",
+      "signature": "public boolean isUseMiddleMouseInInteracts()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if usemiddlemouseininteracts.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setUseMiddleMouseInInteracts",
+      "signature": "public void setUseMiddleMouseInInteracts\u200b(boolean useMiddleMouseInInteracts)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the usemiddlemouseininteracts.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

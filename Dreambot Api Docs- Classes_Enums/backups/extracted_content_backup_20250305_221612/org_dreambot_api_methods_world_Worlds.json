@@ -1,0 +1,248 @@
+{
+  "name": "Worlds",
+  "full_name": "org.dreambot.api.methods.world.Worlds",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/world/Worlds.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.world",
+  "description": "Created by Nezz on 1/5/2015.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "World",
+      "return_type": "java.util.List<World>",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Gets a list of pvp worlds",
+      "deprecated": false
+    },
+    {
+      "name": "Location",
+      "return_type": "Location",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Uses the world hopper widgets in game to determine real location of a given world.",
+      "deprecated": false
+    },
+    {
+      "name": "getCurrentWorld",
+      "signature": "public static int getCurrentWorld()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "all",
+      "signature": "public static java.util.List<World> all()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a List of all the worlds",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "refresh",
+      "signature": "public static void refresh()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "clearWorlds",
+      "signature": "public static void clearWorlds()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Clears the world list and sets it to null",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "f2p",
+      "signature": "public static java.util.List<World> f2p()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns a list of f2p Worlds",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "members",
+      "signature": "public static java.util.List<World> members()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "returns a List of members only worlds",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "pvp",
+      "signature": "public static java.util.List<World> pvp()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a list of pvp worlds",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "highRisk",
+      "signature": "public static java.util.List<World> highRisk()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a list of high risk worlds",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "noMinimumLevel",
+      "signature": "public static java.util.List<World> noMinimumLevel()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a list of worlds with no required level",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWorld",
+      "signature": "public static World getWorld\u200b(int world)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a World object according to the given world number",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRandomWorld",
+      "signature": "public static World getRandomWorld()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a random world from all the worlds",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getNormalizedWorlds",
+      "signature": "public static java.util.List<World> getNormalizedWorlds()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a list of normalized Worlds Normalized meaning not: pvp, deadmode, tournament, twisted leauge, last man standing, bounty hunter, or high risk.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMyWorld",
+      "signature": "@Deprecated public static World getMyWorld()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCurrent",
+      "signature": "public static World getCurrent()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets your current world",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "updatePing",
+      "signature": "public static void updatePing\u200b(World w)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getExactLocation",
+      "signature": "public static Location getExactLocation\u200b(World w)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Uses the world hopper widgets in game to determine real location of a given world.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

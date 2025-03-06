@@ -1,0 +1,159 @@
+{
+  "name": "Players",
+  "full_name": "org.dreambot.api.methods.interactive.Players",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/interactive/Players.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.interactive",
+  "description": "Gets all players",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.methods.interactive.Interactables",
+    "Player"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Player",
+      "return_type": "Player",
+      "modifiers": [
+        "static",
+        "@NonNull"
+      ],
+      "description": "Gets your player",
+      "deprecated": false
+    },
+    {
+      "name": "PlayerComposite",
+      "return_type": "PlayerComposite",
+      "modifiers": [
+        "static",
+        "@Nullable"
+      ],
+      "description": "Deprecated. just use methods from Player",
+      "deprecated": false
+    },
+    {
+      "name": "ModelWrapper",
+      "return_type": "ModelWrapper",
+      "modifiers": [
+        "static",
+        "@Nullable"
+      ],
+      "description": "Deprecated. used Entity.getModel() and switch away from ModelWrapper usage",
+      "deprecated": false
+    },
+    {
+      "name": "all",
+      "signature": "public static @NonNull java.util.List<@NonNull Player> all()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLocal",
+      "signature": "public static @NonNull Player getLocal()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets your player",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "closest",
+      "signature": "public static @Nullable Player closest\u200b(@NonNull java.lang.String... names)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getArray",
+      "signature": "public static @Nullable Player @NonNull [] getArray()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets all players",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "referenceExists",
+      "signature": "public static boolean referenceExists\u200b(int index)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks to see if the player reference exists at this index",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAtIndex",
+      "signature": "public static @Nullable Player getAtIndex\u200b(int index)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a player at a specific index",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getComposite",
+      "signature": "@Deprecated public static @Nullable PlayerComposite getComposite\u200b(@NonNull Player player, @NonNull java.lang.Object playerComposite)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getModel",
+      "signature": "@Deprecated public static @Nullable ModelWrapper getModel\u200b(@NonNull Player player)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

@@ -1,0 +1,86 @@
+{
+  "name": "ClanMember",
+  "full_name": "org.dreambot.api.methods.clan.ClanMember",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/clan/ClanMember.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.clan",
+  "description": "Deprecated.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.methods.friend.NameProvider"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [
+    {
+      "name": "Method Summary\n\nAll Methods\u00a0Instance Methods\u00a0Concrete Methods\u00a0Deprecated Methods\u00a0\n\nModifier and Type\nMethod\nDescription\n\n\nClanMember.Rank\ngetRank()\n\nDeprecated.\n\u00a0\n\n\nint\ngetRankValue()\n\nDeprecated.\n\u00a0\n\n\nint\ngetWorld()\n\nDeprecated.\n\u00a0\n\n\n\n\n\n\nMethods inherited from class\u00a0org.dreambot.api.methods.friend.NameProvider\nformat, getName, getNameComposite, getOtherName, getPreviousName, getPreviousNameComposite\n\n\n\n\n\nMethods inherited from class\u00a0java.lang.Object\nequals, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait",
+      "description": "",
+      "modifiers": []
+    },
+    {
+      "name": "Methods inherited from class\u00a0org.dreambot.api.methods.friend.NameProvider\nformat, getName, getNameComposite, getOtherName, getPreviousName, getPreviousNameComposite",
+      "description": "",
+      "modifiers": []
+    },
+    {
+      "name": "Methods inherited from class\u00a0java.lang.Object\nequals, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait",
+      "description": "",
+      "modifiers": []
+    }
+  ],
+  "methods": [
+    {
+      "name": "ClanMember.Rank",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Deprecated.",
+      "deprecated": false
+    },
+    {
+      "name": "getWorld",
+      "signature": "public int getWorld()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the world.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRankValue",
+      "signature": "public int getRankValue()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the rankvalue.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRank",
+      "signature": "public ClanMember.Rank getRank()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the rank.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

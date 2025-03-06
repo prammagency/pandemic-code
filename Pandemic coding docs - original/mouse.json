@@ -1,0 +1,153 @@
+{
+  "sleep": "500",
+  "name": "",
+  "version": 1.0,
+  "actions": [
+    {
+      "id": "IF_MOUSE_IS_ON_SCREEN",
+      "children": [
+        {
+          "id": "IF_MOUSE_IS_NOT_ON_SCREEN"
+        }
+      ]
+    },
+    {
+      "id": "MOVE_MOUSE_TO_POINT"
+    },
+    {
+      "id": "MOVE_MOUSE_TO_RECTANGLE",
+      "children": [
+        {
+          "id": "MOVE_MOUSE_RANDOMLY"
+        },
+        {
+          "id": "MOVE_MOUSE_OFFSCREEN"
+        },
+        {
+          "id": "MOVE_MOUSE_OFFSCREEN_UP"
+        },
+        {
+          "id": "MOVE_MOUSE_OFFSCREEN_RIGHT"
+        },
+        {
+          "id": "MOVE_MOUSE_OFFSCREEN_DOWN"
+        },
+        {
+          "id": "MOVE_MOUSE_OFFSCREEN_LEFT"
+        },
+        {
+          "id": "LEFT_CLICK"
+        },
+        {
+          "id": "RIGHT_CLICK"
+        },
+        {
+          "id": "DRAG_MOUSE_TO_POINT",
+          "children": [
+            {
+              "id": "HOVER_TILE_ON_SCREEN",
+              "children": [
+                {
+                  "id": "HOVER_TILE_ON_MINIMAP",
+                  "children": [
+                    {
+                      "id": "HOVER_NPC",
+                      "properties": {
+                        "Filter By": {
+                          "class": "NPC",
+                          "logic": "NONE",
+                          "type": "NONE",
+                          "operator": "EQUALS"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "HOVER_PLAYER",
+                          "properties": {
+                            "Filter By": {
+                              "class": "Player",
+                              "logic": "NONE",
+                              "type": "NONE",
+                              "operator": "EQUALS"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": "HOVER_GAME_OBJECT",
+                              "properties": {
+                                "Filter By": {
+                                  "class": "GameObject",
+                                  "logic": "NONE",
+                                  "type": "NONE",
+                                  "operator": "EQUALS"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "id": "HOVER_GROUND_ITEM",
+                                  "properties": {
+                                    "Filter By": {
+                                      "class": "GroundItem",
+                                      "logic": "NONE",
+                                      "type": "NONE",
+                                      "operator": "EQUALS"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "id": "HOVER_WIDGET",
+                                      "properties": {
+                                        "Filter By": {
+                                          "class": "Widget",
+                                          "logic": "NONE",
+                                          "type": "NONE",
+                                          "operator": "EQUALS"
+                                        }
+                                      },
+                                      "children": [
+                                        {
+                                          "id": "HOVER_INVENTORY_ITEM",
+                                          "properties": {
+                                            "Filter Item By": {
+                                              "class": "Item",
+                                              "logic": "NONE",
+                                              "type": "NONE",
+                                              "operator": "EQUALS"
+                                            }
+                                          },
+                                          "children": [
+                                            {
+                                              "id": "SCROLL_MOUSE_WHEEL_DOWN",
+                                              "children": [
+                                                {
+                                                  "id": "SCROLL_MOUSE_WHEEL_UP",
+                                                  "children": [
+                                                    {
+                                                      "id": "SET_MOUSE_SPEED"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

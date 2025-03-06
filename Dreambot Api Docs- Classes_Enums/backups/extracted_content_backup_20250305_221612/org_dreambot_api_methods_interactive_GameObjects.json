@@ -1,0 +1,113 @@
+{
+  "name": "GameObjects",
+  "full_name": "org.dreambot.api.methods.interactive.GameObjects",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/interactive/GameObjects.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.interactive",
+  "description": "Gets all GameObjects on specified Tile",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.methods.interactive.Interactables",
+    "GameObject"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "GameObject",
+      "return_type": "GameObject",
+      "modifiers": [
+        "static",
+        "@Nullable"
+      ],
+      "description": "Gets the top Game Object at specified Tile",
+      "deprecated": false
+    },
+    {
+      "name": "all",
+      "signature": "public static @NonNull java.util.List<@NonNull GameObject> all()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getObjectsOnTile",
+      "signature": "public static @Nullable GameObject[] getObjectsOnTile\u200b(@NonNull Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets all GameObjects on specified Tile",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTopObjectOnTile",
+      "signature": "public static @Nullable GameObject getTopObjectOnTile\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the top Game Object at specified Tile",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "closest",
+      "signature": "public static @Nullable GameObject closest\u200b(@NonNull java.lang.String... names)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isIncludeNullNames",
+      "signature": "public static boolean isIncludeNullNames()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setIncludeNullNames",
+      "signature": "public static void setIncludeNullNames\u200b(boolean includeNullNames)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

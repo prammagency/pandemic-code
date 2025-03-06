@@ -1,0 +1,270 @@
+{
+  "name": "RandomManager",
+  "full_name": "org.dreambot.api.randoms.RandomManager",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/randoms/RandomManager.html",
+  "type": "class",
+  "package": "org.dreambot.api.randoms",
+  "description": "Gets a random solver where the random solver's RandomSolver.getEventString() matches the given eventName.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [
+    {
+      "name": "Constructor Summary\n\nConstructors\u00a0\n\nConstructor\nDescription\n\n\nRandomManager\u200b(java.lang.Thread\u00a0scriptThread,\n             AbstractScript\u00a0script)",
+      "description": "",
+      "modifiers": []
+    }
+  ],
+  "methods": [
+    {
+      "name": "BreakSolver",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "RandomSolver",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a random solver where the random solver's RandomSolver.getEventString() matches the given eventName.",
+      "deprecated": false
+    },
+    {
+      "name": "WelcomeScreenSolver",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "getSolver",
+      "signature": "public RandomSolver getSolver\u200b(java.lang.String eventName)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a random solver where the random solver's RandomSolver.getEventString() matches the given eventName. Note: When building a random solver with a RandomEvent it uses the RandomEvent.toString() to generate event string. This method is not case-sensitive.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "clearRegisteredSolvers",
+      "signature": "public void clearRegisteredSolvers()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "registerSolver",
+      "signature": "public void registerSolver\u200b(RandomSolver solver)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Registers a random solver with priority higher than default. If two or more random solvers are registered, the one registered last will have priority",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "unregisterSolver",
+      "signature": "public void unregisterSolver\u200b(RandomEvent event)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Removes a random solver. If there are more than one, the one with highest priority is removed (script registered ones, then default) Built in solvers cannot be unregistered, any attempt to do so will result in the solver being disabled.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onLoop",
+      "signature": "public int onLoop()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Does the login for checking and running a random solver",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isSolving",
+      "signature": "public boolean isSolving()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getBreakSolver",
+      "signature": "public BreakSolver getBreakSolver()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isUsingCustomBreakSolver",
+      "signature": "public boolean isUsingCustomBreakSolver()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "disableSolver",
+      "signature": "public void disableSolver\u200b(java.lang.String event)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "enableSolver",
+      "signature": "public void enableSolver\u200b(java.lang.String event)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "run",
+      "signature": "public void run()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "runRandomManager",
+      "signature": "public void runRandomManager()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "kill",
+      "signature": "public void kill()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWelcomeScreenSolver",
+      "signature": "public WelcomeScreenSolver getWelcomeScreenSolver()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCurrentSolver",
+      "signature": "public RandomSolver getCurrentSolver()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRandomThread",
+      "signature": "public java.lang.Thread getRandomThread()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setRandomThread",
+      "signature": "public void setRandomThread\u200b(java.lang.Thread randomThread)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

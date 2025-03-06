@@ -1,0 +1,170 @@
+{
+  "sleep": "500",
+  "name": "",
+  "version": 1.0,
+  "actions": [
+    {
+      "id": "IF_TAB_IS_OPEN",
+      "properties": {
+        "Tab": {
+          "class": "Tab",
+          "value": "COMBAT"
+        }
+      },
+      "children": [
+        {
+          "id": "IF_TAB_IS_OPEN",
+          "properties": {
+            "Tab": {
+              "class": "Tab",
+              "value": "ACCOUNT_MANAGEMENT"
+            }
+          },
+          "children": [
+            {
+              "id": "IF_TAB_IS_OPEN",
+              "properties": {
+                "Tab": {
+                  "class": "Tab",
+                  "value": "FRIENDS"
+                }
+              },
+              "children": [
+                {
+                  "id": "IF_TAB_IS_OPEN",
+                  "properties": {
+                    "Tab": {
+                      "class": "Tab",
+                      "value": "LOGOUT"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "IF_TAB_IS_OPEN",
+                      "properties": {
+                        "Tab": {
+                          "class": "Tab",
+                          "value": "OPTIONS"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "IF_TAB_IS_OPEN",
+                          "properties": {
+                            "Tab": {
+                              "class": "Tab",
+                              "value": "EMOTES"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": "IF_TAB_IS_OPEN",
+                              "properties": {
+                                "Tab": {
+                                  "class": "Tab",
+                                  "value": "MUSIC"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "id": "IF_TAB_IS_OPEN",
+                                  "properties": {
+                                    "Tab": {
+                                      "class": "Tab",
+                                      "value": "SKILLS"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "id": "IF_TAB_IS_OPEN",
+                                      "properties": {
+                                        "Tab": {
+                                          "class": "Tab",
+                                          "value": "QUEST"
+                                        }
+                                      },
+                                      "children": [
+                                        {
+                                          "id": "IF_TAB_IS_OPEN",
+                                          "properties": {
+                                            "Tab": {
+                                              "class": "Tab",
+                                              "value": "INVENTORY"
+                                            }
+                                          },
+                                          "children": [
+                                            {
+                                              "id": "IF_TAB_IS_OPEN",
+                                              "properties": {
+                                                "Tab": {
+                                                  "class": "Tab",
+                                                  "value": "EQUIPMENT"
+                                                }
+                                              },
+                                              "children": [
+                                                {
+                                                  "id": "IF_TAB_IS_OPEN",
+                                                  "properties": {
+                                                    "Tab": {
+                                                      "class": "Tab",
+                                                      "value": "PRAYER"
+                                                    }
+                                                  },
+                                                  "children": [
+                                                    {
+                                                      "id": "IF_TAB_IS_OPEN",
+                                                      "properties": {
+                                                        "Tab": {
+                                                          "class": "Tab",
+                                                          "value": "MAGIC"
+                                                        }
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "id": "IF_TAB_IS_NOT_OPEN",
+                                                          "properties": {
+                                                            "Tab": {
+                                                              "class": "Tab",
+                                                              "value": "CLAN"
+                                                            }
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "id": "OPEN_TAB",
+                                                              "properties": {
+                                                                "Tab": {
+                                                                  "class": "Tab",
+                                                                  "value": "CLAN"
+                                                                }
+                                                              }
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

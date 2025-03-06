@@ -1,0 +1,298 @@
+{
+  "sleep": "500",
+  "name": "",
+  "version": 1.0,
+  "actions": [
+    {
+      "id": "IF_ACCEPT_AID_IS_ENABLED"
+    },
+    {
+      "id": "IF_ACCEPT_AID_IS_NOT_ENABLED"
+    },
+    {
+      "id": "ENABLE_ACCEPT_AID"
+    },
+    {
+      "id": "DISABLE_ACCEPT_AID"
+    },
+    {
+      "id": "IF_BRIGHTNESS_IS",
+      "properties": {
+        "brightness": {
+          "class": "Number",
+          "operator": "EQUALS",
+          "value": ""
+        }
+      },
+      "children": [
+        {
+          "id": "SET_BRIGHTNESS",
+          "children": [
+            {
+              "id": "IF_BUY_PRICE_WARNING_IS_ENABLED"
+            },
+            {
+              "id": "IF_BUY_PRICE_WARNING_IS_NOT_ENABLED"
+            },
+            {
+              "id": "ENABLE_BUY_PRICE_WARNING"
+            },
+            {
+              "id": "IF_BUY_PRICE_WARNING_IS_NOT_ENABLED"
+            },
+            {
+              "id": "ENABLE_BUY_PRICE_WARNING"
+            },
+            {
+              "id": "DISABLE_BUY_PRICE_WARNING"
+            },
+            {
+              "id": "IF_CLICK_THROUGH_CHATBOX_IS_ENABLED",
+              "children": [
+                {
+                  "id": "DISABLE_CLICK_THROUGH_CHATBOX"
+                }
+              ]
+            },
+            {
+              "id": "IF_CLICK_THROUGH_CHATBOX_IS_NOT_ENABLED"
+            },
+            {
+              "id": "ENABLE_CLICK_THROUGH_CHATBOX"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IF_CLIENT_LAYOUT_IS",
+      "properties": {
+        "Layout": {
+          "enum": "ClientLayout",
+          "value": "FIXED_CLASSIC"
+        }
+      },
+      "children": [
+        {
+          "id": "SET_CLIENT_LAYOUT",
+          "properties": {
+            "Layout": {
+              "enum": "ClientLayout",
+              "value": "FIXED_CLASSIC"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "IF_ESC_INTERFACE_CLOSING_IS_ENABLED"
+    },
+    {
+      "id": "IF_ESC_INTERFACE_CLOSING_IS_NOT_ENABLED"
+    },
+    {
+      "id": "ENABLE_ESC_INTERFACE_CLOSING"
+    },
+    {
+      "id": "DISABLE_ESC_INTERFACE_CLOSING"
+    },
+    {
+      "id": "IF_FEROX_EXIT_WARNING_IS_ENABLED"
+    },
+    {
+      "id": "IF_FEROX_EXIT_WARNING_IS_NOT_ENABLED"
+    },
+    {
+      "id": "ENABLE_FEROX_EXIT_WARNING"
+    },
+    {
+      "id": "ENABLE_FEROX_EXIT_WARNING"
+    },
+    {
+      "id": "DISABLE_FEROX_EXIT_WARNING"
+    },
+    {
+      "id": "IF_FEROX_EXIT_WARNING_ON_HIGH_RISK_WORLD_IS_ENABLED"
+    },
+    {
+      "id": "IF_FEROX_EXIT_WARNING_ON_HIGH_RISK_WORLD_IS_NOT_ENABLED"
+    },
+    {
+      "id": "ENABLE_FEROX_EXIT_WARNING_ON_HIGH_RISK_WORLD"
+    },
+    {
+      "id": "DISABLE_FEROX_EXIT_WARNING_ON_HIGH_RISK_WORLD"
+    },
+    {
+      "id": "IF_GAME_AUDIO_IS_NOT_ENABLED"
+    },
+    {
+      "id": "IF_GAME_AUDIO_IS_ENABLED"
+    },
+    {
+      "id": "ENABLE_GAME_AUDIO"
+    },
+    {
+      "id": "DISABLE_GAME_AUDIO"
+    },
+    {
+      "id": "IF_LEVEL_UP_INTERFACE_IS_ENABLED"
+    },
+    {
+      "id": "IF_LEVEL_UP_INTERFACE_IS_NOT_ENABLED"
+    },
+    {
+      "id": "ENABLE_LEVEL_UP_INTERFACE"
+    },
+    {
+      "id": "DISABLE_LEVEL_UP_INTERFACE"
+    },
+    {
+      "id": "IF_LOGIN_MUSIC_IS_ENABLED"
+    },
+    {
+      "id": "IF_LOGIN_MUSIC_IS_NOT_ENABLED"
+    },
+    {
+      "id": "ENABLE_LOGIN_MUSIC"
+    },
+    {
+      "id": "DISABLE_LOGIN_MUSIC"
+    },
+    {
+      "id": "IF_NPC_ATTACK_OPTION_MODE",
+      "properties": {
+        "Mode": {
+          "enum": "ActionMode",
+          "value": "DEPENDS_ON_COMBAT_LEVELS"
+        }
+      },
+      "children": [
+        {
+          "id": "SET_NPC_ATTACK_OPTION_MODE",
+          "properties": {
+            "Mode": {
+              "enum": "ActionMode",
+              "value": "DEPENDS_ON_COMBAT_LEVELS"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "IF_MAKE_X_DARTS_IS_ENABLED"
+    },
+    {
+      "id": "IF_MAKE_X_DARTS_IS_NOT_ENABLED"
+    },
+    {
+      "id": "ENABLE_MAKE_X_DARTS"
+    },
+    {
+      "id": "DISABLE_MAKE_X_DARTS"
+    },
+    {
+      "id": "IF_MOVE_FOLLOWER_OPTIONS_LOWER_IS_ENABLED"
+    },
+    {
+      "id": "IF_MOVE_FOLLOWER_OPTIONS_LOWER_IS_NOT_ENABLED"
+    },
+    {
+      "id": "ENABLE_MOVE_FOLLOWER_OPTIONS_LOWER"
+    },
+    {
+      "id": "DISABLE_MOVE_FOLLOWER_OPTIONS_LOWER"
+    },
+    {
+      "id": "IF_PLAYER_ATTACK_OPTION_MODE",
+      "properties": {
+        "Mode": {
+          "enum": "ActionMode",
+          "value": "DEPENDS_ON_COMBAT_LEVELS"
+        }
+      },
+      "children": [
+        {
+          "id": "SET_PLAYER_ATTACK_OPTION_MODE",
+          "properties": {
+            "Mode": {
+              "enum": "ActionMode",
+              "value": "DEPENDS_ON_COMBAT_LEVELS"
+            }
+          },
+          "children": [
+            {
+              "id": "IF_ROOFS_ARE_HIDDEN"
+            },
+            {
+              "id": "IF_ROOFS_ARE_NOT_HIDDEN"
+            },
+            {
+              "id": "SHOW_ROOFS"
+            },
+            {
+              "id": "HIDE_ROOFS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IF_SELL_PRICE_WARNING_IS_ENABLED"
+    },
+    {
+      "id": "IF_SELL_PRICE_WARNING_IS_NOT_ENABLED"
+    },
+    {
+      "id": "ENABLE_SELL_PRICE_WARNING"
+    },
+    {
+      "id": "DISABLE_SELL_PRICE_WARNING"
+    },
+    {
+      "id": "IF_TRANSPARENT_CHATBOX_IS_ENABLED"
+    },
+    {
+      "id": "IF_TRANSPARENT_CHATBOX_IS_NOT_ENABLED"
+    },
+    {
+      "id": "ENABLE_TRANSPARENT_CHATBOX"
+    },
+    {
+      "id": "ENABLE_TRANSPARENT_CHATBOX"
+    },
+    {
+      "id": "DISABLE_TRANSPARENT_CHATBOX"
+    },
+    {
+      "id": "IF_WORLD_HOP_CONFIRMATION_IS_ENABLED"
+    },
+    {
+      "id": "IF_WORLD_HOP_CONFIRMATION_IS_NOT_ENABLED"
+    },
+    {
+      "id": "ENABLE_WORLD_HOP_CONFIRMATION"
+    },
+    {
+      "id": "ENABLE_WORLD_HOP_CONFIRMATION"
+    },
+    {
+      "id": "ENABLE_WORLD_HOP_CONFIRMATION"
+    },
+    {
+      "id": "DISABLE_WORLD_HOP_CONFIRMATION"
+    },
+    {
+      "id": "IF_SCROLL_TO_ZOOM_IS_ENABLED"
+    },
+    {
+      "id": "IF_SCROLL_TO_ZOOM_IS_NOT_ENABLED"
+    },
+    {
+      "id": "ENABLE_SCROLL_TO_ZOOM"
+    },
+    {
+      "id": "DISABLE_SCROLL_TO_ZOOM"
+    }
+  ]
+}

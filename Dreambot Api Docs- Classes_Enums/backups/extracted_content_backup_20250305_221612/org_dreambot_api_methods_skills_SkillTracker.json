@@ -1,0 +1,165 @@
+{
+  "name": "SkillTracker",
+  "full_name": "org.dreambot.api.methods.skills.SkillTracker",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/skills/SkillTracker.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.skills",
+  "description": "Created by Nezz on 11/3/2014.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "start",
+      "signature": "public static void start()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Starts tracking all skills, will reset the tracker if already started",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "reset",
+      "signature": "public static void reset\u200b(Skill s)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Resets the current values of a Skill in the tracker",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "resetAll",
+      "signature": "public static void resetAll()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets all skill trackers to 0",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getGainedExperience",
+      "signature": "public static long getGainedExperience\u200b(Skill s)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the gained experience since skill tracking began",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getGainedExperiencePerHour",
+      "signature": "public static int getGainedExperiencePerHour\u200b(Skill s)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets gained experience per hour based on Skill start time",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTimeToLevel",
+      "signature": "public static long getTimeToLevel\u200b(Skill s)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get the estimated amount of time in milliseconds until the next level at the current hourly rate.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getStartTime",
+      "signature": "public static long getStartTime\u200b(Skill s)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the start time of the Skill",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getStartExperience",
+      "signature": "public static int getStartExperience\u200b(Skill s)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the starting experience value of the Skill.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getStartLevel",
+      "signature": "public static int getStartLevel\u200b(Skill s)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Starting level of the Skill",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getGainedLevels",
+      "signature": "public static int getGainedLevels\u200b(Skill s)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets gained levels of Skill",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hasStarted",
+      "signature": "public static boolean hasStarted\u200b(Skill skill)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if a skill has tracking started successfully",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

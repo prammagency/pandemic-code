@@ -1,0 +1,61 @@
+{
+  "name": "KeyboardTypingAlgorithm",
+  "full_name": "org.dreambot.api.input.keyboard.KeyboardTypingAlgorithm",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/input/keyboard/KeyboardTypingAlgorithm.html",
+  "type": "interface",
+  "package": "org.dreambot.api.input.keyboard",
+  "description": "Interface for keyboard typing algorithm/behavior of the client. Used for the implementation of KeyboardEvent KeyboardEvent.run() will continuously call handleTyping if there is a message to type, or typeKey if only a singular Key is set to be typed The KeyboardEvent will continuously check for its own timeout, completed/failed conditions. Those do not need to be handled here. It is recommended to only type one key at a type in the handleTyping and returning 1 The message to be typed is truncated by the number you return in that method. This is handled inside KeyboardEvent eg: handleTyping(\"test\") return 1 followed by handleTyping(\"est\") return 1 followed by handleTyping(\"st\") return 2 completed",
+  "page_structure": {
+    "type": "interface",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "pressEnter",
+      "return_type": "",
+      "modifiers": [],
+      "description": "pressEnter void pressEnter() Handles pressing enter, called when the message has been typed successfully if required",
+      "deprecated": false,
+      "signature": "void pressEnter()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      }
+    },
+    {
+      "name": "handleTyping",
+      "signature": "int handleTyping\u200b(java.lang.String message)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Handles typing of characters Intended use is to type one character at a type, but not a requirement Message will be truncated as per the number of characters typed before being re-called Enter is called separately if message is completed successfully",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "typeKey",
+      "signature": "void typeKey\u200b(Key key)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Handles typing of a singular Key If you require typing a character that is not in the Key list, the key events are able to send the raw character NOTE - the internal information of the event will not be correct if we do not have the key information for it.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

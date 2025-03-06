@@ -1,0 +1,320 @@
+{
+  "name": "Player",
+  "full_name": "org.dreambot.api.wrappers.interactive.Player",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/Player.html",
+  "type": "class",
+  "package": "org.dreambot.api.wrappers.interactive",
+  "description": "Note: This shouldn't be used by API users, it's an internal constructor.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.wrappers.interactive.interact.Interactable",
+    "org.dreambot.api.wrappers.interactive.Entity",
+    "org.dreambot.api.wrappers.interactive.Character"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "PlayerComposite",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "Item",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a list of Items that the player is wearing based on PlayerComposite.getAppearance() and adjusting the value to translate from appearance to item.",
+      "deprecated": false
+    },
+    {
+      "name": "NameComposite",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Deprecated. internal use, use getName",
+      "deprecated": false
+    },
+    {
+      "name": "getOverheadIcon",
+      "signature": "public int getOverheadIcon()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTeam",
+      "signature": "public int getTeam()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getComposite",
+      "signature": "public PlayerComposite getComposite()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLevel",
+      "signature": "public int getLevel()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: Character",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSkullIcon",
+      "signature": "public int getSkullIcon()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isSkulled",
+      "signature": "public boolean isSkulled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isHidden",
+      "signature": "@Deprecated public boolean isHidden()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getNameComposite",
+      "signature": "@Deprecated public NameComposite getNameComposite()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getName",
+      "signature": "public java.lang.String getName()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: Entity",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getIndex",
+      "signature": "public int getIndex()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: Character",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setIndex",
+      "signature": "public void setIndex\u200b(int index)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getBoundingBox",
+      "signature": "public java.awt.Rectangle getBoundingBox()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: Entity",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getID",
+      "signature": "public int getID()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Identifiable",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hasAction",
+      "signature": "public boolean hasAction\u200b(java.lang.String... actions)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines if player contains at least one of the following actions.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getActions",
+      "signature": "public java.lang.String[] getActions()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the actions available for a player. This array DOES contain null values. Values returned here will update during wildy",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toString",
+      "signature": "public java.lang.String toString()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAppearance",
+      "signature": "public int[] getAppearance()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getBodyColors",
+      "signature": "public int[] getBodyColors()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getEquipment",
+      "signature": "public java.util.List<Item> getEquipment()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a list of Items that the player is wearing based on PlayerComposite.getAppearance() and adjusting the value to translate from appearance to item.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hashed",
+      "signature": "public java.lang.String hashed()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "exists",
+      "signature": "public boolean exists()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: Character",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

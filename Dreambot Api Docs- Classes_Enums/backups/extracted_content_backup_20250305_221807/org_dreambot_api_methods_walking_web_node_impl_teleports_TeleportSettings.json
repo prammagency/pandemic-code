@@ -1,0 +1,122 @@
+{
+  "name": "TeleportSettings",
+  "full_name": "org.dreambot.api.methods.walking.web.node.impl.teleports.TeleportSettings",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/teleports/TeleportSettings.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.walking.web.node.impl.teleports",
+  "description": "Class TeleportSettings in the org.dreambot.api.methods.walking.web.node.impl.teleports package provides functionality for DreamBot scripts.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "HousePortal",
+      "return_type": "java.util.List<HousePortal>",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Performs the HousePortal operation.",
+      "deprecated": false
+    },
+    {
+      "name": "getAvailableNexus",
+      "signature": "public static java.util.List<HousePortal> getAvailableNexus()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the availablenexus.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "addNexus",
+      "signature": "public static void addNexus\u200b(HousePortal nexus)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the addNexus operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "removeNexus",
+      "signature": "public static void removeNexus\u200b(HousePortal nexus)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the removeNexus operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "containsNexus",
+      "signature": "public static boolean containsNexus\u200b(HousePortal nexus)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the containsNexus operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "clearNexus",
+      "signature": "public static void clearNexus()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the clearNexus operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getJewelleryBoxLevel",
+      "signature": "public static int getJewelleryBoxLevel()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the jewelleryboxlevel.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setJewelleryBoxLevel",
+      "signature": "public static void setJewelleryBoxLevel\u200b(int jewelleryBoxLevel)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the jewelleryboxlevel.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

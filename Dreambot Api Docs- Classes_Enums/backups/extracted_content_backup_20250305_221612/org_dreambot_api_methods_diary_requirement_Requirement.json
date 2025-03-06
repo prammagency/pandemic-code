@@ -1,0 +1,35 @@
+{
+  "name": "Requirement",
+  "full_name": "org.dreambot.api.methods.diary.requirement.Requirement",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/diary/requirement/Requirement.html",
+  "type": "interface",
+  "package": "org.dreambot.api.methods.diary.requirement",
+  "description": "Deprecated.",
+  "page_structure": {
+    "type": "interface",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "satisfied",
+      "return_type": "",
+      "modifiers": [],
+      "description": "satisfied boolean satisfied() Deprecated.",
+      "deprecated": false,
+      "signature": "boolean satisfied()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      }
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

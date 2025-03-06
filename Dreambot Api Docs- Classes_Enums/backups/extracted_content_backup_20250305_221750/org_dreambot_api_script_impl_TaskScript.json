@@ -1,0 +1,110 @@
+{
+  "name": "TaskScript",
+  "full_name": "org.dreambot.api.script.impl.TaskScript",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/script/impl/TaskScript.html",
+  "type": "class",
+  "package": "org.dreambot.api.script.impl",
+  "description": "New replacement for NodeScript. More appropriately named thanks to Harold. Created with IntelliJ IDEA. User: NotoriousPP Date: 11/25/2014 Time: 5:05 PM",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.methods.MethodProvider",
+    "org.dreambot.api.script.AbstractScript"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "TaskNode",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get task list nodes as an array.",
+      "deprecated": false
+    },
+    {
+      "name": "addNodes",
+      "signature": "public void addNodes\u200b(TaskNode... nodes)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Add nodes to task list.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "removeNodes",
+      "signature": "public void removeNodes\u200b(TaskNode... nodes)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Remove select nodes from task list.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getNodes",
+      "signature": "public TaskNode[] getNodes()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get task list nodes as an array.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onLoop",
+      "signature": "public int onLoop()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "See AbstractScript.onLoop() Checks all accepted nodes and executes the one with the highest priority value If no nodes are found, failCount is incremented by 1 If failCount goes above the failLimit, the script will stop. failCount is reset to 0 on successfully finding a node to execute. See setFailLimit(int)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLastTaskNode",
+      "signature": "public TaskNode getLastTaskNode()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the last task node that has been found valid to be executed.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setFailLimit",
+      "signature": "public void setFailLimit\u200b(int failLimit)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the amount the node selector is allowed to fail before stopping the script. Any value less than 0 is considered unlimited.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

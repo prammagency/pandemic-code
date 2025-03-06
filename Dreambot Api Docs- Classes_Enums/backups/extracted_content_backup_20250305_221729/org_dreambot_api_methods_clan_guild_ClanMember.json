@@ -1,0 +1,61 @@
+{
+  "name": "ClanMember",
+  "full_name": "org.dreambot.api.methods.clan.guild.ClanMember",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/clan/guild/ClanMember.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.clan.guild",
+  "description": "Returns a formatted version of the clan member's name Formatted means replacing all non-alphabetical/numeric characters with spaces ex: \"jack_sparrow\" would return \"jack sparrow\"",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "getWorld",
+      "signature": "public int getWorld()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the world.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRankValue",
+      "signature": "public byte getRankValue()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a byte value for the clan member's rank Currently we do not have what these values map to as actual ranks.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getName",
+      "signature": "public java.lang.String getName()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns a formatted version of the clan member's name Formatted means replacing all non-alphabetical/numeric characters with spaces ex: \"jack_sparrow\" would return \"jack sparrow\"",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

@@ -1,0 +1,217 @@
+{
+  "name": "ItemContainerListener",
+  "full_name": "org.dreambot.api.script.listener.ItemContainerListener",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/script/listener/ItemContainerListener.html",
+  "type": "interface",
+  "package": "org.dreambot.api.script.listener",
+  "description": "Item container listener, holds events for Inventory, Bank, and Equipment.",
+  "page_structure": {
+    "type": "interface",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "onInventoryItemChanged",
+      "signature": "default void onInventoryItemChanged\u200b(Item incoming, Item existing)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Item changed is when the item that is changing is the same ID but different stack sizes",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onInventoryItemAdded",
+      "signature": "default void onInventoryItemAdded\u200b(Item item)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "A new item is added",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onInventoryItemRemoved",
+      "signature": "default void onInventoryItemRemoved\u200b(Item item)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "An Item is removed",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onInventoryItemSwapped",
+      "signature": "default void onInventoryItemSwapped\u200b(Item incoming, Item outgoing)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "An item is being swapped out with another item",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onEquipmentItemChanged",
+      "signature": "default void onEquipmentItemChanged\u200b(Item incoming, Item existing)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Item changed is when the item that is changing is the same ID but different stack sizes",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onEquipmentItemAdded",
+      "signature": "default void onEquipmentItemAdded\u200b(Item item)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "A new item is added",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onEquipmentItemRemoved",
+      "signature": "default void onEquipmentItemRemoved\u200b(Item item)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "An Item is removed",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onEquipmentItemSwapped",
+      "signature": "default void onEquipmentItemSwapped\u200b(Item incoming, Item outgoing)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "An item is being swapped out with another item",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onBankItemChanged",
+      "signature": "default void onBankItemChanged\u200b(Item incoming, Item existing)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Item changed is when the item that is changing is the same ID but different stack sizes",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onBankItemAdded",
+      "signature": "default void onBankItemAdded\u200b(Item item)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "A new item is added",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onBankItemRemoved",
+      "signature": "default void onBankItemRemoved\u200b(Item item)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "An Item is removed",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onBankItemSwapped",
+      "signature": "default void onBankItemSwapped\u200b(Item incoming, Item outgoing)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "An item is being swapped out with another item",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onLootBagItemAdded",
+      "signature": "default void onLootBagItemAdded\u200b(Item item)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "An item is being added to the looting bag interface Only gets fired when you check/view looting bag",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onLootBagItemRemoved",
+      "signature": "default void onLootBagItemRemoved\u200b(Item item)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the onLootBagItemRemoved operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onLootBagItemUpdated",
+      "signature": "default void onLootBagItemUpdated\u200b(Item incoming, Item existing)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the onLootBagItemUpdated operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

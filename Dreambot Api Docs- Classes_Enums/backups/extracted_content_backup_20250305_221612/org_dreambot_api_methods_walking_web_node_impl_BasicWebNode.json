@@ -1,0 +1,142 @@
+{
+  "name": "BasicWebNode",
+  "full_name": "org.dreambot.api.methods.walking.web.node.impl.BasicWebNode",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/BasicWebNode.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.walking.web.node.impl",
+  "description": "Basic web node, which stores connections and location.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.methods.walking.web.node.AbstractWebNode"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "WebNodeType",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the WebNodeType of this node, used during path finding to ensure they're not disabled by the script",
+      "deprecated": false
+    },
+    {
+      "name": "Condition",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "getType",
+      "signature": "public WebNodeType getType()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: AbstractWebNode",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hasRequirements",
+      "signature": "public boolean hasRequirements()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: AbstractWebNode",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isValid",
+      "signature": "public boolean isValid()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: AbstractWebNode",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "execute",
+      "signature": "public boolean execute\u200b(AbstractWebNode next)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: PathAwareWebNode",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRandomizationFactor",
+      "signature": "public double getRandomizationFactor()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setRandomizationFactor",
+      "signature": "public void setRandomizationFactor\u200b(double randomizationFactor)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getValid",
+      "signature": "public Condition getValid()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setValid",
+      "signature": "public void setValid\u200b(Condition valid)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

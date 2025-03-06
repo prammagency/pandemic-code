@@ -1,0 +1,227 @@
+{
+  "name": "TollWebNode",
+  "full_name": "org.dreambot.api.methods.walking.web.node.impl.TollWebNode",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/TollWebNode.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.walking.web.node.impl",
+  "description": "Represents a toll node such as a gate",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.methods.walking.web.node.AbstractWebNode"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "AbstractWebNode",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the AbstractWebNode operation.",
+      "deprecated": false
+    },
+    {
+      "name": "RequiredItem",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the RequiredItem operation.",
+      "deprecated": false
+    },
+    {
+      "name": "WebNodeType",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the WebNodeType of this node, used during path finding to ensure they're not disabled by the script",
+      "deprecated": false
+    },
+    {
+      "name": "getType",
+      "signature": "public WebNodeType getType()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: AbstractWebNode",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "execute",
+      "signature": "public boolean execute()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: AbstractWebNode",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hasRequirements",
+      "signature": "public boolean hasRequirements()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: AbstractWebNode",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDestination",
+      "signature": "public AbstractWebNode getDestination()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the destination.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setDestination",
+      "signature": "public void setDestination\u200b(AbstractWebNode destination)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the destination.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getEntityName",
+      "signature": "public java.lang.String getEntityName()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the entityname.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setEntityName",
+      "signature": "public void setEntityName\u200b(java.lang.String entityName)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the entityname.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getToll",
+      "signature": "public int getToll()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the toll.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setToll",
+      "signature": "public void setToll\u200b(int toll)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the toll.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAction",
+      "signature": "public java.lang.String getAction()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the action.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setAction",
+      "signature": "public void setAction\u200b(java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the action.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "forceNext",
+      "signature": "public boolean forceNext()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: AbstractWebNode",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isValid",
+      "signature": "public boolean isValid()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: AbstractWebNode",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRequiredItems",
+      "signature": "public java.util.List<RequiredItem> getRequiredItems()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the requireditems.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

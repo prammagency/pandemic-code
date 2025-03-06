@@ -1,0 +1,357 @@
+{
+  "name": "AbstractScript",
+  "full_name": "org.dreambot.api.script.AbstractScript",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/script/AbstractScript.html",
+  "type": "class",
+  "package": "org.dreambot.api.script",
+  "description": "This is the base class of any script to be run on the client. Please note that this class requires a ScriptManifest to be present in order to show up in the client. What happens when a script is started: onStart(String...) is called if script parameters are passed, otherwise onStart() will be called The RandomManager is started, which will fire onSolverStart(RandomSolver) when those are wanting to run and onSolverEnd(RandomSolver) when they're complete onLoop() is then repeatedly called until the script is stopped After the script has stopped, onExit() is finally called",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.methods.MethodProvider"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "ScriptManager.State",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the ScriptManager.State operation.",
+      "deprecated": false
+    },
+    {
+      "name": "ScriptManifest",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the ScriptManifest operation.",
+      "deprecated": false
+    },
+    {
+      "name": "RandomManager",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the RandomManager operation.",
+      "deprecated": false
+    },
+    {
+      "name": "onStart",
+      "signature": "public void onStart()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Called when the script starts with no script parameters passed in.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onSolverStart",
+      "signature": "public boolean onSolverStart\u200b(RandomSolver solver)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Called during the random solver reset stage, before solver.onStart is called. Must return true in order for the solver.onStart to be called, and the solver to begin.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onSolverEnd",
+      "signature": "public void onSolverEnd\u200b(RandomSolver solver)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Called after the random solver has ended.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onLoop",
+      "signature": "public abstract int onLoop()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This is the script's primary loop that runs as long as the script does.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onScheduledStop",
+      "signature": "public boolean onScheduledStop()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Called when the DreamBot Scheduler wants to stop the current script. Must return true in order for the script to actually begin stopping.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onExit",
+      "signature": "public void onExit()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Called when the script ends.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onPause",
+      "signature": "public void onPause()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Called when the script is paused.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onResume",
+      "signature": "public void onResume()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Called when the script is resumed.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onPaint",
+      "signature": "public void onPaint\u200b(java.awt.Graphics graphics)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Handles the graphic for the script.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "buildRandomManager",
+      "signature": "public final void buildRandomManager()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Creates the random manager and thread for this script",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "stop",
+      "signature": "public void stop()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the stop operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "run",
+      "signature": "public final void run()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the run operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isPaused",
+      "signature": "public boolean isPaused()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if paused.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setState",
+      "signature": "public void setState\u200b(ScriptManager.State state)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the state.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getManifest",
+      "signature": "public final ScriptManifest getManifest()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the manifest.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getVersion",
+      "signature": "public double getVersion()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the version.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSDNName",
+      "signature": "public final java.lang.String getSDNName()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the sdnname.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getThreadURL",
+      "signature": "public final java.lang.String getThreadURL()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the threadurl.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getScriptId",
+      "signature": "public final int getScriptId()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the scriptid.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getStoreId",
+      "signature": "public final int getStoreId()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the storeid.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSDNParameters",
+      "signature": "public final java.lang.String getSDNParameters()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This is arbitrary data you've included in the SDN as a String You can use this as a way to differentiate between scripts with a similar code base, such as a basic and advanced version, without needing to maintain two separate (but extremely similar) script repos/modules.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCurrentState",
+      "signature": "public ScriptManager.State getCurrentState()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the currentstate.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRandomManager",
+      "signature": "public RandomManager getRandomManager()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the randommanager.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRandomThread",
+      "signature": "public java.lang.Thread getRandomThread()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the randomthread.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

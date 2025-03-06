@@ -1,0 +1,237 @@
+{
+  "name": "Magic",
+  "full_name": "org.dreambot.api.methods.magic.Magic",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/magic/Magic.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.magic",
+  "description": "Created by Pandemic",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Spell",
+      "return_type": "Spell",
+      "modifiers": [
+        "static",
+        "@Nullable"
+      ],
+      "description": "Gets the active spell that is selected via autocast",
+      "deprecated": false
+    },
+    {
+      "name": "Spellbook",
+      "return_type": "Spellbook",
+      "modifiers": [
+        "static",
+        "@Nullable"
+      ],
+      "description": "Returns the current spellbook",
+      "deprecated": false
+    },
+    {
+      "name": "interact",
+      "signature": "public static boolean interact\u200b(@NonNull Spell spell, @Nullable java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Interacts with the spell with the given action",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "castSpell",
+      "signature": "public static boolean castSpell\u200b(@NonNull Spell spell)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Casts a spell",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "castSpellOn",
+      "signature": "public static boolean castSpellOn\u200b(@NonNull Spell spell, @NonNull Entity entity)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Casts a spell on an entity",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isSpellSelected",
+      "signature": "public static boolean isSpellSelected()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if a spell is currently selected",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSelectedSpellName",
+      "signature": "public static @Nullable java.lang.String getSelectedSpellName()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the currently selected spell name",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "canCast",
+      "signature": "public static boolean canCast\u200b(@NonNull Spell spell)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if you can cast the given spell. Does account for any staffs equipped. Uses WebFinder.getCurrentPathQuery() to determine if bank should be included",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "deselect",
+      "signature": "public static boolean deselect()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Deselects the current spell if one is selected",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAutocastSpell",
+      "signature": "public static @Nullable Spell getAutocastSpell()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the active spell that is selected via autocast",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isAutocasting",
+      "signature": "public static boolean isAutocasting()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isAutocastDefensive",
+      "signature": "public static boolean isAutocastDefensive()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setDefensiveAutocastSpell",
+      "signature": "public static boolean setDefensiveAutocastSpell\u200b(@NonNull Spell spell)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setAutocastSpell",
+      "signature": "public static boolean setAutocastSpell\u200b(@NonNull Spell spell)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isSpellFilteringEnabled",
+      "signature": "public static boolean isSpellFilteringEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This is used to check if spell filtering is enabled. If spell filtering is enabled, it does not necessarily mean something is currently being filtered, just that the ability to do so will be available via the \"Filter\" button in the Magic tab.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setSpellFilteringEnabled",
+      "signature": "public static boolean setSpellFilteringEnabled\u200b(boolean enabled)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Either enables or disables the spell filtering options in the Magic tab",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSpellbook",
+      "signature": "public static @Nullable Spellbook getSpellbook()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the current spellbook",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

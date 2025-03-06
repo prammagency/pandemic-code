@@ -1,0 +1,126 @@
+{
+  "name": "MouseVector",
+  "full_name": "org.dreambot.api.input.event.impl.mouse.vector.impl.MouseVector",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/vector/impl/MouseVector.html",
+  "type": "class",
+  "package": "org.dreambot.api.input.event.impl.mouse.vector.impl",
+  "description": "Deprecated.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "getMagnitude",
+      "signature": "public double getMagnitude()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Vector",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setMagnitude",
+      "signature": "public void setMagnitude\u200b(double magnitude)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the magnitude.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDirection",
+      "signature": "public double getDirection()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Vector",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setDirection",
+      "signature": "public void setDirection\u200b(double direction)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the direction.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAngleRadian",
+      "signature": "public double getAngleRadian()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Vector",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setAngleRadian",
+      "signature": "public void setAngleRadian\u200b(double angle)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the angleradian.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getThetaX",
+      "signature": "public double getThetaX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Vector",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getThetaY",
+      "signature": "public double getThetaY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Vector",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

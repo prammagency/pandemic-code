@@ -1,0 +1,61 @@
+{
+  "name": "SpotAnimation",
+  "full_name": "org.dreambot.api.wrappers.graphics.SpotAnimation",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/graphics/SpotAnimation.html",
+  "type": "class",
+  "package": "org.dreambot.api.wrappers.graphics",
+  "description": "",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "getDelay",
+      "signature": "public int getDelay()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAnimationId",
+      "signature": "public int getAnimationId()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTick",
+      "signature": "public int getTick()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

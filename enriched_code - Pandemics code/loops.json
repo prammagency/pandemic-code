@@ -1,0 +1,335 @@
+{
+  "sleep": "500",
+  "name": "",
+  "version": 1.0,
+  "actions": [
+    {
+      "id": "WHILE_VARIABLE_MATCHES",
+      "properties": {
+        "Filter Value By": {
+          "class": "Variable",
+          "logic": "NONE",
+          "type": "AS_TEXT",
+          "operator": "EQUALS",
+          "value": "y",
+          "filters": [
+            {
+              "class": "Variable",
+              "logic": "AND",
+              "type": "AS_TEXT",
+              "operator": "DOES_NOT_EQUAL",
+              "value": "y"
+            },
+            {
+              "class": "Variable",
+              "logic": "AND",
+              "type": "AS_TEXT",
+              "operator": "CONTAINS",
+              "value": "y"
+            },
+            {
+              "class": "Variable",
+              "logic": "AND",
+              "type": "AS_TEXT",
+              "operator": "DOES_NOT_CONTAIN",
+              "value": "y"
+            },
+            {
+              "class": "Variable",
+              "logic": "AND",
+              "type": "AS_TEXT",
+              "operator": "STARTS_WITH",
+              "value": "y"
+            },
+            {
+              "class": "Variable",
+              "logic": "AND",
+              "type": "AS_TEXT",
+              "operator": "ENDS_WITH",
+              "value": "y"
+            },
+            {
+              "class": "Variable",
+              "logic": "AND",
+              "type": "AS_TEXT",
+              "operator": "IS_IN_LIST",
+              "value": "y"
+            },
+            {
+              "class": "Variable",
+              "logic": "AND",
+              "type": "AS_TEXT",
+              "operator": "NOT_IN_LIST",
+              "value": "y"
+            },
+            {
+              "class": "Variable",
+              "logic": "AND",
+              "type": "AS_NUMBER",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Variable",
+              "logic": "AND",
+              "type": "AS_BOOLEAN",
+              "operator": "IS_TRUE"
+            },
+            {
+              "class": "Variable",
+              "logic": "AND",
+              "type": "AS_BOOLEAN",
+              "operator": "IS_FALSE"
+            },
+            {
+              "class": "Variable",
+              "logic": "AND",
+              "type": "FILTER_BY_ACTION",
+              "operator": "EQUALS",
+              "value": "y"
+            },
+            {
+              "class": "Variable",
+              "logic": "AND",
+              "type": "AS_NUMBER",
+              "operator": "DOES_NOT_EQUAL",
+              "value": "y"
+            },
+            {
+              "class": "Variable",
+              "logic": "AND",
+              "type": "AS_NUMBER",
+              "operator": "LESS_THAN",
+              "value": "y"
+            },
+            {
+              "class": "Variable",
+              "logic": "AND",
+              "type": "AS_NUMBER",
+              "operator": "LESS_THAN_OR_EQUAL",
+              "value": "y"
+            },
+            {
+              "class": "Variable",
+              "logic": "AND",
+              "type": "AS_NUMBER",
+              "operator": "GREATER_THAN",
+              "value": "y"
+            },
+            {
+              "class": "Variable",
+              "logic": "AND",
+              "type": "AS_NUMBER",
+              "operator": "GREATER_THAN_OR_EQUAL",
+              "value": "y"
+            },
+            {
+              "class": "Variable",
+              "logic": "AND",
+              "type": "AS_NUMBER",
+              "operator": "CONTAINS",
+              "value": "y"
+            },
+            {
+              "class": "Variable",
+              "logic": "AND",
+              "type": "AS_NUMBER",
+              "operator": "DOES_NOT_CONTAIN",
+              "value": "y"
+            },
+            {
+              "class": "Variable",
+              "logic": "OR",
+              "type": "AS_TEXT",
+              "operator": "EQUALS",
+              "value": "y"
+            },
+            {
+              "class": "Variable",
+              "logic": "OR",
+              "type": "AS_TEXT",
+              "operator": "DOES_NOT_EQUAL",
+              "value": "y"
+            },
+            {
+              "class": "Variable",
+              "logic": "OR",
+              "type": "AS_TEXT",
+              "operator": "CONTAINS",
+              "value": "y"
+            },
+            {
+              "class": "Variable",
+              "logic": "OR",
+              "type": "AS_TEXT",
+              "operator": "DOES_NOT_CONTAIN",
+              "value": "y"
+            },
+            {
+              "class": "Variable",
+              "logic": "OR",
+              "type": "AS_TEXT",
+              "operator": "STARTS_WITH",
+              "value": "y"
+            },
+            {
+              "class": "Variable",
+              "logic": "OR",
+              "type": "AS_TEXT",
+              "operator": "ENDS_WITH",
+              "value": "y"
+            },
+            {
+              "class": "Variable",
+              "logic": "OR",
+              "type": "AS_TEXT",
+              "operator": "IS_IN_LIST",
+              "value": "y"
+            },
+            {
+              "class": "Variable",
+              "logic": "OR",
+              "type": "AS_TEXT",
+              "operator": "NOT_IN_LIST",
+              "value": "y"
+            },
+            {
+              "class": "Variable",
+              "logic": "OR",
+              "type": "AS_NUMBER",
+              "operator": "EQUALS",
+              "value": "y"
+            },
+            {
+              "class": "Variable",
+              "logic": "OR",
+              "type": "AS_NUMBER",
+              "operator": "DOES_NOT_EQUAL",
+              "value": "y"
+            },
+            {
+              "class": "Variable",
+              "logic": "OR",
+              "type": "AS_NUMBER",
+              "operator": "LESS_THAN",
+              "value": "y"
+            },
+            {
+              "class": "Variable",
+              "logic": "OR",
+              "type": "AS_NUMBER",
+              "operator": "LESS_THAN_OR_EQUAL",
+              "value": "y"
+            },
+            {
+              "class": "Variable",
+              "logic": "OR",
+              "type": "AS_NUMBER",
+              "operator": "GREATER_THAN",
+              "value": "y"
+            },
+            {
+              "class": "Variable",
+              "logic": "OR",
+              "type": "AS_NUMBER",
+              "operator": "GREATER_THAN_OR_EQUAL",
+              "value": "y"
+            },
+            {
+              "class": "Variable",
+              "logic": "OR",
+              "type": "AS_NUMBER",
+              "operator": "CONTAINS",
+              "value": "y"
+            },
+            {
+              "class": "Variable",
+              "logic": "OR",
+              "type": "AS_NUMBER",
+              "operator": "DOES_NOT_CONTAIN",
+              "value": "y"
+            }
+          ]
+        },
+        "Variable name": "x"
+      },
+      "children": [
+        {
+          "id": "WHILE_VARIABLE_DOES_NOT_MATCH",
+          "properties": {
+            "Filter Value By": {
+              "class": "Variable",
+              "logic": "NONE",
+              "type": "AS_TEXT",
+              "operator": "EQUALS"
+            }
+          },
+          "children": [
+            {
+              "id": "WHILE_VALUE_MATCHES",
+              "properties": {
+                "Filter Value By": {
+                  "class": "Variable",
+                  "logic": "NONE",
+                  "type": "AS_TEXT",
+                  "operator": "EQUALS"
+                }
+              },
+              "children": [
+                {
+                  "id": "WHILE_VALUE_DOES_NOT_MATCH",
+                  "properties": {
+                    "Filter Value By": {
+                      "class": "Variable",
+                      "logic": "NONE",
+                      "type": "AS_TEXT",
+                      "operator": "EQUALS"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "WHILE_TIMER_IS_RUNNING",
+                      "properties": {
+                        "Timer name": "( timer name)"
+                      },
+                      "children": [
+                        {
+                          "id": "FOR_EACH_NUMBER_IN_RANGE",
+                          "properties": {
+                            "Minimum": "x",
+                            "Maximum": "y"
+                          },
+                          "children": [
+                            {
+                              "id": "FOR_EACH_IN_LIST",
+                              "properties": {
+                                "Reverse order": true,
+                                "Random order": true
+                              },
+                              "children": [
+                                {
+                                  "id": "FOR_EACH_KEY_IN_MAP",
+                                  "children": [
+                                    {
+                                      "id": "CONTINUE_LOOP"
+                                    },
+                                    {
+                                      "id": "BREAK_OUT_OF_LOOP"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

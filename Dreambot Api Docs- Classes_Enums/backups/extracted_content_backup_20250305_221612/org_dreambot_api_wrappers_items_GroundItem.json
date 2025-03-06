@@ -1,0 +1,338 @@
+{
+  "name": "GroundItem",
+  "full_name": "org.dreambot.api.wrappers.items.GroundItem",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/items/GroundItem.html",
+  "type": "class",
+  "package": "org.dreambot.api.wrappers.items",
+  "description": "Note: This shouldn't be used by API users, it's an internal constructor.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.wrappers.interactive.interact.Interactable",
+    "org.dreambot.api.wrappers.interactive.Entity"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Item",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "Tile",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets tile of the object.",
+      "deprecated": false
+    },
+    {
+      "name": "getTile",
+      "signature": "public Tile getTile()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Locatable",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setTile",
+      "signature": "public void setTile\u200b(Tile t)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getHeight",
+      "signature": "public int getHeight()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getID",
+      "signature": "public int getID()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Identifiable",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAmount",
+      "signature": "public int getAmount()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getPlane",
+      "signature": "public int getPlane()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLocalX",
+      "signature": "public int getLocalX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLocalY",
+      "signature": "public int getLocalY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getX",
+      "signature": "public int getX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Locatable",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getY",
+      "signature": "public int getY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Locatable",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getGridX",
+      "signature": "public int getGridX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Locatable",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getGridY",
+      "signature": "public int getGridY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Locatable",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getZ",
+      "signature": "public int getZ()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Locatable",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setZ",
+      "signature": "public void setZ\u200b(int z)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isOnScreen",
+      "signature": "public boolean isOnScreen()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: Entity",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getBoundingBox",
+      "signature": "public java.awt.Rectangle getBoundingBox()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: Entity",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRenderableHeight",
+      "signature": "public int getRenderableHeight()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getName",
+      "signature": "public java.lang.String getName()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: Entity",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hasAction",
+      "signature": "public boolean hasAction\u200b(java.lang.String... actions)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: Entity",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getActions",
+      "signature": "public java.lang.String[] getActions()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getItem",
+      "signature": "public Item getItem()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "exists",
+      "signature": "public boolean exists()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Verified",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toString",
+      "signature": "public java.lang.String toString()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

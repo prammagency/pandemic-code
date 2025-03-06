@@ -1,0 +1,188 @@
+{
+  "sleep": "500",
+  "name": "",
+  "version": 1.0,
+  "actions": [
+    {
+      "id": "IF_WIDGET_EXISTS",
+      "properties": {
+        "Find Widget By": {
+          "class": "Widget",
+          "logic": "NONE",
+          "type": "WIDGET_ID",
+          "operator": "EQUALS",
+          "filters": [
+            {
+              "class": "Widget",
+              "logic": "AND",
+              "type": "IS_VISIBLE",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Widget",
+              "logic": "AND",
+              "type": "IS_NOT_VISIBLE",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Widget",
+              "logic": "AND",
+              "type": "IS_HIDDEN",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Widget",
+              "logic": "AND",
+              "type": "IS_NOT_HIDDEN",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Widget",
+              "logic": "AND",
+              "type": "TEXT",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Widget",
+              "logic": "AND",
+              "type": "ACTION",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Widget",
+              "logic": "AND",
+              "type": "WIDTH",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Widget",
+              "logic": "AND",
+              "type": "HEIGHT",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Widget",
+              "logic": "AND",
+              "type": "TEXTURE_ID",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Widget",
+              "logic": "AND",
+              "type": "TEXTURE_ID",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Widget",
+              "logic": "AND",
+              "type": "TEXTURE_ID",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Widget",
+              "logic": "AND",
+              "type": "ENABLED_MEDIA_ID",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Widget",
+              "logic": "AND",
+              "type": "ENABLED_MEDIA_TYPE",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Widget",
+              "logic": "AND",
+              "type": "DISABLED_MEDIA_ID",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Widget",
+              "logic": "AND",
+              "type": "DISABLED_MEDIA_TYPE",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Widget",
+              "logic": "AND",
+              "type": "WIDGET_ITEM_ID",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Widget",
+              "logic": "AND",
+              "type": "WIDGET_ITEM_AMOUNT",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Widget",
+              "logic": "AND",
+              "type": "TEXT_COLOR",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Widget",
+              "logic": "AND",
+              "type": "IS_VARIABLE_VALUE",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Widget",
+              "logic": "AND",
+              "type": "IS_NOT_VARIABLE_VALUE",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Widget",
+              "logic": "AND",
+              "type": "IS_LAST_OUTPUT",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Widget",
+              "logic": "AND",
+              "type": "IS_NOT_LAST_OUTPUT",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Widget",
+              "logic": "AND",
+              "type": "FILTER_BY_ACTION",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Widget",
+              "logic": "OR",
+              "type": "NONE",
+              "operator": "EQUALS"
+            }
+          ]
+        }
+      },
+      "children": [
+        {
+          "id": "IF_WIDGET_DOES_NOT_EXIST",
+          "properties": {
+            "Find Widget By": {
+              "class": "Widget",
+              "logic": "NONE",
+              "type": "NONE",
+              "operator": "EQUALS"
+            }
+          }
+        },
+        {
+          "id": "WIDGET_INTERACT",
+          "properties": {
+            "Find Widget By": {
+              "class": "Widget",
+              "logic": "NONE",
+              "type": "NONE",
+              "operator": "EQUALS"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "name": "CameraEvent",
+  "full_name": "org.dreambot.api.methods.event.CameraEvent",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/event/CameraEvent.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.event",
+  "description": "Class CameraEvent in the org.dreambot.api.methods.event package provides functionality for DreamBot scripts.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [
+    {
+      "name": "Constructor Summary\n\nConstructors\u00a0\n\nConstructor\nDescription\n\n\nCameraEvent\u200b(int\u00a0yaw,\n           int\u00a0pitch)\n\u00a0\n\n\nCameraEvent\u200b(int\u00a0yaw,\n           int\u00a0pitch,\n           boolean\u00a0useMouse)\n\u00a0\n\n\nCameraEvent\u200b(CameraEvent.CameraType\u00a0t,\n           int\u00a0val)\n\u00a0\n\n\nCameraEvent\u200b(CameraEvent.CameraType\u00a0t,\n           int\u00a0val,\n           boolean\u00a0useMouse)\n\u00a0\n\n\nCameraEvent\u200b(Tile\u00a0tile)\n\u00a0\n\n\nCameraEvent\u200b(Tile\u00a0tile,\n           boolean\u00a0useMouse)\n\u00a0\n\n\nCameraEvent\u200b(Entity\u00a0entity)\n\u00a0\n\n\nCameraEvent\u200b(Entity\u00a0entity,\n           boolean\u00a0useMouse)",
+      "description": "",
+      "modifiers": []
+    }
+  ],
+  "methods": [
+    {
+      "name": "CameraEvent",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the CameraEvent operation.",
+      "deprecated": false
+    },
+    {
+      "name": "withInterrupt",
+      "signature": "public CameraEvent withInterrupt\u200b(Condition interrupt)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the withInterrupt operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hasFinished",
+      "signature": "public boolean hasFinished()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if has finished.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "start",
+      "signature": "public boolean start()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the start operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "run",
+      "signature": "public void run()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the run operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

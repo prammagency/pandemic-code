@@ -1,0 +1,560 @@
+{
+  "name": "DepositBox",
+  "full_name": "org.dreambot.api.methods.depositbox.DepositBox",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/depositbox/DepositBox.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.depositbox",
+  "description": "A list of all the filtered items.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Item",
+      "return_type": "Item",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Performs the Item operation.",
+      "deprecated": false
+    },
+    {
+      "name": "WidgetChild",
+      "return_type": "WidgetChild",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Performs the WidgetChild operation.",
+      "deprecated": false
+    },
+    {
+      "name": "widgetParentId",
+      "signature": "public static int widgetParentId()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the widgetParentId operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "widgetChildId",
+      "signature": "public static int widgetChildId()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the widgetChildId operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "capacity",
+      "signature": "public static int capacity()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the capacity operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "all",
+      "signature": "public static java.util.List<Item> all()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "A list of all the filtered items.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isOpen",
+      "signature": "public static boolean isOpen()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks whether you have a deposit box open",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "open",
+      "signature": "public static boolean open()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Attempts to open the nearest loaded Bank Deposit Box",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "openClosest",
+      "signature": "public static boolean openClosest()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "see open()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "close",
+      "signature": "public static boolean close()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Attempts to close an opened deposit box, if open",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "depositAllItems",
+      "signature": "public static boolean depositAllItems()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the depositAllItems operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "depositAllEquipment",
+      "signature": "public static boolean depositAllEquipment()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the depositAllEquipment operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "depositAllLoot",
+      "signature": "public static boolean depositAllLoot()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the depositAllLoot operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "depositAllExcept",
+      "signature": "public static boolean depositAllExcept\u200b(Filter<Item> filter)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the depositAllExcept operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "deposit",
+      "signature": "public static boolean deposit\u200b(Filter<Item> filter, int amount)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the deposit operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "slotBounds",
+      "signature": "public static java.awt.Rectangle slotBounds\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Rectangle of the slot",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSlotWidget",
+      "signature": "public static WidgetChild getSlotWidget\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the slotwidget.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "depositAll",
+      "signature": "public static boolean depositAll\u200b(Filter<Item> filter)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the depositAll operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "fullSlotCount",
+      "signature": "public static int fullSlotCount()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Full slot count.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "emptySlotCount",
+      "signature": "public static int emptySlotCount()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Empty slot count.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isSlotEmpty",
+      "signature": "public static boolean isSlotEmpty\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if slotempty.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isSlotFull",
+      "signature": "public static boolean isSlotFull\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the slot has an Item in it",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onlyContains",
+      "signature": "public static boolean onlyContains\u200b(java.lang.String... names)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if your Inventory only contains items with specified name",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "slotContains",
+      "signature": "public static boolean slotContains\u200b(int slot, java.lang.String... names)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the slot contains items that matches the given names.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "slotNameContains",
+      "signature": "@Deprecated public static boolean slotNameContains\u200b(int slot, java.lang.String sub)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "see slotContains(int, String)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getFirstEmptySlot",
+      "signature": "public static int getFirstEmptySlot()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the first empty slot in the deposit box.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getFirstFullSlot",
+      "signature": "public static int getFirstFullSlot()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the next full slot in the deposit box",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getIdForSlot",
+      "signature": "public static int getIdForSlot\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Id of the Item in the slot.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getNameForSlot",
+      "signature": "public static java.lang.String getNameForSlot\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Name for the Item in the slot. NOTE: Does not return null if slot is empty",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "slot",
+      "signature": "public static int slot\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the slot for the item with specified ID.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "add",
+      "signature": "public static boolean add\u200b(Item t)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the add operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toArray",
+      "signature": "public static java.lang.Object[] toArray()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the toArray operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getItemInSlot",
+      "signature": "public static Item getItemInSlot\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets item in specified slot.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "get",
+      "signature": "public static Item get\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the first item with the given ID",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "except",
+      "signature": "public static java.util.List<Item> except\u200b(Filter<Item> filter)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get all items which do not fit the given criteria.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "size",
+      "signature": "public static int size()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the size operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isEmpty",
+      "signature": "public static boolean isEmpty()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if empty.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "contains",
+      "signature": "public static boolean contains\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if deposit box contains an Item with given ID",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "containsAll",
+      "signature": "public static boolean containsAll\u200b(java.lang.String... names)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the deposit box contains all of the items with names specified",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isFull",
+      "signature": "public static boolean isFull()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines if container full.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "count",
+      "signature": "public static int count\u200b(java.lang.String name)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Count of all the items that match the search.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "set",
+      "signature": "public static Item set\u200b(int index, Item element)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the .",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

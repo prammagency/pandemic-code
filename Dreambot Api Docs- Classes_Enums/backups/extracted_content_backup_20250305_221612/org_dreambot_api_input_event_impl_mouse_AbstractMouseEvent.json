@@ -1,0 +1,90 @@
+{
+  "name": "AbstractMouseEvent",
+  "full_name": "org.dreambot.api.input.event.impl.mouse.AbstractMouseEvent",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/AbstractMouseEvent.html",
+  "type": "class",
+  "package": "org.dreambot.api.input.event.impl.mouse",
+  "description": "Deprecated.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.input.event.AbstractEvent"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Condition",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Deprecated.",
+      "deprecated": false
+    },
+    {
+      "name": "AbstractMouseDestination",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Deprecated.",
+      "deprecated": false
+    },
+    {
+      "name": "getDestination",
+      "signature": "public AbstractMouseDestination getDestination()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets current destination used by this event.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setDestination",
+      "signature": "public void setDestination\u200b(AbstractMouseDestination destination)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets current destination used by this event.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "completed",
+      "signature": "public Condition completed()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Abstract Condition used to determine if current event is complete.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "failed",
+      "signature": "public Condition failed()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Abstract Condition used to determine if current event has failed.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

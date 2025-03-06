@@ -1,0 +1,42 @@
+{
+  "name": "StandardDropPattern",
+  "full_name": "org.dreambot.api.methods.container.impl.StandardDropPattern",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/container/impl/StandardDropPattern.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.container.impl",
+  "description": "This class can be used to create drop patterns based on slot position easily. If you need more control or want a drop pattern that isn't based on slot position, you can implement the DropPattern interface on a class of your own.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Item",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the Item operation.",
+      "deprecated": false
+    },
+    {
+      "name": "getComparator",
+      "signature": "public java.util.Comparator<Item> getComparator()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the comparator.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

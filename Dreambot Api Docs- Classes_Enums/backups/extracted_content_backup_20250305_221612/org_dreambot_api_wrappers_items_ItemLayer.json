@@ -1,0 +1,153 @@
+{
+  "name": "ItemLayer",
+  "full_name": "org.dreambot.api.wrappers.items.ItemLayer",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/items/ItemLayer.html",
+  "type": "class",
+  "package": "org.dreambot.api.wrappers.items",
+  "description": "Note: This shouldn't be used by API users, it's an internal constructor.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "RenderableNode",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "Tile",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "getReference",
+      "signature": "public org.dreambot.internal.injector.interfaces.RSItemLayer getReference()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTop",
+      "signature": "public RenderableNode getTop()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMiddle",
+      "signature": "public RenderableNode getMiddle()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getBottom",
+      "signature": "public RenderableNode getBottom()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getX",
+      "signature": "public int getX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getY",
+      "signature": "public int getY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getHeight",
+      "signature": "public int getHeight()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the height of this ItemLayer.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getPlane",
+      "signature": "public int getPlane()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the plane of this ItemLayer.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTile",
+      "signature": "public Tile getTile()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

@@ -1,0 +1,360 @@
+{
+  "name": "MouseKeys",
+  "full_name": "org.dreambot.api.methods.input.MouseKeys",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/input/MouseKeys.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.input",
+  "description": "Created by Chris on 1/25/2015.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "setYJumpDistance",
+      "signature": "public static void setYJumpDistance\u200b(int jump)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the jump distance in pixels",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getJumpDistance",
+      "signature": "public static int getJumpDistance()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the mouse jump distance in pixels",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setKeySleeps",
+      "signature": "public static boolean setKeySleeps\u200b(int min, int max)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the min and max values for the sleep between key presses Will throw exceptions if you give negative values or if min is greater than or equal to max",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "dropAllItems",
+      "signature": "public static boolean dropAllItems()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the dropAllItems operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "dropAllItemsExcept",
+      "signature": "public static boolean dropAllItemsExcept\u200b(int[] excludedItems)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the dropAllItemsExcept operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "dropAllSpecificItems",
+      "signature": "public static boolean dropAllSpecificItems\u200b(int[] items)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the dropAllSpecificItems operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "dropAllItemsInSlots",
+      "signature": "public static boolean dropAllItemsInSlots\u200b(int[] slots)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the dropAllItemsInSlots operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "dropAllItemsExceptInSlots",
+      "signature": "public static boolean dropAllItemsExceptInSlots\u200b(int[] excludedItems, int[] slots)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the dropAllItemsExceptInSlots operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "dropAllSpecificItemsInSlots",
+      "signature": "public static boolean dropAllSpecificItemsInSlots\u200b(int[] items, int[] slots)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the dropAllSpecificItemsInSlots operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "dropItems",
+      "signature": "public static boolean dropItems\u200b(Filter<Item> dropFilter)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Drops all items in all rows that match the dropFilter",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "dropColumn",
+      "signature": "public static boolean dropColumn\u200b(int column, Filter<Item> dropFilter)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Drops all the items in a given column that match the given filter",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "initialColumnMouseCheck",
+      "signature": "public static boolean initialColumnMouseCheck\u200b(int column, Filter<Item> dropFilter)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Moves mouse to the top item in the column and right clicks, returns if menu is visible",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "dropItem",
+      "signature": "public static boolean dropItem\u200b(Item item, Filter<Item> dropFilter)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks the item against the given filter, if the item is null or dropFilter doesn't match, it skips it otherwise calls mouseKeyCombo",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "tabCheck",
+      "signature": "public static boolean tabCheck()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the inventory tab is open, if it isn't it opens it",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "skipItem",
+      "signature": "public static boolean skipItem()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "if menu is visible, clicks and skips next item, otherwise pushes 2",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "clickAndSkipItem",
+      "signature": "public static boolean clickAndSkipItem()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Clicks 5, sleeps, pushes 8 then 2 twice",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "mouseKeyCombo",
+      "signature": "public static boolean mouseKeyCombo()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Pushes 5, sleeps, pushes 2, sleeps",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "pushOne",
+      "signature": "public static boolean pushOne()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Jumps down and to the left by the jump distance",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "pushTwo",
+      "signature": "public static boolean pushTwo()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Jumps down by the jump distance",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "pushThree",
+      "signature": "public static boolean pushThree()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Jumps down and right by the jump distance",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "pushFour",
+      "signature": "public static boolean pushFour()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Jumps left by the jump distance",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "pushFive",
+      "signature": "public static boolean pushFive()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Left clicks and then right clicks with no delay between",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "pushSix",
+      "signature": "public static boolean pushSix()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Jumps right by the jump distance",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "pushSeven",
+      "signature": "public static boolean pushSeven()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Jumps up and left by the jump distance",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "pushEight",
+      "signature": "public static boolean pushEight()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Jumps up by the jump distance",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "pushNine",
+      "signature": "public static boolean pushNine()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Jumps up and right by the jump distance",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

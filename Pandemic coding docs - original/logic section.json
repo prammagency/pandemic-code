@@ -1,0 +1,16 @@
+{
+  "sleep": "500",
+  "name": "",
+  "version": 1.0,
+  "actions": [
+    {
+      "id": "ELSE_BRANCH"
+    },
+    {
+      "id": "OR_BRANCH"
+    },
+    {
+      "id": "AND_BRANCH"
+    }
+  ]
+}

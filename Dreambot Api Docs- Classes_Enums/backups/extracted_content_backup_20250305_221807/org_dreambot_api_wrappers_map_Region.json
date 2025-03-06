@@ -1,0 +1,238 @@
+{
+  "name": "Region",
+  "full_name": "org.dreambot.api.wrappers.map.Region",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/map/Region.html",
+  "type": "class",
+  "package": "org.dreambot.api.wrappers.map",
+  "description": "Converts a tile from a dynamic region to the instance's mapped area",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Tile",
+      "return_type": "java.util.List<Tile>",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Attempts to turn a Tile from an instanced map area to the current dynamic region",
+      "deprecated": false
+    },
+    {
+      "name": "SceneObject",
+      "return_type": "java.util.List<SceneObject>",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Performs the SceneObject operation.",
+      "deprecated": false
+    },
+    {
+      "name": "Region",
+      "return_type": "Region",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Gets the current region",
+      "deprecated": false
+    },
+    {
+      "name": "TileReference",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the TileReference operation.",
+      "deprecated": false
+    },
+    {
+      "name": "getObjects",
+      "signature": "public static java.util.List<SceneObject> getObjects()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the objects.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getId",
+      "signature": "public int getId()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the id.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTiles",
+      "signature": "public org.dreambot.internal.injector.interfaces.RSTile[][][] getTiles()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the tiles.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTileReferences",
+      "signature": "public TileReference[][][] getTileReferences()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the tilereferences.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRegionTiles",
+      "signature": "public Tile[][][] getRegionTiles()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the regiontiles.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getReference",
+      "signature": "public java.lang.Object getReference()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the reference.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRegion",
+      "signature": "public static Region getRegion()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the current region",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getInstanceTemplateChunks",
+      "signature": "public static int[][][] getInstanceTemplateChunks()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the raw instance template chunk values",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMapRegions",
+      "signature": "public static int[] getMapRegions()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets an array of the current map region id's",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "fromInstance",
+      "signature": "public static Tile fromInstance\u200b(Tile t)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Converts a tile from a dynamic region to the instance's mapped area",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toInstance",
+      "signature": "public static java.util.List<Tile> toInstance\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Attempts to turn a Tile from an instanced map area to the current dynamic region",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setForcedDrawDistance",
+      "signature": "public static void setForcedDrawDistance\u200b(int distance)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets a forced draw distance for the region. Minimum of 25, maximum of 90",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDrawDistance",
+      "signature": "public static int getDrawDistance()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the current draw distance. If a forced draw distance is set, it will return that. If a forced draw distance is not set, it will return what the user has selected in their settings.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getForcedDrawDistance",
+      "signature": "public static int getForcedDrawDistance()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the forceddrawdistance.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

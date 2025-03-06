@@ -1,0 +1,171 @@
+{
+  "name": "TeleportWebNode",
+  "full_name": "org.dreambot.api.methods.walking.web.node.impl.teleports.TeleportWebNode",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/teleports/TeleportWebNode.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.walking.web.node.impl.teleports",
+  "description": "Creates and automatically adds connections to the resulting TeleportWebNode",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.methods.walking.web.node.AbstractWebNode"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "RequiredItem",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "Teleport",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "TeleportWebNode",
+      "return_type": "java.util.List<TeleportWebNode>",
+      "modifiers": [
+        "static"
+      ],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "WebNodeType",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the WebNodeType of this node, used during path finding to ensure they're not disabled by the script",
+      "deprecated": false
+    },
+    {
+      "name": "getTeleportNodes",
+      "signature": "public static java.util.List<TeleportWebNode> getTeleportNodes()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getType",
+      "signature": "public WebNodeType getType()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: AbstractWebNode",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hasRequirements",
+      "signature": "public boolean hasRequirements()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: AbstractWebNode",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "execute",
+      "signature": "public boolean execute()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: AbstractWebNode",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "forceNext",
+      "signature": "public boolean forceNext()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: AbstractWebNode",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toString",
+      "signature": "public java.lang.String toString()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRequiredItems",
+      "signature": "public java.util.List<RequiredItem> getRequiredItems()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTeleport",
+      "signature": "public Teleport getTeleport()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setDefaultWeight",
+      "signature": "public static void setDefaultWeight\u200b(int defaultWeight)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

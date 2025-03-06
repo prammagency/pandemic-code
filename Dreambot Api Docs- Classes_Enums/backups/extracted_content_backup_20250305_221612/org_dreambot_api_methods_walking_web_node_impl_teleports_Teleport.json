@@ -1,0 +1,87 @@
+{
+  "name": "Teleport",
+  "full_name": "org.dreambot.api.methods.walking.web.node.impl.teleports.Teleport",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/teleports/Teleport.html",
+  "type": "interface",
+  "package": "org.dreambot.api.methods.walking.web.node.impl.teleports",
+  "description": "",
+  "page_structure": {
+    "type": "interface",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "getX",
+      "return_type": "",
+      "modifiers": [],
+      "description": "getX int getX()",
+      "deprecated": false,
+      "signature": "int getX()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      }
+    },
+    {
+      "name": "getY",
+      "return_type": "",
+      "modifiers": [],
+      "description": "getY int getY()",
+      "deprecated": false,
+      "signature": "int getY()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      }
+    },
+    {
+      "name": "getZ",
+      "return_type": "",
+      "modifiers": [],
+      "description": "getZ int getZ()",
+      "deprecated": false,
+      "signature": "int getZ()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      }
+    },
+    {
+      "name": "hasRequirements",
+      "return_type": "",
+      "modifiers": [],
+      "description": "hasRequirements boolean hasRequirements()",
+      "deprecated": false,
+      "signature": "boolean hasRequirements()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      }
+    },
+    {
+      "name": "execute",
+      "return_type": "",
+      "modifiers": [],
+      "description": "execute boolean execute()",
+      "deprecated": false,
+      "signature": "boolean execute()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      }
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

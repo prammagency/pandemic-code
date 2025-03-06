@@ -1,0 +1,123 @@
+{
+  "sleep": "500",
+  "name": "",
+  "version": 1.0,
+  "actions": [
+    {
+      "id": "IF_PROJECTILE_EXISTS",
+      "properties": {
+        "Filter By": {
+          "class": "Projectile",
+          "logic": "NONE",
+          "type": "ID",
+          "operator": "EQUALS",
+          "filters": [
+            {
+              "class": "Projectile",
+              "logic": "AND",
+              "type": "DISTANCE_TO_PLAYER",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Projectile",
+              "logic": "AND",
+              "type": "WALKING_DISTANCE_TO_PLAYER",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Projectile",
+              "logic": "AND",
+              "type": "DISTANCE_TO_ANOTHER_PLAYER",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Projectile",
+              "logic": "AND",
+              "type": "IS_REACHABLE",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Projectile",
+              "logic": "AND",
+              "type": "IS_NOT_REACHABLE",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Projectile",
+              "logic": "AND",
+              "type": "TILE",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Projectile",
+              "logic": "AND",
+              "type": "IN_AREA",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Projectile",
+              "logic": "AND",
+              "type": "IS_UNDER_PLAYER",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Projectile",
+              "logic": "AND",
+              "type": "NOT_IN_AREA",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Projectile",
+              "logic": "AND",
+              "type": "IS_NOT_UNDER_PLAYER",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Projectile",
+              "logic": "AND",
+              "type": "IS_VARIABLE_VALUE",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Projectile",
+              "logic": "AND",
+              "type": "IS_NOT_VARIABLE_VALUE",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Projectile",
+              "logic": "AND",
+              "type": "IS_LAST_OUTPUT",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Projectile",
+              "logic": "AND",
+              "type": "IS_NOT_LAST_OUTPUT",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Projectile",
+              "logic": "AND",
+              "type": "FILTER_BY_ACTION",
+              "operator": "EQUALS"
+            }
+          ]
+        }
+      },
+      "children": [
+        {
+          "id": "IF_PROJECTILE_DOES_NOT_EXIST",
+          "properties": {
+            "Filter By": {
+              "class": "Projectile",
+              "logic": "NONE",
+              "type": "NONE",
+              "operator": "EQUALS"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

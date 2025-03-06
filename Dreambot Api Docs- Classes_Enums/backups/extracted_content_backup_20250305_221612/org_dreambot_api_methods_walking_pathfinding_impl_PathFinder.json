@@ -1,0 +1,362 @@
+{
+  "name": "PathFinder",
+  "full_name": "org.dreambot.api.methods.walking.pathfinding.impl.PathFinder",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/PathFinder.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.walking.pathfinding.impl",
+  "description": "A base PathFinder class for local pathfinders like our LocalPathFinder This class generally doesn't need to be used if you're just trying to walk, see Walking.walk(Tile) instead For global pathfinding across regions, see WebFinder instead",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "AbstractPath",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Calculates a path from the start tile to the end tile",
+      "deprecated": false
+    },
+    {
+      "name": "Tile",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "PathNode",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "PathObstacle",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "addBlacklistedTile",
+      "signature": "public void addBlacklistedTile\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This will add a tile to not be allowed in the final LocalPath calculated. Note: This method does not stop the walker from walking through it, only the paths we calculate.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "removeBlacklistedTile",
+      "signature": "public void removeBlacklistedTile\u200b(Tile t)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isBlacklisted",
+      "signature": "public boolean isBlacklisted\u200b(Tile t)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "clearBlacklist",
+      "signature": "public void clearBlacklist()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "calculate",
+      "signature": "public AbstractPath<T> calculate\u200b(Tile start, Tile end)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Calculates a path from the start tile to the end tile",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "addObstacle",
+      "signature": "public void addObstacle\u200b(PathObstacle obstacle)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Adds an obstacle to the available obstacle choices list Example usage: PathObstacle doorObstacle = new PassableObstacle(\"Big door\", \"Open\"); PathObstacle rockfallObstacle = new DestructableObstacle(\"Rockfall\", \"Mine\"); LocalPathFinder.getLocalPathFinder().addObstacle(doorObstacle); LocalPathFinder.getLocalPathFinder().addObstacle(rockfallObstacle);",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "removeObstacle",
+      "signature": "public void removeObstacle\u200b(PathObstacle obstacle)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Removes the obstacle from the available obstacles",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMovementCost",
+      "signature": "public float getMovementCost\u200b(int sx, int sy, int ex, int ey, int z)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getNode",
+      "signature": "public PathNode getNode\u200b(int x, int y, int z)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hasObstacle",
+      "signature": "public boolean hasObstacle\u200b(int x, int y, int z, int dir)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getObstacle",
+      "signature": "public PathObstacle getObstacle\u200b(int x, int y, int z, int dir)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isInPossibleObstacles",
+      "signature": "public boolean isInPossibleObstacles\u200b(GameObject object)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isDirWall",
+      "signature": "public boolean isDirWall\u200b(java.lang.String dir, int flag)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDirection",
+      "signature": "public java.lang.String getDirection\u200b(int sx, int sy, int ex, int ey)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "addWebOnlyObstacleTile",
+      "signature": "public void addWebOnlyObstacleTile\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Adds a tile for the local walker to ignore obstacles",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "removeWebOnlyObstacleTile",
+      "signature": "public void removeWebOnlyObstacleTile\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Removes a tile from the web only obstacle tile list",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isTileWebOnly",
+      "signature": "public boolean isTileWebOnly\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "checkTileCondition",
+      "signature": "public boolean checkTileCondition\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "clearTileConditions",
+      "signature": "public void clearTileConditions()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "addTileCondition",
+      "signature": "public void addTileCondition\u200b(Tile tile, Condition c)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "removeTileCondition",
+      "signature": "public void removeTileCondition\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onWebNodeVersionUpdate",
+      "signature": "public void onWebNodeVersionUpdate()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "reset",
+      "signature": "public void reset()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getBlacklistedTiles",
+      "signature": "public java.util.Set<Tile> getBlacklistedTiles()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

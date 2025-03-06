@@ -1,0 +1,360 @@
+{
+  "name": "ViewportTools",
+  "full_name": "org.dreambot.api.methods.ViewportTools",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/ViewportTools.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods",
+  "description": "Created with IntelliJ IDEA. User: NotoriousPP Date: 10/15/2014 Time: 1:46 PM",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "getAbsoluteYCoordinate",
+      "signature": "public static int getAbsoluteYCoordinate()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the absoluteycoordinate.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAbsoluteXCoordinate",
+      "signature": "public static int getAbsoluteXCoordinate()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the absolutexcoordinate.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRandomXCoordOnCanvas",
+      "signature": "public static int getRandomXCoordOnCanvas()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the randomxcoordoncanvas.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getFullCanvasRectangle",
+      "signature": "public static java.awt.Rectangle getFullCanvasRectangle()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the fullcanvasrectangle.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRandomYCoordOnCanvas",
+      "signature": "public static int getRandomYCoordOnCanvas()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the randomycoordoncanvas.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRandomPointOnCanvas",
+      "signature": "public static java.awt.Point getRandomPointOnCanvas()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the randompointoncanvas.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getClickableArea",
+      "signature": "public static java.awt.Shape getClickableArea()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the clickablearea.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCanvasRectangle",
+      "signature": "public static java.awt.Rectangle getCanvasRectangle()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the canvasrectangle.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "tileToScreen",
+      "signature": "public java.awt.Point tileToScreen\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "World tile to offset regional tile and converts that regional tile into offset position on the game screen.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "localTileToScreen",
+      "signature": "public java.awt.Point localTileToScreen\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Local tile to offset screen position.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTileHeight",
+      "signature": "public int getTileHeight\u200b(int tileX, int tileY, int tilePlane)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Calculates the tile height for offset specified tile",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isOnGameScreen",
+      "signature": "public boolean isOnGameScreen\u200b(java.awt.Point point)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines if point is on the game screen.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTriangluatedFaces",
+      "signature": "public int[][] getTriangluatedFaces\u200b(int gridX, int gridY, int plane, Model model, int triangle)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the triangluatedfaces.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getScreenCoordinates",
+      "signature": "public int[][] getScreenCoordinates\u200b(int gridX, int gridY, int plane, Model model)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the screencoordinates.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getVertices",
+      "signature": "public java.util.List<java.awt.Point> getVertices\u200b(Model structure)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the vertices.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMiniMapCoordinate",
+      "signature": "public java.awt.Point getMiniMapCoordinate\u200b(int destinationX, int destinationY)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the minimapcoordinate.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getBoundingBox",
+      "signature": "public java.awt.Rectangle getBoundingBox\u200b(int[][] vertex)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the boundingbox.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getModelBoundingBox",
+      "signature": "public java.awt.Rectangle getModelBoundingBox\u200b(int gridX, int gridY, int z, Model model)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the modelboundingbox.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getScreenCoordinatesPoint",
+      "signature": "public java.awt.Point getScreenCoordinatesPoint\u200b(int gridX, int gridY, int plane, int height)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the screencoordinatespoint.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSuitablePointForModel",
+      "signature": "public java.awt.Point getSuitablePointForModel\u200b(int gridX, int gridY, int z, Model model, boolean predictMovement)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the suitablepointformodel.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSuitablePointFor",
+      "signature": "public java.awt.Point getSuitablePointFor\u200b(java.awt.geom.Area area)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the suitablepointfor.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getModelArea",
+      "signature": "public java.awt.geom.Area getModelArea\u200b(Entity target)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the modelarea.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "drawModel",
+      "signature": "public void drawModel\u200b(java.awt.Graphics2D g, int gridX, int gridY, int z, Model model)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the drawModel operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isVisibleOnCanvas",
+      "signature": "public boolean isVisibleOnCanvas\u200b(java.awt.Rectangle rectangle)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if visibleoncanvas.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isVisibleOnMainScreen",
+      "signature": "public boolean isVisibleOnMainScreen\u200b(java.awt.Shape shape)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if visibleonmainscreen.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getPoints",
+      "signature": "public java.util.List<java.awt.Point> getPoints\u200b(java.awt.geom.Area area)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the points.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

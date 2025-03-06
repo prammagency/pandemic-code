@@ -1,0 +1,31 @@
+{
+  "sleep": "500",
+  "name": "",
+  "version": 1.0,
+  "actions": [
+    {
+      "id": "IF_VARBIT_MATCHES",
+      "properties": {
+        "value": {
+          "class": "Number",
+          "operator": "EQUALS",
+          "value": "y"
+        },
+        "Varbit": "x"
+      },
+      "children": [
+        {
+          "id": "IF_PLAYER_SETTING_MATCHES",
+          "properties": {
+            "value": {
+              "class": "Number",
+              "operator": "EQUALS",
+              "value": "y"
+            },
+            "Player Setting": "x"
+          }
+        }
+      ]
+    }
+  ]
+}

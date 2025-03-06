@@ -1,0 +1,61 @@
+{
+  "name": "StatusBar",
+  "full_name": "org.dreambot.api.utilities.StatusBar",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/utilities/StatusBar.html",
+  "type": "class",
+  "package": "org.dreambot.api.utilities",
+  "description": "Global manager for showing messages to users through the status bar",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "success",
+      "signature": "public static void success\u200b(java.lang.String message)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Shows a green message in the status bar. Should only be used for positive events that users would like to see.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "info",
+      "signature": "public static void info\u200b(java.lang.String message)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Shows a white message in the status bar. Best for general information, and other messages that aren't vital.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "warn",
+      "signature": "public static void warn\u200b(java.lang.String message)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Shows an orange message in the status bar. Should only be used when the user needs to see it and should contain actionable advice.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

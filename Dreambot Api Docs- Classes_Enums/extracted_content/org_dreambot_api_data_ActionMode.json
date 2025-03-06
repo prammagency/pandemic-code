@@ -1,0 +1,92 @@
+{
+  "name": "ActionMode",
+  "full_name": "org.dreambot.api.data.ActionMode",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/data/ActionMode.html",
+  "type": "enum",
+  "package": "org.dreambot.api.data",
+  "description": "Returns the enum constant of this type with the specified name.",
+  "page_structure": {
+    "type": "enum",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "ActionMode"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "ActionMode",
+      "return_type": "ActionMode[]",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Returns an array containing the constants of this enum type, in the order they are declared.",
+      "deprecated": false
+    },
+    {
+      "name": "values",
+      "signature": "public static ActionMode[] values()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns an array containing the constants of this enum type, in the order they are declared. This method may be used to iterate over the constants as follows: for (ActionMode c : ActionMode.values()) System.out.println(c);",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "valueOf",
+      "signature": "public static ActionMode valueOf\u200b(java.lang.String name)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the enum constant of this type with the specified name. The string must match exactly an identifier used to declare an enum constant in this type. (Extraneous whitespace characters are not permitted.)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getVarbitValue",
+      "signature": "public int getVarbitValue()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOption",
+      "signature": "public java.lang.String getOption()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": [],
+  "enum_constants": [
+    {
+      "name": "Enum",
+      "description": "Constant Summary\n\nEnum Constants  Enum Constant | Description  \n---|---  \n`ALWAYS_RIGHT_CLICK` |    \n`DEPENDS_ON_COMBAT_LEVELS` |    \n`HIDDEN` |    \n`LEFT_CLICK_WHERE_AVAILABLE` |    \n`RIGHT_CLICK_FOR_CLANMATES` |    \n    * ### Method Summary\n\nAll Methods [Static Methods](javascript:show\\(1\\);) [Instance Methods](javascript:show\\(2\\);) [Concrete Methods](javascript:show\\(8\\);)  Modifier and Type | Method | Description  \n---|---|---  \n`java.lang.String` | `getOption()` |    \n`int` | `getVarbitValue()` |    \n`static [ActionMode](ActionMode.html \"enum in org.dreambot.api.data\")` | `valueOf\u200b(java.lang.String name)` |  Returns the enum constant of this type with the specified name.  \n`static [ActionMode](ActionMode.html \"enum in org.dreambot.api.data\")[]` | `values()` |  Returns an array containing the constants of this enum type, in the order they are declared.  \n      * ### Methods inherited from class java.lang.Enum\n\n`compareTo, equals, getDeclaringClass, hashCode, name, ordinal, toString,\nvalueOf`\n\n      * ### Methods inherited from class java.lang.Object\n\n`getClass, notify, notifyAll, wait, wait, wait`\n\n  *     * ### Enum Constant Detail\n\n      * #### DEPENDS_ON_COMBAT_LEVELS\n            \n                        public static final [ActionMode](ActionMode.html \"enum in org.dreambot.api.data\") DEPENDS_ON_COMBAT_LEVELS\n\n      * #### ALWAYS_RIGHT_CLICK\n            \n                        public static final [ActionMode](ActionMode.html \"enum in org.dreambot.api.data\") ALWAYS_RIGHT_CLICK\n\n      * #### LEFT_CLICK_WHERE_AVAILABLE\n            \n                        public static final [ActionMode](ActionMode.html \"enum in org.dreambot.api.data\") LEFT_CLICK_WHERE_AVAILABLE\n\n      * #### HIDDEN\n            \n                        public static final [ActionMode](ActionMode.html \"enum in org.dreambot.api.data\") HIDDEN\n\n      * #### RIGHT_CLICK_FOR_CLANMATES\n            \n                        public static final [ActionMode](ActionMode.html \"enum in org.dreambot.api.data\") RIGHT_CLICK_FOR_CLANMATES\n\n    * ### Method Detail\n\n      * #### values\n            \n                        public static [ActionMode](ActionMode.html \"enum in org.dreambot.api.data\")[] values()\n\nReturns an array containing the constants of this enum type, in the order they\nare declared. This method may be used to iterate over the constants as\nfollows:\n\n            \n                        for (ActionMode c : ActionMode.values())\n                System.out.println(c);\n            \n\nReturns:\n\n    an array containing the constants of this enum type, in the order they are declared\n      * #### valueOf\n            \n                        public static [ActionMode](ActionMode.html \"enum in org.dreambot.api.data\") valueOf\u200b(java.lang.String name)\n\nReturns the enum constant of this type with the specified name. The string\nmust match _exactly_ an identifier used to declare an enum constant in this\ntype. (Extraneous whitespace characters are not permitted.)\n\nParameters:\n\n    `name` \\- the name of the enum constant to be returned.\nReturns:\n\n    the enum constant with the specified name\nThrows:\n\n    `java.lang.IllegalArgumentException` \\- if this enum type has no constant with the specified name\n    `java.lang.NullPointerException` \\- if the argument is null\n      * #### getVarbitValue\n            \n                        public int getVarbitValue()\n\n      * #### getOption\n            \n                        public java.lang.String getOption()\n\nSkip navigation links\n\n  * [Overview](../../../../overview-summary.html)\n  * [Package](package-summary.html)\n  * Class\n  * [Tree](package-tree.html)\n  * [Deprecated](../../../../deprecated-list.html)\n  * [Index](../../../../index-all.html)\n  * [Help](../../../../help-doc.html)\n\n  * [Frames](../../../../index.html?org/dreambot/api/data/ActionMode.html)\n  * [No Frames](ActionMode.html)\n\n  * [All Classes](../../../../allclasses-noframe.html)\n\nJavaScript is disabled on your browser.\n\n  * Summary: \n  * Nested | \n  * Enum Constants | \n  * Field | \n  * Method\n\n  * Detail: \n  * Enum Constants | \n  * Field | \n  * Method"
+    }
+  ],
+  "extraction_fallback_used": true
+}

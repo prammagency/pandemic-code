@@ -1,0 +1,159 @@
+{
+  "name": "LocalLoader",
+  "full_name": "org.dreambot.api.script.loader.LocalLoader",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/script/loader/LocalLoader.html",
+  "type": "class",
+  "package": "org.dreambot.api.script.loader",
+  "description": "Created by Pandemic",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "ScriptManifest",
+      "return_type": "java.util.List<ScriptManifest>",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Performs the ScriptManifest operation.",
+      "deprecated": false
+    },
+    {
+      "name": "AbstractScript",
+      "return_type": "AbstractScript>>",
+      "modifiers": [
+        "static",
+        "java.util.List<java.lang.Class<?",
+        "extends"
+      ],
+      "description": "Performs the AbstractScript operation.",
+      "deprecated": false
+    },
+    {
+      "name": "resetLoader",
+      "signature": "public static void resetLoader()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the resetLoader operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLoader",
+      "signature": "public static java.net.URLClassLoader getLoader\u200b(java.io.File myFile, java.util.List<java.lang.String> libNames)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the loader.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "clear",
+      "signature": "public static void clear()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the clear operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "loadScripts",
+      "signature": "public static void loadScripts()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Obtains a list of all defined sources and then iterates through all these sources attempting to find and load any scriptable entities.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "reload",
+      "signature": "public static void reload()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Clears all lists of entities and then reloads",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getScripts",
+      "signature": "public static java.util.List<java.lang.Class<? extends AbstractScript>> getScripts()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the scripts.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAllScripts",
+      "signature": "public static java.util.List<ScriptManifest> getAllScripts()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the allscripts.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAllLocalScripts",
+      "signature": "public static java.util.List<org.dreambot.internal.scripts.ScriptWrapper> getAllLocalScripts()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the alllocalscripts.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getScriptFromManifest",
+      "signature": "public static java.lang.Class<? extends AbstractScript> getScriptFromManifest\u200b(ScriptManifest manifest)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the scriptfrommanifest.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

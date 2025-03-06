@@ -1,0 +1,61 @@
+{
+  "name": "LivePrices",
+  "full_name": "org.dreambot.api.methods.grandexchange.LivePrices",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/grandexchange/LivePrices.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.grandexchange",
+  "description": "This class can be used for getting a current Grand Exchange price of items It uses the wiki's public API proxied through our servers to reduce strain on their servers Results may be as outdated as 20 minutes, which shouldn't matter too much for most applications",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "get",
+      "signature": "public static int get\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This gets the average current price of an item by id",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getHigh",
+      "signature": "public static int getHigh\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This gets the current high end price of an item by id",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLow",
+      "signature": "public static int getLow\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This gets the current low end price of an item by id",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

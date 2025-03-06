@@ -1,0 +1,474 @@
+{
+  "name": "Map",
+  "full_name": "org.dreambot.api.methods.map.Map",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/map/Map.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.map",
+  "description": "A class which houses methods related to Region and Map.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Tile",
+      "return_type": "Tile",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Gets a walkable tile which is closest the given tile.",
+      "deprecated": false
+    },
+    {
+      "name": "MiniMapTileDestination",
+      "return_type": "MiniMapTileDestination",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Gets the mini map Destination for the given tile.",
+      "deprecated": false
+    },
+    {
+      "name": "GameObject",
+      "return_type": "GameObject[]",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Gets the GameObjects at the given tile.",
+      "deprecated": false
+    },
+    {
+      "name": "TileReference",
+      "return_type": "TileReference",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Get the reference of the given tile object.",
+      "deprecated": false
+    },
+    {
+      "name": "isVisible",
+      "signature": "public static boolean isVisible\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the Tile is visible on the main screen.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWalkable",
+      "signature": "public static Tile getWalkable\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a walkable tile which is closest the given tile.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTileReference",
+      "signature": "public static TileReference getTileReference\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get the reference of the given tile object.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTileGrid",
+      "signature": "public static TileReference[][] getTileGrid\u200b(int plane)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get the reference of the given tile object.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMinimapShape",
+      "signature": "public static java.awt.Shape getMinimapShape()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a generated shape reference for the minimap widget.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hoveringMinimap",
+      "signature": "public static boolean hoveringMinimap()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTileHeight",
+      "signature": "public static int getTileHeight\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the height of a tile.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getGridX",
+      "signature": "public static int getGridX\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the x location of a tile on the region grid.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getGridY",
+      "signature": "public static int getGridY\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the grid y value of a tile",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getGridLocation",
+      "signature": "public static Tile getGridLocation\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the grid location of the tile.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getVertices",
+      "signature": "public static java.awt.Point[] getVertices\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets an array of points which represent the bounds of a tile.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getBounds",
+      "signature": "public static java.awt.Rectangle getBounds\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the on-screen rectangle bounds of the given tile.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getPolygon",
+      "signature": "public static java.awt.Polygon getPolygon\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the on-screen polygon of the given tile.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isLocal",
+      "signature": "public static boolean isLocal\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines if given tile is local.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getObjectsAtTile",
+      "signature": "public static @Nullable GameObject[] getObjectsAtTile\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the GameObjects at the given tile.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMiniMapDestination",
+      "signature": "public static MiniMapTileDestination getMiniMapDestination\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the mini map Destination for the given tile.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "tileToMiniMap",
+      "signature": "public static java.awt.Point tileToMiniMap\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the given tile location on the mini map.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "tileToScreen",
+      "signature": "public static java.awt.Point tileToScreen\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the current screen position of the given tile.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isTileOnMap",
+      "signature": "public static boolean isTileOnMap\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines if the given tile is current visible on the mini map.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isTileOnScreen",
+      "signature": "public static boolean isTileOnScreen\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Is tile on screen.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isClickable",
+      "signature": "public static boolean isClickable\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if you can click this tile either on screen or on minimap. If minimap is disable, it will only cehck for on screen.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getFlag",
+      "signature": "public static int getFlag\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets collision flag for the given tile.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "interact",
+      "signature": "public static boolean interact\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Interacts with the given tile on the map by left-clicking.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "canReach",
+      "signature": "public static boolean canReach\u200b(Entity destination)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines if the given destination Entity is reachable from your current local players position, and not blocked by any objects/obstacles.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "exactDistance",
+      "signature": "public static int exactDistance\u200b(Entity destination)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Calculates the exact distance (number of tiles) your current player is away from destination. If the path is blocked the method will return -1.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getObstacleLocations",
+      "signature": "@Deprecated public static java.util.HashMap<Tile,\u200bTileObstacle> getObstacleLocations()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getObstacleActions",
+      "signature": "@Deprecated public static java.util.List<java.lang.String> getObstacleActions()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "addObstacleActions",
+      "signature": "@Deprecated public static void addObstacleActions\u200b(java.lang.String... actions)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "removeObstacleActions",
+      "signature": "@Deprecated public static void removeObstacleActions\u200b(java.lang.String... actions)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "costToTile",
+      "signature": "public static int costToTile\u200b(int startX, int startY, int destinationX, int destinationY, boolean offsetDestination)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "clearGameObjectCache",
+      "signature": "public static void clearGameObjectCache()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "reset",
+      "signature": "public static void reset()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

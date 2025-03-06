@@ -1,0 +1,113 @@
+{
+  "name": "Interactable",
+  "full_name": "org.dreambot.api.wrappers.interactive.interact.Interactable",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/interact/Interactable.html",
+  "type": "class",
+  "package": "org.dreambot.api.wrappers.interactive.interact",
+  "description": "Created with IntelliJ IDEA. User: NotoriousPP Date: 7/29/2014 Time: 12:31 PM",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "getCenterPoint",
+      "signature": "public abstract java.awt.Point getCenterPoint()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets center point of the object, which is used as a base location.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getClickablePoint",
+      "signature": "public abstract java.awt.Point getClickablePoint()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a clickable point within the object, used for interaction.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "interact",
+      "signature": "public boolean interact()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Interacts with the given object using a default left click.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "interactForceRight",
+      "signature": "public boolean interactForceRight\u200b(java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Interacts with current object by forcing a right click and interacting with menu (Interact using Menus)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "interactForceLeft",
+      "signature": "public boolean interactForceLeft\u200b(java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Interacts with current object by forcing a left click. (Interact without using Menus)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "rightClick",
+      "signature": "public boolean rightClick\u200b(Condition interrupt)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hover",
+      "signature": "public boolean hover\u200b(java.lang.String action, Condition interrupt)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

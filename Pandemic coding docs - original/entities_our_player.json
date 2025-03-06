@@ -1,0 +1,161 @@
+{
+  "sleep": "500",
+  "name": "",
+  "version": 1.0,
+  "actions": [
+    {
+      "id": "IF_LOCAL_PLAYER_MATCHES",
+      "properties": {
+        "Filter By": {
+          "class": "Player",
+          "logic": "NONE",
+          "type": "NONE",
+          "operator": "EQUALS"
+        }
+      },
+      "children": [
+        {
+          "id": "IF_LOCAL_PLAYER_Z_IS",
+          "properties": {
+            "Z": {
+              "class": "Number",
+              "operator": "EQUALS",
+              "value": ""
+            }
+          },
+          "children": [
+            {
+              "id": "IF_SKILL_LEVEL_IS",
+              "properties": {
+                "level": {
+                  "class": "Number",
+                  "operator": "EQUALS",
+                  "value": ""
+                },
+                "Skill": {
+                  "class": "Skill",
+                  "value": "AGILITY"
+                }
+              },
+              "children": [
+                {
+                  "id": "IF_BOOSTED_SKILL_LEVEL_IS",
+                  "properties": {
+                    "level": {
+                      "class": "Number",
+                      "operator": "EQUALS",
+                      "value": ""
+                    },
+                    "Skill": {
+                      "class": "Skill",
+                      "value": "AGILITY"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "IF_SKILL_DIFFERENCE_IS",
+                      "properties": {
+                        "Skill": {
+                          "class": "Skill",
+                          "value": "AGILITY"
+                        },
+                        "the difference": {
+                          "class": "Number",
+                          "operator": "EQUALS",
+                          "value": ""
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "IF_MEMBERSHIP_LEFT_IS",
+                          "properties": {
+                            "days": {
+                              "class": "Number",
+                              "operator": "EQUALS",
+                              "value": ""
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": "IF_ATTACK_STYLE_IS",
+                              "properties": {
+                                "Style": {
+                                  "class": "CombatStyle",
+                                  "value": "ATTACK"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "id": "IF_ATTACK_STYLE_IS_NOT",
+                                  "properties": {
+                                    "Style": {
+                                      "class": "CombatStyle",
+                                      "value": "ATTACK"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "id": "IF_PLAYER_HAS_SPECIAL_ATTACK_ACTIVE"
+                                    },
+                                    {
+                                      "id": "IF_PLAYER_DOES_NOT_HAVE_SPECIAL_ATTACK_ACTIVE"
+                                    },
+                                    {
+                                      "id": "IF_SPECIAL_ATTACK_ENERGY_IS",
+                                      "properties": {
+                                        "energy": {
+                                          "class": "Number",
+                                          "operator": "EQUALS",
+                                          "value": ""
+                                        }
+                                      },
+                                      "children": [
+                                        {
+                                          "id": "IF_AUTO_RETALIATE_IS_ON"
+                                        },
+                                        {
+                                          "id": "IF_AUTO_RETALIATE_IS_NOT_ON"
+                                        },
+                                        {
+                                          "id": "SET_ATTACK_STYLE",
+                                          "properties": {
+                                            "Style": {
+                                              "class": "CombatStyle",
+                                              "value": "ATTACK"
+                                            }
+                                          },
+                                          "children": [
+                                            {
+                                              "id": "ENABLE_SPECIAL_ATTACK"
+                                            },
+                                            {
+                                              "id": "ENABLE_AUTO_RETALIATE"
+                                            },
+                                            {
+                                              "id": "DISABLE_AUTO_RETALIATE"
+                                            },
+                                            {
+                                              "id": "DISABLE_SPECIAL_ATTACK"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

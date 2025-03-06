@@ -1,0 +1,281 @@
+{
+  "name": "Trade",
+  "full_name": "org.dreambot.api.methods.trade.Trade",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/trade/Trade.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.trade",
+  "description": "Accepts the trade based on which screen is currently open",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Item",
+      "return_type": "[]",
+      "modifiers": [
+        "static",
+        "@NonNull",
+        "Item",
+        "@Nullable"
+      ],
+      "description": "Gets the items in the other player's trade screen",
+      "deprecated": false
+    },
+    {
+      "name": "getItems",
+      "signature": "public static @NonNull Item @Nullable [] getItems\u200b(boolean mine)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns an array of items from the trade screen",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMyItems",
+      "signature": "public static @NonNull Item @Nullable [] getMyItems()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the items in your trade screen",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTheirItems",
+      "signature": "public static @NonNull Item @Nullable [] getTheirItems()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the items in the other player's trade screen",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isOpen",
+      "signature": "public static boolean isOpen()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if trade is open at all",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getFirstTitle",
+      "signature": "public static @Nullable java.lang.String getFirstTitle()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Title of the first trade screen - contains Trading With name",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTradingWith",
+      "signature": "public static java.lang.String getTradingWith()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the name of the player you're trading with.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "canAccept",
+      "signature": "public static boolean canAccept()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the Accept button is available to click",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "acceptTrade",
+      "signature": "public static boolean acceptTrade()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Accepts the trade based on which screen is currently open",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hasAcceptedTrade",
+      "signature": "public static boolean hasAcceptedTrade\u200b(@NonNull TradeUser tradeUser)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the user specified has accepted the trade",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "declineTrade",
+      "signature": "public static boolean declineTrade()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Declines the trade based on which screen is currently open",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "close",
+      "signature": "public static boolean close()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Closes screen based on which screen is currently open",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "verifyTrade",
+      "signature": "public static boolean verifyTrade\u200b(boolean myScreen, @NonNull Item[] expected)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Simply checks the given array of Items against the array of items in the screen - must be on the second trade screen",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "contains",
+      "signature": "public static boolean contains\u200b(boolean myScreen, int amount, @NonNull java.lang.String itemName)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if your or their trade screen contains at least specified amount of specified item name.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getValue",
+      "signature": "public static int getValue\u200b(boolean myOffer)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the value of the trade offer",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getItem",
+      "signature": "public static @Nullable Item getItem\u200b(boolean myScreen, @NonNull java.lang.String itemName)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns item specified from the screen with name specified.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "tradeWithPlayer",
+      "signature": "public static boolean tradeWithPlayer\u200b(@NonNull java.lang.String playerName)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Trades with player specified",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "addItem",
+      "signature": "public static boolean addItem\u200b(@NonNull java.lang.String itemName, int amount)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Adds an item from your inventory to trade screen. If the amount is greater than or equal to your current inventory amount, it puts all in.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "removeItem",
+      "signature": "public static boolean removeItem\u200b(@NonNull java.lang.String itemName, int amount)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Removes an item from the trade screen. If the amount is greater than or equal to the current amount in trade, it removes ALL",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "slotBounds",
+      "signature": "public static @Nullable java.awt.Rectangle slotBounds\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the slotBounds operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

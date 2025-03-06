@@ -1,0 +1,302 @@
+{
+  "name": "BankLocation",
+  "full_name": "org.dreambot.api.methods.container.impl.bank.BankLocation",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/container/impl/bank/BankLocation.html",
+  "type": "enum",
+  "package": "org.dreambot.api.methods.container.impl.bank",
+  "description": "Generates an Area around the center Tile based on radius",
+  "page_structure": {
+    "type": "enum",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "BankLocation"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Area",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Generates an Area around the center Tile based on radius",
+      "deprecated": false
+    },
+    {
+      "name": "BankType",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the BankType",
+      "deprecated": false
+    },
+    {
+      "name": "Tile",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets tile of the object.",
+      "deprecated": false
+    },
+    {
+      "name": "Condition",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets any requirements needed to access this bank",
+      "deprecated": false
+    },
+    {
+      "name": "BankLocation",
+      "return_type": "BankLocation[]",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Returns an array containing the constants of this enum type, in the order they are declared.",
+      "deprecated": false
+    },
+    {
+      "name": "values",
+      "signature": "public static BankLocation[] values()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns an array containing the constants of this enum type, in the order they are declared. This method may be used to iterate over the constants as follows: for (BankLocation c : BankLocation.values()) System.out.println(c);",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "valueOf",
+      "signature": "public static BankLocation valueOf\u200b(java.lang.String name)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the enum constant of this type with the specified name. The string must match exactly an identifier used to declare an enum constant in this type. (Extraneous whitespace characters are not permitted.)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSortedValidLocations",
+      "signature": "public static java.util.List<BankLocation> getSortedValidLocations\u200b(Entity nearest)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getValidLocations",
+      "signature": "public static java.util.List<BankLocation> getValidLocations()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getNearestEuclidean",
+      "signature": "public static BankLocation getNearestEuclidean\u200b(Tile tile, boolean ignoreRequirements)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the nearest bank location to the entity based on euclidean distance getNearest(Tile) will check against web paths to find more exact distances, so takes longer This method should be quicker call, while possibly being less precise.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getNearest",
+      "signature": "public static BankLocation getNearest\u200b(Entity entity)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the nearest BankLocation to the entity",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "resetCache",
+      "signature": "public static void resetCache()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "blacklist",
+      "signature": "public static boolean blacklist\u200b(BankLocation location)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "unblacklist",
+      "signature": "public static boolean unblacklist\u200b(BankLocation location)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isBlacklisted",
+      "signature": "public static boolean isBlacklisted\u200b(BankLocation location)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "clearBlacklistedLocations",
+      "signature": "public static void clearBlacklistedLocations()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toString",
+      "signature": "public java.lang.String toString()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCenter",
+      "signature": "public Tile getCenter()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the center Tile of the bank",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getBankType",
+      "signature": "public BankType getBankType()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the BankType",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCondition",
+      "signature": "public Condition getCondition()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets any requirements needed to access this bank",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isMembersOnly",
+      "signature": "public boolean isMembersOnly()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getArea",
+      "signature": "public Area getArea\u200b(int radius)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Generates an Area around the center Tile based on radius",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTile",
+      "signature": "public Tile getTile()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Locatable",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": [],
+  "enum_constants": [
+    {
+      "name": "Enum",
+      "description": "Constant Summary\n\nEnum Constants  Enum Constant | Description  \n---|---  \n`AL_KHARID` |    \n`ALDARIN` |    \n`ARCEUUS` |    \n`ARDOUGNE_NORTH` |    \n`ARDOUGNE_SOUTH` |    \n`BARBARIAN_OUTPOST` |    \n`BLAST_FURNACE` |    \n`BURGH_DE_ROTT` |    \n`CAM_TORUM` |    \n`CANIFIS` |    \n`CASTLE_WARS` |    \n`CATHERBY` |    \n`CIVITAS_ILLA_FORTIS_EAST` |    \n`CIVITAS_ILLA_FORTIS_WEST` |    \n`COOKS_GUILD` |    \n`CORSAIR_COVE` |    \n`CRAFTING_GUILD` |    \n`DARKMEYER` |    \n`DORGESH_KAAN` |    \n`DRAYNOR` |    \n`DUEL_ARENA` |    \n`EDGEVILLE` |    \n`ETCETERIA` |    \n`FALADOR_EAST` |    \n`FALADOR_WEST` |    \n`FARMING_GUILD` |    \n`FEROX_ENCLAVE` |    \n`FISHING_GUILD` |    \n`FOSSIL_ISLAND` |    \n`GIANTS_FOUNDRY` |    \n`GNOME_STRONGHOLD` |    \n`GOTR` |    \n`GRAND_EXCHANGE` |    \n`GRAND_TREE` |    \n`HALLOWED_SEPULCHER` |    \n`HOSIDIUS` |    \n`HOSIDIUS_KITCHEN` |    \n`HOSIDIUS_SHORE` |    \n`HOSIDIUS_VINERY` |    \n`HUNTER_GUILD` |    \n`JATIZSO` |    \n`KELDAGRIM` |    \n`KOUREND_CASTLE` |    \n`LANDS_END` |    \n`LLETYA` |    \n`LOVAKENGJ_SOUTH` |    \n`LOVAKENGJ_WEST` |    \n`LUMBRIDGE` |    \n`LUMBRIDGE_BASEMENT` |    \n`LUNAR_ISLAND` |    \n`MAGE_BANK` |    \n`MAGE_TRAINING_ARENA` |    \n`MINING_GUILD` |    \n`MISTROCK` |    \n`MOONCLAN_ISLE` |    \n`MOS_LEHARMLESS` |    \n`MOTHERLODE_MINE` |    \n`MOUNT_KARUULM` |    \n`MOUNT_QUIDAMORTEM` |    \n`MYTHS_GUILD` |    \n`NARDAH` |    \n`NEITIZNOT` |    \n`NORTH_PRIFDDINAS` |    \n`PEST_CONTROL` |    \n`PISCATORIS` |    \n`PORT_KHAZARD` |    \n`PORT_PHASMATYS` |    \n`PORT_PISCARILIUS` |    \n`ROGUES_DEN` |    \n`RUINS_OF_CAMDOZAAL` |    \n`RUINS_OF_UNKAH` |    \n`SEERS` |    \n`SHANTAY_PASS` |    \n`SHAYZIEN` |    \n`SHILO_VILLAGE` |    \n`SOPHANEM_DUNGEON` |    \n`SOUL_WARS` |    \n`SOUTH_PRIFDDINAS` |    \n`SULFUR_MINE` |    \n`TZHAAR` |    \n`TZHAAR_EAST` |    \n`VARROCK_EAST` |    \n`VARROCK_WEST` |    \n`VER_SINHAZA` |    \n`WARRIORS_GUILD` |    \n`WINTERTODT` |    \n`WOODCUTTING_GUILD` |    \n`WOODCUTTING_GUILD_DUNGEON` |    \n`YANILLE` |    \n`ZANARIS` |    \n    * ### Method Summary\n\nAll Methods [Static Methods](javascript:show\\(1\\);) [Instance Methods](javascript:show\\(2\\);) [Concrete Methods](javascript:show\\(8\\);)  Modifier and Type | Method | Description  \n---|---|---  \n`static boolean` | `blacklist\u200b([BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") location)` |    \n`static void` | `clearBlacklistedLocations()` |    \n`[Area](../../../map/Area.html \"class in org.dreambot.api.methods.map\")` | `getArea\u200b(int radius)` |  Generates an Area around the center Tile based on radius  \n`[BankType](BankType.html \"enum in org.dreambot.api.methods.container.impl.bank\")` | `getBankType()` |  Gets the BankType  \n`[Tile](../../../map/Tile.html \"class in org.dreambot.api.methods.map\")` | `getCenter()` |  Gets the center Tile of the bank  \n`[Condition](../../../../utilities/impl/Condition.html \"interface in org.dreambot.api.utilities.impl\")` | `getCondition()` |  Gets any requirements needed to access this bank  \n`static [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\")` | `getNearest()` |    \n`static [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\")` | `getNearest\u200b([Tile](../../../map/Tile.html \"class in org.dreambot.api.methods.map\") tile)` |  Gets the nearest BankLocation to the tile  \n`static [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\")` | `getNearest\u200b([Tile](../../../map/Tile.html \"class in org.dreambot.api.methods.map\") tile, boolean includeTeleports)` |  Gets the nearest [`BankLocation`](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") to the given [`Tile`](../../../map/Tile.html \"class in org.dreambot.api.methods.map\")  \n`static [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\")` | `getNearest\u200b([Entity](../../../../wrappers/interactive/Entity.html \"class in org.dreambot.api.wrappers.interactive\") entity)` |  Gets the nearest BankLocation to the entity  \n`static [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\")` | `getNearestEuclidean\u200b([Tile](../../../map/Tile.html \"class in org.dreambot.api.methods.map\") tile, boolean ignoreRequirements)` |  Gets the nearest bank location to the entity based on euclidean distance `getNearest(Tile)` will check against web paths to find more exact distances, so takes longer This method should be quicker call, while possibly being less precise.  \n`static java.util.List<[BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\")>` | `getSortedValidLocations\u200b([Tile](../../../map/Tile.html \"class in org.dreambot.api.methods.map\") nearest)` |    \n`static java.util.List<[BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\")>` | `getSortedValidLocations\u200b([Entity](../../../../wrappers/interactive/Entity.html \"class in org.dreambot.api.wrappers.interactive\") nearest)` |    \n`[Tile](../../../map/Tile.html \"class in org.dreambot.api.methods.map\")` | `getTile()` |  Gets tile of the object.  \n`static java.util.List<[BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\")>` | `getValidLocations()` |    \n`static boolean` | `isBlacklisted\u200b([BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") location)` |    \n`boolean` | `isMembersOnly()` |    \n`static void` | `resetCache()` |    \n`java.lang.String` | `toString()` |    \n`static boolean` | `unblacklist\u200b([BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") location)` |    \n`static [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\")` | `valueOf\u200b(java.lang.String name)` |  Returns the enum constant of this type with the specified name.  \n`static [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\")[]` | `values()` |  Returns an array containing the constants of this enum type, in the order they are declared.  \n      * ### Methods inherited from class java.lang.Enum\n\n`compareTo, equals, getDeclaringClass, hashCode, name, ordinal, valueOf`\n\n      * ### Methods inherited from class java.lang.Object\n\n`getClass, notify, notifyAll, wait, wait, wait`\n\n      * ### Methods inherited from interface org.dreambot.api.wrappers.interactive.[Locatable](../../../../wrappers/interactive/Locatable.html \"interface in org.dreambot.api.wrappers.interactive\")\n\n`[canReach](../../../../wrappers/interactive/Locatable.html#canReach\\(\\)),\n[canReach](../../../../wrappers/interactive/Locatable.html#canReach\\(org.dreambot.api.methods.map.Tile\\)),\n[distance](../../../../wrappers/interactive/Locatable.html#distance\\(org.dreambot.api.methods.map.Tile\\)),\n[getGridX](../../../../wrappers/interactive/Locatable.html#getGridX\\(\\)),\n[getGridY](../../../../wrappers/interactive/Locatable.html#getGridY\\(\\)),\n[getTileReference](../../../../wrappers/interactive/Locatable.html#getTileReference\\(\\)),\n[getX](../../../../wrappers/interactive/Locatable.html#getX\\(\\)),\n[getY](../../../../wrappers/interactive/Locatable.html#getY\\(\\)),\n[getZ](../../../../wrappers/interactive/Locatable.html#getZ\\(\\)),\n[tileDistance](../../../../wrappers/interactive/Locatable.html#tileDistance\\(org.dreambot.api.methods.map.Tile\\)),\n[walkingDistance](../../../../wrappers/interactive/Locatable.html#walkingDistance\\(org.dreambot.api.methods.map.Tile\\))`\n\n  *     * ### Enum Constant Detail\n\n      * #### AL_KHARID\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") AL_KHARID\n\n      * #### ALDARIN\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") ALDARIN\n\n      * #### ARCEUUS\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") ARCEUUS\n\n      * #### ARDOUGNE_NORTH\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") ARDOUGNE_NORTH\n\n      * #### ARDOUGNE_SOUTH\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") ARDOUGNE_SOUTH\n\n      * #### BARBARIAN_OUTPOST\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") BARBARIAN_OUTPOST\n\n      * #### BLAST_FURNACE\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") BLAST_FURNACE\n\n      * #### BURGH_DE_ROTT\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") BURGH_DE_ROTT\n\n      * #### CANIFIS\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") CANIFIS\n\n      * #### CASTLE_WARS\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") CASTLE_WARS\n\n      * #### CATHERBY\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") CATHERBY\n\n      * #### CIVITAS_ILLA_FORTIS_EAST\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") CIVITAS_ILLA_FORTIS_EAST\n\n      * #### CIVITAS_ILLA_FORTIS_WEST\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") CIVITAS_ILLA_FORTIS_WEST\n\n      * #### CORSAIR_COVE\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") CORSAIR_COVE\n\n      * #### CRAFTING_GUILD\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") CRAFTING_GUILD\n\n      * #### DARKMEYER\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") DARKMEYER\n\n      * #### DRAYNOR\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") DRAYNOR\n\n      * #### DUEL_ARENA\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") DUEL_ARENA\n\n      * #### EDGEVILLE\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") EDGEVILLE\n\n      * #### ETCETERIA\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") ETCETERIA\n\n      * #### FALADOR_EAST\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") FALADOR_EAST\n\n      * #### FALADOR_WEST\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") FALADOR_WEST\n\n      * #### FARMING_GUILD\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") FARMING_GUILD\n\n      * #### FEROX_ENCLAVE\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") FEROX_ENCLAVE\n\n      * #### FISHING_GUILD\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") FISHING_GUILD\n\n      * #### FOSSIL_ISLAND\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") FOSSIL_ISLAND\n\n      * #### GIANTS_FOUNDRY\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") GIANTS_FOUNDRY\n\n      * #### GNOME_STRONGHOLD\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") GNOME_STRONGHOLD\n\n      * #### GOTR\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") GOTR\n\n      * #### GRAND_EXCHANGE\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") GRAND_EXCHANGE\n\n      * #### GRAND_TREE\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") GRAND_TREE\n\n      * #### HOSIDIUS\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") HOSIDIUS\n\n      * #### HOSIDIUS_SHORE\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") HOSIDIUS_SHORE\n\n      * #### HOSIDIUS_KITCHEN\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") HOSIDIUS_KITCHEN\n\n      * #### HOSIDIUS_VINERY\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") HOSIDIUS_VINERY\n\n      * #### HUNTER_GUILD\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") HUNTER_GUILD\n\n      * #### JATIZSO\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") JATIZSO\n\n      * #### KELDAGRIM\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") KELDAGRIM\n\n      * #### KOUREND_CASTLE\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") KOUREND_CASTLE\n\n      * #### LANDS_END\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") LANDS_END\n\n      * #### LLETYA\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") LLETYA\n\n      * #### LOVAKENGJ_SOUTH\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") LOVAKENGJ_SOUTH\n\n      * #### LOVAKENGJ_WEST\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") LOVAKENGJ_WEST\n\n      * #### LUMBRIDGE\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") LUMBRIDGE\n\n      * #### LUMBRIDGE_BASEMENT\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") LUMBRIDGE_BASEMENT\n\n      * #### LUNAR_ISLAND\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") LUNAR_ISLAND\n\n      * #### MAGE_BANK\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") MAGE_BANK\n\n      * #### MAGE_TRAINING_ARENA\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") MAGE_TRAINING_ARENA\n\n      * #### MINING_GUILD\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") MINING_GUILD\n\n      * #### MISTROCK\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") MISTROCK\n\n      * #### MOONCLAN_ISLE\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") MOONCLAN_ISLE\n\n      * #### MOS_LEHARMLESS\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") MOS_LEHARMLESS\n\n      * #### MOTHERLODE_MINE\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") MOTHERLODE_MINE\n\n      * #### MOUNT_KARUULM\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") MOUNT_KARUULM\n\n      * #### MOUNT_QUIDAMORTEM\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") MOUNT_QUIDAMORTEM\n\n      * #### MYTHS_GUILD\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") MYTHS_GUILD\n\n      * #### NARDAH\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") NARDAH\n\n      * #### NEITIZNOT\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") NEITIZNOT\n\n      * #### PEST_CONTROL\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") PEST_CONTROL\n\n      * #### PISCATORIS\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") PISCATORIS\n\n      * #### PORT_KHAZARD\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") PORT_KHAZARD\n\n      * #### PORT_PHASMATYS\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") PORT_PHASMATYS\n\n      * #### PORT_PISCARILIUS\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") PORT_PISCARILIUS\n\n      * #### ROGUES_DEN\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") ROGUES_DEN\n\n      * #### RUINS_OF_CAMDOZAAL\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") RUINS_OF_CAMDOZAAL\n\n      * #### RUINS_OF_UNKAH\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") RUINS_OF_UNKAH\n\n      * #### SEERS\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") SEERS\n\n      * #### SHANTAY_PASS\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") SHANTAY_PASS\n\n      * #### SHAYZIEN\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") SHAYZIEN\n\n      * #### SHILO_VILLAGE\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") SHILO_VILLAGE\n\n      * #### SOUL_WARS\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") SOUL_WARS\n\n      * #### TZHAAR\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") TZHAAR\n\n      * #### TZHAAR_EAST\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") TZHAAR_EAST\n\n      * #### VARROCK_EAST\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") VARROCK_EAST\n\n      * #### VARROCK_WEST\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") VARROCK_WEST\n\n      * #### VER_SINHAZA\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") VER_SINHAZA\n\n      * #### NORTH_PRIFDDINAS\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") NORTH_PRIFDDINAS\n\n      * #### SOUTH_PRIFDDINAS\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") SOUTH_PRIFDDINAS\n\n      * #### WARRIORS_GUILD\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") WARRIORS_GUILD\n\n      * #### WINTERTODT\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") WINTERTODT\n\n      * #### WOODCUTTING_GUILD\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") WOODCUTTING_GUILD\n\n      * #### WOODCUTTING_GUILD_DUNGEON\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") WOODCUTTING_GUILD_DUNGEON\n\n      * #### YANILLE\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") YANILLE\n\n      * #### ZANARIS\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") ZANARIS\n\n      * #### SULFUR_MINE\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") SULFUR_MINE\n\n      * #### HALLOWED_SEPULCHER\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") HALLOWED_SEPULCHER\n\n      * #### COOKS_GUILD\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") COOKS_GUILD\n\n      * #### CAM_TORUM\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") CAM_TORUM\n\n      * #### DORGESH_KAAN\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") DORGESH_KAAN\n\n      * #### SOPHANEM_DUNGEON\n            \n                        public static final [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") SOPHANEM_DUNGEON\n\n    * ### Method Detail\n\n      * #### values\n            \n                        public static [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\")[] values()\n\nReturns an array containing the constants of this enum type, in the order they\nare declared. This method may be used to iterate over the constants as\nfollows:\n\n            \n                        for (BankLocation c : BankLocation.values())\n                System.out.println(c);\n            \n\nReturns:\n\n    an array containing the constants of this enum type, in the order they are declared\n      * #### valueOf\n            \n                        public static [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") valueOf\u200b(java.lang.String name)\n\nReturns the enum constant of this type with the specified name. The string\nmust match _exactly_ an identifier used to declare an enum constant in this\ntype. (Extraneous whitespace characters are not permitted.)\n\nParameters:\n\n    `name` \\- the name of the enum constant to be returned.\nReturns:\n\n    the enum constant with the specified name\nThrows:\n\n    `java.lang.IllegalArgumentException` \\- if this enum type has no constant with the specified name\n    `java.lang.NullPointerException` \\- if the argument is null\n      * #### getSortedValidLocations\n            \n                        public static java.util.List<[BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\")> getSortedValidLocations\u200b([Entity](../../../../wrappers/interactive/Entity.html \"class in org.dreambot.api.wrappers.interactive\") nearest)\n\n      * #### getSortedValidLocations\n            \n                        public static java.util.List<[BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\")> getSortedValidLocations\u200b([Tile](../../../map/Tile.html \"class in org.dreambot.api.methods.map\") nearest)\n\n      * #### getValidLocations\n            \n                        public static java.util.List<[BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\")> getValidLocations()\n\n      * #### getNearestEuclidean\n            \n                        public static [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") getNearestEuclidean\u200b([Tile](../../../map/Tile.html \"class in org.dreambot.api.methods.map\") tile,\n                                                           boolean ignoreRequirements)\n\nGets the nearest bank location to the entity based on euclidean distance\n`getNearest(Tile)` will check against web paths to find more exact distances,\nso takes longer This method should be quicker call, while possibly being less\nprecise.\n\nParameters:\n\n    `tile` \\- tile to check for nearest bank location\n    `ignoreRequirements` \\- boolean whether to ignore bank location requirements or not\nReturns:\n\n    Nearest bank location based on euclidean distance to the tile\n      * #### getNearest\n            \n                        public static [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") getNearest\u200b([Entity](../../../../wrappers/interactive/Entity.html \"class in org.dreambot.api.wrappers.interactive\") entity)\n\nGets the nearest BankLocation to the entity\n\nParameters:\n\n    `entity` \\- Entity to find nearest BankLocation to.\nReturns:\n\n    BankLocation that is closest to Entity\n      * #### getNearest\n            \n                        public static [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") getNearest\u200b([Tile](../../../map/Tile.html \"class in org.dreambot.api.methods.map\") tile)\n\nGets the nearest BankLocation to the tile\n\nParameters:\n\n    `tile` \\- Tile to find nearest bank location to\nReturns:\n\n    BankLocation that is closest to tile\n      * #### getNearest\n            \n                        public static [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") getNearest\u200b([Tile](../../../map/Tile.html \"class in org.dreambot.api.methods.map\") tile,\n                                                  boolean includeTeleports)\n\nGets the nearest [`BankLocation`](BankLocation.html \"enum in\norg.dreambot.api.methods.container.impl.bank\") to the given\n[`Tile`](../../../map/Tile.html \"class in org.dreambot.api.methods.map\")\n\nParameters:\n\n    `tile` \\- Tile to find nearest bank location to\n    `includeTeleports` \\- boolean for whether you want to include teleports on hand in nearest calculations\nReturns:\n\n    BankLocation that is closest, if no web path is found it uses euclidean distance\n      * #### getNearest\n            \n                        public static [BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") getNearest()\n\n      * #### resetCache\n            \n                        public static void resetCache()\n\n      * #### blacklist\n            \n                        public static boolean blacklist\u200b([BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") location)\n\n      * #### unblacklist\n            \n                        public static boolean unblacklist\u200b([BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") location)\n\n      * #### isBlacklisted\n            \n                        public static boolean isBlacklisted\u200b([BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\") location)\n\n      * #### clearBlacklistedLocations\n            \n                        public static void clearBlacklistedLocations()\n\n      * #### toString\n            \n                        public java.lang.String toString()\n\nOverrides:\n\n    `toString` in class `java.lang.Enum<[BankLocation](BankLocation.html \"enum in org.dreambot.api.methods.container.impl.bank\")>`\n      * #### getCenter\n            \n                        public [Tile](../../../map/Tile.html \"class in org.dreambot.api.methods.map\") getCenter()\n\nGets the center Tile of the bank\n\nReturns:\n\n    Tile of the center of the bank\n      * #### getBankType\n            \n                        public [BankType](BankType.html \"enum in org.dreambot.api.methods.container.impl.bank\") getBankType()\n\nGets the BankType\n\nReturns:\n\n    BankType\n      * #### getCondition\n            \n                        public [Condition](../../../../utilities/impl/Condition.html \"interface in org.dreambot.api.utilities.impl\") getCondition()\n\nGets any requirements needed to access this bank\n\nReturns:\n\n    Requirements condition\n      * #### isMembersOnly\n            \n                        public boolean isMembersOnly()\n\n      * #### getArea\n            \n                        public [Area](../../../map/Area.html \"class in org.dreambot.api.methods.map\") getArea\u200b(int radius)\n\nGenerates an Area around the center Tile based on radius\n\nParameters:\n\n    `radius` \\- Radius of the Area\nReturns:\n\n    Area generated around Bank's center Tile\n      * #### getTile\n            \n                        public [Tile](../../../map/Tile.html \"class in org.dreambot.api.methods.map\") getTile()\n\nDescription copied from interface:\n`[Locatable](../../../../wrappers/interactive/Locatable.html#getTile\\(\\))`\n\nGets tile of the object.\n\nSpecified by:\n\n    `[getTile](../../../../wrappers/interactive/Locatable.html#getTile\\(\\))` in interface `[Locatable](../../../../wrappers/interactive/Locatable.html \"interface in org.dreambot.api.wrappers.interactive\")`\nReturns:\n\n    the object tile.\n\nSkip navigation links\n\n  * [Overview](../../../../../../../overview-summary.html)\n  * [Package](package-summary.html)\n  * Class\n  * [Tree](package-tree.html)\n  * [Deprecated](../../../../../../../deprecated-list.html)\n  * [Index](../../../../../../../index-all.html)\n  * [Help](../../../../../../../help-doc.html)\n\n  * [Frames](../../../../../../../index.html?org/dreambot/api/methods/container/impl/bank/BankLocation.html)\n  * [No Frames](BankLocation.html)\n\n  * [All Classes](../../../../../../../allclasses-noframe.html)\n\nJavaScript is disabled on your browser.\n\n  * Summary: \n  * Nested | \n  * Enum Constants | \n  * Field | \n  * Method\n\n  * Detail: \n  * Enum Constants | \n  * Field | \n  * Method"
+    }
+  ],
+  "extraction_fallback_used": true
+}

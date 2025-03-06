@@ -1,0 +1,331 @@
+{
+  "name": "Combat",
+  "full_name": "org.dreambot.api.methods.combat.Combat",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/combat/Combat.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.combat",
+  "description": "A class used to handle and retrieve data related to combat.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "CombatStyle",
+      "return_type": "CombatStyle",
+      "modifiers": [
+        "static",
+        "@Nullable"
+      ],
+      "description": "Returns the current combat style",
+      "deprecated": false
+    },
+    {
+      "name": "getCombatLevel",
+      "signature": "public static int getCombatLevel()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the current player's combat level",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isPoisoned",
+      "signature": "public static boolean isPoisoned()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks whether your player is poisoned.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isEnvenomed",
+      "signature": "public static boolean isEnvenomed()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks whether your player is envenomed.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hasPoisonImmunity",
+      "signature": "public static boolean hasPoisonImmunity()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks whether your player is immune to poison.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isDiseased",
+      "signature": "public static boolean isDiseased()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks whether your player is diseased.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isAntiFireEnabled",
+      "signature": "public static boolean isAntiFireEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks antifire potion protection is active",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isExtAntiFireEnabled",
+      "signature": "@Deprecated public static boolean isExtAntiFireEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the super antifire potion protection is active",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isSuperAntiFireEnabled",
+      "signature": "public static boolean isSuperAntiFireEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the super antifire potion protection is active",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isSpecialActive",
+      "signature": "public static boolean isSpecialActive()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks whether special attack is active.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSpecialPercentage",
+      "signature": "public static int getSpecialPercentage()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the percentage of special attack bar.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSpecialModifier",
+      "signature": "public static int getSpecialModifier()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the actual value of the special attack bar",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isAutoRetaliateOn",
+      "signature": "public static boolean isAutoRetaliateOn()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks whether autoretaliate is on.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "openTab",
+      "signature": "public static boolean openTab()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Opens the Combat tab.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleAutoRetaliate",
+      "signature": "public static boolean toggleAutoRetaliate\u200b(boolean enable)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Toggles the autoretaliate option. Will do nothing if already toggled to desired state.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleSpecialAttack",
+      "signature": "public static boolean toggleSpecialAttack\u200b(boolean enable)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Toggles the special attack option. Will do nothing if already toggled to desired state. Will use the orb if available, otherwise it'll fallback to the combat tab.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isInWild",
+      "signature": "public static boolean isInWild()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks whether your player is in the wilderness.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isInMultiCombat",
+      "signature": "public static boolean isInMultiCombat()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks whether your player is in a multiway combat zone.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWildernessLevel",
+      "signature": "public static int getWildernessLevel()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the wilderness level that your player is in.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getHealthPercent",
+      "signature": "public static int getHealthPercent()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets your players health percentage as an int (0 - 100), based skills.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setCombatStyle",
+      "signature": "public static boolean setCombatStyle\u200b(@NonNull CombatStyle combatStyle)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets your active combat style",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCombatStyle",
+      "signature": "public static @Nullable CombatStyle getCombatStyle()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the current combat style",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCombatModeIndex",
+      "signature": "public static int getCombatModeIndex()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the current combat style's mode index (almost always 0-3 inclusive)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setCombatModeIndex",
+      "signature": "public static boolean setCombatModeIndex\u200b(int index)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the current combat style by index (almost always 0-3 inclusive)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

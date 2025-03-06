@@ -1,0 +1,21 @@
+{
+  "name": "Unobfuscated",
+  "full_name": "org.dreambot.api.script.Unobfuscated",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/script/Unobfuscated.html",
+  "type": "annotation",
+  "package": "org.dreambot.api.script",
+  "description": "You can mark your classes, fields, or methods with this annotation to not have them obfuscated or renamed in the SDN",
+  "page_structure": {
+    "type": "annotation",
+    "format_version": "unknown",
+    "has_summary_tables": false,
+    "has_detail_sections": false,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [],
+  "fields": [],
+  "constructors": []
+}

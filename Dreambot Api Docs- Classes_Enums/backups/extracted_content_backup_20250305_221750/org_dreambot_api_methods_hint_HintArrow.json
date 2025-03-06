@@ -1,0 +1,192 @@
+{
+  "name": "HintArrow",
+  "full_name": "org.dreambot.api.methods.hint.HintArrow",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/hint/HintArrow.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.hint",
+  "description": "Gets the height of the hint arrow Gamepack usage is height*2 when grabbing field, so this field automatically adjusts to *2 If you want the true base value, divide this value by 2",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Character",
+      "return_type": "Character",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Performs the Character operation.",
+      "deprecated": false
+    },
+    {
+      "name": "Tile",
+      "return_type": "Tile",
+      "modifiers": [
+        "static"
+      ],
+      "description": "If there is a character being pointed at, it will return the Character's Tile Otherwise if the type of hint is a Tile, it will return the arrow's Tile from x/y + your player's Z Otherwise it will return null",
+      "deprecated": false
+    },
+    {
+      "name": "HintArrowType",
+      "return_type": "HintArrowType",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Performs the HintArrowType operation.",
+      "deprecated": false
+    },
+    {
+      "name": "getPointed",
+      "signature": "public static Character getPointed()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the pointed.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getX",
+      "signature": "public static int getX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the x.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getY",
+      "signature": "public static int getY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the y.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getHeight",
+      "signature": "public static int getHeight()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the height of the hint arrow Gamepack usage is height*2 when grabbing field, so this field automatically adjusts to *2 If you want the true base value, divide this value by 2",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTile",
+      "signature": "public static Tile getTile()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "If there is a character being pointed at, it will return the Character's Tile Otherwise if the type of hint is a Tile, it will return the arrow's Tile from x/y + your player's Z Otherwise it will return null",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getPlayerIndex",
+      "signature": "public static int getPlayerIndex()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the playerindex.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getNpcIndex",
+      "signature": "public static int getNpcIndex()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the npcindex.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTypeValue",
+      "signature": "public static int getTypeValue()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the typevalue.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getType",
+      "signature": "public static HintArrowType getType()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the type.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "exists",
+      "signature": "public static boolean exists()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the exists operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toString",
+      "signature": "public java.lang.String toString()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the toString operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

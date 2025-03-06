@@ -1,0 +1,151 @@
+{
+  "name": "MagicCarpetWebNode",
+  "full_name": "org.dreambot.api.methods.walking.web.node.impl.pathaware.MagicCarpetWebNode",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/pathaware/MagicCarpetWebNode.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.walking.web.node.impl.pathaware",
+  "description": "This is the same as AbstractWebNode.execute() except the web walker will pass the next web node in the path after this node.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.methods.walking.web.node.AbstractWebNode"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "MagicCarpetWebNode",
+      "return_type": "java.util.List<MagicCarpetWebNode>",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Performs the MagicCarpetWebNode operation.",
+      "deprecated": false
+    },
+    {
+      "name": "RequiredItem",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the RequiredItem operation.",
+      "deprecated": false
+    },
+    {
+      "name": "WebNodeType",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the WebNodeType of this node, used during path finding to ensure they're not disabled by the script",
+      "deprecated": false
+    },
+    {
+      "name": "getMagicCarpetNodes",
+      "signature": "public static java.util.List<MagicCarpetWebNode> getMagicCarpetNodes()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the magiccarpetnodes.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "execute",
+      "signature": "public boolean execute\u200b(AbstractWebNode destinationNode)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: PathAwareWebNode",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRequiredItems",
+      "signature": "public java.util.List<RequiredItem> getRequiredItems()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the requireditems.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hasRequirements",
+      "signature": "public boolean hasRequirements()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: AbstractWebNode",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getType",
+      "signature": "public WebNodeType getType()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: AbstractWebNode",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toString",
+      "signature": "public java.lang.String toString()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the toString operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "equals",
+      "signature": "public boolean equals\u200b(java.lang.Object o)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the equals operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLocation",
+      "signature": "public org.dreambot.api.methods.walking.web.node.impl.pathaware.MagicCarpetWebNode.MagicCarpetLocation getLocation()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the location.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

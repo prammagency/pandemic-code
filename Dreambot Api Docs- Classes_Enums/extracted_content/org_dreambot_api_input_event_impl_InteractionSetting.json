@@ -1,0 +1,79 @@
+{
+  "name": "InteractionSetting",
+  "full_name": "org.dreambot.api.input.event.impl.InteractionSetting",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/InteractionSetting.html",
+  "type": "enum",
+  "package": "org.dreambot.api.input.event.impl",
+  "description": "Created by Nezz on 3/15/2015.",
+  "page_structure": {
+    "type": "enum",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "InteractionSetting"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "InteractionSetting",
+      "return_type": "InteractionSetting[]",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Returns an array containing the constants of this enum type, in the order they are declared.",
+      "deprecated": false
+    },
+    {
+      "name": "values",
+      "signature": "public static InteractionSetting[] values()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns an array containing the constants of this enum type, in the order they are declared. This method may be used to iterate over the constants as follows: for (InteractionSetting c : InteractionSetting.values()) System.out.println(c);",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "valueOf",
+      "signature": "public static InteractionSetting valueOf\u200b(java.lang.String name)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the enum constant of this type with the specified name. The string must match exactly an identifier used to declare an enum constant in this type. (Extraneous whitespace characters are not permitted.)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "contains",
+      "signature": "public static boolean contains\u200b(InteractionSetting[] settings, InteractionSetting contain)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": [],
+  "enum_constants": [
+    {
+      "name": "Enum",
+      "description": "Constant Summary\n\nEnum Constants  Enum Constant | Description  \n---|---  \n`EMPTY_SETTING` |    \n`FORCE_LEFT_CLICK` |    \n`FORCE_RIGHT_CLICK` |    \n`MOVE` |    \n`ROTATE_CAMERA` |    \n`ZOOM_CAMERA` |    \n    * ### Method Summary\n\nAll Methods [Static Methods](javascript:show\\(1\\);) [Concrete Methods](javascript:show\\(8\\);)  Modifier and Type | Method | Description  \n---|---|---  \n`static boolean` | `contains\u200b([InteractionSetting](InteractionSetting.html \"enum in org.dreambot.api.input.event.impl\")[] settings, [InteractionSetting](InteractionSetting.html \"enum in org.dreambot.api.input.event.impl\") contain)` |    \n`static [InteractionSetting](InteractionSetting.html \"enum in org.dreambot.api.input.event.impl\")` | `valueOf\u200b(java.lang.String name)` |  Returns the enum constant of this type with the specified name.  \n`static [InteractionSetting](InteractionSetting.html \"enum in org.dreambot.api.input.event.impl\")[]` | `values()` |  Returns an array containing the constants of this enum type, in the order they are declared.  \n      * ### Methods inherited from class java.lang.Enum\n\n`compareTo, equals, getDeclaringClass, hashCode, name, ordinal, toString,\nvalueOf`\n\n      * ### Methods inherited from class java.lang.Object\n\n`getClass, notify, notifyAll, wait, wait, wait`\n\n  *     * ### Enum Constant Detail\n\n      * #### MOVE\n            \n                        public static final [InteractionSetting](InteractionSetting.html \"enum in org.dreambot.api.input.event.impl\") MOVE\n\n      * #### ROTATE_CAMERA\n            \n                        public static final [InteractionSetting](InteractionSetting.html \"enum in org.dreambot.api.input.event.impl\") ROTATE_CAMERA\n\n      * #### FORCE_LEFT_CLICK\n            \n                        public static final [InteractionSetting](InteractionSetting.html \"enum in org.dreambot.api.input.event.impl\") FORCE_LEFT_CLICK\n\n      * #### FORCE_RIGHT_CLICK\n            \n                        public static final [InteractionSetting](InteractionSetting.html \"enum in org.dreambot.api.input.event.impl\") FORCE_RIGHT_CLICK\n\n      * #### ZOOM_CAMERA\n            \n                        public static final [InteractionSetting](InteractionSetting.html \"enum in org.dreambot.api.input.event.impl\") ZOOM_CAMERA\n\n      * #### EMPTY_SETTING\n            \n                        public static final [InteractionSetting](InteractionSetting.html \"enum in org.dreambot.api.input.event.impl\") EMPTY_SETTING\n\n    * ### Method Detail\n\n      * #### values\n            \n                        public static [InteractionSetting](InteractionSetting.html \"enum in org.dreambot.api.input.event.impl\")[] values()\n\nReturns an array containing the constants of this enum type, in the order they\nare declared. This method may be used to iterate over the constants as\nfollows:\n\n            \n                        for (InteractionSetting c : InteractionSetting.values())\n                System.out.println(c);\n            \n\nReturns:\n\n    an array containing the constants of this enum type, in the order they are declared\n      * #### valueOf\n            \n                        public static [InteractionSetting](InteractionSetting.html \"enum in org.dreambot.api.input.event.impl\") valueOf\u200b(java.lang.String name)\n\nReturns the enum constant of this type with the specified name. The string\nmust match _exactly_ an identifier used to declare an enum constant in this\ntype. (Extraneous whitespace characters are not permitted.)\n\nParameters:\n\n    `name` \\- the name of the enum constant to be returned.\nReturns:\n\n    the enum constant with the specified name\nThrows:\n\n    `java.lang.IllegalArgumentException` \\- if this enum type has no constant with the specified name\n    `java.lang.NullPointerException` \\- if the argument is null\n      * #### contains\n            \n                        public static boolean contains\u200b([InteractionSetting](InteractionSetting.html \"enum in org.dreambot.api.input.event.impl\")[] settings,\n                                           [InteractionSetting](InteractionSetting.html \"enum in org.dreambot.api.input.event.impl\") contain)\n\nSkip navigation links\n\n  * [Overview](../../../../../../overview-summary.html)\n  * [Package](package-summary.html)\n  * Class\n  * [Tree](package-tree.html)\n  * [Deprecated](../../../../../../deprecated-list.html)\n  * [Index](../../../../../../index-all.html)\n  * [Help](../../../../../../help-doc.html)\n\n  * [Frames](../../../../../../index.html?org/dreambot/api/input/event/impl/InteractionSetting.html)\n  * [No Frames](InteractionSetting.html)\n\n  * [All Classes](../../../../../../allclasses-noframe.html)\n\nJavaScript is disabled on your browser.\n\n  * Summary: \n  * Nested | \n  * Enum Constants | \n  * Field | \n  * Method\n\n  * Detail: \n  * Enum Constants | \n  * Field | \n  * Method"
+    }
+  ],
+  "extraction_fallback_used": true
+}

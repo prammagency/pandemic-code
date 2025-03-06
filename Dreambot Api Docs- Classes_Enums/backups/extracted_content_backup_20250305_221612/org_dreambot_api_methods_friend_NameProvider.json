@@ -1,0 +1,107 @@
+{
+  "name": "NameProvider",
+  "full_name": "org.dreambot.api.methods.friend.NameProvider",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/friend/NameProvider.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.friend",
+  "description": "Created by Nezz on 1/12/2015.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "NameComposite",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Deprecated. use getPreviousName",
+      "deprecated": false
+    },
+    {
+      "name": "getNameComposite",
+      "signature": "@Deprecated public NameComposite getNameComposite()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getPreviousNameComposite",
+      "signature": "@Deprecated public NameComposite getPreviousNameComposite()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getName",
+      "signature": "public java.lang.String getName()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getPreviousName",
+      "signature": "public java.lang.String getPreviousName()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOtherName",
+      "signature": "@Deprecated public java.lang.String getOtherName()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "format",
+      "signature": "public static java.lang.String format\u200b(java.lang.String name)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

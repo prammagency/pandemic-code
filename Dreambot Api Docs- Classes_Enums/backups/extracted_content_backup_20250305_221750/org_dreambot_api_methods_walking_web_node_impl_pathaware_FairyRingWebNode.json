@@ -1,0 +1,159 @@
+{
+  "name": "FairyRingWebNode",
+  "full_name": "org.dreambot.api.methods.walking.web.node.impl.pathaware.FairyRingWebNode",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/pathaware/FairyRingWebNode.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.walking.web.node.impl.pathaware",
+  "description": "This is the same as AbstractWebNode.execute() except the web walker will pass the next web node in the path after this node.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.methods.walking.web.node.AbstractWebNode",
+    "org.dreambot.api.methods.walking.web.node.impl.pathaware.SelfConnectingWebNode"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "FairyRingWebNode",
+      "return_type": "java.util.List<FairyRingWebNode>",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Performs the FairyRingWebNode operation.",
+      "deprecated": false
+    },
+    {
+      "name": "ConditionalLocation",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the ConditionalLocation operation.",
+      "deprecated": false
+    },
+    {
+      "name": "RequiredItem",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the RequiredItem operation.",
+      "deprecated": false
+    },
+    {
+      "name": "WebNodeType",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the WebNodeType of this node, used during path finding to ensure they're not disabled by the script",
+      "deprecated": false
+    },
+    {
+      "name": "addLocationToIgnoreRequirements",
+      "signature": "public static void addLocationToIgnoreRequirements\u200b(FairyLocation location)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the addLocationToIgnoreRequirements operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "removeLocationToIgnoreRequirements",
+      "signature": "public static void removeLocationToIgnoreRequirements\u200b(FairyLocation location)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the removeLocationToIgnoreRequirements operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "reset",
+      "signature": "public static void reset()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the reset operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getFairyRingNodes",
+      "signature": "public static java.util.List<FairyRingWebNode> getFairyRingNodes()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the fairyringnodes.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "execute",
+      "signature": "public boolean execute\u200b(AbstractWebNode next)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: PathAwareWebNode",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLocations",
+      "signature": "public java.util.List<ConditionalLocation> getLocations()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the locations.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getType",
+      "signature": "public WebNodeType getType()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: AbstractWebNode",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRequiredItems",
+      "signature": "public java.util.List<RequiredItem> getRequiredItems()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the requireditems.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

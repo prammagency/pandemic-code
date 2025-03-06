@@ -1,0 +1,243 @@
+{
+  "name": "AccountManager",
+  "full_name": "org.dreambot.api.utilities.AccountManager",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/utilities/AccountManager.html",
+  "type": "class",
+  "package": "org.dreambot.api.utilities",
+  "description": "Adds an account with the given nickname, username, and password.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "setAccount",
+      "signature": "public static boolean setAccount\u200b(java.lang.String nickname)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the currently selected account based on nickname",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "addAccount",
+      "signature": "public static boolean addAccount\u200b(java.lang.String nickname, java.lang.String username, java.lang.String password, java.lang.String pin, java.lang.String totp)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Adds an account with the given nickname, username, password, bank pin, and totp key",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "updateAccount",
+      "signature": "public static boolean updateAccount\u200b(java.lang.String nickname, java.lang.String username, java.lang.String password, java.lang.String pin, java.lang.String totp)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Updates an account based on the given username If an account does not yet exist for this username, a new one will be added",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAccountNickname",
+      "signature": "public static java.lang.String getAccountNickname()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the currently selected account's nickname",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAccountBankPin",
+      "signature": "public static java.lang.String getAccountBankPin()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the currently selected account's bank pin",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAccountTOTPKey",
+      "signature": "public static java.lang.String getAccountTOTPKey()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the currently selected account's TOTP key",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isLegacyAccount",
+      "signature": "public static boolean isLegacyAccount()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the current account is a legacy account",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "bulkImportAccounts",
+      "signature": "public static boolean bulkImportAccounts\u200b(java.io.File file)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Bulk imports accounts from a file Formats accepted: JSON: {\"accounts\":[ {\"nickname\":\"Account1\", \"username\":\"[email protected]\", \"password\":\"password1234\", \"pin\":\"1234\", \"totp\":\"totp key\"}, {\"nickname\":\"Account1\", \"username\":\"[email protected]\", \"password\":\"password1234\", \"pin\":\"1234\"}, {\"nickname\":\"Account1\", \"username\":\"[email protected]\", \"password\":\"password1234\", \"totp\":\"totp key\"}, {\"nickname\":\"Account1\", \"username\":\"[email protected]\", \"password\":\"password1234\"}, {\"username\":\"[email protected]\", \"password\":\"password1234\", \"pin\":\"1234\", \"totp\":\"totp key\"}, {\"username\":\"[email protected]\", \"password\":\"password1234\", \"pin\":\"1234\"}, {\"username\":\"[email protected]\", \"password\":\"password1234\", \"totp\":\"totp key\"}, {\"username\":\"[email protected]\", \"password\":\"password1234\"} ]} order agnostic nickname optional: defaults to username pin optional: defaults to empty totp optional: defaults to empty Colon Delimited: [email protected]:password1234 Account1:[email protected]:password1234 Account1:[email protected]:password1234:1234 Account1:[email protected]:password1234:1234:totp key Account1:[email protected]:password1234::totp key Given only username:password results in nickname defaulting to username",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "deleteAccount",
+      "signature": "public static boolean deleteAccount\u200b(java.lang.String nickname)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Removes the account with the specified nickname from the accounts list.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "containsAccount",
+      "signature": "public static boolean containsAccount\u200b(java.lang.String nickname)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the client has an account with the supplied nickname",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "containsAccountWithEmail",
+      "signature": "public static boolean containsAccountWithEmail\u200b(java.lang.String email)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the client has an account with the supplied email",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAccountUsername",
+      "signature": "public static java.lang.String getAccountUsername()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the accountusername.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAccountHash",
+      "signature": "public static java.lang.String getAccountHash()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Hashes the selected account's username, which is allowed in SDN scripts (unlike getUsername)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAll",
+      "signature": "public static java.util.List<java.lang.String> getAll()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a list of all account nicknames",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isBanned",
+      "signature": "public static boolean isBanned\u200b(java.lang.String nickname)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the account matching the given nickname is set to banned",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hasPin",
+      "signature": "public static boolean hasPin\u200b(java.lang.String nickname)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the account matching the given nickname has a bank pin value set",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "updateBanStatus",
+      "signature": "public static boolean updateBanStatus\u200b(java.lang.String nickname, boolean banned)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Updates the ban status on an account based on the given nickname.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

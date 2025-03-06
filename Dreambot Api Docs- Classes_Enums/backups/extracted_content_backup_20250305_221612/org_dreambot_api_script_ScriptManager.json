@@ -1,0 +1,480 @@
+{
+  "name": "ScriptManager",
+  "full_name": "org.dreambot.api.script.ScriptManager",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/script/ScriptManager.html",
+  "type": "class",
+  "package": "org.dreambot.api.script",
+  "description": "Gets the currently selected account nickname from the Dreambot account manager",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [
+    {
+      "name": "Field Summary\n\nFields\u00a0\n\nModifier and Type\nField\nDescription\n\n\njava.lang.String[]\nargs",
+      "description": "",
+      "modifiers": []
+    }
+  ],
+  "methods": [
+    {
+      "name": "AbstractScript",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Deprecated.",
+      "deprecated": false
+    },
+    {
+      "name": "ScriptManager",
+      "return_type": "ScriptManager",
+      "modifiers": [
+        "static"
+      ],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "ScriptManager.State",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "getScriptManager",
+      "signature": "public static ScriptManager getScriptManager()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "startFromSchedule",
+      "signature": "@Deprecated public AbstractScript startFromSchedule\u200b(AbstractScript script, java.util.Map<java.lang.reflect.Field,\u200bjava.lang.Object> fields)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "reloadLastScript",
+      "signature": "public void reloadLastScript()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "start",
+      "signature": "public void start\u200b(org.dreambot.internal.scripts.ScriptWrapper scriptWrapper)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "containsListener",
+      "signature": "public boolean containsListener\u200b(java.util.EventListener listener)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "addListener",
+      "signature": "public void addListener\u200b(java.util.EventListener listener)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "removeListener",
+      "signature": "public void removeListener\u200b(java.util.EventListener listener)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "pause",
+      "signature": "public void pause()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "resume",
+      "signature": "public void resume()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "stopWithScheduledStop",
+      "signature": "public void stopWithScheduledStop()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This will attempt to stop the current script nicely by blocking up to 5 minutes until AbstractScript.onScheduledStop() returns true. This allows for the client to stop the script when a supported script says it's safe to stop.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "stop",
+      "signature": "public void stop()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This will force stop the current script running, including killing the thread if necessary. This most likely shouldn't be used to stop your own script, see AbstractScript.stop() or stopWithScheduledStop() instead.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isPaused",
+      "signature": "public boolean isPaused()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isRunning",
+      "signature": "public boolean isRunning()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getState",
+      "signature": "public ScriptManager.State getState()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setAccount",
+      "signature": "public boolean setAccount\u200b(java.lang.String nickname)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAccountNickname",
+      "signature": "public java.lang.String getAccountNickname()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the currently selected account nickname from the Dreambot account manager",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "accountHasTotpKey",
+      "signature": "public boolean accountHasTotpKey()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isAccountSet",
+      "signature": "public boolean isAccountSet()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLock",
+      "signature": "public java.lang.Object getLock()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "resetArgs",
+      "signature": "public void resetArgs()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hasPremiumScript",
+      "signature": "public boolean hasPremiumScript\u200b(int productId)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the current user has access to a premium script",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hasPurchasedScript",
+      "signature": "public boolean hasPurchasedScript\u200b(int productId)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the current user has an active purchase of a premium script",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTotalInstances",
+      "signature": "public int getTotalInstances\u200b(int scriptId)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get the total number of instances purchased (or trialed) to a user for a script",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getActiveInstances",
+      "signature": "public int getActiveInstances\u200b(int scriptId)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get the active number of instances purchased (or trialed) to a user for a script currently in use",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hasSDNScript",
+      "signature": "public boolean hasSDNScript\u200b(int scriptId)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the current user has access to an SDN script",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAllScriptNames",
+      "signature": "public java.util.List<java.lang.String> getAllScriptNames()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a list of all available script names",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "clearReloadedScript",
+      "signature": "public void clearReloadedScript()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getArgs",
+      "signature": "public java.lang.String[] getArgs()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLastRanScript",
+      "signature": "public org.dreambot.internal.scripts.ScriptWrapper getLastRanScript()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCurrentScript",
+      "signature": "public AbstractScript getCurrentScript()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAccount",
+      "signature": "public org.dreambot.core.Account getAccount()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getIdleMouseThread",
+      "signature": "public java.lang.Thread getIdleMouseThread()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getIdleCameraThread",
+      "signature": "public java.lang.Thread getIdleCameraThread()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

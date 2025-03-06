@@ -1,0 +1,35 @@
+{
+  "name": "Images",
+  "full_name": "org.dreambot.api.utilities.Images",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/utilities/Images.html",
+  "type": "class",
+  "package": "org.dreambot.api.utilities",
+  "description": "Loads an image from a URL, automatically checks against a cached file location based on script name Will not use invalid calculated cache locations.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "loadImage",
+      "signature": "public static java.awt.image.BufferedImage loadImage\u200b(java.lang.String url)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Loads an image from a URL, automatically checks against a cached file location based on script name Will not use invalid calculated cache locations.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

@@ -1,0 +1,242 @@
+{
+  "name": "MiniQuest",
+  "full_name": "org.dreambot.api.methods.quest.book.MiniQuest",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/quest/book/MiniQuest.html",
+  "type": "enum",
+  "package": "org.dreambot.api.methods.quest.book",
+  "description": "Created by Nezz 9/26/2019 Quests with a setting ID of -1 are unknown Quests with settings values of {-1} are unknown Quest Progress is found via widget text color. All current miniquest setting information is unknown.",
+  "page_structure": {
+    "type": "enum",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "MiniQuest"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [
+    {
+      "name": "Nested classes/interfaces inherited from interface\u00a0org.dreambot.api.methods.quest.book.Quest\nQuest.State, Quest.Type",
+      "description": "",
+      "modifiers": []
+    }
+  ],
+  "methods": [
+    {
+      "name": "Requirement",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "Quest.State",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "MiniQuest",
+      "return_type": "MiniQuest[]",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Returns an array containing the constants of this enum type, in the order they are declared.",
+      "deprecated": false
+    },
+    {
+      "name": "values",
+      "signature": "public static MiniQuest[] values()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns an array containing the constants of this enum type, in the order they are declared. This method may be used to iterate over the constants as follows: for (MiniQuest c : MiniQuest.values()) System.out.println(c);",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "valueOf",
+      "signature": "public static MiniQuest valueOf\u200b(java.lang.String name)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the enum constant of this type with the specified name. The string must match exactly an identifier used to declare an enum constant in this type. (Extraneous whitespace characters are not permitted.)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getQP",
+      "signature": "public int getQP()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getChild",
+      "signature": "public int getChild()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getGrandChild",
+      "signature": "public int getGrandChild()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSettings",
+      "signature": "public int[] getSettings()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getStartedSetting",
+      "signature": "public int getStartedSetting()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getFinishedSetting",
+      "signature": "public int getFinishedSetting()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getConfigID",
+      "signature": "public int getConfigID()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getQuests",
+      "signature": "public Requirement getQuests()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSkills",
+      "signature": "public Requirement getSkills()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "find",
+      "signature": "public boolean find()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getState",
+      "signature": "public Quest.State getState()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getVarBitID",
+      "signature": "public int getVarBitID()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": [],
+  "enum_constants": [
+    {
+      "name": "Nested",
+      "description": "Class Summary\n\n      * ### Nested classes/interfaces inherited from interface org.dreambot.api.methods.quest.book.[Quest](Quest.html \"interface in org.dreambot.api.methods.quest.book\")\n\n`[Quest.State](Quest.State.html \"enum in\norg.dreambot.api.methods.quest.book\"), [Quest.Type](Quest.Type.html \"enum in\norg.dreambot.api.methods.quest.book\")`\n\n    * ### Enum Constant Summary\n\nEnum Constants  Enum Constant | Description  \n---|---  \n`ALFRED_GRIMHANDS_BARCRAWL` |    \n`ARCHITECTURAL_ALLIANCE` |    \n`BARBARIAN_TRAINING` |    \n`BEAR_YOUR_SOUL` |    \n`CURSE_OF_THE_EMPTY_LORD` |    \n`DADDYS_HOME` |    \n`ENCHANTED_KEY` |    \n`ENTER_THE_ABYSS` |    \n`FAMILY_PEST` |    \n`HIS_FAITHFUL_SERVANTS` |    \n`HOPESPEARS_WILL` |    \n`IN_SEARCH_OF_KNOWLEDGE` |    \n`INTO_THE_TOMBS` |    \n`LAIR_OF_TARN_RAZORLOR` |    \n`SKIPPY_AND_THE_MOGRES` |    \n`THE_FROZEN_DOOR` |    \n`THE_GENERALS_SHADOW` |    \n`THE_MAGE_ARENA` |    \n`THE_MAGE_ARENA_2` |    \n    * ### Method Summary\n\nAll Methods [Static Methods](javascript:show\\(1\\);) [Instance Methods](javascript:show\\(2\\);) [Concrete Methods](javascript:show\\(8\\);)  Modifier and Type | Method | Description  \n---|---|---  \n`boolean` | `find()` |    \n`int` | `getChild()` |    \n`int` | `getConfigID()` |    \n`int` | `getFinishedSetting()` |    \n`int` | `getGrandChild()` |    \n`int` | `getQP()` |    \n`[Requirement](requirement/Requirement.html \"class in org.dreambot.api.methods.quest.book.requirement\")` | `getQuests()` |    \n`int[]` | `getSettings()` |    \n`[Requirement](requirement/Requirement.html \"class in org.dreambot.api.methods.quest.book.requirement\")` | `getSkills()` |    \n`int` | `getStartedSetting()` |    \n`[Quest.State](Quest.State.html \"enum in org.dreambot.api.methods.quest.book\")` | `getState()` |    \n`int` | `getVarBitID()` |    \n`static [MiniQuest](MiniQuest.html \"enum in org.dreambot.api.methods.quest.book\")` | `valueOf\u200b(java.lang.String name)` |  Returns the enum constant of this type with the specified name.  \n`static [MiniQuest](MiniQuest.html \"enum in org.dreambot.api.methods.quest.book\")[]` | `values()` |  Returns an array containing the constants of this enum type, in the order they are declared.  \n      * ### Methods inherited from class java.lang.Enum\n\n`compareTo, equals, getDeclaringClass, hashCode, name, ordinal, toString,\nvalueOf`\n\n      * ### Methods inherited from class java.lang.Object\n\n`getClass, notify, notifyAll, wait, wait, wait`\n\n      * ### Methods inherited from interface org.dreambot.api.methods.quest.book.[Quest](Quest.html \"interface in org.dreambot.api.methods.quest.book\")\n\n`[getColor](Quest.html#getColor\\(\\)),\n[getConfigValue](Quest.html#getConfigValue\\(\\)),\n[getParent](Quest.html#getParent\\(\\)), [getType](Quest.html#getType\\(\\)),\n[getWidgetChild](Quest.html#getWidgetChild\\(\\)),\n[hasRequirements](Quest.html#hasRequirements\\(\\)),\n[isFinished](Quest.html#isFinished\\(\\)),\n[isStarted](Quest.html#isStarted\\(\\))`\n\n  *     * ### Enum Constant Detail\n\n      * #### ENTER_THE_ABYSS\n            \n                        public static final [MiniQuest](MiniQuest.html \"enum in org.dreambot.api.methods.quest.book\") ENTER_THE_ABYSS\n\n      * #### ARCHITECTURAL_ALLIANCE\n            \n                        public static final [MiniQuest](MiniQuest.html \"enum in org.dreambot.api.methods.quest.book\") ARCHITECTURAL_ALLIANCE\n\n      * #### BEAR_YOUR_SOUL\n            \n                        public static final [MiniQuest](MiniQuest.html \"enum in org.dreambot.api.methods.quest.book\") BEAR_YOUR_SOUL\n\n      * #### ALFRED_GRIMHANDS_BARCRAWL\n            \n                        public static final [MiniQuest](MiniQuest.html \"enum in org.dreambot.api.methods.quest.book\") ALFRED_GRIMHANDS_BARCRAWL\n\n      * #### CURSE_OF_THE_EMPTY_LORD\n            \n                        public static final [MiniQuest](MiniQuest.html \"enum in org.dreambot.api.methods.quest.book\") CURSE_OF_THE_EMPTY_LORD\n\n      * #### ENCHANTED_KEY\n            \n                        public static final [MiniQuest](MiniQuest.html \"enum in org.dreambot.api.methods.quest.book\") ENCHANTED_KEY\n\n      * #### THE_GENERALS_SHADOW\n            \n                        public static final [MiniQuest](MiniQuest.html \"enum in org.dreambot.api.methods.quest.book\") THE_GENERALS_SHADOW\n\n      * #### SKIPPY_AND_THE_MOGRES\n            \n                        public static final [MiniQuest](MiniQuest.html \"enum in org.dreambot.api.methods.quest.book\") SKIPPY_AND_THE_MOGRES\n\n      * #### THE_MAGE_ARENA\n            \n                        public static final [MiniQuest](MiniQuest.html \"enum in org.dreambot.api.methods.quest.book\") THE_MAGE_ARENA\n\n      * #### LAIR_OF_TARN_RAZORLOR\n            \n                        public static final [MiniQuest](MiniQuest.html \"enum in org.dreambot.api.methods.quest.book\") LAIR_OF_TARN_RAZORLOR\n\n      * #### FAMILY_PEST\n            \n                        public static final [MiniQuest](MiniQuest.html \"enum in org.dreambot.api.methods.quest.book\") FAMILY_PEST\n\n      * #### THE_MAGE_ARENA_2\n            \n                        public static final [MiniQuest](MiniQuest.html \"enum in org.dreambot.api.methods.quest.book\") THE_MAGE_ARENA_2\n\n      * #### IN_SEARCH_OF_KNOWLEDGE\n            \n                        public static final [MiniQuest](MiniQuest.html \"enum in org.dreambot.api.methods.quest.book\") IN_SEARCH_OF_KNOWLEDGE\n\n      * #### DADDYS_HOME\n            \n                        public static final [MiniQuest](MiniQuest.html \"enum in org.dreambot.api.methods.quest.book\") DADDYS_HOME\n\n      * #### THE_FROZEN_DOOR\n            \n                        public static final [MiniQuest](MiniQuest.html \"enum in org.dreambot.api.methods.quest.book\") THE_FROZEN_DOOR\n\n      * #### HOPESPEARS_WILL\n            \n                        public static final [MiniQuest](MiniQuest.html \"enum in org.dreambot.api.methods.quest.book\") HOPESPEARS_WILL\n\n      * #### INTO_THE_TOMBS\n            \n                        public static final [MiniQuest](MiniQuest.html \"enum in org.dreambot.api.methods.quest.book\") INTO_THE_TOMBS\n\n      * #### BARBARIAN_TRAINING\n            \n                        public static final [MiniQuest](MiniQuest.html \"enum in org.dreambot.api.methods.quest.book\") BARBARIAN_TRAINING\n\n      * #### HIS_FAITHFUL_SERVANTS\n            \n                        public static final [MiniQuest](MiniQuest.html \"enum in org.dreambot.api.methods.quest.book\") HIS_FAITHFUL_SERVANTS\n\n    * ### Method Detail\n\n      * #### values\n            \n                        public static [MiniQuest](MiniQuest.html \"enum in org.dreambot.api.methods.quest.book\")[] values()\n\nReturns an array containing the constants of this enum type, in the order they\nare declared. This method may be used to iterate over the constants as\nfollows:\n\n            \n                        for (MiniQuest c : MiniQuest.values())\n                System.out.println(c);\n            \n\nReturns:\n\n    an array containing the constants of this enum type, in the order they are declared\n      * #### valueOf\n            \n                        public static [MiniQuest](MiniQuest.html \"enum in org.dreambot.api.methods.quest.book\") valueOf\u200b(java.lang.String name)\n\nReturns the enum constant of this type with the specified name. The string\nmust match _exactly_ an identifier used to declare an enum constant in this\ntype. (Extraneous whitespace characters are not permitted.)\n\nParameters:\n\n    `name` \\- the name of the enum constant to be returned.\nReturns:\n\n    the enum constant with the specified name\nThrows:\n\n    `java.lang.IllegalArgumentException` \\- if this enum type has no constant with the specified name\n    `java.lang.NullPointerException` \\- if the argument is null\n      * #### getQP\n            \n                        public int getQP()\n\nSpecified by:\n\n    `[getQP](Quest.html#getQP\\(\\))` in interface `[Quest](Quest.html \"interface in org.dreambot.api.methods.quest.book\")`\n      * #### getChild\n            \n                        public int getChild()\n\nSpecified by:\n\n    `[getChild](Quest.html#getChild\\(\\))` in interface `[Quest](Quest.html \"interface in org.dreambot.api.methods.quest.book\")`\n      * #### getGrandChild\n            \n                        public int getGrandChild()\n\nSpecified by:\n\n    `[getGrandChild](Quest.html#getGrandChild\\(\\))` in interface `[Quest](Quest.html \"interface in org.dreambot.api.methods.quest.book\")`\n      * #### getSettings\n            \n                        public int[] getSettings()\n\nSpecified by:\n\n    `[getSettings](Quest.html#getSettings\\(\\))` in interface `[Quest](Quest.html \"interface in org.dreambot.api.methods.quest.book\")`\n      * #### getStartedSetting\n            \n                        public int getStartedSetting()\n\nSpecified by:\n\n    `[getStartedSetting](Quest.html#getStartedSetting\\(\\))` in interface `[Quest](Quest.html \"interface in org.dreambot.api.methods.quest.book\")`\n      * #### getFinishedSetting\n            \n                        public int getFinishedSetting()\n\nSpecified by:\n\n    `[getFinishedSetting](Quest.html#getFinishedSetting\\(\\))` in interface `[Quest](Quest.html \"interface in org.dreambot.api.methods.quest.book\")`\n      * #### getConfigID\n            \n                        public int getConfigID()\n\nSpecified by:\n\n    `[getConfigID](Quest.html#getConfigID\\(\\))` in interface `[Quest](Quest.html \"interface in org.dreambot.api.methods.quest.book\")`\n      * #### getQuests\n            \n                        public [Requirement](requirement/Requirement.html \"class in org.dreambot.api.methods.quest.book.requirement\") getQuests()\n\nSpecified by:\n\n    `[getQuests](Quest.html#getQuests\\(\\))` in interface `[Quest](Quest.html \"interface in org.dreambot.api.methods.quest.book\")`\n      * #### getSkills\n            \n                        public [Requirement](requirement/Requirement.html \"class in org.dreambot.api.methods.quest.book.requirement\") getSkills()\n\nSpecified by:\n\n    `[getSkills](Quest.html#getSkills\\(\\))` in interface `[Quest](Quest.html \"interface in org.dreambot.api.methods.quest.book\")`\n      * #### find\n            \n                        public boolean find()\n\nSpecified by:\n\n    `[find](Quest.html#find\\(\\))` in interface `[Quest](Quest.html \"interface in org.dreambot.api.methods.quest.book\")`\n      * #### getState\n            \n                        public [Quest.State](Quest.State.html \"enum in org.dreambot.api.methods.quest.book\") getState()\n\nSpecified by:\n\n    `[getState](Quest.html#getState\\(\\))` in interface `[Quest](Quest.html \"interface in org.dreambot.api.methods.quest.book\")`\n      * #### getVarBitID\n            \n                        public int getVarBitID()\n\nSpecified by:\n\n    `[getVarBitID](Quest.html#getVarBitID\\(\\))` in interface `[Quest](Quest.html \"interface in org.dreambot.api.methods.quest.book\")`\n\nSkip navigation links\n\n  * [Overview](../../../../../../overview-summary.html)\n  * [Package](package-summary.html)\n  * Class\n  * [Tree](package-tree.html)\n  * [Deprecated](../../../../../../deprecated-list.html)\n  * [Index](../../../../../../index-all.html)\n  * [Help](../../../../../../help-doc.html)\n\n  * [Frames](../../../../../../index.html?org/dreambot/api/methods/quest/book/MiniQuest.html)\n  * [No Frames](MiniQuest.html)\n\n  * [All Classes](../../../../../../allclasses-noframe.html)\n\nJavaScript is disabled on your browser.\n\n  * Summary: \n  * Nested | \n  * Enum Constants | \n  * Field | \n  * Method\n\n  * Detail: \n  * Enum Constants | \n  * Field | \n  * Method"
+    }
+  ],
+  "extraction_fallback_used": true
+}

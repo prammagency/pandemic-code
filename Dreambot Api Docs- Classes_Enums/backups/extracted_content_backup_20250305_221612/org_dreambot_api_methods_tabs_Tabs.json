@@ -1,0 +1,123 @@
+{
+  "name": "Tabs",
+  "full_name": "org.dreambot.api.methods.tabs.Tabs",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/tabs/Tabs.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.tabs",
+  "description": "Gets the currently open tab",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Tab",
+      "return_type": "Tab",
+      "modifiers": [
+        "static",
+        "@Nullable"
+      ],
+      "description": "Gets the currently open tab",
+      "deprecated": false
+    },
+    {
+      "name": "isOpen",
+      "signature": "public static boolean isOpen\u200b(@NonNull Tab tab)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if tab is open",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOpen",
+      "signature": "public static @Nullable Tab getOpen()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the currently open tab",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "open",
+      "signature": "public static boolean open\u200b(@NonNull Tab tab)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Opens specified tab",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "openWithFKey",
+      "signature": "public static boolean openWithFKey\u200b(@NonNull Tab tab)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Opens the tab using F keys. NOTE: DOESN'T WORK WITH LOGOUT TAB.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "openWithMouse",
+      "signature": "public static boolean openWithMouse\u200b(@NonNull Tab tab)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Opens the tab using the mouse.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isDisabled",
+      "signature": "public static boolean isDisabled\u200b(@NonNull Tab tab)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the tab is disabled.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "logout",
+      "signature": "public static void logout()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Opens logout tab and clicks logout button",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

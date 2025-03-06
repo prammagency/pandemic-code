@@ -1,0 +1,126 @@
+{
+  "name": "MouseEventGenerator",
+  "full_name": "org.dreambot.api.input.event.impl.mouse.MouseEventGenerator",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/MouseEventGenerator.html",
+  "type": "class",
+  "package": "org.dreambot.api.input.event.impl.mouse",
+  "description": "Utility class to generate a MouseEvent for the given parameters. Automatically generates necessary modifiers Generally speaking should not be used by scripters but is available if they want to make custom implementations of events.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "generateMoved",
+      "signature": "public static java.awt.event.MouseEvent generateMoved\u200b(java.awt.Point p)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "generateEntered",
+      "signature": "public static java.awt.event.MouseEvent generateEntered\u200b(java.awt.Point p)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "generateDragged",
+      "signature": "public static java.awt.event.MouseEvent generateDragged\u200b(java.awt.Point p)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "generateExited",
+      "signature": "public static java.awt.event.MouseEvent generateExited\u200b(java.awt.Point p)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "generatePressed",
+      "signature": "public static java.awt.event.MouseEvent generatePressed\u200b(java.awt.Point p, int button)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "generateReleased",
+      "signature": "public static java.awt.event.MouseEvent generateReleased\u200b(java.awt.Point p, int button)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "generateClicked",
+      "signature": "public static java.awt.event.MouseEvent generateClicked\u200b(java.awt.Point p, int button)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "generateWheel",
+      "signature": "public static java.awt.event.MouseEvent generateWheel\u200b(java.awt.Point p, int rotation)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

@@ -1,0 +1,1091 @@
+{
+  "name": "VarBit",
+  "full_name": "org.dreambot.api.methods.settings.vars.VarBit",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/settings/vars/VarBit.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.settings.vars",
+  "description": "Diary Entries",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Field Detail",
+      "signature": "public static final\u00a0int SHIFT_DROP",
+      "description": "Diary Entries",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "Field Detail",
+      "signature": "public static final\u00a0int SHIFT_DROP",
+      "description": "Diary Entries",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "SHIFT_DROP",
+      "signature": "public static final\u00a0int SHIFT_DROP",
+      "description": "Performs the SHIFT_DROP operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "MULTICOMBAT",
+      "signature": "public static final\u00a0int MULTICOMBAT",
+      "description": "Performs the MULTICOMBAT operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WITHDRAW_X_AMOUNT",
+      "signature": "public static final\u00a0int WITHDRAW_X_AMOUNT",
+      "description": "Performs the WITHDRAW_X_AMOUNT operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "POH_LOCATION",
+      "signature": "public static final\u00a0int POH_LOCATION",
+      "description": "Performs the POH_LOCATION operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_ARDOUGNE_EASY",
+      "signature": "public static final\u00a0int DIARY_ARDOUGNE_EASY",
+      "description": "Diary Entries",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_ARDOUGNE_MEDIUM",
+      "signature": "public static final\u00a0int DIARY_ARDOUGNE_MEDIUM",
+      "description": "Performs the DIARY_ARDOUGNE_MEDIUM operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_ARDOUGNE_HARD",
+      "signature": "public static final\u00a0int DIARY_ARDOUGNE_HARD",
+      "description": "Performs the DIARY_ARDOUGNE_HARD operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_ARDOUGNE_ELITE",
+      "signature": "public static final\u00a0int DIARY_ARDOUGNE_ELITE",
+      "description": "Performs the DIARY_ARDOUGNE_ELITE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_DESERT_EASY",
+      "signature": "public static final\u00a0int DIARY_DESERT_EASY",
+      "description": "Performs the DIARY_DESERT_EASY operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_DESERT_MEDIUM",
+      "signature": "public static final\u00a0int DIARY_DESERT_MEDIUM",
+      "description": "Performs the DIARY_DESERT_MEDIUM operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_DESERT_HARD",
+      "signature": "public static final\u00a0int DIARY_DESERT_HARD",
+      "description": "Performs the DIARY_DESERT_HARD operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_DESERT_ELITE",
+      "signature": "public static final\u00a0int DIARY_DESERT_ELITE",
+      "description": "Performs the DIARY_DESERT_ELITE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_FALADOR_EASY",
+      "signature": "public static final\u00a0int DIARY_FALADOR_EASY",
+      "description": "Performs the DIARY_FALADOR_EASY operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_FALADOR_MEDIUM",
+      "signature": "public static final\u00a0int DIARY_FALADOR_MEDIUM",
+      "description": "Performs the DIARY_FALADOR_MEDIUM operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_FALADOR_HARD",
+      "signature": "public static final\u00a0int DIARY_FALADOR_HARD",
+      "description": "Performs the DIARY_FALADOR_HARD operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_FALADOR_ELITE",
+      "signature": "public static final\u00a0int DIARY_FALADOR_ELITE",
+      "description": "Performs the DIARY_FALADOR_ELITE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_FREMENNIK_EASY",
+      "signature": "public static final\u00a0int DIARY_FREMENNIK_EASY",
+      "description": "Performs the DIARY_FREMENNIK_EASY operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_FREMENNIK_MEDIUM",
+      "signature": "public static final\u00a0int DIARY_FREMENNIK_MEDIUM",
+      "description": "Performs the DIARY_FREMENNIK_MEDIUM operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_FREMENNIK_HARD",
+      "signature": "public static final\u00a0int DIARY_FREMENNIK_HARD",
+      "description": "Performs the DIARY_FREMENNIK_HARD operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_FREMENNIK_ELITE",
+      "signature": "public static final\u00a0int DIARY_FREMENNIK_ELITE",
+      "description": "Performs the DIARY_FREMENNIK_ELITE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_KANDARIN_EASY",
+      "signature": "public static final\u00a0int DIARY_KANDARIN_EASY",
+      "description": "Performs the DIARY_KANDARIN_EASY operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_KANDARIN_MEDIUM",
+      "signature": "public static final\u00a0int DIARY_KANDARIN_MEDIUM",
+      "description": "Performs the DIARY_KANDARIN_MEDIUM operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_KANDARIN_HARD",
+      "signature": "public static final\u00a0int DIARY_KANDARIN_HARD",
+      "description": "Performs the DIARY_KANDARIN_HARD operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_KANDARIN_ELITE",
+      "signature": "public static final\u00a0int DIARY_KANDARIN_ELITE",
+      "description": "Performs the DIARY_KANDARIN_ELITE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_KARAMJA_EASY",
+      "signature": "public static final\u00a0int DIARY_KARAMJA_EASY",
+      "description": "Performs the DIARY_KARAMJA_EASY operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_KARAMJA_MEDIUM",
+      "signature": "public static final\u00a0int DIARY_KARAMJA_MEDIUM",
+      "description": "Performs the DIARY_KARAMJA_MEDIUM operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_KARAMJA_HARD",
+      "signature": "public static final\u00a0int DIARY_KARAMJA_HARD",
+      "description": "Performs the DIARY_KARAMJA_HARD operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_KARAMJA_ELITE",
+      "signature": "public static final\u00a0int DIARY_KARAMJA_ELITE",
+      "description": "Performs the DIARY_KARAMJA_ELITE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_KOUREND_EASY",
+      "signature": "public static final\u00a0int DIARY_KOUREND_EASY",
+      "description": "Performs the DIARY_KOUREND_EASY operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_KOUREND_MEDIUM",
+      "signature": "public static final\u00a0int DIARY_KOUREND_MEDIUM",
+      "description": "Performs the DIARY_KOUREND_MEDIUM operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_KOUREND_HARD",
+      "signature": "public static final\u00a0int DIARY_KOUREND_HARD",
+      "description": "Performs the DIARY_KOUREND_HARD operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_KOUREND_ELITE",
+      "signature": "public static final\u00a0int DIARY_KOUREND_ELITE",
+      "description": "Performs the DIARY_KOUREND_ELITE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_LUMBRIDGE_EASY",
+      "signature": "public static final\u00a0int DIARY_LUMBRIDGE_EASY",
+      "description": "Performs the DIARY_LUMBRIDGE_EASY operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_LUMBRIDGE_MEDIUM",
+      "signature": "public static final\u00a0int DIARY_LUMBRIDGE_MEDIUM",
+      "description": "Performs the DIARY_LUMBRIDGE_MEDIUM operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_LUMBRIDGE_HARD",
+      "signature": "public static final\u00a0int DIARY_LUMBRIDGE_HARD",
+      "description": "Performs the DIARY_LUMBRIDGE_HARD operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_LUMBRIDGE_ELITE",
+      "signature": "public static final\u00a0int DIARY_LUMBRIDGE_ELITE",
+      "description": "Performs the DIARY_LUMBRIDGE_ELITE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_MORYTANIA_EASY",
+      "signature": "public static final\u00a0int DIARY_MORYTANIA_EASY",
+      "description": "Performs the DIARY_MORYTANIA_EASY operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_MORYTANIA_MEDIUM",
+      "signature": "public static final\u00a0int DIARY_MORYTANIA_MEDIUM",
+      "description": "Performs the DIARY_MORYTANIA_MEDIUM operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_MORYTANIA_HARD",
+      "signature": "public static final\u00a0int DIARY_MORYTANIA_HARD",
+      "description": "Performs the DIARY_MORYTANIA_HARD operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_MORYTANIA_ELITE",
+      "signature": "public static final\u00a0int DIARY_MORYTANIA_ELITE",
+      "description": "Performs the DIARY_MORYTANIA_ELITE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_VARROCK_EASY",
+      "signature": "public static final\u00a0int DIARY_VARROCK_EASY",
+      "description": "Performs the DIARY_VARROCK_EASY operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_VARROCK_MEDIUM",
+      "signature": "public static final\u00a0int DIARY_VARROCK_MEDIUM",
+      "description": "Performs the DIARY_VARROCK_MEDIUM operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_VARROCK_HARD",
+      "signature": "public static final\u00a0int DIARY_VARROCK_HARD",
+      "description": "Performs the DIARY_VARROCK_HARD operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_VARROCK_ELITE",
+      "signature": "public static final\u00a0int DIARY_VARROCK_ELITE",
+      "description": "Performs the DIARY_VARROCK_ELITE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_WESTERN_EASY",
+      "signature": "public static final\u00a0int DIARY_WESTERN_EASY",
+      "description": "Performs the DIARY_WESTERN_EASY operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_WESTERN_MEDIUM",
+      "signature": "public static final\u00a0int DIARY_WESTERN_MEDIUM",
+      "description": "Performs the DIARY_WESTERN_MEDIUM operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_WESTERN_HARD",
+      "signature": "public static final\u00a0int DIARY_WESTERN_HARD",
+      "description": "Performs the DIARY_WESTERN_HARD operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_WESTERN_ELITE",
+      "signature": "public static final\u00a0int DIARY_WESTERN_ELITE",
+      "description": "Performs the DIARY_WESTERN_ELITE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_WILDERNESS_EASY",
+      "signature": "public static final\u00a0int DIARY_WILDERNESS_EASY",
+      "description": "Performs the DIARY_WILDERNESS_EASY operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_WILDERNESS_MEDIUM",
+      "signature": "public static final\u00a0int DIARY_WILDERNESS_MEDIUM",
+      "description": "Performs the DIARY_WILDERNESS_MEDIUM operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_WILDERNESS_HARD",
+      "signature": "public static final\u00a0int DIARY_WILDERNESS_HARD",
+      "description": "Performs the DIARY_WILDERNESS_HARD operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_WILDERNESS_ELITE",
+      "signature": "public static final\u00a0int DIARY_WILDERNESS_ELITE",
+      "description": "Performs the DIARY_WILDERNESS_ELITE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "ACCOUNT_TYPE",
+      "signature": "public static final\u00a0int ACCOUNT_TYPE",
+      "description": "Performs the ACCOUNT_TYPE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "Constructor Detail",
+      "signature": "public\u00a0VarBit()",
+      "description": "Performs the Constructor Detail operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "VarBit",
+      "signature": "public\u00a0VarBit()",
+      "description": "Performs the VarBit operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [
+    {
+      "name": "SHIFT_DROP",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "MULTICOMBAT",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WITHDRAW_X_AMOUNT",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "POH_LOCATION",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_ARDOUGNE_EASY",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_ARDOUGNE_MEDIUM",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_ARDOUGNE_HARD",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_ARDOUGNE_ELITE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_DESERT_EASY",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_DESERT_MEDIUM",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_DESERT_HARD",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_DESERT_ELITE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_FALADOR_EASY",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_FALADOR_MEDIUM",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_FALADOR_HARD",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_FALADOR_ELITE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_FREMENNIK_EASY",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_FREMENNIK_MEDIUM",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_FREMENNIK_HARD",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_FREMENNIK_ELITE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_KANDARIN_EASY",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_KANDARIN_MEDIUM",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_KANDARIN_HARD",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_KANDARIN_ELITE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_KARAMJA_EASY",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_KARAMJA_MEDIUM",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_KARAMJA_HARD",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_KARAMJA_ELITE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_KOUREND_EASY",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_KOUREND_MEDIUM",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_KOUREND_HARD",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_KOUREND_ELITE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_LUMBRIDGE_EASY",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_LUMBRIDGE_MEDIUM",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_LUMBRIDGE_HARD",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_LUMBRIDGE_ELITE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_MORYTANIA_EASY",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_MORYTANIA_MEDIUM",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_MORYTANIA_HARD",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_MORYTANIA_ELITE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_VARROCK_EASY",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_VARROCK_MEDIUM",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_VARROCK_HARD",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_VARROCK_ELITE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_WESTERN_EASY",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_WESTERN_MEDIUM",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_WESTERN_HARD",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_WESTERN_ELITE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_WILDERNESS_EASY",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_WILDERNESS_MEDIUM",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_WILDERNESS_HARD",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DIARY_WILDERNESS_ELITE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "ACCOUNT_TYPE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "Constructor",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "VarBit",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    }
+  ],
+  "constructors": [],
+  "extraction_fallback_used": true
+}

@@ -1,0 +1,664 @@
+{
+  "name": "Character",
+  "full_name": "org.dreambot.api.wrappers.interactive.Character",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/Character.html",
+  "type": "class",
+  "package": "org.dreambot.api.wrappers.interactive",
+  "description": "The type Character.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.wrappers.interactive.interact.Interactable",
+    "org.dreambot.api.wrappers.interactive.Entity"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Character",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets interacting character for this Character.",
+      "deprecated": false
+    },
+    {
+      "name": "Direction",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the closest facing direction for this Character in the game world.",
+      "deprecated": false
+    },
+    {
+      "name": "Tile",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the current tile according to the server",
+      "deprecated": false
+    },
+    {
+      "name": "WalkingQueueSpeed",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets walking queue traversed index's for this Character.",
+      "deprecated": false
+    },
+    {
+      "name": "getIndex",
+      "signature": "public abstract int getIndex()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the index of this Character.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getUID",
+      "signature": "public long getUID()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets UID of this Character.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRenderableHeight",
+      "signature": "public int getRenderableHeight()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the height of this character",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWalkAnimation",
+      "signature": "public int getWalkAnimation()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets walking animation ID.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getStandAnimation",
+      "signature": "public int getStandAnimation()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the resting stand animation ID.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAnimationDelay",
+      "signature": "public int getAnimationDelay()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the delay between animations.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getHeadFrame",
+      "signature": "public int getHeadFrame()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the head frame ID from the current animation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTailFrame",
+      "signature": "public int getTailFrame()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the tail frame ID from the current animation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "exists",
+      "signature": "public boolean exists()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines where or not this object exists in game.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isAnimating",
+      "signature": "public boolean isAnimating()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines if this Character is animating. Note: This does not include walking animations, that can be checked separately with isMoving()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAnimation",
+      "signature": "public int getAnimation()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Character's current animation ID. Note: This does not include walking animations.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCombatTime",
+      "signature": "public int getCombatTime()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the current time in combat for this Character.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getFacingDirection",
+      "signature": "public Direction getFacingDirection()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the closest facing direction for this Character in the game world.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getHitSplatCycles",
+      "signature": "public int[] getHitSplatCycles()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get hit splat cycles for this Character.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getHitSplatTypes",
+      "signature": "public int[] getHitSplatTypes()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get hit splat types for this Character.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getHitSplats",
+      "signature": "public int[] getHitSplats()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get hit splat for this Character.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getHitSplatIds",
+      "signature": "public int[] getHitSplatIds()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getHitSplatSpecials",
+      "signature": "public int[] getHitSplatSpecials()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getInteractingIndex",
+      "signature": "public int getInteractingIndex()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the interacting character's index.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLevel",
+      "signature": "public abstract int getLevel()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Character's combat level.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOrientation",
+      "signature": "public int getOrientation()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets orientation for this Character.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSmoothOrientation",
+      "signature": "public int getSmoothOrientation()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the smooth orientation for this Character.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOverhead",
+      "signature": "public java.lang.String getOverhead()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets overhead message for this Character.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getQueueSize",
+      "signature": "public int getQueueSize()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets walking queue size for this Character.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWalkingQueueSpeed",
+      "signature": "public WalkingQueueSpeed[] getWalkingQueueSpeed()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets walking queue traversed index's for this Character.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getQueueX",
+      "signature": "public int[] getQueueX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get walking queue X coordinates.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getQueueY",
+      "signature": "public int[] getQueueY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get walking queue Y coordinates.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isMoving",
+      "signature": "public boolean isMoving()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines if this Character is moving.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getInteractingCharacter",
+      "signature": "public Character getInteractingCharacter()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets interacting character for this Character.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isStandingStill",
+      "signature": "public boolean isStandingStill()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines if the Character is standing still.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getX",
+      "signature": "public int getX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets X coordinate of the given object.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getY",
+      "signature": "public int getY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets Y coordinate of the given object.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getZ",
+      "signature": "public int getZ()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets Z coordinate of the given object.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getGridX",
+      "signature": "public int getGridX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets grid (local) X coordinate of the given object.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getGridY",
+      "signature": "public int getGridY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets grid (local) Y coordinate of the given object.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLocalX",
+      "signature": "public int getLocalX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets local X coordinate of this Character.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLocalY",
+      "signature": "public int getLocalY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets local Y coordinate of this Character Character.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "canAttack",
+      "signature": "public boolean canAttack()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines if this Character can be attacked.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isInCombat",
+      "signature": "public boolean isInCombat()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines if this Character is in combat.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isInteractedWith",
+      "signature": "public boolean isInteractedWith()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines if there is a Character that is interacting with this Character",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCharacterInteractingWithMe",
+      "signature": "public Character getCharacterInteractingWithMe()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Character currently interacting with this Character. If none interacting, returns null.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCharactersInteractingWithMe",
+      "signature": "public @NonNull java.util.List<Character> getCharactersInteractingWithMe()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a list of Characters interacting with this character instance.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isInteracting",
+      "signature": "public boolean isInteracting\u200b(@NonNull Character character)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines if this Character is interacting with the given argument.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getHealthPercent",
+      "signature": "public int getHealthPercent()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get health percent of this Character if in combat.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isHealthBarVisible",
+      "signature": "public boolean isHealthBarVisible()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines if the health bar visible for this Character.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getServerTile",
+      "signature": "public Tile getServerTile()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the current tile according to the server",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSpotAnimation",
+      "signature": "public int getSpotAnimation()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

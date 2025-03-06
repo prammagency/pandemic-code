@@ -1,0 +1,48 @@
+{
+  "name": "VarListener",
+  "full_name": "org.dreambot.api.script.listener.VarListener",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/script/listener/VarListener.html",
+  "type": "interface",
+  "package": "org.dreambot.api.script.listener",
+  "description": "Fires an event when vars change",
+  "page_structure": {
+    "type": "interface",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "onVarBitUpdate",
+      "return_type": "",
+      "modifiers": [],
+      "description": "onVarBitUpdate @Deprecated default void onVarBitUpdate\u200b(int varbitId, int before, int after) Deprecated. use onVarBitUpdate(int, int) instead Fires a tick deferred varbit event Tick deferred means it will fire on the tick after the change. EG: varbit changes during tick 53, setting change fires at the start of tick 54 Parameters: varbitId - before - after -",
+      "deprecated": false,
+      "signature": "@Deprecated default void onVarBitUpdate\u200b(int varbitId, int before, int after)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      }
+    },
+    {
+      "name": "onVarpUpdate",
+      "return_type": "",
+      "modifiers": [],
+      "description": "onVarpUpdate @Deprecated default void onVarpUpdate\u200b(int varpId, int before, int after) Deprecated. see onVarpUpdate(int, int) instead Fires a tick deferred varp event Tick deferred means it will fire on the tick after the change. EG: varp changes during tick 53, setting change fires at the start of tick 54 Varp == config == settings Parameters: varpId - before - after -",
+      "deprecated": false,
+      "signature": "@Deprecated default void onVarpUpdate\u200b(int varpId, int before, int after)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      }
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

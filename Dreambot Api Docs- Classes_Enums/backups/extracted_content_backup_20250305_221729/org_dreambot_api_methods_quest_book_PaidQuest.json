@@ -1,0 +1,242 @@
+{
+  "name": "PaidQuest",
+  "full_name": "org.dreambot.api.methods.quest.book.PaidQuest",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/quest/book/PaidQuest.html",
+  "type": "enum",
+  "package": "org.dreambot.api.methods.quest.book",
+  "description": "Created by Nezz 9/26/2019 Quests with a setting ID of -1 are unknown Quests with settings values of {-1} are unknown Quest Progress is found via widget text color.",
+  "page_structure": {
+    "type": "enum",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "PaidQuest"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [
+    {
+      "name": "Nested classes/interfaces inherited from interface\u00a0org.dreambot.api.methods.quest.book.Quest\nQuest.State, Quest.Type",
+      "description": "",
+      "modifiers": []
+    }
+  ],
+  "methods": [
+    {
+      "name": "Requirement",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "Quest.State",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "PaidQuest",
+      "return_type": "PaidQuest[]",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Returns an array containing the constants of this enum type, in the order they are declared.",
+      "deprecated": false
+    },
+    {
+      "name": "values",
+      "signature": "public static PaidQuest[] values()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns an array containing the constants of this enum type, in the order they are declared. This method may be used to iterate over the constants as follows: for (PaidQuest c : PaidQuest.values()) System.out.println(c);",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "valueOf",
+      "signature": "public static PaidQuest valueOf\u200b(java.lang.String name)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the enum constant of this type with the specified name. The string must match exactly an identifier used to declare an enum constant in this type. (Extraneous whitespace characters are not permitted.)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getQP",
+      "signature": "public int getQP()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getChild",
+      "signature": "public int getChild()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getGrandChild",
+      "signature": "public int getGrandChild()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSettings",
+      "signature": "public int[] getSettings()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getStartedSetting",
+      "signature": "public int getStartedSetting()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getFinishedSetting",
+      "signature": "public int getFinishedSetting()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getConfigID",
+      "signature": "public int getConfigID()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getVarBitID",
+      "signature": "public int getVarBitID()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getQuests",
+      "signature": "public Requirement getQuests()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSkills",
+      "signature": "public Requirement getSkills()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "find",
+      "signature": "public boolean find()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getState",
+      "signature": "public Quest.State getState()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": [],
+  "enum_constants": [
+    {
+      "name": "Nested",
+      "description": "Class Summary\n\n      * ### Nested classes/interfaces inherited from interface org.dreambot.api.methods.quest.book.[Quest](Quest.html \"interface in org.dreambot.api.methods.quest.book\")\n\n`[Quest.State](Quest.State.html \"enum in\norg.dreambot.api.methods.quest.book\"), [Quest.Type](Quest.Type.html \"enum in\norg.dreambot.api.methods.quest.book\")`\n\n    * ### Enum Constant Summary\n\nEnum Constants  Enum Constant | Description  \n---|---  \n`A_KINGDOM_DIVIDED` |    \n`A_NIGHT_AT_THE_THEATRE` |    \n`A_PORCINE_OF_INTEREST` |    \n`A_SOULS_BANE` |    \n`A_TAIL_OF_TWO_CATS` |    \n`ANIMAL_MAGNETISM` |    \n`ANOTHER_SLICE_OF_HAM` |    \n`AT_FIRST_LIGHT` |    \n`BENEATH_CURSED_SANDS` |    \n`BETWEEN_A_ROCK` |    \n`BIG_CHOMPY_BIRD_HUNTING` |    \n`BIOHAZARD` |    \n`BONE_VOYAGE` |    \n`CABIN_FEVER` |    \n`CHILDREN_OF_THE_SUN` |    \n`CLIENT_OF_KOUREND` |    \n`CLOCK_TOWER` |    \n`COLD_WAR` |    \n`CONTACT` |    \n`CREATURE_OF_FENKENSTRAIN` |    \n`DARKNESS_OF_HALLOWVALE` |    \n`DEATH_PLATEAU` |    \n`DEATH_TO_THE_DORGESHUUN` |    \n`DEFENDER_OF_VARROCK` |    \n`DESERT_TREASURE` |    \n`DESERT_TREASURE_II` |    \n`DEVIOUS_MINDS` |    \n`DRAGON_SLAYER_2` |    \n`DREAM_MENTOR` |    \n`DRUIDIC_RITUAL` |    \n`DWARF_CANNON` |    \n`EADGARS_RUSE` |    \n`EAGLES_PEAK` |    \n`ELEMENTAL_WORKSHOP_I` |    \n`ELEMENTAL_WORKSHOP_II` |    \n`ENAKHRAS_LAMENT` |    \n`ENLIGHTENED_JOURNEY` |    \n`FAIRYTALE_I` |    \n`FAIRYTALE_II` |    \n`FAMILY_CREST` |    \n`FIGHT_ARENA` |    \n`FISHING_CONTEST` |    \n`FORGETTABLE_TALE` |    \n`GARDEN_OF_TRANQUILITY` |    \n`GERTRUDES_CAT` |    \n`GETTING_AHEAD` |    \n`GHOSTS_AHOY` |    \n`GRIM_TALES` |    \n`HAUNTED_MINE` |    \n`HAZEEL_CULT` |    \n`HEROES_QUEST` |    \n`HOLY_GRAIL` |    \n`HORROR_FROM_THE_DEEP` |    \n`ICTHLARINS_LITTLE_HELPER` |    \n`IN_AID_OF_THE_MYREQUE` |    \n`IN_SEARCH_OF_THE_MYREQUE` |    \n`JUNGLE_POTION` |    \n`KINGS_RANSOM` |    \n`LAND_OF_THE_GOBLINS` |    \n`LEGENDS_QUEST` |    \n`LOST_CITY` |    \n`LUNAR_DIPLOMACY` |    \n`MAKING_FRIENDS_WITH_MY_ARM` |    \n`MAKING_HISTORY` |    \n`MERLINS_CRYSTAL` |    \n`MONKEY_MADNESS` |    \n`MONKEY_MADNESS_II` |    \n`MONKS_FRIEND` |    \n`MOUNTAIN_DAUGHTER` |    \n`MOURNINGS_END_PART_I` |    \n`MOURNINGS_END_PART_II` |    \n`MURDER_MYSTERY` |    \n`MY_ARMS_BIG_ADVENTURE` |    \n`NATURE_SPIRIT` |    \n`OBSERVATORY_QUEST` |    \n`OLAFS_QUEST` |    \n`ONE_SMALL_FAVOUR` |    \n`PERILOUS_MOONS` |    \n`PLAGUE_CITY` |    \n`PRIEST_IN_PERIL` |    \n`RAG_AND_BONE_MAN` |    \n`RAG_AND_BONE_MAN_2` |    \n`RAT_CATCHERS` |    \n`RECIPE_FOR_DISASTER` |    \n`RECRUITMENT_DRIVE` |    \n`REGICIDE` |    \n`RIBBITING_TALE` |    \n`ROVING_ELVES` |    \n`ROYAL_TROUBLE` |    \n`RUM_DEAL` |    \n`SCORPION_CATCHER` |    \n`SEA_SLUG` |    \n`SECRETS_OF_THE_NORTH` |    \n`SHADES_OF_MORTTON` |    \n`SHADOW_OF_THE_STORM` |    \n`SHEEP_HERDER` |    \n`SHILO_VILLAGE` |    \n`SINS_OF_THE_FATHER` |    \n`SLEEPING_GIANTS` |    \n`SONG_OF_THE_ELVES` |    \n`SPIRITS_OF_THE_ELID` |    \n`SWAN_SONG` |    \n`TAI_BWO_WANNAI_TRIO` |    \n`TALE_OF_THE_RIGHTEOUS` |    \n`TASTE_OF_HOPE` |    \n`TEARS_OF_GUTHIX` |    \n`TEMPLE_OF_IKOV` |    \n`TEMPLE_OF_THE_EYE` |    \n`THE_ASCENT_OF_ARCEUUS` |    \n`THE_DEPTHS_OF_DESPAIR` |    \n`THE_DIG_SITE` |    \n`THE_EYES_OF_GLOUPHRIE` |    \n`THE_FEUD` |    \n`THE_FORSAKEN_TOWER` |    \n`THE_FREMENNIK_EXILES` |    \n`THE_FREMENNIK_ISLES` |    \n`THE_FREMENNIK_TRIALS` |    \n`THE_GARDEN_OF_DEATH` |    \n`THE_GIANT_DWARF` |    \n`THE_GOLEM` |    \n`THE_GRAND_TREE` |    \n`THE_GREAT_BRAIN_ROBBERY` |    \n`THE_HAND_IN_THE_SAND` |    \n`THE_LOST_TRIBE` |    \n`THE_PATH_OF_GLOUPHRIE` |    \n`THE_QUEEN_OF_THIEVES` |    \n`THE_SLUG_MENACE` |    \n`THE_TOURIST_TRAP` |    \n`THRONE_OF_MISCELLANIA` |    \n`TOWER_OF_LIFE` |    \n`TREE_GNOME_VILLAGE` |    \n`TRIBAL_TOTEM` |    \n`TROLL_ROMANCE` |    \n`TROLL_STRONGHOLD` |    \n`TWILIGHTS_PROMISE` |    \n`UNDERGROUND_PASS` |    \n`WANTED` |    \n`WATCHTOWER` |    \n`WATERFALL_QUEST` |    \n`WHAT_LIES_BELOW` |    \n`WHILE_GUTHIX_SLEEPS` |    \n`WITCHS_HOUSE` |    \n`ZOGRE_FLESH_EATERS` |    \n    * ### Method Summary\n\nAll Methods [Static Methods](javascript:show\\(1\\);) [Instance Methods](javascript:show\\(2\\);) [Concrete Methods](javascript:show\\(8\\);)  Modifier and Type | Method | Description  \n---|---|---  \n`boolean` | `find()` |    \n`int` | `getChild()` |    \n`int` | `getConfigID()` |    \n`int` | `getFinishedSetting()` |    \n`int` | `getGrandChild()` |    \n`int` | `getQP()` |    \n`[Requirement](requirement/Requirement.html \"class in org.dreambot.api.methods.quest.book.requirement\")` | `getQuests()` |    \n`int[]` | `getSettings()` |    \n`[Requirement](requirement/Requirement.html \"class in org.dreambot.api.methods.quest.book.requirement\")` | `getSkills()` |    \n`int` | `getStartedSetting()` |    \n`[Quest.State](Quest.State.html \"enum in org.dreambot.api.methods.quest.book\")` | `getState()` |    \n`int` | `getVarBitID()` |    \n`static [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\")` | `valueOf\u200b(java.lang.String name)` |  Returns the enum constant of this type with the specified name.  \n`static [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\")[]` | `values()` |  Returns an array containing the constants of this enum type, in the order they are declared.  \n      * ### Methods inherited from class java.lang.Enum\n\n`compareTo, equals, getDeclaringClass, hashCode, name, ordinal, toString,\nvalueOf`\n\n      * ### Methods inherited from class java.lang.Object\n\n`getClass, notify, notifyAll, wait, wait, wait`\n\n      * ### Methods inherited from interface org.dreambot.api.methods.quest.book.[Quest](Quest.html \"interface in org.dreambot.api.methods.quest.book\")\n\n`[getColor](Quest.html#getColor\\(\\)),\n[getConfigValue](Quest.html#getConfigValue\\(\\)),\n[getParent](Quest.html#getParent\\(\\)), [getType](Quest.html#getType\\(\\)),\n[getWidgetChild](Quest.html#getWidgetChild\\(\\)),\n[hasRequirements](Quest.html#hasRequirements\\(\\)),\n[isFinished](Quest.html#isFinished\\(\\)),\n[isStarted](Quest.html#isStarted\\(\\))`\n\n  *     * ### Enum Constant Detail\n\n      * #### PRIEST_IN_PERIL\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") PRIEST_IN_PERIL\n\n      * #### DRUIDIC_RITUAL\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") DRUIDIC_RITUAL\n\n      * #### THE_TOURIST_TRAP\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") THE_TOURIST_TRAP\n\n      * #### TOWER_OF_LIFE\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") TOWER_OF_LIFE\n\n      * #### TREE_GNOME_VILLAGE\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") TREE_GNOME_VILLAGE\n\n      * #### TRIBAL_TOTEM\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") TRIBAL_TOTEM\n\n      * #### WATERFALL_QUEST\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") WATERFALL_QUEST\n\n      * #### WITCHS_HOUSE\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") WITCHS_HOUSE\n\n      * #### CLIENT_OF_KOUREND\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") CLIENT_OF_KOUREND\n\n      * #### CLOCK_TOWER\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") CLOCK_TOWER\n\n      * #### COLD_WAR\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") COLD_WAR\n\n      * #### FAMILY_CREST\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") FAMILY_CREST\n\n      * #### THE_FEUD\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") THE_FEUD\n\n      * #### FIGHT_ARENA\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") FIGHT_ARENA\n\n      * #### FISHING_CONTEST\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") FISHING_CONTEST\n\n      * #### THE_LOST_TRIBE\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") THE_LOST_TRIBE\n\n      * #### ANIMAL_MAGNETISM\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") ANIMAL_MAGNETISM\n\n      * #### DEATH_TO_THE_DORGESHUUN\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") DEATH_TO_THE_DORGESHUUN\n\n      * #### THE_GIANT_DWARF\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") THE_GIANT_DWARF\n\n      * #### THE_DIG_SITE\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") THE_DIG_SITE\n\n      * #### ANOTHER_SLICE_OF_HAM\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") ANOTHER_SLICE_OF_HAM\n\n      * #### THE_ASCENT_OF_ARCEUUS\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") THE_ASCENT_OF_ARCEUUS\n\n      * #### DWARF_CANNON\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") DWARF_CANNON\n\n      * #### BETWEEN_A_ROCK\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") BETWEEN_A_ROCK\n\n      * #### BIG_CHOMPY_BIRD_HUNTING\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") BIG_CHOMPY_BIRD_HUNTING\n\n      * #### JUNGLE_POTION\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") JUNGLE_POTION\n\n      * #### ZOGRE_FLESH_EATERS\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") ZOGRE_FLESH_EATERS\n\n      * #### RUM_DEAL\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") RUM_DEAL\n\n      * #### PLAGUE_CITY\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") PLAGUE_CITY\n\n      * #### BIOHAZARD\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") BIOHAZARD\n\n      * #### BONE_VOYAGE\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") BONE_VOYAGE\n\n      * #### CABIN_FEVER\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") CABIN_FEVER\n\n      * #### GERTRUDES_CAT\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") GERTRUDES_CAT\n\n      * #### ICTHLARINS_LITTLE_HELPER\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") ICTHLARINS_LITTLE_HELPER\n\n      * #### CONTACT\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") CONTACT\n\n      * #### CREATURE_OF_FENKENSTRAIN\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") CREATURE_OF_FENKENSTRAIN\n\n      * #### NATURE_SPIRIT\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") NATURE_SPIRIT\n\n      * #### IN_SEARCH_OF_THE_MYREQUE\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") IN_SEARCH_OF_THE_MYREQUE\n\n      * #### IN_AID_OF_THE_MYREQUE\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") IN_AID_OF_THE_MYREQUE\n\n      * #### DARKNESS_OF_HALLOWVALE\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") DARKNESS_OF_HALLOWVALE\n\n      * #### DEATH_PLATEAU\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") DEATH_PLATEAU\n\n      * #### TROLL_STRONGHOLD\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") TROLL_STRONGHOLD\n\n      * #### TROLL_ROMANCE\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") TROLL_ROMANCE\n\n      * #### THE_DEPTHS_OF_DESPAIR\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") THE_DEPTHS_OF_DESPAIR\n\n      * #### TEMPLE_OF_IKOV\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") TEMPLE_OF_IKOV\n\n      * #### TEMPLE_OF_THE_EYE\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") TEMPLE_OF_THE_EYE\n\n      * #### DESERT_TREASURE\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") DESERT_TREASURE\n\n      * #### RECRUITMENT_DRIVE\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") RECRUITMENT_DRIVE\n\n      * #### WANTED\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") WANTED\n\n      * #### DEVIOUS_MINDS\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") DEVIOUS_MINDS\n\n      * #### LOST_CITY\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") LOST_CITY\n\n      * #### SHILO_VILLAGE\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") SHILO_VILLAGE\n\n      * #### THE_FREMENNIK_TRIALS\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") THE_FREMENNIK_TRIALS\n\n      * #### LUNAR_DIPLOMACY\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") LUNAR_DIPLOMACY\n\n      * #### EADGARS_RUSE\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") EADGARS_RUSE\n\n      * #### DREAM_MENTOR\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") DREAM_MENTOR\n\n      * #### EAGLES_PEAK\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") EAGLES_PEAK\n\n      * #### ELEMENTAL_WORKSHOP_I\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") ELEMENTAL_WORKSHOP_I\n\n      * #### ELEMENTAL_WORKSHOP_II\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") ELEMENTAL_WORKSHOP_II\n\n      * #### ENAKHRAS_LAMENT\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") ENAKHRAS_LAMENT\n\n      * #### ENLIGHTENED_JOURNEY\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") ENLIGHTENED_JOURNEY\n\n      * #### THE_GRAND_TREE\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") THE_GRAND_TREE\n\n      * #### THE_EYES_OF_GLOUPHRIE\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") THE_EYES_OF_GLOUPHRIE\n\n      * #### FAIRYTALE_I\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") FAIRYTALE_I\n\n      * #### FAIRYTALE_II\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") FAIRYTALE_II\n\n      * #### FORGETTABLE_TALE\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") FORGETTABLE_TALE\n\n      * #### THE_FORSAKEN_TOWER\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") THE_FORSAKEN_TOWER\n\n      * #### MOUNTAIN_DAUGHTER\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") MOUNTAIN_DAUGHTER\n\n      * #### MERLINS_CRYSTAL\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") MERLINS_CRYSTAL\n\n      * #### HEROES_QUEST\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") HEROES_QUEST\n\n      * #### THE_FREMENNIK_ISLES\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") THE_FREMENNIK_ISLES\n\n      * #### THE_FREMENNIK_EXILES\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") THE_FREMENNIK_EXILES\n\n      * #### GARDEN_OF_TRANQUILITY\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") GARDEN_OF_TRANQUILITY\n\n      * #### GHOSTS_AHOY\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") GHOSTS_AHOY\n\n      * #### THE_GOLEM\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") THE_GOLEM\n\n      * #### THE_GREAT_BRAIN_ROBBERY\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") THE_GREAT_BRAIN_ROBBERY\n\n      * #### GRIM_TALES\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") GRIM_TALES\n\n      * #### THE_HAND_IN_THE_SAND\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") THE_HAND_IN_THE_SAND\n\n      * #### HAUNTED_MINE\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") HAUNTED_MINE\n\n      * #### HAZEEL_CULT\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") HAZEEL_CULT\n\n      * #### HOLY_GRAIL\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") HOLY_GRAIL\n\n      * #### HORROR_FROM_THE_DEEP\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") HORROR_FROM_THE_DEEP\n\n      * #### ONE_SMALL_FAVOUR\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") ONE_SMALL_FAVOUR\n\n      * #### MURDER_MYSTERY\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") MURDER_MYSTERY\n\n      * #### KINGS_RANSOM\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") KINGS_RANSOM\n\n      * #### SWAN_SONG\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") SWAN_SONG\n\n      * #### MY_ARMS_BIG_ADVENTURE\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") MY_ARMS_BIG_ADVENTURE\n\n      * #### MAKING_FRIENDS_WITH_MY_ARM\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") MAKING_FRIENDS_WITH_MY_ARM\n\n      * #### MAKING_HISTORY\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") MAKING_HISTORY\n\n      * #### MONKS_FRIEND\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") MONKS_FRIEND\n\n      * #### WATCHTOWER\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") WATCHTOWER\n\n      * #### MONKEY_MADNESS\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") MONKEY_MADNESS\n\n      * #### MONKEY_MADNESS_II\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") MONKEY_MADNESS_II\n\n      * #### SHEEP_HERDER\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") SHEEP_HERDER\n\n      * #### UNDERGROUND_PASS\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") UNDERGROUND_PASS\n\n      * #### REGICIDE\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") REGICIDE\n\n      * #### ROVING_ELVES\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") ROVING_ELVES\n\n      * #### MOURNINGS_END_PART_I\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") MOURNINGS_END_PART_I\n\n      * #### MOURNINGS_END_PART_II\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") MOURNINGS_END_PART_II\n\n      * #### OBSERVATORY_QUEST\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") OBSERVATORY_QUEST\n\n      * #### OLAFS_QUEST\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") OLAFS_QUEST\n\n      * #### THE_QUEEN_OF_THIEVES\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") THE_QUEEN_OF_THIEVES\n\n      * #### RAG_AND_BONE_MAN\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") RAG_AND_BONE_MAN\n\n      * #### RAG_AND_BONE_MAN_2\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") RAG_AND_BONE_MAN_2\n\n      * #### RAT_CATCHERS\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") RAT_CATCHERS\n\n      * #### RECIPE_FOR_DISASTER\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") RECIPE_FOR_DISASTER\n\n      * #### THRONE_OF_MISCELLANIA\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") THRONE_OF_MISCELLANIA\n\n      * #### ROYAL_TROUBLE\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") ROYAL_TROUBLE\n\n      * #### SCORPION_CATCHER\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") SCORPION_CATCHER\n\n      * #### SEA_SLUG\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") SEA_SLUG\n\n      * #### SHADES_OF_MORTTON\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") SHADES_OF_MORTTON\n\n      * #### SHADOW_OF_THE_STORM\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") SHADOW_OF_THE_STORM\n\n      * #### THE_SLUG_MENACE\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") THE_SLUG_MENACE\n\n      * #### SONG_OF_THE_ELVES\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") SONG_OF_THE_ELVES\n\n      * #### A_SOULS_BANE\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") A_SOULS_BANE\n\n      * #### SPIRITS_OF_THE_ELID\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") SPIRITS_OF_THE_ELID\n\n      * #### TAI_BWO_WANNAI_TRIO\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") TAI_BWO_WANNAI_TRIO\n\n      * #### A_TAIL_OF_TWO_CATS\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") A_TAIL_OF_TWO_CATS\n\n      * #### TALE_OF_THE_RIGHTEOUS\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") TALE_OF_THE_RIGHTEOUS\n\n      * #### TASTE_OF_HOPE\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") TASTE_OF_HOPE\n\n      * #### TEARS_OF_GUTHIX\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") TEARS_OF_GUTHIX\n\n      * #### WHAT_LIES_BELOW\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") WHAT_LIES_BELOW\n\n      * #### LEGENDS_QUEST\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") LEGENDS_QUEST\n\n      * #### DRAGON_SLAYER_2\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") DRAGON_SLAYER_2\n\n      * #### SINS_OF_THE_FATHER\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") SINS_OF_THE_FATHER\n\n      * #### A_PORCINE_OF_INTEREST\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") A_PORCINE_OF_INTEREST\n\n      * #### GETTING_AHEAD\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") GETTING_AHEAD\n\n      * #### SLEEPING_GIANTS\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") SLEEPING_GIANTS\n\n      * #### A_NIGHT_AT_THE_THEATRE\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") A_NIGHT_AT_THE_THEATRE\n\n      * #### A_KINGDOM_DIVIDED\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") A_KINGDOM_DIVIDED\n\n      * #### LAND_OF_THE_GOBLINS\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") LAND_OF_THE_GOBLINS\n\n      * #### BENEATH_CURSED_SANDS\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") BENEATH_CURSED_SANDS\n\n      * #### SECRETS_OF_THE_NORTH\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") SECRETS_OF_THE_NORTH\n\n      * #### THE_GARDEN_OF_DEATH\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") THE_GARDEN_OF_DEATH\n\n      * #### DEFENDER_OF_VARROCK\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") DEFENDER_OF_VARROCK\n\n      * #### THE_PATH_OF_GLOUPHRIE\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") THE_PATH_OF_GLOUPHRIE\n\n      * #### CHILDREN_OF_THE_SUN\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") CHILDREN_OF_THE_SUN\n\n      * #### RIBBITING_TALE\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") RIBBITING_TALE\n\n      * #### TWILIGHTS_PROMISE\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") TWILIGHTS_PROMISE\n\n      * #### PERILOUS_MOONS\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") PERILOUS_MOONS\n\n      * #### WHILE_GUTHIX_SLEEPS\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") WHILE_GUTHIX_SLEEPS\n\n      * #### AT_FIRST_LIGHT\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") AT_FIRST_LIGHT\n\n      * #### DESERT_TREASURE_II\n            \n                        public static final [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") DESERT_TREASURE_II\n\n    * ### Method Detail\n\n      * #### values\n            \n                        public static [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\")[] values()\n\nReturns an array containing the constants of this enum type, in the order they\nare declared. This method may be used to iterate over the constants as\nfollows:\n\n            \n                        for (PaidQuest c : PaidQuest.values())\n                System.out.println(c);\n            \n\nReturns:\n\n    an array containing the constants of this enum type, in the order they are declared\n      * #### valueOf\n            \n                        public static [PaidQuest](PaidQuest.html \"enum in org.dreambot.api.methods.quest.book\") valueOf\u200b(java.lang.String name)\n\nReturns the enum constant of this type with the specified name. The string\nmust match _exactly_ an identifier used to declare an enum constant in this\ntype. (Extraneous whitespace characters are not permitted.)\n\nParameters:\n\n    `name` \\- the name of the enum constant to be returned.\nReturns:\n\n    the enum constant with the specified name\nThrows:\n\n    `java.lang.IllegalArgumentException` \\- if this enum type has no constant with the specified name\n    `java.lang.NullPointerException` \\- if the argument is null\n      * #### getQP\n            \n                        public int getQP()\n\nSpecified by:\n\n    `[getQP](Quest.html#getQP\\(\\))` in interface `[Quest](Quest.html \"interface in org.dreambot.api.methods.quest.book\")`\n      * #### getChild\n            \n                        public int getChild()\n\nSpecified by:\n\n    `[getChild](Quest.html#getChild\\(\\))` in interface `[Quest](Quest.html \"interface in org.dreambot.api.methods.quest.book\")`\n      * #### getGrandChild\n            \n                        public int getGrandChild()\n\nSpecified by:\n\n    `[getGrandChild](Quest.html#getGrandChild\\(\\))` in interface `[Quest](Quest.html \"interface in org.dreambot.api.methods.quest.book\")`\n      * #### getSettings\n            \n                        public int[] getSettings()\n\nSpecified by:\n\n    `[getSettings](Quest.html#getSettings\\(\\))` in interface `[Quest](Quest.html \"interface in org.dreambot.api.methods.quest.book\")`\n      * #### getStartedSetting\n            \n                        public int getStartedSetting()\n\nSpecified by:\n\n    `[getStartedSetting](Quest.html#getStartedSetting\\(\\))` in interface `[Quest](Quest.html \"interface in org.dreambot.api.methods.quest.book\")`\n      * #### getFinishedSetting\n            \n                        public int getFinishedSetting()\n\nSpecified by:\n\n    `[getFinishedSetting](Quest.html#getFinishedSetting\\(\\))` in interface `[Quest](Quest.html \"interface in org.dreambot.api.methods.quest.book\")`\n      * #### getConfigID\n            \n                        public int getConfigID()\n\nSpecified by:\n\n    `[getConfigID](Quest.html#getConfigID\\(\\))` in interface `[Quest](Quest.html \"interface in org.dreambot.api.methods.quest.book\")`\n      * #### getVarBitID\n            \n                        public int getVarBitID()\n\nSpecified by:\n\n    `[getVarBitID](Quest.html#getVarBitID\\(\\))` in interface `[Quest](Quest.html \"interface in org.dreambot.api.methods.quest.book\")`\n      * #### getQuests\n            \n                        public [Requirement](requirement/Requirement.html \"class in org.dreambot.api.methods.quest.book.requirement\") getQuests()\n\nSpecified by:\n\n    `[getQuests](Quest.html#getQuests\\(\\))` in interface `[Quest](Quest.html \"interface in org.dreambot.api.methods.quest.book\")`\n      * #### getSkills\n            \n                        public [Requirement](requirement/Requirement.html \"class in org.dreambot.api.methods.quest.book.requirement\") getSkills()\n\nSpecified by:\n\n    `[getSkills](Quest.html#getSkills\\(\\))` in interface `[Quest](Quest.html \"interface in org.dreambot.api.methods.quest.book\")`\n      * #### find\n            \n                        public boolean find()\n\nSpecified by:\n\n    `[find](Quest.html#find\\(\\))` in interface `[Quest](Quest.html \"interface in org.dreambot.api.methods.quest.book\")`\n      * #### getState\n            \n                        public [Quest.State](Quest.State.html \"enum in org.dreambot.api.methods.quest.book\") getState()\n\nSpecified by:\n\n    `[getState](Quest.html#getState\\(\\))` in interface `[Quest](Quest.html \"interface in org.dreambot.api.methods.quest.book\")`\n\nSkip navigation links\n\n  * [Overview](../../../../../../overview-summary.html)\n  * [Package](package-summary.html)\n  * Class\n  * [Tree](package-tree.html)\n  * [Deprecated](../../../../../../deprecated-list.html)\n  * [Index](../../../../../../index-all.html)\n  * [Help](../../../../../../help-doc.html)\n\n  * [Frames](../../../../../../index.html?org/dreambot/api/methods/quest/book/PaidQuest.html)\n  * [No Frames](PaidQuest.html)\n\n  * [All Classes](../../../../../../allclasses-noframe.html)\n\nJavaScript is disabled on your browser.\n\n  * Summary: \n  * Nested | \n  * Enum Constants | \n  * Field | \n  * Method\n\n  * Detail: \n  * Enum Constants | \n  * Field | \n  * Method"
+    }
+  ],
+  "extraction_fallback_used": true
+}

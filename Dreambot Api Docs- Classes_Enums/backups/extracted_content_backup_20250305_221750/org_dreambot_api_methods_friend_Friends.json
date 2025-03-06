@@ -1,0 +1,209 @@
+{
+  "name": "Friends",
+  "full_name": "org.dreambot.api.methods.friend.Friends",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/friend/Friends.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.friend",
+  "description": "Adds a given name to your friend's list",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Friend",
+      "return_type": "Friend[]",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Deprecated.",
+      "deprecated": false
+    },
+    {
+      "name": "Friends",
+      "return_type": "Friends",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Deprecated. no longer used.",
+      "deprecated": false
+    },
+    {
+      "name": "getFriendsInstance",
+      "signature": "@Deprecated public static Friends getFriendsInstance()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the friendsinstance.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getFriends",
+      "signature": "@Deprecated public static Friend[] getFriends()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "See all()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "all",
+      "signature": "public static java.util.List<Friend> all()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a list of your friends",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "swapToFriends",
+      "signature": "public static boolean swapToFriends()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Swaps to the friend specific tab instead of the ignored tab",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getFriendsSize",
+      "signature": "@Deprecated public static int getFriendsSize()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the friendssize.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSize",
+      "signature": "public static int getSize()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the size of your friends list",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isFriendsSelected",
+      "signature": "public static boolean isFriendsSelected()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks whether Friends tab type is selected instead of Ignored",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "haveFriend",
+      "signature": "public static boolean haveFriend\u200b(java.lang.String playerName)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if a player's name is inside of your friends list Auto formats non-alphabetical/numerical characters to spaces Checks both current and previous names on the Friend",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "sendMessage",
+      "signature": "public static boolean sendMessage\u200b(java.lang.String playerName, java.lang.String message)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sends a message to a friend",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getFriend",
+      "signature": "@Deprecated public static Friend getFriend\u200b(java.lang.String playerName)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the friend.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "get",
+      "signature": "public static Friend get\u200b(java.lang.String playerName)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a Friend in your friend list based on player name Auto formats all names checked Looks for both current and previous names of the Friend",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "addFriend",
+      "signature": "public static boolean addFriend\u200b(java.lang.String playerName)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Adds a given name to your friend's list",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "deleteFriend",
+      "signature": "public static boolean deleteFriend\u200b(Friend friend)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Removes a Friend from your friends list",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

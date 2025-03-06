@@ -1,0 +1,181 @@
+{
+  "name": "Locatable",
+  "full_name": "org.dreambot.api.wrappers.interactive.Locatable",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/Locatable.html",
+  "type": "interface",
+  "package": "org.dreambot.api.wrappers.interactive",
+  "description": "Created with IntelliJ IDEA. User: NotoriousPP Date: 7/29/2014 Time: 12:31 PM",
+  "page_structure": {
+    "type": "interface",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Tile",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets tile of the object.",
+      "deprecated": false
+    },
+    {
+      "name": "TileReference",
+      "return_type": "TileReference",
+      "modifiers": [
+        "default"
+      ],
+      "description": "Gets tile reference of the given object.",
+      "deprecated": false
+    },
+    {
+      "name": "getTile",
+      "signature": "Tile getTile()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets tile of the object.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "distance",
+      "signature": "default double distance\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Distance (as the crow flies) away from the given tile.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "tileDistance",
+      "signature": "default int tileDistance\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Distance (Chebyshev/Tchebychev) away from the given tile. This is roughly the amount of single steps/moves away the tile is. This differs from distance(Tile) because diagonals have the same cost. Note: this does not account for obstacles like walkingDistance(Tile) does.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "walkingDistance",
+      "signature": "default double walkingDistance\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Walking distance based on pathfinding to the given tile. This is a more expensive call than distance(Tile), and should be used sparingly.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "canReach",
+      "signature": "default boolean canReach()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if this location is reachable by the local player without obstacles",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getX",
+      "signature": "default int getX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets X coordinate of the given object.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getY",
+      "signature": "default int getY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets Y coordinate of the given object.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getGridX",
+      "signature": "default int getGridX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets grid (local) X coordinate of the given object.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getGridY",
+      "signature": "default int getGridY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets grid (local) Y coordinate of the given object.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getZ",
+      "signature": "default int getZ()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets Z coordinate of the given object.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTileReference",
+      "signature": "default TileReference getTileReference()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets tile reference of the given object.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

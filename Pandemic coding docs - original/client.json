@@ -1,0 +1,19 @@
+{
+  "sleep": "500",
+  "name": "",
+  "version": 1.0,
+  "actions": [
+    {
+      "id": "IF_SCRIPT_PAINT_IS_ENABLED"
+    },
+    {
+      "id": "IF_SCRIPT_PAINT_IS_NOT_ENABLED"
+    },
+    {
+      "id": "ENABLE_SCRIPT_PAINT"
+    },
+    {
+      "id": "DISABLE_SCRIPT_PAINT"
+    }
+  ]
+}

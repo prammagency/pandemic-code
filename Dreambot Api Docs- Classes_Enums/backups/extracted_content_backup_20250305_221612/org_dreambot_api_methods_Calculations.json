@@ -1,0 +1,178 @@
+{
+  "name": "Calculations",
+  "full_name": "org.dreambot.api.methods.Calculations",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/Calculations.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods",
+  "description": "Checks if the given {@param target} is less than or equal to a random value between 0(inclusive) and 100 (exclusive)",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "random",
+      "signature": "public static int random\u200b(int high)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns a number between 0 (inclusive) and high (exclusive)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "nextLogNormalDistributionRandom",
+      "signature": "public static double nextLogNormalDistributionRandom\u200b(double scale, double shape) throws org.apache.commons.math3.exception.NotStrictlyPositiveException",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Generates a lognormal distribution using the provided parameters with an inverse absolute accuracy of 1e-9 and uses a Well19937c number generator to return a sample",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "nextGaussianRandom",
+      "signature": "public static double nextGaussianRandom\u200b(double mean, double sigma)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Generates a random value from the Normal (or Gaussian) distribution with specified mean and standard deviation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "nextHypergeometricRandom",
+      "signature": "public static double nextHypergeometricRandom\u200b(int populationSize, int numberOfSuccesses, int sampleSize)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Generates a random value from the HypergeometricDistribution.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "nextGammaRandom",
+      "signature": "public static double nextGammaRandom\u200b(int shape, int scale)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Generates a random value from the GammaDistribution",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setRandomSeed",
+      "signature": "public static void setRandomSeed\u200b(long seed)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "distance",
+      "signature": "public static double distance\u200b(@NonNull Tile t1, @NonNull Tile t2)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Calculates the distance between two tiles.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRandom",
+      "signature": "public static @NonNull java.util.Random getRandom()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isBefore",
+      "signature": "public static boolean isBefore\u200b(long futureTime)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns true if System time is less than input",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "elapsed",
+      "signature": "public static long elapsed\u200b(long prevTime)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Calculates the time elapsed from the supplied previous time.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "generateRandomString",
+      "signature": "public static @NonNull java.lang.String generateRandomString()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "chance",
+      "signature": "public static boolean chance\u200b(int target, int overall)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the given {@param target} is less than or equal to a random value between 0(inclusive) and {@param overall}(exclusive) Method just returns Calculations.random(overall) <= target",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

@@ -1,0 +1,749 @@
+{
+  "name": "NPC",
+  "full_name": "org.dreambot.api.wrappers.interactive.NPC",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/NPC.html",
+  "type": "class",
+  "package": "org.dreambot.api.wrappers.interactive",
+  "description": "Note: This shouldn't be used by API users, it's an internal constructor.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.wrappers.interactive.interact.Interactable",
+    "org.dreambot.api.wrappers.interactive.Entity",
+    "org.dreambot.api.wrappers.interactive.Character"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Area",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "NpcOverride",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the NPC's model override, contains model overriding data",
+      "deprecated": false
+    },
+    {
+      "name": "Tile",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the tile that loot will drop on, adjusts NPC tile based on NPC size.",
+      "deprecated": false
+    },
+    {
+      "name": "getComposite",
+      "signature": "public org.dreambot.internal.cache.wrappers.def.NPCDefinition getComposite()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getActions",
+      "signature": "public java.lang.String[] getActions()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRecolorOriginal",
+      "signature": "public short[] getRecolorOriginal()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRecolorTarget",
+      "signature": "public short[] getRecolorTarget()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isDrawMinimapDot",
+      "signature": "public boolean isDrawMinimapDot()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getID",
+      "signature": "public int getID()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Identifiable",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLevel",
+      "signature": "public int getLevel()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: Character",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getName",
+      "signature": "public java.lang.String getName()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: Entity",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getIndex",
+      "signature": "public int getIndex()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: Character",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setIndex",
+      "signature": "public void setIndex\u200b(int index)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getModelIDs",
+      "signature": "public int[] getModelIDs()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSize",
+      "signature": "public int getSize()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRealID",
+      "signature": "public int getRealID()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hasAction",
+      "signature": "public boolean hasAction\u200b(java.lang.String... actions)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: Entity",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getHeadIcon",
+      "signature": "@Deprecated public int getHeadIcon()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getHeadIconArchiveIds",
+      "signature": "public int[] getHeadIconArchiveIds()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getHeadIconSpriteIndex",
+      "signature": "public short[] getHeadIconSpriteIndex()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getArea",
+      "signature": "public Area getArea()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toString",
+      "signature": "public java.lang.String toString()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRetextureToReplace",
+      "signature": "public short[] getRetextureToReplace()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRetextureToFind",
+      "signature": "public short[] getRetextureToFind()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isMinimapDot",
+      "signature": "@Deprecated public boolean isMinimapDot()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "see isDrawMinimapDot()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRecoloredTarget",
+      "signature": "public short[] getRecoloredTarget()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getVarbitID",
+      "signature": "public int getVarbitID()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWalkingAnimation",
+      "signature": "public int getWalkingAnimation()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRecoloredOriginal",
+      "signature": "public short[] getRecoloredOriginal()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getParams",
+      "signature": "public java.util.Map<java.lang.Integer,\u200bjava.lang.Object> getParams()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isPet",
+      "signature": "@Deprecated public boolean isPet()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isFollower",
+      "signature": "public boolean isFollower()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isLowPriorityFollowerOps",
+      "signature": "public boolean isLowPriorityFollowerOps()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCategory",
+      "signature": "@Deprecated public int getCategory()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isRotationFlag",
+      "signature": "public boolean isRotationFlag()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAdditionalModels",
+      "signature": "public int[] getAdditionalModels()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getChildIDs",
+      "signature": "public int[] getChildIDs()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDegreesToTurn",
+      "signature": "public int getDegreesToTurn()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getIdleAnimation",
+      "signature": "public int getIdleAnimation()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLightModifier",
+      "signature": "public int getLightModifier()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWidthScale",
+      "signature": "public int getWidthScale()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getHeightScale",
+      "signature": "public int getHeightScale()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getVarpID",
+      "signature": "public int getVarpID()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getShadowModifier",
+      "signature": "public int getShadowModifier()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTurn180Animation",
+      "signature": "public int getTurn180Animation()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTurn90CCWAnimation",
+      "signature": "public int getTurn90CCWAnimation()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTurn90CWAnimation",
+      "signature": "public int getTurn90CWAnimation()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isClickable",
+      "signature": "public boolean isClickable()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hasRenderPriority",
+      "signature": "public boolean hasRenderPriority()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTrueTile",
+      "signature": "public Tile getTrueTile()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the tile that loot will drop on, adjusts NPC tile based on NPC size. Does not work for NPC's that don't drop loot on their own tiles (like Zulrah)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOverheadIcons",
+      "signature": "@Deprecated public int[] getOverheadIcons()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOverheadIconSpriteIndex",
+      "signature": "@Deprecated public short[] getOverheadIconSpriteIndex()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCurrentOverheadIcons",
+      "signature": "public int[] getCurrentOverheadIcons()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the overhead icon archive IDs for the currently available overhead icon",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCurrentOverheadSpriteIndices",
+      "signature": "public short[] getCurrentOverheadSpriteIndices()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the overhead icon sprite indices for the currently available overhead icon",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getModelOverride",
+      "signature": "public NpcOverride getModelOverride()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the NPC's model override, contains model overriding data",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getChatHeadModelOverride",
+      "signature": "public NpcOverride getChatHeadModelOverride()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the NPC's chathead model override, contains model overriding data",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "exists",
+      "signature": "public boolean exists()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: Character",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

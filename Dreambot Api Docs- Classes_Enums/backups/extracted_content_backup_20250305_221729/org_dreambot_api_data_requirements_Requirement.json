@@ -1,0 +1,68 @@
+{
+  "name": "Requirement",
+  "full_name": "org.dreambot.api.data.requirements.Requirement",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/data/requirements/Requirement.html",
+  "type": "class",
+  "package": "org.dreambot.api.data.requirements",
+  "description": "Class Requirement in the org.dreambot.api.data.requirements package provides functionality for DreamBot scripts.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Requirement",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the Requirement operation.",
+      "deprecated": false
+    },
+    {
+      "name": "add",
+      "signature": "public Requirement add\u200b(Requirement req)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the add operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "meetsRequirement",
+      "signature": "public boolean meetsRequirement()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the meetsRequirement operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRequirements",
+      "signature": "public java.util.List<Requirement> getRequirements()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the requirements.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

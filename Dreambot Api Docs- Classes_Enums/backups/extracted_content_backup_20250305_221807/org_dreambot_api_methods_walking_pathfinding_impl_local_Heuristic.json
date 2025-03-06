@@ -1,0 +1,35 @@
+{
+  "name": "Heuristic",
+  "full_name": "org.dreambot.api.methods.walking.pathfinding.impl.local.Heuristic",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/local/Heuristic.html",
+  "type": "interface",
+  "package": "org.dreambot.api.methods.walking.pathfinding.impl.local",
+  "description": "Get the additional heuristic cost of the given tile.",
+  "page_structure": {
+    "type": "interface",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "getCost",
+      "signature": "float getCost\u200b(int x, int y, int z, int dx, int dy, int dz)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get the additional heuristic cost of the given tile. This controls the order in which tiles are searched while attempting to find a path to the target location. The lower the cost the more likely the tile will be searched.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

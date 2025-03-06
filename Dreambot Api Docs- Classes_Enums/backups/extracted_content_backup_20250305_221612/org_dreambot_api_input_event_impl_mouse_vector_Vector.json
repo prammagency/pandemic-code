@@ -1,0 +1,87 @@
+{
+  "name": "Vector",
+  "full_name": "org.dreambot.api.input.event.impl.mouse.vector.Vector",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/vector/Vector.html",
+  "type": "interface",
+  "package": "org.dreambot.api.input.event.impl.mouse.vector",
+  "description": "Deprecated.",
+  "page_structure": {
+    "type": "interface",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "getMagnitude",
+      "return_type": "",
+      "modifiers": [],
+      "description": "getMagnitude double getMagnitude() Deprecated. Gets magnitude. Returns: the magnitude",
+      "deprecated": false,
+      "signature": "double getMagnitude()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      }
+    },
+    {
+      "name": "getDirection",
+      "return_type": "",
+      "modifiers": [],
+      "description": "getDirection double getDirection() Deprecated. Gets direction. Returns: the direction",
+      "deprecated": false,
+      "signature": "double getDirection()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      }
+    },
+    {
+      "name": "getAngleRadian",
+      "return_type": "",
+      "modifiers": [],
+      "description": "getAngleRadian double getAngleRadian() Deprecated. Gets angle radian. Returns: the angle radian",
+      "deprecated": false,
+      "signature": "double getAngleRadian()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      }
+    },
+    {
+      "name": "getThetaX",
+      "return_type": "",
+      "modifiers": [],
+      "description": "getThetaX double getThetaX() Deprecated. Gets theta x. Returns: the theta x",
+      "deprecated": false,
+      "signature": "double getThetaX()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      }
+    },
+    {
+      "name": "getThetaY",
+      "return_type": "",
+      "modifiers": [],
+      "description": "getThetaY double getThetaY() Deprecated. Gets theta y. Returns: the theta y",
+      "deprecated": false,
+      "signature": "double getThetaY()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      }
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

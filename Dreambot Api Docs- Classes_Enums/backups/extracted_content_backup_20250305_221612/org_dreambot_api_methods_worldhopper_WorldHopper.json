@@ -1,0 +1,136 @@
+{
+  "name": "WorldHopper",
+  "full_name": "org.dreambot.api.methods.worldhopper.WorldHopper",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/worldhopper/WorldHopper.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.worldhopper",
+  "description": "Created by Pandemic",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "WidgetChild",
+      "return_type": "WidgetChild[]",
+      "modifiers": [
+        "static",
+        "@Nullable"
+      ],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "getWorldsInList",
+      "signature": "public static @Nullable WidgetChild[] getWorldsInList()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isWorldHopperOpen",
+      "signature": "public static boolean isWorldHopperOpen()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "closeWorldHopper",
+      "signature": "public static boolean closeWorldHopper()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "openWorldHopper",
+      "signature": "public static boolean openWorldHopper()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hopWorld",
+      "signature": "public static boolean hopWorld\u200b(@NonNull World w)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Hops to specified World",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "quickHop",
+      "signature": "public static boolean quickHop\u200b(int world)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "quickHops to specified world",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDefaultWorld",
+      "signature": "public static int getDefaultWorld()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "changeWorldDirect",
+      "signature": "public static boolean changeWorldDirect\u200b(@NonNull World w)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Directly calls a set world method inside of RS, correctly updating all members information required Only works while logged out.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

@@ -1,0 +1,230 @@
+{
+  "name": "StandardMouseAlgorithm",
+  "full_name": "org.dreambot.api.input.mouse.algorithm.StandardMouseAlgorithm",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/input/mouse/algorithm/StandardMouseAlgorithm.html",
+  "type": "class",
+  "package": "org.dreambot.api.input.mouse.algorithm",
+  "description": "DreamBot's default implementation of mouse movement Currently implements MouseMovementAlgorithm for backwards compatibility",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "handleMovement",
+      "signature": "public boolean handleMovement\u200b(AbstractMouseDestination destination)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the handleMovement operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "handleClick",
+      "signature": "public boolean handleClick\u200b(MouseButton button)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the handleClick operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCanvasReportRate",
+      "signature": "public double getCanvasReportRate()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Calculates canvas report rate.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "dynamicRandom",
+      "signature": "public double dynamicRandom()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Dynamic random value based on the current characters user name.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMaxdTheta",
+      "signature": "public double getMaxdTheta()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Calculates max theta value (d) using a dynamic random.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDecelRadiusDeviation",
+      "signature": "public double getDecelRadiusDeviation()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Calculates deceleration radius deviation using a dynamic random.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDecayDistanceExponent",
+      "signature": "public double getDecayDistanceExponent()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Calculates the decay distance exponent using a dynamic random.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMinMagnitude",
+      "signature": "public double getMinMagnitude()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Calculates minimum magnitude using a dynamic random.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAccelerationDeviation",
+      "signature": "public double getAccelerationDeviation()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Calculates acceleration deviation using a dynamic random.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMinDecelMagnitude",
+      "signature": "public double getMinDecelMagnitude()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Calculates minimum deceleration magnitude using a dynamic random.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMaxDecelDistance",
+      "signature": "public double getMaxDecelDistance()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Calculates max deceleration distance using a dynamic random.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAccelerationRate",
+      "signature": "public double getAccelerationRate()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Calculates acceleration rate using a dynamic random.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMaxMagnitude",
+      "signature": "public double getMaxMagnitude()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Calculates max magnitude using a dynamic random.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDecelDecayRate",
+      "signature": "public double getDecelDecayRate()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Calculates deceleration decay rate using a dynamic random.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAngleDeviationRate",
+      "signature": "public double getAngleDeviationRate()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Calculates angle deviation rate using a dynamic random.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMeanDecelRadius",
+      "signature": "public double getMeanDecelRadius()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Calculates mean deceleration radius using a dynamic random.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

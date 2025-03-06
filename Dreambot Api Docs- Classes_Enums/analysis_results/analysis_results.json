@@ -1,0 +1,83 @@
+{
+  "total_files_needing_attention": 9,
+  "issues_by_type": {
+    "methods and fields": 1
+  },
+  "entity_types": {
+    "class": 8,
+    "enum": 1
+  },
+  "completeness_distribution": {
+    "0.0-0.2": 6,
+    "0.2-0.4": 1,
+    "0.4-0.6": 1,
+    "0.6-0.8": 0,
+    "0.8-1.0": 1
+  },
+  "html_files": {
+    "with_json_equivalent": 0,
+    "without_json_equivalent": 0
+  },
+  "sample_problematic_files": [
+    {
+      "file": "org_dreambot_api_methods_Animations.json",
+      "issues": NaN,
+      "completeness": 0.0,
+      "content_structure": {
+        "has_description": true,
+        "method_count": 192,
+        "field_count": 190,
+        "constructor_count": 0,
+        "enum_constant_count": 0
+      }
+    },
+    {
+      "file": "org_dreambot_api_methods_cs2_ScriptId.json",
+      "issues": NaN,
+      "completeness": 0.0,
+      "content_structure": {
+        "has_description": true,
+        "method_count": 16,
+        "field_count": 14,
+        "constructor_count": 0,
+        "enum_constant_count": 0
+      }
+    },
+    {
+      "file": "org_dreambot_api_methods_settings_vars_VarBit.json",
+      "issues": NaN,
+      "completeness": 0.0,
+      "content_structure": {
+        "has_description": true,
+        "method_count": 57,
+        "field_count": 55,
+        "constructor_count": 0,
+        "enum_constant_count": 0
+      }
+    },
+    {
+      "file": "org_dreambot_api_methods_settings_vars_VarPlayer.json",
+      "issues": NaN,
+      "completeness": 0.0,
+      "content_structure": {
+        "has_description": true,
+        "method_count": 20,
+        "field_count": 18,
+        "constructor_count": 0,
+        "enum_constant_count": 0
+      }
+    },
+    {
+      "file": "org_dreambot_api_methods_walking_pathfinding_data_TileFlags.json",
+      "issues": NaN,
+      "completeness": 0.0,
+      "content_structure": {
+        "has_description": true,
+        "method_count": 44,
+        "field_count": 42,
+        "constructor_count": 0,
+        "enum_constant_count": 0
+      }
+    }
+  ]
+}

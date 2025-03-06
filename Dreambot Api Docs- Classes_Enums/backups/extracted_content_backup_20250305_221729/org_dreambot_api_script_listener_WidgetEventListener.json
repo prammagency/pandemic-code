@@ -1,0 +1,48 @@
+{
+  "name": "WidgetEventListener",
+  "full_name": "org.dreambot.api.script.listener.WidgetEventListener",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/script/listener/WidgetEventListener.html",
+  "type": "interface",
+  "package": "org.dreambot.api.script.listener",
+  "description": "Deprecated. see onWidgetLoaded(WidgetChild) instead",
+  "page_structure": {
+    "type": "interface",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "onWidgetLoaded",
+      "return_type": "",
+      "modifiers": [],
+      "description": "onWidgetDecoded @Deprecated default void onWidgetDecoded\u200b(WidgetChild event) Deprecated. see onWidgetLoaded(WidgetChild) instead",
+      "deprecated": false,
+      "signature": "default void onWidgetLoaded\u200b(WidgetChild event)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      }
+    },
+    {
+      "name": "onWidgetDecoded",
+      "signature": "@Deprecated default void onWidgetDecoded\u200b(WidgetChild event)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the onWidgetDecoded operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

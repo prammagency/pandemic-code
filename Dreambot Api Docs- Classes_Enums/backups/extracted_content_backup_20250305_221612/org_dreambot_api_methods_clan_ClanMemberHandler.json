@@ -1,0 +1,96 @@
+{
+  "name": "ClanMemberHandler",
+  "full_name": "org.dreambot.api.methods.clan.ClanMemberHandler",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/clan/ClanMemberHandler.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.clan",
+  "description": "Deprecated.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.methods.friend.NameProviderHandler"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "ClanMember",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Deprecated.",
+      "deprecated": false
+    },
+    {
+      "name": "getClanName",
+      "signature": "public java.lang.String getClanName()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getClanOwner",
+      "signature": "public java.lang.String getClanOwner()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMyRank",
+      "signature": "public int getMyRank()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCount",
+      "signature": "public int getCount()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getClanMembers",
+      "signature": "public ClanMember[] getClanMembers()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

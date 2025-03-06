@@ -1,0 +1,328 @@
+{
+  "name": "Widgets",
+  "full_name": "org.dreambot.api.methods.widget.Widgets",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/widget/Widgets.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.widget",
+  "description": "API class revolving around Widget and WidgetChild It should be noted that Widget is essentially just a container of WidgetChild Logic in general should not be applied to Widget and should instead be focused on WidgetChild",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "WidgetChild",
+      "return_type": "java.util.List<WidgetChild>",
+      "modifiers": [
+        "static",
+        "@NonNull"
+      ],
+      "description": "Deprecated. see getAll(Filter)",
+      "deprecated": false
+    },
+    {
+      "name": "Widget",
+      "return_type": "Widget",
+      "modifiers": [
+        "static",
+        "@Nullable"
+      ],
+      "description": "Gets top level parent Widget based on the id",
+      "deprecated": false
+    },
+    {
+      "name": "getAllWidgets",
+      "signature": "public static @NonNull java.util.List<Widget> getAllWidgets()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets all the Widgets This method has a lot of overhead, so call it as little as possible.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWidget",
+      "signature": "public static @Nullable Widget getWidget\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets top level parent Widget based on the id",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getChildWidget",
+      "signature": "@Deprecated public static @Nullable WidgetChild getChildWidget\u200b(int parent, int child)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the childwidget.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "get",
+      "signature": "public static @Nullable WidgetChild get\u200b(int @NonNull ... ids)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets WidgetChild based on the given ids Null checks each layer",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWidgetChild",
+      "signature": "@Deprecated public static @Nullable WidgetChild getWidgetChild\u200b(int @NonNull ... ids)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "see get(int...)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isVisible",
+      "signature": "public static boolean isVisible\u200b(int @NonNull ... ids)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if a WidgetChild is visible",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAllContainingText",
+      "signature": "public static @NonNull java.util.List<WidgetChild> getAllContainingText\u200b(java.lang.String text)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a list of the WidgetChild containing a particular search string Try to avoid using this method if you can (ie. if you know the Widget parent ID, search manually) This method will search all children",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWidgetChildrenContainingText",
+      "signature": "@Deprecated public static @NonNull java.util.List<WidgetChild> getWidgetChildrenContainingText\u200b(java.lang.String text)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the widgetchildrencontainingtext.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMatchingWidget",
+      "signature": "@Deprecated public static @Nullable WidgetChild getMatchingWidget\u200b(@NonNull Filter<WidgetChild> filter)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "see get(Filter)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAll",
+      "signature": "public static @NonNull java.util.List<WidgetChild> getAll\u200b(@NonNull Filter<WidgetChild> filter)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a List of widget children that match the filter provided",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWidgets",
+      "signature": "@Deprecated public static @NonNull java.util.List<WidgetChild> getWidgets\u200b(@NonNull Filter<WidgetChild> filter)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the widgets.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isOpen",
+      "signature": "public static boolean isOpen()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This checks if any non-default interfaces are open that block the game screen (even partially)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "closeAll",
+      "signature": "public static boolean closeAll()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This will attempt to close out of any interfaces that might be opened that are on the game screen",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWidgetYArray",
+      "signature": "public static int[] getWidgetYArray()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the widget y array",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWidgetXArray",
+      "signature": "public static int[] getWidgetXArray()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the widget x array",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isWidgetSelected",
+      "signature": "public static boolean isWidgetSelected()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks to see if you have a widget selected",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSelectedWidgetId",
+      "signature": "public static int getSelectedWidgetId()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the currently selected widget ID (child ID) -1 if none selected",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setSelectedWidgetId",
+      "signature": "public static void setSelectedWidgetId\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the selectedwidgetid.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSelectedWidgetIndex",
+      "signature": "public static int getSelectedWidgetIndex()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the currently selected widget index (grandchild ID) -1 if selected widget is not a grandchild or if none selected",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setSelectedWidgetIndex",
+      "signature": "public static void setSelectedWidgetIndex\u200b(int index)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the selectedwidgetindex.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSelected",
+      "signature": "public static @Nullable WidgetChild getSelected()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the currently selected WidgetChild based on getSelectedWidgetId() and getSelectedWidgetIndex()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSelectedWidget",
+      "signature": "@Deprecated public static @Nullable WidgetChild getSelectedWidget()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the selectedwidget.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

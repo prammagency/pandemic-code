@@ -1,0 +1,294 @@
+{
+  "name": "Key",
+  "full_name": "org.dreambot.api.input.event.impl.keyboard.awt.Key",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/keyboard/awt/Key.html",
+  "type": "enum",
+  "package": "org.dreambot.api.input.event.impl.keyboard.awt",
+  "description": "Enum representing the possible keys to press Alphabet will automatically adjust to upper/lowercase based on whether shift is currently being held if you use getChar()",
+  "page_structure": {
+    "type": "enum",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "Key"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "KeyLocation",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "Key",
+      "return_type": "Key[]",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Returns an array containing the constants of this enum type, in the order they are declared.",
+      "deprecated": false
+    },
+    {
+      "name": "values",
+      "signature": "public static Key[] values()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns an array containing the constants of this enum type, in the order they are declared. This method may be used to iterate over the constants as follows: for (Key c : Key.values()) System.out.println(c);",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "valueOf",
+      "signature": "public static Key valueOf\u200b(java.lang.String name)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the enum constant of this type with the specified name. The string must match exactly an identifier used to declare an enum constant in this type. (Extraneous whitespace characters are not permitted.)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "requiresTyped",
+      "signature": "public boolean requiresTyped()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isPressed",
+      "signature": "public boolean isPressed()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "markReleased",
+      "signature": "public void markReleased()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "markPressed",
+      "signature": "public void markPressed()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setLastPressedLocation",
+      "signature": "public void setLastPressedLocation\u200b(KeyLocation location)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getChar",
+      "signature": "public char getChar()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "If key char is a letter, it will automatically adjust to upper/lowercase based on if the shift key is held",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getForCode",
+      "signature": "public static Key getForCode\u200b(int code)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a Key based on the given key code Note: keys that require shift like EXCLAMATION share the same key code as their non-shift counterparts Either use the key enum directly or use getForChar(char) If you get the error for key not found, please report to one of the client developers which key you're trying to use so it may be added",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getForChar",
+      "signature": "public static Key getForChar\u200b(char character)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a Key based on the given character Note: not all keys have a character like CAPS please use getForCode(int) or use the Key directly Automatically adjusts alphabetical characters to be uppercase to match the key's default char value If the error is logged for failing to find the key for your character, please report to a client developer what character you're trying to use.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getKeyCode",
+      "signature": "public int getKeyCode()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getKeyChar",
+      "signature": "public int getKeyChar()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDefaultModifiers",
+      "signature": "public int getDefaultModifiers()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDefaultLocation",
+      "signature": "public KeyLocation getDefaultLocation()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRawCode",
+      "signature": "public int getRawCode()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getPrimaryLevelUnicode",
+      "signature": "public int getPrimaryLevelUnicode()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getExtendedKeyCode",
+      "signature": "public int getExtendedKeyCode()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getScanCode",
+      "signature": "public int getScanCode()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLastPressedLocation",
+      "signature": "public KeyLocation getLastPressedLocation()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": [],
+  "enum_constants": [
+    {
+      "name": "Enum",
+      "description": "Constant Summary\n\nEnum Constants  Enum Constant | Description  \n---|---  \n`A` |    \n`ALT` |    \n`AND` |    \n`ASTERISK` |    \n`AT` |    \n`B` |    \n`BACK_QUOTE` |    \n`BACK_SLASH` |    \n`BACKSPACE` |    \n`C` |    \n`CAPS` |    \n`CARET` |    \n`CLOSE_BRACKET` |    \n`CLOSE_CURLY_BRACKET` |    \n`COLON` |    \n`COMMA` |    \n`CTRL` |    \n`D` |    \n`DELETE` |    \n`DOLLAR` |    \n`DOUBLE_QUOTES` |    \n`DOWN` |    \n`E` |    \n`EIGHT` |    \n`ENTER` |    \n`EQUALS` |    \n`ESC` |    \n`EXCLAMATION` |    \n`F` |    \n`F1` |    \n`F10` |    \n`F11` |    \n`F12` |    \n`F2` |    \n`F3` |    \n`F4` |    \n`F5` |    \n`F6` |    \n`F7` |    \n`F8` |    \n`F9` |    \n`FIVE` |    \n`FORWARD_SLASH` |    \n`FOUR` |    \n`G` |    \n`GREATER_THAN` |    \n`H` |    \n`I` |    \n`J` |    \n`K` |    \n`L` |    \n`LEFT` |    \n`LEFT_PAREN` |    \n`LESS_THAN` |    \n`M` |    \n`MINUS` |    \n`N` |    \n`NINE` |    \n`O` |    \n`ONE` |    \n`OPEN_BRACKET` |    \n`OPEN_CURLY_BRACKET` |    \n`P` |    \n`PERCENT` |    \n`PERIOD` |    \n`PIPE` |    \n`PLUS` |    \n`POUND` |    \n`Q` |    \n`QUESTION_MARK` |    \n`R` |    \n`RIGHT` |    \n`RIGHT_PAREN` |    \n`S` |    \n`SEMICOLON` |    \n`SEVEN` |    \n`SHIFT` |    \n`SINGLE_QUOTE` |    \n`SIX` |    \n`SPACE` |    \n`T` |    \n`TAB` |    \n`THREE` |    \n`TILDE` |    \n`TWO` |    \n`U` |    \n`UNDERSCORE` |    \n`UP` |    \n`V` |    \n`W` |    \n`WINDOWS` |    \n`X` |    \n`Y` |    \n`Z` |    \n`ZERO` |    \n    * ### Method Summary\n\nAll Methods [Static Methods](javascript:show\\(1\\);) [Instance Methods](javascript:show\\(2\\);) [Concrete Methods](javascript:show\\(8\\);)  Modifier and Type | Method | Description  \n---|---|---  \n`char` | `getChar()` |  If key char is a letter, it will automatically adjust to upper/lowercase based on if the shift key is held  \n`[KeyLocation](../KeyLocation.html \"enum in org.dreambot.api.input.event.impl.keyboard\")` | `getDefaultLocation()` |    \n`int` | `getDefaultModifiers()` |    \n`int` | `getExtendedKeyCode()` |    \n`static [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\")` | `getForChar\u200b(char character)` |  Gets a Key based on the given character Note: not all keys have a character like `CAPS` please use `getForCode(int)` or use the Key directly Automatically adjusts alphabetical characters to be uppercase to match the key's default char value If the error is logged for failing to find the key for your character, please report to a client developer what character you're trying to use.  \n`static [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\")` | `getForCode\u200b(int code)` |  Gets a Key based on the given key code Note: keys that require shift like `EXCLAMATION` share the same key code as their non-shift counterparts Either use the key enum directly or use `getForChar(char)` If you get the error for key not found, please report to one of the client developers which key you're trying to use so it may be added  \n`int` | `getKeyChar()` |    \n`int` | `getKeyCode()` |    \n`[KeyLocation](../KeyLocation.html \"enum in org.dreambot.api.input.event.impl.keyboard\")` | `getLastPressedLocation()` |    \n`int` | `getPrimaryLevelUnicode()` |    \n`int` | `getRawCode()` |    \n`int` | `getScanCode()` |    \n`boolean` | `isPressed()` |    \n`void` | `markPressed()` |    \n`void` | `markReleased()` |    \n`boolean` | `requiresTyped()` |    \n`void` | `setLastPressedLocation\u200b([KeyLocation](../KeyLocation.html \"enum in org.dreambot.api.input.event.impl.keyboard\") location)` |    \n`static [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\")` | `valueOf\u200b(java.lang.String name)` |  Returns the enum constant of this type with the specified name.  \n`static [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\")[]` | `values()` |  Returns an array containing the constants of this enum type, in the order they are declared.  \n      * ### Methods inherited from class java.lang.Enum\n\n`compareTo, equals, getDeclaringClass, hashCode, name, ordinal, toString,\nvalueOf`\n\n      * ### Methods inherited from class java.lang.Object\n\n`getClass, notify, notifyAll, wait, wait, wait`\n\n  *     * ### Enum Constant Detail\n\n      * #### A\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") A\n\n      * #### B\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") B\n\n      * #### C\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") C\n\n      * #### D\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") D\n\n      * #### E\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") E\n\n      * #### F\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") F\n\n      * #### G\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") G\n\n      * #### H\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") H\n\n      * #### I\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") I\n\n      * #### J\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") J\n\n      * #### K\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") K\n\n      * #### L\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") L\n\n      * #### M\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") M\n\n      * #### N\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") N\n\n      * #### O\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") O\n\n      * #### P\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") P\n\n      * #### Q\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") Q\n\n      * #### R\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") R\n\n      * #### S\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") S\n\n      * #### T\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") T\n\n      * #### U\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") U\n\n      * #### V\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") V\n\n      * #### W\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") W\n\n      * #### X\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") X\n\n      * #### Y\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") Y\n\n      * #### Z\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") Z\n\n      * #### ONE\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") ONE\n\n      * #### TWO\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") TWO\n\n      * #### THREE\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") THREE\n\n      * #### FOUR\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") FOUR\n\n      * #### FIVE\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") FIVE\n\n      * #### SIX\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") SIX\n\n      * #### SEVEN\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") SEVEN\n\n      * #### EIGHT\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") EIGHT\n\n      * #### NINE\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") NINE\n\n      * #### ZERO\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") ZERO\n\n      * #### ESC\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") ESC\n\n      * #### TAB\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") TAB\n\n      * #### CAPS\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") CAPS\n\n      * #### WINDOWS\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") WINDOWS\n\n      * #### CTRL\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") CTRL\n\n      * #### ALT\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") ALT\n\n      * #### SHIFT\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") SHIFT\n\n      * #### SPACE\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") SPACE\n\n      * #### BACKSPACE\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") BACKSPACE\n\n      * #### ENTER\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") ENTER\n\n      * #### DELETE\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") DELETE\n\n      * #### MINUS\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") MINUS\n\n      * #### EQUALS\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") EQUALS\n\n      * #### BACK_QUOTE\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") BACK_QUOTE\n\n      * #### OPEN_BRACKET\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") OPEN_BRACKET\n\n      * #### CLOSE_BRACKET\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") CLOSE_BRACKET\n\n      * #### BACK_SLASH\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") BACK_SLASH\n\n      * #### COMMA\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") COMMA\n\n      * #### PERIOD\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") PERIOD\n\n      * #### FORWARD_SLASH\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") FORWARD_SLASH\n\n      * #### SEMICOLON\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") SEMICOLON\n\n      * #### SINGLE_QUOTE\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") SINGLE_QUOTE\n\n      * #### LEFT\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") LEFT\n\n      * #### UP\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") UP\n\n      * #### RIGHT\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") RIGHT\n\n      * #### DOWN\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") DOWN\n\n      * #### F1\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") F1\n\n      * #### F2\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") F2\n\n      * #### F3\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") F3\n\n      * #### F4\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") F4\n\n      * #### F5\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") F5\n\n      * #### F6\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") F6\n\n      * #### F7\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") F7\n\n      * #### F8\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") F8\n\n      * #### F9\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") F9\n\n      * #### F10\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") F10\n\n      * #### F11\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") F11\n\n      * #### F12\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") F12\n\n      * #### TILDE\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") TILDE\n\n      * #### EXCLAMATION\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") EXCLAMATION\n\n      * #### AT\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") AT\n\n      * #### POUND\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") POUND\n\n      * #### DOLLAR\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") DOLLAR\n\n      * #### PERCENT\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") PERCENT\n\n      * #### CARET\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") CARET\n\n      * #### AND\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") AND\n\n      * #### ASTERISK\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") ASTERISK\n\n      * #### LEFT_PAREN\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") LEFT_PAREN\n\n      * #### RIGHT_PAREN\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") RIGHT_PAREN\n\n      * #### UNDERSCORE\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") UNDERSCORE\n\n      * #### PLUS\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") PLUS\n\n      * #### OPEN_CURLY_BRACKET\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") OPEN_CURLY_BRACKET\n\n      * #### CLOSE_CURLY_BRACKET\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") CLOSE_CURLY_BRACKET\n\n      * #### PIPE\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") PIPE\n\n      * #### LESS_THAN\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") LESS_THAN\n\n      * #### GREATER_THAN\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") GREATER_THAN\n\n      * #### QUESTION_MARK\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") QUESTION_MARK\n\n      * #### COLON\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") COLON\n\n      * #### DOUBLE_QUOTES\n            \n                        public static final [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") DOUBLE_QUOTES\n\n    * ### Method Detail\n\n      * #### values\n            \n                        public static [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\")[] values()\n\nReturns an array containing the constants of this enum type, in the order they\nare declared. This method may be used to iterate over the constants as\nfollows:\n\n            \n                        for (Key c : Key.values())\n                System.out.println(c);\n            \n\nReturns:\n\n    an array containing the constants of this enum type, in the order they are declared\n      * #### valueOf\n            \n                        public static [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") valueOf\u200b(java.lang.String name)\n\nReturns the enum constant of this type with the specified name. The string\nmust match _exactly_ an identifier used to declare an enum constant in this\ntype. (Extraneous whitespace characters are not permitted.)\n\nParameters:\n\n    `name` \\- the name of the enum constant to be returned.\nReturns:\n\n    the enum constant with the specified name\nThrows:\n\n    `java.lang.IllegalArgumentException` \\- if this enum type has no constant with the specified name\n    `java.lang.NullPointerException` \\- if the argument is null\n      * #### requiresTyped\n            \n                        public boolean requiresTyped()\n\n      * #### isPressed\n            \n                        public boolean isPressed()\n\n      * #### markReleased\n            \n                        public void markReleased()\n\n      * #### markPressed\n            \n                        public void markPressed()\n\n      * #### setLastPressedLocation\n            \n                        public void setLastPressedLocation\u200b([KeyLocation](../KeyLocation.html \"enum in org.dreambot.api.input.event.impl.keyboard\") location)\n\n      * #### getChar\n            \n                        public char getChar()\n\nIf key char is a letter, it will automatically adjust to upper/lowercase based\non if the shift key is held\n\nReturns:\n\n    char representation of `getKeyChar()`\n      * #### getForCode\n            \n                        public static [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") getForCode\u200b(int code)\n\nGets a Key based on the given key code Note: keys that require shift like\n`EXCLAMATION` share the same key code as their non-shift counterparts Either\nuse the key enum directly or use `getForChar(char)` If you get the error for\nkey not found, please report to one of the client developers which key you're\ntrying to use so it may be added\n\nParameters:\n\n    `code` \\- KeyCode to look for\nReturns:\n\n    [`Key`](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") for that key code if found, otherwise null\n      * #### getForChar\n            \n                        public static [Key](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") getForChar\u200b(char character)\n\nGets a Key based on the given character Note: not all keys have a character\nlike `CAPS` please use `getForCode(int)` or use the Key directly Automatically\nadjusts alphabetical characters to be uppercase to match the key's default\nchar value If the error is logged for failing to find the key for your\ncharacter, please report to a client developer what character you're trying to\nuse.\n\nParameters:\n\n    `character` \\- char value to match against a Key\nReturns:\n\n    [`Key`](Key.html \"enum in org.dreambot.api.input.event.impl.keyboard.awt\") for the character given, otherwise null if not found\n      * #### getKeyCode\n            \n                        public int getKeyCode()\n\n      * #### getKeyChar\n            \n                        public int getKeyChar()\n\n      * #### getDefaultModifiers\n            \n                        public int getDefaultModifiers()\n\n      * #### getDefaultLocation\n            \n                        public [KeyLocation](../KeyLocation.html \"enum in org.dreambot.api.input.event.impl.keyboard\") getDefaultLocation()\n\n      * #### getRawCode\n            \n                        public int getRawCode()\n\n      * #### getPrimaryLevelUnicode\n            \n                        public int getPrimaryLevelUnicode()\n\n      * #### getExtendedKeyCode\n            \n                        public int getExtendedKeyCode()\n\n      * #### getScanCode\n            \n                        public int getScanCode()\n\n      * #### getLastPressedLocation\n            \n                        public [KeyLocation](../KeyLocation.html \"enum in org.dreambot.api.input.event.impl.keyboard\") getLastPressedLocation()\n\nSkip navigation links\n\n  * [Overview](../../../../../../../../overview-summary.html)\n  * [Package](package-summary.html)\n  * Class\n  * [Tree](package-tree.html)\n  * [Deprecated](../../../../../../../../deprecated-list.html)\n  * [Index](../../../../../../../../index-all.html)\n  * [Help](../../../../../../../../help-doc.html)\n\n  * [Frames](../../../../../../../../index.html?org/dreambot/api/input/event/impl/keyboard/awt/Key.html)\n  * [No Frames](Key.html)\n\n  * [All Classes](../../../../../../../../allclasses-noframe.html)\n\nJavaScript is disabled on your browser.\n\n  * Summary: \n  * Nested | \n  * Enum Constants | \n  * Field | \n  * Method\n\n  * Detail: \n  * Enum Constants | \n  * Field | \n  * Method"
+    }
+  ],
+  "extraction_fallback_used": true
+}

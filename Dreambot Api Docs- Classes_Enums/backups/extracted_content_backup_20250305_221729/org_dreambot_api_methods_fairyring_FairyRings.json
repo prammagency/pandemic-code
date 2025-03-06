@@ -1,0 +1,191 @@
+{
+  "name": "FairyRings",
+  "full_name": "org.dreambot.api.methods.fairyring.FairyRings",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/fairyring/FairyRings.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.fairyring",
+  "description": "Created by Nezz on 10/4/2016.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "getQuickTravelRect",
+      "signature": "public static java.awt.Rectangle getQuickTravelRect()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Rectangle surrounding the quick travel widget container",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "travelInterfaceOpen",
+      "signature": "public static boolean travelInterfaceOpen()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the fairy ring travel interface is open",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "travel",
+      "signature": "public static boolean travel\u200b(FairyLocation location)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Travels to a fairy location, if it exists in your quick travel list, it will use the quick travel otherwise it will enter the code and click travel. It will handle opening the interface (if near a fairy ring)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "openTravelInterface",
+      "signature": "public static boolean openTravelInterface()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Opens the fairy ring travel interface, if a fairy ring is available and it is not already open",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "quickTravel",
+      "signature": "public static boolean quickTravel\u200b(FairyLocation fl)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Travels using the quick travel list on the fairy ring",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "scrollToQuickTravel",
+      "signature": "public static boolean scrollToQuickTravel\u200b(java.lang.String[] code)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Scrolls to the quick travel widget with the given code",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "quickTravelContains",
+      "signature": "public static boolean quickTravelContains\u200b(FairyLocation fl)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if a fairy location is within your quick travel list",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "codeEquals",
+      "signature": "public static boolean codeEquals\u200b(java.lang.String[] code)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the current code of the fairy ring equals the given code Ignores case",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "enterTravelCode",
+      "signature": "public static boolean enterTravelCode\u200b(FairyLocation fl)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Enters the code for a given fairy location",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "enterCode",
+      "signature": "public static boolean enterCode\u200b(int slot, java.lang.String letter)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Enters a letter for a given slot First slot starts at 0",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "rotateSlotClockwise",
+      "signature": "public static boolean rotateSlotClockwise\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Rotates a slot clockwise once",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCurrentCode",
+      "signature": "public static java.lang.String[] getCurrentCode()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the current fairy ring code as a String array",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCode",
+      "signature": "public static java.lang.String getCode\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the current letter of a given slot in the fairy code",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

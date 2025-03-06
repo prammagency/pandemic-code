@@ -1,0 +1,187 @@
+{
+  "name": "MenuRowBuilder",
+  "full_name": "org.dreambot.api.wrappers.widgets.builder.MenuRowBuilder",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/widgets/builder/MenuRowBuilder.html",
+  "type": "class",
+  "package": "org.dreambot.api.wrappers.widgets.builder",
+  "description": "Created by Nezz on 7/10/2022 Utility class to help create MenuRows to use in the new menu interactions",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "MenuRow",
+      "return_type": "MenuRow",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Builds a MenuRow from a given Player with a given action",
+      "deprecated": false
+    },
+    {
+      "name": "buildFromObject",
+      "signature": "public static MenuRow buildFromObject\u200b(GameObject gameObject, java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Builds a MenuRow for a given GameObject and a given Action",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "buildFromNpc",
+      "signature": "public static MenuRow buildFromNpc\u200b(NPC npc, java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Builds MenuRow for given NPC with given action",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "buildFromPlayer",
+      "signature": "public static MenuRow buildFromPlayer\u200b(Player player, java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Builds a MenuRow from a given Player with a given action",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "buildFromGroundItem",
+      "signature": "public static MenuRow buildFromGroundItem\u200b(GroundItem groundItem, java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Builds a menu row from a ground item with a given action",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "buildFromEntity",
+      "signature": "public static MenuRow buildFromEntity\u200b(Entity entity, java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Builds a menu row from a given entity with the provided action. Passes the method along to the appropriate entity builder",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "buildForInventory",
+      "signature": "public static MenuRow buildForInventory\u200b(int slot, java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This is for normal inventory usage, adjusts for bank, GE, and shop",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "buildForBank",
+      "signature": "public static MenuRow buildForBank\u200b(int slot, java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Builds a MenuRow for a bank withdraw/deposit action",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "buildForSpell",
+      "signature": "public static MenuRow buildForSpell\u200b(Spell spell)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the buildForSpell operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "buildForWidget",
+      "signature": "public static MenuRow buildForWidget\u200b(WidgetChild widget, java.lang.String action, java.lang.String object)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Builds a MenuRow for a given WidgetChild with the given action and object.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "buildForWorld",
+      "signature": "public static MenuRow buildForWorld\u200b(int world, WidgetChild parent)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the buildForWorld operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "removeFormat",
+      "signature": "public static java.lang.String removeFormat\u200b(java.lang.String action, java.util.regex.Pattern... patterns)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the removeFormat operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "removeFormatting",
+      "signature": "public static java.lang.String removeFormatting\u200b(java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the removeFormatting operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

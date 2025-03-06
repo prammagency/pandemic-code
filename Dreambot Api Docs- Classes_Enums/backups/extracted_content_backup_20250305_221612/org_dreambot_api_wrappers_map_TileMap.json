@@ -1,0 +1,152 @@
+{
+  "name": "TileMap",
+  "full_name": "org.dreambot.api.wrappers.map.TileMap",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/map/TileMap.html",
+  "type": "interface",
+  "package": "org.dreambot.api.wrappers.map",
+  "description": "Created with IntelliJ IDEA.",
+  "page_structure": {
+    "type": "interface",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "getWidth",
+      "return_type": "",
+      "modifiers": [],
+      "description": "getWidth int getWidth() Get the width of the tile map. The slightly odd name is used to distinguish this method from commonly used names in game maps. Returns: The number of tiles across the map",
+      "deprecated": false,
+      "signature": "int getWidth()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      }
+    },
+    {
+      "name": "getHeight",
+      "return_type": "",
+      "modifiers": [],
+      "description": "getHeight int getHeight() Get the height of the tile map. The slightly odd name is used to distinguish this method from commonly used names in game maps. Returns: The number of tiles down the map",
+      "deprecated": false,
+      "signature": "int getHeight()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      }
+    },
+    {
+      "name": "getBaseX",
+      "return_type": "",
+      "modifiers": [],
+      "description": "getBaseX int getBaseX() Returns the base X coordinate for this collision map. Returns: the base X coordinate for this collision map if valid, otherwise -1;",
+      "deprecated": false,
+      "signature": "int getBaseX()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      }
+    },
+    {
+      "name": "getBaseY",
+      "return_type": "",
+      "modifiers": [],
+      "description": "getBaseY int getBaseY() Returns the base Y coordinate for this collision map. Returns: the base Y coordinate for this collision map if valid, otherwise -1;",
+      "deprecated": false,
+      "signature": "int getBaseY()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      }
+    },
+    {
+      "name": "isSolid",
+      "signature": "boolean isSolid\u200b(int x, int y)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Check if the given location is blocked, i.values. blocks movement of the supplied mover.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isWalkable",
+      "signature": "boolean isWalkable\u200b(int x1, int y1, int x2, int y2)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Check if the given location is walkable, i.values. no blocked movement.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCost",
+      "signature": "float getCost\u200b(int sx, int sy, int tx, int ty)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get the cost of moving through the given tile. This can be used to make certain areas more desirable. A simple and valid implementation of this method would be to return 1 in all cases.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "visit",
+      "signature": "void visit\u200b(int x, int y)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Notification that the path finder visited a given tile. This is used for debugging new heuristics.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDirection",
+      "signature": "int getDirection\u200b(int x, int y)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Retrieves the direction of the given x-y coordinates as a CollisionMap Flag.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getFlag",
+      "signature": "int getFlag\u200b(int gridX, int gridY)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets collision flag for the given grid location.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

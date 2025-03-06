@@ -1,0 +1,87 @@
+{
+  "name": "NpcOverride",
+  "full_name": "org.dreambot.api.wrappers.graphics.NpcOverride",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/graphics/NpcOverride.html",
+  "type": "class",
+  "package": "org.dreambot.api.wrappers.graphics",
+  "description": "Contains data for overriding model information such as colors and textures",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "getId",
+      "signature": "public long getId()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getModelIds",
+      "signature": "public int[] getModelIds()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getColors",
+      "signature": "public short[] getColors()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTextures",
+      "signature": "public short[] getTextures()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isUseLocalPlayer",
+      "signature": "public boolean isUseLocalPlayer()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

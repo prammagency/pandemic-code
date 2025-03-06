@@ -1,0 +1,100 @@
+{
+  "name": "GnomeGliderWebNode",
+  "full_name": "org.dreambot.api.methods.walking.web.node.impl.pathaware.GnomeGliderWebNode",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/pathaware/GnomeGliderWebNode.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.walking.web.node.impl.pathaware",
+  "description": "This is the same as AbstractWebNode.execute() except the web walker will pass the next web node in the path after this node.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.methods.walking.web.node.AbstractWebNode",
+    "org.dreambot.api.methods.walking.web.node.impl.pathaware.SelfConnectingWebNode"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "GnomeGliderWebNode",
+      "return_type": "java.util.List<GnomeGliderWebNode>",
+      "modifiers": [
+        "static"
+      ],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "ConditionalLocation",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "WebNodeType",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the WebNodeType of this node, used during path finding to ensure they're not disabled by the script",
+      "deprecated": false
+    },
+    {
+      "name": "getGnomeGliderNodes",
+      "signature": "public static java.util.List<GnomeGliderWebNode> getGnomeGliderNodes()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "execute",
+      "signature": "public boolean execute\u200b(AbstractWebNode next)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: PathAwareWebNode",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLocations",
+      "signature": "public java.util.List<ConditionalLocation> getLocations()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getType",
+      "signature": "public WebNodeType getType()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: AbstractWebNode",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

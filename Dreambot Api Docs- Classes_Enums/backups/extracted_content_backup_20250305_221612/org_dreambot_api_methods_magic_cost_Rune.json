@@ -1,0 +1,70 @@
+{
+  "name": "Rune",
+  "full_name": "org.dreambot.api.methods.magic.cost.Rune",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/magic/cost/Rune.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.magic.cost",
+  "description": "Created by Nezz on 6/30/2016.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Rune",
+      "return_type": "Rune[]",
+      "modifiers": [
+        "static"
+      ],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "build",
+      "signature": "public static Rune[] build\u200b(int[] ids, java.lang.String[] names)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getName",
+      "signature": "public java.lang.String getName()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAmount",
+      "signature": "public int getAmount()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

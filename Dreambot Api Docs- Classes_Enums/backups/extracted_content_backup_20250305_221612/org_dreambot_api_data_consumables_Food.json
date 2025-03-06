@@ -1,0 +1,191 @@
+{
+  "name": "Food",
+  "full_name": "org.dreambot.api.data.consumables.Food",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/data/consumables/Food.html",
+  "type": "enum",
+  "package": "org.dreambot.api.data.consumables",
+  "description": "Eats the given food using Inventory.interact(Filter, String) using getFilter() and either \"Eat\" or \"Drink\" as the action.",
+  "page_structure": {
+    "type": "enum",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "Food"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Food",
+      "return_type": "Food[]",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Returns an array containing the constants of this enum type, in the order they are declared.",
+      "deprecated": false
+    },
+    {
+      "name": "Condition",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "Filter",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a Filter to match a non-null, non-noted non-placeholder Item that matches the current Food",
+      "deprecated": false
+    },
+    {
+      "name": "Item",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets an existing Item from your Inventory that matches getFilter()",
+      "deprecated": false
+    },
+    {
+      "name": "values",
+      "signature": "public static Food[] values()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns an array containing the constants of this enum type, in the order they are declared. This method may be used to iterate over the constants as follows: for (Food c : Food.values()) System.out.println(c);",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "valueOf",
+      "signature": "public static Food valueOf\u200b(java.lang.String name)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the enum constant of this type with the specified name. The string must match exactly an identifier used to declare an enum constant in this type. (Extraneous whitespace characters are not permitted.)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getFilter",
+      "signature": "public Filter<Item> getFilter()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a Filter to match a non-null, non-noted non-placeholder Item that matches the current Food",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getFromInventory",
+      "signature": "public Item getFromInventory()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets an existing Item from your Inventory that matches getFilter()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "eat",
+      "signature": "public boolean eat()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Eats the given food using Inventory.interact(Filter, String) using getFilter() and either \"Eat\" or \"Drink\" as the action. Returns false if the condition returns false.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getBestOnHand",
+      "signature": "public static Food getBestOnHand\u200b(boolean overEat)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the best Food in your Inventory based on if you pass in true/false for over eating.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getHeals",
+      "signature": "public int getHeals()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toString",
+      "signature": "public java.lang.String toString()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the proper name without _'s and proper casing. EX: Manta ray instead of MANTA_RAY",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getNames",
+      "signature": "public java.lang.String[] getNames()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCondition",
+      "signature": "public Condition getCondition()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": [],
+  "enum_constants": [
+    {
+      "name": "Enum",
+      "description": "Constant Summary\n\nEnum Constants  Enum Constant | Description  \n---|---  \n`ANCHOVY_PIZZA` |    \n`ANGLERFISH` |    \n`APPLE_PIE` |    \n`BASS` |    \n`BLIGHTED_ANGLERFISH` |    \n`BLIGHTED_KARAMBWAN` |    \n`BLIGHTED_MANTA_RAY` |    \n`BREAD` |    \n`CAKE` |    \n`CHILLI_POTATO` |    \n`CHOC_ICE` |    \n`CHOCOLATE_BOMB` |    \n`CHOCOLATE_CAKE` |    \n`COOKED_CHICKEN` |    \n`COOKED_KARAMBWAN` |    \n`COOKED_MEAT` |    \n`CURRY` |    \n`DARK_CRAB` |    \n`HERRING` |    \n`JUG_OF_WINE` |    \n`LOBSTER` |    \n`MANTA_RAY` |    \n`MEAT_PIE` |    \n`MEAT_PIZZA` |    \n`MONKFISH` |    \n`PEACH` |    \n`PIKE` |    \n`PINEAPPLE_PIZZA` |    \n`PLAIN_PIZZA` |    \n`POTATO_WITH_BUTTER` |    \n`POTATO_WITH_CHEESE` |    \n`REDBERRY_PIE` |    \n`SALMON` |    \n`SARDINE` |    \n`SEA_TURTLE` |    \n`SHARK` |    \n`SHRIMP` |    \n`STEW` |    \n`SUMMER_PIE` |    \n`SWORDFISH` |    \n`TROUT` |    \n`TUNA` |    \n`TUNA_POTATO` |    \n`WILD_PIE` |    \n    * ### Method Summary\n\nAll Methods [Static Methods](javascript:show\\(1\\);) [Instance Methods](javascript:show\\(2\\);) [Concrete Methods](javascript:show\\(8\\);)  Modifier and Type | Method | Description  \n---|---|---  \n`boolean` | `eat()` |  Eats the given food using [`Inventory.interact(Filter, String)`](../../methods/container/impl/Inventory.html#interact\\(org.dreambot.api.methods.filter.Filter,java.lang.String\\)) using `getFilter()` and either \"Eat\" or \"Drink\" as the action.  \n`static boolean` | `eat\u200b(boolean overEat)` |  See `eat(int, boolean)` using [`Skill.HITPOINTS`](../../methods/skills/Skill.html#HITPOINTS)'s [`Skill.getLevel()`](../../methods/skills/Skill.html#getLevel\\(\\)) as the minimum health  \n`static boolean` | `eat\u200b(int minHealth, boolean overEat)` |  Checks for the best [`Food`](Food.html \"enum in org.dreambot.api.data.consumables\") and eats it based on the minHealth and overEat parameters.  \n`static [Food](Food.html \"enum in org.dreambot.api.data.consumables\")` | `getBestOnHand\u200b(boolean overEat)` |  Gets the best [`Food`](Food.html \"enum in org.dreambot.api.data.consumables\") in your [`Inventory`](../../methods/container/impl/Inventory.html \"class in org.dreambot.api.methods.container.impl\") based on if you pass in true/false for over eating.  \n`[Condition](../../utilities/impl/Condition.html \"interface in org.dreambot.api.utilities.impl\")` | `getCondition()` |    \n`[Filter](../../methods/filter/Filter.html \"interface in org.dreambot.api.methods.filter\")<[Item](../../wrappers/items/Item.html \"class in org.dreambot.api.wrappers.items\")>` | `getFilter()` |  Gets a [`Filter`](../../methods/filter/Filter.html \"interface in org.dreambot.api.methods.filter\") to match a non-null, non-noted non-placeholder [`Item`](../../wrappers/items/Item.html \"class in org.dreambot.api.wrappers.items\") that matches the current Food  \n`[Item](../../wrappers/items/Item.html \"class in org.dreambot.api.wrappers.items\")` | `getFromInventory()` |  Gets an existing [`Item`](../../wrappers/items/Item.html \"class in org.dreambot.api.wrappers.items\") from your [`Inventory`](../../methods/container/impl/Inventory.html \"class in org.dreambot.api.methods.container.impl\") that matches `getFilter()`  \n`int` | `getHeals()` |    \n`java.lang.String[]` | `getNames()` |    \n`java.lang.String` | `toString()` |  Returns the proper name without _'s and proper casing.  \n`static [Food](Food.html \"enum in org.dreambot.api.data.consumables\")` | `valueOf\u200b(java.lang.String name)` |  Returns the enum constant of this type with the specified name.  \n`static [Food](Food.html \"enum in org.dreambot.api.data.consumables\")[]` | `values()` |  Returns an array containing the constants of this enum type, in the order they are declared.  \n      * ### Methods inherited from class java.lang.Enum\n\n`compareTo, equals, getDeclaringClass, hashCode, name, ordinal, valueOf`\n\n      * ### Methods inherited from class java.lang.Object\n\n`getClass, notify, notifyAll, wait, wait, wait`\n\n  *     * ### Enum Constant Detail\n\n      * #### SHRIMP\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") SHRIMP\n\n      * #### COOKED_CHICKEN\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") COOKED_CHICKEN\n\n      * #### COOKED_MEAT\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") COOKED_MEAT\n\n      * #### SARDINE\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") SARDINE\n\n      * #### BREAD\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") BREAD\n\n      * #### HERRING\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") HERRING\n\n      * #### TROUT\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") TROUT\n\n      * #### PIKE\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") PIKE\n\n      * #### PEACH\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") PEACH\n\n      * #### SALMON\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") SALMON\n\n      * #### TUNA\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") TUNA\n\n      * #### REDBERRY_PIE\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") REDBERRY_PIE\n\n      * #### JUG_OF_WINE\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") JUG_OF_WINE\n\n      * #### STEW\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") STEW\n\n      * #### CAKE\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") CAKE\n\n      * #### MEAT_PIE\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") MEAT_PIE\n\n      * #### LOBSTER\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") LOBSTER\n\n      * #### BASS\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") BASS\n\n      * #### PLAIN_PIZZA\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") PLAIN_PIZZA\n\n      * #### SWORDFISH\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") SWORDFISH\n\n      * #### POTATO_WITH_BUTTER\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") POTATO_WITH_BUTTER\n\n      * #### CHILLI_POTATO\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") CHILLI_POTATO\n\n      * #### APPLE_PIE\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") APPLE_PIE\n\n      * #### CHOCOLATE_CAKE\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") CHOCOLATE_CAKE\n\n      * #### CHOCOLATE_BOMB\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") CHOCOLATE_BOMB\n\n      * #### POTATO_WITH_CHEESE\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") POTATO_WITH_CHEESE\n\n      * #### MEAT_PIZZA\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") MEAT_PIZZA\n\n      * #### MONKFISH\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") MONKFISH\n\n      * #### ANCHOVY_PIZZA\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") ANCHOVY_PIZZA\n\n      * #### COOKED_KARAMBWAN\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") COOKED_KARAMBWAN\n\n      * #### CURRY\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") CURRY\n\n      * #### SHARK\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") SHARK\n\n      * #### SEA_TURTLE\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") SEA_TURTLE\n\n      * #### PINEAPPLE_PIZZA\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") PINEAPPLE_PIZZA\n\n      * #### SUMMER_PIE\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") SUMMER_PIE\n\n      * #### WILD_PIE\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") WILD_PIE\n\n      * #### MANTA_RAY\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") MANTA_RAY\n\n      * #### TUNA_POTATO\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") TUNA_POTATO\n\n      * #### DARK_CRAB\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") DARK_CRAB\n\n      * #### ANGLERFISH\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") ANGLERFISH\n\n      * #### BLIGHTED_KARAMBWAN\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") BLIGHTED_KARAMBWAN\n\n      * #### BLIGHTED_MANTA_RAY\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") BLIGHTED_MANTA_RAY\n\n      * #### BLIGHTED_ANGLERFISH\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") BLIGHTED_ANGLERFISH\n\n      * #### CHOC_ICE\n            \n                        public static final [Food](Food.html \"enum in org.dreambot.api.data.consumables\") CHOC_ICE\n\n    * ### Method Detail\n\n      * #### values\n            \n                        public static [Food](Food.html \"enum in org.dreambot.api.data.consumables\")[] values()\n\nReturns an array containing the constants of this enum type, in the order they\nare declared. This method may be used to iterate over the constants as\nfollows:\n\n            \n                        for (Food c : Food.values())\n                System.out.println(c);\n            \n\nReturns:\n\n    an array containing the constants of this enum type, in the order they are declared\n      * #### valueOf\n            \n                        public static [Food](Food.html \"enum in org.dreambot.api.data.consumables\") valueOf\u200b(java.lang.String name)\n\nReturns the enum constant of this type with the specified name. The string\nmust match _exactly_ an identifier used to declare an enum constant in this\ntype. (Extraneous whitespace characters are not permitted.)\n\nParameters:\n\n    `name` \\- the name of the enum constant to be returned.\nReturns:\n\n    the enum constant with the specified name\nThrows:\n\n    `java.lang.IllegalArgumentException` \\- if this enum type has no constant with the specified name\n    `java.lang.NullPointerException` \\- if the argument is null\n      * #### getFilter\n            \n                        public [Filter](../../methods/filter/Filter.html \"interface in org.dreambot.api.methods.filter\")<[Item](../../wrappers/items/Item.html \"class in org.dreambot.api.wrappers.items\")> getFilter()\n\nGets a [`Filter`](../../methods/filter/Filter.html \"interface in\norg.dreambot.api.methods.filter\") to match a non-null, non-noted non-\nplaceholder [`Item`](../../wrappers/items/Item.html \"class in\norg.dreambot.api.wrappers.items\") that matches the current Food\n\nReturns:\n\n    [`Food`](Food.html \"enum in org.dreambot.api.data.consumables\") that matches the [`Filter`](../../methods/filter/Filter.html \"interface in org.dreambot.api.methods.filter\"), null if none found.\n      * #### getFromInventory\n            \n                        public [Item](../../wrappers/items/Item.html \"class in org.dreambot.api.wrappers.items\") getFromInventory()\n\nGets an existing [`Item`](../../wrappers/items/Item.html \"class in\norg.dreambot.api.wrappers.items\") from your\n[`Inventory`](../../methods/container/impl/Inventory.html \"class in\norg.dreambot.api.methods.container.impl\") that matches `getFilter()`\n\nReturns:\n\n    [`Item`](../../wrappers/items/Item.html \"class in org.dreambot.api.wrappers.items\") that matches `getFilter()` from your Inventory, else null if none found\n      * #### eat\n            \n                        public boolean eat()\n\nEats the given food using [`Inventory.interact(Filter,\nString)`](../../methods/container/impl/Inventory.html#interact\\(org.dreambot.api.methods.filter.Filter,java.lang.String\\))\nusing `getFilter()` and either \"Eat\" or \"Drink\" as the action. Returns false\nif the `condition` returns false.\n\nReturns:\n\n    see [`Inventory.interact(Filter, String)`](../../methods/container/impl/Inventory.html#interact\\(org.dreambot.api.methods.filter.Filter,java.lang.String\\))\n      * #### getBestOnHand\n            \n                        public static [Food](Food.html \"enum in org.dreambot.api.data.consumables\") getBestOnHand\u200b(boolean overEat)\n\nGets the best [`Food`](Food.html \"enum in org.dreambot.api.data.consumables\")\nin your [`Inventory`](../../methods/container/impl/Inventory.html \"class in\norg.dreambot.api.methods.container.impl\") based on if you pass in true/false\nfor over eating.\n\nParameters:\n\n    `overEat` \\- If `Boolean.TRUE`, it will ignore `getHeals()`, otherwise it will only return a [`Food`](Food.html \"enum in org.dreambot.api.data.consumables\") that heals for <= your missing hp\nReturns:\n\n    Best [`Food`](Food.html \"enum in org.dreambot.api.data.consumables\") in [`Inventory`](../../methods/container/impl/Inventory.html \"class in org.dreambot.api.methods.container.impl\") that satisfies the overEat parameter. Null if none found.\n      * #### getHeals\n            \n                        public int getHeals()\n\n      * #### eat\n            \n                        public static boolean eat\u200b(boolean overEat)\n\nSee `eat(int, boolean)` using\n[`Skill.HITPOINTS`](../../methods/skills/Skill.html#HITPOINTS)'s\n[`Skill.getLevel()`](../../methods/skills/Skill.html#getLevel\\(\\)) as the\nminimum health\n\n      * #### eat\n            \n                        public static boolean eat\u200b(int minHealth,\n                                      boolean overEat)\n\nChecks for the best [`Food`](Food.html \"enum in\norg.dreambot.api.data.consumables\") and eats it based on the minHealth and\noverEat parameters. It will check against your current\n[`Skill.HITPOINTS`](../../methods/skills/Skill.html#HITPOINTS)'s\n[`Skill.getBoostedLevel()`](../../methods/skills/Skill.html#getBoostedLevel\\(\\))\nfor the minHealth parameter. If your current hitpoints are >= the minHealth\namount, it will not eat.\n\nParameters:\n\n    `minHealth` \\- The minimum HP you require before eating.\n    `overEat` \\- `Boolean` value for if you want the method to eat even if it will over-heal you.\nReturns:\n\n    `Boolean.FALSE` if your health is above the minimum value and overEat is false or if there is no valid [`Food`](Food.html \"enum in org.dreambot.api.data.consumables\") found. See `eat()` if a valid [`Food`](Food.html \"enum in org.dreambot.api.data.consumables\") is found.\n      * #### toString\n            \n                        public java.lang.String toString()\n\nReturns the proper name without _'s and proper casing. EX: Manta ray instead\nof MANTA_RAY\n\nOverrides:\n\n    `toString` in class `java.lang.Enum<[Food](Food.html \"enum in org.dreambot.api.data.consumables\")>`\n      * #### getNames\n            \n                        public java.lang.String[] getNames()\n\n      * #### getCondition\n            \n                        public [Condition](../../utilities/impl/Condition.html \"interface in org.dreambot.api.utilities.impl\") getCondition()\n\nSkip navigation links\n\n  * [Overview](../../../../../overview-summary.html)\n  * [Package](package-summary.html)\n  * Class\n  * [Tree](package-tree.html)\n  * [Deprecated](../../../../../deprecated-list.html)\n  * [Index](../../../../../index-all.html)\n  * [Help](../../../../../help-doc.html)\n\n  * [Frames](../../../../../index.html?org/dreambot/api/data/consumables/Food.html)\n  * [No Frames](Food.html)\n\n  * [All Classes](../../../../../allclasses-noframe.html)\n\nJavaScript is disabled on your browser.\n\n  * Summary: \n  * Nested | \n  * Enum Constants | \n  * Field | \n  * Method\n\n  * Detail: \n  * Enum Constants | \n  * Field | \n  * Method"
+    }
+  ],
+  "extraction_fallback_used": true
+}

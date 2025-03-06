@@ -1,0 +1,70 @@
+{
+  "name": "LocationRequirement",
+  "full_name": "org.dreambot.api.data.requirements.LocationRequirement",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/data/requirements/LocationRequirement.html",
+  "type": "class",
+  "package": "org.dreambot.api.data.requirements",
+  "description": "Class LocationRequirement in the org.dreambot.api.data.requirements package provides functionality for DreamBot scripts.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.data.requirements.Requirement"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Area",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the Area operation.",
+      "deprecated": false
+    },
+    {
+      "name": "meetsRequirement",
+      "signature": "public boolean meetsRequirement()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the meetsRequirement operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getArea",
+      "signature": "public Area getArea()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the area.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setArea",
+      "signature": "public void setArea\u200b(Area area)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the area.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

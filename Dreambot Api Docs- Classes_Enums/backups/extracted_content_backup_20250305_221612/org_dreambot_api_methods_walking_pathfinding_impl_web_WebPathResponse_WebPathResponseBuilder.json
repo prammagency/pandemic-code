@@ -1,0 +1,88 @@
+{
+  "name": "WebPathResponse.WebPathResponseBuilder",
+  "full_name": "org.dreambot.api.methods.walking.pathfinding.impl.web.WebPathResponse.WebPathResponseBuilder",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/web/WebPathResponse.WebPathResponseBuilder.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.walking.pathfinding.impl.web",
+  "description": "",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "WebPathResponse",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "WebPathResponse.WebPathResponseBuilder",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "nodes",
+      "signature": "public WebPathResponse.WebPathResponseBuilder nodes\u200b(java.util.List<AbstractWebNode> nodes)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "query",
+      "signature": "public WebPathResponse.WebPathResponseBuilder query\u200b(WebPathQuery query)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "build",
+      "signature": "public WebPathResponse build()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toString",
+      "signature": "public java.lang.String toString()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

@@ -1,0 +1,35 @@
+{
+  "name": "DBMouseEvent",
+  "full_name": "org.dreambot.api.input.event.impl.mouse.awt.DBMouseEvent",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/awt/DBMouseEvent.html",
+  "type": "class",
+  "package": "org.dreambot.api.input.event.impl.mouse.awt",
+  "description": "DreamBot implementation of MouseEvent Sets all required internal fields Primarily used internally, you should be using AbstractMouseEvent implementations for sending mouse events",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "toString",
+      "signature": "public java.lang.String toString()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

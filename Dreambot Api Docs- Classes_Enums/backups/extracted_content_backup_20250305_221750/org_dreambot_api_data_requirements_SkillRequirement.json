@@ -1,0 +1,122 @@
+{
+  "name": "SkillRequirement",
+  "full_name": "org.dreambot.api.data.requirements.SkillRequirement",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/data/requirements/SkillRequirement.html",
+  "type": "class",
+  "package": "org.dreambot.api.data.requirements",
+  "description": "Class SkillRequirement in the org.dreambot.api.data.requirements package provides functionality for DreamBot scripts.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.data.requirements.Requirement"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Skill",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the Skill operation.",
+      "deprecated": false
+    },
+    {
+      "name": "meetsRequirement",
+      "signature": "public boolean meetsRequirement()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the meetsRequirement operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSkill",
+      "signature": "public Skill getSkill()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the skill.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLevel",
+      "signature": "public int getLevel()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the level.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isBoosted",
+      "signature": "public boolean isBoosted()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if boosted.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setSkill",
+      "signature": "public void setSkill\u200b(Skill skill)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the skill.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setLevel",
+      "signature": "public void setLevel\u200b(int level)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the level.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setBoosted",
+      "signature": "public void setBoosted\u200b(boolean boosted)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the boosted.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

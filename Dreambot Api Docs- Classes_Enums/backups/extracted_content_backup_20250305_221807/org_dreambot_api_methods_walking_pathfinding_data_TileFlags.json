@@ -1,0 +1,844 @@
+{
+  "name": "TileFlags",
+  "full_name": "org.dreambot.api.methods.walking.pathfinding.data.TileFlags",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/data/TileFlags.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.walking.pathfinding.data",
+  "description": "Defines the TileMap collision flags.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Field Detail",
+      "signature": "public static final\u00a0int NULL",
+      "description": "Performs the Field Detail operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "Field Detail",
+      "signature": "public static final\u00a0int NULL",
+      "description": "Performs the Field Detail operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "NULL",
+      "signature": "public static final\u00a0int NULL",
+      "description": "Performs the NULL operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_NORTHWEST",
+      "signature": "public static final\u00a0int WALL_BLOCK_NORTHWEST",
+      "description": "Performs the WALL_BLOCK_NORTHWEST operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_NORTH",
+      "signature": "public static final\u00a0int WALL_BLOCK_NORTH",
+      "description": "Performs the WALL_BLOCK_NORTH operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_NORTHEAST",
+      "signature": "public static final\u00a0int WALL_BLOCK_NORTHEAST",
+      "description": "Performs the WALL_BLOCK_NORTHEAST operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_EAST",
+      "signature": "public static final\u00a0int WALL_BLOCK_EAST",
+      "description": "Performs the WALL_BLOCK_EAST operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_SOUTHEAST",
+      "signature": "public static final\u00a0int WALL_BLOCK_SOUTHEAST",
+      "description": "Performs the WALL_BLOCK_SOUTHEAST operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_SOUTH",
+      "signature": "public static final\u00a0int WALL_BLOCK_SOUTH",
+      "description": "Performs the WALL_BLOCK_SOUTH operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_SOUTHWEST",
+      "signature": "public static final\u00a0int WALL_BLOCK_SOUTHWEST",
+      "description": "Performs the WALL_BLOCK_SOUTHWEST operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_WEST",
+      "signature": "public static final\u00a0int WALL_BLOCK_WEST",
+      "description": "Performs the WALL_BLOCK_WEST operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_SIGHT_NORTHWEST",
+      "signature": "public static final\u00a0int WALL_BLOCK_SIGHT_NORTHWEST",
+      "description": "Performs the WALL_BLOCK_SIGHT_NORTHWEST operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_SIGHT_NORTH",
+      "signature": "public static final\u00a0int WALL_BLOCK_SIGHT_NORTH",
+      "description": "Performs the WALL_BLOCK_SIGHT_NORTH operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_SIGHT_NORTHEAST",
+      "signature": "public static final\u00a0int WALL_BLOCK_SIGHT_NORTHEAST",
+      "description": "Performs the WALL_BLOCK_SIGHT_NORTHEAST operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_SIGHT_EAST",
+      "signature": "public static final\u00a0int WALL_BLOCK_SIGHT_EAST",
+      "description": "Performs the WALL_BLOCK_SIGHT_EAST operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_SIGHT_SOUTHEAST",
+      "signature": "public static final\u00a0int WALL_BLOCK_SIGHT_SOUTHEAST",
+      "description": "Performs the WALL_BLOCK_SIGHT_SOUTHEAST operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_SIGHT_SOUTH",
+      "signature": "public static final\u00a0int WALL_BLOCK_SIGHT_SOUTH",
+      "description": "Performs the WALL_BLOCK_SIGHT_SOUTH operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_SIGHT_SOUTHWEST",
+      "signature": "public static final\u00a0int WALL_BLOCK_SIGHT_SOUTHWEST",
+      "description": "Performs the WALL_BLOCK_SIGHT_SOUTHWEST operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_SIGHT_WEST",
+      "signature": "public static final\u00a0int WALL_BLOCK_SIGHT_WEST",
+      "description": "Performs the WALL_BLOCK_SIGHT_WEST operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "OBJECT_TILE",
+      "signature": "public static final\u00a0int OBJECT_TILE",
+      "description": "Performs the OBJECT_TILE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DECORATION_BLOCK",
+      "signature": "public static final\u00a0int DECORATION_BLOCK",
+      "description": "Performs the DECORATION_BLOCK operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "BLOCK_FLOOR",
+      "signature": "public static final\u00a0int BLOCK_FLOOR",
+      "description": "Performs the BLOCK_FLOOR operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "NON_WALKABLE",
+      "signature": "public static final\u00a0int NON_WALKABLE",
+      "description": "Performs the NON_WALKABLE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_ALLOW_RANGE_NORTHWEST",
+      "signature": "public static final\u00a0int WALL_ALLOW_RANGE_NORTHWEST",
+      "description": "Performs the WALL_ALLOW_RANGE_NORTHWEST operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_ALLOW_RANGE_NORTH",
+      "signature": "public static final\u00a0int WALL_ALLOW_RANGE_NORTH",
+      "description": "Performs the WALL_ALLOW_RANGE_NORTH operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_ALLOW_RANGE_NORTHEAST",
+      "signature": "public static final\u00a0int WALL_ALLOW_RANGE_NORTHEAST",
+      "description": "Performs the WALL_ALLOW_RANGE_NORTHEAST operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_ALLOW_RANGE_EAST",
+      "signature": "public static final\u00a0int WALL_ALLOW_RANGE_EAST",
+      "description": "Performs the WALL_ALLOW_RANGE_EAST operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_ALLOW_RANGE_SOUTHEAST",
+      "signature": "public static final\u00a0int WALL_ALLOW_RANGE_SOUTHEAST",
+      "description": "Performs the WALL_ALLOW_RANGE_SOUTHEAST operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_ALLOW_RANGE_SOUTH",
+      "signature": "public static final\u00a0int WALL_ALLOW_RANGE_SOUTH",
+      "description": "Performs the WALL_ALLOW_RANGE_SOUTH operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_ALLOW_RANGE_SOUTHWEST",
+      "signature": "public static final\u00a0int WALL_ALLOW_RANGE_SOUTHWEST",
+      "description": "Performs the WALL_ALLOW_RANGE_SOUTHWEST operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_ALLOW_RANGE_WEST",
+      "signature": "public static final\u00a0int WALL_ALLOW_RANGE_WEST",
+      "description": "Performs the WALL_ALLOW_RANGE_WEST operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "OBJECT_ALLOW_RANGE",
+      "signature": "public static final\u00a0int OBJECT_ALLOW_RANGE",
+      "description": "Performs the OBJECT_ALLOW_RANGE operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "UNLOADED",
+      "signature": "public static final\u00a0int UNLOADED",
+      "description": "Performs the UNLOADED operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "OBJECT_BLOCK_SIGHT",
+      "signature": "public static final\u00a0int OBJECT_BLOCK_SIGHT",
+      "description": "Performs the OBJECT_BLOCK_SIGHT operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_NORTHWEST",
+      "signature": "public static final\u00a0int WALL_NORTHWEST",
+      "description": "Performs the WALL_NORTHWEST operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_NORTH",
+      "signature": "public static final\u00a0int WALL_NORTH",
+      "description": "Performs the WALL_NORTH operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_NORTHEAST",
+      "signature": "public static final\u00a0int WALL_NORTHEAST",
+      "description": "Performs the WALL_NORTHEAST operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_EAST",
+      "signature": "public static final\u00a0int WALL_EAST",
+      "description": "Performs the WALL_EAST operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_SOUTHEAST",
+      "signature": "public static final\u00a0int WALL_SOUTHEAST",
+      "description": "Performs the WALL_SOUTHEAST operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_SOUTH",
+      "signature": "public static final\u00a0int WALL_SOUTH",
+      "description": "Performs the WALL_SOUTH operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_SOUTHWEST",
+      "signature": "public static final\u00a0int WALL_SOUTHWEST",
+      "description": "Performs the WALL_SOUTHWEST operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "WALL_WEST",
+      "signature": "public static final\u00a0int WALL_WEST",
+      "description": "Performs the WALL_WEST operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "Constructor Detail",
+      "signature": "public\u00a0TileFlags()",
+      "description": "Performs the Constructor Detail operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "TileFlags",
+      "signature": "public\u00a0TileFlags()",
+      "description": "Performs the TileFlags operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [
+    {
+      "name": "NULL",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_NORTHWEST",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_NORTH",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_NORTHEAST",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_EAST",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_SOUTHEAST",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_SOUTH",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_SOUTHWEST",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_WEST",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_SIGHT_NORTHWEST",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_SIGHT_NORTH",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_SIGHT_NORTHEAST",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_SIGHT_EAST",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_SIGHT_SOUTHEAST",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_SIGHT_SOUTH",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_SIGHT_SOUTHWEST",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_BLOCK_SIGHT_WEST",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "OBJECT_TILE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "DECORATION_BLOCK",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "BLOCK_FLOOR",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "NON_WALKABLE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_ALLOW_RANGE_NORTHWEST",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_ALLOW_RANGE_NORTH",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_ALLOW_RANGE_NORTHEAST",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_ALLOW_RANGE_EAST",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_ALLOW_RANGE_SOUTHEAST",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_ALLOW_RANGE_SOUTH",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_ALLOW_RANGE_SOUTHWEST",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_ALLOW_RANGE_WEST",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "OBJECT_ALLOW_RANGE",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "UNLOADED",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "OBJECT_BLOCK_SIGHT",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_NORTHWEST",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_NORTH",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_NORTHEAST",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_EAST",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_SOUTHEAST",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_SOUTH",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_SOUTHWEST",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "WALL_WEST",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "Constructor",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "TileFlags",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    }
+  ],
+  "constructors": [],
+  "extraction_fallback_used": true
+}

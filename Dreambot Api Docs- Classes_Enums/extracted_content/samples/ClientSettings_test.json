@@ -1,0 +1,1351 @@
+{
+  "name": "ClientSettings",
+  "full_name": "org.dreambot.api.ClientSettings",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/ClientSettings.html",
+  "type": "class",
+  "package": "org.dreambot.api",
+  "description": "Created by Nezz on 10/25/2015.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [
+    {
+      "name": "Method Summary\n\nAll Methods\u00a0Static Methods\u00a0Concrete Methods\u00a0Deprecated Methods\u00a0\n\nModifier and Type\nMethod\nDescription\n\n\nstatic void\naddStoredAuth\u200b(java.lang.String\u00a0username,\n             int\u00a0auth)\n\u00a0\n\n\nstatic boolean\nareChatEffectsEnabled()\n\nChecks if chat effects are enabled\n\n\n\nstatic boolean\nareCollectionLogNotificationsEnabled()\n\u00a0\n\n\nstatic boolean\nareCollectionLogPopupsEnabled()\n\u00a0\n\n\nstatic boolean\nareDataOrbsEnabled()\n\nChecks if data orbs are enabled\n\n\n\nstatic boolean\nareItemPilesOnDeathEnabled()\n\nChecks if item piles on death are enabled\n\n\n\nstatic boolean\nareLootNotificationsEnabled()\n\nChecks whether loot notifications are enabled or not\n\n\n\nstatic boolean\nareRoofsHidden()\n\nChecks if roofs are currently set to hidden\n\n\n\nstatic boolean\nareRunesAutoPouching()\n\u00a0\n\n\nstatic boolean\ncanUseMiddleMouseForCamera()\n\nChecks to see if RS's middle mouse button controls the camera setting is enabled\n\n\n\nstatic void\nclearLayoutPreferences()\n\u00a0\n\n\nstatic boolean\ncloseSettingsInterface()\n\nThis will close the \"All Settings\" interface\n\n\n\nstatic int\ngetAreaVolume()\n\nGets the area volume\n\n\n\nstatic double\ngetBrightness()\n\nGets the brightness level\n\n\n\nstatic int\ngetClientBrightness()\n\nGets the in game brightness setting\n\n\n\nstatic ClientLayout\ngetClientLayout()\n\nGets the current client layout\n\n\n\nstatic java.util.Map<java.lang.Integer,\u200bjava.lang.Integer>\ngetClientParameters()\n\nReturns the client parameters\n\n\n\nstatic int\ngetEnergyThresholdToEnableRunning()\n\u00a0\n\n\nstatic int\ngetLootDropMinimumValue()\n\nGets the minimum value set for loot drop notifications\n\n\n\nstatic int\ngetMinimumAlchWarningValue()\n\u00a0\n\n\nstatic int\ngetMinimumDropWarningValue()\n\u00a0\n\n\nstatic int\ngetMusicVolume()\n\nGets the music volume\n\n\n\nstatic ActionMode\ngetNPCAttackOptionsMode()\n\nReturns the current ActionMode for NPC attack options\n\n\n\nstatic ActionMode\ngetPlayerAttackOptionsMode()\n\nReturns the current ActionMode for player attack options\n\n\n\nstatic int\ngetResizableValue()\n\nGets an int value of if resizable mode is enabled\n 1 is disabled, 2 is enabled\n\n\n\nstatic java.lang.String\ngetSavedUsername()\n\nGets the currently saved login username, null if none saved\n\n\n\nstatic int\ngetSoundEffectVolume()\n\nGets the sound effect volume\n\n\n\nstatic boolean\nisAcceptAidEnabled()\n\nChecks if accept aid is enabled\n\n\n\nstatic boolean\nisAmmoAutoEquipping()\n\u00a0\n\n\nstatic boolean\nisBuyPriceWarningEnabled()\n\nChecks if the buy price warning is enabled\n\n\n\nstatic boolean\nisClickThroughChatboxEnabled()\n\nChecks if click through chatbox is enabled\n\n\n\nstatic boolean\nisDisplayFps()\n\nGets whether the client is displaying the current FPS or not\n\n\n\nstatic boolean\nisEscInterfaceClosingEnabled()\n\nChecks if escape to close interfaces is enabled\n\n\n\nstatic boolean\nisFeroxExitWarningEnabled()\n\nChecks if the exit warning is enabled for Ferox\n\n\n\nstatic boolean\nisFeroxExitWarningOnHighRiskWorldEnabled()\n\nChecks if the exit warning is enabled for Ferox while on a high risk world\n\n\n\nstatic boolean\nisGameAudioOn()\n\nGets the current game audio settings\n\n\n\nstatic boolean\nisHideUsername()\n\nChecks if the \"hide username\" setting is enabled\n\n\n\nstatic boolean\nisLevelUpInterfaceEnabled()\n\nChecks if data orbs are enabled\n\n\n\nstatic boolean\nisLoginMusicDisabled()\n\nChecks whether the login screen music is disabled or not\n\n\n\nstatic boolean\nisLoginMusicEnabled()\n\nDeprecated.\nsee isLoginMusicDisabled()\n\n\n\n\nstatic boolean\nisMakeXDartsEnabled()\n\u00a0\n\n\nstatic boolean\nisMoveFollowerOptionsLowerEnabled()\n\nChecks if the move follower options lower setting is enabled\n\n\n\nstatic boolean\nisOpen()\n\u00a0\n\n\nstatic boolean\nisRememberUsername()\n\nChecks whether the client's remember username setting is enabled\n\n\n\nstatic boolean\nisResizableActive()\n\nReturns whether resizable mode is enabled\n\n\n\nstatic boolean\nisScrollToZoomEnabled()\n\nChecks if scroll to zoom is enabled\n\n\n\nstatic boolean\nisSellPriceWarningEnabled()\n\nChecks if the sell price warning is enabled\n\n\n\nstatic boolean\nisShiftClickDroppingEnabled()\n\nChecks if shift click dropping is enabled\n\n\n\nstatic boolean\nisShiftInteractionEnabled()\n\nDeprecated.\n\n\n\nstatic boolean\nisSkullPreventionActive()\n\nChecks whether skull prevention is active or not\n\n\n\nstatic boolean\nisTradeDelayEnabled()\n\u00a0\n\n\nstatic boolean\nisTransparentChatboxEnabled()\n\nChecks if the transparent chatbox is enabled\n\n\n\nstatic boolean\nisTransparentSidePanelEnabled()\n\nChecks if the transparent chatbox is enabled\n\n\n\nstatic boolean\nisWildernessLeversWarningEnabled()\n\nChecks if the wilderness teleport levers warning is on or off\n\n\n\nstatic boolean\nisWorldHopConfirmationEnabled()\n\u00a0\n\n\nstatic boolean\nisZoomingEnabled()\n\nChecks if scroll to zoom is enabled on the account\n\n\n\nstatic boolean\nrestoreDefaultKeybinds()\n\u00a0\n\n\nstatic boolean\nroofsEnabled()\n\nDeprecated.\nsee areRoofsHidden()\n\n\n\n\nstatic boolean\nsetClientBrightness\u200b(int\u00a0brightness)\n\nSets the in game brightness setting\n\n\n\nstatic boolean\nsetClientLayout\u200b(ClientLayout\u00a0layout)\n\u00a0\n\n\nstatic boolean\nsetDefaultZoom()\n\nSets the zoom to the default zoom value\n\n\n\nstatic void\nsetDisplayFps\u200b(boolean\u00a0display)\n\nCalls a direct set on if FPS should be displayed\n\n\n\nstatic boolean\nsetEnergyThresholdToEnableRunning\u200b(int\u00a0value)\n\u00a0\n\n\nstatic void\nsetHideUsername\u200b(boolean\u00a0hide)\n\nCalls a direct set on the hide username setting, this setting should be persisted\n\n\n\nstatic void\nsetLoginMusicDisabled\u200b(boolean\u00a0disabled)\n\nCalls a direct set on whether login music is disabled, these settings should be persisted\n\n\n\nstatic boolean\nsetMinimumAlchWarningValue\u200b(int\u00a0value)\n\u00a0\n\n\nstatic boolean\nsetMinimumDropWarningValue\u200b(int\u00a0value)\n\u00a0\n\n\nstatic boolean\nsetNPCAttackOptionsMode\u200b(ActionMode\u00a0mode)\n\nSets the NPC attack options mode\n\n\n\nstatic boolean\nsetPlayerAttackOptionsMode\u200b(ActionMode\u00a0mode)\n\nSets the player attack options mode\n\n\n\nstatic void\nsetSavedUsername\u200b(java.lang.String\u00a0username)\n\nCalls a direct set on saved username, this setting should be persisted\n\n\n\nstatic boolean\ntoggleAcceptAid\u200b(boolean\u00a0on)\n\nToggles whether accept aid is on or off\n\n\n\nstatic boolean\ntoggleAmmoAutoEquipping\u200b(boolean\u00a0on)\n\u00a0\n\n\nstatic boolean\ntoggleBuyPriceWarning\u200b(boolean\u00a0on)\n\nToggles whether the buy price warning is on or off\n\n\n\nstatic boolean\ntoggleChatEffects\u200b(boolean\u00a0on)\n\nToggles whether chat effects are on or off\n\n\n\nstatic boolean\ntoggleClickThroughChatbox\u200b(boolean\u00a0on)\n\nToggles whether click through chatbox is on or off\n\n\n\nstatic boolean\ntoggleCollectionLogNotifications\u200b(boolean\u00a0on)\n\u00a0\n\n\nstatic boolean\ntoggleCollectionLogPopups\u200b(boolean\u00a0on)\n\u00a0\n\n\nstatic boolean\ntoggleDataOrbs\u200b(boolean\u00a0on)\n\nToggles whether data orbs are on or off\n\n\n\nstatic boolean\ntoggleEscInterfaceClosing\u200b(boolean\u00a0on)\n\nToggles whether using the escape key to close interfaces is on or off\n\n\n\nstatic boolean\ntoggleFeroxExitWarning\u200b(boolean\u00a0on)\n\nToggles whether the exit warning for Ferox is on or off\n\n\n\nstatic boolean\ntoggleFeroxExitWarningOnHighRiskWorld\u200b(boolean\u00a0on)\n\nToggles whether the exit warning for Ferox while on a high risk world is on or off\n\n\n\nstatic boolean\ntoggleGameAudio\u200b(boolean\u00a0on)\n\nToggles whether all game audio settings are on or off\n\n\n\nstatic boolean\ntoggleItemPilesOnDeath\u200b(boolean\u00a0on)\n\nToggles whether certain items are piled on death is on or off\n\n\n\nstatic boolean\ntoggleLevelUpInterface\u200b(boolean\u00a0on)\n\nToggles whether level-up interfaces are enabled\n\n\n\nstatic boolean\ntoggleLootNotifications\u200b(boolean\u00a0on)\n\nTurns the loot notifications on or off\n Does not do initial setting value for loot drop notifications\n\n\n\nstatic boolean\ntoggleMakeXDarts\u200b(boolean\u00a0enabled)\n\u00a0\n\n\nstatic boolean\ntoggleMoveFollowerOptionsLower\u200b(boolean\u00a0on)\n\nToggles whether follower options are lower is on or off\n\n\n\nstatic boolean\ntoggleResizable\u200b(boolean\u00a0on)\n\nToggles whether resizable mode is enabled or not\n\n\n\nstatic boolean\ntoggleRoofs\u200b(boolean\u00a0on)\n\nToggles roof visibility through the settings screen\n\n\n\nstatic boolean\ntoggleRuneAutoPouching\u200b(boolean\u00a0on)\n\u00a0\n\n\nstatic boolean\ntoggleScrollToZoom\u200b(boolean\u00a0on)\n\nToggles whether scroll to zoom the camera is on or off\n\n\n\nstatic boolean\ntoggleSellPriceWarning\u200b(boolean\u00a0on)\n\nToggles whether the sell price warning is on or off\n\n\n\nstatic boolean\ntoggleSetting\u200b(ClientSettings.SettingsTab\u00a0tab,\n             java.lang.String\u00a0settingLabel,\n             Condition\u00a0completedCondition)\n\u00a0\n\n\nstatic boolean\ntoggleShiftClickDropping\u200b(boolean\u00a0on)\n\nToggles whether shift click dropping is on or off\n\n\n\nstatic boolean\ntoggleSkullPrevention\u200b(boolean\u00a0on)\n\nTurns skull prevention on or off\n\n\n\nstatic boolean\ntoggleTradeDelay\u200b(boolean\u00a0on)\n\u00a0\n\n\nstatic boolean\ntoggleTransparentChatbox\u200b(boolean\u00a0on)\n\nToggles whether transparent chatbox is on or off\n\n\n\nstatic boolean\ntoggleTransparentSidePanel\u200b(boolean\u00a0on)\n\nToggles whether transparent side panel is on or off\n\n\n\nstatic boolean\ntoggleWildernessLeversWarning\u200b(boolean\u00a0on)\n\nToggles whether the wilderness teleport levers warning is on or off\n\n\n\nstatic boolean\ntoggleWorldHopConfirmation\u200b(boolean\u00a0enabled)\n\u00a0\n\n\n\n\n\n\nMethods inherited from class\u00a0java.lang.Object\nequals, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait",
+      "description": "",
+      "modifiers": []
+    },
+    {
+      "name": "Methods inherited from class\u00a0java.lang.Object\nequals, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait",
+      "description": "",
+      "modifiers": []
+    }
+  ],
+  "methods": [
+    {
+      "name": "ClientLayout",
+      "return_type": "ClientLayout",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Gets the current client layout",
+      "deprecated": false
+    },
+    {
+      "name": "ActionMode",
+      "return_type": "ActionMode",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Returns the current ActionMode for player attack options",
+      "deprecated": false
+    },
+    {
+      "name": "isDisplayFps",
+      "signature": "public static boolean isDisplayFps()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets whether the client is displaying the current FPS or not",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setDisplayFps",
+      "signature": "public static void setDisplayFps\u200b(boolean display)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Calls a direct set on if FPS should be displayed",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isLoginMusicEnabled",
+      "signature": "@Deprecated public static boolean isLoginMusicEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isLoginMusicDisabled",
+      "signature": "public static boolean isLoginMusicDisabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks whether the login screen music is disabled or not",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setLoginMusicDisabled",
+      "signature": "public static void setLoginMusicDisabled\u200b(boolean disabled)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Calls a direct set on whether login music is disabled, these settings should be persisted",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSavedUsername",
+      "signature": "public static java.lang.String getSavedUsername()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the currently saved login username, null if none saved",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setSavedUsername",
+      "signature": "public static void setSavedUsername\u200b(java.lang.String username)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Calls a direct set on saved username, this setting should be persisted",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isHideUsername",
+      "signature": "public static boolean isHideUsername()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the \"hide username\" setting is enabled",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setHideUsername",
+      "signature": "public static void setHideUsername\u200b(boolean hide)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Calls a direct set on the hide username setting, this setting should be persisted",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isRememberUsername",
+      "signature": "public static boolean isRememberUsername()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks whether the client's remember username setting is enabled",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getResizableValue",
+      "signature": "public static int getResizableValue()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets an int value of if resizable mode is enabled 1 is disabled, 2 is enabled",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isResizableActive",
+      "signature": "public static boolean isResizableActive()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns whether resizable mode is enabled",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getClientParameters",
+      "signature": "public static java.util.Map<java.lang.Integer,\u200bjava.lang.Integer> getClientParameters()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the client parameters",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "addStoredAuth",
+      "signature": "public static void addStoredAuth\u200b(java.lang.String username, int auth)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "roofsEnabled",
+      "signature": "@Deprecated public static boolean roofsEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "areRoofsHidden",
+      "signature": "public static boolean areRoofsHidden()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if roofs are currently set to hidden",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleRoofs",
+      "signature": "public static boolean toggleRoofs\u200b(boolean on)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Toggles roof visibility through the settings screen",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "closeSettingsInterface",
+      "signature": "public static boolean closeSettingsInterface()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This will close the \"All Settings\" interface",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isOpen",
+      "signature": "public static boolean isOpen()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleGameAudio",
+      "signature": "public static boolean toggleGameAudio\u200b(boolean on)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Toggles whether all game audio settings are on or off",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleResizable",
+      "signature": "public static boolean toggleResizable\u200b(boolean on)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Toggles whether resizable mode is enabled or not",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getClientBrightness",
+      "signature": "public static int getClientBrightness()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the in game brightness setting",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setClientBrightness",
+      "signature": "public static boolean setClientBrightness\u200b(int brightness)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the in game brightness setting",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "clearLayoutPreferences",
+      "signature": "public static void clearLayoutPreferences()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setClientLayout",
+      "signature": "public static boolean setClientLayout\u200b(ClientLayout layout)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getClientLayout",
+      "signature": "public static ClientLayout getClientLayout()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the current client layout",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isGameAudioOn",
+      "signature": "public static boolean isGameAudioOn()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the current game audio settings",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleAcceptAid",
+      "signature": "public static boolean toggleAcceptAid\u200b(boolean on)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Toggles whether accept aid is on or off",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isAcceptAidEnabled",
+      "signature": "public static boolean isAcceptAidEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if accept aid is enabled",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleDataOrbs",
+      "signature": "public static boolean toggleDataOrbs\u200b(boolean on)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Toggles whether data orbs are on or off",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "areDataOrbsEnabled",
+      "signature": "public static boolean areDataOrbsEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if data orbs are enabled",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleLevelUpInterface",
+      "signature": "public static boolean toggleLevelUpInterface\u200b(boolean on)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Toggles whether level-up interfaces are enabled",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isLevelUpInterfaceEnabled",
+      "signature": "public static boolean isLevelUpInterfaceEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if data orbs are enabled",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleEscInterfaceClosing",
+      "signature": "public static boolean toggleEscInterfaceClosing\u200b(boolean on)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Toggles whether using the escape key to close interfaces is on or off",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isEscInterfaceClosingEnabled",
+      "signature": "public static boolean isEscInterfaceClosingEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if escape to close interfaces is enabled",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isShiftClickDroppingEnabled",
+      "signature": "public static boolean isShiftClickDroppingEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if shift click dropping is enabled",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleShiftClickDropping",
+      "signature": "public static boolean toggleShiftClickDropping\u200b(boolean on)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Toggles whether shift click dropping is on or off",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleScrollToZoom",
+      "signature": "public static boolean toggleScrollToZoom\u200b(boolean on)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Toggles whether scroll to zoom the camera is on or off",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isScrollToZoomEnabled",
+      "signature": "public static boolean isScrollToZoomEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if scroll to zoom is enabled",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "canUseMiddleMouseForCamera",
+      "signature": "public static boolean canUseMiddleMouseForCamera()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks to see if RS's middle mouse button controls the camera setting is enabled",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleChatEffects",
+      "signature": "public static boolean toggleChatEffects\u200b(boolean on)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Toggles whether chat effects are on or off",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "areChatEffectsEnabled",
+      "signature": "public static boolean areChatEffectsEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if chat effects are enabled",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleTransparentChatbox",
+      "signature": "public static boolean toggleTransparentChatbox\u200b(boolean on)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Toggles whether transparent chatbox is on or off",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isTransparentSidePanelEnabled",
+      "signature": "public static boolean isTransparentSidePanelEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the transparent chatbox is enabled",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleTransparentSidePanel",
+      "signature": "public static boolean toggleTransparentSidePanel\u200b(boolean on)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Toggles whether transparent side panel is on or off",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isTransparentChatboxEnabled",
+      "signature": "public static boolean isTransparentChatboxEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the transparent chatbox is enabled",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleClickThroughChatbox",
+      "signature": "public static boolean toggleClickThroughChatbox\u200b(boolean on)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Toggles whether click through chatbox is on or off",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isClickThroughChatboxEnabled",
+      "signature": "public static boolean isClickThroughChatboxEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if click through chatbox is enabled",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleItemPilesOnDeath",
+      "signature": "public static boolean toggleItemPilesOnDeath\u200b(boolean on)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Toggles whether certain items are piled on death is on or off",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "areItemPilesOnDeathEnabled",
+      "signature": "public static boolean areItemPilesOnDeathEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if item piles on death are enabled",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleMoveFollowerOptionsLower",
+      "signature": "public static boolean toggleMoveFollowerOptionsLower\u200b(boolean on)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Toggles whether follower options are lower is on or off",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isMoveFollowerOptionsLowerEnabled",
+      "signature": "public static boolean isMoveFollowerOptionsLowerEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the move follower options lower setting is enabled",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleSellPriceWarning",
+      "signature": "public static boolean toggleSellPriceWarning\u200b(boolean on)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Toggles whether the sell price warning is on or off",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isSellPriceWarningEnabled",
+      "signature": "public static boolean isSellPriceWarningEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the sell price warning is enabled",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleFeroxExitWarning",
+      "signature": "public static boolean toggleFeroxExitWarning\u200b(boolean on)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Toggles whether the exit warning for Ferox is on or off",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isFeroxExitWarningEnabled",
+      "signature": "public static boolean isFeroxExitWarningEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the exit warning is enabled for Ferox",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleFeroxExitWarningOnHighRiskWorld",
+      "signature": "public static boolean toggleFeroxExitWarningOnHighRiskWorld\u200b(boolean on)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Toggles whether the exit warning for Ferox while on a high risk world is on or off",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isFeroxExitWarningOnHighRiskWorldEnabled",
+      "signature": "public static boolean isFeroxExitWarningOnHighRiskWorldEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the exit warning is enabled for Ferox while on a high risk world",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleWildernessLeversWarning",
+      "signature": "public static boolean toggleWildernessLeversWarning\u200b(boolean on)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Toggles whether the wilderness teleport levers warning is on or off",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isWildernessLeversWarningEnabled",
+      "signature": "public static boolean isWildernessLeversWarningEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the wilderness teleport levers warning is on or off",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleBuyPriceWarning",
+      "signature": "public static boolean toggleBuyPriceWarning\u200b(boolean on)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Toggles whether the buy price warning is on or off",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isBuyPriceWarningEnabled",
+      "signature": "public static boolean isBuyPriceWarningEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the buy price warning is enabled",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getPlayerAttackOptionsMode",
+      "signature": "public static ActionMode getPlayerAttackOptionsMode()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the current ActionMode for player attack options",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setPlayerAttackOptionsMode",
+      "signature": "public static boolean setPlayerAttackOptionsMode\u200b(ActionMode mode)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the player attack options mode",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setNPCAttackOptionsMode",
+      "signature": "public static boolean setNPCAttackOptionsMode\u200b(ActionMode mode)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the NPC attack options mode",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getNPCAttackOptionsMode",
+      "signature": "public static ActionMode getNPCAttackOptionsMode()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the current ActionMode for NPC attack options",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "areLootNotificationsEnabled",
+      "signature": "public static boolean areLootNotificationsEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks whether loot notifications are enabled or not",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLootDropMinimumValue",
+      "signature": "public static int getLootDropMinimumValue()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the minimum value set for loot drop notifications",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleLootNotifications",
+      "signature": "public static boolean toggleLootNotifications\u200b(boolean on)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Turns the loot notifications on or off Does not do initial setting value for loot drop notifications",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isSkullPreventionActive",
+      "signature": "public static boolean isSkullPreventionActive()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks whether skull prevention is active or not",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleSkullPrevention",
+      "signature": "public static boolean toggleSkullPrevention\u200b(boolean on)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Turns skull prevention on or off",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "restoreDefaultKeybinds",
+      "signature": "public static boolean restoreDefaultKeybinds()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleSetting",
+      "signature": "public static boolean toggleSetting\u200b(ClientSettings.SettingsTab tab, java.lang.String settingLabel, Condition completedCondition)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setDefaultZoom",
+      "signature": "public static boolean setDefaultZoom()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the zoom to the default zoom value",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isZoomingEnabled",
+      "signature": "public static boolean isZoomingEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if scroll to zoom is enabled on the account",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isShiftInteractionEnabled",
+      "signature": "@Deprecated public static boolean isShiftInteractionEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "See isShiftClickDroppingEnabled()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isTradeDelayEnabled",
+      "signature": "public static boolean isTradeDelayEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleTradeDelay",
+      "signature": "public static boolean toggleTradeDelay\u200b(boolean on)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isAmmoAutoEquipping",
+      "signature": "public static boolean isAmmoAutoEquipping()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleAmmoAutoEquipping",
+      "signature": "public static boolean toggleAmmoAutoEquipping\u200b(boolean on)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "areRunesAutoPouching",
+      "signature": "public static boolean areRunesAutoPouching()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleRuneAutoPouching",
+      "signature": "public static boolean toggleRuneAutoPouching\u200b(boolean on)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "areCollectionLogNotificationsEnabled",
+      "signature": "public static boolean areCollectionLogNotificationsEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "areCollectionLogPopupsEnabled",
+      "signature": "public static boolean areCollectionLogPopupsEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleCollectionLogNotifications",
+      "signature": "public static boolean toggleCollectionLogNotifications\u200b(boolean on)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleCollectionLogPopups",
+      "signature": "public static boolean toggleCollectionLogPopups\u200b(boolean on)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMusicVolume",
+      "signature": "public static int getMusicVolume()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the music volume",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSoundEffectVolume",
+      "signature": "public static int getSoundEffectVolume()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the sound effect volume",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAreaVolume",
+      "signature": "public static int getAreaVolume()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the area volume",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getBrightness",
+      "signature": "public static double getBrightness()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the brightness level",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isWorldHopConfirmationEnabled",
+      "signature": "public static boolean isWorldHopConfirmationEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleWorldHopConfirmation",
+      "signature": "public static boolean toggleWorldHopConfirmation\u200b(boolean enabled)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isMakeXDartsEnabled",
+      "signature": "public static boolean isMakeXDartsEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleMakeXDarts",
+      "signature": "public static boolean toggleMakeXDarts\u200b(boolean enabled)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMinimumAlchWarningValue",
+      "signature": "public static int getMinimumAlchWarningValue()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setMinimumAlchWarningValue",
+      "signature": "public static boolean setMinimumAlchWarningValue\u200b(int value)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMinimumDropWarningValue",
+      "signature": "public static int getMinimumDropWarningValue()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setMinimumDropWarningValue",
+      "signature": "public static boolean setMinimumDropWarningValue\u200b(int value)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getEnergyThresholdToEnableRunning",
+      "signature": "public static int getEnergyThresholdToEnableRunning()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setEnergyThresholdToEnableRunning",
+      "signature": "public static boolean setEnergyThresholdToEnableRunning\u200b(int value)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

@@ -1,0 +1,56 @@
+{
+  "sleep": "500",
+  "name": "",
+  "version": 1.0,
+  "actions": [
+    {
+      "id": "SLEEP_BETWEEN",
+      "properties": {
+        "Minimum": "x",
+        "Maximum": "y"
+      },
+      "children": [
+        {
+          "id": "SLEEP_NORMAL_DISTRIBUTION",
+          "properties": {
+            "Mean": "x",
+            "Variance": "y"
+          },
+          "children": [
+            {
+              "id": "SLEEP_UNTIL_TIMER_IS_FINISHED",
+              "children": [
+                {
+                  "id": "SLEEP_UNTIL_INSIDE_IS_TRUE",
+                  "children": [
+                    {
+                      "id": "SLEEP_UNTIL_ANY_INSIDE_IS_TRUE"
+                    },
+                    {
+                      "id": "SLEEP_WHILE_ANIMATING"
+                    },
+                    {
+                      "id": "SLEEP_WHILE_MOVING"
+                    },
+                    {
+                      "id": "SLEEP_WHILE_IN_COMBAT"
+                    },
+                    {
+                      "id": "SLEEP_WHILE_WORLD_HOPPING"
+                    },
+                    {
+                      "id": "SLEEP_UNTIL_GAME_TICK"
+                    },
+                    {
+                      "id": "SLEEP_FOR_GAME_TICKS"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

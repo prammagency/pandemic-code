@@ -1,0 +1,204 @@
+{
+  "name": "RandomSolver",
+  "full_name": "org.dreambot.api.randoms.RandomSolver",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/randoms/RandomSolver.html",
+  "type": "class",
+  "package": "org.dreambot.api.randoms",
+  "description": "This will return state information about the solver useful for debugging",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "getDebugInfo",
+      "signature": "public java.lang.String getDebugInfo()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This will return state information about the solver useful for debugging",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "shouldExecute",
+      "signature": "public abstract boolean shouldExecute()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks whether the random even solver should execute; This method must be overridden",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onStart",
+      "signature": "public void onStart()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Runs once when the random solver first activates; This method can be optionally overridden",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onLoop",
+      "signature": "public abstract int onLoop()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Runs as long as shouldExecute returns true; This method must be overridden",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onFinish",
+      "signature": "public void onFinish()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Runs once at the end (when shouldExecute first returns false); This method can be optionally overridden",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getEventString",
+      "signature": "public java.lang.String getEventString()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the eventstring.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onPaint",
+      "signature": "public void onPaint\u200b(java.awt.Graphics graphics)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: PaintListener",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "disable",
+      "signature": "public void disable()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the disable operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "enable",
+      "signature": "public void enable()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the enable operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isEnabled",
+      "signature": "public boolean isEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if enabled.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "lastRan",
+      "signature": "public long lastRan()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the lastRan operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isForceDisable",
+      "signature": "public boolean isForceDisable()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if forcedisable.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setForceDisable",
+      "signature": "public void setForceDisable\u200b(boolean forceDisable)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the forcedisable.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMinimumRest",
+      "signature": "public int getMinimumRest()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the minimumrest.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

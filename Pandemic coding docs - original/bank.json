@@ -1,0 +1,198 @@
+{
+  "sleep": "500",
+  "name": "",
+  "version": 1.0,
+  "actions": [
+    {
+      "id": "IF_BANK_IS_OPEN"
+    },
+    {
+      "id": "IF_BANK_IS_NOT_OPEN"
+    },
+    {
+      "id": "IF_BANK_IS_CACHED"
+    },
+    {
+      "id": "IF_BANK_IS_NOT_CACHED"
+    },
+    {
+      "id": "IF_BANK_CONTAINS",
+      "properties": {
+        "Filter Item By": {
+          "class": "Item",
+          "logic": "NONE",
+          "type": "NONE",
+          "operator": "EQUALS"
+        }
+      },
+      "children": [
+        {
+          "id": "IF_BANK_DOES_NOT_CONTAIN",
+          "properties": {
+            "Filter Item By": {
+              "class": "Item",
+              "logic": "NONE",
+              "type": "NONE",
+              "operator": "EQUALS"
+            }
+          },
+          "children": [
+            {
+              "id": "IF_BANK_CONTAINS_PLACEHOLDER",
+              "properties": {
+                "Filter Item By": {
+                  "class": "Item",
+                  "logic": "NONE",
+                  "type": "NONE",
+                  "operator": "EQUALS"
+                }
+              },
+              "children": [
+                {
+                  "id": "IF_BANK_DOES_NOT_CONTAIN_PLACEHOLDER",
+                  "properties": {
+                    "Filter Item By": {
+                      "class": "Item",
+                      "logic": "NONE",
+                      "type": "NONE",
+                      "operator": "EQUALS"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "IF_BANK_COUNT",
+                      "properties": {
+                        "count": {
+                          "class": "Number",
+                          "operator": "EQUALS",
+                          "value": ""
+                        },
+                        "Filter Item By": {
+                          "class": "Item",
+                          "logic": "NONE",
+                          "type": "NONE",
+                          "operator": "EQUALS"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "IF_WITHDRAW_MODE_IS_ITEM"
+                        },
+                        {
+                          "id": "IF_WITHDRAW_MODE_IS_NOTED"
+                        },
+                        {
+                          "id": "OPEN_BANK"
+                        },
+                        {
+                          "id": "CLOSE_BANK"
+                        },
+                        {
+                          "id": "SET_WITHDRAW_MODE_ITEM"
+                        },
+                        {
+                          "id": "BANK_WITHDRAW_ITEM",
+                          "properties": {
+                            "Filter Item By": {
+                              "class": "Item",
+                              "logic": "NONE",
+                              "type": "NONE",
+                              "operator": "EQUALS"
+                            },
+                            "Amount": "x"
+                          },
+                          "children": [
+                            {
+                              "id": "WITHDRAW_ITEM_TO_SET_AMOUNT",
+                              "properties": {
+                                "Filter Item By": {
+                                  "class": "Item",
+                                  "logic": "NONE",
+                                  "type": "NONE",
+                                  "operator": "EQUALS"
+                                },
+                                "Deposit excess": true,
+                                "Amount": "x"
+                              },
+                              "children": [
+                                {
+                                  "id": "BANK_WITHDRAW_ALL_ITEM",
+                                  "properties": {
+                                    "Filter Item By": {
+                                      "class": "Item",
+                                      "logic": "NONE",
+                                      "type": "NONE",
+                                      "operator": "EQUALS"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "id": "BANK_DEPOSIT_ITEM",
+                                      "properties": {
+                                        "Filter Item By": {
+                                          "class": "Item",
+                                          "logic": "NONE",
+                                          "type": "NONE",
+                                          "operator": "EQUALS"
+                                        }
+                                      },
+                                      "children": [
+                                        {
+                                          "id": "BANK_DEPOSIT_ALL_EXCEPT",
+                                          "properties": {
+                                            "Filter Item By": {
+                                              "class": "Item",
+                                              "logic": "NONE",
+                                              "type": "NONE",
+                                              "operator": "EQUALS"
+                                            }
+                                          },
+                                          "children": [
+                                            {
+                                              "id": "BANK_DEPOSIT_ALL"
+                                            },
+                                            {
+                                              "id": "BANK_DEPOSIT_ALL_EQUIPMENT"
+                                            },
+                                            {
+                                              "id": "BANK_DRAG_ITEM_TO_SLOT",
+                                              "properties": {
+                                                "Filter Item By": {
+                                                  "class": "Item",
+                                                  "logic": "NONE",
+                                                  "type": "NONE",
+                                                  "operator": "EQUALS"
+                                                }
+                                              },
+                                              "children": [
+                                                {
+                                                  "id": "ADD_ITEM_TO_BANK_CACHE",
+                                                  "properties": {
+                                                    "ID": "x",
+                                                    "Amount": "y"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

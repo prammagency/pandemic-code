@@ -1,0 +1,243 @@
+{
+  "name": "Dialogues",
+  "full_name": "org.dreambot.api.methods.dialogues.Dialogues",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/dialogues/Dialogues.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.dialogues",
+  "description": "Checks if there are any available options that you can click on",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "inDialogue",
+      "signature": "public static boolean inDialogue()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if you're currently in a dialogue screen.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "canEnterInput",
+      "signature": "public static boolean canEnterInput()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns true if you are able to enter input into the dialogue (like withdrawing X from bank and such)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getNPCDialogue",
+      "signature": "public static @Nullable java.lang.String getNPCDialogue()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the dialogue text in a conversation. This includes all html tagging RS uses! (br tags, color tags)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "continueDialogue",
+      "signature": "public static boolean continueDialogue()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Chooses either to click continue or press space to continue based on a profiled distance of your mouse",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "clickContinue",
+      "signature": "public static boolean clickContinue()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Attempts to click the continue dialogue",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "spaceToContinue",
+      "signature": "public static boolean spaceToContinue()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Uses the space bar to continue",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "chooseOption",
+      "signature": "public static boolean chooseOption\u200b(int optionIndex)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Chooses whether to click the given option index or press the key based on mouse distance and profiled values.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "chooseFirstOption",
+      "signature": "public static boolean chooseFirstOption\u200b(@NonNull java.lang.String... options)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This will go through the provided options in order, and will choose the first available. It will not choose multiple options even if multiple are available, only the first. NOT CASE SENSITIVE",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "chooseFirstOptionContaining",
+      "signature": "public static boolean chooseFirstOptionContaining\u200b(@NonNull java.lang.String... options)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This will go through the provided options in order, and will choose the first available option that contains one of your provided options. It will not choose multiple options even if multiple are available, only the first. NOT CASE SENSITIVE",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "clickOption",
+      "signature": "public static boolean clickOption\u200b(int optionIndex)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Clicks the given option index.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "typeOption",
+      "signature": "public static boolean typeOption\u200b(int optionIndex)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Types the key of the given option index.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOptionIndex",
+      "signature": "public static int getOptionIndex\u200b(@NonNull java.lang.String option)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the index of the option. NOT CASE SENSITIVE",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOptionIndexContaining",
+      "signature": "public static int getOptionIndexContaining\u200b(@NonNull java.lang.String option)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the option index that contains the given text. NOT CASE SENSITIVE",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "areOptionsAvailable",
+      "signature": "public static boolean areOptionsAvailable()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if there are any available options that you can click on",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOptions",
+      "signature": "public static @NonNull java.lang.String @Nullable [] getOptions()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets all the available options in the dialogue, not including \"Click here to continue\"",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "canContinue",
+      "signature": "public static boolean canContinue()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if you can continue in a dialogue via \"Click here to continue\" or \"Click to continue\"",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isProcessing",
+      "signature": "public static boolean isProcessing()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the \"Please wait...\" widget is present, can be found after clicking the continue button",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

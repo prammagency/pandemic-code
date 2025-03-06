@@ -1,0 +1,24 @@
+{
+  "name": "Ignored",
+  "full_name": "org.dreambot.api.methods.ignore.Ignored",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/ignore/Ignored.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.ignore",
+  "description": "",
+  "page_structure": {
+    "type": "class",
+    "format_version": "unknown",
+    "has_summary_tables": false,
+    "has_detail_sections": false,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.methods.friend.NameProvider"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [],
+  "fields": [],
+  "constructors": [],
+  "extraction_fallback_used": true
+}

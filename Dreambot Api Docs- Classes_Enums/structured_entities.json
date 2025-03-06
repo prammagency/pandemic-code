@@ -1,0 +1,3883 @@
+{
+  "org.dreambot.api": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "ClientSettings.SettingsTab",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/ClientSettings.SettingsTab.html",
+        "type": "enum",
+        "package_description": ""
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "Client",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/Client.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "ClientSettings",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/ClientSettings.html",
+        "type": "class",
+        "package_description": "Created by Nezz on 10/25/2015."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/package-summary.html"
+  },
+  "org.dreambot.api.data": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "ActionMode",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/data/ActionMode.html",
+        "type": "enum",
+        "package_description": ""
+      },
+      {
+        "name": "ClientLayout",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/data/ClientLayout.html",
+        "type": "enum",
+        "package_description": ""
+      },
+      {
+        "name": "GameState",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/data/GameState.html",
+        "type": "enum",
+        "package_description": "Created with IntelliJ IDEA."
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/data/package-summary.html"
+  },
+  "org.dreambot.api.data.consumables": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "Food",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/data/consumables/Food.html",
+        "type": "enum",
+        "package_description": ""
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/data/consumables/package-summary.html"
+  },
+  "org.dreambot.api.data.requirements": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "CombatRequirement",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/data/requirements/CombatRequirement.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "ConditionalRequirement",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/data/requirements/ConditionalRequirement.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "FavourRequirement",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/data/requirements/FavourRequirement.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "LocationRequirement",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/data/requirements/LocationRequirement.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "QuestPointRequirement",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/data/requirements/QuestPointRequirement.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "QuestRequirement",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/data/requirements/QuestRequirement.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "Requirement",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/data/requirements/Requirement.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "SkillRequirement",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/data/requirements/SkillRequirement.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "SkillTotalRequirement",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/data/requirements/SkillTotalRequirement.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/data/requirements/package-summary.html"
+  },
+  "org.dreambot.api.input": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "Keyboard",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/Keyboard.html",
+        "type": "class",
+        "package_description": "Keyboard API class."
+      },
+      {
+        "name": "Mouse",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/Mouse.html",
+        "type": "class",
+        "package_description": "Please note: In general you do not have to concern yourself with these methods. The methods here will be called from interact methods by the API (such as the interact method in RectangleDestination )"
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/input/package-summary.html"
+  },
+  "org.dreambot.api.input.event": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "AbstractEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/AbstractEvent.html",
+        "type": "class",
+        "package_description": "Created with IntelliJ IDEA."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/package-summary.html"
+  },
+  "org.dreambot.api.input.event.impl": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "InteractionSetting",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/InteractionSetting.html",
+        "type": "enum",
+        "package_description": "Created by Nezz on 3/15/2015."
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "InteractionEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/InteractionEvent.html",
+        "type": "class",
+        "package_description": "Created by Chris on 2/22/2015."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/package-summary.html"
+  },
+  "org.dreambot.api.input.event.impl.keyboard": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "KeyLocation",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/keyboard/KeyLocation.html",
+        "type": "enum",
+        "package_description": "Key location on the keyboard."
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "KeyboardEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/keyboard/KeyboardEvent.html",
+        "type": "class",
+        "package_description": "Event to handle typing messages on the keyboard\n Uses the implementation of Keyboard.getKeyboardTypingAlgorithm() Automatically stops if script is stopped or paused when no random solver is active."
+      },
+      {
+        "name": "KeyEventGenerator",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/keyboard/KeyEventGenerator.html",
+        "type": "class",
+        "package_description": "Generates a KeyEvent using the given information."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/keyboard/package-summary.html"
+  },
+  "org.dreambot.api.input.event.impl.keyboard.awt": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "Key",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/keyboard/awt/Key.html",
+        "type": "enum",
+        "package_description": "Enum representing the possible keys to press\n Alphabet will automatically adjust to upper/lowercase based on whether shift is currently being held if you use Key.getChar()"
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "DBKeyEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/keyboard/awt/DBKeyEvent.html",
+        "type": "class",
+        "package_description": "Represents a DreamBot implementation of KeyEvent Will set the internal fields required for a key event to emulate a system level event\n Primarily for internal use, please see implementations of AbstractKeyEvent for sending keyboard events"
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/keyboard/awt/package-summary.html"
+  },
+  "org.dreambot.api.input.event.impl.keyboard.type": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "AbstractKeyEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/keyboard/type/AbstractKeyEvent.html",
+        "type": "class",
+        "package_description": "Abstract key event class to clean up implementations"
+      },
+      {
+        "name": "HoldKey",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/keyboard/type/HoldKey.html",
+        "type": "class",
+        "package_description": "Event to handle holding a key\n Does not create a new thread on its own, you must put this call inside a thread if you require it to be threaded."
+      },
+      {
+        "name": "PressKey",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/keyboard/type/PressKey.html",
+        "type": "class",
+        "package_description": "Creates a KeyEvent.KEY_PRESSED event\n Marks the key as pressed internally and marks the last key location that was used for the press on that key where available"
+      },
+      {
+        "name": "ReleaseKey",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/keyboard/type/ReleaseKey.html",
+        "type": "class",
+        "package_description": "Creates a KeyEvent.KEY_RELEASED event\n Marks the key as released internally\n Resets the last key location used to press this key\n If no location is passed in for this event, it will default to either the key's default location or the last pressed location"
+      },
+      {
+        "name": "TypeKey",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/keyboard/type/TypeKey.html",
+        "type": "class",
+        "package_description": "Creates a KeyEvent.KEY_TYPED event\n Does NOT handle press or release events."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/keyboard/type/package-summary.html"
+  },
+  "org.dreambot.api.input.event.impl.mouse": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "MouseButton",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/MouseButton.html",
+        "type": "enum",
+        "package_description": "Mouse button to use when clicking\n Using NULL will mean it will not click"
+      },
+      {
+        "name": "MouseMode",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/MouseMode.html",
+        "type": "enum",
+        "package_description": "Mode to use for MouseEvent s\n Note: If you want the mouse to do the full press, release, click series of events, use the mode MouseMode.FULL_CLICK Mode NONE will do only mouse movement."
+      },
+      {
+        "name": "WheelMode",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/WheelMode.html",
+        "type": "enum",
+        "package_description": "Wheel mode for whether to scroll up or down"
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "AbstractMouseEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/AbstractMouseEvent.html",
+        "type": "class",
+        "package_description": "Deprecated. see AbstractMouseEvent"
+      },
+      {
+        "name": "MouseEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/MouseEvent.html",
+        "type": "class",
+        "package_description": "Mouse event that handles the full movement and click process based on the fields you pass in."
+      },
+      {
+        "name": "MouseEventGenerator",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/MouseEventGenerator.html",
+        "type": "class",
+        "package_description": "Utility class to generate a MouseEvent for the given parameters."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/package-summary.html"
+  },
+  "org.dreambot.api.input.event.impl.mouse.awt": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "DBMouseEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/awt/DBMouseEvent.html",
+        "type": "class",
+        "package_description": "DreamBot implementation of MouseEvent Sets all required internal fields\n Primarily used internally, you should be using AbstractMouseEvent implementations for sending mouse events"
+      },
+      {
+        "name": "DBMouseWheelEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/awt/DBMouseWheelEvent.html",
+        "type": "class",
+        "package_description": "DreamBot implementation of MouseWheelEvent Sets all required internal fields\n Primarily used internally, you should be using AbstractMouseEvent implementations for sending mouse events\n Sets abs x/y to 0 as expected, if your OS/JVM behaves differently please report your OS and JVM to one of the developers so we can research it in more depth"
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/awt/package-summary.html"
+  },
+  "org.dreambot.api.input.event.impl.mouse.impl": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "MoveEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/impl/MoveEvent.html",
+        "type": "class",
+        "package_description": "Deprecated. see MouseEvent"
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/impl/package-summary.html"
+  },
+  "org.dreambot.api.input.event.impl.mouse.impl.click": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "ClickMode",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/impl/click/ClickMode.html",
+        "type": "enum",
+        "package_description": "Deprecated. see MouseButton"
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "ClickEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/impl/click/ClickEvent.html",
+        "type": "class",
+        "package_description": "Deprecated. see ClickEvent"
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/impl/click/package-summary.html"
+  },
+  "org.dreambot.api.input.event.impl.mouse.impl.wheel": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "WheelMode",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/impl/wheel/WheelMode.html",
+        "type": "enum",
+        "package_description": "Deprecated. see WheelMode"
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "WheelEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/impl/wheel/WheelEvent.html",
+        "type": "class",
+        "package_description": "Deprecated. see WheelEvent"
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/impl/wheel/package-summary.html"
+  },
+  "org.dreambot.api.input.event.impl.mouse.type": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "AbstractMouseEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/type/AbstractMouseEvent.html",
+        "type": "class",
+        "package_description": "Abstract class for sending mouse events"
+      },
+      {
+        "name": "ClickEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/type/ClickEvent.html",
+        "type": "class",
+        "package_description": "Sends a MouseEvent.MOUSE_CLICKED event\n Removes this mouse button from mouse modifiers\n Does NOT handle press/release events"
+      },
+      {
+        "name": "EnterEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/type/EnterEvent.html",
+        "type": "class",
+        "package_description": "Creates and sends a MouseEvent.MOUSE_ENTERED"
+      },
+      {
+        "name": "ExitEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/type/ExitEvent.html",
+        "type": "class",
+        "package_description": "creates and sends a MouseEvent.MOUSE_EXITED event\n Sets DreamBot's Mouse.setPosition(int, int) to -1,-1\n Destination point does NOT get altered"
+      },
+      {
+        "name": "MoveEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/type/MoveEvent.html",
+        "type": "class",
+        "package_description": "Creates and sends a MouseEvent.MOUSE_MOVED or MouseEvent.MOUSE_DRAGGED if Mouse.getCurrentModifiers() is not 0\n If hop is set to true, event will emulate a touch screen event\n Sets Mouse.setPosition(int, int) to the destination x/y"
+      },
+      {
+        "name": "PressEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/type/PressEvent.html",
+        "type": "class",
+        "package_description": "Creates and sends a MouseEvent.MOUSE_PRESSED event using the given MouseButton Marks the relevant modifiers to Mouse.addModifierFromClick(MouseButton)"
+      },
+      {
+        "name": "ReleaseEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/type/ReleaseEvent.html",
+        "type": "class",
+        "package_description": "Creates and sends a MouseEvent.MOUSE_RELEASED event\n Marks the relevant modifiers to Mouse.addModifierFromClick(MouseButton) Note: Press and Release ADD to the modifier, ClickEvent removes the modifier post-event\n If MouseButton.RIGHT_CLICK is used, it will adjust the event to be a popup trigger"
+      },
+      {
+        "name": "WheelEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/type/WheelEvent.html",
+        "type": "class",
+        "package_description": "Creates and sends a MouseEvent.MOUSE_WHEEL event based on the given WheelMode"
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/type/package-summary.html"
+  },
+  "org.dreambot.api.input.event.impl.mouse.vector": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [
+      {
+        "name": "Vector",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/vector/Vector.html",
+        "type": "interface",
+        "package_description": "Deprecated. Unused"
+      }
+    ],
+    "annotations": [],
+    "others": [],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/vector/package-summary.html"
+  },
+  "org.dreambot.api.input.event.impl.mouse.vector.impl": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "MouseVector",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/vector/impl/MouseVector.html",
+        "type": "class",
+        "package_description": "Deprecated. Unused"
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/vector/impl/package-summary.html"
+  },
+  "org.dreambot.api.input.keyboard": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [
+      {
+        "name": "KeyboardTypingAlgorithm",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/keyboard/KeyboardTypingAlgorithm.html",
+        "type": "interface",
+        "package_description": "Interface for keyboard typing algorithm/behavior of the client."
+      }
+    ],
+    "annotations": [],
+    "others": [
+      {
+        "name": "KeyboardProfile",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/keyboard/KeyboardProfile.html",
+        "type": "class",
+        "package_description": "Contains various fields for a typing profile, uses a seeded random in order to give each account a unique profile\n Auto rebuilds the profile based on newly set words per minute"
+      },
+      {
+        "name": "StandardKeyboardAlgorithm",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/keyboard/StandardKeyboardAlgorithm.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/input/keyboard/package-summary.html"
+  },
+  "org.dreambot.api.input.mouse.algorithm": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [
+      {
+        "name": "MouseAlgorithm",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/mouse/algorithm/MouseAlgorithm.html",
+        "type": "interface",
+        "package_description": "Mouse Algorithm to handle both movement and click implementations"
+      },
+      {
+        "name": "MouseMovementAlgorithm",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/mouse/algorithm/MouseMovementAlgorithm.html",
+        "type": "interface",
+        "package_description": "Deprecated. see MouseAlgorithm and implement that instead of this."
+      }
+    ],
+    "annotations": [],
+    "others": [
+      {
+        "name": "MouseProfile",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/mouse/algorithm/MouseProfile.html",
+        "type": "class",
+        "package_description": "Profile for mouse movement and click settings\n Not yet implemented."
+      },
+      {
+        "name": "StandardMouseAlgorithm",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/mouse/algorithm/StandardMouseAlgorithm.html",
+        "type": "class",
+        "package_description": "DreamBot's default implementation of mouse movement\n Currently implements MouseMovementAlgorithm for backwards compatibility"
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/input/mouse/algorithm/package-summary.html"
+  },
+  "org.dreambot.api.input.mouse.destination": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "AbstractMouseDestination",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/mouse/destination/AbstractMouseDestination.html",
+        "type": "class",
+        "package_description": "Created with IntelliJ IDEA."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/input/mouse/destination/package-summary.html"
+  },
+  "org.dreambot.api.input.mouse.destination.impl": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "EntityDestination",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/mouse/destination/impl/EntityDestination.html",
+        "type": "class",
+        "package_description": "Created with IntelliJ IDEA."
+      },
+      {
+        "name": "MiniMapTileDestination",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/mouse/destination/impl/MiniMapTileDestination.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "PointDestination",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/mouse/destination/impl/PointDestination.html",
+        "type": "class",
+        "package_description": "Created with IntelliJ IDEA."
+      },
+      {
+        "name": "TileDestination",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/mouse/destination/impl/TileDestination.html",
+        "type": "class",
+        "package_description": "Created by Pandemic"
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/input/mouse/destination/impl/package-summary.html"
+  },
+  "org.dreambot.api.input.mouse.destination.impl.shape": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "AreaDestination",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/mouse/destination/impl/shape/AreaDestination.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "PolygonDestination",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/mouse/destination/impl/shape/PolygonDestination.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "RectangleDestination",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/mouse/destination/impl/shape/RectangleDestination.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "ShapeDestination",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/input/mouse/destination/impl/shape/ShapeDestination.html",
+        "type": "class",
+        "package_description": "A generic Shape destination, which can be used with any Shape ."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/input/mouse/destination/impl/shape/package-summary.html"
+  },
+  "org.dreambot.api.methods": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "ForumRank",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/ForumRank.html",
+        "type": "enum",
+        "package_description": "Created by Nezz on 4/6/2015."
+      },
+      {
+        "name": "RSLoginResponse",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/RSLoginResponse.html",
+        "type": "enum",
+        "package_description": "Created by Nezz on 6/6/2015."
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "Animations",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/Animations.html",
+        "type": "class",
+        "package_description": "A helper class containing certain, commonly used animation ids."
+      },
+      {
+        "name": "Calculations",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/Calculations.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "ForumUser",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/ForumUser.html",
+        "type": "class",
+        "package_description": "Created by Nezz on 4/11/2015."
+      },
+      {
+        "name": "MethodProvider",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/MethodProvider.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "Randoms",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/Randoms.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "ViewportTools",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/ViewportTools.html",
+        "type": "class",
+        "package_description": "Created with IntelliJ IDEA."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/package-summary.html"
+  },
+  "org.dreambot.api.methods.bond": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "Bond",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/bond/Bond.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/bond/package-summary.html"
+  },
+  "org.dreambot.api.methods.clan": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "ClanMember.Rank",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/clan/ClanMember.Rank.html",
+        "type": "enum",
+        "package_description": ""
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "Clan",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/clan/Clan.html",
+        "type": "class",
+        "package_description": "Deprecated. see ClanChat"
+      },
+      {
+        "name": "ClanMember",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/clan/ClanMember.html",
+        "type": "class",
+        "package_description": "Deprecated. see ClanChatMember"
+      },
+      {
+        "name": "ClanMemberHandler",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/clan/ClanMemberHandler.html",
+        "type": "class",
+        "package_description": "Deprecated. see ClanChat"
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/clan/package-summary.html"
+  },
+  "org.dreambot.api.methods.clan.chat": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "ClanChatMember.Rank",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/clan/chat/ClanChatMember.Rank.html",
+        "type": "enum",
+        "package_description": ""
+      },
+      {
+        "name": "ClanChatTab",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/clan/chat/ClanChatTab.html",
+        "type": "enum",
+        "package_description": ""
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "ClanChat",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/clan/chat/ClanChat.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "ClanChatMember",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/clan/chat/ClanChatMember.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/clan/chat/package-summary.html"
+  },
+  "org.dreambot.api.methods.clan.guild": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "Clan",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/clan/guild/Clan.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "ClanMember",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/clan/guild/ClanMember.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/clan/guild/package-summary.html"
+  },
+  "org.dreambot.api.methods.combat": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "CombatStyle",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/combat/CombatStyle.html",
+        "type": "enum",
+        "package_description": ""
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "Combat",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/combat/Combat.html",
+        "type": "class",
+        "package_description": "A class used to handle and retrieve data related to combat."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/combat/package-summary.html"
+  },
+  "org.dreambot.api.methods.container.general": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "ItemContainerId",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/container/general/ItemContainerId.html",
+        "type": "enum",
+        "package_description": ""
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "ItemContainer",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/container/general/ItemContainer.html",
+        "type": "class",
+        "package_description": "ItemContainer node, contains a list of items\n Examples of ItemContainers are Bank, Inventory, Equipment\n Known ID's can be found at ItemContainerId This will not set Item.getDestination() when building the items"
+      },
+      {
+        "name": "ItemContainers",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/container/general/ItemContainers.html",
+        "type": "class",
+        "package_description": "Used to grab an item container based on ItemContainerId id's, or any that you know that we don't have listed"
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/container/general/package-summary.html"
+  },
+  "org.dreambot.api.methods.container.impl": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "ContainerType",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/container/impl/ContainerType.html",
+        "type": "enum",
+        "package_description": ""
+      }
+    ],
+    "interfaces": [
+      {
+        "name": "DropPattern",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/container/impl/DropPattern.html",
+        "type": "interface",
+        "package_description": "The drop pattern interface used in Inventory dropAll methods for determining which item we should drop first."
+      }
+    ],
+    "annotations": [],
+    "others": [
+      {
+        "name": "Inventory",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/container/impl/Inventory.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "Shop",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/container/impl/Shop.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "StandardDropPattern",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/container/impl/StandardDropPattern.html",
+        "type": "class",
+        "package_description": "This class can be used to create drop patterns based on slot position easily."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/container/impl/package-summary.html"
+  },
+  "org.dreambot.api.methods.container.impl.bank": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "BankLocation",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/container/impl/bank/BankLocation.html",
+        "type": "enum",
+        "package_description": ""
+      },
+      {
+        "name": "BankMode",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/container/impl/bank/BankMode.html",
+        "type": "enum",
+        "package_description": "Created with IntelliJ IDEA."
+      },
+      {
+        "name": "BankQuantitySelection",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/container/impl/bank/BankQuantitySelection.html",
+        "type": "enum",
+        "package_description": "Created with IntelliJ IDEA."
+      },
+      {
+        "name": "BankScroll",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/container/impl/bank/BankScroll.html",
+        "type": "enum",
+        "package_description": ""
+      },
+      {
+        "name": "BankTab",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/container/impl/bank/BankTab.html",
+        "type": "enum",
+        "package_description": "Enum holding Bank Tab information such as configs and widget ID's"
+      },
+      {
+        "name": "BankType",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/container/impl/bank/BankType.html",
+        "type": "enum",
+        "package_description": ""
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "Bank",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/container/impl/bank/Bank.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/container/impl/bank/package-summary.html"
+  },
+  "org.dreambot.api.methods.container.impl.equipment": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "EquipmentSlot",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/container/impl/equipment/EquipmentSlot.html",
+        "type": "enum",
+        "package_description": ""
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "Equipment",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/container/impl/equipment/Equipment.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/container/impl/equipment/package-summary.html"
+  },
+  "org.dreambot.api.methods.cs2": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "RuneScriptEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/cs2/RuneScriptEvent.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "ScriptId",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/cs2/ScriptId.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "VarClientInt",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/cs2/VarClientInt.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "VarClientString",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/cs2/VarClientString.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/cs2/package-summary.html"
+  },
+  "org.dreambot.api.methods.depositbox": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "DepositBox",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/depositbox/DepositBox.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/depositbox/package-summary.html"
+  },
+  "org.dreambot.api.methods.dialogues": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "Dialogues",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/dialogues/Dialogues.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/dialogues/package-summary.html"
+  },
+  "org.dreambot.api.methods.diary": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "ArdougneDiary",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/diary/ArdougneDiary.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "DesertDiary",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/diary/DesertDiary.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "Diaries",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/diary/Diaries.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "Diary",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/diary/Diary.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "FaladorDiary",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/diary/FaladorDiary.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "FremennikDiary",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/diary/FremennikDiary.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "KandarinDiary",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/diary/KandarinDiary.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "KaramjaDiary",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/diary/KaramjaDiary.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "KourendKebosDiary",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/diary/KourendKebosDiary.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "LumbridgeDraynorDiary",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/diary/LumbridgeDraynorDiary.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "MorytaniaDiary",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/diary/MorytaniaDiary.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "VarrockDiary",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/diary/VarrockDiary.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "WesternProvincesDiary",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/diary/WesternProvincesDiary.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "WildernessDiary",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/diary/WildernessDiary.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/diary/package-summary.html"
+  },
+  "org.dreambot.api.methods.diary.requirement": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [
+      {
+        "name": "Requirement",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/diary/requirement/Requirement.html",
+        "type": "interface",
+        "package_description": "Deprecated."
+      }
+    ],
+    "annotations": [],
+    "others": [
+      {
+        "name": "DiaryRequirement",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/diary/requirement/DiaryRequirement.html",
+        "type": "class",
+        "package_description": "Deprecated."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/diary/requirement/package-summary.html"
+  },
+  "org.dreambot.api.methods.diary.requirement.impl": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "FavourRequirement.House",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/diary/requirement/impl/FavourRequirement.House.html",
+        "type": "enum",
+        "package_description": ""
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "AnyRequirement",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/diary/requirement/impl/AnyRequirement.html",
+        "type": "class",
+        "package_description": "Deprecated."
+      },
+      {
+        "name": "CombatRequirement",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/diary/requirement/impl/CombatRequirement.html",
+        "type": "class",
+        "package_description": "Deprecated."
+      },
+      {
+        "name": "CombinedSkillRequirement",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/diary/requirement/impl/CombinedSkillRequirement.html",
+        "type": "class",
+        "package_description": "Deprecated."
+      },
+      {
+        "name": "FavourRequirement",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/diary/requirement/impl/FavourRequirement.html",
+        "type": "class",
+        "package_description": "Deprecated."
+      },
+      {
+        "name": "QuestPointRequirement",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/diary/requirement/impl/QuestPointRequirement.html",
+        "type": "class",
+        "package_description": "Deprecated."
+      },
+      {
+        "name": "QuestRequirement",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/diary/requirement/impl/QuestRequirement.html",
+        "type": "class",
+        "package_description": "Deprecated."
+      },
+      {
+        "name": "SkillRequirement",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/diary/requirement/impl/SkillRequirement.html",
+        "type": "class",
+        "package_description": "Deprecated."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/diary/requirement/impl/package-summary.html"
+  },
+  "org.dreambot.api.methods.emotes": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "Emote",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/emotes/Emote.html",
+        "type": "enum",
+        "package_description": ""
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "Emotes",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/emotes/Emotes.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/emotes/package-summary.html"
+  },
+  "org.dreambot.api.methods.event": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "CameraEvent.CameraType",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/event/CameraEvent.CameraType.html",
+        "type": "enum",
+        "package_description": ""
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "CameraEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/event/CameraEvent.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "KeyboardEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/event/KeyboardEvent.html",
+        "type": "class",
+        "package_description": "Deprecated. see KeyboardEvent"
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/event/package-summary.html"
+  },
+  "org.dreambot.api.methods.fairyring": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "FairyLocation",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/fairyring/FairyLocation.html",
+        "type": "enum",
+        "package_description": "Created by Nezz on 10/4/2016."
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "FairyRings",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/fairyring/FairyRings.html",
+        "type": "class",
+        "package_description": "Created by Nezz on 10/4/2016."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/fairyring/package-summary.html"
+  },
+  "org.dreambot.api.methods.favour": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "House",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/favour/House.html",
+        "type": "enum",
+        "package_description": ""
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/favour/package-summary.html"
+  },
+  "org.dreambot.api.methods.filter": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [
+      {
+        "name": "Filter",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/filter/Filter.html",
+        "type": "interface",
+        "package_description": "The generic Filter."
+      }
+    ],
+    "annotations": [],
+    "others": [],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/filter/package-summary.html"
+  },
+  "org.dreambot.api.methods.filter.impl": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "ActionFilter",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/filter/impl/ActionFilter.html",
+        "type": "class",
+        "package_description": "Created with IntelliJ IDEA."
+      },
+      {
+        "name": "AreaFilter",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/filter/impl/AreaFilter.html",
+        "type": "class",
+        "package_description": "Created with IntelliJ IDEA."
+      },
+      {
+        "name": "EntityFilter",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/filter/impl/EntityFilter.html",
+        "type": "class",
+        "package_description": "Created with IntelliJ IDEA."
+      },
+      {
+        "name": "IdFilter",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/filter/impl/IdFilter.html",
+        "type": "class",
+        "package_description": "Created with IntelliJ IDEA."
+      },
+      {
+        "name": "ItemFilter",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/filter/impl/ItemFilter.html",
+        "type": "class",
+        "package_description": "Created with IntelliJ IDEA."
+      },
+      {
+        "name": "NameFilter",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/filter/impl/NameFilter.html",
+        "type": "class",
+        "package_description": "Created with IntelliJ IDEA."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/filter/impl/package-summary.html"
+  },
+  "org.dreambot.api.methods.friend": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "Friend",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/friend/Friend.html",
+        "type": "class",
+        "package_description": "Created by Nezz on 1/12/2015."
+      },
+      {
+        "name": "FriendHandler",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/friend/FriendHandler.html",
+        "type": "class",
+        "package_description": "Created by Nezz on 2/1/2018."
+      },
+      {
+        "name": "Friends",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/friend/Friends.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "NameProvider",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/friend/NameProvider.html",
+        "type": "class",
+        "package_description": "Created by Nezz on 1/12/2015."
+      },
+      {
+        "name": "NameProviderHandler",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/friend/NameProviderHandler.html",
+        "type": "class",
+        "package_description": "Created by Nezz on 2/1/2018."
+      },
+      {
+        "name": "SocialHandler",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/friend/SocialHandler.html",
+        "type": "class",
+        "package_description": "Created by Nezz on 2/1/2018."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/friend/package-summary.html"
+  },
+  "org.dreambot.api.methods.grandexchange": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "Status",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/grandexchange/Status.html",
+        "type": "enum",
+        "package_description": ""
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "GrandExchange",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/grandexchange/GrandExchange.html",
+        "type": "class",
+        "package_description": "Created by Nezz on 12/10/2014."
+      },
+      {
+        "name": "GrandExchangeItem",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/grandexchange/GrandExchangeItem.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "LivePrices",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/grandexchange/LivePrices.html",
+        "type": "class",
+        "package_description": "This class can be used for getting a current Grand Exchange price of items"
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/grandexchange/package-summary.html"
+  },
+  "org.dreambot.api.methods.hint": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "HintArrowType",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/hint/HintArrowType.html",
+        "type": "enum",
+        "package_description": ""
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "HintArrow",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/hint/HintArrow.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/hint/package-summary.html"
+  },
+  "org.dreambot.api.methods.hotkeys": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "Hotkey",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/hotkeys/Hotkey.html",
+        "type": "enum",
+        "package_description": "Created by Nezz on 5/24/2016."
+      },
+      {
+        "name": "NPCAttackOption",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/hotkeys/NPCAttackOption.html",
+        "type": "enum",
+        "package_description": "Created by Nezz on 5/24/2016."
+      },
+      {
+        "name": "PlayerAttackOption",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/hotkeys/PlayerAttackOption.html",
+        "type": "enum",
+        "package_description": "Created by Nezz on 5/24/2016."
+      },
+      {
+        "name": "TabKey",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/hotkeys/TabKey.html",
+        "type": "enum",
+        "package_description": "Created by Nezz on 5/24/2016."
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/hotkeys/package-summary.html"
+  },
+  "org.dreambot.api.methods.ignore": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "Ignored",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/ignore/Ignored.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "IgnoredProvider",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/ignore/IgnoredProvider.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/ignore/package-summary.html"
+  },
+  "org.dreambot.api.methods.input": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "CameraMode",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/input/CameraMode.html",
+        "type": "enum",
+        "package_description": "Camera mode for deciding how the client will make any default camera movements."
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "Camera",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/input/Camera.html",
+        "type": "class",
+        "package_description": "Created by Nezz"
+      },
+      {
+        "name": "Keyboard",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/input/Keyboard.html",
+        "type": "class",
+        "package_description": "Deprecated. see Keyboard"
+      },
+      {
+        "name": "MouseKeys",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/input/MouseKeys.html",
+        "type": "class",
+        "package_description": "Created by Chris on 1/25/2015."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/input/package-summary.html"
+  },
+  "org.dreambot.api.methods.input.mouse": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "CrosshairState",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/input/mouse/CrosshairState.html",
+        "type": "enum",
+        "package_description": "Created with IntelliJ IDEA."
+      },
+      {
+        "name": "MouseSetting",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/input/mouse/MouseSetting.html",
+        "type": "enum",
+        "package_description": "Created by Dreamliner on 10/20/2014."
+      },
+      {
+        "name": "MouseSettings.Hand",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/input/mouse/MouseSettings.Hand.html",
+        "type": "enum",
+        "package_description": ""
+      }
+    ],
+    "interfaces": [
+      {
+        "name": "MouseTiming",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/input/mouse/MouseTiming.html",
+        "type": "interface",
+        "package_description": ""
+      }
+    ],
+    "annotations": [],
+    "others": [
+      {
+        "name": "MouseSettings",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/input/mouse/MouseSettings.html",
+        "type": "class",
+        "package_description": "Do not worry about this class too much."
+      },
+      {
+        "name": "MouseTracker",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/input/mouse/MouseTracker.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/input/mouse/package-summary.html"
+  },
+  "org.dreambot.api.methods.interactive": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "GameObjects",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/interactive/GameObjects.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "GraphicsObjects",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/interactive/GraphicsObjects.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "Interactables",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/interactive/Interactables.html",
+        "type": "class",
+        "package_description": "Created with IntelliJ IDEA."
+      },
+      {
+        "name": "NPCs",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/interactive/NPCs.html",
+        "type": "class",
+        "package_description": "A class containing methods which are used to retrieve local NPC from the game."
+      },
+      {
+        "name": "Players",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/interactive/Players.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "Projectiles",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/interactive/Projectiles.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/interactive/package-summary.html"
+  },
+  "org.dreambot.api.methods.item": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "GroundItems",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/item/GroundItems.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/item/package-summary.html"
+  },
+  "org.dreambot.api.methods.login": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "LoginStage",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/login/LoginStage.html",
+        "type": "enum",
+        "package_description": "Created by Nezz on 2/20/2018."
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "LoginStats",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/login/LoginStats.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "LoginUtility",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/login/LoginUtility.html",
+        "type": "class",
+        "package_description": "This is an API class used to give easier access to scripters to writing their own login handlers."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/login/package-summary.html"
+  },
+  "org.dreambot.api.methods.magic": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "Ancient",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/magic/Ancient.html",
+        "type": "enum",
+        "package_description": "Created by Pandemic"
+      },
+      {
+        "name": "Arceus",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/magic/Arceus.html",
+        "type": "enum",
+        "package_description": "Deprecated. see Arceuus"
+      },
+      {
+        "name": "Arceuus",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/magic/Arceuus.html",
+        "type": "enum",
+        "package_description": "Created by Pandemic"
+      },
+      {
+        "name": "Lunar",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/magic/Lunar.html",
+        "type": "enum",
+        "package_description": "Created by Pandemic"
+      },
+      {
+        "name": "Normal",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/magic/Normal.html",
+        "type": "enum",
+        "package_description": "Created by Pandemic"
+      },
+      {
+        "name": "Spellbook",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/magic/Spellbook.html",
+        "type": "enum",
+        "package_description": ""
+      }
+    ],
+    "interfaces": [
+      {
+        "name": "Spell",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/magic/Spell.html",
+        "type": "interface",
+        "package_description": "Created by Pandemic"
+      }
+    ],
+    "annotations": [],
+    "others": [
+      {
+        "name": "Magic",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/magic/Magic.html",
+        "type": "class",
+        "package_description": "Created by Pandemic"
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/magic/package-summary.html"
+  },
+  "org.dreambot.api.methods.magic.cost": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "Rune",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/magic/cost/Rune.html",
+        "type": "class",
+        "package_description": "Created by Nezz on 6/30/2016."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/magic/cost/package-summary.html"
+  },
+  "org.dreambot.api.methods.map": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "Area",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/map/Area.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "Map",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/map/Map.html",
+        "type": "class",
+        "package_description": "A class which houses methods related to Region and Map."
+      },
+      {
+        "name": "Tile",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/map/Tile.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/map/package-summary.html"
+  },
+  "org.dreambot.api.methods.minigame": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "Minigame",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/minigame/Minigame.html",
+        "type": "enum",
+        "package_description": ""
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "MinigameTeleports",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/minigame/MinigameTeleports.html",
+        "type": "class",
+        "package_description": "This class can be used to teleport via the Grouping tab"
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/minigame/package-summary.html"
+  },
+  "org.dreambot.api.methods.prayer": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "Prayer",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/prayer/Prayer.html",
+        "type": "enum",
+        "package_description": ""
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "Prayers",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/prayer/Prayers.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/prayer/package-summary.html"
+  },
+  "org.dreambot.api.methods.quest": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "Quests",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/quest/Quests.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/quest/package-summary.html"
+  },
+  "org.dreambot.api.methods.quest.book": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "FreeQuest",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/quest/book/FreeQuest.html",
+        "type": "enum",
+        "package_description": "Created by Nezz 9/26/2019\n Quests with a setting ID of -1 are unknown\n Quests with settings values of {-1} are unknown\n Quest Progress is found via widget text color."
+      },
+      {
+        "name": "MiniQuest",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/quest/book/MiniQuest.html",
+        "type": "enum",
+        "package_description": "Created by Nezz 9/26/2019\n Quests with a setting ID of -1 are unknown\n Quests with settings values of {-1} are unknown\n Quest Progress is found via widget text color."
+      },
+      {
+        "name": "PaidQuest",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/quest/book/PaidQuest.html",
+        "type": "enum",
+        "package_description": "Created by Nezz 9/26/2019\n Quests with a setting ID of -1 are unknown\n Quests with settings values of {-1} are unknown\n Quest Progress is found via widget text color."
+      },
+      {
+        "name": "Quest.State",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/quest/book/Quest.State.html",
+        "type": "enum",
+        "package_description": ""
+      },
+      {
+        "name": "Quest.Type",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/quest/book/Quest.Type.html",
+        "type": "enum",
+        "package_description": ""
+      }
+    ],
+    "interfaces": [
+      {
+        "name": "Quest",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/quest/book/Quest.html",
+        "type": "interface",
+        "package_description": "Created by Nezz 9/26/2019"
+      }
+    ],
+    "annotations": [],
+    "others": [],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/quest/book/package-summary.html"
+  },
+  "org.dreambot.api.methods.quest.book.requirement": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "QuestRequirement",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/quest/book/requirement/QuestRequirement.html",
+        "type": "class",
+        "package_description": "Deprecated."
+      },
+      {
+        "name": "Requirement",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/quest/book/requirement/Requirement.html",
+        "type": "class",
+        "package_description": "Deprecated."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/quest/book/requirement/package-summary.html"
+  },
+  "org.dreambot.api.methods.quest.book.requirement.skill": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "SkillReq",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/quest/book/requirement/skill/SkillReq.html",
+        "type": "class",
+        "package_description": "Deprecated."
+      },
+      {
+        "name": "SkillRequirement",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/quest/book/requirement/skill/SkillRequirement.html",
+        "type": "class",
+        "package_description": "Deprecated."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/quest/book/requirement/skill/package-summary.html"
+  },
+  "org.dreambot.api.methods.settings": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "PlayerSettings",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/settings/PlayerSettings.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "Varcs",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/settings/Varcs.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/settings/package-summary.html"
+  },
+  "org.dreambot.api.methods.settings.vars": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "VarBit",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/settings/vars/VarBit.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "VarPlayer",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/settings/vars/VarPlayer.html",
+        "type": "class",
+        "package_description": "Use these in conjunction with PlayerSettings.getConfig(int)"
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/settings/vars/package-summary.html"
+  },
+  "org.dreambot.api.methods.skills": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "Skill",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/skills/Skill.html",
+        "type": "enum",
+        "package_description": ""
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "Skills",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/skills/Skills.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "SkillTracker",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/skills/SkillTracker.html",
+        "type": "class",
+        "package_description": "Created by Nezz on 11/3/2014."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/skills/package-summary.html"
+  },
+  "org.dreambot.api.methods.tabs": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "Tab",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/tabs/Tab.html",
+        "type": "enum",
+        "package_description": ""
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "Tabs",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/tabs/Tabs.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/tabs/package-summary.html"
+  },
+  "org.dreambot.api.methods.trade": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "TradeUser",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/trade/TradeUser.html",
+        "type": "enum",
+        "package_description": ""
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "Trade",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/trade/Trade.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/trade/package-summary.html"
+  },
+  "org.dreambot.api.methods.walking": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "TileObstacle.Type",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/TileObstacle.Type.html",
+        "type": "enum",
+        "package_description": ""
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "TileObstacle",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/TileObstacle.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/package-summary.html"
+  },
+  "org.dreambot.api.methods.walking.impl": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "Walking",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/impl/Walking.html",
+        "type": "class",
+        "package_description": "A class containing every method you need to walk anywhere in the game."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/impl/package-summary.html"
+  },
+  "org.dreambot.api.methods.walking.path": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "PathDirection",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/path/PathDirection.html",
+        "type": "enum",
+        "package_description": "Created with IntelliJ IDEA."
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "AbstractPath",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/path/AbstractPath.html",
+        "type": "class",
+        "package_description": "Created with IntelliJ IDEA."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/path/package-summary.html"
+  },
+  "org.dreambot.api.methods.walking.path.impl": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "GlobalPath",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/path/impl/GlobalPath.html",
+        "type": "class",
+        "package_description": "Created with IntelliJ IDEA."
+      },
+      {
+        "name": "LocalPath",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/path/impl/LocalPath.html",
+        "type": "class",
+        "package_description": "Created with IntelliJ IDEA."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/path/impl/package-summary.html"
+  },
+  "org.dreambot.api.methods.walking.pathfinding.data": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "TileFlags",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/data/TileFlags.html",
+        "type": "class",
+        "package_description": "Defines the TileMap collision flags."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/data/package-summary.html"
+  },
+  "org.dreambot.api.methods.walking.pathfinding.impl": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "PathFinder",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/PathFinder.html",
+        "type": "class",
+        "package_description": "A base PathFinder class for local pathfinders like our LocalPathFinder"
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/package-summary.html"
+  },
+  "org.dreambot.api.methods.walking.pathfinding.impl.local": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [
+      {
+        "name": "Heuristic",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/local/Heuristic.html",
+        "type": "interface",
+        "package_description": ""
+      }
+    ],
+    "annotations": [],
+    "others": [
+      {
+        "name": "AbsoluteHeuristic",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/local/AbsoluteHeuristic.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "LocalPathFinder",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/local/LocalPathFinder.html",
+        "type": "class",
+        "package_description": "The local pathfinder used for navigating within the local region"
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/local/package-summary.html"
+  },
+  "org.dreambot.api.methods.walking.pathfinding.impl.node": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "PathNode",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/node/PathNode.html",
+        "type": "class",
+        "package_description": "A path node in the current region."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/node/package-summary.html"
+  },
+  "org.dreambot.api.methods.walking.pathfinding.impl.obstacle": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "PathObstacle",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/obstacle/PathObstacle.html",
+        "type": "class",
+        "package_description": "Created with IntelliJ IDEA."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/obstacle/package-summary.html"
+  },
+  "org.dreambot.api.methods.walking.pathfinding.impl.obstacle.impl": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "ClimbableObstacle",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/obstacle/impl/ClimbableObstacle.html",
+        "type": "class",
+        "package_description": "Created with IntelliJ IDEA."
+      },
+      {
+        "name": "ClimbableObstacle.ClimbableObstacleBuilder",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/obstacle/impl/ClimbableObstacle.ClimbableObstacleBuilder.html",
+        "type": "class",
+        "package_description": "Builder class used to create a new ClimbableObstacleBuilder\n new ClimbableObstacle.ClimbableObstacleBuilder(\"Staircase\",\"Climb-up\").createClimbableObstacle();"
+      },
+      {
+        "name": "DestructableObstacle",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/obstacle/impl/DestructableObstacle.html",
+        "type": "class",
+        "package_description": "Created with IntelliJ IDEA."
+      },
+      {
+        "name": "DestructableObstacle.DestructableObstacleBuilder",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/obstacle/impl/DestructableObstacle.DestructableObstacleBuilder.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "PassableObstacle",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/obstacle/impl/PassableObstacle.html",
+        "type": "class",
+        "package_description": "Created with IntelliJ IDEA."
+      },
+      {
+        "name": "PassableObstacle.PassableObstacleBuilder",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/obstacle/impl/PassableObstacle.PassableObstacleBuilder.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "SOSDoor",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/obstacle/impl/SOSDoor.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "TeleportObstacle",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/obstacle/impl/TeleportObstacle.html",
+        "type": "class",
+        "package_description": "Teleport obstacle is one that on completion teleports you to an end tile\n EX: Abyss obstacles"
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/obstacle/impl/package-summary.html"
+  },
+  "org.dreambot.api.methods.walking.pathfinding.impl.web": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "WebFinder",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/web/WebFinder.html",
+        "type": "class",
+        "package_description": "Web pathfinding class, generally shouldn't need to be accessed directly"
+      },
+      {
+        "name": "WebPathNode",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/web/WebPathNode.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "WebPathQuery",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/web/WebPathQuery.html",
+        "type": "class",
+        "package_description": "Web Path Query to calculate a possible web path from a tile to a tile with the option of including the bank cache for required items."
+      },
+      {
+        "name": "WebPathQuery.WebPathQueryBuilder",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/web/WebPathQuery.WebPathQueryBuilder.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "WebPathResponse",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/web/WebPathResponse.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "WebPathResponse.WebPathResponseBuilder",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/web/WebPathResponse.WebPathResponseBuilder.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/web/package-summary.html"
+  },
+  "org.dreambot.api.methods.walking.web.node": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "WebNodeType",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/WebNodeType.html",
+        "type": "enum",
+        "package_description": "Created with IntelliJ IDEA."
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "AbstractWebNode",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/AbstractWebNode.html",
+        "type": "class",
+        "package_description": "This is the base class of all web nodes in our WebFinder"
+      },
+      {
+        "name": "CustomWebPath",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/CustomWebPath.html",
+        "type": "class",
+        "package_description": "CustomWebPath is a helper class that makes creating and attaching custom web nodes to our standard web nodes easier"
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/package-summary.html"
+  },
+  "org.dreambot.api.methods.walking.web.node.builder": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "WebNodeBuilder",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/builder/WebNodeBuilder.html",
+        "type": "class",
+        "package_description": "Created by Nezz on 8/11/2016."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/builder/package-summary.html"
+  },
+  "org.dreambot.api.methods.walking.web.node.impl": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "AgilityWebNode",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/AgilityWebNode.html",
+        "type": "class",
+        "package_description": "Represents a agility node"
+      },
+      {
+        "name": "BankWebNode",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/BankWebNode.html",
+        "type": "class",
+        "package_description": "Bank web node"
+      },
+      {
+        "name": "BasicWebNode",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/BasicWebNode.html",
+        "type": "class",
+        "package_description": "Basic web node, which stores connections and location."
+      },
+      {
+        "name": "EntranceWebNode",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/EntranceWebNode.html",
+        "type": "class",
+        "package_description": "Web node that uses an object to go somewhere on a different plane or far away\n Default weight of 25"
+      },
+      {
+        "name": "TollWebNode",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/TollWebNode.html",
+        "type": "class",
+        "package_description": "Represents a toll node such as a gate"
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/package-summary.html"
+  },
+  "org.dreambot.api.methods.walking.web.node.impl.items": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "RequiredItem",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/items/RequiredItem.html",
+        "type": "class",
+        "package_description": "Required Item for WebPathResponse data"
+      },
+      {
+        "name": "RequiredItem.RequiredItemBuilder",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/items/RequiredItem.RequiredItemBuilder.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/items/package-summary.html"
+  },
+  "org.dreambot.api.methods.walking.web.node.impl.pathaware": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [
+      {
+        "name": "ConditionalLocation",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/pathaware/ConditionalLocation.html",
+        "type": "interface",
+        "package_description": ""
+      },
+      {
+        "name": "PathAwareWebNode",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/pathaware/PathAwareWebNode.html",
+        "type": "interface",
+        "package_description": "Path aware web nodes are given the next web node in the path in the PathAwareWebNode.execute(AbstractWebNode) method"
+      }
+    ],
+    "annotations": [],
+    "others": [
+      {
+        "name": "CharterWebNode",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/pathaware/CharterWebNode.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "FairyRingWebNode",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/pathaware/FairyRingWebNode.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "GnomeGliderWebNode",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/pathaware/GnomeGliderWebNode.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "MagicCarpetWebNode",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/pathaware/MagicCarpetWebNode.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "MountainGuideWebNode",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/pathaware/MountainGuideWebNode.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "SelfConnectingWebNode",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/pathaware/SelfConnectingWebNode.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "ShipWebNode",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/pathaware/ShipWebNode.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "SpiritTreeWebNode",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/pathaware/SpiritTreeWebNode.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/pathaware/package-summary.html"
+  },
+  "org.dreambot.api.methods.walking.web.node.impl.teleports": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "ItemTeleport",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/teleports/ItemTeleport.html",
+        "type": "enum",
+        "package_description": ""
+      },
+      {
+        "name": "MagicTeleport",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/teleports/MagicTeleport.html",
+        "type": "enum",
+        "package_description": ""
+      }
+    ],
+    "interfaces": [
+      {
+        "name": "Teleport",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/teleports/Teleport.html",
+        "type": "interface",
+        "package_description": ""
+      }
+    ],
+    "annotations": [],
+    "others": [
+      {
+        "name": "TeleportSettings",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/teleports/TeleportSettings.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "TeleportWebNode",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/teleports/TeleportWebNode.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/teleports/package-summary.html"
+  },
+  "org.dreambot.api.methods.walking.web.node.impl.teleports.poh": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "HousePortal",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/teleports/poh/HousePortal.html",
+        "type": "enum",
+        "package_description": ""
+      },
+      {
+        "name": "JewelryBox",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/teleports/poh/JewelryBox.html",
+        "type": "enum",
+        "package_description": "Not currently implemented"
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/impl/teleports/poh/package-summary.html"
+  },
+  "org.dreambot.api.methods.widget": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "Widget",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/widget/Widget.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "Widgets",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/widget/Widgets.html",
+        "type": "class",
+        "package_description": "API class revolving around Widget and WidgetChild It should be noted that Widget is essentially just a container of WidgetChild Logic in general should not be applied to Widget and should instead be focused on WidgetChild"
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/widget/package-summary.html"
+  },
+  "org.dreambot.api.methods.widget.helpers": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "ItemProcessing",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/widget/helpers/ItemProcessing.html",
+        "type": "class",
+        "package_description": "This helper class makes processing / crafting / creating items easier"
+      },
+      {
+        "name": "Smithing",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/widget/helpers/Smithing.html",
+        "type": "class",
+        "package_description": "This helper class makes smithing items easier"
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/widget/helpers/package-summary.html"
+  },
+  "org.dreambot.api.methods.world": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "Location",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/world/Location.html",
+        "type": "enum",
+        "package_description": ""
+      },
+      {
+        "name": "WorldType",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/world/WorldType.html",
+        "type": "enum",
+        "package_description": "."
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "World",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/world/World.html",
+        "type": "class",
+        "package_description": "Created by Nezz on 1/5/2015."
+      },
+      {
+        "name": "World.WorldBuilder",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/world/World.WorldBuilder.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "Worlds",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/world/Worlds.html",
+        "type": "class",
+        "package_description": "Created by Nezz on 1/5/2015."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/world/package-summary.html"
+  },
+  "org.dreambot.api.methods.worldhopper": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [
+      {
+        "name": "JSocket",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/worldhopper/JSocket.html",
+        "type": "interface",
+        "package_description": ""
+      }
+    ],
+    "annotations": [],
+    "others": [
+      {
+        "name": "WorldHopper",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/methods/worldhopper/WorldHopper.html",
+        "type": "class",
+        "package_description": "Created by Pandemic"
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/worldhopper/package-summary.html"
+  },
+  "org.dreambot.api.randoms": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "RandomEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/randoms/RandomEvent.html",
+        "type": "enum",
+        "package_description": ""
+      },
+      {
+        "name": "RandomManager.State",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/randoms/RandomManager.State.html",
+        "type": "enum",
+        "package_description": ""
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "BankPinConfirmSolver",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/randoms/BankPinConfirmSolver.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "BankPinSolver",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/randoms/BankPinSolver.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "BreakSolver",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/randoms/BreakSolver.html",
+        "type": "class",
+        "package_description": "Break Solver/Handler class."
+      },
+      {
+        "name": "DeathsDoor",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/randoms/DeathsDoor.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "DismissBankNotificationTutorial",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/randoms/DismissBankNotificationTutorial.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "DismissBankTutorial",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/randoms/DismissBankTutorial.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "DismissSolver",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/randoms/DismissSolver.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "GameLayoutSolver",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/randoms/GameLayoutSolver.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "GenieSolver",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/randoms/GenieSolver.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "LoginSolver",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/randoms/LoginSolver.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "RandomManager",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/randoms/RandomManager.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "RandomSolver",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/randoms/RandomSolver.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "RoofDisabler",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/randoms/RoofDisabler.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "WelcomeScreenSolver",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/randoms/WelcomeScreenSolver.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/randoms/package-summary.html"
+  },
+  "org.dreambot.api.script": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "Category",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/Category.html",
+        "type": "enum",
+        "package_description": ""
+      },
+      {
+        "name": "ScriptManager.State",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/ScriptManager.State.html",
+        "type": "enum",
+        "package_description": ""
+      }
+    ],
+    "interfaces": [],
+    "annotations": [
+      {
+        "name": "ScriptManifest",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/ScriptManifest.html",
+        "type": "annotation",
+        "package_description": "The ScriptManifest is required for all scripts to have, and provides needed information about the script for the Script\n Manager and QuickStart."
+      },
+      {
+        "name": "Unobfuscated",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/Unobfuscated.html",
+        "type": "annotation",
+        "package_description": "You can mark your classes, fields, or methods with this annotation to not have them obfuscated or renamed in the SDN"
+      }
+    ],
+    "others": [
+      {
+        "name": "AbstractScript",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/AbstractScript.html",
+        "type": "class",
+        "package_description": "This is the base class of any script to be run on the client."
+      },
+      {
+        "name": "ScriptManager",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/ScriptManager.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "TaskNode",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/TaskNode.html",
+        "type": "class",
+        "package_description": "Created with IntelliJ IDEA."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/script/package-summary.html"
+  },
+  "org.dreambot.api.script.event": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "ScriptEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/ScriptEvent.html",
+        "type": "class",
+        "package_description": "Created with IntelliJ IDEA."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/package-summary.html"
+  },
+  "org.dreambot.api.script.event.impl": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "ActionEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/ActionEvent.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "BankItemEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/BankItemEvent.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "BreakEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/BreakEvent.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "EquipmentItemEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/EquipmentItemEvent.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "ExperienceEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/ExperienceEvent.html",
+        "type": "class",
+        "package_description": "An event based on any experience/level changes in the game."
+      },
+      {
+        "name": "GameObjectSpawnEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/GameObjectSpawnEvent.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "GameStateEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/GameStateEvent.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "GroundItemSpawnEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/GroundItemSpawnEvent.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "HitSplatEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/HitSplatEvent.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "HumanMouseEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/HumanMouseEvent.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "InventoryItemEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/InventoryItemEvent.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "LoadingStateEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/LoadingStateEvent.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "LoginResponseEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/LoginResponseEvent.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "LoginStageEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/LoginStageEvent.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "LootBagItemEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/LootBagItemEvent.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "MenuAddedEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/MenuAddedEvent.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "MessageEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/MessageEvent.html",
+        "type": "class",
+        "package_description": "Created with IntelliJ IDEA."
+      },
+      {
+        "name": "NpcAnimationEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/NpcAnimationEvent.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "PaintEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/PaintEvent.html",
+        "type": "class",
+        "package_description": "Created with IntelliJ IDEA."
+      },
+      {
+        "name": "PlayerAnimationEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/PlayerAnimationEvent.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "ProjectileTargetEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/ProjectileTargetEvent.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "RegionLoadEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/RegionLoadEvent.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "RSCanvasFocusEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/RSCanvasFocusEvent.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "RSCanvasKeyboardEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/RSCanvasKeyboardEvent.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "RSCanvasMouseEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/RSCanvasMouseEvent.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "ScriptPrefiredEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/ScriptPrefiredEvent.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "ServerTickEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/ServerTickEvent.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "SpawnEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/SpawnEvent.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "SpotAnimationEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/SpotAnimationEvent.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "TickEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/TickEvent.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "VarBitEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/VarBitEvent.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "VarpEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/VarpEvent.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "WidgetDecodedEvent",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/WidgetDecodedEvent.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/script/event/impl/package-summary.html"
+  },
+  "org.dreambot.api.script.frameworks.treebranch": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "Branch",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/frameworks/treebranch/Branch.html",
+        "type": "class",
+        "package_description": "Branch of the framework, holds on to leaf children"
+      },
+      {
+        "name": "Leaf",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/frameworks/treebranch/Leaf.html",
+        "type": "class",
+        "package_description": "Base leaf of the framework, abstract class to be extended on for behavior functionality"
+      },
+      {
+        "name": "Root",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/frameworks/treebranch/Root.html",
+        "type": "class",
+        "package_description": "The root of the framework, can be given branches or leaves as children."
+      },
+      {
+        "name": "TreeScript",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/frameworks/treebranch/TreeScript.html",
+        "type": "class",
+        "package_description": "Framework implementation of AbstractScript based on the Tree Branch Leaf framework created by LostVirt\n https://github.com/LostVirt/Dreambot-Tree-Branch-Framework\n\n Creates a Root node, which has a linked list of Branch , each of which has a linked list of Leaf"
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/script/frameworks/treebranch/package-summary.html"
+  },
+  "org.dreambot.api.script.impl": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "TaskScript",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/impl/TaskScript.html",
+        "type": "class",
+        "package_description": "New replacement for NodeScript."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/script/impl/package-summary.html"
+  },
+  "org.dreambot.api.script.listener": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [
+      {
+        "name": "ActionListener",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/listener/ActionListener.html",
+        "type": "interface",
+        "package_description": "This is an action listener used by scripts or other classes\n Events sent by a threaded action listener, only dispatched while a script is running."
+      },
+      {
+        "name": "AnimationListener",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/listener/AnimationListener.html",
+        "type": "interface",
+        "package_description": "This is an animation listener used by scripts or other classes\n Events sent by a threaded animation listener, only dispatched while a script is running."
+      },
+      {
+        "name": "BreakListener",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/listener/BreakListener.html",
+        "type": "interface",
+        "package_description": ""
+      },
+      {
+        "name": "ChatListener",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/listener/ChatListener.html",
+        "type": "interface",
+        "package_description": ""
+      },
+      {
+        "name": "ExperienceListener",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/listener/ExperienceListener.html",
+        "type": "interface",
+        "package_description": "This is an experience listener used by scripts or other classes\n Events sent by a threaded experience listener, only dispatched while a script is running."
+      },
+      {
+        "name": "GameStateListener",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/listener/GameStateListener.html",
+        "type": "interface",
+        "package_description": ""
+      },
+      {
+        "name": "GameTickListener",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/listener/GameTickListener.html",
+        "type": "interface",
+        "package_description": "Fires an event on each game tick processed"
+      },
+      {
+        "name": "HitSplatListener",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/listener/HitSplatListener.html",
+        "type": "interface",
+        "package_description": ""
+      },
+      {
+        "name": "HumanMouseListener",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/listener/HumanMouseListener.html",
+        "type": "interface",
+        "package_description": "This is a human mouse listener, designed to capture user mouse clicks while a script is running\n Events sent by a threaded experience listener, only dispatched while a script is running."
+      },
+      {
+        "name": "ItemContainerListener",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/listener/ItemContainerListener.html",
+        "type": "interface",
+        "package_description": "Item container listener, holds events for Inventory, Bank, and Equipment."
+      },
+      {
+        "name": "LoginListener",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/listener/LoginListener.html",
+        "type": "interface",
+        "package_description": ""
+      },
+      {
+        "name": "MenuRowListener",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/listener/MenuRowListener.html",
+        "type": "interface",
+        "package_description": "This is an menu listener used by scripts or other classes\n Events sent by a threaded menu listener, only dispatched while a script is running."
+      },
+      {
+        "name": "PaintListener",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/listener/PaintListener.html",
+        "type": "interface",
+        "package_description": "Created with IntelliJ IDEA."
+      },
+      {
+        "name": "ProjectileListener",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/listener/ProjectileListener.html",
+        "type": "interface",
+        "package_description": ""
+      },
+      {
+        "name": "RegionLoadListener",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/listener/RegionLoadListener.html",
+        "type": "interface",
+        "package_description": "This is a region load listener used by scripts or other classes\n Events sent by a threaded region listener, only dispatched while a script is running."
+      },
+      {
+        "name": "RSScriptEventListener",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/listener/RSScriptEventListener.html",
+        "type": "interface",
+        "package_description": "Fires an event at the start of the runScript method"
+      },
+      {
+        "name": "RuneScriptListener",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/listener/RuneScriptListener.html",
+        "type": "interface",
+        "package_description": "Fires an event on each game tick processed"
+      },
+      {
+        "name": "SpawnListener",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/listener/SpawnListener.html",
+        "type": "interface",
+        "package_description": "This is a spawn listener used by scripts or other classes\n Events sent by an injected spawn listener, only dispatched while a script is running."
+      },
+      {
+        "name": "VarListener",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/listener/VarListener.html",
+        "type": "interface",
+        "package_description": "Fires an event when vars change"
+      },
+      {
+        "name": "WidgetEventListener",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/listener/WidgetEventListener.html",
+        "type": "interface",
+        "package_description": ""
+      }
+    ],
+    "annotations": [],
+    "others": [],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/script/listener/package-summary.html"
+  },
+  "org.dreambot.api.script.loader": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "LocalLoader",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/loader/LocalLoader.html",
+        "type": "class",
+        "package_description": "Created by Pandemic"
+      },
+      {
+        "name": "NetworkLoader",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/loader/NetworkLoader.html",
+        "type": "class",
+        "package_description": "Deprecated."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/script/loader/package-summary.html"
+  },
+  "org.dreambot.api.script.schedule": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "ScheduledScript",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/schedule/ScheduledScript.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "ScheduleSettings",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/schedule/ScheduleSettings.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "ScriptSchedule",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/schedule/ScriptSchedule.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "ScriptScheduler",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/schedule/ScriptScheduler.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/script/schedule/package-summary.html"
+  },
+  "org.dreambot.api.script.schedule.conditions": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [
+      {
+        "name": "StopCondition",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/schedule/conditions/StopCondition.html",
+        "type": "interface",
+        "package_description": ""
+      }
+    ],
+    "annotations": [],
+    "others": [
+      {
+        "name": "RunningTime",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/schedule/conditions/RunningTime.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "ScriptStop",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/schedule/conditions/ScriptStop.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "SkillBased",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/script/schedule/conditions/SkillBased.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/script/schedule/conditions/package-summary.html"
+  },
+  "org.dreambot.api.settings": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "CacheSettings",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/settings/CacheSettings.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "ScriptSettings",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/settings/ScriptSettings.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/settings/package-summary.html"
+  },
+  "org.dreambot.api.utilities": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "Logger.LogType",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/utilities/Logger.LogType.html",
+        "type": "enum",
+        "package_description": ""
+      },
+      {
+        "name": "ShiftKeys",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/utilities/ShiftKeys.html",
+        "type": "enum",
+        "package_description": ""
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "AccountManager",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/utilities/AccountManager.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "ColorPicker",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/utilities/ColorPicker.html",
+        "type": "class",
+        "package_description": "Created by Pandemic"
+      },
+      {
+        "name": "Hash",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/utilities/Hash.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "Images",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/utilities/Images.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "InventoryMonitor",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/utilities/InventoryMonitor.html",
+        "type": "class",
+        "package_description": "Deprecated. Use ItemContainerListener instead"
+      },
+      {
+        "name": "ISAACCipher",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/utilities/ISAACCipher.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "Logger",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/utilities/Logger.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "NodeContainerUtilities",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/utilities/NodeContainerUtilities.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "Sleep",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/utilities/Sleep.html",
+        "type": "class",
+        "package_description": "Contains static methods for sleeping"
+      },
+      {
+        "name": "StatusBar",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/utilities/StatusBar.html",
+        "type": "class",
+        "package_description": "Global manager for showing messages to users through the status bar"
+      },
+      {
+        "name": "Timer",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/utilities/Timer.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "Vector",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/utilities/Vector.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/utilities/package-summary.html"
+  },
+  "org.dreambot.api.utilities.impl": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [
+      {
+        "name": "Condition",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/utilities/impl/Condition.html",
+        "type": "interface",
+        "package_description": ""
+      }
+    ],
+    "annotations": [],
+    "others": [],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/utilities/impl/package-summary.html"
+  },
+  "org.dreambot.api.wrappers.cache.nodes": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "AnimationSequenceWrapper",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/cache/nodes/AnimationSequenceWrapper.html",
+        "type": "class",
+        "package_description": "Deprecated."
+      },
+      {
+        "name": "CacheNode",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/cache/nodes/CacheNode.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "MessageNode",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/cache/nodes/MessageNode.html",
+        "type": "class",
+        "package_description": "Created by Pandemic"
+      },
+      {
+        "name": "NodeSub",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/cache/nodes/NodeSub.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "NodeWrapper",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/cache/nodes/NodeWrapper.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "RenderableNode",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/cache/nodes/RenderableNode.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/cache/nodes/package-summary.html"
+  },
+  "org.dreambot.api.wrappers.cache.nodes.impl": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [
+      {
+        "name": "Node",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/cache/nodes/impl/Node.html",
+        "type": "interface",
+        "package_description": "Created with IntelliJ IDEA."
+      }
+    ],
+    "annotations": [],
+    "others": [],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/cache/nodes/impl/package-summary.html"
+  },
+  "org.dreambot.api.wrappers.graphics": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [
+      {
+        "name": "Viewport",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/graphics/Viewport.html",
+        "type": "interface",
+        "package_description": "Created with IntelliJ IDEA."
+      }
+    ],
+    "annotations": [],
+    "others": [
+      {
+        "name": "GraphicsObject",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/graphics/GraphicsObject.html",
+        "type": "class",
+        "package_description": "GraphicsObjects are certain graphical animations that do not move ."
+      },
+      {
+        "name": "ModelWrapper",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/graphics/ModelWrapper.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "NpcOverride",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/graphics/NpcOverride.html",
+        "type": "class",
+        "package_description": "Contains data for overriding model information such as colors and textures"
+      },
+      {
+        "name": "Projectile",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/graphics/Projectile.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "SpotAnimation",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/graphics/SpotAnimation.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/graphics/package-summary.html"
+  },
+  "org.dreambot.api.wrappers.interactive": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [
+      {
+        "name": "Identifiable",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/Identifiable.html",
+        "type": "interface",
+        "package_description": "Created with IntelliJ IDEA."
+      },
+      {
+        "name": "Locatable",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/Locatable.html",
+        "type": "interface",
+        "package_description": "Created with IntelliJ IDEA."
+      },
+      {
+        "name": "Verified",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/Verified.html",
+        "type": "interface",
+        "package_description": "Created with IntelliJ IDEA."
+      }
+    ],
+    "annotations": [],
+    "others": [
+      {
+        "name": "AnimableGameObject",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/AnimableGameObject.html",
+        "type": "class",
+        "package_description": "Deprecated. unused"
+      },
+      {
+        "name": "BoundaryObject",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/BoundaryObject.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "Character",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/Character.html",
+        "type": "class",
+        "package_description": "The type Character."
+      },
+      {
+        "name": "Entity",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/Entity.html",
+        "type": "class",
+        "package_description": "The wrapper for all interactable game objects."
+      },
+      {
+        "name": "FloorDecoration",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/FloorDecoration.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "GameObject",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/GameObject.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "Model",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/Model.html",
+        "type": "class",
+        "package_description": "Created with IntelliJ IDEA."
+      },
+      {
+        "name": "NPC",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/NPC.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "Player",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/Player.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "SceneObject",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/SceneObject.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "WalkingQueueSpeed",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/WalkingQueueSpeed.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "WallObject",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/WallObject.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/package-summary.html"
+  },
+  "org.dreambot.api.wrappers.interactive.action": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "RSAction",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/action/RSAction.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/action/package-summary.html"
+  },
+  "org.dreambot.api.wrappers.interactive.composite": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "ItemComposite",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/composite/ItemComposite.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "NameComposite",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/composite/NameComposite.html",
+        "type": "class",
+        "package_description": "Deprecated."
+      },
+      {
+        "name": "NpcComposite",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/composite/NpcComposite.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "PlayerComposite",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/composite/PlayerComposite.html",
+        "type": "class",
+        "package_description": "Deprecated."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/composite/package-summary.html"
+  },
+  "org.dreambot.api.wrappers.interactive.interact": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "Interactable",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/interact/Interactable.html",
+        "type": "class",
+        "package_description": "Created with IntelliJ IDEA."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/interact/package-summary.html"
+  },
+  "org.dreambot.api.wrappers.interactive.util": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "Direction",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/util/Direction.html",
+        "type": "enum",
+        "package_description": "Created with IntelliJ IDEA."
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "HealthBar",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/util/HealthBar.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "HealthBarComposite",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/util/HealthBarComposite.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "HealthBarData",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/util/HealthBarData.html",
+        "type": "class",
+        "package_description": "Created by Pandemic on 7/14/16."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/util/package-summary.html"
+  },
+  "org.dreambot.api.wrappers.items": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "GroundItem",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/items/GroundItem.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "Item",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/items/Item.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "ItemLayer",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/items/ItemLayer.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/items/package-summary.html"
+  },
+  "org.dreambot.api.wrappers.map": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [
+      {
+        "name": "TileMap",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/map/TileMap.html",
+        "type": "interface",
+        "package_description": "Created with IntelliJ IDEA."
+      }
+    ],
+    "annotations": [],
+    "others": [
+      {
+        "name": "Region",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/map/Region.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "TileReference",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/map/TileReference.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/map/package-summary.html"
+  },
+  "org.dreambot.api.wrappers.map.impl": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "CollisionMap",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/map/impl/CollisionMap.html",
+        "type": "class",
+        "package_description": "Collision map wrapper class."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/map/impl/package-summary.html"
+  },
+  "org.dreambot.api.wrappers.widgets": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "GameMenu",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/widgets/GameMenu.html",
+        "type": "class",
+        "package_description": ""
+      },
+      {
+        "name": "Menu",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/widgets/Menu.html",
+        "type": "class",
+        "package_description": "Static class to interact with the top level Menu"
+      },
+      {
+        "name": "MenuRow",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/widgets/MenuRow.html",
+        "type": "class",
+        "package_description": "Created with IntelliJ IDEA."
+      },
+      {
+        "name": "WidgetChild",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/widgets/WidgetChild.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/widgets/package-summary.html"
+  },
+  "org.dreambot.api.wrappers.widgets.builder": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "MenuRowBuilder",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/widgets/builder/MenuRowBuilder.html",
+        "type": "class",
+        "package_description": "Created by Nezz on 7/10/2022\n Utility class to help create MenuRows to use in the new menu interactions"
+      },
+      {
+        "name": "MenuRowQueue",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/widgets/builder/MenuRowQueue.html",
+        "type": "class",
+        "package_description": "Deprecated."
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/widgets/builder/package-summary.html"
+  },
+  "org.dreambot.api.wrappers.widgets.message": {
+    "classes": [],
+    "enums": [
+      {
+        "name": "MessageType",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/widgets/message/MessageType.html",
+        "type": "enum",
+        "package_description": "Created by Nezz on 1/17/2015."
+      }
+    ],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "Message",
+        "url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/widgets/message/Message.html",
+        "type": "class",
+        "package_description": "Created by Pandemic"
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/widgets/message/package-summary.html"
+  },
+  "org.dreambot.core": {
+    "classes": [],
+    "enums": [],
+    "interfaces": [],
+    "annotations": [],
+    "others": [
+      {
+        "name": "Instance",
+        "url": "https://dreambot.org/javadocs/org/dreambot/core/Instance.html",
+        "type": "class",
+        "package_description": ""
+      }
+    ],
+    "package_url": "https://dreambot.org/javadocs/org/dreambot/core/package-summary.html"
+  }
+}

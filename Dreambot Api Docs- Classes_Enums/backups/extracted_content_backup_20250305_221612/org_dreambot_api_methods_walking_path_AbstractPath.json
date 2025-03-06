@@ -1,0 +1,316 @@
+{
+  "name": "AbstractPath",
+  "full_name": "org.dreambot.api.methods.walking.path.AbstractPath",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/path/AbstractPath.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.walking.path",
+  "description": "Created with IntelliJ IDEA.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "PathDirection",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the PathDirection",
+      "deprecated": false
+    },
+    {
+      "name": "E",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the path",
+      "deprecated": false
+    },
+    {
+      "name": "PathObstacle",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a PathObstacle for a given tile",
+      "deprecated": false
+    },
+    {
+      "name": "iterator",
+      "signature": "public java.util.Iterator<E> iterator()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "listIterator",
+      "signature": "public java.util.ListIterator<E> listIterator()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "indexOf",
+      "signature": "public int indexOf\u200b(java.lang.Object o)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "clear",
+      "signature": "public void clear()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "first",
+      "signature": "public E first()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "last",
+      "signature": "public E last()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "addToFront",
+      "signature": "public void addToFront\u200b(E e)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "add",
+      "signature": "public boolean add\u200b(E e)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "get",
+      "signature": "public E get\u200b(int index)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "path",
+      "signature": "public java.util.List<E> path()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the path",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "remove",
+      "signature": "public boolean remove\u200b(java.lang.Object o)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "size",
+      "signature": "public int size()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "addAll",
+      "signature": "public boolean addAll\u200b(java.util.Collection<? extends E> c)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "direction",
+      "signature": "public PathDirection direction()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the PathDirection",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setDirection",
+      "signature": "public void setDirection\u200b(PathDirection direction)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the PathDirection",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "obstacles",
+      "signature": "public java.util.Map<E,\u200bPathObstacle> obstacles()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a Map of the obstacles for the path",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isObstacleTile",
+      "signature": "public boolean isObstacleTile\u200b(E tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the tile has an obstacle on it",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getObstacleForTile",
+      "signature": "public PathObstacle getObstacleForTile\u200b(E tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a PathObstacle for a given tile",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "reverse",
+      "signature": "public void reverse()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Reverses the path",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "walk",
+      "signature": "public abstract boolean walk()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Walks the next point in the path",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "next",
+      "signature": "public abstract E next()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the next node in the path",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

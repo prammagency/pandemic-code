@@ -1,0 +1,188 @@
+{
+  "sleep": "500",
+  "name": "",
+  "version": 1.0,
+  "actions": [
+    {
+      "id": "IF_NPC_EXISTS",
+      "properties": {
+        "Filter NPC By": {
+          "class": "NPC",
+          "logic": "NONE",
+          "type": "NAME",
+          "operator": "EQUALS",
+          "value": "y",
+          "filters": [
+            {
+              "class": "NPC",
+              "logic": "AND",
+              "type": "NAME",
+              "operator": "DOES_NOT_EQUAL",
+              "value": "y"
+            },
+            {
+              "class": "NPC",
+              "logic": "AND",
+              "type": "NAME",
+              "operator": "CONTAINS",
+              "value": "y"
+            },
+            {
+              "class": "NPC",
+              "logic": "AND",
+              "type": "NAME",
+              "operator": "DOES_NOT_CONTAIN",
+              "value": "y"
+            },
+            {
+              "class": "NPC",
+              "logic": "AND",
+              "type": "NAME",
+              "operator": "STARTS_WITH",
+              "value": "y"
+            },
+            {
+              "class": "NPC",
+              "logic": "AND",
+              "type": "NAME",
+              "operator": "STARTS_WITH",
+              "value": "y"
+            },
+            {
+              "class": "NPC",
+              "logic": "AND",
+              "type": "NAME",
+              "operator": "ENDS_WITH",
+              "value": "y"
+            },
+            {
+              "class": "NPC",
+              "logic": "AND",
+              "type": "NAME",
+              "operator": "IS_IN_LIST",
+              "value": "y"
+            },
+            {
+              "class": "NPC",
+              "logic": "AND",
+              "type": "NAME",
+              "operator": "IS_IN_LIST",
+              "value": "y"
+            },
+            {
+              "class": "NPC",
+              "logic": "AND",
+              "type": "NAME",
+              "operator": "NOT_IN_LIST",
+              "value": "y"
+            },
+            {
+              "class": "NPC",
+              "logic": "AND",
+              "type": "ID",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "NPC",
+              "logic": "AND",
+              "type": "ACTION",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "NPC",
+              "logic": "AND",
+              "type": "LEVEL",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "NPC",
+              "logic": "AND",
+              "type": "HEALTH",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "NPC",
+              "logic": "AND",
+              "type": "ORIENTATION",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "NPC",
+              "logic": "AND",
+              "type": "DISTANCE_TO_PLAYER",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "NPC",
+              "logic": "OR",
+              "type": "NAME",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "NPC",
+              "logic": "OR",
+              "type": "ID",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "NPC",
+              "logic": "OR",
+              "type": "ACTION",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "NPC",
+              "logic": "OR",
+              "type": "LEVEL",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "NPC",
+              "logic": "OR",
+              "type": "HEALTH",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "NPC",
+              "logic": "OR",
+              "type": "ORIENTATION",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "NPC",
+              "logic": "OR",
+              "type": "DISTANCE_TO_PLAYER",
+              "operator": "EQUALS"
+            }
+          ]
+        }
+      },
+      "children": [
+        {
+          "id": "IF_NPC_DOES_NOT_EXIST",
+          "properties": {
+            "Filter NPC By": {
+              "class": "NPC",
+              "logic": "NONE",
+              "type": "NAME",
+              "operator": "EQUALS"
+            }
+          },
+          "children": [
+            {
+              "id": "NPC_INTERACT",
+              "properties": {
+                "Filter NPC By": {
+                  "class": "NPC",
+                  "logic": "NONE",
+                  "type": "NONE",
+                  "operator": "EQUALS"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "ScriptManifest",
+  "full_name": "org.dreambot.api.script.ScriptManifest",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/script/ScriptManifest.html",
+  "type": "annotation",
+  "package": "org.dreambot.api.script",
+  "description": "The ScriptManifest is required for all scripts to have, and provides needed information about the script for the Script Manager and QuickStart.",
+  "page_structure": {
+    "type": "annotation",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [],
+  "fields": [],
+  "constructors": []
+}

@@ -1,0 +1,917 @@
+{
+  "name": "GameObject",
+  "full_name": "org.dreambot.api.wrappers.interactive.GameObject",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/GameObject.html",
+  "type": "class",
+  "package": "org.dreambot.api.wrappers.interactive",
+  "description": "Checks if this location is reachable by the provided tile without obstacles",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.wrappers.interactive.interact.Interactable",
+    "org.dreambot.api.wrappers.interactive.Entity"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Tile",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets tile of the object.",
+      "deprecated": false
+    },
+    {
+      "name": "Model",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the model of the entity",
+      "deprecated": false
+    },
+    {
+      "name": "TileReference",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets tile reference of the given object.",
+      "deprecated": false
+    },
+    {
+      "name": "getTile",
+      "signature": "public Tile getTile()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Locatable",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setTile",
+      "signature": "public void setTile\u200b(Tile t)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the tile.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSurrounding",
+      "signature": "public java.util.List<Tile> getSurrounding()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the surrounding tiles (not including diagonals) around the GameObject",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getInteractableFrom",
+      "signature": "public java.util.List<Tile> getInteractableFrom()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a list of valid tiles your player could be standing on to interact with the game object (not including diagonals)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getObjectTiles",
+      "signature": "public java.util.List<Tile> getObjectTiles()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the objecttiles.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getIndex",
+      "signature": "public abstract long getIndex()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the index.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getActions",
+      "signature": "public java.lang.String[] getActions()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the actions.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getObjectModelTypes",
+      "signature": "public int[] getObjectModelTypes()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the objectmodeltypes.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getID",
+      "signature": "public int getID()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Identifiable",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getX",
+      "signature": "public int getX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Locatable",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getY",
+      "signature": "public int getY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Locatable",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getZ",
+      "signature": "public int getZ()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Locatable",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLocalX",
+      "signature": "public int getLocalX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the localx.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLocalY",
+      "signature": "public int getLocalY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the localy.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getPlane",
+      "signature": "public abstract int getPlane()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the plane.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getFlags",
+      "signature": "public abstract int getFlags()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the flags.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRealID",
+      "signature": "public int getRealID()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the realid.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getComposite",
+      "signature": "public org.dreambot.internal.cache.wrappers.def.ObjectDefinition getComposite()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the composite.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getHeight",
+      "signature": "public int getHeight()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Tile 2D height of the object (furnace is 2x3, 3 is height)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRenderableHeight",
+      "signature": "public int getRenderableHeight()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the model's height",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWidth",
+      "signature": "public int getWidth()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Tile 2D width of the object (furnace is 2x3, 2 is width)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "distance",
+      "signature": "public double distance()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: Entity",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "walkingDistance",
+      "signature": "public double walkingDistance\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Locatable",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "tileDistance",
+      "signature": "public int tileDistance\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Locatable",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getName",
+      "signature": "public java.lang.String getName()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: Entity",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOrientation",
+      "signature": "public abstract int getOrientation()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the orientation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTileReference",
+      "signature": "public TileReference getTileReference()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Locatable",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hasAction",
+      "signature": "public boolean hasAction\u200b(java.lang.String... actions)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: Entity",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getModel",
+      "signature": "public Model getModel()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: Entity",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getModelColors",
+      "signature": "public short[] getModelColors()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the modelcolors.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getModifiedModelColors",
+      "signature": "public short[] getModifiedModelColors()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the modifiedmodelcolors.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "exists",
+      "signature": "public boolean exists()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Verified",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toString",
+      "signature": "public java.lang.String toString()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the toString operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "canReach",
+      "signature": "public boolean canReach\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Locatable",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAdjustToTerrain",
+      "signature": "public int getAdjustToTerrain()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the adjusttoterrain.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAlternativeIDs",
+      "signature": "public int[] getAlternativeIDs()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the alternativeids.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAnimationID",
+      "signature": "public int getAnimationID()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the animationid.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getBrightness",
+      "signature": "public int getBrightness()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the brightness.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getReTextureToFind",
+      "signature": "public short[] getReTextureToFind()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the retexturetofind.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getReTextureToReplace",
+      "signature": "public short[] getReTextureToReplace()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the retexturetoreplace.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isOccludes",
+      "signature": "public boolean isOccludes()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if occludes.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isImpenetrableSolid",
+      "signature": "public boolean isImpenetrableSolid()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if impenetrablesolid.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getContrast",
+      "signature": "public int getContrast()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the contrast.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWallOrDoor",
+      "signature": "public int getWallOrDoor()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the wallordoor.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getInteractType",
+      "signature": "public int getInteractType()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the interacttype.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMapSceneID",
+      "signature": "public int getMapSceneID()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the mapsceneid.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMiniMapIcon",
+      "signature": "public int getMiniMapIcon()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the minimapicon.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getModelSizeZ",
+      "signature": "public int getModelSizeZ()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the modelsizez.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getModelSizeX",
+      "signature": "public int getModelSizeX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the modelsizex.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getModelSizeY",
+      "signature": "public int getModelSizeY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the modelsizey.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOffsetZ",
+      "signature": "public int getOffsetZ()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the offsetz.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOffsetX",
+      "signature": "public int getOffsetX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the offsetx.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOffsetY",
+      "signature": "public int getOffsetY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the offsety.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getVarpID",
+      "signature": "public int getVarpID()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the varpid.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getVarbitID",
+      "signature": "public int getVarbitID()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the varbitid.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hasChildDefinitions",
+      "signature": "public boolean hasChildDefinitions()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if has childdefinitions.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isNonFlatShading",
+      "signature": "public boolean isNonFlatShading()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if nonflatshading.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isBlocksProjectiles",
+      "signature": "public boolean isBlocksProjectiles()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if blocksprojectiles.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isCastsShadows",
+      "signature": "public boolean isCastsShadows()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if castsshadows.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWallThickness",
+      "signature": "public int getWallThickness()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the wallthickness.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getParams",
+      "signature": "public java.util.Map<java.lang.Integer,\u200bjava.lang.Object> getParams()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the params.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getBlockingMask",
+      "signature": "@Deprecated public int getBlockingMask()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the blockingmask.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isObstructsGround",
+      "signature": "public boolean isObstructsGround()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if obstructsground.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSupportsItems",
+      "signature": "public int getSupportsItems()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the supportsitems.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMapAreaId",
+      "signature": "public int getMapAreaId()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the mapareaid.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isRandomizeAnimationStart",
+      "signature": "public boolean isRandomizeAnimationStart()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if randomizeanimationstart.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCurrentOrientation",
+      "signature": "public int getCurrentOrientation()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the current orientation of an object based on its set flags and original orientation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

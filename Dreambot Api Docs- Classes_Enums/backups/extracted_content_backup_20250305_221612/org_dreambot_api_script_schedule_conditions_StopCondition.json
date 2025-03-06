@@ -1,0 +1,48 @@
+{
+  "name": "StopCondition",
+  "full_name": "org.dreambot.api.script.schedule.conditions.StopCondition",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/script/schedule/conditions/StopCondition.html",
+  "type": "interface",
+  "package": "org.dreambot.api.script.schedule.conditions",
+  "description": "",
+  "page_structure": {
+    "type": "interface",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "shouldStop",
+      "return_type": "",
+      "modifiers": [],
+      "description": "shouldStop boolean shouldStop()",
+      "deprecated": false,
+      "signature": "boolean shouldStop()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      }
+    },
+    {
+      "name": "reset",
+      "return_type": "",
+      "modifiers": [],
+      "description": "reset default void reset()",
+      "deprecated": false,
+      "signature": "default void reset()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      }
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

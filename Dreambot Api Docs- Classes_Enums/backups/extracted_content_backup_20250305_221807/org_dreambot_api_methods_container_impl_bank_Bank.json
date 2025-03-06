@@ -1,0 +1,1093 @@
+{
+  "name": "Bank",
+  "full_name": "org.dreambot.api.methods.container.impl.bank.Bank",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/container/impl/bank/Bank.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.container.impl.bank",
+  "description": "This allows you to add an item to the bank history cache, it should only be necessary if you're doing things outside our API.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Item",
+      "return_type": "Item",
+      "modifiers": [
+        "static",
+        "@Nullable"
+      ],
+      "description": "Sets an Item to the given slot Used internally, shouldn't really be touched by API users",
+      "deprecated": false
+    },
+    {
+      "name": "WidgetChild",
+      "return_type": "WidgetChild",
+      "modifiers": [
+        "static",
+        "@Nullable"
+      ],
+      "description": "Gets the WidgetChild for the given slot",
+      "deprecated": false
+    },
+    {
+      "name": "Entity",
+      "return_type": "Entity",
+      "modifiers": [
+        "static",
+        "@Nullable"
+      ],
+      "description": "Gets the nearest bank interactable based on BankType",
+      "deprecated": false
+    },
+    {
+      "name": "BankLocation",
+      "return_type": "BankLocation",
+      "modifiers": [
+        "static",
+        "@Nullable"
+      ],
+      "description": "Gets the nearest bank location see BankLocation.getNearest(Tile, boolean)",
+      "deprecated": false
+    },
+    {
+      "name": "BankTab",
+      "return_type": "BankTab",
+      "modifiers": [
+        "static",
+        "@Nullable"
+      ],
+      "description": "Gets the current BankTab",
+      "deprecated": false
+    },
+    {
+      "name": "BankQuantitySelection",
+      "return_type": "BankQuantitySelection",
+      "modifiers": [
+        "static",
+        "@NonNull"
+      ],
+      "description": "Gets the currently selected default quantity for withdraw or deposit actions",
+      "deprecated": false
+    },
+    {
+      "name": "BankMode",
+      "return_type": "BankMode",
+      "modifiers": [
+        "static",
+        "@NonNull"
+      ],
+      "description": "Gets the current withdraw BankMode",
+      "deprecated": false
+    },
+    {
+      "name": "widgetParentId",
+      "signature": "public static int widgetParentId()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the ID of the Widget for the bank",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "widgetChildId",
+      "signature": "public static int widgetChildId()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the ID of the WidgetChild for the bank interface",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "tabContainerWidgetId",
+      "signature": "public static int tabContainerWidgetId()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the ID of the WidgetChild for the tab container",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "capacity",
+      "signature": "public static int capacity()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the bank's max capacity",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "get",
+      "signature": "public static @Nullable Item get\u200b(Filter<Item> filter)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the first Item that matches the given Filter",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setUseBankHistoryCache",
+      "signature": "public static void setUseBankHistoryCache\u200b(boolean useCache)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Set whether our methods use the Bank cache if you call a method while not in the bank",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "all",
+      "signature": "public static @NonNull java.util.List<@Nullable Item> all()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the items in your bank",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isLoaded",
+      "signature": "public static boolean isLoaded()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks to see if the Bank container has been loaded successfully at least once Check is done during all() call",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "calculateSlotPosition",
+      "signature": "public static @NonNull java.awt.Rectangle calculateSlotPosition\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the virtual position for the specified slot.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "resetCache",
+      "signature": "public static void resetCache()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This will reset the bank history cache to it's initial state",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isOpen",
+      "signature": "public static boolean isOpen()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the bank is currently open or not.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getClosestBank",
+      "signature": "public static @Nullable Entity getClosestBank\u200b(@NonNull BankType type)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the nearest bank interactable based on BankType",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "open",
+      "signature": "public static boolean open()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Finds the nearest BankType and attempts to open it. This method will walk one step towards the nearest available BankLocation (getClosestBankLocation()) if there isn't a local bank entity.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getClosestBankLocation",
+      "signature": "public static @Nullable BankLocation getClosestBankLocation()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get the closest bank location. Does not include teleports in this calculation",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "withdraw",
+      "signature": "public static boolean withdraw\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Withdraws one of the given item id",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "withdrawAll",
+      "signature": "public static boolean withdrawAll\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Withdraws all of an item for a given ID",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "depositAllItems",
+      "signature": "public static boolean depositAllItems()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Deposits all items in your inventory with the deposit all button.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "depositAllEquipment",
+      "signature": "public static boolean depositAllEquipment()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Deposits all worn equipment with the deposit all equipment button.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "deposit",
+      "signature": "public static boolean deposit\u200b(@NonNull Filter<Item> filter, int amount)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Deposits the first item that matches the given Filter for the given amount",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "depositAllExcept",
+      "signature": "public static boolean depositAllExcept\u200b(@NonNull Filter<Item> filter)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Deposits all items that do not match the given Filter Will call depositAllItems() if your inventory does not contain any of the given filter (nothing to exclude)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "close",
+      "signature": "public static boolean close()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Exits the bank with the close button. If Esc Interface Closing is enabled, it will close with the ESC key See ClientSettings.isEscInterfaceClosingEnabled()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCurrentTab",
+      "signature": "public static int getCurrentTab()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the current tab that is open",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "slotBounds",
+      "signature": "public static @Nullable java.awt.Rectangle slotBounds\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the bounds of a slot",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "openTab",
+      "signature": "public static boolean openTab\u200b(int tab)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Opens the bank tab specified",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getBankHistoryCache",
+      "signature": "public static @NonNull java.util.List<@Nullable Item> getBankHistoryCache()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the bank item history cache. The history cache is updated periodically as bank methods are called like withdraw, deposit, all",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "addToBankHistoryCache",
+      "signature": "public static boolean addToBankHistoryCache\u200b(@NonNull Item item)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This allows you to add an item to the bank history cache, it should only be necessary if you're doing things outside our API. If the cache already contains the given item, we'll add (or subtract if given an item with a negative amount) to the item's amount in cache.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLastBankHistoryCacheTime",
+      "signature": "public static long getLastBankHistoryCacheTime()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the last timestamp (using System#currentTimeMillis) of a cache update",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLastBankHistoryCacheTick",
+      "signature": "public static long getLastBankHistoryCacheTick()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the last game tick (using Client.getGameTick()) of a cache update",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isCached",
+      "signature": "public static boolean isCached()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the bank has been cached.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getChild",
+      "signature": "public static @Nullable WidgetChild getChild\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the WidgetChild of the Item with the given ID",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getChildForSlot",
+      "signature": "public static @Nullable WidgetChild getChildForSlot\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the WidgetChild for the given slot",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRearrangeMode",
+      "signature": "public static @NonNull BankMode getRearrangeMode()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the current rearrange mode type;",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isSlotVisible",
+      "signature": "public static boolean isSlotVisible\u200b(@NonNull Item item)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines if the given Item's slot is visible",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWithdrawMode",
+      "signature": "public static @NonNull BankMode getWithdrawMode()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the current withdraw BankMode",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setWithdrawMode",
+      "signature": "public static boolean setWithdrawMode\u200b(@NonNull BankMode mode)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the withdraw mode, either BankMode.ITEM or BankMode.NOTE",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setRearrangeMode",
+      "signature": "public static boolean setRearrangeMode\u200b(@NonNull BankMode mode)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the Rearrange mode for the bank either BankMode.SWAP or BankMode.INSERT",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDefaultQuantity",
+      "signature": "public static @NonNull BankQuantitySelection getDefaultQuantity()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the currently selected default quantity for withdraw or deposit actions",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setDefaultQuantity",
+      "signature": "public static boolean setDefaultQuantity\u200b(@NonNull BankQuantitySelection selection)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the BankQuantitySelection for bank actions",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "placeHoldersEnabled",
+      "signature": "public static boolean placeHoldersEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks whether placeholders are currently enabled",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "togglePlaceholders",
+      "signature": "public static boolean togglePlaceholders\u200b(boolean enabled)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Toggles whether placeholders are enabled or not",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "needToScrollUp",
+      "signature": "public static boolean needToScrollUp\u200b(@NonNull Item item)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines if it needs to scroll up in order to see the given Item",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "needToScrollDown",
+      "signature": "public static boolean needToScrollDown\u200b(@NonNull Item item)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines if it needs to scroll down for the Item to be visible",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "needToScroll",
+      "signature": "public static boolean needToScroll\u200b(@NonNull Item item)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines if the bot needs to scroll to find the Item",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRow",
+      "signature": "public static int getRow\u200b(@NonNull Item item)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the row of the Item",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTab",
+      "signature": "public static int getTab\u200b(@NonNull Item item)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the tab for the Item",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "availableTabs",
+      "signature": "public static int availableTabs()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the number of tabs currently available",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "count",
+      "signature": "public static int count\u200b(@NonNull BankTab tab)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Item count for the BankTab",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCurrentBankTab",
+      "signature": "public static @Nullable BankTab getCurrentBankTab()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the current BankTab",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getScrollHeight",
+      "signature": "public static int getScrollHeight()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines the current scroll position height of the bank's scroll container.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "scroll",
+      "signature": "public static boolean scroll\u200b(int id, @NonNull BankScroll type)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Scrolls to the item with the given ID using the BankScroll scroll type",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "updateCache",
+      "signature": "public static void updateCache\u200b(@NonNull java.util.Collection<Item> items)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Clears the bank history cache and fills it with the given collection of items, only works if bank is open",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "depositAll",
+      "signature": "public static boolean depositAll\u200b(@NonNull Filter<Item> filter)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the depositAll operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "fullSlotCount",
+      "signature": "public static int fullSlotCount()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Number of slots that contain non-null items Includes placeholders as a full slot",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "emptySlotCount",
+      "signature": "public static int emptySlotCount()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Number of slots that do not contain an item or placeholder",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isSlotEmpty",
+      "signature": "public static boolean isSlotEmpty\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the given slot contains an item",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isSlotFull",
+      "signature": "public static boolean isSlotFull\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the slot has an Item in it",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onlyContains",
+      "signature": "public static boolean onlyContains\u200b(@NonNull java.lang.String... names)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if your Bank only contains items with specified names",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "slotContains",
+      "signature": "public static boolean slotContains\u200b(int slot, @NonNull java.lang.String... names)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the slot contains items that matches the given names.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "slotNameContains",
+      "signature": "public static boolean slotNameContains\u200b(int slot, @NonNull java.lang.String sub)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the slot has an item whose name contains the given sub string",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getFirstEmptySlot",
+      "signature": "public static int getFirstEmptySlot()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the first empty slot in the bank.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getFirstFullSlot",
+      "signature": "public static int getFirstFullSlot()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the next full slot in your bank",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getIdForSlot",
+      "signature": "public static int getIdForSlot\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the ID of the Item in the slot.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getNameForSlot",
+      "signature": "public static java.lang.String getNameForSlot\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Name for the Item in the slot.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSlot",
+      "signature": "public static int getSlot\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the slot for the item with specified ID.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "slot",
+      "signature": "@Deprecated public static int slot\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the slot operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getItemInSlot",
+      "signature": "public static @Nullable Item getItemInSlot\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets item in specified slot.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "except",
+      "signature": "public static @NonNull java.util.List<Item> except\u200b(@NonNull Filter<Item> filter)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get all items which do not fit the given criteria. Ignores placeholders",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "size",
+      "signature": "@Deprecated public static int size()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the size operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isEmpty",
+      "signature": "public static boolean isEmpty()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the bank is empty (including placeholders)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "contains",
+      "signature": "public static boolean contains\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the bank contains the given ID Placeholders are ignored",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "containsAll",
+      "signature": "public static boolean containsAll\u200b(@NonNull java.lang.String... names)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if your Bank contains all of the items with names specified Placeholders are ignored",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isFull",
+      "signature": "public static boolean isFull()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines if bank is full.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "set",
+      "signature": "public static @Nullable Item set\u200b(int index, @Nullable Item element)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets an Item to the given slot Used internally, shouldn't really be touched by API users",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "drag",
+      "signature": "public static boolean drag\u200b(int fromSlot, int toSlot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Drags the item from one slot to another, either of which can be empty to simply move an item from one slot to the other",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCustomWithdrawAmount",
+      "signature": "public static int getCustomWithdrawAmount()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the customwithdrawamount.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isAlwaysOpenTab",
+      "signature": "public static boolean isAlwaysOpenTab()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if alwaysopentab.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setAlwaysOpenTab",
+      "signature": "public static void setAlwaysOpenTab\u200b(boolean alwaysOpenTab)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the alwaysopentab.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

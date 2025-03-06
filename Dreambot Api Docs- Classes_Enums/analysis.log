@@ -1,0 +1,44 @@
+2025-03-05 22:13:38,764 - INFO - Starting DreamBot API documentation analysis
+2025-03-05 22:13:38,774 - INFO - Analysis Results:
+2025-03-05 22:13:38,774 - INFO - Total files needing attention: 306
+2025-03-05 22:13:38,774 - INFO - 
+Top issues:
+2025-03-05 22:13:38,774 - INFO -   methods (possible data class): 7
+2025-03-05 22:13:38,775 - INFO -   methods and fields: 3
+2025-03-05 22:13:38,775 - INFO - 
+Entity types with issues:
+2025-03-05 22:13:38,775 - INFO -   class: 282
+2025-03-05 22:13:38,775 - INFO -   interface: 23
+2025-03-05 22:13:38,776 - INFO -   enum: 1
+2025-03-05 22:13:38,776 - INFO - 
+Completeness distribution:
+2025-03-05 22:13:38,776 - INFO -   0.0-0.2: 89
+2025-03-05 22:13:38,776 - INFO -   0.2-0.4: 16
+2025-03-05 22:13:38,776 - INFO -   0.4-0.6: 50
+2025-03-05 22:13:38,776 - INFO -   0.6-0.8: 66
+2025-03-05 22:13:38,776 - INFO -   0.8-1.0: 85
+2025-03-05 22:13:38,777 - INFO - 
+Detailed analysis saved to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\analysis_results\analysis_results.json
+2025-03-05 22:13:38,779 - INFO - Selected 0 HTML files for structure analysis:
+2025-03-05 22:13:38,779 - INFO - Analysis complete
+2025-03-05 22:17:43,060 - INFO - Starting DreamBot API documentation analysis
+2025-03-05 22:17:43,067 - INFO - Analysis Results:
+2025-03-05 22:17:43,068 - INFO - Total files needing attention: 9
+2025-03-05 22:17:43,068 - INFO - 
+Top issues:
+2025-03-05 22:17:43,068 - INFO -   methods and fields: 1
+2025-03-05 22:17:43,068 - INFO - 
+Entity types with issues:
+2025-03-05 22:17:43,068 - INFO -   class: 8
+2025-03-05 22:17:43,069 - INFO -   enum: 1
+2025-03-05 22:17:43,069 - INFO - 
+Completeness distribution:
+2025-03-05 22:17:43,069 - INFO -   0.0-0.2: 6
+2025-03-05 22:17:43,069 - INFO -   0.2-0.4: 1
+2025-03-05 22:17:43,069 - INFO -   0.4-0.6: 1
+2025-03-05 22:17:43,070 - INFO -   0.6-0.8: 0
+2025-03-05 22:17:43,070 - INFO -   0.8-1.0: 1
+2025-03-05 22:17:43,070 - INFO - 
+Detailed analysis saved to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\analysis_results\analysis_results.json
+2025-03-05 22:17:43,072 - INFO - Selected 0 HTML files for structure analysis:
+2025-03-05 22:17:43,072 - INFO - Analysis complete

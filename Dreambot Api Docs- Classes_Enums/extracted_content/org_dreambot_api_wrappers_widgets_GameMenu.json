@@ -1,0 +1,387 @@
+{
+  "name": "GameMenu",
+  "full_name": "org.dreambot.api.wrappers.widgets.GameMenu",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/widgets/GameMenu.html",
+  "type": "class",
+  "package": "org.dreambot.api.wrappers.widgets",
+  "description": "Clicks the menu action given.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "MenuRow",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets each row of the menu as a MenuRow object",
+      "deprecated": false
+    },
+    {
+      "name": "GameMenu",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the GameMenu operation.",
+      "deprecated": false
+    },
+    {
+      "name": "containsEntity",
+      "signature": "public boolean containsEntity\u200b(Entity entity)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the containsEntity operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLastHovered",
+      "signature": "public int getLastHovered()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the lasthovered.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isVisible",
+      "signature": "public boolean isVisible()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if visible.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getHeight",
+      "signature": "public int getHeight()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the height.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWidth",
+      "signature": "public int getWidth()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the width.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getY",
+      "signature": "public int getY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the y.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getX",
+      "signature": "public int getX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the x.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCount",
+      "signature": "public int getCount()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the count.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOptions",
+      "signature": "public java.lang.String[] getOptions()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the options.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSubMenu",
+      "signature": "public java.util.List<GameMenu> getSubMenu()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the submenu.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMenuWithAction",
+      "signature": "public GameMenu getMenuWithAction\u200b(java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the menuwithaction.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getFirstMenuRow",
+      "signature": "public MenuRow getFirstMenuRow()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the firstmenurow.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMenuRows",
+      "signature": "public java.util.List<MenuRow> getMenuRows()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets each row of the menu as a MenuRow object",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getBounds",
+      "signature": "public java.awt.Rectangle getBounds()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets bounds.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDefaultAction",
+      "signature": "public java.lang.String getDefaultAction()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets default action.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getIndex",
+      "signature": "public int getIndex\u200b(java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the index of offset menu item in the list of menu items",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "clickAction",
+      "signature": "public boolean clickAction\u200b(java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Clicks the menu action given.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "clickIndex",
+      "signature": "public boolean clickIndex\u200b(int index)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Click index.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "open",
+      "signature": "public boolean open()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the open operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getIndexRectangle",
+      "signature": "public java.awt.Rectangle getIndexRectangle\u200b(int index)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets index rectangle.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "mouseOverAction",
+      "signature": "public boolean mouseOverAction\u200b(java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Mouse over action.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isMouseOnAction",
+      "signature": "public boolean isMouseOnAction\u200b(java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Is mouse on action.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "close",
+      "signature": "public boolean close()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Removes the current menu from the game interface.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "containsObject",
+      "signature": "public boolean containsObject\u200b(java.lang.String name)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines if menu contains object name (NOT THE ACTION) in one of the menu rows.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "contains",
+      "signature": "public boolean contains\u200b(java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines if menu contains action (NOT THE ENTITY/OBJECT NAME) in one of the menu rows.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hover",
+      "signature": "public boolean hover\u200b(int index)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the hover operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSubIndex",
+      "signature": "public int getSubIndex()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the subindex.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

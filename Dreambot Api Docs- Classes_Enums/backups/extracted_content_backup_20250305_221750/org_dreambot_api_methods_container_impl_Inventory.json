@@ -1,0 +1,808 @@
+{
+  "name": "Inventory",
+  "full_name": "org.dreambot.api.methods.container.impl.Inventory",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/container/impl/Inventory.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.container.impl",
+  "description": "Adds an item manually to the inventory collection at the given index Not recommended unless you know what you're doing",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Item",
+      "return_type": "[]",
+      "modifiers": [
+        "static",
+        "@Nullable",
+        "Item",
+        "@NonNull"
+      ],
+      "description": "Converts all() to an Item array",
+      "deprecated": false
+    },
+    {
+      "name": "DropPattern",
+      "return_type": "DropPattern",
+      "modifiers": [
+        "static",
+        "@NonNull"
+      ],
+      "description": "Gets the dropping pattern for dropAll(Filter) Defaults to StandardDropPattern.LEFT_TO_RIGHT_THEN_DOWN",
+      "deprecated": false
+    },
+    {
+      "name": "WidgetChild",
+      "return_type": "WidgetChild",
+      "modifiers": [
+        "static",
+        "@Nullable"
+      ],
+      "description": "Performs the WidgetChild operation.",
+      "deprecated": false
+    },
+    {
+      "name": "getDropPattern",
+      "signature": "public static @NonNull DropPattern getDropPattern()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the dropping pattern for dropAll(Filter) Defaults to StandardDropPattern.LEFT_TO_RIGHT_THEN_DOWN",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setDropPattern",
+      "signature": "public static void setDropPattern\u200b(@NonNull DropPattern dropPattern)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the dropping pattern for dropAll(Filter)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "widgetParentId",
+      "signature": "public static int widgetParentId()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the basic inventory widget parent ID Basic meaning bank not open, GE not open, shop not open, etc",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "widgetChildId",
+      "signature": "public static int widgetChildId()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the basic inventory widget child ID Basic meaning bank not open, ge not open, shop not open, etc",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "capacity",
+      "signature": "public static int capacity()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the capacity of your inventory (28)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getInventoryWidget",
+      "signature": "public static WidgetChild getInventoryWidget()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the basic inventory widget Basic meaning bank not open, ge not open, shop not open, etc",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "all",
+      "signature": "public static @NonNull java.util.List<@Nullable Item> all()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the items in your inventory",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isLoaded",
+      "signature": "public static boolean isLoaded()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the Inventory Item Table has been successfully loaded within the client through our all() call",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "slotInteract",
+      "signature": "public static boolean slotInteract\u200b(int slot, @Nullable java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Interacts with specified slot in inventory",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "deselect",
+      "signature": "public static boolean deselect()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Deselects any item if it is selected",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "interact",
+      "signature": "public static boolean interact\u200b(int id, @Nullable java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Interact with an Item with specified ID in inventory",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "drop",
+      "signature": "public static boolean drop\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Drops the item with specified ID from inventory",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "dropAll",
+      "signature": "public static boolean dropAll()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Drops all items in your inventory.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "dropAllExcept",
+      "signature": "public static boolean dropAllExcept\u200b(@NonNull java.lang.String... names)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Drops all items that don't match the given names",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "itemBounds",
+      "signature": "public static @NonNull java.awt.Rectangle itemBounds\u200b(Item item)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the slot bounds of an item.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "slotBounds",
+      "signature": "public static @NonNull java.awt.Rectangle slotBounds\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the bounds of a slot",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isItemSelected",
+      "signature": "public static boolean isItemSelected()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks whether an item is currently selected in your inventory",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSelectedItemName",
+      "signature": "public static @Nullable java.lang.String getSelectedItemName()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the currently selected item name",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSelectedItemIndex",
+      "signature": "public static int getSelectedItemIndex()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the index of the currently selected item.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSelectedItemId",
+      "signature": "public static int getSelectedItemId()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the ID of the currently selected item.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setSelectedWidgetItemId",
+      "signature": "public static void setSelectedWidgetItemId\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the selectedwidgetitemid.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getEmptySlots",
+      "signature": "public static int getEmptySlots()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the count of empty slots in your inventory",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRandom",
+      "signature": "public static @Nullable Item getRandom\u200b(@NonNull java.lang.String... itemNames)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a random item that matches the item name(s) in your inventory",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isForceNoShift",
+      "signature": "public static boolean isForceNoShift()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Forces the inventory to ignore whether shift interactions are enabled or not",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setForceNoShift",
+      "signature": "public static void setForceNoShift\u200b(boolean forceNoShift)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets inventory to force no shift during dropping",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "shouldShift",
+      "signature": "public static boolean shouldShift()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks whether shift needs to be pressed for shift interactions Only implemented for dropping purposes",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "fullSlotCount",
+      "signature": "public static int fullSlotCount()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Full slot count.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "emptySlotCount",
+      "signature": "public static int emptySlotCount()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Empty slot count.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isSlotEmpty",
+      "signature": "public static boolean isSlotEmpty\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the given slot has an item in it or not",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isSlotFull",
+      "signature": "public static boolean isSlotFull\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the slot has an Item in it",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onlyContains",
+      "signature": "public static boolean onlyContains\u200b(@NonNull java.lang.String... names)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if your Inventory only contains items with specified name",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "slotContains",
+      "signature": "public static boolean slotContains\u200b(int slot, @NonNull java.lang.String... names)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the slot contains items that matches the given names.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "slotNameContains",
+      "signature": "public static boolean slotNameContains\u200b(int slot, @NonNull java.lang.String sub)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the slot contains items that matches the given ids.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getFirstEmptySlot",
+      "signature": "public static int getFirstEmptySlot()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the first empty slot in your inventory.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getFirstFullSlot",
+      "signature": "public static int getFirstFullSlot()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the next full slot in your inventory",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getIdForSlot",
+      "signature": "public static int getIdForSlot\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Id of the Item in the slot.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getNameForSlot",
+      "signature": "public static @Nullable java.lang.String getNameForSlot\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Name for the Item in the slot.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "slot",
+      "signature": "public static int slot\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the slot for the item with specified ID.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "add",
+      "signature": "public static boolean add\u200b(Item t)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Adds an item manually to the Inventory collection Not recommended unless you know what you're doing.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toArray",
+      "signature": "public static @Nullable Item @NonNull [] toArray()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Converts all() to an Item array",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getItemInSlot",
+      "signature": "public static @Nullable Item getItemInSlot\u200b(int index)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets item in specified slot.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "get",
+      "signature": "public static @Nullable Item get\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the first item that matches the given item ID",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "except",
+      "signature": "public static @NonNull java.util.List<Item> except\u200b(@NonNull Filter<Item> filter)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get all items which do not fit the given criteria.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "size",
+      "signature": "public static int size()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the size operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isEmpty",
+      "signature": "public static boolean isEmpty()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if empty.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "contains",
+      "signature": "public static boolean contains\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Contains boolean.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "containsAll",
+      "signature": "public static boolean containsAll\u200b(@NonNull java.lang.String... names)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if your Inventory contains all of the items with names specified",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isFull",
+      "signature": "public static boolean isFull()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines if container full.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "count",
+      "signature": "public static int count\u200b(@NonNull java.lang.String name)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Count of all the items that match the search.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "set",
+      "signature": "public static @Nullable Item set\u200b(int index, @Nullable Item element)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the .",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWidgetForSlot",
+      "signature": "public static @Nullable WidgetChild getWidgetForSlot\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the widgetforslot.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isOpen",
+      "signature": "public static boolean isOpen()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if open.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "open",
+      "signature": "public static boolean open()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the open operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "use",
+      "signature": "public static boolean use\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the use operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "combine",
+      "signature": "public static boolean combine\u200b(@NonNull java.lang.String primaryItemName, @NonNull java.lang.String secondaryItemName)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the combine operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "drag",
+      "signature": "public static boolean drag\u200b(@NonNull Filter<Item> itemFilter, int toSlot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This will move the first matching item in the inventory to the provided slot. This will only move the first found item in the inventory, if you want to move a specific item to the slot, see swap(int, int) instead.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "swap",
+      "signature": "public static boolean swap\u200b(@NonNull Item firstItem, @NonNull Item secondItem)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Swaps the first of each item given if found, if you want to swap specific slots use swap(int, int) instead",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getActionsForSlot",
+      "signature": "public static @NonNull java.lang.String[] getActionsForSlot\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the actionsforslot.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

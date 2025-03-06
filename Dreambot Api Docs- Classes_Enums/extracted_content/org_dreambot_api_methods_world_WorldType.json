@@ -1,0 +1,92 @@
+{
+  "name": "WorldType",
+  "full_name": "org.dreambot.api.methods.world.WorldType",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/world/WorldType.html",
+  "type": "enum",
+  "package": "org.dreambot.api.methods.world",
+  "description": ".",
+  "page_structure": {
+    "type": "enum",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "WorldType"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "WorldType",
+      "return_type": "WorldType[]",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Returns an array containing the constants of this enum type, in the order they are declared.",
+      "deprecated": false
+    },
+    {
+      "name": "values",
+      "signature": "public static WorldType[] values()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns an array containing the constants of this enum type, in the order they are declared. This method may be used to iterate over the constants as follows: for (WorldType c : WorldType.values()) System.out.println(c);",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "valueOf",
+      "signature": "public static WorldType valueOf\u200b(java.lang.String name)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the enum constant of this type with the specified name. The string must match exactly an identifier used to declare an enum constant in this type. (Extraneous whitespace characters are not permitted.)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMaskValue",
+      "signature": "public int getMaskValue()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "fromMask",
+      "signature": "public static java.util.EnumSet<WorldType> fromMask\u200b(int mask)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": [],
+  "enum_constants": [
+    {
+      "name": "Enum",
+      "description": "Constant Summary\n\nEnum Constants  Enum Constant | Description  \n---|---  \n`BETA` |    \n`DEADMAN` |    \n`FRESH_START` |    \n`HIGH_RISK` |    \n`LMS` |    \n`MEMBER` |    \n`PRIVATE` |    \n`PVP` |    \n`PVP_ARENA` |    \n`SKILL` |    \n`SOMETHING` |    \n`SOUL_WARS` |    \n`SPEED_RUN` |    \n`TARGET` |    \n`TESTING` |    \n`TOURNAMENT` |    \n`TWISTED` |    \n`UNKNOWN` |    \n`WILDY_DYNAMITE` |    \n    * ### Method Summary\n\nAll Methods [Static Methods](javascript:show\\(1\\);) [Instance Methods](javascript:show\\(2\\);) [Concrete Methods](javascript:show\\(8\\);)  Modifier and Type | Method | Description  \n---|---|---  \n`static java.util.EnumSet<[WorldType](WorldType.html \"enum in org.dreambot.api.methods.world\")>` | `fromMask\u200b(int mask)` |    \n`int` | `getMaskValue()` |    \n`static [WorldType](WorldType.html \"enum in org.dreambot.api.methods.world\")` | `valueOf\u200b(java.lang.String name)` |  Returns the enum constant of this type with the specified name.  \n`static [WorldType](WorldType.html \"enum in org.dreambot.api.methods.world\")[]` | `values()` |  Returns an array containing the constants of this enum type, in the order they are declared.  \n      * ### Methods inherited from class java.lang.Enum\n\n`compareTo, equals, getDeclaringClass, hashCode, name, ordinal, toString,\nvalueOf`\n\n      * ### Methods inherited from class java.lang.Object\n\n`getClass, notify, notifyAll, wait, wait, wait`\n\n  *     * ### Enum Constant Detail\n\n      * #### MEMBER\n            \n                        public static final [WorldType](WorldType.html \"enum in org.dreambot.api.methods.world\") MEMBER\n\n      * #### PVP\n            \n                        public static final [WorldType](WorldType.html \"enum in org.dreambot.api.methods.world\") PVP\n\n      * #### PRIVATE\n            \n                        public static final [WorldType](WorldType.html \"enum in org.dreambot.api.methods.world\") PRIVATE\n\n      * #### TARGET\n            \n                        public static final [WorldType](WorldType.html \"enum in org.dreambot.api.methods.world\") TARGET\n\n      * #### PVP_ARENA\n            \n                        public static final [WorldType](WorldType.html \"enum in org.dreambot.api.methods.world\") PVP_ARENA\n\n      * #### SKILL\n            \n                        public static final [WorldType](WorldType.html \"enum in org.dreambot.api.methods.world\") SKILL\n\n      * #### SPEED_RUN\n            \n                        public static final [WorldType](WorldType.html \"enum in org.dreambot.api.methods.world\") SPEED_RUN\n\n      * #### HIGH_RISK\n            \n                        public static final [WorldType](WorldType.html \"enum in org.dreambot.api.methods.world\") HIGH_RISK\n\n      * #### LMS\n            \n                        public static final [WorldType](WorldType.html \"enum in org.dreambot.api.methods.world\") LMS\n\n      * #### TESTING\n            \n                        public static final [WorldType](WorldType.html \"enum in org.dreambot.api.methods.world\") TESTING\n\n      * #### SOUL_WARS\n            \n                        public static final [WorldType](WorldType.html \"enum in org.dreambot.api.methods.world\") SOUL_WARS\n\n      * #### WILDY_DYNAMITE\n            \n                        public static final [WorldType](WorldType.html \"enum in org.dreambot.api.methods.world\") WILDY_DYNAMITE\n\n      * #### BETA\n            \n                        public static final [WorldType](WorldType.html \"enum in org.dreambot.api.methods.world\") BETA\n\n      * #### TOURNAMENT\n            \n                        public static final [WorldType](WorldType.html \"enum in org.dreambot.api.methods.world\") TOURNAMENT\n\n      * #### FRESH_START\n            \n                        public static final [WorldType](WorldType.html \"enum in org.dreambot.api.methods.world\") FRESH_START\n\n      * #### SOMETHING\n            \n                        public static final [WorldType](WorldType.html \"enum in org.dreambot.api.methods.world\") SOMETHING\n\n      * #### DEADMAN\n            \n                        public static final [WorldType](WorldType.html \"enum in org.dreambot.api.methods.world\") DEADMAN\n\n      * #### TWISTED\n            \n                        public static final [WorldType](WorldType.html \"enum in org.dreambot.api.methods.world\") TWISTED\n\n      * #### UNKNOWN\n            \n                        public static final [WorldType](WorldType.html \"enum in org.dreambot.api.methods.world\") UNKNOWN\n\n    * ### Method Detail\n\n      * #### values\n            \n                        public static [WorldType](WorldType.html \"enum in org.dreambot.api.methods.world\")[] values()\n\nReturns an array containing the constants of this enum type, in the order they\nare declared. This method may be used to iterate over the constants as\nfollows:\n\n            \n                        for (WorldType c : WorldType.values())\n                System.out.println(c);\n            \n\nReturns:\n\n    an array containing the constants of this enum type, in the order they are declared\n      * #### valueOf\n            \n                        public static [WorldType](WorldType.html \"enum in org.dreambot.api.methods.world\") valueOf\u200b(java.lang.String name)\n\nReturns the enum constant of this type with the specified name. The string\nmust match _exactly_ an identifier used to declare an enum constant in this\ntype. (Extraneous whitespace characters are not permitted.)\n\nParameters:\n\n    `name` \\- the name of the enum constant to be returned.\nReturns:\n\n    the enum constant with the specified name\nThrows:\n\n    `java.lang.IllegalArgumentException` \\- if this enum type has no constant with the specified name\n    `java.lang.NullPointerException` \\- if the argument is null\n      * #### getMaskValue\n            \n                        public int getMaskValue()\n\n      * #### fromMask\n            \n                        public static java.util.EnumSet<[WorldType](WorldType.html \"enum in org.dreambot.api.methods.world\")> fromMask\u200b(int mask)\n\nSkip navigation links\n\n  * [Overview](../../../../../overview-summary.html)\n  * [Package](package-summary.html)\n  * Class\n  * [Tree](package-tree.html)\n  * [Deprecated](../../../../../deprecated-list.html)\n  * [Index](../../../../../index-all.html)\n  * [Help](../../../../../help-doc.html)\n\n  * [Frames](../../../../../index.html?org/dreambot/api/methods/world/WorldType.html)\n  * [No Frames](WorldType.html)\n\n  * [All Classes](../../../../../allclasses-noframe.html)\n\nJavaScript is disabled on your browser.\n\n  * Summary: \n  * Nested | \n  * Enum Constants | \n  * Field | \n  * Method\n\n  * Detail: \n  * Enum Constants | \n  * Field | \n  * Method"
+    }
+  ],
+  "extraction_fallback_used": true
+}

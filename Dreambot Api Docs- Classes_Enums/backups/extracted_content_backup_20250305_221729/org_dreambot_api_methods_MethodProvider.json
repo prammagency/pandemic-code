@@ -1,0 +1,192 @@
+{
+  "name": "MethodProvider",
+  "full_name": "org.dreambot.api.methods.MethodProvider",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/MethodProvider.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods",
+  "description": "Logs to console with Logger.LogType.DEBUG Only logs if debug flag is enabled",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "RandomManager",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the RandomManager operation.",
+      "deprecated": false
+    },
+    {
+      "name": "ScriptManager",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the ScriptManager operation.",
+      "deprecated": false
+    },
+    {
+      "name": "sleep",
+      "signature": "public void sleep\u200b(long ms)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the sleep operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "sleepUntil",
+      "signature": "public boolean sleepUntil\u200b(Condition terminate, Condition reset, long timeout, long polling)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the sleepUntil operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "sleepWhile",
+      "signature": "public boolean sleepWhile\u200b(Condition condition, Condition reset, long timeout, long polling)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the sleepWhile operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRandomManager",
+      "signature": "public RandomManager getRandomManager()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the randommanager.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getScriptManager",
+      "signature": "public ScriptManager getScriptManager()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the scriptmanager.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "print",
+      "signature": "public void print\u200b(java.lang.Object msg)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Prints to console with Logger.LogType.SCRIPT",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "log",
+      "signature": "public void log\u200b(java.lang.Object object)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Prints to console with Logger.LogType.SCRIPT",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "info",
+      "signature": "public void info\u200b(java.lang.Object msg)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Logs to console with Logger.LogType.INFO",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "debug",
+      "signature": "public void debug\u200b(java.lang.Object msg)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Logs to console with Logger.LogType.DEBUG Only logs if debug flag is enabled",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "error",
+      "signature": "public void error\u200b(java.lang.Object msg)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Logs to console with Logger.LogType.ERROR",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isUserVIP",
+      "signature": "public boolean isUserVIP()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks whether the DreamBot member logged into the client is a VIP member or above (this includes but may not be limited to: Staff, Ex-Staff, Sponsor, Scripters, and Lead Designer)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isUserSponsor",
+      "signature": "public boolean isUserSponsor()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks whether the DreamBot member logged into the client is a Sponsor or above (This includes but may not be limited to: Staff, Ex-Staff, Scripters, and Lead Designer)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

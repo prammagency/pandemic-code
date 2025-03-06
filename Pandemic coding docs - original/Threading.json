@@ -1,0 +1,44 @@
+{
+  "sleep": "500",
+  "name": "",
+  "version": 1.0,
+  "actions": [
+    {
+      "id": "IF_THREAD_IS_RUNNING",
+      "children": [
+        {
+          "id": "IF_THREAD_IS_NOT_RUNNING",
+          "children": [
+            {
+              "id": "IF_SCRIPT_THREAD_IS_PAUSED"
+            },
+            {
+              "id": "IF_SCRIPT_THREAD_IS_NOT_PAUSED"
+            },
+            {
+              "id": "START_NEW_THREAD",
+              "children": [
+                {
+                  "id": "STOP_THREAD",
+                  "children": [
+                    {
+                      "id": "STOP_THREAD_IMMEDIATELY",
+                      "children": [
+                        {
+                          "id": "PAUSE_SCRIPT_THREAD"
+                        },
+                        {
+                          "id": "RESUME_SCRIPT_THREAD"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

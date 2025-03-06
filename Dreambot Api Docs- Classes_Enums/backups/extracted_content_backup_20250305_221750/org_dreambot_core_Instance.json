@@ -1,0 +1,616 @@
+{
+  "name": "Instance",
+  "full_name": "org.dreambot.core.Instance",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/core/Instance.html",
+  "type": "class",
+  "package": "org.dreambot.core",
+  "description": "Returns the current DreamBot client version",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Instance",
+      "return_type": "Instance",
+      "modifiers": [
+        "static",
+        "@NonNull"
+      ],
+      "description": "Performs the Instance operation.",
+      "deprecated": false
+    },
+    {
+      "name": "MouseMovementAlgorithm",
+      "return_type": "MouseMovementAlgorithm",
+      "modifiers": [
+        "@NonNull"
+      ],
+      "description": "Deprecated. see Mouse.getMouseMovementAlgorithm()",
+      "deprecated": false
+    },
+    {
+      "name": "RandomManager",
+      "return_type": "RandomManager",
+      "modifiers": [
+        "@Nullable"
+      ],
+      "description": "Gets the current script's random manager, or null if script manager/current script are null.",
+      "deprecated": false
+    },
+    {
+      "name": "ScriptManager",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the ScriptManager operation.",
+      "deprecated": false
+    },
+    {
+      "name": "getProxyName",
+      "signature": "public static @Nullable java.lang.String getProxyName()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the client's proxy nickname, null if no proxy selected",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isDeveloperModeActive",
+      "signature": "public static boolean isDeveloperModeActive()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks to see if the client's Developer Mode is active",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isCovertEnabled",
+      "signature": "public static boolean isCovertEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if covertenabled.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isClientOutdated",
+      "signature": "public static boolean isClientOutdated()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the currently running client is outdated. Note: This assumes the client is in the standard location, if you're running the client directly from a different location it may not be accurate.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getClientVersion",
+      "signature": "public static @NonNull java.lang.String getClientVersion()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the current DreamBot client version",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getInstance",
+      "signature": "public static @NonNull Instance getInstance()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the instance.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isCacheLoaded",
+      "signature": "@Deprecated public static boolean isCacheLoaded()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "No longer used",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setDrawScriptPaint",
+      "signature": "public static void setDrawScriptPaint\u200b(boolean shouldDraw)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the drawscriptpaint.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDiscordWebhook",
+      "signature": "public @Nullable java.lang.String getDiscordWebhook()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the user's Discord webhook URL",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setCanvas",
+      "signature": "public void setCanvas\u200b(@NonNull java.awt.Canvas canvas)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the canvas.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setMouseInputEnabled",
+      "signature": "public void setMouseInputEnabled\u200b(boolean mouseInputEnabled)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the mouseinputenabled.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "dispatchCanvasEvent",
+      "signature": "public static void dispatchCanvasEvent\u200b(@NonNull java.awt.AWTEvent event)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the dispatchCanvasEvent operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "minimize",
+      "signature": "public static void minimize()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This method minimizes (dock) the whole DreamBot program",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "show",
+      "signature": "public static void show()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This method will un-minimize and bring the whole DreamBot program to the front of your desktop",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "shouldDrawScriptPaint",
+      "signature": "public static boolean shouldDrawScriptPaint()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the shouldDrawScriptPaint operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setMouseMovementAlgorithm",
+      "signature": "@Deprecated public void setMouseMovementAlgorithm\u200b(@NonNull MouseMovementAlgorithm algorithm)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the mousemovementalgorithm.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMouseMovementAlgorithm",
+      "signature": "@Deprecated public @NonNull MouseMovementAlgorithm getMouseMovementAlgorithm()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the mousemovementalgorithm.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "run",
+      "signature": "public void run()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the run operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "drawMouse",
+      "signature": "public boolean drawMouse()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the drawMouse operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setDrawMouse",
+      "signature": "public void setDrawMouse\u200b(boolean drawMouse)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the drawmouse.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "failedToLoad",
+      "signature": "public boolean failedToLoad()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the failedToLoad operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isWorldSet",
+      "signature": "public boolean isWorldSet()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if worldset.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "enableInputs",
+      "signature": "public void enableInputs()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the enableInputs operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "destroy",
+      "signature": "public void destroy()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the destroy operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLoader",
+      "signature": "public org.dreambot.internal.loader.InstanceLoader getLoader()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the loader.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getUI",
+      "signature": "public org.dreambot.internal.InstanceGUI getUI()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the ui.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getApplet",
+      "signature": "public java.applet.Applet getApplet()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the applet.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "update",
+      "signature": "public void update()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the update operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setKeyboardInputEnabled",
+      "signature": "public void setKeyboardInputEnabled\u200b(boolean keyboardInputEnabled)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the keyboardinputenabled.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getUserAgent",
+      "signature": "public @Nullable java.lang.String getUserAgent()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the useragent.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "addEventListener",
+      "signature": "public void addEventListener\u200b(@NonNull java.util.EventListener listener)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the addEventListener operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "removeEventListener",
+      "signature": "public void removeEventListener\u200b(@NonNull java.util.EventListener listener)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the removeEventListener operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRandomManager",
+      "signature": "public @Nullable RandomManager getRandomManager()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the current script's random manager, or null if script manager/current script are null.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRandomManagerThread",
+      "signature": "public static @Nullable java.lang.Thread getRandomManagerThread()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the randommanagerthread.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onInterrupted",
+      "signature": "public static void onInterrupted\u200b(java.lang.Throwable e)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the onInterrupted operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setShouldStart",
+      "signature": "public static void setShouldStart\u200b(boolean shouldStart)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the shouldstart.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isMouseInputEnabled",
+      "signature": "public static boolean isMouseInputEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if mouseinputenabled.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCanvas",
+      "signature": "public static java.awt.Canvas getCanvas()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the canvas.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isHidingUsernames",
+      "signature": "public static boolean isHidingUsernames()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if hidingusernames.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWrapper",
+      "signature": "public org.dreambot.internal.loader.InstanceWrapper getWrapper()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the wrapper.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getFieldLoader",
+      "signature": "public org.dreambot.internal.fields.FieldLoader getFieldLoader()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the fieldloader.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getScriptManager",
+      "signature": "public ScriptManager getScriptManager()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the scriptmanager.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isKeyboardInputEnabled",
+      "signature": "public boolean isKeyboardInputEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if keyboardinputenabled.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

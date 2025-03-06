@@ -1,0 +1,236 @@
+{
+  "sleep": "500",
+  "name": "",
+  "version": 1.0,
+  "actions": [
+    {
+      "id": "IF_GAME_OBJECT_EXISTS",
+      "properties": {
+        "Filter Object By": {
+          "class": "GameObject",
+          "logic": "NONE",
+          "type": "NAME",
+          "operator": "EQUALS",
+          "filters": [
+            {
+              "class": "GameObject",
+              "logic": "AND",
+              "type": "ID",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "GameObject",
+              "logic": "AND",
+              "type": "ACTION",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "GameObject",
+              "logic": "AND",
+              "type": "MODEL_COLORS",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "GameObject",
+              "logic": "AND",
+              "type": "ORIENTATION",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "GameObject",
+              "logic": "AND",
+              "type": "DISTANCE_TO_PLAYER",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "GameObject",
+              "logic": "AND",
+              "type": "WALKING_DISTANCE_TO_PLAYER",
+              "operator": "EQUALS"
+            }
+          ]
+        }
+      },
+      "children": [
+        {
+          "id": "IF_GAME_OBJECT_DOES_NOT_EXIST",
+          "properties": {
+            "Filter Object By": {
+              "class": "GameObject",
+              "logic": "NONE",
+              "type": "NAME",
+              "operator": "EQUALS"
+            }
+          },
+          "children": [
+            {
+              "id": "GAME_OBJECT_INTERACT",
+              "properties": {
+                "Filter Object By": {
+                  "class": "GameObject",
+                  "logic": "NONE",
+                  "type": "NAME",
+                  "operator": "EQUALS",
+                  "filters": [
+                    {
+                      "class": "GameObject",
+                      "logic": "AND",
+                      "type": "ID",
+                      "operator": "EQUALS"
+                    },
+                    {
+                      "class": "GameObject",
+                      "logic": "AND",
+                      "type": "ACTION",
+                      "operator": "EQUALS"
+                    },
+                    {
+                      "class": "GameObject",
+                      "logic": "AND",
+                      "type": "MODEL_COLORS",
+                      "operator": "EQUALS"
+                    },
+                    {
+                      "class": "GameObject",
+                      "logic": "AND",
+                      "type": "ORIENTATION",
+                      "operator": "EQUALS"
+                    },
+                    {
+                      "class": "GameObject",
+                      "logic": "AND",
+                      "type": "DISTANCE_TO_PLAYER",
+                      "operator": "EQUALS"
+                    },
+                    {
+                      "class": "GameObject",
+                      "logic": "AND",
+                      "type": "WALKING_DISTANCE_TO_PLAYER",
+                      "operator": "EQUALS"
+                    },
+                    {
+                      "class": "GameObject",
+                      "logic": "AND",
+                      "type": "DISTANCE_TO_ANOTHER_PLAYER",
+                      "operator": "EQUALS"
+                    },
+                    {
+                      "class": "GameObject",
+                      "logic": "AND",
+                      "type": "IS_REACHABLE",
+                      "operator": "EQUALS"
+                    },
+                    {
+                      "class": "GameObject",
+                      "logic": "AND",
+                      "type": "IS_NOT_REACHABLE",
+                      "operator": "EQUALS"
+                    },
+                    {
+                      "class": "GameObject",
+                      "logic": "AND",
+                      "type": "TILE",
+                      "operator": "EQUALS"
+                    },
+                    {
+                      "class": "GameObject",
+                      "logic": "AND",
+                      "type": "IN_AREA",
+                      "operator": "EQUALS"
+                    },
+                    {
+                      "class": "GameObject",
+                      "logic": "AND",
+                      "type": "NOT_IN_AREA",
+                      "operator": "EQUALS"
+                    },
+                    {
+                      "class": "GameObject",
+                      "logic": "AND",
+                      "type": "IS_UNDER_PLAYER",
+                      "operator": "EQUALS"
+                    },
+                    {
+                      "class": "GameObject",
+                      "logic": "AND",
+                      "type": "IS_NOT_UNDER_PLAYER",
+                      "operator": "EQUALS"
+                    },
+                    {
+                      "class": "GameObject",
+                      "logic": "AND",
+                      "type": "MODEL_HEIGHT",
+                      "operator": "EQUALS"
+                    },
+                    {
+                      "class": "GameObject",
+                      "logic": "AND",
+                      "type": "ON_SCREEN",
+                      "operator": "EQUALS"
+                    },
+                    {
+                      "class": "GameObject",
+                      "logic": "AND",
+                      "type": "NOT_ON_SCREEN",
+                      "operator": "EQUALS"
+                    },
+                    {
+                      "class": "GameObject",
+                      "logic": "AND",
+                      "type": "IS_VARIABLE_VALUE",
+                      "operator": "EQUALS"
+                    },
+                    {
+                      "class": "GameObject",
+                      "logic": "AND",
+                      "type": "IS_NOT_VARIABLE_VALUE",
+                      "operator": "EQUALS"
+                    },
+                    {
+                      "class": "GameObject",
+                      "logic": "AND",
+                      "type": "IS_LAST_OUTPUT",
+                      "operator": "EQUALS"
+                    },
+                    {
+                      "class": "GameObject",
+                      "logic": "AND",
+                      "type": "IS_NOT_LAST_OUTPUT",
+                      "operator": "EQUALS"
+                    },
+                    {
+                      "class": "GameObject",
+                      "logic": "AND",
+                      "type": "HAS_NAME",
+                      "operator": "EQUALS"
+                    },
+                    {
+                      "class": "GameObject",
+                      "logic": "AND",
+                      "type": "INDEX",
+                      "operator": "EQUALS"
+                    },
+                    {
+                      "class": "GameObject",
+                      "logic": "AND",
+                      "type": "FILTER_BY_ACTION",
+                      "operator": "EQUALS"
+                    },
+                    {
+                      "class": "GameObject",
+                      "logic": "OR",
+                      "type": "NONE",
+                      "operator": "EQUALS"
+                    }
+                  ]
+                },
+                "Force left click": true,
+                "Don\u0027t walk to object": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

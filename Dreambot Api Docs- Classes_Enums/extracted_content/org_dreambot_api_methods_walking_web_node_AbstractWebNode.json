@@ -1,0 +1,460 @@
+{
+  "name": "AbstractWebNode",
+  "full_name": "org.dreambot.api.methods.walking.web.node.AbstractWebNode",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/AbstractWebNode.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.walking.web.node",
+  "description": "This is the base class of all web nodes in our WebFinder A few important methods: execute() is the method called by the walker to handle this web node, and should return true if it handled the node successfully. hasRequirements() is used by the WebFinder to determine if the current player can use this node. isValid() is used by the WebFinder to determine if this web node can be used in a path. forceNext() is checked by the walker to find which node it should execute next. If this returns true then the walker will execute this node next even if it thinks it can reach the web node after.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "AbstractWebNode",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the AbstractWebNode operation.",
+      "deprecated": false
+    },
+    {
+      "name": "RequiredItem",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the RequiredItem operation.",
+      "deprecated": false
+    },
+    {
+      "name": "Tile",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets tile of the object.",
+      "deprecated": false
+    },
+    {
+      "name": "TileReference",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets tile reference of the given object.",
+      "deprecated": false
+    },
+    {
+      "name": "WebNodeType",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the WebNodeType of this node, used during path finding to ensure they're not disabled by the script",
+      "deprecated": false
+    },
+    {
+      "name": "getWeight",
+      "signature": "public int getWeight()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the extra weight added to the cost of this web node during path finding",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setWeight",
+      "signature": "public void setWeight\u200b(int weight)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the extra weight added to the cost of this web node during path finding The higher this is set, the more it costs during path finding",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getType",
+      "signature": "public WebNodeType getType()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the WebNodeType of this node, used during path finding to ensure they're not disabled by the script",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getX",
+      "signature": "public int getX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Locatable",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hasRequirements",
+      "signature": "public boolean hasRequirements()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This is used to determine during path finding if the current player can use this node",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getGridX",
+      "signature": "public int getGridX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Locatable",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getGridY",
+      "signature": "public int getGridY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Locatable",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getZ",
+      "signature": "public int getZ()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Locatable",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "distance",
+      "signature": "public double distance\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Locatable",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTile",
+      "signature": "public Tile getTile()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Locatable",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTileReference",
+      "signature": "public TileReference getTileReference()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Locatable",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getY",
+      "signature": "public int getY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Locatable",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setConnections",
+      "signature": "@Deprecated public void setConnections\u200b(java.util.List<AbstractWebNode> connections)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Primarily for internal use, see addDualConnections(AbstractWebNode...) for adding new connections",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "initializeConnections",
+      "signature": "public void initializeConnections\u200b(java.util.List<AbstractWebNode> connections)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Initializes the web node connections. Generally reserved for internal use. See addDualConnections(AbstractWebNode...) for connecting new nodes",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "addDualConnections",
+      "signature": "public void addDualConnections\u200b(AbstractWebNode... nodes)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Adds a two-way connection between this node and each of the given nodes.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "addOutgoingConnections",
+      "signature": "public void addOutgoingConnections\u200b(AbstractWebNode... connections)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Adds outgoing connections from this node to the given list of nodes. Does NOT connect the given list of nodes to this node. ONE WAY connection.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "addIncomingConnections",
+      "signature": "public void addIncomingConnections\u200b(AbstractWebNode... connections)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Adds incoming connections from the given nodes to this node Does NOT connect this node to the given list of nodes. ONE WAY connection.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "addConnections",
+      "signature": "@Deprecated public void addConnections\u200b(AbstractWebNode... connections)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the addConnections operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "removeConnections",
+      "signature": "public void removeConnections\u200b(AbstractWebNode... connections)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Removes the given nodes from this node's connections. ONE WAY REMOVAL, does NOT remove this connection from the given nodes",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "removeDualConnections",
+      "signature": "public void removeDualConnections\u200b(AbstractWebNode... connections)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Removes the given nodes from this node's connections and removes this node from the given nodes' connections TWO WAY REMOVAL",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "clear",
+      "signature": "public void clear()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the clear operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hashCode",
+      "signature": "public int hashCode()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if has hcode.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "equals",
+      "signature": "public boolean equals\u200b(java.lang.Object obj)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the equals operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toString",
+      "signature": "public java.lang.String toString()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the toString operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getIndex",
+      "signature": "public int getIndex()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the index.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "execute",
+      "signature": "public boolean execute()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This is called by the walker to handle the actual walking, entity handling, or whatever else needed to get past this node.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "forceNext",
+      "signature": "public boolean forceNext()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This is used to see if the walker should execute() this node even if there's a web node further along the GlobalPath that it can reach. This defaults to false, meaning that the walker can look for another web node further in the GlobalPath.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isValid",
+      "signature": "public boolean isValid()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks the validity of this web node to see if it should be considered at all during path finding",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "walkingDistance",
+      "signature": "public double walkingDistance\u200b(Tile tile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Locatable",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRequiredItems",
+      "signature": "public java.util.List<RequiredItem> getRequiredItems()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the requireditems.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getConnections",
+      "signature": "public java.util.List<AbstractWebNode> getConnections()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the connections.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

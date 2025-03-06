@@ -1,0 +1,380 @@
+{
+  "name": "RuneScriptEvent",
+  "full_name": "org.dreambot.api.methods.cs2.RuneScriptEvent",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/cs2/RuneScriptEvent.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.cs2",
+  "description": "Creates its cs2 script based on the given args",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "WidgetChild",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the WidgetChild operation.",
+      "deprecated": false
+    },
+    {
+      "name": "createEvent",
+      "signature": "public void createEvent\u200b(java.lang.Object... args)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Creates its cs2 script based on the given args",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setVar",
+      "signature": "public void setVar\u200b(int var)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the var.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getVar",
+      "signature": "public int getVar()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the var.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setDragTarget",
+      "signature": "public void setDragTarget\u200b(WidgetChild wc)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the dragtarget.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDragTarget",
+      "signature": "public WidgetChild getDragTarget()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the dragtarget.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setWidget",
+      "signature": "public void setWidget\u200b(WidgetChild wc)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the widget.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWidget",
+      "signature": "public WidgetChild getWidget()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the widget.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setType",
+      "signature": "public void setType\u200b(int type)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the type.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getType",
+      "signature": "public int getType()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the type.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setMouseInput",
+      "signature": "public void setMouseInput\u200b(boolean mouseInput)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the mouseinput.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMouseInput",
+      "signature": "public boolean getMouseInput()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the mouseinput.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setMouseX",
+      "signature": "public void setMouseX\u200b(int mouseX)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the mousex.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMouseX",
+      "signature": "public int getMouseX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the mousex.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setMouseY",
+      "signature": "public void setMouseY\u200b(int mouseY)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the mousey.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMouseY",
+      "signature": "public int getMouseY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the mousey.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setOpbase",
+      "signature": "public void setOpbase\u200b(java.lang.String opbase)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the opbase.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOpbase",
+      "signature": "public java.lang.String getOpbase()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the opbase.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getEvent",
+      "signature": "public org.dreambot.internal.injector.interfaces.RSScriptEvent getEvent()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the event.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isConsumed",
+      "signature": "public boolean isConsumed()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if consumed.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getVarcIndex",
+      "signature": "public int getVarcIndex()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the varcindex.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getVarcIntVal",
+      "signature": "public java.lang.Integer getVarcIntVal()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the varcintval.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getVarcStringVal",
+      "signature": "public java.lang.String getVarcStringVal()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the varcstringval.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setEvent",
+      "signature": "public void setEvent\u200b(org.dreambot.internal.injector.interfaces.RSScriptEvent event)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the event.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setConsumed",
+      "signature": "public void setConsumed\u200b(boolean consumed)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the consumed.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setVarcIndex",
+      "signature": "public void setVarcIndex\u200b(int varcIndex)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the varcindex.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setVarcIntVal",
+      "signature": "public void setVarcIntVal\u200b(java.lang.Integer varcIntVal)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the varcintval.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setVarcStringVal",
+      "signature": "public void setVarcStringVal\u200b(java.lang.String varcStringVal)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the varcstringval.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

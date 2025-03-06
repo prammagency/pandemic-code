@@ -1,0 +1,35 @@
+{
+  "name": "JSocket",
+  "full_name": "org.dreambot.api.methods.worldhopper.JSocket",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/worldhopper/JSocket.html",
+  "type": "interface",
+  "package": "org.dreambot.api.methods.worldhopper",
+  "description": "Interface JSocket in the org.dreambot.api.methods.worldhopper package defines methods for DreamBot script functionality.",
+  "page_structure": {
+    "type": "interface",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "getSocket",
+      "return_type": "",
+      "modifiers": [],
+      "description": "getSocket java.net.Socket getSocket()",
+      "deprecated": false,
+      "signature": "java.net.Socket getSocket()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      }
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

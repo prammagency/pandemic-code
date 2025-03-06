@@ -1,0 +1,533 @@
+{
+  "name": "Equipment",
+  "full_name": "org.dreambot.api.methods.container.impl.equipment.Equipment",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/container/impl/equipment/Equipment.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.container.impl.equipment",
+  "description": "A list of all the filtered items.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Item",
+      "return_type": "Item",
+      "modifiers": [
+        "static",
+        "@Nullable"
+      ],
+      "description": "Performs the Item operation.",
+      "deprecated": false
+    },
+    {
+      "name": "EquipmentSlot",
+      "return_type": "EquipmentSlot",
+      "modifiers": [
+        "static",
+        "@Nullable"
+      ],
+      "description": "Gets the EquipmentSlot for a given item filter",
+      "deprecated": false
+    },
+    {
+      "name": "WidgetChild",
+      "return_type": "WidgetChild",
+      "modifiers": [
+        "static",
+        "@Nullable"
+      ],
+      "description": "Gets the WidgetChild for the EquipmentSlot given",
+      "deprecated": false
+    },
+    {
+      "name": "widgetParentId",
+      "signature": "public static int widgetParentId()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the ID of the parent Widget for the Equipment Interface",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "widgetChildId",
+      "signature": "public static int widgetChildId()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the child ID of the WidgetChild for the equipment interface",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "capacity",
+      "signature": "public static int capacity()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the capacity for the equipment interface",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "all",
+      "signature": "public static @NonNull java.util.List<@Nullable Item> all()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "A list of all the filtered items.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isLoaded",
+      "signature": "public static boolean isLoaded()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the internal equipment tables have been loaded Used primarily for ItemEventManagers",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "equip",
+      "signature": "public static boolean equip\u200b(@NonNull EquipmentSlot slot, java.lang.Integer... ids)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Equips the first item that matches one of the given IDs in the slot provided",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSlotForItem",
+      "signature": "public static @Nullable EquipmentSlot getSlotForItem\u200b(@NonNull Filter<Item> filter)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the EquipmentSlot for a given item filter",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "unequip",
+      "signature": "public static boolean unequip\u200b(@NonNull EquipmentSlot slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Unequips the equipment from the equipment slot",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "open",
+      "signature": "public static boolean open()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Opens the equipment tab",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "interact",
+      "signature": "public static boolean interact\u200b(@NonNull EquipmentSlot slot, @Nullable java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Interacts with the slot specified with the action specified Opens the Tab.EQUIPMENT tab if needed",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWidgetForSlot",
+      "signature": "public static @Nullable WidgetChild getWidgetForSlot\u200b(@NonNull EquipmentSlot slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the WidgetChild for the EquipmentSlot given",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSlotBounds",
+      "signature": "public static @Nullable java.awt.Rectangle getSlotBounds\u200b(@NonNull EquipmentSlot slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the rectangular bounds of the WidgetChild for the given EquipmentSlot",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "fullSlotCount",
+      "signature": "public static int fullSlotCount()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the number of slots that contains items",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "emptySlotCount",
+      "signature": "public static int emptySlotCount()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the number of slots that do not contain items",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isSlotEmpty",
+      "signature": "public static boolean isSlotEmpty\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the given slot is empty Uses the values from EquipmentSlot.getSlot()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isSlotFull",
+      "signature": "public static boolean isSlotFull\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the slot has an Item in it slot is based on EquipmentSlot.getSlot()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onlyContains",
+      "signature": "public static boolean onlyContains\u200b(java.lang.String... names)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if your equipment only contains items with specified names",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "slotContains",
+      "signature": "public static boolean slotContains\u200b(int slot, java.lang.String... names)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the slot contains any items that match the given names. slot is based on EquipmentSlot.getSlot()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "slotNameContains",
+      "signature": "@Deprecated public static boolean slotNameContains\u200b(int slot, @NonNull java.lang.String sub)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "see slotContains(int, String)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getFirstEmptySlot",
+      "signature": "public static int getFirstEmptySlot()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the first empty slot in your equipment.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getFirstFullSlot",
+      "signature": "public static int getFirstFullSlot()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the next full slot in your equipment",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getIdForSlot",
+      "signature": "public static int getIdForSlot\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Id of the Item in the slot. slot based on EquipmentSlot.getSlot()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getNameForSlot",
+      "signature": "public static @NonNull java.lang.String getNameForSlot\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Name for the Item in the slot. slot based on EquipmentSlot.getSlot()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "slot",
+      "signature": "public static int slot\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the slot for the item with specified ID.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "add",
+      "signature": "public static boolean add\u200b(Item t)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the add operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toArray",
+      "signature": "public static @Nullable java.lang.Object @NonNull [] toArray()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the toArray operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getItemInSlot",
+      "signature": "public static @Nullable Item getItemInSlot\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets item in specified slot. slot based on EquipmentSlot.getSlot()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "get",
+      "signature": "public static @Nullable Item get\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get item for specified name.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "except",
+      "signature": "public static @NonNull java.util.List<@NonNull Item> except\u200b(@NonNull Filter<Item> filter)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get all items which do not fit the given criteria.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "size",
+      "signature": "public static int size()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the size operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isEmpty",
+      "signature": "public static boolean isEmpty()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if empty.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "contains",
+      "signature": "public static boolean contains\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Contains boolean.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "containsAll",
+      "signature": "public static boolean containsAll\u200b(java.lang.String... names)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if your equipment contains all of the items with names specified",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isFull",
+      "signature": "public static boolean isFull()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines if equipment full.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "count",
+      "signature": "public static int count\u200b(java.lang.String name)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Count of all the items that match the search.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "set",
+      "signature": "public static @Nullable Item set\u200b(int index, Item element)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the .",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isOpen",
+      "signature": "public static boolean isOpen()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if open.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

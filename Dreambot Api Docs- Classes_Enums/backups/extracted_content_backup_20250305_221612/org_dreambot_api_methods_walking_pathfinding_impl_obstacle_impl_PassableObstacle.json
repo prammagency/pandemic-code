@@ -1,0 +1,102 @@
+{
+  "name": "PassableObstacle",
+  "full_name": "org.dreambot.api.methods.walking.pathfinding.impl.obstacle.impl.PassableObstacle",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/obstacle/impl/PassableObstacle.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.walking.pathfinding.impl.obstacle.impl",
+  "description": "Created with IntelliJ IDEA.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.methods.walking.pathfinding.impl.obstacle.PathObstacle"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [
+    {
+      "name": "Constructor Summary\n\nConstructors\u00a0\n\nConstructor\nDescription\n\n\nPassableObstacle\u200b(java.lang.String\u00a0name,\n                java.lang.String\u00a0action)\n\nInstantiates a new Path obstacle with name and action\n\n\n\nPassableObstacle\u200b(java.lang.String\u00a0name,\n                java.lang.String\u00a0action,\n                Tile\u00a0startTile,\n                Tile\u00a0endTile,\n                Tile\u00a0obstacleTile)\n\nInstantiates a new Path obstacle with name action, and both primary and secondary tile.",
+      "description": "",
+      "modifiers": []
+    }
+  ],
+  "methods": [
+    {
+      "name": "PassableObstacle",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Creates a new PathObstacle setting the obstacles tile Note: This MUST return a new PathObstacle with the correct obstacle tile",
+      "deprecated": false
+    },
+    {
+      "name": "addDialogueOptions",
+      "signature": "public void addDialogueOptions\u200b(java.lang.String... options)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "duplicate",
+      "signature": "public PassableObstacle duplicate\u200b(Tile obsTile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: PathObstacle",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "traverse",
+      "signature": "public boolean traverse()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: PathObstacle",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isCompleted",
+      "signature": "public boolean isCompleted()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: PathObstacle",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDialogueOptions",
+      "signature": "public java.util.List<java.lang.String> getDialogueOptions()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

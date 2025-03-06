@@ -1,0 +1,139 @@
+{
+  "sleep": "500",
+  "name": "",
+  "version": 1.0,
+  "actions": [
+    {
+      "id": "IF_GRAND_EXCHANGE_IS_OPEN",
+      "children": [
+        {
+          "id": "IF_SLOT_IS_READY_TO_COLLECT",
+          "children": [
+            {
+              "id": "IF_SLOT_IS_NOT_READY_TO_COLLECT",
+              "children": [
+                {
+                  "id": "IF_GRAND_EXCHANGE_READY_TO_COLLECT"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IF_GRAND_EXCHANGE_IS_NOT_OPEN"
+    },
+    {
+      "id": "IF_OFFER_EXISTS",
+      "properties": {
+        "Filter Item By": {
+          "class": "Item",
+          "logic": "NONE",
+          "type": "NONE",
+          "operator": "EQUALS"
+        }
+      },
+      "children": [
+        {
+          "id": "IF_OFFER_DOES_NOT_EXIST",
+          "properties": {
+            "Filter Item By": {
+              "class": "Item",
+              "logic": "NONE",
+              "type": "NONE",
+              "operator": "EQUALS"
+            }
+          },
+          "children": [
+            {
+              "id": "IF_OFFER_HAS_CHANGED",
+              "children": [
+                {
+                  "id": "IF_ANY_SLOT_IS_EMPTY"
+                },
+                {
+                  "id": "IF_NO_SLOTS_ARE_EMPTY"
+                },
+                {
+                  "id": "IF_SLOT_IS_CANCELED",
+                  "children": [
+                    {
+                      "id": "IF_SLOT_IS_NOT_CANCELED",
+                      "children": [
+                        {
+                          "id": "OPEN_GRAND_EXCHANGE"
+                        },
+                        {
+                          "id": "CLOSE_GRAND_EXCHANGE"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BUY_ITEM_GRAND_EXCHANGE",
+      "children": [
+        {
+          "id": "SELL_ITEM_GRAND_EXCHANGE",
+          "properties": {
+            "Filter Item By": {
+              "class": "Item",
+              "logic": "NONE",
+              "type": "NONE",
+              "operator": "EQUALS"
+            }
+          },
+          "children": [
+            {
+              "id": "SELL_ALL_OF_MATCHING_ITEM_GRAND_EXCHANGE",
+              "properties": {
+                "Filter Item By": {
+                  "class": "Item",
+                  "logic": "NONE",
+                  "type": "NONE",
+                  "operator": "EQUALS"
+                }
+              },
+              "children": [
+                {
+                  "id": "COLLECT_GRAND_EXCHANGE"
+                },
+                {
+                  "id": "COLLECT_TO_BANK_GRAND_EXCHANGE"
+                },
+                {
+                  "id": "CANCEL_OFFER_IN_SLOT",
+                  "children": [
+                    {
+                      "id": "CANCEL_MATCHING_OFFER",
+                      "properties": {
+                        "Filter Item By": {
+                          "class": "Item",
+                          "logic": "NONE",
+                          "type": "NONE",
+                          "operator": "EQUALS"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "CANCEL_ALL_OFFERS"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

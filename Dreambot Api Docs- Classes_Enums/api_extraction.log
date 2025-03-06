@@ -1,0 +1,969 @@
+2025-03-04 21:32:59,413 - INFO - Found 459 entities to process
+2025-03-04 21:32:59,415 - INFO - Processing enum: org.dreambot.api.ClientSettings.SettingsTab
+2025-03-04 21:32:59,416 - INFO - Processing class: org.dreambot.api.Client
+2025-03-04 21:32:59,416 - INFO - Processing class: org.dreambot.api.ClientSettings
+2025-03-04 21:32:59,417 - INFO - Processing enum: org.dreambot.api.data.ActionMode
+2025-03-04 21:32:59,421 - INFO - Processing enum: org.dreambot.api.data.ClientLayout
+2025-03-04 21:32:59,634 - INFO - Successfully saved org.dreambot.api.data.ClientLayout to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_data_ClientLayout.json
+2025-03-04 21:32:59,662 - INFO - Successfully saved org.dreambot.api.data.ActionMode to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_data_ActionMode.json
+2025-03-04 21:32:59,695 - INFO - Successfully saved org.dreambot.api.ClientSettings.SettingsTab to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_ClientSettings_SettingsTab.json
+2025-03-04 21:32:59,813 - INFO - Successfully saved org.dreambot.api.Client to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_Client.json
+2025-03-04 21:32:59,897 - INFO - Successfully saved org.dreambot.api.ClientSettings to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_ClientSettings.json
+2025-03-04 21:33:00,933 - INFO - Processing enum: org.dreambot.api.data.GameState
+2025-03-04 21:33:01,158 - INFO - Successfully saved org.dreambot.api.data.GameState to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_data_GameState.json
+2025-03-04 21:33:01,324 - INFO - Processing enum: org.dreambot.api.data.consumables.Food
+2025-03-04 21:33:01,568 - INFO - Successfully saved org.dreambot.api.data.consumables.Food to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_data_consumables_Food.json
+2025-03-04 21:33:02,194 - INFO - Processing class: org.dreambot.api.data.requirements.CombatRequirement
+2025-03-04 21:33:02,389 - INFO - Successfully saved org.dreambot.api.data.requirements.CombatRequirement to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_data_requirements_CombatRequirement.json
+2025-03-04 21:33:02,516 - INFO - Processing class: org.dreambot.api.data.requirements.ConditionalRequirement
+2025-03-04 21:33:02,594 - INFO - Processing class: org.dreambot.api.data.requirements.FavourRequirement
+2025-03-04 21:33:02,624 - INFO - Processing class: org.dreambot.api.data.requirements.LocationRequirement
+2025-03-04 21:33:02,727 - INFO - Successfully saved org.dreambot.api.data.requirements.ConditionalRequirement to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_data_requirements_ConditionalRequirement.json
+2025-03-04 21:33:02,839 - INFO - Successfully saved org.dreambot.api.data.requirements.FavourRequirement to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_data_requirements_FavourRequirement.json
+2025-03-04 21:33:02,860 - INFO - Successfully saved org.dreambot.api.data.requirements.LocationRequirement to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_data_requirements_LocationRequirement.json
+2025-03-04 21:33:02,945 - INFO - Processing class: org.dreambot.api.data.requirements.QuestPointRequirement
+2025-03-04 21:33:03,171 - INFO - Successfully saved org.dreambot.api.data.requirements.QuestPointRequirement to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_data_requirements_QuestPointRequirement.json
+2025-03-04 21:33:03,957 - INFO - Processing class: org.dreambot.api.data.requirements.QuestRequirement
+2025-03-04 21:33:04,080 - INFO - Processing class: org.dreambot.api.data.requirements.Requirement
+2025-03-04 21:33:04,166 - INFO - Successfully saved org.dreambot.api.data.requirements.QuestRequirement to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_data_requirements_QuestRequirement.json
+2025-03-04 21:33:04,306 - INFO - Successfully saved org.dreambot.api.data.requirements.Requirement to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_data_requirements_Requirement.json
+2025-03-04 21:33:04,528 - INFO - Processing class: org.dreambot.api.data.requirements.SkillRequirement
+2025-03-04 21:33:04,528 - INFO - Progress: 10/459 (2.18%) - Elapsed time: 5.11s
+2025-03-04 21:33:04,730 - INFO - Successfully saved org.dreambot.api.data.requirements.SkillRequirement to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_data_requirements_SkillRequirement.json
+2025-03-04 21:33:05,353 - INFO - Processing class: org.dreambot.api.data.requirements.SkillTotalRequirement
+2025-03-04 21:33:05,603 - INFO - Successfully saved org.dreambot.api.data.requirements.SkillTotalRequirement to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_data_requirements_SkillTotalRequirement.json
+2025-03-04 21:33:05,614 - INFO - Processing class: org.dreambot.api.input.Keyboard
+2025-03-04 21:33:05,693 - INFO - Processing class: org.dreambot.api.input.Mouse
+2025-03-04 21:33:05,883 - INFO - Processing enum: org.dreambot.api.input.event.impl.InteractionSetting
+2025-03-04 21:33:05,883 - INFO - Processing class: org.dreambot.api.input.event.AbstractEvent
+2025-03-04 21:33:05,894 - INFO - Successfully saved org.dreambot.api.input.Keyboard to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_Keyboard.json
+2025-03-04 21:33:06,000 - INFO - Successfully saved org.dreambot.api.input.Mouse to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_Mouse.json
+2025-03-04 21:33:06,106 - INFO - Successfully saved org.dreambot.api.input.event.impl.InteractionSetting to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_InteractionSetting.json
+2025-03-04 21:33:06,134 - INFO - Successfully saved org.dreambot.api.input.event.AbstractEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_AbstractEvent.json
+2025-03-04 21:33:07,410 - INFO - Processing class: org.dreambot.api.input.event.impl.InteractionEvent
+2025-03-04 21:33:07,654 - INFO - Successfully saved org.dreambot.api.input.event.impl.InteractionEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_InteractionEvent.json
+2025-03-04 21:33:07,734 - INFO - Processing enum: org.dreambot.api.input.event.impl.keyboard.KeyLocation
+2025-03-04 21:33:07,936 - INFO - Processing class: org.dreambot.api.input.event.impl.keyboard.KeyboardEvent
+2025-03-04 21:33:07,937 - INFO - Successfully saved org.dreambot.api.input.event.impl.keyboard.KeyLocation to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_keyboard_KeyLocation.json
+2025-03-04 21:33:08,130 - INFO - Successfully saved org.dreambot.api.input.event.impl.keyboard.KeyboardEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_keyboard_KeyboardEvent.json
+2025-03-04 21:33:08,324 - INFO - Processing class: org.dreambot.api.input.event.impl.keyboard.KeyEventGenerator
+2025-03-04 21:33:08,368 - INFO - Processing enum: org.dreambot.api.input.event.impl.keyboard.awt.Key
+2025-03-04 21:33:08,370 - INFO - Progress: 20/459 (4.36%) - Elapsed time: 8.96s
+2025-03-04 21:33:08,532 - INFO - Successfully saved org.dreambot.api.input.event.impl.keyboard.KeyEventGenerator to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_keyboard_KeyEventGenerator.json
+2025-03-04 21:33:08,659 - INFO - Successfully saved org.dreambot.api.input.event.impl.keyboard.awt.Key to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_keyboard_awt_Key.json
+2025-03-04 21:33:09,627 - INFO - Processing class: org.dreambot.api.input.event.impl.keyboard.awt.DBKeyEvent
+2025-03-04 21:33:09,835 - INFO - Successfully saved org.dreambot.api.input.event.impl.keyboard.awt.DBKeyEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_keyboard_awt_DBKeyEvent.json
+2025-03-04 21:33:10,371 - INFO - Processing class: org.dreambot.api.input.event.impl.keyboard.type.AbstractKeyEvent
+2025-03-04 21:33:10,592 - INFO - Processing class: org.dreambot.api.input.event.impl.keyboard.type.HoldKey
+2025-03-04 21:33:10,594 - INFO - Successfully saved org.dreambot.api.input.event.impl.keyboard.type.AbstractKeyEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_keyboard_type_AbstractKeyEvent.json
+2025-03-04 21:33:10,681 - INFO - Processing class: org.dreambot.api.input.event.impl.keyboard.type.PressKey
+2025-03-04 21:33:10,801 - INFO - Successfully saved org.dreambot.api.input.event.impl.keyboard.type.HoldKey to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_keyboard_type_HoldKey.json
+2025-03-04 21:33:10,837 - INFO - Processing class: org.dreambot.api.input.event.impl.keyboard.type.ReleaseKey
+2025-03-04 21:33:10,887 - INFO - Successfully saved org.dreambot.api.input.event.impl.keyboard.type.PressKey to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_keyboard_type_PressKey.json
+2025-03-04 21:33:11,079 - INFO - Successfully saved org.dreambot.api.input.event.impl.keyboard.type.ReleaseKey to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_keyboard_type_ReleaseKey.json
+2025-03-04 21:33:11,832 - INFO - Processing class: org.dreambot.api.input.event.impl.keyboard.type.TypeKey
+2025-03-04 21:33:11,848 - INFO - Processing enum: org.dreambot.api.input.event.impl.mouse.MouseButton
+2025-03-04 21:33:12,025 - INFO - Successfully saved org.dreambot.api.input.event.impl.keyboard.type.TypeKey to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_keyboard_type_TypeKey.json
+2025-03-04 21:33:12,061 - INFO - Successfully saved org.dreambot.api.input.event.impl.mouse.MouseButton to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_mouse_MouseButton.json
+2025-03-04 21:33:12,390 - INFO - Processing enum: org.dreambot.api.input.event.impl.mouse.MouseMode
+2025-03-04 21:33:12,632 - INFO - Successfully saved org.dreambot.api.input.event.impl.mouse.MouseMode to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_mouse_MouseMode.json
+2025-03-04 21:33:13,271 - INFO - Processing enum: org.dreambot.api.input.event.impl.mouse.WheelMode
+2025-03-04 21:33:13,380 - INFO - Processing class: org.dreambot.api.input.event.impl.mouse.AbstractMouseEvent
+2025-03-04 21:33:13,381 - INFO - Progress: 30/459 (6.54%) - Elapsed time: 13.97s
+2025-03-04 21:33:13,485 - INFO - Successfully saved org.dreambot.api.input.event.impl.mouse.WheelMode to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_mouse_WheelMode.json
+2025-03-04 21:33:13,538 - INFO - Processing class: org.dreambot.api.input.event.impl.mouse.MouseEvent
+2025-03-04 21:33:13,599 - INFO - Successfully saved org.dreambot.api.input.event.impl.mouse.AbstractMouseEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_mouse_AbstractMouseEvent.json
+2025-03-04 21:33:13,817 - INFO - Successfully saved org.dreambot.api.input.event.impl.mouse.MouseEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_mouse_MouseEvent.json
+2025-03-04 21:33:14,152 - INFO - Processing class: org.dreambot.api.input.event.impl.mouse.MouseEventGenerator
+2025-03-04 21:33:14,184 - INFO - Processing class: org.dreambot.api.input.event.impl.mouse.awt.DBMouseEvent
+2025-03-04 21:33:14,374 - INFO - Successfully saved org.dreambot.api.input.event.impl.mouse.MouseEventGenerator to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_mouse_MouseEventGenerator.json
+2025-03-04 21:33:14,393 - INFO - Successfully saved org.dreambot.api.input.event.impl.mouse.awt.DBMouseEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_mouse_awt_DBMouseEvent.json
+2025-03-04 21:33:15,167 - INFO - Processing class: org.dreambot.api.input.event.impl.mouse.awt.DBMouseWheelEvent
+2025-03-04 21:33:15,230 - INFO - Processing class: org.dreambot.api.input.event.impl.mouse.impl.MoveEvent
+2025-03-04 21:33:15,383 - INFO - Successfully saved org.dreambot.api.input.event.impl.mouse.awt.DBMouseWheelEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_mouse_awt_DBMouseWheelEvent.json
+2025-03-04 21:33:15,416 - INFO - Successfully saved org.dreambot.api.input.event.impl.mouse.impl.MoveEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_mouse_impl_MoveEvent.json
+2025-03-04 21:33:16,341 - INFO - Processing enum: org.dreambot.api.input.event.impl.mouse.impl.click.ClickMode
+2025-03-04 21:33:16,555 - INFO - Successfully saved org.dreambot.api.input.event.impl.mouse.impl.click.ClickMode to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_mouse_impl_click_ClickMode.json
+2025-03-04 21:33:16,793 - INFO - Processing class: org.dreambot.api.input.event.impl.mouse.impl.click.ClickEvent
+2025-03-04 21:33:16,951 - INFO - Processing enum: org.dreambot.api.input.event.impl.mouse.impl.wheel.WheelMode
+2025-03-04 21:33:17,004 - INFO - Successfully saved org.dreambot.api.input.event.impl.mouse.impl.click.ClickEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_mouse_impl_click_ClickEvent.json
+2025-03-04 21:33:17,029 - INFO - Processing class: org.dreambot.api.input.event.impl.mouse.impl.wheel.WheelEvent
+2025-03-04 21:33:17,183 - INFO - Successfully saved org.dreambot.api.input.event.impl.mouse.impl.wheel.WheelMode to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_mouse_impl_wheel_WheelMode.json
+2025-03-04 21:33:17,248 - INFO - Successfully saved org.dreambot.api.input.event.impl.mouse.impl.wheel.WheelEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_mouse_impl_wheel_WheelEvent.json
+2025-03-04 21:33:18,172 - INFO - Processing class: org.dreambot.api.input.event.impl.mouse.type.AbstractMouseEvent
+2025-03-04 21:33:18,172 - INFO - Progress: 40/459 (8.71%) - Elapsed time: 18.76s
+2025-03-04 21:33:18,352 - INFO - Successfully saved org.dreambot.api.input.event.impl.mouse.type.AbstractMouseEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_mouse_type_AbstractMouseEvent.json
+2025-03-04 21:33:19,088 - INFO - Processing class: org.dreambot.api.input.event.impl.mouse.type.ClickEvent
+2025-03-04 21:33:19,333 - INFO - Successfully saved org.dreambot.api.input.event.impl.mouse.type.ClickEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_mouse_type_ClickEvent.json
+2025-03-04 21:33:19,418 - INFO - Processing class: org.dreambot.api.input.event.impl.mouse.type.EnterEvent
+2025-03-04 21:33:19,543 - INFO - Processing class: org.dreambot.api.input.event.impl.mouse.type.ExitEvent
+2025-03-04 21:33:19,618 - INFO - Successfully saved org.dreambot.api.input.event.impl.mouse.type.EnterEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_mouse_type_EnterEvent.json
+2025-03-04 21:33:19,748 - INFO - Successfully saved org.dreambot.api.input.event.impl.mouse.type.ExitEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_mouse_type_ExitEvent.json
+2025-03-04 21:33:19,788 - INFO - Processing class: org.dreambot.api.input.event.impl.mouse.type.MoveEvent
+2025-03-04 21:33:19,997 - INFO - Successfully saved org.dreambot.api.input.event.impl.mouse.type.MoveEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_mouse_type_MoveEvent.json
+2025-03-04 21:33:20,114 - INFO - Processing class: org.dreambot.api.input.event.impl.mouse.type.PressEvent
+2025-03-04 21:33:20,392 - INFO - Successfully saved org.dreambot.api.input.event.impl.mouse.type.PressEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_mouse_type_PressEvent.json
+2025-03-04 21:33:20,718 - INFO - Processing class: org.dreambot.api.input.event.impl.mouse.type.ReleaseEvent
+2025-03-04 21:33:20,950 - INFO - Successfully saved org.dreambot.api.input.event.impl.mouse.type.ReleaseEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_mouse_type_ReleaseEvent.json
+2025-03-04 21:33:21,184 - INFO - Processing class: org.dreambot.api.input.event.impl.mouse.type.WheelEvent
+2025-03-04 21:33:21,378 - INFO - Successfully saved org.dreambot.api.input.event.impl.mouse.type.WheelEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_mouse_type_WheelEvent.json
+2025-03-04 21:33:22,086 - INFO - Processing interface: org.dreambot.api.input.event.impl.mouse.vector.Vector
+2025-03-04 21:33:22,279 - INFO - Successfully saved org.dreambot.api.input.event.impl.mouse.vector.Vector to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_mouse_vector_Vector.json
+2025-03-04 21:33:22,379 - INFO - Processing class: org.dreambot.api.input.event.impl.mouse.vector.impl.MouseVector
+2025-03-04 21:33:22,535 - INFO - Processing interface: org.dreambot.api.input.keyboard.KeyboardTypingAlgorithm
+2025-03-04 21:33:22,535 - INFO - Progress: 50/459 (10.89%) - Elapsed time: 23.12s
+2025-03-04 21:33:22,583 - INFO - Successfully saved org.dreambot.api.input.event.impl.mouse.vector.impl.MouseVector to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_event_impl_mouse_vector_impl_MouseVector.json
+2025-03-04 21:33:22,583 - INFO - Processing class: org.dreambot.api.input.keyboard.KeyboardProfile
+2025-03-04 21:33:22,645 - INFO - Processing class: org.dreambot.api.input.keyboard.StandardKeyboardAlgorithm
+2025-03-04 21:33:22,736 - INFO - Successfully saved org.dreambot.api.input.keyboard.KeyboardTypingAlgorithm to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_keyboard_KeyboardTypingAlgorithm.json
+2025-03-04 21:33:22,787 - INFO - Successfully saved org.dreambot.api.input.keyboard.KeyboardProfile to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_keyboard_KeyboardProfile.json
+2025-03-04 21:33:22,864 - INFO - Successfully saved org.dreambot.api.input.keyboard.StandardKeyboardAlgorithm to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_keyboard_StandardKeyboardAlgorithm.json
+2025-03-04 21:33:23,310 - INFO - Processing interface: org.dreambot.api.input.mouse.algorithm.MouseAlgorithm
+2025-03-04 21:33:23,527 - INFO - Successfully saved org.dreambot.api.input.mouse.algorithm.MouseAlgorithm to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_mouse_algorithm_MouseAlgorithm.json
+2025-03-04 21:33:24,070 - INFO - Processing interface: org.dreambot.api.input.mouse.algorithm.MouseMovementAlgorithm
+2025-03-04 21:33:24,297 - INFO - Successfully saved org.dreambot.api.input.mouse.algorithm.MouseMovementAlgorithm to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_mouse_algorithm_MouseMovementAlgorithm.json
+2025-03-04 21:33:24,664 - INFO - Processing class: org.dreambot.api.input.mouse.algorithm.MouseProfile
+2025-03-04 21:33:24,903 - INFO - Successfully saved org.dreambot.api.input.mouse.algorithm.MouseProfile to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_mouse_algorithm_MouseProfile.json
+2025-03-04 21:33:25,430 - INFO - Processing class: org.dreambot.api.input.mouse.algorithm.StandardMouseAlgorithm
+2025-03-04 21:33:25,673 - INFO - Successfully saved org.dreambot.api.input.mouse.algorithm.StandardMouseAlgorithm to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_mouse_algorithm_StandardMouseAlgorithm.json
+2025-03-04 21:33:25,678 - INFO - Processing class: org.dreambot.api.input.mouse.destination.AbstractMouseDestination
+2025-03-04 21:33:25,898 - INFO - Successfully saved org.dreambot.api.input.mouse.destination.AbstractMouseDestination to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_mouse_destination_AbstractMouseDestination.json
+2025-03-04 21:33:25,944 - INFO - Processing class: org.dreambot.api.input.mouse.destination.impl.EntityDestination
+2025-03-04 21:33:26,171 - INFO - Successfully saved org.dreambot.api.input.mouse.destination.impl.EntityDestination to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_mouse_destination_impl_EntityDestination.json
+2025-03-04 21:33:26,502 - INFO - Processing class: org.dreambot.api.input.mouse.destination.impl.MiniMapTileDestination
+2025-03-04 21:33:26,758 - INFO - Successfully saved org.dreambot.api.input.mouse.destination.impl.MiniMapTileDestination to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_mouse_destination_impl_MiniMapTileDestination.json
+2025-03-04 21:33:26,908 - INFO - Processing class: org.dreambot.api.input.mouse.destination.impl.PointDestination
+2025-03-04 21:33:26,909 - INFO - Progress: 60/459 (13.07%) - Elapsed time: 27.50s
+2025-03-04 21:33:27,032 - INFO - Processing class: org.dreambot.api.input.mouse.destination.impl.TileDestination
+2025-03-04 21:33:27,139 - INFO - Successfully saved org.dreambot.api.input.mouse.destination.impl.PointDestination to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_mouse_destination_impl_PointDestination.json
+2025-03-04 21:33:27,241 - INFO - Successfully saved org.dreambot.api.input.mouse.destination.impl.TileDestination to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_mouse_destination_impl_TileDestination.json
+2025-03-04 21:33:27,385 - INFO - Processing class: org.dreambot.api.input.mouse.destination.impl.shape.AreaDestination
+2025-03-04 21:33:27,594 - INFO - Successfully saved org.dreambot.api.input.mouse.destination.impl.shape.AreaDestination to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_mouse_destination_impl_shape_AreaDestination.json
+2025-03-04 21:33:28,024 - INFO - Processing class: org.dreambot.api.input.mouse.destination.impl.shape.PolygonDestination
+2025-03-04 21:33:28,087 - INFO - Processing class: org.dreambot.api.input.mouse.destination.impl.shape.RectangleDestination
+2025-03-04 21:33:28,217 - INFO - Successfully saved org.dreambot.api.input.mouse.destination.impl.shape.PolygonDestination to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_mouse_destination_impl_shape_PolygonDestination.json
+2025-03-04 21:33:28,257 - INFO - Processing class: org.dreambot.api.input.mouse.destination.impl.shape.ShapeDestination
+2025-03-04 21:33:28,314 - INFO - Successfully saved org.dreambot.api.input.mouse.destination.impl.shape.RectangleDestination to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_mouse_destination_impl_shape_RectangleDestination.json
+2025-03-04 21:33:28,474 - INFO - Successfully saved org.dreambot.api.input.mouse.destination.impl.shape.ShapeDestination to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_input_mouse_destination_impl_shape_ShapeDestination.json
+2025-03-04 21:33:29,328 - INFO - Processing enum: org.dreambot.api.methods.ForumRank
+2025-03-04 21:33:29,566 - INFO - Successfully saved org.dreambot.api.methods.ForumRank to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_ForumRank.json
+2025-03-04 21:33:30,321 - INFO - Processing enum: org.dreambot.api.methods.RSLoginResponse
+2025-03-04 21:33:30,427 - INFO - Processing class: org.dreambot.api.methods.Animations
+2025-03-04 21:33:30,582 - INFO - Successfully saved org.dreambot.api.methods.RSLoginResponse to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_RSLoginResponse.json
+2025-03-04 21:33:30,805 - INFO - Successfully saved org.dreambot.api.methods.Animations to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_Animations.json
+2025-03-04 21:33:30,897 - INFO - Processing class: org.dreambot.api.methods.Calculations
+2025-03-04 21:33:31,128 - INFO - Successfully saved org.dreambot.api.methods.Calculations to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_Calculations.json
+2025-03-04 21:33:31,162 - INFO - Processing class: org.dreambot.api.methods.ForumUser
+2025-03-04 21:33:31,162 - INFO - Progress: 70/459 (15.25%) - Elapsed time: 31.75s
+2025-03-04 21:33:31,394 - INFO - Successfully saved org.dreambot.api.methods.ForumUser to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_ForumUser.json
+2025-03-04 21:33:31,612 - INFO - Processing class: org.dreambot.api.methods.MethodProvider
+2025-03-04 21:33:31,765 - INFO - Processing class: org.dreambot.api.methods.Randoms
+2025-03-04 21:33:31,819 - INFO - Successfully saved org.dreambot.api.methods.MethodProvider to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_MethodProvider.json
+2025-03-04 21:33:31,991 - INFO - Successfully saved org.dreambot.api.methods.Randoms to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_Randoms.json
+2025-03-04 21:33:32,884 - INFO - Processing class: org.dreambot.api.methods.ViewportTools
+2025-03-04 21:33:33,136 - INFO - Successfully saved org.dreambot.api.methods.ViewportTools to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_ViewportTools.json
+2025-03-04 21:33:33,334 - INFO - Processing class: org.dreambot.api.methods.bond.Bond
+2025-03-04 21:33:33,538 - INFO - Successfully saved org.dreambot.api.methods.bond.Bond to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_bond_Bond.json
+2025-03-04 21:33:33,647 - INFO - Processing enum: org.dreambot.api.methods.clan.ClanMember.Rank
+2025-03-04 21:33:33,841 - INFO - Successfully saved org.dreambot.api.methods.clan.ClanMember.Rank to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_clan_ClanMember_Rank.json
+2025-03-04 21:33:34,066 - INFO - Processing class: org.dreambot.api.methods.clan.Clan
+2025-03-04 21:33:34,296 - INFO - Processing class: org.dreambot.api.methods.clan.ClanMember
+2025-03-04 21:33:34,296 - INFO - Successfully saved org.dreambot.api.methods.clan.Clan to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_clan_Clan.json
+2025-03-04 21:33:34,491 - INFO - Successfully saved org.dreambot.api.methods.clan.ClanMember to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_clan_ClanMember.json
+2025-03-04 21:33:34,812 - INFO - Processing class: org.dreambot.api.methods.clan.ClanMemberHandler
+2025-03-04 21:33:35,024 - INFO - Successfully saved org.dreambot.api.methods.clan.ClanMemberHandler to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_clan_ClanMemberHandler.json
+2025-03-04 21:33:35,693 - INFO - Processing enum: org.dreambot.api.methods.clan.chat.ClanChatMember.Rank
+2025-03-04 21:33:35,834 - INFO - Processing enum: org.dreambot.api.methods.clan.chat.ClanChatTab
+2025-03-04 21:33:35,835 - INFO - Processing class: org.dreambot.api.methods.clan.chat.ClanChat
+2025-03-04 21:33:35,842 - INFO - Progress: 80/459 (17.43%) - Elapsed time: 36.43s
+2025-03-04 21:33:35,910 - INFO - Successfully saved org.dreambot.api.methods.clan.chat.ClanChatMember.Rank to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_clan_chat_ClanChatMember_Rank.json
+2025-03-04 21:33:36,086 - INFO - Successfully saved org.dreambot.api.methods.clan.chat.ClanChatTab to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_clan_chat_ClanChatTab.json
+2025-03-04 21:33:36,106 - INFO - Successfully saved org.dreambot.api.methods.clan.chat.ClanChat to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_clan_chat_ClanChat.json
+2025-03-04 21:33:36,536 - INFO - Processing class: org.dreambot.api.methods.clan.chat.ClanChatMember
+2025-03-04 21:33:36,744 - INFO - Successfully saved org.dreambot.api.methods.clan.chat.ClanChatMember to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_clan_chat_ClanChatMember.json
+2025-03-04 21:33:37,589 - INFO - Processing class: org.dreambot.api.methods.clan.guild.Clan
+2025-03-04 21:33:37,760 - INFO - Processing class: org.dreambot.api.methods.clan.guild.ClanMember
+2025-03-04 21:33:37,835 - INFO - Successfully saved org.dreambot.api.methods.clan.guild.Clan to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_clan_guild_Clan.json
+2025-03-04 21:33:38,093 - INFO - Successfully saved org.dreambot.api.methods.clan.guild.ClanMember to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_clan_guild_ClanMember.json
+2025-03-04 21:33:38,365 - INFO - Processing enum: org.dreambot.api.methods.combat.CombatStyle
+2025-03-04 21:33:38,613 - INFO - Processing class: org.dreambot.api.methods.combat.Combat
+2025-03-04 21:33:38,673 - INFO - Successfully saved org.dreambot.api.methods.combat.CombatStyle to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_combat_CombatStyle.json
+2025-03-04 21:33:38,813 - INFO - Processing enum: org.dreambot.api.methods.container.general.ItemContainerId
+2025-03-04 21:33:38,970 - INFO - Successfully saved org.dreambot.api.methods.combat.Combat to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_combat_Combat.json
+2025-03-04 21:33:39,125 - INFO - Successfully saved org.dreambot.api.methods.container.general.ItemContainerId to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_container_general_ItemContainerId.json
+2025-03-04 21:33:39,702 - INFO - Processing class: org.dreambot.api.methods.container.general.ItemContainer
+2025-03-04 21:33:39,900 - INFO - Successfully saved org.dreambot.api.methods.container.general.ItemContainer to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_container_general_ItemContainer.json
+2025-03-04 21:33:40,760 - INFO - Processing class: org.dreambot.api.methods.container.general.ItemContainers
+2025-03-04 21:33:40,915 - INFO - Processing enum: org.dreambot.api.methods.container.impl.ContainerType
+2025-03-04 21:33:40,915 - INFO - Progress: 90/459 (19.61%) - Elapsed time: 41.50s
+2025-03-04 21:33:41,037 - INFO - Successfully saved org.dreambot.api.methods.container.general.ItemContainers to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_container_general_ItemContainers.json
+2025-03-04 21:33:41,202 - INFO - Successfully saved org.dreambot.api.methods.container.impl.ContainerType to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_container_impl_ContainerType.json
+2025-03-04 21:33:41,242 - INFO - Processing interface: org.dreambot.api.methods.container.impl.DropPattern
+2025-03-04 21:33:41,490 - INFO - Successfully saved org.dreambot.api.methods.container.impl.DropPattern to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_container_impl_DropPattern.json
+2025-03-04 21:33:41,923 - INFO - Processing class: org.dreambot.api.methods.container.impl.Inventory
+2025-03-04 21:33:42,262 - INFO - Successfully saved org.dreambot.api.methods.container.impl.Inventory to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_container_impl_Inventory.json
+2025-03-04 21:33:42,652 - INFO - Processing class: org.dreambot.api.methods.container.impl.Shop
+2025-03-04 21:33:43,039 - INFO - Successfully saved org.dreambot.api.methods.container.impl.Shop to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_container_impl_Shop.json
+2025-03-04 21:33:43,219 - INFO - Processing class: org.dreambot.api.methods.container.impl.StandardDropPattern
+2025-03-04 21:33:43,219 - INFO - Processing enum: org.dreambot.api.methods.container.impl.bank.BankLocation
+2025-03-04 21:33:43,419 - INFO - Successfully saved org.dreambot.api.methods.container.impl.StandardDropPattern to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_container_impl_StandardDropPattern.json
+2025-03-04 21:33:43,512 - INFO - Successfully saved org.dreambot.api.methods.container.impl.bank.BankLocation to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_container_impl_bank_BankLocation.json
+2025-03-04 21:33:43,964 - INFO - Processing enum: org.dreambot.api.methods.container.impl.bank.BankMode
+2025-03-04 21:33:44,182 - INFO - Processing enum: org.dreambot.api.methods.container.impl.bank.BankQuantitySelection
+2025-03-04 21:33:44,183 - INFO - Successfully saved org.dreambot.api.methods.container.impl.bank.BankMode to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_container_impl_bank_BankMode.json
+2025-03-04 21:33:44,340 - INFO - Processing enum: org.dreambot.api.methods.container.impl.bank.BankScroll
+2025-03-04 21:33:44,379 - INFO - Successfully saved org.dreambot.api.methods.container.impl.bank.BankQuantitySelection to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_container_impl_bank_BankQuantitySelection.json
+2025-03-04 21:33:44,540 - INFO - Successfully saved org.dreambot.api.methods.container.impl.bank.BankScroll to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_container_impl_bank_BankScroll.json
+2025-03-04 21:33:44,860 - INFO - Processing enum: org.dreambot.api.methods.container.impl.bank.BankTab
+2025-03-04 21:33:45,107 - INFO - Successfully saved org.dreambot.api.methods.container.impl.bank.BankTab to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_container_impl_bank_BankTab.json
+2025-03-04 21:33:45,462 - INFO - Processing enum: org.dreambot.api.methods.container.impl.bank.BankType
+2025-03-04 21:33:45,462 - INFO - Progress: 100/459 (21.79%) - Elapsed time: 46.05s
+2025-03-04 21:33:45,558 - INFO - Processing class: org.dreambot.api.methods.container.impl.bank.Bank
+2025-03-04 21:33:45,672 - INFO - Successfully saved org.dreambot.api.methods.container.impl.bank.BankType to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_container_impl_bank_BankType.json
+2025-03-04 21:33:45,951 - INFO - Processing enum: org.dreambot.api.methods.container.impl.equipment.EquipmentSlot
+2025-03-04 21:33:45,964 - INFO - Successfully saved org.dreambot.api.methods.container.impl.bank.Bank to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_container_impl_bank_Bank.json
+2025-03-04 21:33:46,175 - INFO - Successfully saved org.dreambot.api.methods.container.impl.equipment.EquipmentSlot to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_container_impl_equipment_EquipmentSlot.json
+2025-03-04 21:33:46,673 - INFO - Processing class: org.dreambot.api.methods.container.impl.equipment.Equipment
+2025-03-04 21:33:47,002 - INFO - Successfully saved org.dreambot.api.methods.container.impl.equipment.Equipment to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_container_impl_equipment_Equipment.json
+2025-03-04 21:33:47,051 - INFO - Processing class: org.dreambot.api.methods.cs2.RuneScriptEvent
+2025-03-04 21:33:47,280 - INFO - Successfully saved org.dreambot.api.methods.cs2.RuneScriptEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_cs2_RuneScriptEvent.json
+2025-03-04 21:33:47,697 - INFO - Processing class: org.dreambot.api.methods.cs2.ScriptId
+2025-03-04 21:33:47,941 - INFO - Successfully saved org.dreambot.api.methods.cs2.ScriptId to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_cs2_ScriptId.json
+2025-03-04 21:33:48,315 - INFO - Processing class: org.dreambot.api.methods.cs2.VarClientInt
+2025-03-04 21:33:48,363 - INFO - Processing class: org.dreambot.api.methods.cs2.VarClientString
+2025-03-04 21:33:48,534 - INFO - Successfully saved org.dreambot.api.methods.cs2.VarClientInt to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_cs2_VarClientInt.json
+2025-03-04 21:33:48,571 - INFO - Successfully saved org.dreambot.api.methods.cs2.VarClientString to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_cs2_VarClientString.json
+2025-03-04 21:33:49,758 - INFO - Processing class: org.dreambot.api.methods.depositbox.DepositBox
+2025-03-04 21:33:49,834 - INFO - Processing class: org.dreambot.api.methods.dialogues.Dialogues
+2025-03-04 21:33:50,042 - INFO - Successfully saved org.dreambot.api.methods.depositbox.DepositBox to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_depositbox_DepositBox.json
+2025-03-04 21:33:50,090 - INFO - Successfully saved org.dreambot.api.methods.dialogues.Dialogues to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_dialogues_Dialogues.json
+2025-03-04 21:33:50,195 - INFO - Processing class: org.dreambot.api.methods.diary.ArdougneDiary
+2025-03-04 21:33:50,195 - INFO - Progress: 110/459 (23.97%) - Elapsed time: 50.78s
+2025-03-04 21:33:50,379 - INFO - Successfully saved org.dreambot.api.methods.diary.ArdougneDiary to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_diary_ArdougneDiary.json
+2025-03-04 21:33:50,382 - INFO - Processing class: org.dreambot.api.methods.diary.DesertDiary
+2025-03-04 21:33:50,608 - INFO - Successfully saved org.dreambot.api.methods.diary.DesertDiary to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_diary_DesertDiary.json
+2025-03-04 21:33:50,879 - INFO - Processing class: org.dreambot.api.methods.diary.Diaries
+2025-03-04 21:33:51,070 - INFO - Successfully saved org.dreambot.api.methods.diary.Diaries to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_diary_Diaries.json
+2025-03-04 21:33:52,127 - INFO - Processing class: org.dreambot.api.methods.diary.Diary
+2025-03-04 21:33:52,219 - INFO - Processing class: org.dreambot.api.methods.diary.FaladorDiary
+2025-03-04 21:33:52,355 - INFO - Successfully saved org.dreambot.api.methods.diary.Diary to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_diary_Diary.json
+2025-03-04 21:33:52,446 - INFO - Successfully saved org.dreambot.api.methods.diary.FaladorDiary to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_diary_FaladorDiary.json
+2025-03-04 21:33:52,467 - INFO - Processing class: org.dreambot.api.methods.diary.FremennikDiary
+2025-03-04 21:33:52,675 - INFO - Successfully saved org.dreambot.api.methods.diary.FremennikDiary to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_diary_FremennikDiary.json
+2025-03-04 21:33:52,750 - INFO - Processing class: org.dreambot.api.methods.diary.KandarinDiary
+2025-03-04 21:33:52,973 - INFO - Successfully saved org.dreambot.api.methods.diary.KandarinDiary to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_diary_KandarinDiary.json
+2025-03-04 21:33:53,091 - INFO - Processing class: org.dreambot.api.methods.diary.KaramjaDiary
+2025-03-04 21:33:53,301 - INFO - Successfully saved org.dreambot.api.methods.diary.KaramjaDiary to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_diary_KaramjaDiary.json
+2025-03-04 21:33:53,788 - INFO - Processing class: org.dreambot.api.methods.diary.KourendKebosDiary
+2025-03-04 21:33:54,015 - INFO - Successfully saved org.dreambot.api.methods.diary.KourendKebosDiary to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_diary_KourendKebosDiary.json
+2025-03-04 21:33:54,747 - INFO - Processing class: org.dreambot.api.methods.diary.LumbridgeDraynorDiary
+2025-03-04 21:33:54,951 - INFO - Processing class: org.dreambot.api.methods.diary.MorytaniaDiary
+2025-03-04 21:33:54,951 - INFO - Processing class: org.dreambot.api.methods.diary.VarrockDiary
+2025-03-04 21:33:54,952 - INFO - Progress: 120/459 (26.14%) - Elapsed time: 55.54s
+2025-03-04 21:33:54,952 - INFO - Successfully saved org.dreambot.api.methods.diary.LumbridgeDraynorDiary to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_diary_LumbridgeDraynorDiary.json
+2025-03-04 21:33:55,077 - INFO - Processing class: org.dreambot.api.methods.diary.WesternProvincesDiary
+2025-03-04 21:33:55,158 - INFO - Successfully saved org.dreambot.api.methods.diary.MorytaniaDiary to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_diary_MorytaniaDiary.json
+2025-03-04 21:33:55,185 - INFO - Successfully saved org.dreambot.api.methods.diary.VarrockDiary to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_diary_VarrockDiary.json
+2025-03-04 21:33:55,280 - INFO - Successfully saved org.dreambot.api.methods.diary.WesternProvincesDiary to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_diary_WesternProvincesDiary.json
+2025-03-04 21:33:55,561 - INFO - Processing class: org.dreambot.api.methods.diary.WildernessDiary
+2025-03-04 21:33:55,776 - INFO - Successfully saved org.dreambot.api.methods.diary.WildernessDiary to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_diary_WildernessDiary.json
+2025-03-04 21:33:56,573 - INFO - Processing interface: org.dreambot.api.methods.diary.requirement.Requirement
+2025-03-04 21:33:56,773 - INFO - Successfully saved org.dreambot.api.methods.diary.requirement.Requirement to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_diary_requirement_Requirement.json
+2025-03-04 21:33:56,896 - INFO - Processing class: org.dreambot.api.methods.diary.requirement.DiaryRequirement
+2025-03-04 21:33:57,002 - INFO - Processing enum: org.dreambot.api.methods.diary.requirement.impl.FavourRequirement.House
+2025-03-04 21:33:57,064 - INFO - Processing class: org.dreambot.api.methods.diary.requirement.impl.AnyRequirement
+2025-03-04 21:33:57,104 - INFO - Successfully saved org.dreambot.api.methods.diary.requirement.DiaryRequirement to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_diary_requirement_DiaryRequirement.json
+2025-03-04 21:33:57,229 - INFO - Successfully saved org.dreambot.api.methods.diary.requirement.impl.FavourRequirement.House to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_diary_requirement_impl_FavourRequirement_House.json
+2025-03-04 21:33:57,268 - INFO - Successfully saved org.dreambot.api.methods.diary.requirement.impl.AnyRequirement to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_diary_requirement_impl_AnyRequirement.json
+2025-03-04 21:33:57,733 - INFO - Processing class: org.dreambot.api.methods.diary.requirement.impl.CombatRequirement
+2025-03-04 21:33:58,097 - INFO - Successfully saved org.dreambot.api.methods.diary.requirement.impl.CombatRequirement to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_diary_requirement_impl_CombatRequirement.json
+2025-03-04 21:33:58,354 - INFO - Processing class: org.dreambot.api.methods.diary.requirement.impl.CombinedSkillRequirement
+2025-03-04 21:33:58,562 - INFO - Successfully saved org.dreambot.api.methods.diary.requirement.impl.CombinedSkillRequirement to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_diary_requirement_impl_CombinedSkillRequirement.json
+2025-03-04 21:33:58,726 - INFO - Processing class: org.dreambot.api.methods.diary.requirement.impl.FavourRequirement
+2025-03-04 21:33:58,727 - INFO - Progress: 130/459 (28.32%) - Elapsed time: 59.31s
+2025-03-04 21:33:58,820 - INFO - Processing class: org.dreambot.api.methods.diary.requirement.impl.QuestPointRequirement
+2025-03-04 21:33:58,851 - INFO - Processing class: org.dreambot.api.methods.diary.requirement.impl.QuestRequirement
+2025-03-04 21:33:58,920 - INFO - Successfully saved org.dreambot.api.methods.diary.requirement.impl.FavourRequirement to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_diary_requirement_impl_FavourRequirement.json
+2025-03-04 21:33:59,006 - INFO - Successfully saved org.dreambot.api.methods.diary.requirement.impl.QuestPointRequirement to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_diary_requirement_impl_QuestPointRequirement.json
+2025-03-04 21:33:59,081 - INFO - Successfully saved org.dreambot.api.methods.diary.requirement.impl.QuestRequirement to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_diary_requirement_impl_QuestRequirement.json
+2025-03-04 21:34:00,420 - INFO - Processing class: org.dreambot.api.methods.diary.requirement.impl.SkillRequirement
+2025-03-04 21:34:00,666 - INFO - Successfully saved org.dreambot.api.methods.diary.requirement.impl.SkillRequirement to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_diary_requirement_impl_SkillRequirement.json
+2025-03-04 21:34:00,836 - INFO - Processing enum: org.dreambot.api.methods.emotes.Emote
+2025-03-04 21:34:00,945 - INFO - Processing class: org.dreambot.api.methods.emotes.Emotes
+2025-03-04 21:34:01,051 - INFO - Processing enum: org.dreambot.api.methods.event.CameraEvent.CameraType
+2025-03-04 21:34:01,051 - INFO - Successfully saved org.dreambot.api.methods.emotes.Emote to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_emotes_Emote.json
+2025-03-04 21:34:01,167 - INFO - Successfully saved org.dreambot.api.methods.emotes.Emotes to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_emotes_Emotes.json
+2025-03-04 21:34:01,384 - INFO - Successfully saved org.dreambot.api.methods.event.CameraEvent.CameraType to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_event_CameraEvent_CameraType.json
+2025-03-04 21:34:01,411 - INFO - Processing class: org.dreambot.api.methods.event.CameraEvent
+2025-03-04 21:34:01,644 - INFO - Successfully saved org.dreambot.api.methods.event.CameraEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_event_CameraEvent.json
+2025-03-04 21:34:02,434 - INFO - Processing class: org.dreambot.api.methods.event.KeyboardEvent
+2025-03-04 21:34:02,690 - INFO - Successfully saved org.dreambot.api.methods.event.KeyboardEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_event_KeyboardEvent.json
+2025-03-04 21:34:02,919 - INFO - Processing enum: org.dreambot.api.methods.fairyring.FairyLocation
+2025-03-04 21:34:03,167 - INFO - Successfully saved org.dreambot.api.methods.fairyring.FairyLocation to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_fairyring_FairyLocation.json
+2025-03-04 21:34:03,403 - INFO - Processing class: org.dreambot.api.methods.fairyring.FairyRings
+2025-03-04 21:34:03,405 - INFO - Progress: 140/459 (30.50%) - Elapsed time: 63.99s
+2025-03-04 21:34:03,626 - INFO - Successfully saved org.dreambot.api.methods.fairyring.FairyRings to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_fairyring_FairyRings.json
+2025-03-04 21:34:03,790 - INFO - Processing enum: org.dreambot.api.methods.favour.House
+2025-03-04 21:34:03,974 - INFO - Processing interface: org.dreambot.api.methods.filter.Filter
+2025-03-04 21:34:04,002 - INFO - Successfully saved org.dreambot.api.methods.favour.House to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_favour_House.json
+2025-03-04 21:34:04,128 - INFO - Processing class: org.dreambot.api.methods.filter.impl.ActionFilter
+2025-03-04 21:34:04,156 - INFO - Successfully saved org.dreambot.api.methods.filter.Filter to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_filter_Filter.json
+2025-03-04 21:34:04,314 - INFO - Successfully saved org.dreambot.api.methods.filter.impl.ActionFilter to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_filter_impl_ActionFilter.json
+2025-03-04 21:34:04,486 - INFO - Processing class: org.dreambot.api.methods.filter.impl.AreaFilter
+2025-03-04 21:34:04,712 - INFO - Successfully saved org.dreambot.api.methods.filter.impl.AreaFilter to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_filter_impl_AreaFilter.json
+2025-03-04 21:34:05,816 - INFO - Processing class: org.dreambot.api.methods.filter.impl.EntityFilter
+2025-03-04 21:34:05,847 - INFO - Processing class: org.dreambot.api.methods.filter.impl.IdFilter
+2025-03-04 21:34:06,012 - INFO - Successfully saved org.dreambot.api.methods.filter.impl.EntityFilter to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_filter_impl_EntityFilter.json
+2025-03-04 21:34:06,058 - INFO - Successfully saved org.dreambot.api.methods.filter.impl.IdFilter to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_filter_impl_IdFilter.json
+2025-03-04 21:34:06,267 - INFO - Processing class: org.dreambot.api.methods.filter.impl.ItemFilter
+2025-03-04 21:34:06,482 - INFO - Successfully saved org.dreambot.api.methods.filter.impl.ItemFilter to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_filter_impl_ItemFilter.json
+2025-03-04 21:34:06,561 - INFO - Processing class: org.dreambot.api.methods.filter.impl.NameFilter
+2025-03-04 21:34:06,768 - INFO - Successfully saved org.dreambot.api.methods.filter.impl.NameFilter to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_filter_impl_NameFilter.json
+2025-03-04 21:34:07,102 - INFO - Processing class: org.dreambot.api.methods.friend.Friend
+2025-03-04 21:34:07,293 - INFO - Successfully saved org.dreambot.api.methods.friend.Friend to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_friend_Friend.json
+2025-03-04 21:34:07,416 - INFO - Processing class: org.dreambot.api.methods.friend.FriendHandler
+2025-03-04 21:34:07,417 - INFO - Progress: 150/459 (32.68%) - Elapsed time: 68.00s
+2025-03-04 21:34:07,622 - INFO - Successfully saved org.dreambot.api.methods.friend.FriendHandler to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_friend_FriendHandler.json
+2025-03-04 21:34:08,201 - INFO - Processing class: org.dreambot.api.methods.friend.Friends
+2025-03-04 21:34:08,356 - INFO - Processing class: org.dreambot.api.methods.friend.NameProvider
+2025-03-04 21:34:08,426 - INFO - Processing class: org.dreambot.api.methods.friend.NameProviderHandler
+2025-03-04 21:34:08,428 - INFO - Successfully saved org.dreambot.api.methods.friend.Friends to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_friend_Friends.json
+2025-03-04 21:34:08,572 - INFO - Successfully saved org.dreambot.api.methods.friend.NameProvider to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_friend_NameProvider.json
+2025-03-04 21:34:08,575 - INFO - Processing class: org.dreambot.api.methods.friend.SocialHandler
+2025-03-04 21:34:08,610 - INFO - Successfully saved org.dreambot.api.methods.friend.NameProviderHandler to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_friend_NameProviderHandler.json
+2025-03-04 21:34:08,764 - INFO - Successfully saved org.dreambot.api.methods.friend.SocialHandler to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_friend_SocialHandler.json
+2025-03-04 21:34:09,561 - INFO - Processing enum: org.dreambot.api.methods.grandexchange.Status
+2025-03-04 21:34:09,801 - INFO - Successfully saved org.dreambot.api.methods.grandexchange.Status to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_grandexchange_Status.json
+2025-03-04 21:34:09,870 - INFO - Processing class: org.dreambot.api.methods.grandexchange.GrandExchange
+2025-03-04 21:34:10,208 - INFO - Successfully saved org.dreambot.api.methods.grandexchange.GrandExchange to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_grandexchange_GrandExchange.json
+2025-03-04 21:34:10,587 - INFO - Processing class: org.dreambot.api.methods.grandexchange.GrandExchangeItem
+2025-03-04 21:34:10,650 - INFO - Processing class: org.dreambot.api.methods.grandexchange.LivePrices
+2025-03-04 21:34:10,811 - INFO - Successfully saved org.dreambot.api.methods.grandexchange.GrandExchangeItem to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_grandexchange_GrandExchangeItem.json
+2025-03-04 21:34:10,854 - INFO - Successfully saved org.dreambot.api.methods.grandexchange.LivePrices to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_grandexchange_LivePrices.json
+2025-03-04 21:34:11,162 - INFO - Processing enum: org.dreambot.api.methods.hint.HintArrowType
+2025-03-04 21:34:11,359 - INFO - Successfully saved org.dreambot.api.methods.hint.HintArrowType to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_hint_HintArrowType.json
+2025-03-04 21:34:11,365 - INFO - Processing class: org.dreambot.api.methods.hint.HintArrow
+2025-03-04 21:34:11,366 - INFO - Progress: 160/459 (34.86%) - Elapsed time: 71.95s
+2025-03-04 21:34:11,583 - INFO - Successfully saved org.dreambot.api.methods.hint.HintArrow to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_hint_HintArrow.json
+2025-03-04 21:34:12,302 - INFO - Processing enum: org.dreambot.api.methods.hotkeys.Hotkey
+2025-03-04 21:34:12,474 - INFO - Processing enum: org.dreambot.api.methods.hotkeys.NPCAttackOption
+2025-03-04 21:34:12,499 - INFO - Successfully saved org.dreambot.api.methods.hotkeys.Hotkey to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_hotkeys_Hotkey.json
+2025-03-04 21:34:12,694 - INFO - Successfully saved org.dreambot.api.methods.hotkeys.NPCAttackOption to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_hotkeys_NPCAttackOption.json
+2025-03-04 21:34:13,542 - INFO - Processing enum: org.dreambot.api.methods.hotkeys.PlayerAttackOption
+2025-03-04 21:34:13,558 - INFO - Processing enum: org.dreambot.api.methods.hotkeys.TabKey
+2025-03-04 21:34:13,769 - INFO - Successfully saved org.dreambot.api.methods.hotkeys.PlayerAttackOption to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_hotkeys_PlayerAttackOption.json
+2025-03-04 21:34:13,799 - INFO - Successfully saved org.dreambot.api.methods.hotkeys.TabKey to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_hotkeys_TabKey.json
+2025-03-04 21:34:14,574 - INFO - Processing class: org.dreambot.api.methods.ignore.Ignored
+2025-03-04 21:34:14,745 - INFO - Processing class: org.dreambot.api.methods.ignore.IgnoredProvider
+2025-03-04 21:34:14,775 - INFO - Successfully saved org.dreambot.api.methods.ignore.Ignored to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_ignore_Ignored.json
+2025-03-04 21:34:14,938 - INFO - Successfully saved org.dreambot.api.methods.ignore.IgnoredProvider to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_ignore_IgnoredProvider.json
+2025-03-04 21:34:15,071 - INFO - Processing enum: org.dreambot.api.methods.input.CameraMode
+2025-03-04 21:34:15,264 - INFO - Successfully saved org.dreambot.api.methods.input.CameraMode to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_input_CameraMode.json
+2025-03-04 21:34:16,345 - INFO - Processing class: org.dreambot.api.methods.input.Camera
+2025-03-04 21:34:16,528 - INFO - Processing class: org.dreambot.api.methods.input.Keyboard
+2025-03-04 21:34:16,604 - INFO - Successfully saved org.dreambot.api.methods.input.Camera to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_input_Camera.json
+2025-03-04 21:34:16,790 - INFO - Successfully saved org.dreambot.api.methods.input.Keyboard to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_input_Keyboard.json
+2025-03-04 21:34:17,211 - INFO - Processing class: org.dreambot.api.methods.input.MouseKeys
+2025-03-04 21:34:17,212 - INFO - Progress: 170/459 (37.04%) - Elapsed time: 77.80s
+2025-03-04 21:34:17,473 - INFO - Successfully saved org.dreambot.api.methods.input.MouseKeys to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_input_MouseKeys.json
+2025-03-04 21:34:17,523 - INFO - Processing enum: org.dreambot.api.methods.input.mouse.CrosshairState
+2025-03-04 21:34:17,714 - INFO - Successfully saved org.dreambot.api.methods.input.mouse.CrosshairState to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_input_mouse_CrosshairState.json
+2025-03-04 21:34:18,119 - INFO - Processing enum: org.dreambot.api.methods.input.mouse.MouseSetting
+2025-03-04 21:34:18,181 - INFO - Processing enum: org.dreambot.api.methods.input.mouse.MouseSettings.Hand
+2025-03-04 21:34:18,402 - INFO - Successfully saved org.dreambot.api.methods.input.mouse.MouseSetting to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_input_mouse_MouseSetting.json
+2025-03-04 21:34:18,418 - INFO - Successfully saved org.dreambot.api.methods.input.mouse.MouseSettings.Hand to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_input_mouse_MouseSettings_Hand.json
+2025-03-04 21:34:19,578 - INFO - Processing interface: org.dreambot.api.methods.input.mouse.MouseTiming
+2025-03-04 21:34:19,792 - INFO - Successfully saved org.dreambot.api.methods.input.mouse.MouseTiming to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_input_mouse_MouseTiming.json
+2025-03-04 21:34:19,809 - INFO - Processing class: org.dreambot.api.methods.input.mouse.MouseSettings
+2025-03-04 21:34:20,042 - INFO - Processing class: org.dreambot.api.methods.input.mouse.MouseTracker
+2025-03-04 21:34:20,042 - INFO - Processing class: org.dreambot.api.methods.interactive.GameObjects
+2025-03-04 21:34:20,087 - INFO - Successfully saved org.dreambot.api.methods.input.mouse.MouseSettings to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_input_mouse_MouseSettings.json
+2025-03-04 21:34:20,251 - INFO - Successfully saved org.dreambot.api.methods.input.mouse.MouseTracker to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_input_mouse_MouseTracker.json
+2025-03-04 21:34:20,277 - INFO - Successfully saved org.dreambot.api.methods.interactive.GameObjects to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_interactive_GameObjects.json
+2025-03-04 21:34:20,812 - INFO - Processing class: org.dreambot.api.methods.interactive.GraphicsObjects
+2025-03-04 21:34:21,018 - INFO - Successfully saved org.dreambot.api.methods.interactive.GraphicsObjects to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_interactive_GraphicsObjects.json
+2025-03-04 21:34:21,262 - INFO - Processing class: org.dreambot.api.methods.interactive.Interactables
+2025-03-04 21:34:21,310 - INFO - Processing class: org.dreambot.api.methods.interactive.NPCs
+2025-03-04 21:34:21,310 - INFO - Progress: 180/459 (39.22%) - Elapsed time: 81.90s
+2025-03-04 21:34:21,469 - INFO - Successfully saved org.dreambot.api.methods.interactive.Interactables to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_interactive_Interactables.json
+2025-03-04 21:34:21,520 - INFO - Successfully saved org.dreambot.api.methods.interactive.NPCs to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_interactive_NPCs.json
+2025-03-04 21:34:21,989 - INFO - Processing class: org.dreambot.api.methods.interactive.Players
+2025-03-04 21:34:22,234 - INFO - Successfully saved org.dreambot.api.methods.interactive.Players to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_interactive_Players.json
+2025-03-04 21:34:22,606 - INFO - Processing class: org.dreambot.api.methods.interactive.Projectiles
+2025-03-04 21:34:22,817 - INFO - Successfully saved org.dreambot.api.methods.interactive.Projectiles to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_interactive_Projectiles.json
+2025-03-04 21:34:23,027 - INFO - Processing class: org.dreambot.api.methods.item.GroundItems
+2025-03-04 21:34:23,234 - INFO - Successfully saved org.dreambot.api.methods.item.GroundItems to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_item_GroundItems.json
+2025-03-04 21:34:23,274 - INFO - Processing enum: org.dreambot.api.methods.login.LoginStage
+2025-03-04 21:34:23,472 - INFO - Successfully saved org.dreambot.api.methods.login.LoginStage to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_login_LoginStage.json
+2025-03-04 21:34:23,678 - INFO - Processing class: org.dreambot.api.methods.login.LoginStats
+2025-03-04 21:34:23,953 - INFO - Successfully saved org.dreambot.api.methods.login.LoginStats to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_login_LoginStats.json
+2025-03-04 21:34:24,763 - INFO - Processing class: org.dreambot.api.methods.login.LoginUtility
+2025-03-04 21:34:25,011 - INFO - Successfully saved org.dreambot.api.methods.login.LoginUtility to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_login_LoginUtility.json
+2025-03-04 21:34:25,171 - INFO - Processing enum: org.dreambot.api.methods.magic.Ancient
+2025-03-04 21:34:25,314 - INFO - Processing enum: org.dreambot.api.methods.magic.Arceus
+2025-03-04 21:34:25,375 - INFO - Successfully saved org.dreambot.api.methods.magic.Ancient to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_magic_Ancient.json
+2025-03-04 21:34:25,559 - INFO - Successfully saved org.dreambot.api.methods.magic.Arceus to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_magic_Arceus.json
+2025-03-04 21:34:25,827 - INFO - Processing enum: org.dreambot.api.methods.magic.Arceuus
+2025-03-04 21:34:26,082 - INFO - Successfully saved org.dreambot.api.methods.magic.Arceuus to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_magic_Arceuus.json
+2025-03-04 21:34:26,199 - INFO - Processing enum: org.dreambot.api.methods.magic.Lunar
+2025-03-04 21:34:26,200 - INFO - Progress: 190/459 (41.39%) - Elapsed time: 86.79s
+2025-03-04 21:34:26,484 - INFO - Successfully saved org.dreambot.api.methods.magic.Lunar to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_magic_Lunar.json
+2025-03-04 21:34:26,912 - INFO - Processing enum: org.dreambot.api.methods.magic.Normal
+2025-03-04 21:34:26,975 - INFO - Processing enum: org.dreambot.api.methods.magic.Spellbook
+2025-03-04 21:34:27,208 - INFO - Successfully saved org.dreambot.api.methods.magic.Normal to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_magic_Normal.json
+2025-03-04 21:34:27,246 - INFO - Successfully saved org.dreambot.api.methods.magic.Spellbook to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_magic_Spellbook.json
+2025-03-04 21:34:27,284 - INFO - Processing interface: org.dreambot.api.methods.magic.Spell
+2025-03-04 21:34:27,467 - INFO - Successfully saved org.dreambot.api.methods.magic.Spell to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_magic_Spell.json
+2025-03-04 21:34:28,280 - INFO - Processing class: org.dreambot.api.methods.magic.Magic
+2025-03-04 21:34:28,509 - INFO - Successfully saved org.dreambot.api.methods.magic.Magic to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_magic_Magic.json
+2025-03-04 21:34:28,670 - INFO - Processing class: org.dreambot.api.methods.magic.cost.Rune
+2025-03-04 21:34:28,880 - INFO - Successfully saved org.dreambot.api.methods.magic.cost.Rune to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_magic_cost_Rune.json
+2025-03-04 21:34:29,275 - INFO - Processing class: org.dreambot.api.methods.map.Area
+2025-03-04 21:34:29,306 - INFO - Processing class: org.dreambot.api.methods.map.Map
+2025-03-04 21:34:29,509 - INFO - Successfully saved org.dreambot.api.methods.map.Area to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_map_Area.json
+2025-03-04 21:34:29,578 - INFO - Successfully saved org.dreambot.api.methods.map.Map to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_map_Map.json
+2025-03-04 21:34:30,309 - INFO - Processing class: org.dreambot.api.methods.map.Tile
+2025-03-04 21:34:30,435 - INFO - Processing enum: org.dreambot.api.methods.minigame.Minigame
+2025-03-04 21:34:30,554 - INFO - Successfully saved org.dreambot.api.methods.map.Tile to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_map_Tile.json
+2025-03-04 21:34:30,608 - INFO - Processing class: org.dreambot.api.methods.minigame.MinigameTeleports
+2025-03-04 21:34:30,608 - INFO - Progress: 200/459 (43.57%) - Elapsed time: 91.19s
+2025-03-04 21:34:30,673 - INFO - Successfully saved org.dreambot.api.methods.minigame.Minigame to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_minigame_Minigame.json
+2025-03-04 21:34:30,833 - INFO - Successfully saved org.dreambot.api.methods.minigame.MinigameTeleports to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_minigame_MinigameTeleports.json
+2025-03-04 21:34:31,754 - INFO - Processing enum: org.dreambot.api.methods.prayer.Prayer
+2025-03-04 21:34:31,969 - INFO - Successfully saved org.dreambot.api.methods.prayer.Prayer to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_prayer_Prayer.json
+2025-03-04 21:34:31,971 - INFO - Processing class: org.dreambot.api.methods.prayer.Prayers
+2025-03-04 21:34:32,018 - INFO - Processing class: org.dreambot.api.methods.quest.Quests
+2025-03-04 21:34:32,197 - INFO - Successfully saved org.dreambot.api.methods.prayer.Prayers to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_prayer_Prayers.json
+2025-03-04 21:34:32,223 - INFO - Successfully saved org.dreambot.api.methods.quest.Quests to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_quest_Quests.json
+2025-03-04 21:34:32,249 - INFO - Processing enum: org.dreambot.api.methods.quest.book.FreeQuest
+2025-03-04 21:34:32,500 - INFO - Successfully saved org.dreambot.api.methods.quest.book.FreeQuest to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_quest_book_FreeQuest.json
+2025-03-04 21:34:33,033 - INFO - Processing enum: org.dreambot.api.methods.quest.book.MiniQuest
+2025-03-04 21:34:33,273 - INFO - Successfully saved org.dreambot.api.methods.quest.book.MiniQuest to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_quest_book_MiniQuest.json
+2025-03-04 21:34:33,917 - INFO - Processing enum: org.dreambot.api.methods.quest.book.PaidQuest
+2025-03-04 21:34:34,196 - INFO - Successfully saved org.dreambot.api.methods.quest.book.PaidQuest to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_quest_book_PaidQuest.json
+2025-03-04 21:34:34,375 - INFO - Processing enum: org.dreambot.api.methods.quest.book.Quest.State
+2025-03-04 21:34:34,598 - INFO - Successfully saved org.dreambot.api.methods.quest.book.Quest.State to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_quest_book_Quest_State.json
+2025-03-04 21:34:34,748 - INFO - Processing enum: org.dreambot.api.methods.quest.book.Quest.Type
+2025-03-04 21:34:34,825 - INFO - Processing interface: org.dreambot.api.methods.quest.book.Quest
+2025-03-04 21:34:34,956 - INFO - Successfully saved org.dreambot.api.methods.quest.book.Quest.Type to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_quest_book_Quest_Type.json
+2025-03-04 21:34:35,041 - INFO - Successfully saved org.dreambot.api.methods.quest.book.Quest to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_quest_book_Quest.json
+2025-03-04 21:34:35,400 - INFO - Processing class: org.dreambot.api.methods.quest.book.requirement.QuestRequirement
+2025-03-04 21:34:35,400 - INFO - Progress: 210/459 (45.75%) - Elapsed time: 95.99s
+2025-03-04 21:34:35,639 - INFO - Successfully saved org.dreambot.api.methods.quest.book.requirement.QuestRequirement to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_quest_book_requirement_QuestRequirement.json
+2025-03-04 21:34:36,112 - INFO - Processing class: org.dreambot.api.methods.quest.book.requirement.Requirement
+2025-03-04 21:34:36,315 - INFO - Successfully saved org.dreambot.api.methods.quest.book.requirement.Requirement to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_quest_book_requirement_Requirement.json
+2025-03-04 21:34:36,480 - INFO - Processing class: org.dreambot.api.methods.quest.book.requirement.skill.SkillReq
+2025-03-04 21:34:36,511 - INFO - Processing class: org.dreambot.api.methods.quest.book.requirement.skill.SkillRequirement
+2025-03-04 21:34:36,687 - INFO - Successfully saved org.dreambot.api.methods.quest.book.requirement.skill.SkillReq to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_quest_book_requirement_skill_SkillReq.json
+2025-03-04 21:34:36,704 - INFO - Successfully saved org.dreambot.api.methods.quest.book.requirement.skill.SkillRequirement to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_quest_book_requirement_skill_SkillRequirement.json
+2025-03-04 21:34:37,009 - INFO - Processing class: org.dreambot.api.methods.settings.PlayerSettings
+2025-03-04 21:34:37,102 - INFO - Processing class: org.dreambot.api.methods.settings.Varcs
+2025-03-04 21:34:37,230 - INFO - Successfully saved org.dreambot.api.methods.settings.PlayerSettings to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_settings_PlayerSettings.json
+2025-03-04 21:34:37,310 - INFO - Successfully saved org.dreambot.api.methods.settings.Varcs to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_settings_Varcs.json
+2025-03-04 21:34:38,024 - INFO - Processing class: org.dreambot.api.methods.settings.vars.VarBit
+2025-03-04 21:34:38,244 - INFO - Processing class: org.dreambot.api.methods.settings.vars.VarPlayer
+2025-03-04 21:34:38,274 - INFO - Processing enum: org.dreambot.api.methods.skills.Skill
+2025-03-04 21:34:38,321 - INFO - Successfully saved org.dreambot.api.methods.settings.vars.VarBit to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_settings_vars_VarBit.json
+2025-03-04 21:34:38,487 - INFO - Successfully saved org.dreambot.api.methods.settings.vars.VarPlayer to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_settings_vars_VarPlayer.json
+2025-03-04 21:34:38,533 - INFO - Successfully saved org.dreambot.api.methods.skills.Skill to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_skills_Skill.json
+2025-03-04 21:34:39,537 - INFO - Processing class: org.dreambot.api.methods.skills.Skills
+2025-03-04 21:34:39,613 - INFO - Processing class: org.dreambot.api.methods.skills.SkillTracker
+2025-03-04 21:34:39,613 - INFO - Progress: 220/459 (47.93%) - Elapsed time: 100.20s
+2025-03-04 21:34:39,660 - INFO - Processing enum: org.dreambot.api.methods.tabs.Tab
+2025-03-04 21:34:39,752 - INFO - Successfully saved org.dreambot.api.methods.skills.Skills to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_skills_Skills.json
+2025-03-04 21:34:39,843 - INFO - Successfully saved org.dreambot.api.methods.skills.SkillTracker to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_skills_SkillTracker.json
+2025-03-04 21:34:39,894 - INFO - Successfully saved org.dreambot.api.methods.tabs.Tab to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_tabs_Tab.json
+2025-03-04 21:34:40,388 - INFO - Processing class: org.dreambot.api.methods.tabs.Tabs
+2025-03-04 21:34:40,451 - INFO - Processing enum: org.dreambot.api.methods.trade.TradeUser
+2025-03-04 21:34:40,612 - INFO - Successfully saved org.dreambot.api.methods.tabs.Tabs to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_tabs_Tabs.json
+2025-03-04 21:34:40,700 - INFO - Successfully saved org.dreambot.api.methods.trade.TradeUser to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_trade_TradeUser.json
+2025-03-04 21:34:41,092 - INFO - Processing class: org.dreambot.api.methods.trade.Trade
+2025-03-04 21:34:41,353 - INFO - Successfully saved org.dreambot.api.methods.trade.Trade to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_trade_Trade.json
+2025-03-04 21:34:41,573 - INFO - Processing enum: org.dreambot.api.methods.walking.TileObstacle.Type
+2025-03-04 21:34:41,665 - INFO - Processing class: org.dreambot.api.methods.walking.TileObstacle
+2025-03-04 21:34:41,769 - INFO - Successfully saved org.dreambot.api.methods.walking.TileObstacle.Type to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_TileObstacle_Type.json
+2025-03-04 21:34:41,939 - INFO - Processing class: org.dreambot.api.methods.walking.impl.Walking
+2025-03-04 21:34:41,939 - INFO - Successfully saved org.dreambot.api.methods.walking.TileObstacle to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_TileObstacle.json
+2025-03-04 21:34:42,193 - INFO - Successfully saved org.dreambot.api.methods.walking.impl.Walking to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_impl_Walking.json
+2025-03-04 21:34:43,096 - INFO - Processing enum: org.dreambot.api.methods.walking.path.PathDirection
+2025-03-04 21:34:43,282 - INFO - Processing class: org.dreambot.api.methods.walking.path.AbstractPath
+2025-03-04 21:34:43,305 - INFO - Successfully saved org.dreambot.api.methods.walking.path.PathDirection to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_path_PathDirection.json
+2025-03-04 21:34:43,565 - INFO - Successfully saved org.dreambot.api.methods.walking.path.AbstractPath to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_path_AbstractPath.json
+2025-03-04 21:34:44,322 - INFO - Processing class: org.dreambot.api.methods.walking.path.impl.GlobalPath
+2025-03-04 21:34:44,323 - INFO - Progress: 230/459 (50.11%) - Elapsed time: 104.91s
+2025-03-04 21:34:44,353 - INFO - Processing class: org.dreambot.api.methods.walking.path.impl.LocalPath
+2025-03-04 21:34:44,551 - INFO - Successfully saved org.dreambot.api.methods.walking.path.impl.GlobalPath to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_path_impl_GlobalPath.json
+2025-03-04 21:34:44,577 - INFO - Successfully saved org.dreambot.api.methods.walking.path.impl.LocalPath to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_path_impl_LocalPath.json
+2025-03-04 21:34:44,615 - INFO - Processing class: org.dreambot.api.methods.walking.pathfinding.data.TileFlags
+2025-03-04 21:34:44,693 - INFO - Processing class: org.dreambot.api.methods.walking.pathfinding.impl.PathFinder
+2025-03-04 21:34:44,831 - INFO - Successfully saved org.dreambot.api.methods.walking.pathfinding.data.TileFlags to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_pathfinding_data_TileFlags.json
+2025-03-04 21:34:44,964 - INFO - Successfully saved org.dreambot.api.methods.walking.pathfinding.impl.PathFinder to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_pathfinding_impl_PathFinder.json
+2025-03-04 21:34:46,077 - INFO - Processing interface: org.dreambot.api.methods.walking.pathfinding.impl.local.Heuristic
+2025-03-04 21:34:46,280 - INFO - Successfully saved org.dreambot.api.methods.walking.pathfinding.impl.local.Heuristic to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_pathfinding_impl_local_Heuristic.json
+2025-03-04 21:34:46,541 - INFO - Processing class: org.dreambot.api.methods.walking.pathfinding.impl.local.AbsoluteHeuristic
+2025-03-04 21:34:46,767 - INFO - Successfully saved org.dreambot.api.methods.walking.pathfinding.impl.local.AbsoluteHeuristic to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_pathfinding_impl_local_AbsoluteHeuristic.json
+2025-03-04 21:34:46,884 - INFO - Processing class: org.dreambot.api.methods.walking.pathfinding.impl.local.LocalPathFinder
+2025-03-04 21:34:47,087 - INFO - Successfully saved org.dreambot.api.methods.walking.pathfinding.impl.local.LocalPathFinder to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_pathfinding_impl_local_LocalPathFinder.json
+2025-03-04 21:34:47,288 - INFO - Processing class: org.dreambot.api.methods.walking.pathfinding.impl.node.PathNode
+2025-03-04 21:34:47,493 - INFO - Successfully saved org.dreambot.api.methods.walking.pathfinding.impl.node.PathNode to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_pathfinding_impl_node_PathNode.json
+2025-03-04 21:34:47,783 - INFO - Processing class: org.dreambot.api.methods.walking.pathfinding.impl.obstacle.PathObstacle
+2025-03-04 21:34:48,005 - INFO - Successfully saved org.dreambot.api.methods.walking.pathfinding.impl.obstacle.PathObstacle to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_pathfinding_impl_obstacle_PathObstacle.json
+2025-03-04 21:34:48,204 - INFO - Processing class: org.dreambot.api.methods.walking.pathfinding.impl.obstacle.impl.ClimbableObstacle
+2025-03-04 21:34:48,403 - INFO - Successfully saved org.dreambot.api.methods.walking.pathfinding.impl.obstacle.impl.ClimbableObstacle to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_pathfinding_impl_obstacle_impl_ClimbableObstacle.json
+2025-03-04 21:34:48,649 - INFO - Processing class: org.dreambot.api.methods.walking.pathfinding.impl.obstacle.impl.ClimbableObstacle.ClimbableObstacleBuilder
+2025-03-04 21:34:48,649 - INFO - Progress: 240/459 (52.29%) - Elapsed time: 109.24s
+2025-03-04 21:34:48,875 - INFO - Successfully saved org.dreambot.api.methods.walking.pathfinding.impl.obstacle.impl.ClimbableObstacle.ClimbableObstacleBuilder to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_pathfinding_impl_obstacle_impl_ClimbableObstacle_ClimbableObstacleBuilder.json
+2025-03-04 21:34:49,115 - INFO - Processing class: org.dreambot.api.methods.walking.pathfinding.impl.obstacle.impl.DestructableObstacle
+2025-03-04 21:34:49,321 - INFO - Successfully saved org.dreambot.api.methods.walking.pathfinding.impl.obstacle.impl.DestructableObstacle to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_pathfinding_impl_obstacle_impl_DestructableObstacle.json
+2025-03-04 21:34:49,433 - INFO - Processing class: org.dreambot.api.methods.walking.pathfinding.impl.obstacle.impl.DestructableObstacle.DestructableObstacleBuilder
+2025-03-04 21:34:49,628 - INFO - Successfully saved org.dreambot.api.methods.walking.pathfinding.impl.obstacle.impl.DestructableObstacle.DestructableObstacleBuilder to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_pathfinding_impl_obstacle_impl_DestructableObstacle_DestructableObstacleBuilder.json
+2025-03-04 21:34:49,862 - INFO - Processing class: org.dreambot.api.methods.walking.pathfinding.impl.obstacle.impl.PassableObstacle
+2025-03-04 21:34:49,983 - INFO - Processing class: org.dreambot.api.methods.walking.pathfinding.impl.obstacle.impl.PassableObstacle.PassableObstacleBuilder
+2025-03-04 21:34:50,076 - INFO - Successfully saved org.dreambot.api.methods.walking.pathfinding.impl.obstacle.impl.PassableObstacle to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_pathfinding_impl_obstacle_impl_PassableObstacle.json
+2025-03-04 21:34:50,178 - INFO - Successfully saved org.dreambot.api.methods.walking.pathfinding.impl.obstacle.impl.PassableObstacle.PassableObstacleBuilder to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_pathfinding_impl_obstacle_impl_PassableObstacle_PassableObstacleBuilder.json
+2025-03-04 21:34:50,377 - INFO - Processing class: org.dreambot.api.methods.walking.pathfinding.impl.obstacle.impl.SOSDoor
+2025-03-04 21:34:50,571 - INFO - Successfully saved org.dreambot.api.methods.walking.pathfinding.impl.obstacle.impl.SOSDoor to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_pathfinding_impl_obstacle_impl_SOSDoor.json
+2025-03-04 21:34:51,263 - INFO - Processing class: org.dreambot.api.methods.walking.pathfinding.impl.obstacle.impl.TeleportObstacle
+2025-03-04 21:34:51,484 - INFO - Successfully saved org.dreambot.api.methods.walking.pathfinding.impl.obstacle.impl.TeleportObstacle to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_pathfinding_impl_obstacle_impl_TeleportObstacle.json
+2025-03-04 21:34:51,715 - INFO - Processing class: org.dreambot.api.methods.walking.pathfinding.impl.web.WebFinder
+2025-03-04 21:34:52,009 - INFO - Successfully saved org.dreambot.api.methods.walking.pathfinding.impl.web.WebFinder to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_pathfinding_impl_web_WebFinder.json
+2025-03-04 21:34:52,011 - INFO - Processing class: org.dreambot.api.methods.walking.pathfinding.impl.web.WebPathNode
+2025-03-04 21:34:52,231 - INFO - Successfully saved org.dreambot.api.methods.walking.pathfinding.impl.web.WebPathNode to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_pathfinding_impl_web_WebPathNode.json
+2025-03-04 21:34:52,621 - INFO - Processing class: org.dreambot.api.methods.walking.pathfinding.impl.web.WebPathQuery
+2025-03-04 21:34:52,848 - INFO - Successfully saved org.dreambot.api.methods.walking.pathfinding.impl.web.WebPathQuery to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_pathfinding_impl_web_WebPathQuery.json
+2025-03-04 21:34:53,108 - INFO - Processing class: org.dreambot.api.methods.walking.pathfinding.impl.web.WebPathQuery.WebPathQueryBuilder
+2025-03-04 21:34:53,109 - INFO - Progress: 250/459 (54.47%) - Elapsed time: 113.70s
+2025-03-04 21:34:53,317 - INFO - Successfully saved org.dreambot.api.methods.walking.pathfinding.impl.web.WebPathQuery.WebPathQueryBuilder to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_pathfinding_impl_web_WebPathQuery_WebPathQueryBuilder.json
+2025-03-04 21:34:53,622 - INFO - Processing class: org.dreambot.api.methods.walking.pathfinding.impl.web.WebPathResponse
+2025-03-04 21:34:53,809 - INFO - Processing class: org.dreambot.api.methods.walking.pathfinding.impl.web.WebPathResponse.WebPathResponseBuilder
+2025-03-04 21:34:53,885 - INFO - Successfully saved org.dreambot.api.methods.walking.pathfinding.impl.web.WebPathResponse to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_pathfinding_impl_web_WebPathResponse.json
+2025-03-04 21:34:53,995 - INFO - Processing enum: org.dreambot.api.methods.walking.web.node.WebNodeType
+2025-03-04 21:34:54,055 - INFO - Successfully saved org.dreambot.api.methods.walking.pathfinding.impl.web.WebPathResponse.WebPathResponseBuilder to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_pathfinding_impl_web_WebPathResponse_WebPathResponseBuilder.json
+2025-03-04 21:34:54,200 - INFO - Successfully saved org.dreambot.api.methods.walking.web.node.WebNodeType to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_web_node_WebNodeType.json
+2025-03-04 21:34:54,306 - INFO - Processing class: org.dreambot.api.methods.walking.web.node.AbstractWebNode
+2025-03-04 21:34:54,575 - INFO - Successfully saved org.dreambot.api.methods.walking.web.node.AbstractWebNode to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_web_node_AbstractWebNode.json
+2025-03-04 21:34:54,928 - INFO - Processing class: org.dreambot.api.methods.walking.web.node.CustomWebPath
+2025-03-04 21:34:55,167 - INFO - Successfully saved org.dreambot.api.methods.walking.web.node.CustomWebPath to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_web_node_CustomWebPath.json
+2025-03-04 21:34:55,817 - INFO - Processing class: org.dreambot.api.methods.walking.web.node.builder.WebNodeBuilder
+2025-03-04 21:34:55,910 - INFO - Processing class: org.dreambot.api.methods.walking.web.node.impl.AgilityWebNode
+2025-03-04 21:34:56,014 - INFO - Successfully saved org.dreambot.api.methods.walking.web.node.builder.WebNodeBuilder to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_web_node_builder_WebNodeBuilder.json
+2025-03-04 21:34:56,130 - INFO - Successfully saved org.dreambot.api.methods.walking.web.node.impl.AgilityWebNode to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_web_node_impl_AgilityWebNode.json
+2025-03-04 21:34:56,313 - INFO - Processing class: org.dreambot.api.methods.walking.web.node.impl.BankWebNode
+2025-03-04 21:34:56,329 - INFO - Processing class: org.dreambot.api.methods.walking.web.node.impl.BasicWebNode
+2025-03-04 21:34:56,549 - INFO - Successfully saved org.dreambot.api.methods.walking.web.node.impl.BankWebNode to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_web_node_impl_BankWebNode.json
+2025-03-04 21:34:56,571 - INFO - Successfully saved org.dreambot.api.methods.walking.web.node.impl.BasicWebNode to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_web_node_impl_BasicWebNode.json
+2025-03-04 21:34:56,994 - INFO - Processing class: org.dreambot.api.methods.walking.web.node.impl.EntranceWebNode
+2025-03-04 21:34:56,995 - INFO - Progress: 260/459 (56.64%) - Elapsed time: 117.58s
+2025-03-04 21:34:57,295 - INFO - Successfully saved org.dreambot.api.methods.walking.web.node.impl.EntranceWebNode to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_web_node_impl_EntranceWebNode.json
+2025-03-04 21:34:57,778 - INFO - Processing class: org.dreambot.api.methods.walking.web.node.impl.items.RequiredItem
+2025-03-04 21:34:57,778 - INFO - Processing class: org.dreambot.api.methods.walking.web.node.impl.TollWebNode
+2025-03-04 21:34:58,006 - INFO - Successfully saved org.dreambot.api.methods.walking.web.node.impl.TollWebNode to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_web_node_impl_TollWebNode.json
+2025-03-04 21:34:58,022 - INFO - Successfully saved org.dreambot.api.methods.walking.web.node.impl.items.RequiredItem to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_web_node_impl_items_RequiredItem.json
+2025-03-04 21:34:58,769 - INFO - Processing class: org.dreambot.api.methods.walking.web.node.impl.items.RequiredItem.RequiredItemBuilder
+2025-03-04 21:34:58,966 - INFO - Successfully saved org.dreambot.api.methods.walking.web.node.impl.items.RequiredItem.RequiredItemBuilder to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_web_node_impl_items_RequiredItem_RequiredItemBuilder.json
+2025-03-04 21:34:59,109 - INFO - Processing interface: org.dreambot.api.methods.walking.web.node.impl.pathaware.ConditionalLocation
+2025-03-04 21:34:59,297 - INFO - Successfully saved org.dreambot.api.methods.walking.web.node.impl.pathaware.ConditionalLocation to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_web_node_impl_pathaware_ConditionalLocation.json
+2025-03-04 21:34:59,470 - INFO - Processing interface: org.dreambot.api.methods.walking.web.node.impl.pathaware.PathAwareWebNode
+2025-03-04 21:34:59,695 - INFO - Successfully saved org.dreambot.api.methods.walking.web.node.impl.pathaware.PathAwareWebNode to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_web_node_impl_pathaware_PathAwareWebNode.json
+2025-03-04 21:34:59,937 - INFO - Processing class: org.dreambot.api.methods.walking.web.node.impl.pathaware.CharterWebNode
+2025-03-04 21:35:00,138 - INFO - Successfully saved org.dreambot.api.methods.walking.web.node.impl.pathaware.CharterWebNode to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_web_node_impl_pathaware_CharterWebNode.json
+2025-03-04 21:35:00,264 - INFO - Processing class: org.dreambot.api.methods.walking.web.node.impl.pathaware.FairyRingWebNode
+2025-03-04 21:35:00,502 - INFO - Successfully saved org.dreambot.api.methods.walking.web.node.impl.pathaware.FairyRingWebNode to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_web_node_impl_pathaware_FairyRingWebNode.json
+2025-03-04 21:35:00,512 - INFO - Processing class: org.dreambot.api.methods.walking.web.node.impl.pathaware.GnomeGliderWebNode
+2025-03-04 21:35:00,745 - INFO - Successfully saved org.dreambot.api.methods.walking.web.node.impl.pathaware.GnomeGliderWebNode to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_web_node_impl_pathaware_GnomeGliderWebNode.json
+2025-03-04 21:35:01,162 - INFO - Processing class: org.dreambot.api.methods.walking.web.node.impl.pathaware.MagicCarpetWebNode
+2025-03-04 21:35:01,386 - INFO - Successfully saved org.dreambot.api.methods.walking.web.node.impl.pathaware.MagicCarpetWebNode to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_web_node_impl_pathaware_MagicCarpetWebNode.json
+2025-03-04 21:35:02,222 - INFO - Processing class: org.dreambot.api.methods.walking.web.node.impl.pathaware.MountainGuideWebNode
+2025-03-04 21:35:02,224 - INFO - Progress: 270/459 (58.82%) - Elapsed time: 122.81s
+2025-03-04 21:35:02,391 - INFO - Processing class: org.dreambot.api.methods.walking.web.node.impl.pathaware.SelfConnectingWebNode
+2025-03-04 21:35:02,422 - INFO - Processing class: org.dreambot.api.methods.walking.web.node.impl.pathaware.ShipWebNode
+2025-03-04 21:35:02,447 - INFO - Successfully saved org.dreambot.api.methods.walking.web.node.impl.pathaware.MountainGuideWebNode to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_web_node_impl_pathaware_MountainGuideWebNode.json
+2025-03-04 21:35:02,608 - INFO - Processing class: org.dreambot.api.methods.walking.web.node.impl.pathaware.SpiritTreeWebNode
+2025-03-04 21:35:02,655 - INFO - Successfully saved org.dreambot.api.methods.walking.web.node.impl.pathaware.SelfConnectingWebNode to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_web_node_impl_pathaware_SelfConnectingWebNode.json
+2025-03-04 21:35:02,676 - INFO - Successfully saved org.dreambot.api.methods.walking.web.node.impl.pathaware.ShipWebNode to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_web_node_impl_pathaware_ShipWebNode.json
+2025-03-04 21:35:02,831 - INFO - Successfully saved org.dreambot.api.methods.walking.web.node.impl.pathaware.SpiritTreeWebNode to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_web_node_impl_pathaware_SpiritTreeWebNode.json
+2025-03-04 21:35:03,058 - INFO - Processing enum: org.dreambot.api.methods.walking.web.node.impl.teleports.ItemTeleport
+2025-03-04 21:35:03,338 - INFO - Successfully saved org.dreambot.api.methods.walking.web.node.impl.teleports.ItemTeleport to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_web_node_impl_teleports_ItemTeleport.json
+2025-03-04 21:35:03,930 - INFO - Processing interface: org.dreambot.api.methods.walking.web.node.impl.teleports.Teleport
+2025-03-04 21:35:03,930 - INFO - Processing enum: org.dreambot.api.methods.walking.web.node.impl.teleports.MagicTeleport
+2025-03-04 21:35:04,133 - INFO - Successfully saved org.dreambot.api.methods.walking.web.node.impl.teleports.Teleport to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_web_node_impl_teleports_Teleport.json
+2025-03-04 21:35:04,175 - INFO - Successfully saved org.dreambot.api.methods.walking.web.node.impl.teleports.MagicTeleport to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_web_node_impl_teleports_MagicTeleport.json
+2025-03-04 21:35:04,293 - INFO - Processing class: org.dreambot.api.methods.walking.web.node.impl.teleports.TeleportSettings
+2025-03-04 21:35:04,323 - INFO - Processing class: org.dreambot.api.methods.walking.web.node.impl.teleports.TeleportWebNode
+2025-03-04 21:35:04,580 - INFO - Successfully saved org.dreambot.api.methods.walking.web.node.impl.teleports.TeleportSettings to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_web_node_impl_teleports_TeleportSettings.json
+2025-03-04 21:35:04,600 - INFO - Successfully saved org.dreambot.api.methods.walking.web.node.impl.teleports.TeleportWebNode to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_web_node_impl_teleports_TeleportWebNode.json
+2025-03-04 21:35:05,175 - INFO - Processing enum: org.dreambot.api.methods.walking.web.node.impl.teleports.poh.HousePortal
+2025-03-04 21:35:05,399 - INFO - Successfully saved org.dreambot.api.methods.walking.web.node.impl.teleports.poh.HousePortal to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_web_node_impl_teleports_poh_HousePortal.json
+2025-03-04 21:35:06,184 - INFO - Processing enum: org.dreambot.api.methods.walking.web.node.impl.teleports.poh.JewelryBox
+2025-03-04 21:35:06,184 - INFO - Progress: 280/459 (61.00%) - Elapsed time: 126.77s
+2025-03-04 21:35:06,246 - INFO - Processing class: org.dreambot.api.methods.widget.Widget
+2025-03-04 21:35:06,404 - INFO - Successfully saved org.dreambot.api.methods.walking.web.node.impl.teleports.poh.JewelryBox to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_walking_web_node_impl_teleports_poh_JewelryBox.json
+2025-03-04 21:35:06,448 - INFO - Successfully saved org.dreambot.api.methods.widget.Widget to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_widget_Widget.json
+2025-03-04 21:35:06,759 - INFO - Processing class: org.dreambot.api.methods.widget.Widgets
+2025-03-04 21:35:07,011 - INFO - Processing class: org.dreambot.api.methods.widget.helpers.ItemProcessing
+2025-03-04 21:35:07,011 - INFO - Successfully saved org.dreambot.api.methods.widget.Widgets to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_widget_Widgets.json
+2025-03-04 21:35:07,223 - INFO - Successfully saved org.dreambot.api.methods.widget.helpers.ItemProcessing to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_widget_helpers_ItemProcessing.json
+2025-03-04 21:35:07,872 - INFO - Processing class: org.dreambot.api.methods.widget.helpers.Smithing
+2025-03-04 21:35:07,966 - INFO - Processing enum: org.dreambot.api.methods.world.Location
+2025-03-04 21:35:08,088 - INFO - Successfully saved org.dreambot.api.methods.widget.helpers.Smithing to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_widget_helpers_Smithing.json
+2025-03-04 21:35:08,154 - INFO - Successfully saved org.dreambot.api.methods.world.Location to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_world_Location.json
+2025-03-04 21:35:08,745 - INFO - Processing enum: org.dreambot.api.methods.world.WorldType
+2025-03-04 21:35:08,998 - INFO - Successfully saved org.dreambot.api.methods.world.WorldType to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_world_WorldType.json
+2025-03-04 21:35:09,024 - INFO - Processing class: org.dreambot.api.methods.world.World
+2025-03-04 21:35:09,266 - INFO - Successfully saved org.dreambot.api.methods.world.World to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_world_World.json
+2025-03-04 21:35:09,324 - INFO - Processing class: org.dreambot.api.methods.world.World.WorldBuilder
+2025-03-04 21:35:09,556 - INFO - Processing class: org.dreambot.api.methods.world.Worlds
+2025-03-04 21:35:09,557 - INFO - Successfully saved org.dreambot.api.methods.world.World.WorldBuilder to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_world_World_WorldBuilder.json
+2025-03-04 21:35:09,779 - INFO - Successfully saved org.dreambot.api.methods.world.Worlds to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_world_Worlds.json
+2025-03-04 21:35:10,710 - INFO - Processing interface: org.dreambot.api.methods.worldhopper.JSocket
+2025-03-04 21:35:10,712 - INFO - Progress: 290/459 (63.18%) - Elapsed time: 131.30s
+2025-03-04 21:35:10,902 - INFO - Successfully saved org.dreambot.api.methods.worldhopper.JSocket to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_worldhopper_JSocket.json
+2025-03-04 21:35:11,375 - INFO - Processing class: org.dreambot.api.methods.worldhopper.WorldHopper
+2025-03-04 21:35:11,421 - INFO - Processing enum: org.dreambot.api.randoms.RandomEvent
+2025-03-04 21:35:11,587 - INFO - Successfully saved org.dreambot.api.methods.worldhopper.WorldHopper to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_methods_worldhopper_WorldHopper.json
+2025-03-04 21:35:11,649 - INFO - Successfully saved org.dreambot.api.randoms.RandomEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_randoms_RandomEvent.json
+2025-03-04 21:35:11,686 - INFO - Processing enum: org.dreambot.api.randoms.RandomManager.State
+2025-03-04 21:35:11,885 - INFO - Successfully saved org.dreambot.api.randoms.RandomManager.State to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_randoms_RandomManager_State.json
+2025-03-04 21:35:11,903 - INFO - Processing class: org.dreambot.api.randoms.BankPinConfirmSolver
+2025-03-04 21:35:12,109 - INFO - Successfully saved org.dreambot.api.randoms.BankPinConfirmSolver to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_randoms_BankPinConfirmSolver.json
+2025-03-04 21:35:13,389 - INFO - Processing class: org.dreambot.api.randoms.BankPinSolver
+2025-03-04 21:35:13,483 - INFO - Processing class: org.dreambot.api.randoms.BreakSolver
+2025-03-04 21:35:13,610 - INFO - Successfully saved org.dreambot.api.randoms.BankPinSolver to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_randoms_BankPinSolver.json
+2025-03-04 21:35:13,753 - INFO - Successfully saved org.dreambot.api.randoms.BreakSolver to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_randoms_BreakSolver.json
+2025-03-04 21:35:13,810 - INFO - Processing class: org.dreambot.api.randoms.DeathsDoor
+2025-03-04 21:35:14,015 - INFO - Successfully saved org.dreambot.api.randoms.DeathsDoor to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_randoms_DeathsDoor.json
+2025-03-04 21:35:14,341 - INFO - Processing class: org.dreambot.api.randoms.DismissBankNotificationTutorial
+2025-03-04 21:35:14,564 - INFO - Successfully saved org.dreambot.api.randoms.DismissBankNotificationTutorial to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_randoms_DismissBankNotificationTutorial.json
+2025-03-04 21:35:14,653 - INFO - Processing class: org.dreambot.api.randoms.DismissBankTutorial
+2025-03-04 21:35:14,809 - INFO - Processing class: org.dreambot.api.randoms.DismissSolver
+2025-03-04 21:35:14,811 - INFO - Progress: 300/459 (65.36%) - Elapsed time: 135.40s
+2025-03-04 21:35:14,851 - INFO - Successfully saved org.dreambot.api.randoms.DismissBankTutorial to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_randoms_DismissBankTutorial.json
+2025-03-04 21:35:15,038 - INFO - Successfully saved org.dreambot.api.randoms.DismissSolver to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_randoms_DismissSolver.json
+2025-03-04 21:35:15,848 - INFO - Processing class: org.dreambot.api.randoms.GameLayoutSolver
+2025-03-04 21:35:15,942 - INFO - Processing class: org.dreambot.api.randoms.GenieSolver
+2025-03-04 21:35:16,003 - INFO - Processing class: org.dreambot.api.randoms.LoginSolver
+2025-03-04 21:35:16,081 - INFO - Successfully saved org.dreambot.api.randoms.GameLayoutSolver to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_randoms_GameLayoutSolver.json
+2025-03-04 21:35:16,158 - INFO - Successfully saved org.dreambot.api.randoms.GenieSolver to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_randoms_GenieSolver.json
+2025-03-04 21:35:16,233 - INFO - Successfully saved org.dreambot.api.randoms.LoginSolver to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_randoms_LoginSolver.json
+2025-03-04 21:35:16,249 - INFO - Processing class: org.dreambot.api.randoms.RandomManager
+2025-03-04 21:35:16,480 - INFO - Successfully saved org.dreambot.api.randoms.RandomManager to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_randoms_RandomManager.json
+2025-03-04 21:35:17,386 - INFO - Processing class: org.dreambot.api.randoms.RandomSolver
+2025-03-04 21:35:17,591 - INFO - Successfully saved org.dreambot.api.randoms.RandomSolver to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_randoms_RandomSolver.json
+2025-03-04 21:35:18,273 - INFO - Processing class: org.dreambot.api.randoms.RoofDisabler
+2025-03-04 21:35:18,351 - INFO - Processing class: org.dreambot.api.randoms.WelcomeScreenSolver
+2025-03-04 21:35:18,493 - INFO - Successfully saved org.dreambot.api.randoms.RoofDisabler to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_randoms_RoofDisabler.json
+2025-03-04 21:35:18,559 - INFO - Successfully saved org.dreambot.api.randoms.WelcomeScreenSolver to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_randoms_WelcomeScreenSolver.json
+2025-03-04 21:35:18,756 - INFO - Processing enum: org.dreambot.api.script.Category
+2025-03-04 21:35:19,001 - INFO - Successfully saved org.dreambot.api.script.Category to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_Category.json
+2025-03-04 21:35:19,022 - INFO - Processing enum: org.dreambot.api.script.ScriptManager.State
+2025-03-04 21:35:19,234 - INFO - Processing annotation: org.dreambot.api.script.ScriptManifest
+2025-03-04 21:35:19,234 - INFO - Successfully saved org.dreambot.api.script.ScriptManager.State to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_ScriptManager_State.json
+2025-03-04 21:35:19,235 - INFO - Progress: 310/459 (67.54%) - Elapsed time: 139.82s
+2025-03-04 21:35:19,461 - INFO - Successfully saved org.dreambot.api.script.ScriptManifest to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_ScriptManifest.json
+2025-03-04 21:35:19,988 - INFO - Processing annotation: org.dreambot.api.script.Unobfuscated
+2025-03-04 21:35:20,065 - INFO - Processing class: org.dreambot.api.script.AbstractScript
+2025-03-04 21:35:20,189 - INFO - Successfully saved org.dreambot.api.script.Unobfuscated to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_Unobfuscated.json
+2025-03-04 21:35:20,301 - INFO - Successfully saved org.dreambot.api.script.AbstractScript to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_AbstractScript.json
+2025-03-04 21:35:21,129 - INFO - Processing class: org.dreambot.api.script.ScriptManager
+2025-03-04 21:35:21,285 - INFO - Processing class: org.dreambot.api.script.TaskNode
+2025-03-04 21:35:21,354 - INFO - Successfully saved org.dreambot.api.script.ScriptManager to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_ScriptManager.json
+2025-03-04 21:35:21,425 - INFO - Processing class: org.dreambot.api.script.event.ScriptEvent
+2025-03-04 21:35:21,539 - INFO - Successfully saved org.dreambot.api.script.TaskNode to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_TaskNode.json
+2025-03-04 21:35:21,673 - INFO - Successfully saved org.dreambot.api.script.event.ScriptEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_ScriptEvent.json
+2025-03-04 21:35:21,971 - INFO - Processing class: org.dreambot.api.script.event.impl.ActionEvent
+2025-03-04 21:35:22,108 - INFO - Processing class: org.dreambot.api.script.event.impl.BankItemEvent
+2025-03-04 21:35:22,194 - INFO - Successfully saved org.dreambot.api.script.event.impl.ActionEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_ActionEvent.json
+2025-03-04 21:35:22,332 - INFO - Successfully saved org.dreambot.api.script.event.impl.BankItemEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_BankItemEvent.json
+2025-03-04 21:35:23,685 - INFO - Processing class: org.dreambot.api.script.event.impl.BreakEvent
+2025-03-04 21:35:23,894 - INFO - Successfully saved org.dreambot.api.script.event.impl.BreakEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_BreakEvent.json
+2025-03-04 21:35:24,120 - INFO - Processing class: org.dreambot.api.script.event.impl.EquipmentItemEvent
+2025-03-04 21:35:24,195 - INFO - Processing class: org.dreambot.api.script.event.impl.ExperienceEvent
+2025-03-04 21:35:24,195 - INFO - Progress: 320/459 (69.72%) - Elapsed time: 144.78s
+2025-03-04 21:35:24,304 - INFO - Processing class: org.dreambot.api.script.event.impl.GameObjectSpawnEvent
+2025-03-04 21:35:24,336 - INFO - Processing class: org.dreambot.api.script.event.impl.GameStateEvent
+2025-03-04 21:35:24,339 - INFO - Successfully saved org.dreambot.api.script.event.impl.EquipmentItemEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_EquipmentItemEvent.json
+2025-03-04 21:35:24,432 - INFO - Successfully saved org.dreambot.api.script.event.impl.ExperienceEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_ExperienceEvent.json
+2025-03-04 21:35:24,527 - INFO - Successfully saved org.dreambot.api.script.event.impl.GameObjectSpawnEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_GameObjectSpawnEvent.json
+2025-03-04 21:35:24,550 - INFO - Successfully saved org.dreambot.api.script.event.impl.GameStateEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_GameStateEvent.json
+2025-03-04 21:35:25,563 - INFO - Processing class: org.dreambot.api.script.event.impl.GroundItemSpawnEvent
+2025-03-04 21:35:25,788 - INFO - Successfully saved org.dreambot.api.script.event.impl.GroundItemSpawnEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_GroundItemSpawnEvent.json
+2025-03-04 21:35:25,895 - INFO - Processing class: org.dreambot.api.script.event.impl.HitSplatEvent
+2025-03-04 21:35:26,099 - INFO - Processing class: org.dreambot.api.script.event.impl.HumanMouseEvent
+2025-03-04 21:35:26,101 - INFO - Successfully saved org.dreambot.api.script.event.impl.HitSplatEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_HitSplatEvent.json
+2025-03-04 21:35:26,310 - INFO - Successfully saved org.dreambot.api.script.event.impl.HumanMouseEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_HumanMouseEvent.json
+2025-03-04 21:35:26,778 - INFO - Processing class: org.dreambot.api.script.event.impl.InventoryItemEvent
+2025-03-04 21:35:26,988 - INFO - Successfully saved org.dreambot.api.script.event.impl.InventoryItemEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_InventoryItemEvent.json
+2025-03-04 21:35:27,195 - INFO - Processing class: org.dreambot.api.script.event.impl.LoadingStateEvent
+2025-03-04 21:35:27,351 - INFO - Processing class: org.dreambot.api.script.event.impl.LoginResponseEvent
+2025-03-04 21:35:27,400 - INFO - Successfully saved org.dreambot.api.script.event.impl.LoadingStateEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_LoadingStateEvent.json
+2025-03-04 21:35:27,549 - INFO - Successfully saved org.dreambot.api.script.event.impl.LoginResponseEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_LoginResponseEvent.json
+2025-03-04 21:35:28,444 - INFO - Processing class: org.dreambot.api.script.event.impl.LoginStageEvent
+2025-03-04 21:35:28,582 - INFO - Processing class: org.dreambot.api.script.event.impl.LootBagItemEvent
+2025-03-04 21:35:28,582 - INFO - Progress: 330/459 (71.90%) - Elapsed time: 149.17s
+2025-03-04 21:35:28,636 - INFO - Processing class: org.dreambot.api.script.event.impl.MenuAddedEvent
+2025-03-04 21:35:28,637 - INFO - Successfully saved org.dreambot.api.script.event.impl.LoginStageEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_LoginStageEvent.json
+2025-03-04 21:35:28,807 - INFO - Successfully saved org.dreambot.api.script.event.impl.LootBagItemEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_LootBagItemEvent.json
+2025-03-04 21:35:28,858 - INFO - Successfully saved org.dreambot.api.script.event.impl.MenuAddedEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_MenuAddedEvent.json
+2025-03-04 21:35:28,942 - INFO - Processing class: org.dreambot.api.script.event.impl.MessageEvent
+2025-03-04 21:35:29,199 - INFO - Successfully saved org.dreambot.api.script.event.impl.MessageEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_MessageEvent.json
+2025-03-04 21:35:29,966 - INFO - Processing class: org.dreambot.api.script.event.impl.NpcAnimationEvent
+2025-03-04 21:35:29,981 - INFO - Processing class: org.dreambot.api.script.event.impl.PaintEvent
+2025-03-04 21:35:30,234 - INFO - Successfully saved org.dreambot.api.script.event.impl.NpcAnimationEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_NpcAnimationEvent.json
+2025-03-04 21:35:30,248 - INFO - Successfully saved org.dreambot.api.script.event.impl.PaintEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_PaintEvent.json
+2025-03-04 21:35:30,465 - INFO - Processing class: org.dreambot.api.script.event.impl.PlayerAnimationEvent
+2025-03-04 21:35:30,558 - INFO - Processing class: org.dreambot.api.script.event.impl.ProjectileTargetEvent
+2025-03-04 21:35:30,655 - INFO - Successfully saved org.dreambot.api.script.event.impl.PlayerAnimationEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_PlayerAnimationEvent.json
+2025-03-04 21:35:30,793 - INFO - Successfully saved org.dreambot.api.script.event.impl.ProjectileTargetEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_ProjectileTargetEvent.json
+2025-03-04 21:35:31,950 - INFO - Processing class: org.dreambot.api.script.event.impl.RegionLoadEvent
+2025-03-04 21:35:31,966 - INFO - Processing class: org.dreambot.api.script.event.impl.RSCanvasFocusEvent
+2025-03-04 21:35:31,981 - INFO - Processing class: org.dreambot.api.script.event.impl.RSCanvasKeyboardEvent
+2025-03-04 21:35:32,043 - INFO - Processing class: org.dreambot.api.script.event.impl.RSCanvasMouseEvent
+2025-03-04 21:35:32,043 - INFO - Progress: 340/459 (74.07%) - Elapsed time: 152.63s
+2025-03-04 21:35:32,149 - INFO - Successfully saved org.dreambot.api.script.event.impl.RegionLoadEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_RegionLoadEvent.json
+2025-03-04 21:35:32,168 - INFO - Successfully saved org.dreambot.api.script.event.impl.RSCanvasFocusEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_RSCanvasFocusEvent.json
+2025-03-04 21:35:32,211 - INFO - Successfully saved org.dreambot.api.script.event.impl.RSCanvasKeyboardEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_RSCanvasKeyboardEvent.json
+2025-03-04 21:35:32,251 - INFO - Successfully saved org.dreambot.api.script.event.impl.RSCanvasMouseEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_RSCanvasMouseEvent.json
+2025-03-04 21:35:33,007 - INFO - Processing class: org.dreambot.api.script.event.impl.ScriptPrefiredEvent
+2025-03-04 21:35:33,207 - INFO - Successfully saved org.dreambot.api.script.event.impl.ScriptPrefiredEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_ScriptPrefiredEvent.json
+2025-03-04 21:35:33,751 - INFO - Processing class: org.dreambot.api.script.event.impl.ServerTickEvent
+2025-03-04 21:35:33,962 - INFO - Successfully saved org.dreambot.api.script.event.impl.ServerTickEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_ServerTickEvent.json
+2025-03-04 21:35:34,280 - INFO - Processing class: org.dreambot.api.script.event.impl.SpawnEvent
+2025-03-04 21:35:34,492 - INFO - Successfully saved org.dreambot.api.script.event.impl.SpawnEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_SpawnEvent.json
+2025-03-04 21:35:34,590 - INFO - Processing class: org.dreambot.api.script.event.impl.SpotAnimationEvent
+2025-03-04 21:35:34,771 - INFO - Successfully saved org.dreambot.api.script.event.impl.SpotAnimationEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_SpotAnimationEvent.json
+2025-03-04 21:35:34,931 - INFO - Processing class: org.dreambot.api.script.event.impl.TickEvent
+2025-03-04 21:35:34,993 - INFO - Processing class: org.dreambot.api.script.event.impl.VarBitEvent
+2025-03-04 21:35:35,158 - INFO - Successfully saved org.dreambot.api.script.event.impl.TickEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_TickEvent.json
+2025-03-04 21:35:35,218 - INFO - Successfully saved org.dreambot.api.script.event.impl.VarBitEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_VarBitEvent.json
+2025-03-04 21:35:36,174 - INFO - Processing class: org.dreambot.api.script.event.impl.VarpEvent
+2025-03-04 21:35:36,392 - INFO - Successfully saved org.dreambot.api.script.event.impl.VarpEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_VarpEvent.json
+2025-03-04 21:35:37,102 - INFO - Processing class: org.dreambot.api.script.event.impl.WidgetDecodedEvent
+2025-03-04 21:35:37,295 - INFO - Successfully saved org.dreambot.api.script.event.impl.WidgetDecodedEvent to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_event_impl_WidgetDecodedEvent.json
+2025-03-04 21:35:37,305 - INFO - Processing class: org.dreambot.api.script.frameworks.treebranch.Branch
+2025-03-04 21:35:37,459 - INFO - Processing class: org.dreambot.api.script.frameworks.treebranch.Leaf
+2025-03-04 21:35:37,459 - INFO - Progress: 350/459 (76.25%) - Elapsed time: 158.05s
+2025-03-04 21:35:37,498 - INFO - Processing class: org.dreambot.api.script.frameworks.treebranch.Root
+2025-03-04 21:35:37,498 - INFO - Successfully saved org.dreambot.api.script.frameworks.treebranch.Branch to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_frameworks_treebranch_Branch.json
+2025-03-04 21:35:37,703 - INFO - Successfully saved org.dreambot.api.script.frameworks.treebranch.Leaf to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_frameworks_treebranch_Leaf.json
+2025-03-04 21:35:37,721 - INFO - Successfully saved org.dreambot.api.script.frameworks.treebranch.Root to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_frameworks_treebranch_Root.json
+2025-03-04 21:35:38,130 - INFO - Processing class: org.dreambot.api.script.frameworks.treebranch.TreeScript
+2025-03-04 21:35:38,357 - INFO - Successfully saved org.dreambot.api.script.frameworks.treebranch.TreeScript to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_frameworks_treebranch_TreeScript.json
+2025-03-04 21:35:38,891 - INFO - Processing class: org.dreambot.api.script.impl.TaskScript
+2025-03-04 21:35:39,015 - INFO - Processing interface: org.dreambot.api.script.listener.ActionListener
+2025-03-04 21:35:39,107 - INFO - Successfully saved org.dreambot.api.script.impl.TaskScript to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_impl_TaskScript.json
+2025-03-04 21:35:39,215 - INFO - Successfully saved org.dreambot.api.script.listener.ActionListener to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_listener_ActionListener.json
+2025-03-04 21:35:39,512 - INFO - Processing interface: org.dreambot.api.script.listener.AnimationListener
+2025-03-04 21:35:39,734 - INFO - Successfully saved org.dreambot.api.script.listener.AnimationListener to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_listener_AnimationListener.json
+2025-03-04 21:35:40,272 - INFO - Processing interface: org.dreambot.api.script.listener.BreakListener
+2025-03-04 21:35:40,273 - INFO - Processing interface: org.dreambot.api.script.listener.ChatListener
+2025-03-04 21:35:40,473 - INFO - Processing interface: org.dreambot.api.script.listener.ExperienceListener
+2025-03-04 21:35:40,486 - INFO - Successfully saved org.dreambot.api.script.listener.BreakListener to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_listener_BreakListener.json
+2025-03-04 21:35:40,506 - INFO - Successfully saved org.dreambot.api.script.listener.ChatListener to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_listener_ChatListener.json
+2025-03-04 21:35:40,683 - INFO - Successfully saved org.dreambot.api.script.listener.ExperienceListener to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_listener_ExperienceListener.json
+2025-03-04 21:35:40,908 - INFO - Processing interface: org.dreambot.api.script.listener.GameStateListener
+2025-03-04 21:35:41,358 - INFO - Processing interface: org.dreambot.api.script.listener.GameTickListener
+2025-03-04 21:35:41,360 - INFO - Progress: 360/459 (78.43%) - Elapsed time: 161.95s
+2025-03-04 21:35:41,537 - INFO - Successfully saved org.dreambot.api.script.listener.GameTickListener to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_listener_GameTickListener.json
+2025-03-04 21:35:42,135 - INFO - Processing interface: org.dreambot.api.script.listener.HitSplatListener
+2025-03-04 21:35:42,151 - INFO - Processing interface: org.dreambot.api.script.listener.HumanMouseListener
+2025-03-04 21:35:42,399 - INFO - Successfully saved org.dreambot.api.script.listener.HitSplatListener to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_listener_HitSplatListener.json
+2025-03-04 21:35:42,408 - INFO - Successfully saved org.dreambot.api.script.listener.HumanMouseListener to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_listener_HumanMouseListener.json
+2025-03-04 21:35:43,545 - INFO - Processing interface: org.dreambot.api.script.listener.ItemContainerListener
+2025-03-04 21:35:43,779 - INFO - Successfully saved org.dreambot.api.script.listener.ItemContainerListener to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_listener_ItemContainerListener.json
+2025-03-04 21:35:43,998 - INFO - Processing interface: org.dreambot.api.script.listener.LoginListener
+2025-03-04 21:35:44,183 - INFO - Successfully saved org.dreambot.api.script.listener.LoginListener to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_listener_LoginListener.json
+2025-03-04 21:35:44,432 - INFO - Processing interface: org.dreambot.api.script.listener.MenuRowListener
+2025-03-04 21:35:44,603 - INFO - Successfully saved org.dreambot.api.script.listener.MenuRowListener to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_listener_MenuRowListener.json
+2025-03-04 21:35:44,666 - INFO - Processing interface: org.dreambot.api.script.listener.PaintListener
+2025-03-04 21:35:44,872 - INFO - Successfully saved org.dreambot.api.script.listener.PaintListener to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_listener_PaintListener.json
+2025-03-04 21:35:45,848 - INFO - Processing interface: org.dreambot.api.script.listener.ProjectileListener
+2025-03-04 21:35:45,927 - INFO - Processing interface: org.dreambot.api.script.listener.RegionLoadListener
+2025-03-04 21:35:46,054 - INFO - Successfully saved org.dreambot.api.script.listener.ProjectileListener to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_listener_ProjectileListener.json
+2025-03-04 21:35:46,127 - INFO - Successfully saved org.dreambot.api.script.listener.RegionLoadListener to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_listener_RegionLoadListener.json
+2025-03-04 21:35:46,267 - INFO - Processing interface: org.dreambot.api.script.listener.RSScriptEventListener
+2025-03-04 21:35:46,470 - INFO - Successfully saved org.dreambot.api.script.listener.RSScriptEventListener to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_listener_RSScriptEventListener.json
+2025-03-04 21:35:46,921 - INFO - Processing interface: org.dreambot.api.script.listener.RuneScriptListener
+2025-03-04 21:35:46,923 - INFO - Progress: 370/459 (80.61%) - Elapsed time: 167.51s
+2025-03-04 21:35:47,137 - INFO - Successfully saved org.dreambot.api.script.listener.RuneScriptListener to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_listener_RuneScriptListener.json
+2025-03-04 21:35:47,324 - INFO - Processing interface: org.dreambot.api.script.listener.SpawnListener
+2025-03-04 21:35:47,536 - INFO - Successfully saved org.dreambot.api.script.listener.SpawnListener to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_listener_SpawnListener.json
+2025-03-04 21:35:47,803 - INFO - Processing interface: org.dreambot.api.script.listener.VarListener
+2025-03-04 21:35:48,015 - INFO - Successfully saved org.dreambot.api.script.listener.VarListener to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_listener_VarListener.json
+2025-03-04 21:35:48,067 - INFO - Processing interface: org.dreambot.api.script.listener.WidgetEventListener
+2025-03-04 21:35:48,237 - INFO - Processing class: org.dreambot.api.script.loader.LocalLoader
+2025-03-04 21:35:48,283 - INFO - Successfully saved org.dreambot.api.script.listener.WidgetEventListener to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_listener_WidgetEventListener.json
+2025-03-04 21:35:48,454 - INFO - Successfully saved org.dreambot.api.script.loader.LocalLoader to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_loader_LocalLoader.json
+2025-03-04 21:35:49,211 - INFO - Processing class: org.dreambot.api.script.loader.NetworkLoader
+2025-03-04 21:35:49,427 - INFO - Successfully saved org.dreambot.api.script.loader.NetworkLoader to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_loader_NetworkLoader.json
+2025-03-04 21:35:49,911 - INFO - Processing class: org.dreambot.api.script.schedule.ScheduledScript
+2025-03-04 21:35:50,111 - INFO - Processing class: org.dreambot.api.script.schedule.ScheduleSettings
+2025-03-04 21:35:50,139 - INFO - Successfully saved org.dreambot.api.script.schedule.ScheduledScript to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_schedule_ScheduledScript.json
+2025-03-04 21:35:50,303 - INFO - Successfully saved org.dreambot.api.script.schedule.ScheduleSettings to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_schedule_ScheduleSettings.json
+2025-03-04 21:35:50,730 - INFO - Processing class: org.dreambot.api.script.schedule.ScriptSchedule
+2025-03-04 21:35:50,913 - INFO - Processing class: org.dreambot.api.script.schedule.ScriptScheduler
+2025-03-04 21:35:50,947 - INFO - Successfully saved org.dreambot.api.script.schedule.ScriptSchedule to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_schedule_ScriptSchedule.json
+2025-03-04 21:35:51,132 - INFO - Successfully saved org.dreambot.api.script.schedule.ScriptScheduler to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_schedule_ScriptScheduler.json
+2025-03-04 21:35:51,577 - INFO - Processing interface: org.dreambot.api.script.schedule.conditions.StopCondition
+2025-03-04 21:35:51,579 - INFO - Progress: 380/459 (82.79%) - Elapsed time: 172.17s
+2025-03-04 21:35:51,772 - INFO - Successfully saved org.dreambot.api.script.schedule.conditions.StopCondition to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_schedule_conditions_StopCondition.json
+2025-03-04 21:35:52,152 - INFO - Processing class: org.dreambot.api.script.schedule.conditions.RunningTime
+2025-03-04 21:35:52,355 - INFO - Successfully saved org.dreambot.api.script.schedule.conditions.RunningTime to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_schedule_conditions_RunningTime.json
+2025-03-04 21:35:52,767 - INFO - Processing class: org.dreambot.api.script.schedule.conditions.ScriptStop
+2025-03-04 21:35:52,974 - INFO - Successfully saved org.dreambot.api.script.schedule.conditions.ScriptStop to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_schedule_conditions_ScriptStop.json
+2025-03-04 21:35:53,126 - INFO - Processing class: org.dreambot.api.script.schedule.conditions.SkillBased
+2025-03-04 21:35:53,346 - INFO - Successfully saved org.dreambot.api.script.schedule.conditions.SkillBased to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_schedule_conditions_SkillBased.json
+2025-03-04 21:35:53,405 - INFO - Processing class: org.dreambot.api.settings.CacheSettings
+2025-03-04 21:35:53,623 - INFO - Processing class: org.dreambot.api.settings.ScriptSettings
+2025-03-04 21:35:53,625 - INFO - Successfully saved org.dreambot.api.settings.CacheSettings to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_settings_CacheSettings.json
+2025-03-04 21:35:53,835 - INFO - Successfully saved org.dreambot.api.settings.ScriptSettings to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_settings_ScriptSettings.json
+2025-03-04 21:35:55,898 - INFO - Processing enum: org.dreambot.api.utilities.Logger.LogType
+2025-03-04 21:35:55,898 - INFO - Processing enum: org.dreambot.api.utilities.ShiftKeys
+2025-03-04 21:35:56,097 - INFO - Successfully saved org.dreambot.api.utilities.Logger.LogType to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_utilities_Logger_LogType.json
+2025-03-04 21:35:56,131 - INFO - Successfully saved org.dreambot.api.utilities.ShiftKeys to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_utilities_ShiftKeys.json
+2025-03-04 21:35:56,141 - INFO - Successfully saved org.dreambot.api.script.listener.GameStateListener to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_script_listener_GameStateListener.json
+2025-03-04 21:35:56,276 - INFO - Processing class: org.dreambot.api.utilities.AccountManager
+2025-03-04 21:35:56,461 - INFO - Processing class: org.dreambot.api.utilities.ColorPicker
+2025-03-04 21:35:56,505 - INFO - Successfully saved org.dreambot.api.utilities.AccountManager to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_utilities_AccountManager.json
+2025-03-04 21:35:56,655 - INFO - Successfully saved org.dreambot.api.utilities.ColorPicker to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_utilities_ColorPicker.json
+2025-03-04 21:35:57,640 - INFO - Processing class: org.dreambot.api.utilities.Hash
+2025-03-04 21:35:57,640 - INFO - Progress: 390/459 (84.97%) - Elapsed time: 178.23s
+2025-03-04 21:35:57,846 - INFO - Successfully saved org.dreambot.api.utilities.Hash to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_utilities_Hash.json
+2025-03-04 21:35:58,302 - INFO - Processing class: org.dreambot.api.utilities.Images
+2025-03-04 21:35:58,379 - INFO - Processing class: org.dreambot.api.utilities.InventoryMonitor
+2025-03-04 21:35:58,489 - INFO - Successfully saved org.dreambot.api.utilities.Images to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_utilities_Images.json
+2025-03-04 21:35:58,601 - INFO - Successfully saved org.dreambot.api.utilities.InventoryMonitor to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_utilities_InventoryMonitor.json
+2025-03-04 21:35:59,057 - INFO - Processing class: org.dreambot.api.utilities.ISAACCipher
+2025-03-04 21:35:59,286 - INFO - Successfully saved org.dreambot.api.utilities.ISAACCipher to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_utilities_ISAACCipher.json
+2025-03-04 21:35:59,600 - INFO - Processing class: org.dreambot.api.utilities.Logger
+2025-03-04 21:35:59,843 - INFO - Successfully saved org.dreambot.api.utilities.Logger to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_utilities_Logger.json
+2025-03-04 21:36:00,220 - INFO - Processing class: org.dreambot.api.utilities.NodeContainerUtilities
+2025-03-04 21:36:00,444 - INFO - Successfully saved org.dreambot.api.utilities.NodeContainerUtilities to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_utilities_NodeContainerUtilities.json
+2025-03-04 21:36:00,794 - INFO - Processing class: org.dreambot.api.utilities.Sleep
+2025-03-04 21:36:00,933 - INFO - Processing class: org.dreambot.api.utilities.StatusBar
+2025-03-04 21:36:01,026 - INFO - Successfully saved org.dreambot.api.utilities.Sleep to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_utilities_Sleep.json
+2025-03-04 21:36:01,042 - INFO - Processing class: org.dreambot.api.utilities.Timer
+2025-03-04 21:36:01,190 - INFO - Successfully saved org.dreambot.api.utilities.StatusBar to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_utilities_StatusBar.json
+2025-03-04 21:36:01,247 - INFO - Successfully saved org.dreambot.api.utilities.Timer to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_utilities_Timer.json
+2025-03-04 21:36:01,662 - INFO - Processing class: org.dreambot.api.utilities.Vector
+2025-03-04 21:36:01,862 - INFO - Successfully saved org.dreambot.api.utilities.Vector to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_utilities_Vector.json
+2025-03-04 21:36:01,865 - INFO - Processing interface: org.dreambot.api.utilities.impl.Condition
+2025-03-04 21:36:01,865 - INFO - Progress: 400/459 (87.15%) - Elapsed time: 182.45s
+2025-03-04 21:36:02,056 - INFO - Successfully saved org.dreambot.api.utilities.impl.Condition to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_utilities_impl_Condition.json
+2025-03-04 21:36:02,456 - INFO - Processing class: org.dreambot.api.wrappers.cache.nodes.AnimationSequenceWrapper
+2025-03-04 21:36:02,643 - INFO - Successfully saved org.dreambot.api.wrappers.cache.nodes.AnimationSequenceWrapper to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_cache_nodes_AnimationSequenceWrapper.json
+2025-03-04 21:36:03,262 - INFO - Processing class: org.dreambot.api.wrappers.cache.nodes.CacheNode
+2025-03-04 21:36:03,462 - INFO - Successfully saved org.dreambot.api.wrappers.cache.nodes.CacheNode to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_cache_nodes_CacheNode.json
+2025-03-04 21:36:03,762 - INFO - Processing class: org.dreambot.api.wrappers.cache.nodes.MessageNode
+2025-03-04 21:36:03,794 - INFO - Processing class: org.dreambot.api.wrappers.cache.nodes.NodeSub
+2025-03-04 21:36:03,810 - INFO - Processing class: org.dreambot.api.wrappers.cache.nodes.NodeWrapper
+2025-03-04 21:36:04,020 - INFO - Successfully saved org.dreambot.api.wrappers.cache.nodes.MessageNode to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_cache_nodes_MessageNode.json
+2025-03-04 21:36:04,052 - INFO - Successfully saved org.dreambot.api.wrappers.cache.nodes.NodeSub to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_cache_nodes_NodeSub.json
+2025-03-04 21:36:04,067 - INFO - Successfully saved org.dreambot.api.wrappers.cache.nodes.NodeWrapper to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_cache_nodes_NodeWrapper.json
+2025-03-04 21:36:05,245 - INFO - Processing class: org.dreambot.api.wrappers.cache.nodes.RenderableNode
+2025-03-04 21:36:05,321 - INFO - Processing interface: org.dreambot.api.wrappers.cache.nodes.impl.Node
+2025-03-04 21:36:05,383 - INFO - Processing interface: org.dreambot.api.wrappers.graphics.Viewport
+2025-03-04 21:36:05,444 - INFO - Successfully saved org.dreambot.api.wrappers.cache.nodes.RenderableNode to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_cache_nodes_RenderableNode.json
+2025-03-04 21:36:05,552 - INFO - Successfully saved org.dreambot.api.wrappers.cache.nodes.impl.Node to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_cache_nodes_impl_Node.json
+2025-03-04 21:36:05,577 - INFO - Successfully saved org.dreambot.api.wrappers.graphics.Viewport to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_graphics_Viewport.json
+2025-03-04 21:36:05,801 - INFO - Processing class: org.dreambot.api.wrappers.graphics.GraphicsObject
+2025-03-04 21:36:06,053 - INFO - Successfully saved org.dreambot.api.wrappers.graphics.GraphicsObject to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_graphics_GraphicsObject.json
+2025-03-04 21:36:06,066 - INFO - Processing class: org.dreambot.api.wrappers.graphics.ModelWrapper
+2025-03-04 21:36:06,066 - INFO - Progress: 410/459 (89.32%) - Elapsed time: 186.65s
+2025-03-04 21:36:06,304 - INFO - Successfully saved org.dreambot.api.wrappers.graphics.ModelWrapper to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_graphics_ModelWrapper.json
+2025-03-04 21:36:07,202 - INFO - Processing class: org.dreambot.api.wrappers.graphics.NpcOverride
+2025-03-04 21:36:07,421 - INFO - Successfully saved org.dreambot.api.wrappers.graphics.NpcOverride to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_graphics_NpcOverride.json
+2025-03-04 21:36:07,482 - INFO - Processing class: org.dreambot.api.wrappers.graphics.Projectile
+2025-03-04 21:36:07,733 - INFO - Successfully saved org.dreambot.api.wrappers.graphics.Projectile to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_graphics_Projectile.json
+2025-03-04 21:36:08,009 - INFO - Processing class: org.dreambot.api.wrappers.graphics.SpotAnimation
+2025-03-04 21:36:08,152 - INFO - Processing interface: org.dreambot.api.wrappers.interactive.Identifiable
+2025-03-04 21:36:08,212 - INFO - Successfully saved org.dreambot.api.wrappers.graphics.SpotAnimation to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_graphics_SpotAnimation.json
+2025-03-04 21:36:08,291 - INFO - Processing interface: org.dreambot.api.wrappers.interactive.Locatable
+2025-03-04 21:36:08,362 - INFO - Successfully saved org.dreambot.api.wrappers.interactive.Identifiable to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_interactive_Identifiable.json
+2025-03-04 21:36:08,530 - INFO - Successfully saved org.dreambot.api.wrappers.interactive.Locatable to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_interactive_Locatable.json
+2025-03-04 21:36:09,868 - INFO - Processing interface: org.dreambot.api.wrappers.interactive.Verified
+2025-03-04 21:36:09,899 - INFO - Processing class: org.dreambot.api.wrappers.interactive.AnimableGameObject
+2025-03-04 21:36:09,979 - INFO - Processing class: org.dreambot.api.wrappers.interactive.BoundaryObject
+2025-03-04 21:36:10,089 - INFO - Successfully saved org.dreambot.api.wrappers.interactive.AnimableGameObject to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_interactive_AnimableGameObject.json
+2025-03-04 21:36:10,103 - INFO - Successfully saved org.dreambot.api.wrappers.interactive.Verified to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_interactive_Verified.json
+2025-03-04 21:36:10,205 - INFO - Successfully saved org.dreambot.api.wrappers.interactive.BoundaryObject to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_interactive_BoundaryObject.json
+2025-03-04 21:36:10,585 - INFO - Processing class: org.dreambot.api.wrappers.interactive.Character
+2025-03-04 21:36:10,850 - INFO - Successfully saved org.dreambot.api.wrappers.interactive.Character to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_interactive_Character.json
+2025-03-04 21:36:10,942 - INFO - Processing class: org.dreambot.api.wrappers.interactive.Entity
+2025-03-04 21:36:10,942 - INFO - Progress: 420/459 (91.50%) - Elapsed time: 191.53s
+2025-03-04 21:36:11,174 - INFO - Successfully saved org.dreambot.api.wrappers.interactive.Entity to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_interactive_Entity.json
+2025-03-04 21:36:11,282 - INFO - Processing class: org.dreambot.api.wrappers.interactive.FloorDecoration
+2025-03-04 21:36:11,422 - INFO - Processing class: org.dreambot.api.wrappers.interactive.GameObject
+2025-03-04 21:36:11,506 - INFO - Successfully saved org.dreambot.api.wrappers.interactive.FloorDecoration to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_interactive_FloorDecoration.json
+2025-03-04 21:36:11,740 - INFO - Successfully saved org.dreambot.api.wrappers.interactive.GameObject to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_interactive_GameObject.json
+2025-03-04 21:36:12,108 - INFO - Processing class: org.dreambot.api.wrappers.interactive.Model
+2025-03-04 21:36:12,372 - INFO - Successfully saved org.dreambot.api.wrappers.interactive.Model to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_interactive_Model.json
+2025-03-04 21:36:12,440 - INFO - Processing class: org.dreambot.api.wrappers.interactive.NPC
+2025-03-04 21:36:12,739 - INFO - Successfully saved org.dreambot.api.wrappers.interactive.NPC to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_interactive_NPC.json
+2025-03-04 21:36:13,048 - INFO - Processing class: org.dreambot.api.wrappers.interactive.Player
+2025-03-04 21:36:13,297 - INFO - Successfully saved org.dreambot.api.wrappers.interactive.Player to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_interactive_Player.json
+2025-03-04 21:36:14,095 - INFO - Processing class: org.dreambot.api.wrappers.interactive.SceneObject
+2025-03-04 21:36:14,220 - INFO - Processing class: org.dreambot.api.wrappers.interactive.WalkingQueueSpeed
+2025-03-04 21:36:14,236 - INFO - Processing class: org.dreambot.api.wrappers.interactive.WallObject
+2025-03-04 21:36:14,300 - INFO - Successfully saved org.dreambot.api.wrappers.interactive.SceneObject to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_interactive_SceneObject.json
+2025-03-04 21:36:14,414 - INFO - Successfully saved org.dreambot.api.wrappers.interactive.WalkingQueueSpeed to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_interactive_WalkingQueueSpeed.json
+2025-03-04 21:36:14,478 - INFO - Successfully saved org.dreambot.api.wrappers.interactive.WallObject to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_interactive_WallObject.json
+2025-03-04 21:36:14,528 - INFO - Processing class: org.dreambot.api.wrappers.interactive.action.RSAction
+2025-03-04 21:36:14,738 - INFO - Successfully saved org.dreambot.api.wrappers.interactive.action.RSAction to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_interactive_action_RSAction.json
+2025-03-04 21:36:14,922 - INFO - Processing class: org.dreambot.api.wrappers.interactive.composite.ItemComposite
+2025-03-04 21:36:14,922 - INFO - Progress: 430/459 (93.68%) - Elapsed time: 195.51s
+2025-03-04 21:36:15,145 - INFO - Successfully saved org.dreambot.api.wrappers.interactive.composite.ItemComposite to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_interactive_composite_ItemComposite.json
+2025-03-04 21:36:15,760 - INFO - Processing class: org.dreambot.api.wrappers.interactive.composite.NameComposite
+2025-03-04 21:36:15,822 - INFO - Processing class: org.dreambot.api.wrappers.interactive.composite.NpcComposite
+2025-03-04 21:36:15,945 - INFO - Successfully saved org.dreambot.api.wrappers.interactive.composite.NameComposite to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_interactive_composite_NameComposite.json
+2025-03-04 21:36:16,030 - INFO - Successfully saved org.dreambot.api.wrappers.interactive.composite.NpcComposite to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_interactive_composite_NpcComposite.json
+2025-03-04 21:36:16,427 - INFO - Processing class: org.dreambot.api.wrappers.interactive.composite.PlayerComposite
+2025-03-04 21:36:16,622 - INFO - Successfully saved org.dreambot.api.wrappers.interactive.composite.PlayerComposite to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_interactive_composite_PlayerComposite.json
+2025-03-04 21:36:16,955 - INFO - Processing class: org.dreambot.api.wrappers.interactive.interact.Interactable
+2025-03-04 21:36:17,153 - INFO - Successfully saved org.dreambot.api.wrappers.interactive.interact.Interactable to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_interactive_interact_Interactable.json
+2025-03-04 21:36:17,175 - INFO - Processing enum: org.dreambot.api.wrappers.interactive.util.Direction
+2025-03-04 21:36:17,404 - INFO - Successfully saved org.dreambot.api.wrappers.interactive.util.Direction to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_interactive_util_Direction.json
+2025-03-04 21:36:17,639 - INFO - Processing class: org.dreambot.api.wrappers.interactive.util.HealthBar
+2025-03-04 21:36:17,827 - INFO - Processing class: org.dreambot.api.wrappers.interactive.util.HealthBarComposite
+2025-03-04 21:36:17,829 - INFO - Successfully saved org.dreambot.api.wrappers.interactive.util.HealthBar to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_interactive_util_HealthBar.json
+2025-03-04 21:36:18,044 - INFO - Successfully saved org.dreambot.api.wrappers.interactive.util.HealthBarComposite to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_interactive_util_HealthBarComposite.json
+2025-03-04 21:36:18,262 - INFO - Processing class: org.dreambot.api.wrappers.interactive.util.HealthBarData
+2025-03-04 21:36:18,470 - INFO - Successfully saved org.dreambot.api.wrappers.interactive.util.HealthBarData to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_interactive_util_HealthBarData.json
+2025-03-04 21:36:18,773 - INFO - Processing class: org.dreambot.api.wrappers.items.GroundItem
+2025-03-04 21:36:19,035 - INFO - Successfully saved org.dreambot.api.wrappers.items.GroundItem to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_items_GroundItem.json
+2025-03-04 21:36:19,160 - INFO - Processing class: org.dreambot.api.wrappers.items.Item
+2025-03-04 21:36:19,160 - INFO - Progress: 440/459 (95.86%) - Elapsed time: 199.75s
+2025-03-04 21:36:19,453 - INFO - Successfully saved org.dreambot.api.wrappers.items.Item to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_items_Item.json
+2025-03-04 21:36:19,704 - INFO - Processing class: org.dreambot.api.wrappers.items.ItemLayer
+2025-03-04 21:36:19,917 - INFO - Processing interface: org.dreambot.api.wrappers.map.TileMap
+2025-03-04 21:36:19,918 - INFO - Successfully saved org.dreambot.api.wrappers.items.ItemLayer to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_items_ItemLayer.json
+2025-03-04 21:36:20,151 - INFO - Successfully saved org.dreambot.api.wrappers.map.TileMap to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_map_TileMap.json
+2025-03-04 21:36:20,220 - INFO - Processing class: org.dreambot.api.wrappers.map.Region
+2025-03-04 21:36:20,433 - INFO - Successfully saved org.dreambot.api.wrappers.map.Region to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_map_Region.json
+2025-03-04 21:36:20,829 - INFO - Processing class: org.dreambot.api.wrappers.map.TileReference
+2025-03-04 21:36:20,876 - INFO - Processing class: org.dreambot.api.wrappers.map.impl.CollisionMap
+2025-03-04 21:36:21,055 - INFO - Successfully saved org.dreambot.api.wrappers.map.TileReference to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_map_TileReference.json
+2025-03-04 21:36:21,106 - INFO - Successfully saved org.dreambot.api.wrappers.map.impl.CollisionMap to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_map_impl_CollisionMap.json
+2025-03-04 21:36:21,580 - INFO - Processing class: org.dreambot.api.wrappers.widgets.GameMenu
+2025-03-04 21:36:21,854 - INFO - Successfully saved org.dreambot.api.wrappers.widgets.GameMenu to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_widgets_GameMenu.json
+2025-03-04 21:36:22,137 - INFO - Processing class: org.dreambot.api.wrappers.widgets.Menu
+2025-03-04 21:36:22,382 - INFO - Successfully saved org.dreambot.api.wrappers.widgets.Menu to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_widgets_Menu.json
+2025-03-04 21:36:22,449 - INFO - Processing class: org.dreambot.api.wrappers.widgets.MenuRow
+2025-03-04 21:36:22,526 - INFO - Processing class: org.dreambot.api.wrappers.widgets.WidgetChild
+2025-03-04 21:36:22,707 - INFO - Successfully saved org.dreambot.api.wrappers.widgets.MenuRow to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_widgets_MenuRow.json
+2025-03-04 21:36:22,746 - INFO - Processing class: org.dreambot.api.wrappers.widgets.builder.MenuRowBuilder
+2025-03-04 21:36:22,748 - INFO - Progress: 450/459 (98.04%) - Elapsed time: 203.33s
+2025-03-04 21:36:22,823 - INFO - Successfully saved org.dreambot.api.wrappers.widgets.WidgetChild to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_widgets_WidgetChild.json
+2025-03-04 21:36:22,993 - INFO - Successfully saved org.dreambot.api.wrappers.widgets.builder.MenuRowBuilder to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_widgets_builder_MenuRowBuilder.json
+2025-03-04 21:36:23,724 - INFO - Processing class: org.dreambot.api.wrappers.widgets.builder.MenuRowQueue
+2025-03-04 21:36:23,880 - INFO - Processing enum: org.dreambot.api.wrappers.widgets.message.MessageType
+2025-03-04 21:36:23,927 - INFO - Successfully saved org.dreambot.api.wrappers.widgets.builder.MenuRowQueue to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_widgets_builder_MenuRowQueue.json
+2025-03-04 21:36:24,003 - INFO - Processing class: org.dreambot.api.wrappers.widgets.message.Message
+2025-03-04 21:36:24,090 - INFO - Successfully saved org.dreambot.api.wrappers.widgets.message.MessageType to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_widgets_message_MessageType.json
+2025-03-04 21:36:24,245 - INFO - Successfully saved org.dreambot.api.wrappers.widgets.message.Message to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_api_wrappers_widgets_message_Message.json
+2025-03-04 21:36:24,423 - INFO - Processing class: org.dreambot.core.Instance
+2025-03-04 21:36:24,668 - INFO - Successfully saved org.dreambot.core.Instance to D:\RS_AI\ALL DOCS\Dreambot Api Docs- Classes_Enums\extracted_content\org_dreambot_core_Instance.json
+2025-03-04 21:36:26,911 - INFO - Progress: 459/459 (100.00%) - Elapsed time: 207.50s
+2025-03-04 21:36:26,913 - INFO - Extraction complete!
+2025-03-04 21:36:26,914 - INFO - Successfully processed: 459/459
+2025-03-04 21:36:26,915 - INFO - Failed to process: 0/459
+2025-03-04 21:36:26,961 - INFO - Created index file with 459 entries

@@ -1,0 +1,673 @@
+{
+  "name": "Model",
+  "full_name": "org.dreambot.api.wrappers.interactive.Model",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/interactive/Model.html",
+  "type": "class",
+  "package": "org.dreambot.api.wrappers.interactive",
+  "description": "Created with IntelliJ IDEA. User: NotoriousPP Date: 10/31/2014 Time: 11:54 AM",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Entity",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Deprecated.",
+      "deprecated": false
+    },
+    {
+      "name": "Model",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Deprecated. unused",
+      "deprecated": false
+    },
+    {
+      "name": "calculateCenterPoint",
+      "signature": "public java.awt.Point calculateCenterPoint()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Calculates the true center point of the model using its vertices.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "calculateModelArea",
+      "signature": "public java.awt.geom.Area calculateModelArea()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Calculates the model area using its vertices.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getVertexPoints",
+      "signature": "public java.util.List<java.awt.Point> getVertexPoints()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets model vertex points at the current set grid location.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getVertexMap",
+      "signature": "public int[][] getVertexMap()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get vertex locations stored in a 2D array (flat map) at the current grid location.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTileHeight",
+      "signature": "public int getTileHeight()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Calculates the tile height for offset specified tile.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getHullBounds",
+      "signature": "public java.awt.Shape getHullBounds()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets hull bounds of this object with a default scale of 1.0F.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "drawWireFrame",
+      "signature": "public void drawWireFrame\u200b(java.awt.Graphics graphics)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Draws wire frame of this object.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getGridX",
+      "signature": "public int getGridX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets grid X of this model.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setGridX",
+      "signature": "public void setGridX\u200b(int gridX)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets grid X.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getGridY",
+      "signature": "public int getGridY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "/** Gets grid Y of this model.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setGridY",
+      "signature": "public void setGridY\u200b(int gridY)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets grid Y.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setGridLocation",
+      "signature": "public void setGridLocation\u200b(int gridX, int gridY)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets grid location (x/y) of this model.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getVerticesX",
+      "signature": "public int[] getVerticesX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get vertices x.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setVerticesX",
+      "signature": "public void setVerticesX\u200b(int[] verticesX)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets vertices x.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOriginalX",
+      "signature": "public int[] getOriginalX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get original x.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setOriginalX",
+      "signature": "public void setOriginalX\u200b(int[] originalX)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets original x.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getVerticesY",
+      "signature": "public int[] getVerticesY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get vertices y.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setVerticesY",
+      "signature": "public void setVerticesY\u200b(int[] verticesY)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets vertices y.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOriginalY",
+      "signature": "public int[] getOriginalY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get original y.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setOriginalY",
+      "signature": "public void setOriginalY\u200b(int[] originalY)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets original y.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getVerticesZ",
+      "signature": "public int[] getVerticesZ()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get vertices z.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setVerticesZ",
+      "signature": "public void setVerticesZ\u200b(int[] verticesZ)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets vertices z.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOriginalZ",
+      "signature": "public int[] getOriginalZ()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get original z.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setOriginalZ",
+      "signature": "public void setOriginalZ\u200b(int[] originalZ)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets original z.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getIndicesX",
+      "signature": "public int[] getIndicesX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get indices x.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setIndicesX",
+      "signature": "public void setIndicesX\u200b(int[] indicesX)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets indices x.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getIndicesY",
+      "signature": "public int[] getIndicesY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get indices y.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setIndicesY",
+      "signature": "public void setIndicesY\u200b(int[] indicesY)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets indices y.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getIndicesZ",
+      "signature": "public int[] getIndicesZ()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get indices z.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setIndicesZ",
+      "signature": "public void setIndicesZ\u200b(int[] indicesZ)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets indices z.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getVertexCount",
+      "signature": "public int getVertexCount()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get vertex count.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setVertexCount",
+      "signature": "public void setVertexCount\u200b(int verticesCount)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets vertex count.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getIndicesCount",
+      "signature": "public int getIndicesCount()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get indices count.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setIndicesCount",
+      "signature": "public void setIndicesCount\u200b(int indicesCount)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets indices count.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getVectorSkin",
+      "signature": "public int[][] getVectorSkin()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get vector skin.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setVectorSkin",
+      "signature": "public void setVectorSkin\u200b(int[][] vectorSkin)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets vector skin.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getEntity",
+      "signature": "public Entity getEntity()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the entity object",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setEntity",
+      "signature": "public void setEntity\u200b(Entity entity)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Set entity object",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWrappedEntity",
+      "signature": "@Deprecated public java.util.Optional<Entity> getWrappedEntity()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets wrapped entity object.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "exists",
+      "signature": "public boolean exists()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Used to determine if this model exists and is valid.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "update",
+      "signature": "@Deprecated public Model update\u200b(Model model)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Update model.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOverrideAmount",
+      "signature": "public byte getOverrideAmount()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setOverrideAmount",
+      "signature": "public void setOverrideAmount\u200b(byte overrideAmount)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOverrideSaturation",
+      "signature": "public byte getOverrideSaturation()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setOverrideSaturation",
+      "signature": "public void setOverrideSaturation\u200b(byte overrideSaturation)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOverrideHue",
+      "signature": "public byte getOverrideHue()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setOverrideHue",
+      "signature": "public void setOverrideHue\u200b(byte overrideHue)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOverrideLuminance",
+      "signature": "public byte getOverrideLuminance()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setOverrideLuminance",
+      "signature": "public void setOverrideLuminance\u200b(byte overrideLuminance)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

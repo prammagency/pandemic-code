@@ -1,0 +1,296 @@
+{
+  "name": "AbstractMouseDestination",
+  "full_name": "org.dreambot.api.input.mouse.destination.AbstractMouseDestination",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/input/mouse/destination/AbstractMouseDestination.html",
+  "type": "class",
+  "package": "org.dreambot.api.input.mouse.destination",
+  "description": "Created with IntelliJ IDEA.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Condition",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "T",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets destination target.",
+      "deprecated": false
+    },
+    {
+      "name": "getTarget",
+      "signature": "public T getTarget()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets destination target.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDestinationShape",
+      "signature": "public abstract java.awt.Shape getDestinationShape()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the abstract destination shape.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getBoundingBox",
+      "signature": "public java.awt.Rectangle getBoundingBox()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the bounding box of the abstract destination shape.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "handleCamera",
+      "signature": "public boolean handleCamera()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Handles camera portion of event interaction. This is used internally by interact().",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "handleWalk",
+      "signature": "public boolean handleWalk()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Handles walking portion of event interactions. This is used internally by interact() Default implementation is to just return true, required to override this in any implementations.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getArea",
+      "signature": "public java.awt.geom.Area getArea()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the area of the abstract destination shape.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getContainmentBounds",
+      "signature": "public java.awt.Rectangle getContainmentBounds()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the rectangle to contain the mouse inside. Useful for menus.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setContainmentBounds",
+      "signature": "public void setContainmentBounds\u200b(java.awt.Rectangle containmentBounds)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets containment bounds rectangle.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isVisible",
+      "signature": "public abstract boolean isVisible()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines whether this destination is visible.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "valid",
+      "signature": "public boolean valid()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines if the current destination is valid and visible.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "type",
+      "signature": "public int type()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Mouse destination type id.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCenterPoint",
+      "signature": "public java.awt.Point getCenterPoint()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the center point within the bounding box of this mouse destination.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "containsMouse",
+      "signature": "public boolean containsMouse()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines if the destination shape contains the mouse.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "contains",
+      "signature": "public boolean contains\u200b(java.awt.Point point)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines if point is contained inside of destination shape.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSuitablePoint",
+      "signature": "public java.awt.Point getSuitablePoint()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a gaussian distributed offset point within the bounding box of this mouse destination.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "canInteract",
+      "signature": "public boolean canInteract()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Evaluates whether an interaction for this mouse destination is allowed to be performed.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "verifyPostInteract",
+      "signature": "public boolean verifyPostInteract()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Verification/callback after your interaction has been completed EntityDestination would implement this to check for crosshair color, for example.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toString",
+      "signature": "public java.lang.String toString()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getInterrupt",
+      "signature": "public Condition getInterrupt()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setInterrupt",
+      "signature": "public void setInterrupt\u200b(Condition interrupt)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

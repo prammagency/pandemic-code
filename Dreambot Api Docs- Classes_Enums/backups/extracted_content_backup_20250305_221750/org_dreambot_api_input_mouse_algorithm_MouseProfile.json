@@ -1,0 +1,434 @@
+{
+  "name": "MouseProfile",
+  "full_name": "org.dreambot.api.input.mouse.algorithm.MouseProfile",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/input/mouse/algorithm/MouseProfile.html",
+  "type": "class",
+  "package": "org.dreambot.api.input.mouse.algorithm",
+  "description": "Profile for mouse movement and click settings Not yet implemented.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "MouseTiming",
+      "return_type": "MouseTiming",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Performs the MouseTiming operation.",
+      "deprecated": false
+    },
+    {
+      "name": "resetToDefaults",
+      "signature": "public static void resetToDefaults()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the resetToDefaults operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setSpeed",
+      "signature": "public static void setSpeed\u200b(double speed)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the speed.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDefaultMouseTiming",
+      "signature": "public static MouseTiming getDefaultMouseTiming()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the defaultmousetiming.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSpeed",
+      "signature": "public static double getSpeed()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the speed.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMouseTiming",
+      "signature": "public static MouseTiming getMouseTiming()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the mousetiming.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setMouseTiming",
+      "signature": "public static void setMouseTiming\u200b(MouseTiming mouseTiming)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the mousetiming.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMinMagnitude",
+      "signature": "public static double getMinMagnitude()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the minmagnitude.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setMinMagnitude",
+      "signature": "public static void setMinMagnitude\u200b(double minMagnitude)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the minmagnitude.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAccelerationDeviation",
+      "signature": "public static double getAccelerationDeviation()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the accelerationdeviation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setAccelerationDeviation",
+      "signature": "public static void setAccelerationDeviation\u200b(double accelerationDeviation)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the accelerationdeviation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAccelerationRate",
+      "signature": "public static double getAccelerationRate()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the accelerationrate.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setAccelerationRate",
+      "signature": "public static void setAccelerationRate\u200b(double accelerationRate)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the accelerationrate.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMinDecelMagnitude",
+      "signature": "public static double getMinDecelMagnitude()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the mindecelmagnitude.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setMinDecelMagnitude",
+      "signature": "public static void setMinDecelMagnitude\u200b(double minDecelMagnitude)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the mindecelmagnitude.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMaxDecelDistance",
+      "signature": "public static double getMaxDecelDistance()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the maxdeceldistance.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setMaxDecelDistance",
+      "signature": "public static void setMaxDecelDistance\u200b(double maxDecelDistance)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the maxdeceldistance.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDecelDecayRate",
+      "signature": "public static double getDecelDecayRate()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the deceldecayrate.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setDecelDecayRate",
+      "signature": "public static void setDecelDecayRate\u200b(double decelDecayRate)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the deceldecayrate.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAngleDeviationRate",
+      "signature": "public static double getAngleDeviationRate()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the angledeviationrate.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setAngleDeviationRate",
+      "signature": "public static void setAngleDeviationRate\u200b(double angleDeviationRate)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the angledeviationrate.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMeanDecelRadius",
+      "signature": "public static double getMeanDecelRadius()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the meandecelradius.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setMeanDecelRadius",
+      "signature": "public static void setMeanDecelRadius\u200b(double meanDecelRadius)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the meandecelradius.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDecelRadiusDeviation",
+      "signature": "public static double getDecelRadiusDeviation()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the decelradiusdeviation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setDecelRadiusDeviation",
+      "signature": "public static void setDecelRadiusDeviation\u200b(double decelRadiusDeviation)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the decelradiusdeviation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMaxdTheta",
+      "signature": "public static double getMaxdTheta()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the maxdtheta.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setMaxdTheta",
+      "signature": "public static void setMaxdTheta\u200b(double maxdTheta)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the maxdtheta.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDecayDistanceExponent",
+      "signature": "public static double getDecayDistanceExponent()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the decaydistanceexponent.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setDecayDistanceExponent",
+      "signature": "public static void setDecayDistanceExponent\u200b(double decayDistanceExponent)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the decaydistanceexponent.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMaxMagnitude",
+      "signature": "public static double getMaxMagnitude()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the maxmagnitude.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setMaxMagnitude",
+      "signature": "public static void setMaxMagnitude\u200b(double maxMagnitude)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the maxmagnitude.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDEFAULT_SPEED",
+      "signature": "public static double getDEFAULT_SPEED()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the default_speed.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

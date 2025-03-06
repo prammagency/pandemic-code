@@ -1,0 +1,192 @@
+{
+  "name": "Area",
+  "full_name": "org.dreambot.api.methods.map.Area",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/map/Area.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.map",
+  "description": "Creates a rectangular area using basic coordinates for plane 0.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Area",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Creates a new Area containing the tiles from this area and the given area",
+      "deprecated": false
+    },
+    {
+      "name": "Tile",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets all of the tiles contained in the Area",
+      "deprecated": false
+    },
+    {
+      "name": "generateArea",
+      "signature": "public static Area generateArea\u200b(int radius, Tile center)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setZ",
+      "signature": "public void setZ\u200b(int plane)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTiles",
+      "signature": "public Tile[] getTiles()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets all of the tiles contained in the Area",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getNearestTile",
+      "signature": "public Tile getNearestTile\u200b(Entity entity)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the closest Tile in the Area to the provided entity",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRandomTile",
+      "signature": "public Tile getRandomTile()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a random Tile inside the Area",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCenter",
+      "signature": "public Tile getCenter()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the center Tile of the Area",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getPolygonArea",
+      "signature": "public java.awt.Polygon getPolygonArea()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the polygon shape of the Area",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getBoundingBox",
+      "signature": "public java.awt.Rectangle getBoundingBox()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the bounding box of the area",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "contains",
+      "signature": "public boolean contains\u200b(int x, int y)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the Area contains the x and the y points",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "withArea",
+      "signature": "public Area withArea\u200b(Area area)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Creates a new Area containing the tiles from this area and the given area",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getBoundaryPoints",
+      "signature": "public java.util.List<Tile> getBoundaryPoints()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the boundary Tiles, or a list of the area's defined points",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTile",
+      "signature": "public Tile getTile()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from interface: Locatable",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

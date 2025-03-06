@@ -1,0 +1,78 @@
+{
+  "name": "Root",
+  "full_name": "org.dreambot.api.script.frameworks.treebranch.Root",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/script/frameworks/treebranch/Root.html",
+  "type": "class",
+  "package": "org.dreambot.api.script.frameworks.treebranch",
+  "description": "The root of the framework, can be given branches or leaves as children. Extends functionality from Branch",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.script.frameworks.treebranch.Leaf",
+    "org.dreambot.api.script.frameworks.treebranch.Branch"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Root",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Adds Branchs to this Root Automatically sets the Branch parent to this root",
+      "deprecated": false
+    },
+    {
+      "name": "TreeScript",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the TreeScript of the Root",
+      "deprecated": false
+    },
+    {
+      "name": "getTree",
+      "signature": "public TreeScript getTree()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the TreeScript of the Root",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "addBranches",
+      "signature": "public final Root addBranches\u200b(Branch... branches)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Adds Branchs to this Root Automatically sets the Branch parent to this root",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isValid",
+      "signature": "public boolean isValid()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Defaults isValid to true, no implementation required.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

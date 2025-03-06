@@ -1,0 +1,59 @@
+{
+  "name": "AnimationSequenceWrapper",
+  "full_name": "org.dreambot.api.wrappers.cache.nodes.AnimationSequenceWrapper",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/cache/nodes/AnimationSequenceWrapper.html",
+  "type": "class",
+  "package": "org.dreambot.api.wrappers.cache.nodes",
+  "description": "Deprecated.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.wrappers.cache.nodes.NodeWrapper",
+    "org.dreambot.api.wrappers.cache.nodes.CacheNode"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Constructor Detail",
+      "signature": "public AnimationSequenceWrapper\u200b(java.lang.Object reference)",
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": true
+    },
+    {
+      "name": "Constructor Detail",
+      "signature": "public AnimationSequenceWrapper\u200b(java.lang.Object reference)",
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": true
+    },
+    {
+      "name": "AnimationSequenceWrapper",
+      "signature": "public AnimationSequenceWrapper\u200b(java.lang.Object reference)",
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": true
+    }
+  ],
+  "fields": [],
+  "constructors": [],
+  "extraction_fallback_used": true
+}

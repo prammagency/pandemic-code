@@ -1,0 +1,217 @@
+{
+  "name": "VarClientString",
+  "full_name": "org.dreambot.api.methods.cs2.VarClientString",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/cs2/VarClientString.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.cs2",
+  "description": "Class VarClientString in the org.dreambot.api.methods.cs2 package provides functionality for DreamBot scripts.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Field Detail",
+      "signature": "public static final\u00a0int DUEL_OPPONENT_NAME",
+      "description": "Performs the Field Detail operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "Field Detail",
+      "signature": "public static final\u00a0int DUEL_OPPONENT_NAME",
+      "description": "Performs the Field Detail operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "DUEL_OPPONENT_NAME",
+      "signature": "public static final\u00a0int DUEL_OPPONENT_NAME",
+      "description": "Performs the DUEL_OPPONENT_NAME operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "CHATBOX_TYPED_TEXT",
+      "signature": "public static final\u00a0int CHATBOX_TYPED_TEXT",
+      "description": "Performs the CHATBOX_TYPED_TEXT operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "INPUT_TEXT",
+      "signature": "public static final\u00a0int INPUT_TEXT",
+      "description": "Performs the INPUT_TEXT operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "PRIVATE_MESSAGE_TARGET",
+      "signature": "public static final\u00a0int PRIVATE_MESSAGE_TARGET",
+      "description": "Performs the PRIVATE_MESSAGE_TARGET operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "RECENT_FRIENDS_CHAT",
+      "signature": "public static final\u00a0int RECENT_FRIENDS_CHAT",
+      "description": "Performs the RECENT_FRIENDS_CHAT operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "NOTIFICATION_TOP_TEXT",
+      "signature": "public static final\u00a0int NOTIFICATION_TOP_TEXT",
+      "description": "Performs the NOTIFICATION_TOP_TEXT operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "NOTIFICATION_BOTTOM_TEXT",
+      "signature": "public static final\u00a0int NOTIFICATION_BOTTOM_TEXT",
+      "description": "Performs the NOTIFICATION_BOTTOM_TEXT operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "Constructor Detail",
+      "signature": "public\u00a0VarClientString()",
+      "description": "Performs the Constructor Detail operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "VarClientString",
+      "signature": "public\u00a0VarClientString()",
+      "description": "Performs the VarClientString operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [
+    {
+      "name": "DUEL_OPPONENT_NAME",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "CHATBOX_TYPED_TEXT",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "INPUT_TEXT",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "PRIVATE_MESSAGE_TARGET",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "RECENT_FRIENDS_CHAT",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "NOTIFICATION_TOP_TEXT",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "NOTIFICATION_BOTTOM_TEXT",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "Constructor",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "VarClientString",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    }
+  ],
+  "constructors": [],
+  "extraction_fallback_used": true
+}

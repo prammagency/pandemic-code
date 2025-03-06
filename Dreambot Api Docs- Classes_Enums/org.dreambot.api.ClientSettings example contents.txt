@@ -1,0 +1,591 @@
+org.dreambot.api.ClientSettings
+public class ClientSettings
+extends java.lang.Object
+Created by Nezz on 10/25/2015.
+Nested Class Summary
+Nested Classes
+Modifier and Type	Class	Description
+static class 	ClientSettings.SettingsTab	 
+Method Summary
+All MethodsStatic MethodsConcrete MethodsDeprecated Methods
+Modifier and Type	Method	Description
+static void	addStoredAuth​(java.lang.String username, int auth)	 
+static boolean	areChatEffectsEnabled()	
+Checks if chat effects are enabled
+static boolean	areCollectionLogNotificationsEnabled()	 
+static boolean	areCollectionLogPopupsEnabled()	 
+static boolean	areDataOrbsEnabled()	
+Checks if data orbs are enabled
+static boolean	areItemPilesOnDeathEnabled()	
+Checks if item piles on death are enabled
+static boolean	areLootNotificationsEnabled()	
+Checks whether loot notifications are enabled or not
+static boolean	areRoofsHidden()	
+Checks if roofs are currently set to hidden
+static boolean	areRunesAutoPouching()	 
+static boolean	canUseMiddleMouseForCamera()	
+Checks to see if RS's middle mouse button controls the camera setting is enabled
+static void	clearLayoutPreferences()	 
+static boolean	closeSettingsInterface()	
+This will close the "All Settings" interface
+static int	getAreaVolume()	
+Gets the area volume
+static double	getBrightness()	
+Gets the brightness level
+static int	getClientBrightness()	
+Gets the in game brightness setting
+static ClientLayout	getClientLayout()	
+Gets the current client layout
+static java.util.Map<java.lang.Integer,​java.lang.Integer>	getClientParameters()	
+Returns the client parameters
+static int	getEnergyThresholdToEnableRunning()	 
+static int	getLootDropMinimumValue()	
+Gets the minimum value set for loot drop notifications
+static int	getMinimumAlchWarningValue()	 
+static int	getMinimumDropWarningValue()	 
+static int	getMusicVolume()	
+Gets the music volume
+static ActionMode	getNPCAttackOptionsMode()	
+Returns the current ActionMode for NPC attack options
+static ActionMode	getPlayerAttackOptionsMode()	
+Returns the current ActionMode for player attack options
+static int	getResizableValue()	
+Gets an int value of if resizable mode is enabled 1 is disabled, 2 is enabled
+static java.lang.String	getSavedUsername()	
+Gets the currently saved login username, null if none saved
+static int	getSoundEffectVolume()	
+Gets the sound effect volume
+static boolean	isAcceptAidEnabled()	
+Checks if accept aid is enabled
+static boolean	isAmmoAutoEquipping()	 
+static boolean	isBuyPriceWarningEnabled()	
+Checks if the buy price warning is enabled
+static boolean	isClickThroughChatboxEnabled()	
+Checks if click through chatbox is enabled
+static boolean	isDisplayFps()	
+Gets whether the client is displaying the current FPS or not
+static boolean	isEscInterfaceClosingEnabled()	
+Checks if escape to close interfaces is enabled
+static boolean	isFeroxExitWarningEnabled()	
+Checks if the exit warning is enabled for Ferox
+static boolean	isFeroxExitWarningOnHighRiskWorldEnabled()	
+Checks if the exit warning is enabled for Ferox while on a high risk world
+static boolean	isGameAudioOn()	
+Gets the current game audio settings
+static boolean	isHideUsername()	
+Checks if the "hide username" setting is enabled
+static boolean	isLevelUpInterfaceEnabled()	
+Checks if data orbs are enabled
+static boolean	isLoginMusicDisabled()	
+Checks whether the login screen music is disabled or not
+static boolean	isLoginMusicEnabled()	
+Deprecated.
+see isLoginMusicDisabled()
+static boolean	isMakeXDartsEnabled()	 
+static boolean	isMoveFollowerOptionsLowerEnabled()	
+Checks if the move follower options lower setting is enabled
+static boolean	isOpen()	 
+static boolean	isRememberUsername()	
+Checks whether the client's remember username setting is enabled
+static boolean	isResizableActive()	
+Returns whether resizable mode is enabled
+static boolean	isScrollToZoomEnabled()	
+Checks if scroll to zoom is enabled
+static boolean	isSellPriceWarningEnabled()	
+Checks if the sell price warning is enabled
+static boolean	isShiftClickDroppingEnabled()	
+Checks if shift click dropping is enabled
+static boolean	isShiftInteractionEnabled()	
+Deprecated.
+static boolean	isSkullPreventionActive()	
+Checks whether skull prevention is active or not
+static boolean	isTradeDelayEnabled()	 
+static boolean	isTransparentChatboxEnabled()	
+Checks if the transparent chatbox is enabled
+static boolean	isTransparentSidePanelEnabled()	
+Checks if the transparent chatbox is enabled
+static boolean	isWildernessLeversWarningEnabled()	
+Checks if the wilderness teleport levers warning is on or off
+static boolean	isWorldHopConfirmationEnabled()	 
+static boolean	isZoomingEnabled()	
+Checks if scroll to zoom is enabled on the account
+static boolean	restoreDefaultKeybinds()	 
+static boolean	roofsEnabled()	
+Deprecated.
+see areRoofsHidden()
+static boolean	setClientBrightness​(int brightness)	
+Sets the in game brightness setting
+static boolean	setClientLayout​(ClientLayout layout)	 
+static boolean	setDefaultZoom()	
+Sets the zoom to the default zoom value
+static void	setDisplayFps​(boolean display)	
+Calls a direct set on if FPS should be displayed
+static boolean	setEnergyThresholdToEnableRunning​(int value)	 
+static void	setHideUsername​(boolean hide)	
+Calls a direct set on the hide username setting, this setting should be persisted
+static void	setLoginMusicDisabled​(boolean disabled)	
+Calls a direct set on whether login music is disabled, these settings should be persisted
+static boolean	setMinimumAlchWarningValue​(int value)	 
+static boolean	setMinimumDropWarningValue​(int value)	 
+static boolean	setNPCAttackOptionsMode​(ActionMode mode)	
+Sets the NPC attack options mode
+static boolean	setPlayerAttackOptionsMode​(ActionMode mode)	
+Sets the player attack options mode
+static void	setSavedUsername​(java.lang.String username)	
+Calls a direct set on saved username, this setting should be persisted
+static boolean	toggleAcceptAid​(boolean on)	
+Toggles whether accept aid is on or off
+static boolean	toggleAmmoAutoEquipping​(boolean on)	 
+static boolean	toggleBuyPriceWarning​(boolean on)	
+Toggles whether the buy price warning is on or off
+static boolean	toggleChatEffects​(boolean on)	
+Toggles whether chat effects are on or off
+static boolean	toggleClickThroughChatbox​(boolean on)	
+Toggles whether click through chatbox is on or off
+static boolean	toggleCollectionLogNotifications​(boolean on)	 
+static boolean	toggleCollectionLogPopups​(boolean on)	 
+static boolean	toggleDataOrbs​(boolean on)	
+Toggles whether data orbs are on or off
+static boolean	toggleEscInterfaceClosing​(boolean on)	
+Toggles whether using the escape key to close interfaces is on or off
+static boolean	toggleFeroxExitWarning​(boolean on)	
+Toggles whether the exit warning for Ferox is on or off
+static boolean	toggleFeroxExitWarningOnHighRiskWorld​(boolean on)	
+Toggles whether the exit warning for Ferox while on a high risk world is on or off
+static boolean	toggleGameAudio​(boolean on)	
+Toggles whether all game audio settings are on or off
+static boolean	toggleItemPilesOnDeath​(boolean on)	
+Toggles whether certain items are piled on death is on or off
+static boolean	toggleLevelUpInterface​(boolean on)	
+Toggles whether level-up interfaces are enabled
+static boolean	toggleLootNotifications​(boolean on)	
+Turns the loot notifications on or off Does not do initial setting value for loot drop notifications
+static boolean	toggleMakeXDarts​(boolean enabled)	 
+static boolean	toggleMoveFollowerOptionsLower​(boolean on)	
+Toggles whether follower options are lower is on or off
+static boolean	toggleResizable​(boolean on)	
+Toggles whether resizable mode is enabled or not
+static boolean	toggleRoofs​(boolean on)	
+Toggles roof visibility through the settings screen
+static boolean	toggleRuneAutoPouching​(boolean on)	 
+static boolean	toggleScrollToZoom​(boolean on)	
+Toggles whether scroll to zoom the camera is on or off
+static boolean	toggleSellPriceWarning​(boolean on)	
+Toggles whether the sell price warning is on or off
+static boolean	toggleSetting​(ClientSettings.SettingsTab tab, java.lang.String settingLabel, Condition completedCondition)	 
+static boolean	toggleShiftClickDropping​(boolean on)	
+Toggles whether shift click dropping is on or off
+static boolean	toggleSkullPrevention​(boolean on)	
+Turns skull prevention on or off
+static boolean	toggleTradeDelay​(boolean on)	 
+static boolean	toggleTransparentChatbox​(boolean on)	
+Toggles whether transparent chatbox is on or off
+static boolean	toggleTransparentSidePanel​(boolean on)	
+Toggles whether transparent side panel is on or off
+static boolean	toggleWildernessLeversWarning​(boolean on)	
+Toggles whether the wilderness teleport levers warning is on or off
+static boolean	toggleWorldHopConfirmation​(boolean enabled)	 
+Methods inherited from class java.lang.Object
+equals, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait
+Method Detail
+isDisplayFps
+public static boolean isDisplayFps()
+Gets whether the client is displaying the current FPS or not
+setDisplayFps
+public static void setDisplayFps​(boolean display)
+Calls a direct set on if FPS should be displayed
+isLoginMusicEnabled
+@Deprecated public static boolean isLoginMusicEnabled()
+Deprecated.
+see isLoginMusicDisabled()
+isLoginMusicDisabled
+public static boolean isLoginMusicDisabled()
+Checks whether the login screen music is disabled or not
+setLoginMusicDisabled
+public static void setLoginMusicDisabled​(boolean disabled)
+Calls a direct set on whether login music is disabled, these settings should be persisted
+getSavedUsername
+public static java.lang.String getSavedUsername()
+Gets the currently saved login username, null if none saved
+setSavedUsername
+public static void setSavedUsername​(java.lang.String username)
+Calls a direct set on saved username, this setting should be persisted
+isHideUsername
+public static boolean isHideUsername()
+Checks if the "hide username" setting is enabled
+setHideUsername
+public static void setHideUsername​(boolean hide)
+Calls a direct set on the hide username setting, this setting should be persisted
+isRememberUsername
+public static boolean isRememberUsername()
+Checks whether the client's remember username setting is enabled
+getResizableValue
+public static int getResizableValue()
+Gets an int value of if resizable mode is enabled 1 is disabled, 2 is enabled
+Returns:
+1 if disabled, 2 if enabled, -1 if reference is null
+isResizableActive
+public static boolean isResizableActive()
+Returns whether resizable mode is enabled
+Returns:
+True if it's enabled, False if it isn't
+getClientParameters
+public static java.util.Map<java.lang.Integer,​java.lang.Integer> getClientParameters()
+Returns the client parameters
+Returns:
+client parameters
+addStoredAuth
+public static void addStoredAuth​(java.lang.String username, int auth)
+roofsEnabled
+@Deprecated public static boolean roofsEnabled()
+Deprecated.
+see areRoofsHidden()
+areRoofsHidden
+public static boolean areRoofsHidden()
+Checks if roofs are currently set to hidden
+toggleRoofs
+public static boolean toggleRoofs​(boolean on)
+Toggles roof visibility through the settings screen
+Parameters:
+on - whether you want roofs visible or not
+Returns:
+returns whether roofsEnabled() matches on parameter
+closeSettingsInterface
+public static boolean closeSettingsInterface()
+This will close the "All Settings" interface
+isOpen
+public static boolean isOpen()
+toggleGameAudio
+public static boolean toggleGameAudio​(boolean on)
+Toggles whether all game audio settings are on or off
+Returns:
+true if it succeeds, false otherwise
+toggleResizable
+public static boolean toggleResizable​(boolean on)
+Toggles whether resizable mode is enabled or not
+Parameters:
+on - Whether you want resizable active or not
+Returns:
+False if on is true, otherwise returns if isResizableActive() matches param
+getClientBrightness
+public static int getClientBrightness()
+Gets the in game brightness setting
+Returns:
+client's brightness setting, between 0 (dimmest) and 100 (brightest)
+setClientBrightness
+public static boolean setClientBrightness​(int brightness)
+Sets the in game brightness setting
+Parameters:
+brightness - Brightness value between 0 (dimmest) and 100 (brightest)
+Returns:
+true if we're able to change the brightness to the provided value, false otherwise
+clearLayoutPreferences
+public static void clearLayoutPreferences()
+setClientLayout
+public static boolean setClientLayout​(ClientLayout layout)
+getClientLayout
+public static ClientLayout getClientLayout()
+Gets the current client layout
+Returns:
+The current ClientLayout
+isGameAudioOn
+public static boolean isGameAudioOn()
+Gets the current game audio settings
+Returns:
+true if all sound options are unmuted, false otherwise
+toggleAcceptAid
+public static boolean toggleAcceptAid​(boolean on)
+Toggles whether accept aid is on or off
+Returns:
+true if it succeeds, false otherwise
+isAcceptAidEnabled
+public static boolean isAcceptAidEnabled()
+Checks if accept aid is enabled
+Returns:
+true if it is, false otherwise
+toggleDataOrbs
+public static boolean toggleDataOrbs​(boolean on)
+Toggles whether data orbs are on or off
+Returns:
+true if it succeeds, false otherwise
+areDataOrbsEnabled
+public static boolean areDataOrbsEnabled()
+Checks if data orbs are enabled
+Returns:
+true if it is, false otherwise
+toggleLevelUpInterface
+public static boolean toggleLevelUpInterface​(boolean on)
+Toggles whether level-up interfaces are enabled
+Returns:
+true if it succeeds, false otherwise
+isLevelUpInterfaceEnabled
+public static boolean isLevelUpInterfaceEnabled()
+Checks if data orbs are enabled
+Returns:
+true if it is, false otherwise
+toggleEscInterfaceClosing
+public static boolean toggleEscInterfaceClosing​(boolean on)
+Toggles whether using the escape key to close interfaces is on or off
+Returns:
+true if it succeeds, false otherwise
+isEscInterfaceClosingEnabled
+public static boolean isEscInterfaceClosingEnabled()
+Checks if escape to close interfaces is enabled
+Returns:
+true if it is, false otherwise
+isShiftClickDroppingEnabled
+public static boolean isShiftClickDroppingEnabled()
+Checks if shift click dropping is enabled
+Returns:
+true if it is, false otherwise
+toggleShiftClickDropping
+public static boolean toggleShiftClickDropping​(boolean on)
+Toggles whether shift click dropping is on or off
+Returns:
+true if it succeeds, false otherwise
+toggleScrollToZoom
+public static boolean toggleScrollToZoom​(boolean on)
+Toggles whether scroll to zoom the camera is on or off
+Returns:
+true if it succeeds, false otherwise
+isScrollToZoomEnabled
+public static boolean isScrollToZoomEnabled()
+Checks if scroll to zoom is enabled
+Returns:
+true if it is, false otherwise
+canUseMiddleMouseForCamera
+public static boolean canUseMiddleMouseForCamera()
+Checks to see if RS's middle mouse button controls the camera setting is enabled
+Returns:
+true if enabled, else false
+toggleChatEffects
+public static boolean toggleChatEffects​(boolean on)
+Toggles whether chat effects are on or off
+Returns:
+true if it succeeds, false otherwise
+areChatEffectsEnabled
+public static boolean areChatEffectsEnabled()
+Checks if chat effects are enabled
+Returns:
+true if it is, false otherwise
+toggleTransparentChatbox
+public static boolean toggleTransparentChatbox​(boolean on)
+Toggles whether transparent chatbox is on or off
+Returns:
+true if it succeeds, false otherwise or if you're not on resizable mode
+isTransparentSidePanelEnabled
+public static boolean isTransparentSidePanelEnabled()
+Checks if the transparent chatbox is enabled
+Returns:
+true if it is, false otherwise
+toggleTransparentSidePanel
+public static boolean toggleTransparentSidePanel​(boolean on)
+Toggles whether transparent side panel is on or off
+Returns:
+true if it succeeds, false otherwise or if you're not on resizable mode
+isTransparentChatboxEnabled
+public static boolean isTransparentChatboxEnabled()
+Checks if the transparent chatbox is enabled
+Returns:
+true if it is, false otherwise
+toggleClickThroughChatbox
+public static boolean toggleClickThroughChatbox​(boolean on)
+Toggles whether click through chatbox is on or off
+Returns:
+true if it succeeds, false otherwise or if you're not on resizable mode or if transparent chatbox is disabled
+isClickThroughChatboxEnabled
+public static boolean isClickThroughChatboxEnabled()
+Checks if click through chatbox is enabled
+Returns:
+true if it is, false otherwise
+toggleItemPilesOnDeath
+public static boolean toggleItemPilesOnDeath​(boolean on)
+Toggles whether certain items are piled on death is on or off
+Returns:
+true if it succeeds, false otherwise
+areItemPilesOnDeathEnabled
+public static boolean areItemPilesOnDeathEnabled()
+Checks if item piles on death are enabled
+Returns:
+true if it is, false otherwise
+toggleMoveFollowerOptionsLower
+public static boolean toggleMoveFollowerOptionsLower​(boolean on)
+Toggles whether follower options are lower is on or off
+Returns:
+true if it succeeds, false otherwise
+isMoveFollowerOptionsLowerEnabled
+public static boolean isMoveFollowerOptionsLowerEnabled()
+Checks if the move follower options lower setting is enabled
+Returns:
+true if it is, false otherwise
+toggleSellPriceWarning
+public static boolean toggleSellPriceWarning​(boolean on)
+Toggles whether the sell price warning is on or off
+Parameters:
+on - whether the warning should be enabled
+Returns:
+true if it succeeds, false otherwise
+isSellPriceWarningEnabled
+public static boolean isSellPriceWarningEnabled()
+Checks if the sell price warning is enabled
+Returns:
+true if it is, false otherwise
+toggleFeroxExitWarning
+public static boolean toggleFeroxExitWarning​(boolean on)
+Toggles whether the exit warning for Ferox is on or off
+Parameters:
+on - whether the warning should be enabled
+Returns:
+true if it succeeds, false otherwise
+isFeroxExitWarningEnabled
+public static boolean isFeroxExitWarningEnabled()
+Checks if the exit warning is enabled for Ferox
+Returns:
+true if it is, false otherwise
+toggleFeroxExitWarningOnHighRiskWorld
+public static boolean toggleFeroxExitWarningOnHighRiskWorld​(boolean on)
+Toggles whether the exit warning for Ferox while on a high risk world is on or off
+Parameters:
+on - whether the warning should be enabled
+Returns:
+true if it succeeds, false otherwise
+isFeroxExitWarningOnHighRiskWorldEnabled
+public static boolean isFeroxExitWarningOnHighRiskWorldEnabled()
+Checks if the exit warning is enabled for Ferox while on a high risk world
+Returns:
+true if it is, false otherwise
+toggleWildernessLeversWarning
+public static boolean toggleWildernessLeversWarning​(boolean on)
+Toggles whether the wilderness teleport levers warning is on or off
+Parameters:
+on - whether the warning should be enabled
+Returns:
+true if it succeeds, false otherwise
+isWildernessLeversWarningEnabled
+public static boolean isWildernessLeversWarningEnabled()
+Checks if the wilderness teleport levers warning is on or off
+Returns:
+true if it is, false otherwise
+toggleBuyPriceWarning
+public static boolean toggleBuyPriceWarning​(boolean on)
+Toggles whether the buy price warning is on or off
+Parameters:
+on - whether the warning should be enabled
+Returns:
+true if it succeeds, false otherwise
+isBuyPriceWarningEnabled
+public static boolean isBuyPriceWarningEnabled()
+Checks if the buy price warning is enabled
+Returns:
+false currently as the option isn't enabled in game yet
+getPlayerAttackOptionsMode
+public static ActionMode getPlayerAttackOptionsMode()
+Returns the current ActionMode for player attack options
+Returns:
+player attack options ActionMode
+setPlayerAttackOptionsMode
+public static boolean setPlayerAttackOptionsMode​(ActionMode mode)
+Sets the player attack options mode
+Returns:
+true if it succeeds, false otherwise
+setNPCAttackOptionsMode
+public static boolean setNPCAttackOptionsMode​(ActionMode mode)
+Sets the NPC attack options mode
+Returns:
+true if it succeeds, false otherwise
+getNPCAttackOptionsMode
+public static ActionMode getNPCAttackOptionsMode()
+Returns the current ActionMode for NPC attack options
+Returns:
+NPC attack options ActionMode
+areLootNotificationsEnabled
+public static boolean areLootNotificationsEnabled()
+Checks whether loot notifications are enabled or not
+getLootDropMinimumValue
+public static int getLootDropMinimumValue()
+Gets the minimum value set for loot drop notifications
+toggleLootNotifications
+public static boolean toggleLootNotifications​(boolean on)
+Turns the loot notifications on or off Does not do initial setting value for loot drop notifications
+Parameters:
+on -
+Returns:
+isSkullPreventionActive
+public static boolean isSkullPreventionActive()
+Checks whether skull prevention is active or not
+toggleSkullPrevention
+public static boolean toggleSkullPrevention​(boolean on)
+Turns skull prevention on or off
+Parameters:
+on -
+Returns:
+restoreDefaultKeybinds
+public static boolean restoreDefaultKeybinds()
+toggleSetting
+public static boolean toggleSetting​(ClientSettings.SettingsTab tab, java.lang.String settingLabel, Condition completedCondition)
+setDefaultZoom
+public static boolean setDefaultZoom()
+Sets the zoom to the default zoom value
+Returns:
+whether zoom matches default value after setting it
+isZoomingEnabled
+public static boolean isZoomingEnabled()
+Checks if scroll to zoom is enabled on the account
+Returns:
+true if enabled, false otherwise
+isShiftInteractionEnabled
+@Deprecated public static boolean isShiftInteractionEnabled()
+Deprecated.
+See isShiftClickDroppingEnabled()
+isTradeDelayEnabled
+public static boolean isTradeDelayEnabled()
+toggleTradeDelay
+public static boolean toggleTradeDelay​(boolean on)
+isAmmoAutoEquipping
+public static boolean isAmmoAutoEquipping()
+toggleAmmoAutoEquipping
+public static boolean toggleAmmoAutoEquipping​(boolean on)
+areRunesAutoPouching
+public static boolean areRunesAutoPouching()
+toggleRuneAutoPouching
+public static boolean toggleRuneAutoPouching​(boolean on)
+areCollectionLogNotificationsEnabled
+public static boolean areCollectionLogNotificationsEnabled()
+areCollectionLogPopupsEnabled
+public static boolean areCollectionLogPopupsEnabled()
+toggleCollectionLogNotifications
+public static boolean toggleCollectionLogNotifications​(boolean on)
+toggleCollectionLogPopups
+public static boolean toggleCollectionLogPopups​(boolean on)
+getMusicVolume
+public static int getMusicVolume()
+Gets the music volume
+getSoundEffectVolume
+public static int getSoundEffectVolume()
+Gets the sound effect volume
+getAreaVolume
+public static int getAreaVolume()
+Gets the area volume
+getBrightness
+public static double getBrightness()
+Gets the brightness level
+isWorldHopConfirmationEnabled
+public static boolean isWorldHopConfirmationEnabled()
+toggleWorldHopConfirmation
+public static boolean toggleWorldHopConfirmation​(boolean enabled)
+isMakeXDartsEnabled
+public static boolean isMakeXDartsEnabled()
+toggleMakeXDarts
+public static boolean toggleMakeXDarts​(boolean enabled)
+getMinimumAlchWarningValue
+public static int getMinimumAlchWarningValue()
+setMinimumAlchWarningValue
+public static boolean setMinimumAlchWarningValue​(int value)
+getMinimumDropWarningValue
+public static int getMinimumDropWarningValue()
+setMinimumDropWarningValue
+public static boolean setMinimumDropWarningValue​(int value)
+getEnergyThresholdToEnableRunning
+public static int getEnergyThresholdToEnableRunning()
+setEnergyThresholdToEnableRunning
+public static boolean setEnergyThresholdToEnableRunning​(int value)

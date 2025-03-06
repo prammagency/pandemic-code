@@ -1,0 +1,35 @@
+{
+  "name": "HitSplatListener",
+  "full_name": "org.dreambot.api.script.listener.HitSplatListener",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/script/listener/HitSplatListener.html",
+  "type": "interface",
+  "package": "org.dreambot.api.script.listener",
+  "description": "",
+  "page_structure": {
+    "type": "interface",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "onHitSplatAdded",
+      "signature": "default void onHitSplatAdded\u200b(Entity entity, int type, int damage, int id, int special, int gameCycle)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

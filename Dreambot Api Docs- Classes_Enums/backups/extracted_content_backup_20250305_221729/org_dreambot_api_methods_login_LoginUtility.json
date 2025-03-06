@@ -1,0 +1,664 @@
+{
+  "name": "LoginUtility",
+  "full_name": "org.dreambot.api.methods.login.LoginUtility",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/login/LoginUtility.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.login",
+  "description": "This is an API class used to give easier access to scripters to writing their own login handlers. Created by Nezz on 2/20/2018.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "RSLoginResponse",
+      "return_type": "RSLoginResponse",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Logs in to the client with the given Account",
+      "deprecated": false
+    },
+    {
+      "name": "LoginStage",
+      "return_type": "LoginStage",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Performs the LoginStage operation.",
+      "deprecated": false
+    },
+    {
+      "name": "isEnterToLogin",
+      "signature": "public static boolean isEnterToLogin()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "See setEnterToLogin",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setEnterToLogin",
+      "signature": "public static void setEnterToLogin\u200b(boolean b)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "At the login screen you can hit enter instead of clicking the login button to open up the email/password interface This sets a boolean to true/false as to whether or not to use enter instead of clicking.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setEscToCancel",
+      "signature": "public static void setEscToCancel\u200b(boolean b)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "At the login screen you can hit escape instead of clicking the cancel button",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isEscToCancel",
+      "signature": "public static boolean isEscToCancel()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "see setEscToCancel(boolean)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLoginEmail",
+      "signature": "public static java.lang.String getLoginEmail()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the currently typed text in the email field of the login screen.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLoginPassword",
+      "signature": "public static java.lang.String getLoginPassword()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the currently typed text in the password field of the login screen. Note: Unknown what it returns if \"hide password\" is turned on.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getStage",
+      "signature": "public static LoginStage getStage()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the stage.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getExistingUserButton",
+      "signature": "public static java.awt.Rectangle getExistingUserButton()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the \"Existing user\" button rectangle",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "login",
+      "signature": "public static RSLoginResponse login()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Logs in to the client with the currently set Account",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setAccount",
+      "signature": "public static void setAccount\u200b(org.dreambot.core.Account account)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the account.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getResponse",
+      "signature": "public static RSLoginResponse getResponse()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the current login response of the login screen, based on the response text in the login screen.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getIndex",
+      "signature": "public static int getIndex()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the current login index of the game.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAccountStatus",
+      "signature": "public static int getAccountStatus()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the account status, only used to determine locked vs banned in login screen.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isWorldScreenOpen",
+      "signature": "public static boolean isWorldScreenOpen()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the world select screen is open",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "openWorldScreen",
+      "signature": "@Deprecated public static boolean openWorldScreen()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the openWorldScreen operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "closeWorldScreen",
+      "signature": "public static boolean closeWorldScreen()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Closes the world select screen",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOpenWorldScreenButton",
+      "signature": "@Deprecated public static java.awt.Rectangle getOpenWorldScreenButton()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the rectangle of the \"Select world\" button on the main login screen.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "changeWorld",
+      "signature": "@Deprecated public static boolean changeWorld\u200b(int givenWorld)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Changes the selected world to the given world Note: Based on getWorldRectangle, see method docs for possible errors.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWorldRectangle",
+      "signature": "@Deprecated public static java.awt.Rectangle getWorldRectangle\u200b(int world)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the rectangle for the world button in the login world screen. Possible Errors: If RS changes their world column list size, rectangle is returned incorrectly. If these do change, you have to set them yourself with setWorldListColumnSize, and then it will work. If RS changes the world list base X/Y you will have to set them yourself using the methods setBaseX, setBaseY These are not things easily auto detected by our client, and as such are manually updated and hardcoded.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWorldIndex",
+      "signature": "@Deprecated public static int getWorldIndex\u200b(int world)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the location in the worlds array for the given world, used in login world screen",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCancelLoginButton",
+      "signature": "public static java.awt.Rectangle getCancelLoginButton()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the cancelloginbutton.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMembersBackButton",
+      "signature": "public static java.awt.Rectangle getMembersBackButton()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the membersbackbutton.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getContinueButton",
+      "signature": "public static java.awt.Rectangle getContinueButton()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the continuebutton.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getBackButtonOnLauncher",
+      "signature": "public static java.awt.Rectangle getBackButtonOnLauncher()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the backbuttononlauncher.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAcceptTOSButton",
+      "signature": "public static java.awt.Rectangle getAcceptTOSButton()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the accepttosbutton.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTryAgainButton",
+      "signature": "public static java.awt.Rectangle getTryAgainButton()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the tryagainbutton.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getBackButton",
+      "signature": "public static java.awt.Rectangle getBackButton()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the backbutton.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDisabledBackButton",
+      "signature": "public static java.awt.Rectangle getDisabledBackButton()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the disabledbackbutton.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCancelWorldButton",
+      "signature": "public static java.awt.Rectangle getCancelWorldButton()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the cancelworldbutton.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRememberUsernameButton",
+      "signature": "public static java.awt.Rectangle getRememberUsernameButton()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the rememberusernamebutton.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDisconnectedBackButton",
+      "signature": "public static java.awt.Rectangle getDisconnectedBackButton()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the disconnectedbackbutton.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getPlayNowButton",
+      "signature": "public static java.awt.Rectangle getPlayNowButton()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the playnowbutton.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getPlayNowTryAgainButton",
+      "signature": "public static java.awt.Rectangle getPlayNowTryAgainButton()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the playnowtryagainbutton.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMustAcceptTosBackButton",
+      "signature": "public static java.awt.Rectangle getMustAcceptTosBackButton()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the mustaccepttosbackbutton.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWorldListColumnSize",
+      "signature": "@Deprecated public static int getWorldListColumnSize()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "World List Column Size is the number of worlds listed in the columns (usually you can just use the first column) Used to determine location of world selection buttons. Note: RS may change these, usually they change every time they update the world count.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setWorldListColumnSize",
+      "signature": "@Deprecated public static void setWorldListColumnSize\u200b(int worldListColumnSize)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the worldlistcolumnsize.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getBaseX",
+      "signature": "public static int getBaseX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the basex.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setBaseX",
+      "signature": "public static void setBaseX\u200b(int baseX)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the basex.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getBaseY",
+      "signature": "public static int getBaseY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the basey.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setBaseY",
+      "signature": "public static void setBaseY\u200b(int baseY)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the basey.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isRememberUsername",
+      "signature": "public static boolean isRememberUsername()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if rememberusername.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setRememberUsername",
+      "signature": "public static void setRememberUsername\u200b(boolean rememberUsername)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the rememberusername.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isNoInputLogin",
+      "signature": "public static boolean isNoInputLogin()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if noinputlogin.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setNoInputLogin",
+      "signature": "public static void setNoInputLogin\u200b(boolean useSetters)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the noinputlogin.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "enterUsername",
+      "signature": "public static void enterUsername\u200b(java.lang.String username)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the enterUsername operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "enterPassword",
+      "signature": "public static void enterPassword\u200b(java.lang.String password)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the enterPassword operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getHopWorld",
+      "signature": "public static int getHopWorld()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the hopworld.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setHopWorld",
+      "signature": "public static void setHopWorld\u200b(int hopWorld)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the hopworld.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

@@ -1,0 +1,231 @@
+{
+  "name": "GrandExchangeItem",
+  "full_name": "org.dreambot.api.methods.grandexchange.GrandExchangeItem",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/grandexchange/GrandExchangeItem.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.grandexchange",
+  "description": "Note: This shouldn't be used by API users, it's an internal constructor.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Item",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Item that is in the trading post item slot",
+      "deprecated": false
+    },
+    {
+      "name": "Status",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Status of the trading post item based on the current byte value.",
+      "deprecated": false
+    },
+    {
+      "name": "getStatus",
+      "signature": "public Status getStatus()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Status of the trading post item based on the current byte value.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isCanceled",
+      "signature": "public boolean isCanceled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns if the item was manually aborted",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isReadyToCollect",
+      "signature": "public boolean isReadyToCollect()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns whether the item is ready to be collected or not",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isBuyOffer",
+      "signature": "public boolean isBuyOffer()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the offer is a buy offer",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isSellOffer",
+      "signature": "public boolean isSellOffer()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the offer is a sell offer",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getValue",
+      "signature": "public int getValue()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the total value of the trading post item",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getItem",
+      "signature": "public Item getItem()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Item that is in the trading post item slot",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getName",
+      "signature": "public java.lang.String getName()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the name of the trading post item",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSlot",
+      "signature": "public int getSlot()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the slot.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTransferredAmount",
+      "signature": "public int getTransferredAmount()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the transferredamount.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTransferredValue",
+      "signature": "public int getTransferredValue()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the transferredvalue.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getByte",
+      "signature": "public byte getByte()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the byte value of the state for the trading post item",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getID",
+      "signature": "public int getID()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the ID of the trading post item",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getPrice",
+      "signature": "public int getPrice()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the price of the trading post item",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAmount",
+      "signature": "public int getAmount()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Amount of the trading post item",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

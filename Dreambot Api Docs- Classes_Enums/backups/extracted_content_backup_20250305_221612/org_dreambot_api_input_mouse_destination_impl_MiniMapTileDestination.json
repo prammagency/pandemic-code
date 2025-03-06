@@ -1,0 +1,103 @@
+{
+  "name": "MiniMapTileDestination",
+  "full_name": "org.dreambot.api.input.mouse.destination.impl.MiniMapTileDestination",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/input/mouse/destination/impl/MiniMapTileDestination.html",
+  "type": "class",
+  "package": "org.dreambot.api.input.mouse.destination.impl",
+  "description": "Creates an instance of a minimap destination from a given tile",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.input.mouse.destination.AbstractMouseDestination",
+    "Tile"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "getArea",
+      "signature": "public java.awt.geom.Area getArea()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the area associated with the MiniMapTileDestination represented as an Ellipse2D with a diameter of Walking.getMinimapTargetSize().",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getBoundingBox",
+      "signature": "public java.awt.Rectangle getBoundingBox()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get the bounding box for the MiniMapTileDestination represented as a Rectangle with a width and height of Walking.getMinimapTargetSize().",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSuitablePoint",
+      "signature": "public java.awt.Point getSuitablePoint()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: AbstractMouseDestination",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDestinationShape",
+      "signature": "public java.awt.Shape getDestinationShape()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the abstract destination shape.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isVisible",
+      "signature": "public boolean isVisible()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines whether this destination is visible.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "type",
+      "signature": "public int type()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Mouse destination type id.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

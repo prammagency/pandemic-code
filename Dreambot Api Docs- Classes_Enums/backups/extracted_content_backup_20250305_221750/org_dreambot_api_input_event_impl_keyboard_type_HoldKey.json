@@ -1,0 +1,149 @@
+{
+  "name": "HoldKey",
+  "full_name": "org.dreambot.api.input.event.impl.keyboard.type.HoldKey",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/keyboard/type/HoldKey.html",
+  "type": "class",
+  "package": "org.dreambot.api.input.event.impl.keyboard.type",
+  "description": "Event to handle holding a key Does not create a new thread on its own, you must put this call inside a thread if you require it to be threaded. Will repeatedly call pressed and typed(if needed) during hold process. This is the current expected behavior for the Windows OS with most implementations of the JVM If you find that is incorrect, please report to a client developer what your OS and JVM is, so we can do more testing. Runs until the release condition is met, it times out, or is forcefully stopped using Keyboard.markHeld(Key, boolean) with false Calls a key released event at the end",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.input.event.AbstractEvent",
+    "org.dreambot.api.input.event.impl.keyboard.type.AbstractKeyEvent"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Condition",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the Condition operation.",
+      "deprecated": false
+    },
+    {
+      "name": "completed",
+      "signature": "public Condition completed()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: AbstractEvent",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "run",
+      "signature": "public void run()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the run operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRelease",
+      "signature": "public Condition getRelease()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the release.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTimeout",
+      "signature": "public long getTimeout()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the timeout.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setRelease",
+      "signature": "public void setRelease\u200b(Condition release)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the release.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setTimeout",
+      "signature": "public void setTimeout\u200b(long timeout)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the timeout.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "equals",
+      "signature": "public boolean equals\u200b(java.lang.Object o)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the equals operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hashCode",
+      "signature": "public int hashCode()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if has hcode.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toString",
+      "signature": "public java.lang.String toString()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the toString operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

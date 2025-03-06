@@ -1,0 +1,222 @@
+{
+  "name": "Prayers",
+  "full_name": "org.dreambot.api.methods.prayer.Prayers",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/prayer/Prayers.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.prayer",
+  "description": "Flicks prayer",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Prayer",
+      "return_type": "java.util.List<Prayer>",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Returns a list of all selected quick prayers",
+      "deprecated": false
+    },
+    {
+      "name": "WidgetChild",
+      "return_type": "WidgetChild",
+      "modifiers": [
+        "static"
+      ],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "isActive",
+      "signature": "public static boolean isActive\u200b(Prayer prayer)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the provided prayer is active",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "openTab",
+      "signature": "public static boolean openTab()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Opens the prayer Tab",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isOpen",
+      "signature": "public static boolean isOpen()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isQuickPrayerActive",
+      "signature": "public static boolean isQuickPrayerActive()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getActive",
+      "signature": "public static Prayer[] getActive()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWidgetChild",
+      "signature": "public static WidgetChild getWidgetChild\u200b(Prayer prayer)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWidgetChildQuickPrayer",
+      "signature": "public static WidgetChild getWidgetChildQuickPrayer\u200b(Prayer prayer)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleQuickPrayer",
+      "signature": "public static boolean toggleQuickPrayer\u200b(boolean active)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Toggles quick prayer",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getQuickPrayers",
+      "signature": "public static java.util.List<Prayer> getQuickPrayers()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns a list of all selected quick prayers",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setupQuickPrayers",
+      "signature": "public static boolean setupQuickPrayers\u200b(Prayer... prayers)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This will set up your quick prayers to enable only the given Prayer's, disabling any others currently enabled.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggle",
+      "signature": "public static boolean toggle\u200b(boolean active, Prayer prayer)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Toggles prayer",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "flick",
+      "signature": "public static boolean flick\u200b(Prayer prayer, int delay)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Flicks prayer",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isPrayerFilteringEnabled",
+      "signature": "public static boolean isPrayerFilteringEnabled()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This is used to check if prayer filtering is enabled. If prayer filtering is enabled, it does not necessarily mean something is currently being filtered, just that the ability to do so will be available via the \"Filter\" button in the Prayer tab.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setPrayerFilteringEnabled",
+      "signature": "public static boolean setPrayerFilteringEnabled\u200b(boolean enabled)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Either enables or disables the prayer filtering options in the Prayer tab",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

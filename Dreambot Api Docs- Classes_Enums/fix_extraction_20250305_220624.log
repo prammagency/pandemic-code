@@ -1,0 +1,218 @@
+2025-03-05 22:06:24,402 - INFO - Starting extraction improvement process
+2025-03-05 22:06:24,403 - INFO - Common issues analysis:
+2025-03-05 22:06:24,404 - INFO -   methods (possible data class): 7 occurrences
+2025-03-05 22:06:24,404 - INFO -   methods and fields: 3 occurrences
+2025-03-05 22:06:24,404 - INFO - Processing files needing attention...
+2025-03-05 22:06:24,406 - INFO - Fixing org_dreambot_api_Client.json (Completeness: 0.00)
+2025-03-05 22:06:24,407 - WARNING - Could not fix issues in org_dreambot_api_Client.json
+2025-03-05 22:06:24,407 - INFO - Fixing org_dreambot_api_methods_walking_web_node_AbstractWebNode.json (Completeness: 0.00)
+2025-03-05 22:06:24,407 - WARNING - Could not fix issues in org_dreambot_api_methods_walking_web_node_AbstractWebNode.json
+2025-03-05 22:06:24,408 - INFO - Fixing org_dreambot_api_methods_walking_web_node_impl_items_RequiredItem.json (Completeness: 0.00)
+2025-03-05 22:06:24,408 - WARNING - Could not fix issues in org_dreambot_api_methods_walking_web_node_impl_items_RequiredItem.json
+2025-03-05 22:06:24,409 - INFO - Fixing org_dreambot_api_methods_walking_web_node_impl_items_RequiredItem_RequiredItemBuilder.json (Completeness: 0.00)
+2025-03-05 22:06:24,409 - WARNING - Could not fix issues in org_dreambot_api_methods_walking_web_node_impl_items_RequiredItem_RequiredItemBuilder.json
+2025-03-05 22:06:24,409 - INFO - Fixing org_dreambot_api_methods_walking_web_node_impl_TollWebNode.json (Completeness: 0.00)
+2025-03-05 22:06:24,410 - WARNING - Could not fix issues in org_dreambot_api_methods_walking_web_node_impl_TollWebNode.json
+2025-03-05 22:06:24,410 - INFO - Fixing org_dreambot_api_methods_world_World.json (Completeness: 0.00)
+2025-03-05 22:06:24,411 - WARNING - Could not fix issues in org_dreambot_api_methods_world_World.json
+2025-03-05 22:06:24,411 - INFO - Fixing org_dreambot_api_methods_world_World_WorldBuilder.json (Completeness: 0.00)
+2025-03-05 22:06:24,411 - WARNING - Could not fix issues in org_dreambot_api_methods_world_World_WorldBuilder.json
+2025-03-05 22:06:24,412 - INFO - Fixing org_dreambot_api_randoms_RandomManager.json (Completeness: 0.00)
+2025-03-05 22:06:24,412 - WARNING - Could not fix issues in org_dreambot_api_randoms_RandomManager.json
+2025-03-05 22:06:24,412 - INFO - Fixing org_dreambot_api_script_AbstractScript.json (Completeness: 0.00)
+2025-03-05 22:06:24,413 - WARNING - Could not fix issues in org_dreambot_api_script_AbstractScript.json
+2025-03-05 22:06:24,413 - INFO - Fixing org_dreambot_api_script_event_impl_ActionEvent.json (Completeness: 0.00)
+2025-03-05 22:06:24,413 - WARNING - Could not fix issues in org_dreambot_api_script_event_impl_ActionEvent.json
+2025-03-05 22:06:24,414 - INFO - Fixing org_dreambot_api_script_listener_ChatListener.json (Completeness: 0.00)
+2025-03-05 22:06:24,414 - WARNING - Could not fix issues in org_dreambot_api_script_listener_ChatListener.json
+2025-03-05 22:06:24,415 - INFO - Fixing org_dreambot_api_script_schedule_ScriptSchedule.json (Completeness: 0.00)
+2025-03-05 22:06:24,415 - WARNING - Could not fix issues in org_dreambot_api_script_schedule_ScriptSchedule.json
+2025-03-05 22:06:24,415 - INFO - Fixing org_dreambot_api_script_ScriptManager.json (Completeness: 0.00)
+2025-03-05 22:06:24,416 - WARNING - Could not fix issues in org_dreambot_api_script_ScriptManager.json
+2025-03-05 22:06:24,416 - INFO - Fixing org_dreambot_api_utilities_Logger.json (Completeness: 0.00)
+2025-03-05 22:06:24,416 - WARNING - Could not fix issues in org_dreambot_api_utilities_Logger.json
+2025-03-05 22:06:24,416 - INFO - Fixing org_dreambot_api_utilities_Timer.json (Completeness: 0.00)
+2025-03-05 22:06:24,417 - WARNING - Could not fix issues in org_dreambot_api_utilities_Timer.json
+2025-03-05 22:06:24,417 - INFO - Fixing org_dreambot_api_wrappers_cache_nodes_NodeSub.json (Completeness: 0.00)
+2025-03-05 22:06:24,417 - WARNING - Could not fix issues in org_dreambot_api_wrappers_cache_nodes_NodeSub.json
+2025-03-05 22:06:24,418 - INFO - Fixing org_dreambot_api_wrappers_graphics_ModelWrapper.json (Completeness: 0.00)
+2025-03-05 22:06:24,418 - WARNING - Could not fix issues in org_dreambot_api_wrappers_graphics_ModelWrapper.json
+2025-03-05 22:06:24,418 - INFO - Fixing org_dreambot_api_wrappers_graphics_Projectile.json (Completeness: 0.00)
+2025-03-05 22:06:24,419 - WARNING - Could not fix issues in org_dreambot_api_wrappers_graphics_Projectile.json
+2025-03-05 22:06:24,419 - INFO - Fixing org_dreambot_api_wrappers_interactive_composite_ItemComposite.json (Completeness: 0.00)
+2025-03-05 22:06:24,420 - WARNING - Could not fix issues in org_dreambot_api_wrappers_interactive_composite_ItemComposite.json
+2025-03-05 22:06:24,420 - INFO - Fixing org_dreambot_api_wrappers_interactive_GameObject.json (Completeness: 0.00)
+2025-03-05 22:06:24,420 - WARNING - Could not fix issues in org_dreambot_api_wrappers_interactive_GameObject.json
+2025-03-05 22:06:24,421 - INFO - Fixing org_dreambot_api_wrappers_interactive_NPC.json (Completeness: 0.00)
+2025-03-05 22:06:24,421 - WARNING - Could not fix issues in org_dreambot_api_wrappers_interactive_NPC.json
+2025-03-05 22:06:24,422 - INFO - Fixing org_dreambot_api_wrappers_interactive_Player.json (Completeness: 0.00)
+2025-03-05 22:06:24,422 - WARNING - Could not fix issues in org_dreambot_api_wrappers_interactive_Player.json
+2025-03-05 22:06:24,422 - INFO - Fixing org_dreambot_api_wrappers_items_GroundItem.json (Completeness: 0.00)
+2025-03-05 22:06:24,423 - WARNING - Could not fix issues in org_dreambot_api_wrappers_items_GroundItem.json
+2025-03-05 22:06:24,423 - INFO - Fixing org_dreambot_api_wrappers_items_Item.json (Completeness: 0.00)
+2025-03-05 22:06:24,423 - WARNING - Could not fix issues in org_dreambot_api_wrappers_items_Item.json
+2025-03-05 22:06:24,423 - INFO - Fixing org_dreambot_api_wrappers_map_TileReference.json (Completeness: 0.00)
+2025-03-05 22:06:24,424 - WARNING - Could not fix issues in org_dreambot_api_wrappers_map_TileReference.json
+2025-03-05 22:06:24,424 - INFO - Fixing org_dreambot_api_wrappers_widgets_GameMenu.json (Completeness: 0.00)
+2025-03-05 22:06:24,424 - WARNING - Could not fix issues in org_dreambot_api_wrappers_widgets_GameMenu.json
+2025-03-05 22:06:24,424 - INFO - Fixing org_dreambot_api_wrappers_widgets_Menu.json (Completeness: 0.00)
+2025-03-05 22:06:24,425 - WARNING - Could not fix issues in org_dreambot_api_wrappers_widgets_Menu.json
+2025-03-05 22:06:24,425 - INFO - Fixing org_dreambot_api_wrappers_widgets_MenuRow.json (Completeness: 0.00)
+2025-03-05 22:06:24,425 - WARNING - Could not fix issues in org_dreambot_api_wrappers_widgets_MenuRow.json
+2025-03-05 22:06:24,426 - INFO - Fixing org_dreambot_api_wrappers_widgets_WidgetChild.json (Completeness: 0.00)
+2025-03-05 22:06:24,426 - WARNING - Could not fix issues in org_dreambot_api_wrappers_widgets_WidgetChild.json
+2025-03-05 22:06:24,426 - INFO - Fixing org_dreambot_core_Instance.json (Completeness: 0.00)
+2025-03-05 22:06:24,427 - WARNING - Could not fix issues in org_dreambot_core_Instance.json
+2025-03-05 22:06:24,427 - INFO - Fixing org_dreambot_api_methods_walking_TileObstacle.json (Completeness: 0.00)
+2025-03-05 22:06:24,427 - WARNING - Could not fix issues in org_dreambot_api_methods_walking_TileObstacle.json
+2025-03-05 22:06:24,428 - INFO - Fixing org_dreambot_api_methods_walking_path_AbstractPath.json (Completeness: 0.00)
+2025-03-05 22:06:24,428 - WARNING - Could not fix issues in org_dreambot_api_methods_walking_path_AbstractPath.json
+2025-03-05 22:06:24,428 - INFO - Fixing org_dreambot_api_methods_walking_web_node_impl_EntranceWebNode.json (Completeness: 0.00)
+2025-03-05 22:06:24,428 - WARNING - Could not fix issues in org_dreambot_api_methods_walking_web_node_impl_EntranceWebNode.json
+2025-03-05 22:06:24,429 - INFO - Fixing org_dreambot_api_methods_walking_pathfinding_impl_web_WebPathQuery_WebPathQueryBuilder.json (Completeness: 0.00)
+2025-03-05 22:06:24,429 - WARNING - Could not fix issues in org_dreambot_api_methods_walking_pathfinding_impl_web_WebPathQuery_WebPathQueryBuilder.json
+2025-03-05 22:06:24,429 - INFO - Fixing org_dreambot_api_ClientSettings.json (Completeness: 0.00)
+2025-03-05 22:06:24,430 - WARNING - Could not fix issues in org_dreambot_api_ClientSettings.json
+2025-03-05 22:06:24,430 - INFO - Fixing org_dreambot_api_input_event_impl_keyboard_KeyboardEvent.json (Completeness: 0.00)
+2025-03-05 22:06:24,430 - WARNING - Could not fix issues in org_dreambot_api_input_event_impl_keyboard_KeyboardEvent.json
+2025-03-05 22:06:24,431 - INFO - Fixing org_dreambot_api_input_event_impl_keyboard_type_AbstractKeyEvent.json (Completeness: 0.00)
+2025-03-05 22:06:24,431 - WARNING - Could not fix issues in org_dreambot_api_input_event_impl_keyboard_type_AbstractKeyEvent.json
+2025-03-05 22:06:24,431 - INFO - Fixing org_dreambot_api_input_event_impl_mouse_MouseEvent.json (Completeness: 0.00)
+2025-03-05 22:06:24,432 - WARNING - Could not fix issues in org_dreambot_api_input_event_impl_mouse_MouseEvent.json
+2025-03-05 22:06:24,432 - INFO - Fixing org_dreambot_api_input_Mouse.json (Completeness: 0.00)
+2025-03-05 22:06:24,432 - WARNING - Could not fix issues in org_dreambot_api_input_Mouse.json
+2025-03-05 22:06:24,433 - INFO - Fixing org_dreambot_api_input_mouse_algorithm_MouseProfile.json (Completeness: 0.00)
+2025-03-05 22:06:24,433 - WARNING - Could not fix issues in org_dreambot_api_input_mouse_algorithm_MouseProfile.json
+2025-03-05 22:06:24,433 - INFO - Fixing org_dreambot_api_methods_Animations.json (Completeness: 0.00)
+2025-03-05 22:06:24,642 - INFO - Successfully fixed org_dreambot_api_methods_Animations.json
+2025-03-05 22:06:24,643 - INFO - Fixing org_dreambot_api_methods_container_impl_Inventory.json (Completeness: 0.00)
+2025-03-05 22:06:24,643 - WARNING - Could not fix issues in org_dreambot_api_methods_container_impl_Inventory.json
+2025-03-05 22:06:24,643 - INFO - Fixing org_dreambot_api_methods_cs2_RuneScriptEvent.json (Completeness: 0.00)
+2025-03-05 22:06:24,644 - WARNING - Could not fix issues in org_dreambot_api_methods_cs2_RuneScriptEvent.json
+2025-03-05 22:06:24,644 - INFO - Fixing org_dreambot_api_methods_cs2_ScriptId.json (Completeness: 0.00)
+2025-03-05 22:06:24,667 - INFO - Successfully fixed org_dreambot_api_methods_cs2_ScriptId.json
+2025-03-05 22:06:24,668 - INFO - Fixing org_dreambot_api_methods_cs2_VarClientString.json (Completeness: 0.00)
+2025-03-05 22:06:24,686 - INFO - Successfully fixed org_dreambot_api_methods_cs2_VarClientString.json
+2025-03-05 22:06:24,686 - INFO - Fixing org_dreambot_api_methods_depositbox_DepositBox.json (Completeness: 0.00)
+2025-03-05 22:06:24,687 - WARNING - Could not fix issues in org_dreambot_api_methods_depositbox_DepositBox.json
+2025-03-05 22:06:24,687 - INFO - Fixing org_dreambot_api_methods_walking_pathfinding_impl_web_WebPathResponse.json (Completeness: 0.00)
+2025-03-05 22:06:24,688 - WARNING - Could not fix issues in org_dreambot_api_methods_walking_pathfinding_impl_web_WebPathResponse.json
+2025-03-05 22:06:24,688 - INFO - Fixing org_dreambot_api_methods_event_KeyboardEvent.json (Completeness: 0.00)
+2025-03-05 22:06:24,688 - WARNING - Could not fix issues in org_dreambot_api_methods_event_KeyboardEvent.json
+2025-03-05 22:06:24,689 - INFO - Fixing org_dreambot_api_methods_hint_HintArrow.json (Completeness: 0.00)
+2025-03-05 22:06:24,689 - WARNING - Could not fix issues in org_dreambot_api_methods_hint_HintArrow.json
+2025-03-05 22:06:24,689 - INFO - Fixing org_dreambot_api_methods_diary_Diary.json (Completeness: 0.00)
+2025-03-05 22:06:24,689 - WARNING - Could not fix issues in org_dreambot_api_methods_diary_Diary.json
+2025-03-05 22:06:24,689 - INFO - Fixing org_dreambot_api_methods_input_Keyboard.json (Completeness: 0.00)
+2025-03-05 22:06:24,689 - WARNING - Could not fix issues in org_dreambot_api_methods_input_Keyboard.json
+2025-03-05 22:06:24,690 - INFO - Fixing org_dreambot_api_methods_walking_pathfinding_impl_web_WebPathQuery.json (Completeness: 0.00)
+2025-03-05 22:06:24,690 - WARNING - Could not fix issues in org_dreambot_api_methods_walking_pathfinding_impl_web_WebPathQuery.json
+2025-03-05 22:06:24,690 - INFO - Fixing org_dreambot_api_methods_walking_pathfinding_impl_web_WebPathNode.json (Completeness: 0.00)
+2025-03-05 22:06:24,691 - WARNING - Could not fix issues in org_dreambot_api_methods_walking_pathfinding_impl_web_WebPathNode.json
+2025-03-05 22:06:24,691 - INFO - Fixing org_dreambot_api_methods_ignore_IgnoredProvider.json (Completeness: 0.00)
+2025-03-05 22:06:24,691 - WARNING - Could not fix issues in org_dreambot_api_methods_ignore_IgnoredProvider.json
+2025-03-05 22:06:24,691 - INFO - Fixing org_dreambot_api_methods_walking_pathfinding_impl_PathFinder.json (Completeness: 0.00)
+2025-03-05 22:06:24,692 - WARNING - Could not fix issues in org_dreambot_api_methods_walking_pathfinding_impl_PathFinder.json
+2025-03-05 22:06:24,692 - INFO - Fixing org_dreambot_api_methods_walking_pathfinding_data_TileFlags.json (Completeness: 0.00)
+2025-03-05 22:06:24,744 - INFO - Successfully fixed org_dreambot_api_methods_walking_pathfinding_data_TileFlags.json
+2025-03-05 22:06:24,745 - INFO - Fixing org_dreambot_api_methods_ViewportTools.json (Completeness: 0.00)
+2025-03-05 22:06:24,745 - WARNING - Could not fix issues in org_dreambot_api_methods_ViewportTools.json
+2025-03-05 22:06:24,746 - INFO - Fixing org_dreambot_api_methods_walking_pathfinding_impl_web_WebFinder.json (Completeness: 0.00)
+2025-03-05 22:06:24,746 - WARNING - Could not fix issues in org_dreambot_api_methods_walking_pathfinding_impl_web_WebFinder.json
+2025-03-05 22:06:24,747 - INFO - Fixing org_dreambot_api_methods_settings_vars_VarBit.json (Completeness: 0.00)
+2025-03-05 22:06:24,827 - INFO - Successfully fixed org_dreambot_api_methods_settings_vars_VarBit.json
+2025-03-05 22:06:24,828 - INFO - Fixing org_dreambot_api_methods_quest_book_Quest.json (Completeness: 0.00)
+2025-03-05 22:06:24,828 - WARNING - Could not fix issues in org_dreambot_api_methods_quest_book_Quest.json
+2025-03-05 22:06:24,828 - INFO - Fixing org_dreambot_api_methods_login_LoginUtility.json (Completeness: 0.00)
+2025-03-05 22:06:24,829 - WARNING - Could not fix issues in org_dreambot_api_methods_login_LoginUtility.json
+2025-03-05 22:06:24,829 - INFO - Fixing org_dreambot_api_methods_login_LoginStats.json (Completeness: 0.00)
+2025-03-05 22:06:24,829 - WARNING - Could not fix issues in org_dreambot_api_methods_login_LoginStats.json
+2025-03-05 22:06:24,830 - INFO - Fixing org_dreambot_api_methods_input_mouse_MouseSettings.json (Completeness: 0.00)
+2025-03-05 22:06:24,830 - WARNING - Could not fix issues in org_dreambot_api_methods_input_mouse_MouseSettings.json
+2025-03-05 22:06:24,830 - INFO - Fixing org_dreambot_api_methods_settings_vars_VarPlayer.json (Completeness: 0.00)
+2025-03-05 22:06:24,860 - INFO - Successfully fixed org_dreambot_api_methods_settings_vars_VarPlayer.json
+2025-03-05 22:06:24,860 - INFO - Fixing org_dreambot_api_script_schedule_ScheduledScript.json (Completeness: 0.10)
+2025-03-05 22:06:24,861 - WARNING - Could not fix issues in org_dreambot_api_script_schedule_ScheduledScript.json
+2025-03-05 22:06:24,861 - INFO - Fixing org_dreambot_api_wrappers_widgets_message_Message.json (Completeness: 0.10)
+2025-03-05 22:06:24,861 - WARNING - Could not fix issues in org_dreambot_api_wrappers_widgets_message_Message.json
+2025-03-05 22:06:24,862 - INFO - Fixing org_dreambot_api_wrappers_map_Region.json (Completeness: 0.10)
+2025-03-05 22:06:24,862 - WARNING - Could not fix issues in org_dreambot_api_wrappers_map_Region.json
+2025-03-05 22:06:24,862 - INFO - Fixing org_dreambot_api_wrappers_items_ItemLayer.json (Completeness: 0.10)
+2025-03-05 22:06:24,862 - WARNING - Could not fix issues in org_dreambot_api_wrappers_items_ItemLayer.json
+2025-03-05 22:06:24,863 - INFO - Fixing org_dreambot_api_wrappers_interactive_AnimableGameObject.json (Completeness: 0.10)
+2025-03-05 22:06:24,863 - WARNING - Could not fix issues in org_dreambot_api_wrappers_interactive_AnimableGameObject.json
+2025-03-05 22:06:24,863 - INFO - Fixing org_dreambot_api_script_schedule_ScriptScheduler.json (Completeness: 0.10)
+2025-03-05 22:06:24,863 - WARNING - Could not fix issues in org_dreambot_api_script_schedule_ScriptScheduler.json
+2025-03-05 22:06:24,864 - INFO - Fixing org_dreambot_api_script_listener_SpawnListener.json (Completeness: 0.10)
+2025-03-05 22:06:24,864 - WARNING - Could not fix issues in org_dreambot_api_script_listener_SpawnListener.json
+2025-03-05 22:06:24,864 - INFO - Fixing org_dreambot_api_script_loader_LocalLoader.json (Completeness: 0.10)
+2025-03-05 22:06:24,865 - WARNING - Could not fix issues in org_dreambot_api_script_loader_LocalLoader.json
+2025-03-05 22:06:24,865 - INFO - Fixing org_dreambot_api_methods_walking_web_node_impl_pathaware_FairyRingWebNode.json (Completeness: 0.10)
+2025-03-05 22:06:24,865 - WARNING - Could not fix issues in org_dreambot_api_methods_walking_web_node_impl_pathaware_FairyRingWebNode.json
+2025-03-05 22:06:24,865 - INFO - Fixing org_dreambot_api_methods_cs2_VarClientInt.json (Completeness: 0.10)
+2025-03-05 22:06:24,882 - INFO - Successfully fixed org_dreambot_api_methods_cs2_VarClientInt.json
+2025-03-05 22:06:24,883 - INFO - Fixing org_dreambot_api_methods_container_impl_Shop.json (Completeness: 0.10)
+2025-03-05 22:06:24,883 - WARNING - Could not fix issues in org_dreambot_api_methods_container_impl_Shop.json
+2025-03-05 22:06:24,884 - INFO - Fixing org_dreambot_api_input_event_impl_mouse_type_ClickEvent.json (Completeness: 0.10)
+2025-03-05 22:06:24,884 - WARNING - Could not fix issues in org_dreambot_api_input_event_impl_mouse_type_ClickEvent.json
+2025-03-05 22:06:24,884 - INFO - Fixing org_dreambot_api_input_event_impl_keyboard_type_HoldKey.json (Completeness: 0.10)
+2025-03-05 22:06:24,885 - WARNING - Could not fix issues in org_dreambot_api_input_event_impl_keyboard_type_HoldKey.json
+2025-03-05 22:06:24,885 - INFO - Fixing org_dreambot_api_data_requirements_SkillRequirement.json (Completeness: 0.10)
+2025-03-05 22:06:24,885 - WARNING - Could not fix issues in org_dreambot_api_data_requirements_SkillRequirement.json
+2025-03-05 22:06:24,885 - INFO - Fixing org_dreambot_api_methods_walking_web_node_impl_teleports_TeleportSettings.json (Completeness: 0.10)
+2025-03-05 22:06:24,886 - WARNING - Could not fix issues in org_dreambot_api_methods_walking_web_node_impl_teleports_TeleportSettings.json
+2025-03-05 22:06:24,886 - INFO - Fixing org_dreambot_api_randoms_RandomSolver.json (Completeness: 0.20)
+2025-03-05 22:06:24,886 - WARNING - Could not fix issues in org_dreambot_api_randoms_RandomSolver.json
+2025-03-05 22:06:24,887 - INFO - Fixing org_dreambot_api_wrappers_interactive_Model.json (Completeness: 0.20)
+2025-03-05 22:06:24,887 - WARNING - Could not fix issues in org_dreambot_api_wrappers_interactive_Model.json
+2025-03-05 22:06:24,887 - INFO - Fixing org_dreambot_api_wrappers_interactive_action_RSAction.json (Completeness: 0.20)
+2025-03-05 22:06:24,888 - WARNING - Could not fix issues in org_dreambot_api_wrappers_interactive_action_RSAction.json
+2025-03-05 22:06:24,888 - INFO - Fixing org_dreambot_api_wrappers_cache_nodes_MessageNode.json (Completeness: 0.20)
+2025-03-05 22:06:24,888 - WARNING - Could not fix issues in org_dreambot_api_wrappers_cache_nodes_MessageNode.json
+2025-03-05 22:06:24,888 - INFO - Fixing org_dreambot_api_utilities_Vector.json (Completeness: 0.20)
+2025-03-05 22:06:24,889 - WARNING - Could not fix issues in org_dreambot_api_utilities_Vector.json
+2025-03-05 22:06:24,889 - INFO - Fixing org_dreambot_api_methods_map_Map.json (Completeness: 0.20)
+2025-03-05 22:06:24,889 - WARNING - Could not fix issues in org_dreambot_api_methods_map_Map.json
+2025-03-05 22:06:24,889 - INFO - Fixing org_dreambot_api_methods_walking_web_node_impl_teleports_TeleportWebNode.json (Completeness: 0.20)
+2025-03-05 22:06:24,890 - WARNING - Could not fix issues in org_dreambot_api_methods_walking_web_node_impl_teleports_TeleportWebNode.json
+2025-03-05 22:06:24,890 - INFO - Fixing org_dreambot_api_methods_walking_web_node_impl_pathaware_CharterWebNode.json (Completeness: 0.20)
+2025-03-05 22:06:24,890 - WARNING - Could not fix issues in org_dreambot_api_methods_walking_web_node_impl_pathaware_CharterWebNode.json
+2025-03-05 22:06:24,890 - INFO - Fixing org_dreambot_api_methods_magic_Spell.json (Completeness: 0.20)
+2025-03-05 22:06:24,891 - WARNING - Could not fix issues in org_dreambot_api_methods_magic_Spell.json
+2025-03-05 22:06:24,891 - INFO - Fixing org_dreambot_api_input_event_impl_mouse_MouseEventGenerator.json (Completeness: 0.20)
+2025-03-05 22:06:24,891 - WARNING - Could not fix issues in org_dreambot_api_input_event_impl_mouse_MouseEventGenerator.json
+2025-03-05 22:06:24,892 - INFO - Fixing org_dreambot_api_script_schedule_conditions_SkillBased.json (Completeness: 0.30)
+2025-03-05 22:06:24,892 - WARNING - Could not fix issues in org_dreambot_api_script_schedule_conditions_SkillBased.json
+2025-03-05 22:06:24,892 - INFO - Fixing org_dreambot_api_script_schedule_conditions_RunningTime.json (Completeness: 0.30)
+2025-03-05 22:06:24,892 - WARNING - Could not fix issues in org_dreambot_api_script_schedule_conditions_RunningTime.json
+2025-03-05 22:06:24,893 - INFO - Fixing org_dreambot_api_utilities_impl_Condition.json (Completeness: 0.30)
+2025-03-05 22:06:24,893 - WARNING - Could not fix issues in org_dreambot_api_utilities_impl_Condition.json
+2025-03-05 22:06:24,893 - INFO - Fixing org_dreambot_api_methods_walking_pathfinding_impl_obstacle_impl_PassableObstacle_PassableObstacleBuilder.json (Completeness: 0.30)
+2025-03-05 22:06:24,893 - WARNING - Could not fix issues in org_dreambot_api_methods_walking_pathfinding_impl_obstacle_impl_PassableObstacle_PassableObstacleBuilder.json
+2025-03-05 22:06:24,894 - INFO - Fixing org_dreambot_api_wrappers_interactive_SceneObject.json (Completeness: 0.30)
+2025-03-05 22:06:24,894 - WARNING - Could not fix issues in org_dreambot_api_wrappers_interactive_SceneObject.json
+2025-03-05 22:06:24,894 - INFO - Fixing org_dreambot_api_script_listener_HumanMouseListener.json (Completeness: 0.30)
+2025-03-05 22:06:24,895 - WARNING - Could not fix issues in org_dreambot_api_script_listener_HumanMouseListener.json
+2025-03-05 22:06:24,895 - INFO - Fixing org_dreambot_api_wrappers_interactive_Entity.json (Completeness: 0.30)
+2025-03-05 22:06:24,895 - WARNING - Could not fix issues in org_dreambot_api_wrappers_interactive_Entity.json
+2025-03-05 22:06:24,895 - INFO - Fixing org_dreambot_api_methods_walking_web_node_impl_pathaware_MagicCarpetWebNode.json (Completeness: 0.30)
+2025-03-05 22:06:24,896 - WARNING - Could not fix issues in org_dreambot_api_methods_walking_web_node_impl_pathaware_MagicCarpetWebNode.json
+2025-03-05 22:06:24,896 - INFO - Fixing org_dreambot_api_input_event_impl_InteractionEvent.json (Completeness: 0.30)
+2025-03-05 22:06:24,896 - WARNING - Could not fix issues in org_dreambot_api_input_event_impl_InteractionEvent.json
+2025-03-05 22:06:24,896 - INFO - Fixing org_dreambot_api_methods_walking_pathfinding_impl_obstacle_impl_DestructableObstacle_DestructableObstacleBuilder.json (Completeness: 0.30)
+2025-03-05 22:06:24,897 - WARNING - Could not fix issues in org_dreambot_api_methods_walking_pathfinding_impl_obstacle_impl_DestructableObstacle_DestructableObstacleBuilder.json
+2025-03-05 22:06:24,897 - INFO - Fixing org_dreambot_api_methods_settings_Varcs.json (Completeness: 0.30)
+2025-03-05 22:06:24,897 - WARNING - Could not fix issues in org_dreambot_api_methods_settings_Varcs.json
+2025-03-05 22:06:24,897 - INFO - Processed 100 files, fixed 7 files
+2025-03-05 22:06:24,898 - INFO - Processing HTML files without JSON equivalents...
+2025-03-05 22:06:24,899 - INFO - Found 0 HTML files to extract content from
+2025-03-05 22:06:24,899 - INFO - Extraction completed. Success: 0, Failed: 0
+2025-03-05 22:06:24,899 - INFO - 
+Summary:
+2025-03-05 22:06:24,899 - INFO - Fixed 7 existing JSON files
+2025-03-05 22:06:24,899 - INFO - Created 0 new JSON files from HTML (failed: 0)
+2025-03-05 22:06:24,899 - INFO - 
+Next steps:
+2025-03-05 22:06:24,900 - INFO - 1. Run validation again to check improvement
+2025-03-05 22:06:24,900 - INFO - 2. Continue fixing remaining issues
+2025-03-05 22:06:24,900 - INFO - 3. Proceed to data integration and mapping creation

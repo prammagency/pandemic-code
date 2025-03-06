@@ -1,0 +1,136 @@
+{
+  "name": "TreeScript",
+  "full_name": "org.dreambot.api.script.frameworks.treebranch.TreeScript",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/script/frameworks/treebranch/TreeScript.html",
+  "type": "class",
+  "package": "org.dreambot.api.script.frameworks.treebranch",
+  "description": "Framework implementation of AbstractScript based on the Tree Branch Leaf framework created by LostVirt https://github.com/LostVirt/Dreambot-Tree-Branch-Framework Creates a Root node, which has a linked list of Branch, each of which has a linked list of Leaf",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.methods.MethodProvider",
+    "org.dreambot.api.script.AbstractScript"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Root",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the Root operation.",
+      "deprecated": false
+    },
+    {
+      "name": "addBranches",
+      "signature": "public final Root addBranches\u200b(Leaf... leaves)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Add Branchs or Leaf nodes to the root Returns the root node to allow chained adds if desired.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "clear",
+      "signature": "public final void clear()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Clears the root's children See Branch.clear()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onLoop",
+      "signature": "public int onLoop()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Primary execution loop of the script See Branch.onLoop()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRoot",
+      "signature": "public Root getRoot()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the root.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCurrentBranchName",
+      "signature": "public java.lang.String getCurrentBranchName()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the currentbranchname.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setCurrentBranchName",
+      "signature": "public void setCurrentBranchName\u200b(java.lang.String currentBranchName)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the currentbranchname.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCurrentLeafName",
+      "signature": "public java.lang.String getCurrentLeafName()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the currentleafname.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setCurrentLeafName",
+      "signature": "public void setCurrentLeafName\u200b(java.lang.String currentLeafName)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the currentleafname.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

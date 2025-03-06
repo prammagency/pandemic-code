@@ -1,0 +1,1108 @@
+{
+  "name": "WidgetChild",
+  "full_name": "org.dreambot.api.wrappers.widgets.WidgetChild",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/wrappers/widgets/WidgetChild.html",
+  "type": "class",
+  "package": "org.dreambot.api.wrappers.widgets",
+  "description": "Note: This shouldn't be used by API users, it's an internal constructor.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.wrappers.cache.nodes.NodeWrapper"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "WidgetChild",
+      "return_type": "WidgetChild",
+      "modifiers": [
+        "@Nullable"
+      ],
+      "description": "This returns the sibling, another WidgetChild with the same parent and grand parent if applicable, offset by the provided offset",
+      "deprecated": false
+    },
+    {
+      "name": "Item",
+      "return_type": "java.util.List<Item>",
+      "modifiers": [
+        "@NonNull"
+      ],
+      "description": "Get a List of Items held in the WidgetChild",
+      "deprecated": false
+    },
+    {
+      "name": "updateReference",
+      "signature": "public void updateReference\u200b(java.lang.Object reference)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This shouldn't be used by API users, it's an internal method.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getModelRotationX",
+      "signature": "public int getModelRotationX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the modelrotationx.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getModelRotationY",
+      "signature": "public int getModelRotationY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the modelrotationy.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getModelRotationZ",
+      "signature": "public int getModelRotationZ()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the modelrotationz.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSpriteAngle",
+      "signature": "public int getSpriteAngle()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the spriteangle.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSequenceId",
+      "signature": "public int getSequenceId()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Sprite ID of the WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSequenceIndex",
+      "signature": "public int getSequenceIndex()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Sprite ID of the WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getChildSequenceId",
+      "signature": "@Deprecated public int getChildSequenceId()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Sprite ID of the WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTooltip",
+      "signature": "public @Nullable java.lang.String getTooltip()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the tooltip of the WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSpell",
+      "signature": "public @Nullable java.lang.String getSpell()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Spell of the WidgetChild.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getShadowColor",
+      "signature": "@Deprecated public int getShadowColor()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the shadow color of the WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSelectedAction",
+      "signature": "public @Nullable java.lang.String getSelectedAction()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the selected action of the widget.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getScrollMax",
+      "signature": "public int getScrollMax()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the scroll max value of the WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getChildTextureID",
+      "signature": "@Deprecated public int getChildTextureID()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Child Texture ID of the WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getEnabledMediaType",
+      "signature": "public int getEnabledMediaType()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Enabled Media Type of the WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSibling",
+      "signature": "public @Nullable WidgetChild getSibling\u200b(int offset)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "This returns the sibling, another WidgetChild with the same parent and grand parent if applicable, offset by the provided offset",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getEnabledMediaID",
+      "signature": "public int getEnabledMediaID()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Enabled Media ID of the WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDisabledMediaID",
+      "signature": "public int getDisabledMediaID()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Disabled Media ID of the WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDisabledMediaType",
+      "signature": "public int getDisabledMediaType()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Disabled Media Type of the WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLoopCycle",
+      "signature": "public int getLoopCycle()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Loop Cycle of the WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getScrollX",
+      "signature": "public int getScrollX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the scrolled X position of the WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getScrollY",
+      "signature": "public int getScrollY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the scrolled Y position of theWidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTextColor",
+      "signature": "public int getTextColor()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the text color of the WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getActions",
+      "signature": "public @Nullable java.lang.String[] getActions()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Actions of a WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getActionType",
+      "signature": "public int getActionType()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the action type of a WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getBorderThickness",
+      "signature": "@Deprecated public int getBorderThickness()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the border thickness of a WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getBoundsIndex",
+      "signature": "public int getBoundsIndex()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the bounds index of a WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getChildren",
+      "signature": "public @Nullable WidgetChild @NonNull [] getChildren()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Children of aWidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getChildrenCount",
+      "signature": "public int getChildrenCount()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the childrencount.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getChild",
+      "signature": "public @Nullable WidgetChild getChild\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a specific WidgetChild of the WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getText",
+      "signature": "public @NonNull java.lang.String getText()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Text of a WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setText",
+      "signature": "public void setText\u200b(java.lang.String text)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the text.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getName",
+      "signature": "public java.lang.String getName()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the name.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getContentIDs",
+      "signature": "public int[] getContentIDs()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Content IDs of a WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setContentIDs",
+      "signature": "public void setContentIDs\u200b(int[] ids)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the contentids.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getContentStackSizes",
+      "signature": "public int[] getContentStackSizes()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "gets the Content stack sizes of a WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setContentStackSizes",
+      "signature": "public void setContentStackSizes\u200b(int[] sizes)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the contentstacksizes.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRealID",
+      "signature": "public int getRealID()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Real ID of aWidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getID",
+      "signature": "public int getID()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the ID of a WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getHeight",
+      "signature": "public int getHeight()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the height of a WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getType",
+      "signature": "public int getType()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "gets the type value of the WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWidth",
+      "signature": "public int getWidth()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Width of the WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTextureId",
+      "signature": "public int getTextureId()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Texture ID of the WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getX",
+      "signature": "public int getX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the X value of the location of the WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getY",
+      "signature": "public int getY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Y value of the location of the WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getIndex",
+      "signature": "public int getIndex()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "gets the Index of the WidgetChild(can be used to find ID of a grandchild WidgetChild)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setIndex",
+      "signature": "public void setIndex\u200b(int index)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the index.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getParentID",
+      "signature": "public int getParentID()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the parent ID of a WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRealParentID",
+      "signature": "public int getRealParentID()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Real Parent ID of the WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRelativeY",
+      "signature": "public int getRelativeY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Relative Y location of a WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRelativeX",
+      "signature": "public int getRelativeX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Relative X location of the WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isHidden",
+      "signature": "public boolean isHidden()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the WidgetChild is hidden",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isVisible",
+      "signature": "public boolean isVisible()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the WidgetChild is visible",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getItemId",
+      "signature": "public int getItemId()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Item ID of the WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setItemId",
+      "signature": "public void setItemId\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the itemid.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getItemStack",
+      "signature": "public int getItemStack()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the item stack size of the WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setItemStack",
+      "signature": "public void setItemStack\u200b(int stack)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the itemstack.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRectangle",
+      "signature": "public @NonNull java.awt.Rectangle getRectangle()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Rectangle of the WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getChildItems",
+      "signature": "public @NonNull java.util.List<Item> getChildItems()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a List of Items from the WidgetChild's children",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getItem",
+      "signature": "public @NonNull Item getItem()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Item held in the WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getItems",
+      "signature": "public @NonNull java.util.List<Item> getItems()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get a List of Items held in the WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "interact",
+      "signature": "public boolean interact()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Clicks the WidgetChild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isGrandChild",
+      "signature": "public boolean isGrandChild()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the WidgetChild is a grandchild",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hasAction",
+      "signature": "public boolean hasAction\u200b(@NonNull java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks to see if any of this widget's actions contains (case-insensitive) the given action",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hasActionExact",
+      "signature": "public boolean hasActionExact\u200b(@NonNull java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks to see if this widget has the full given action",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLeftClickAction",
+      "signature": "public @Nullable java.lang.String getLeftClickAction()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the leftclickaction.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "equals",
+      "signature": "public boolean equals\u200b(java.lang.Object o)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the equals operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hashCode",
+      "signature": "public int hashCode()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if has hcode.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toString",
+      "signature": "public java.lang.String toString()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the toString operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getReference",
+      "signature": "public org.dreambot.internal.injector.interfaces.RSWidget getReference()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the reference.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getContentType",
+      "signature": "public int getContentType()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the contenttype.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "containsMouse",
+      "signature": "@Deprecated public boolean containsMouse()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the containsMouse operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setContainsMouse",
+      "signature": "@Deprecated public void setContainsMouse\u200b(boolean contains)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the containsmouse.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDragDeadTime",
+      "signature": "public int getDragDeadTime()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the dragdeadtime.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setDragDeadTime",
+      "signature": "public void setDragDeadTime\u200b(int time)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the dragdeadtime.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hasListener",
+      "signature": "public boolean hasListener()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if has listener.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setHasListener",
+      "signature": "public void setHasListener\u200b(boolean has)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the haslistener.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hasScript",
+      "signature": "public boolean hasScript()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if has script.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setHasScript",
+      "signature": "@Deprecated public void setHasScript\u200b(boolean has)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the hasscript.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSubActions",
+      "signature": "public java.lang.String[][] getSubActions()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the subactions.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hasSubAction",
+      "signature": "public boolean hasSubAction\u200b(java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if has subaction.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSubActionIndex",
+      "signature": "public int getSubActionIndex\u200b(java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the subactionindex.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

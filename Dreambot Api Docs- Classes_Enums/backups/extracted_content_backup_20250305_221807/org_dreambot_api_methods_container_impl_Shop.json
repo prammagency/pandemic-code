@@ -1,0 +1,599 @@
+{
+  "name": "Shop",
+  "full_name": "org.dreambot.api.methods.container.impl.Shop",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/container/impl/Shop.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.container.impl",
+  "description": "A list of all the filtered items.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Item",
+      "return_type": "Item",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Performs the Item operation.",
+      "deprecated": false
+    },
+    {
+      "name": "Widget",
+      "return_type": "Widget",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Gets parent widget for current shop.",
+      "deprecated": false
+    },
+    {
+      "name": "capacity",
+      "signature": "public static int capacity()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the capacity operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "all",
+      "signature": "public static java.util.List<Item> all()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "A list of all the filtered items.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isOpen",
+      "signature": "public static boolean isOpen()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines if a shop widget is open.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "open",
+      "signature": "public static boolean open()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the open operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "close",
+      "signature": "public static boolean close()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Closes the shop interface.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTitle",
+      "signature": "public static java.lang.String getTitle()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the title of the current shop widget.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getParent",
+      "signature": "public static Widget getParent()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets parent widget for current shop.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSlotBounds",
+      "signature": "public static java.awt.Rectangle getSlotBounds\u200b(Item item)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a Rectangle of the Item's slot",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "sell",
+      "signature": "public static boolean sell\u200b(int id, int amount)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sells an item from your inventory with an adjustable amount.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "purchase",
+      "signature": "public static boolean purchase\u200b(int id, int amount)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Buys an item from the store with an adjustable amount.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "sellOne",
+      "signature": "public static boolean sellOne\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sells one of the Item",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "sellFive",
+      "signature": "public static boolean sellFive\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sells five of the Item",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "sellTen",
+      "signature": "public static boolean sellTen\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sells ten of the Item",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "sellFifty",
+      "signature": "public static boolean sellFifty\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sells fifty of the Item",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "purchaseOne",
+      "signature": "public static boolean purchaseOne\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Purchases one of the Item",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "purchaseFive",
+      "signature": "public static boolean purchaseFive\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Purchases five of the Item",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "purchaseTen",
+      "signature": "public static boolean purchaseTen\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Purchases ten of the Item",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "purchaseFifty",
+      "signature": "public static boolean purchaseFifty\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Purchases fifty of the Item",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "interact",
+      "signature": "public static boolean interact\u200b(Filter<Item> filter, java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Interacts with an Item in the shop",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "fullSlotCount",
+      "signature": "public static int fullSlotCount()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Full slot count.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "emptySlotCount",
+      "signature": "public static int emptySlotCount()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Empty slot count.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isSlotEmpty",
+      "signature": "public static boolean isSlotEmpty\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if slotempty.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isSlotFull",
+      "signature": "public static boolean isSlotFull\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the slot has an Item in it",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "onlyContains",
+      "signature": "public static boolean onlyContains\u200b(java.lang.String... names)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the shop only contains items with specified name",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "slotContains",
+      "signature": "public static boolean slotContains\u200b(int slot, java.lang.String... names)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the slot contains an item that matches the given names.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "slotNameContains",
+      "signature": "public static boolean slotNameContains\u200b(int slot, java.lang.String sub)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the slot contains an item that matches the given name",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getFirstEmptySlot",
+      "signature": "public static int getFirstEmptySlot()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the first empty slot in the Shop.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getFirstFullSlot",
+      "signature": "public static int getFirstFullSlot()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the next full slot in the Shop",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getIdForSlot",
+      "signature": "public static int getIdForSlot\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Id of the Item in the slot.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getNameForSlot",
+      "signature": "public static java.lang.String getNameForSlot\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Name for the Item in the slot.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "slot",
+      "signature": "public static int slot\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the slot for the item with the specified ID.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "add",
+      "signature": "public static boolean add\u200b(Item t)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the add operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toArray",
+      "signature": "public static java.lang.Object[] toArray()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the toArray operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getItemInSlot",
+      "signature": "public static Item getItemInSlot\u200b(int index)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets item in the specified slot.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "get",
+      "signature": "public static Item get\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the first Item matching the given ID",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "except",
+      "signature": "public static java.util.List<Item> except\u200b(Filter<Item> filter)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get all items which do not fit the given criteria.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "size",
+      "signature": "public static int size()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the size operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isEmpty",
+      "signature": "public static boolean isEmpty()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if empty.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "contains",
+      "signature": "public static boolean contains\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the Shop contains an Item with the given id",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "containsAll",
+      "signature": "public static boolean containsAll\u200b(java.lang.String... names)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the Shop contains all the items with names specified",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isFull",
+      "signature": "public static boolean isFull()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Determines if Shop full.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "count",
+      "signature": "public static int count\u200b(java.lang.String name)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Count of the item that matches the given name",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "set",
+      "signature": "public static Item set\u200b(int index, Item element)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the .",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

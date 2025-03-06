@@ -1,0 +1,110 @@
+{
+  "name": "MoveEvent",
+  "full_name": "org.dreambot.api.input.event.impl.mouse.impl.MoveEvent",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/mouse/impl/MoveEvent.html",
+  "type": "class",
+  "package": "org.dreambot.api.input.event.impl.mouse.impl",
+  "description": "Deprecated.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.input.event.AbstractEvent",
+    "org.dreambot.api.input.event.impl.mouse.AbstractMouseEvent"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Condition",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Deprecated.",
+      "deprecated": false
+    },
+    {
+      "name": "run",
+      "signature": "public final void run()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the run operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "runMiddleDrag",
+      "signature": "public boolean runMiddleDrag()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Turns the camera using middle button and drag",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "completed",
+      "signature": "public Condition completed()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Abstract Condition used to determine if current event is complete.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "failed",
+      "signature": "public Condition failed()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Abstract Condition used to determine if current event has failed.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setCompleted",
+      "signature": "public void setCompleted\u200b(boolean completed)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets completed condition boolean.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setFailed",
+      "signature": "public void setFailed\u200b(boolean failed)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets failed condition boolean.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

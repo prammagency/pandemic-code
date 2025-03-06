@@ -1,0 +1,77 @@
+{
+  "sleep": "500",
+  "name": "",
+  "version": 1.0,
+  "actions": [
+    {
+      "id": "IF_MAP_CONTAINS_KEY",
+      "children": [
+        {
+          "id": "IF_MAP_DOES_NOT_CONTAIN_KEY",
+          "children": [
+            {
+              "id": "IF_NUMBER_OF_KEYS_IS",
+              "properties": {
+                "key count": {
+                  "class": "Number",
+                  "operator": "EQUALS",
+                  "value": ""
+                }
+              },
+              "children": [
+                {
+                  "id": "SET_MAP_KEY_TO_VALUE",
+                  "children": [
+                    {
+                      "id": "SET_MAP_KEY_TO_VARIABLE",
+                      "children": [
+                        {
+                          "id": "LOAD_MAP_FROM_JSON",
+                          "children": [
+                            {
+                              "id": "LOAD_MAP_FROM_JSON_FILE",
+                              "children": [
+                                {
+                                  "id": "MERGE_MAPS",
+                                  "children": [
+                                    {
+                                      "id": "DELETE_MAP_KEY",
+                                      "children": [
+                                        {
+                                          "id": "CLEAR_MAP",
+                                          "children": [
+                                            {
+                                              "id": "DELETE_MAP",
+                                              "children": [
+                                                {
+                                                  "id": "SET_VARIABLE_TO_MAP_VALUE",
+                                                  "children": [
+                                                    {
+                                                      "id": "SET_VARIABLE_TO_RANDOM_MAP_KEY"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

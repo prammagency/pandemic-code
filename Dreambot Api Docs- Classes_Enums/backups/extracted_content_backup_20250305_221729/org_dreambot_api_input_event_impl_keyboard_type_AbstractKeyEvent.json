@@ -1,0 +1,240 @@
+{
+  "name": "AbstractKeyEvent",
+  "full_name": "org.dreambot.api.input.event.impl.keyboard.type.AbstractKeyEvent",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/input/event/impl/keyboard/type/AbstractKeyEvent.html",
+  "type": "class",
+  "package": "org.dreambot.api.input.event.impl.keyboard.type",
+  "description": "Abstract key event class to clean up implementations",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.input.event.AbstractEvent"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Condition",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Abstract Condition used to determine if current event has failed.",
+      "deprecated": false
+    },
+    {
+      "name": "Key",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the Key operation.",
+      "deprecated": false
+    },
+    {
+      "name": "KeyLocation",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the KeyLocation operation.",
+      "deprecated": false
+    },
+    {
+      "name": "completed",
+      "signature": "public Condition completed()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: AbstractEvent",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "failed",
+      "signature": "public Condition failed()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Description copied from class: AbstractEvent",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isCompleted",
+      "signature": "public boolean isCompleted()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if completed.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getKey",
+      "signature": "public Key getKey()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the key.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLocation",
+      "signature": "public KeyLocation getLocation()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the location.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCharacter",
+      "signature": "public char getCharacter()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the character.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getGenerated",
+      "signature": "public java.awt.event.KeyEvent getGenerated()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the generated.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setCompleted",
+      "signature": "public void setCompleted\u200b(boolean completed)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the completed.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setKey",
+      "signature": "public void setKey\u200b(Key key)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the key.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setLocation",
+      "signature": "public void setLocation\u200b(KeyLocation location)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the location.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setCharacter",
+      "signature": "public void setCharacter\u200b(char character)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the character.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setGenerated",
+      "signature": "public void setGenerated\u200b(java.awt.event.KeyEvent generated)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the generated.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "equals",
+      "signature": "public boolean equals\u200b(java.lang.Object o)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the equals operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hashCode",
+      "signature": "public int hashCode()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if has hcode.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toString",
+      "signature": "public java.lang.String toString()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the toString operation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

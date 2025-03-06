@@ -1,0 +1,116 @@
+{
+  "name": "Spell",
+  "full_name": "org.dreambot.api.methods.magic.Spell",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/magic/Spell.html",
+  "type": "interface",
+  "package": "org.dreambot.api.methods.magic",
+  "description": "Created by Pandemic",
+  "page_structure": {
+    "type": "interface",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Rune",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Performs the Rune operation.",
+      "deprecated": false
+    },
+    {
+      "name": "WidgetChild",
+      "return_type": "WidgetChild",
+      "modifiers": [
+        "default"
+      ],
+      "description": "Performs the WidgetChild operation.",
+      "deprecated": false
+    },
+    {
+      "name": "getLevel",
+      "signature": "int getLevel()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the level.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getParent",
+      "signature": "int getParent()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the parent.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getChild",
+      "signature": "int getChild()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the child.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCost",
+      "signature": "Rune[] getCost()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the cost.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMaxHit",
+      "signature": "int getMaxHit()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the maxhit.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWidget",
+      "signature": "default WidgetChild getWidget()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the widget.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

@@ -1,0 +1,659 @@
+{
+  "name": "World",
+  "full_name": "org.dreambot.api.methods.world.World",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/world/World.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.world",
+  "description": "Created by Nezz on 1/5/2015.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [
+    {
+      "name": "Constructor Summary\n\nConstructors\u00a0\n\nConstructor\nDescription\n\n\nWorld()\n\u00a0\n\n\nWorld\u200b(int\u00a0id,\n     boolean\u00a0isMember,\n     boolean\u00a0isPVP,\n     boolean\u00a0highRisk,\n     boolean\u00a0dmm,\n     int\u00a0location,\n     int\u00a0minLevel,\n     boolean\u00a0lastManStanding,\n     boolean\u00a0tournamentWorld,\n     boolean\u00a0targetWorld,\n     boolean\u00a0twistedLeague)\n\nCreates a World object",
+      "description": "",
+      "modifiers": []
+    }
+  ],
+  "methods": [
+    {
+      "name": "Location",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Location of the world Does not check between US East and US West",
+      "deprecated": false
+    },
+    {
+      "name": "getWorld",
+      "signature": "public int getWorld()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the ID of the world, greater than 300",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRealID",
+      "signature": "public int getRealID()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the real ID of the world, less than 300",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLocationValue",
+      "signature": "public int getLocationValue()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the location value of the world.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isMembers",
+      "signature": "public boolean isMembers()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the world is a Members only world",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isF2P",
+      "signature": "public boolean isF2P()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the world is a F2P world",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isPVP",
+      "signature": "public boolean isPVP()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the world is PVP",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getPing",
+      "signature": "public int getPing()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMinimumLevel",
+      "signature": "public int getMinimumLevel()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the minimum level required for the world, 0 if no minimum level.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLocation",
+      "signature": "public Location getLocation()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Location of the world Does not check between US East and US West",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getExactLocation",
+      "signature": "public Location getExactLocation()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the exact Location of the world Checks for US East vs US West",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toString",
+      "signature": "public java.lang.String toString()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the String value of the world, example: W330",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setLastManStanding",
+      "signature": "public void setLastManStanding\u200b(boolean lastManStanding)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setFreshStart",
+      "signature": "public void setFreshStart\u200b(boolean freshStart)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setTargetWorld",
+      "signature": "public void setTargetWorld\u200b(boolean targetWorld)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setDescription",
+      "signature": "public void setDescription\u200b(java.lang.String description)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setHost",
+      "signature": "public void setHost\u200b(java.lang.String host)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isNormal",
+      "signature": "public boolean isNormal()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Normal checks to not be: Deadman Mode, Tournament World, League World, PVP, High Risk, Target World, PVP Arena, Suspicious (New/Unknown/Testing types), Beta, Fresh Start",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setSuspicious",
+      "signature": "public void setSuspicious\u200b(boolean suspicious)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setMask",
+      "signature": "public void setMask\u200b(int mask)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setPvpArena",
+      "signature": "public void setPvpArena\u200b(boolean pvpArena)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setBeta",
+      "signature": "public void setBeta\u200b(boolean beta)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setRealId",
+      "signature": "public void setRealId\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setMember",
+      "signature": "public void setMember\u200b(boolean member)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setPVP",
+      "signature": "public void setPVP\u200b(boolean PVP)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setLocation",
+      "signature": "public void setLocation\u200b(int location)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setHighRisk",
+      "signature": "public void setHighRisk\u200b(boolean highRisk)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setMinLevel",
+      "signature": "public void setMinLevel\u200b(int minLevel)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setDeadmanMode",
+      "signature": "public void setDeadmanMode\u200b(boolean deadmanMode)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setTournamentWorld",
+      "signature": "public void setTournamentWorld\u200b(boolean tournamentWorld)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setLeagueWorld",
+      "signature": "public void setLeagueWorld\u200b(boolean leagueWorld)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setPing",
+      "signature": "public void setPing\u200b(int ping)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRealHost",
+      "signature": "public java.lang.String getRealHost()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setRealHost",
+      "signature": "public void setRealHost\u200b(java.lang.String realHost)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getPopulation",
+      "signature": "public int getPopulation()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setPopulation",
+      "signature": "public void setPopulation\u200b(int population)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isHighRisk",
+      "signature": "public boolean isHighRisk()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the world is High Risk",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isDeadmanMode",
+      "signature": "public boolean isDeadmanMode()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the world is deadman mode",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isLastManStanding",
+      "signature": "public boolean isLastManStanding()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isTournamentWorld",
+      "signature": "public boolean isTournamentWorld()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isTargetWorld",
+      "signature": "public boolean isTargetWorld()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isLeagueWorld",
+      "signature": "public boolean isLeagueWorld()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isPvpArena",
+      "signature": "public boolean isPvpArena()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDescription",
+      "signature": "public java.lang.String getDescription()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getHost",
+      "signature": "public java.lang.String getHost()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isFreshStart",
+      "signature": "public boolean isFreshStart()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the world is a Fresh Start world",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isSuspicious",
+      "signature": "public boolean isSuspicious()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isBeta",
+      "signature": "public boolean isBeta()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMask",
+      "signature": "public int getMask()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

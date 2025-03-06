@@ -1,0 +1,133 @@
+{
+  "name": "GlobalPath",
+  "full_name": "org.dreambot.api.methods.walking.path.impl.GlobalPath",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/path/impl/GlobalPath.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.walking.path.impl",
+  "description": "Created with IntelliJ IDEA.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.methods.walking.path.AbstractPath"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "T",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the next node in the path",
+      "deprecated": false
+    },
+    {
+      "name": "GlobalPath",
+      "return_type": "AbstractWebNode>",
+      "modifiers": [
+        "static",
+        "GlobalPath<?",
+        "extends"
+      ],
+      "description": "Performs the GlobalPath operation.",
+      "deprecated": false
+    },
+    {
+      "name": "walk",
+      "signature": "public boolean walk()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Walks the next point in the path",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hasSpecialNode",
+      "signature": "public boolean hasSpecialNode()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if has specialnode.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "next",
+      "signature": "public T next()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the next node in the path",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "closest",
+      "signature": "public T closest()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the closest node to your player",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLastWalkedPath",
+      "signature": "public static GlobalPath<? extends AbstractWebNode> getLastWalkedPath()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the lastwalkedpath.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getFinalCost",
+      "signature": "public int getFinalCost()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the finalcost.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setFinalCost",
+      "signature": "public void setFinalCost\u200b(int finalCost)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the finalcost.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

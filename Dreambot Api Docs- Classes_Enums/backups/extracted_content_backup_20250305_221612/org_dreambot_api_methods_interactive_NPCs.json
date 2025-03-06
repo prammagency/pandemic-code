@@ -1,0 +1,153 @@
+{
+  "name": "NPCs",
+  "full_name": "org.dreambot.api.methods.interactive.NPCs",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/interactive/NPCs.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.interactive",
+  "description": "A class containing methods which are used to retrieve local NPC from the game.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.methods.interactive.Interactables",
+    "NPC"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "NPC",
+      "return_type": "NPC>",
+      "modifiers": [
+        "static",
+        "@NonNull",
+        "java.util.List<@NonNull"
+      ],
+      "description": "Gets a list of NPC's that are interacting with a given player index.",
+      "deprecated": false
+    },
+    {
+      "name": "setIgnoreHealth",
+      "signature": "public static void setIgnoreHealth\u200b(boolean ignoreHealth)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Setting this to true will allow for NPCs with 0 health to show up in closest(Filter) and all(Filter) calls. This is sometimes needed for special NPCs that appear to have 0 health but are still interactable.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "all",
+      "signature": "public static @NonNull java.util.List<@NonNull NPC> all()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "closest",
+      "signature": "public static @Nullable NPC closest\u200b(@NonNull java.lang.String... names)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getAtIndex",
+      "signature": "public static @Nullable NPC getAtIndex\u200b(int index)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets local NPC at index specified",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getArray",
+      "signature": "public static @Nullable NPC @NonNull [] getArray()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getInteractingWith",
+      "signature": "public static @NonNull java.util.List<@NonNull NPC> getInteractingWith\u200b(int playerIndex)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a list of NPC's that are interacting with a given player index. Automatically adjusts index for interaction index validation.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isIgnoreHealth",
+      "signature": "public static boolean isIgnoreHealth()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isIncludeNullNames",
+      "signature": "public static boolean isIncludeNullNames()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setIncludeNullNames",
+      "signature": "public static void setIncludeNullNames\u200b(boolean includeNullNames)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

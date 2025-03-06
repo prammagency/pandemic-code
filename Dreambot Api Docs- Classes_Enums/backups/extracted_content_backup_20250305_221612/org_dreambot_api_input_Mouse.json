@@ -1,0 +1,895 @@
+{
+  "name": "Mouse",
+  "full_name": "org.dreambot.api.input.Mouse",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/input/Mouse.html",
+  "type": "class",
+  "package": "org.dreambot.api.input",
+  "description": "Please note: In general you do not have to concern yourself with these methods. The methods here will be called from interact methods by the API (such as the interact method in RectangleDestination)",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "CrosshairState",
+      "return_type": "CrosshairState",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Gets the current crosshair color of the mouse.",
+      "deprecated": false
+    },
+    {
+      "name": "MouseAlgorithm",
+      "return_type": "MouseAlgorithm",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Returns the currently set",
+      "deprecated": false
+    },
+    {
+      "name": "Entity",
+      "return_type": "java.util.List<Entity>",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Gets a list of the entities that the cursor is hovering over",
+      "deprecated": false
+    },
+    {
+      "name": "MouseMovementAlgorithm",
+      "return_type": "MouseMovementAlgorithm",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Deprecated. see getMouseAlgorithm()",
+      "deprecated": false
+    },
+    {
+      "name": "MouseSettings",
+      "return_type": "MouseSettings",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Grabs the MouseSettings",
+      "deprecated": false
+    },
+    {
+      "name": "Tile",
+      "return_type": "Tile",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Gets the closest tile that it on the mouse's cursor",
+      "deprecated": false
+    },
+    {
+      "name": "setMouseMovementAlgorithm",
+      "signature": "@Deprecated public static void setMouseMovementAlgorithm\u200b(MouseMovementAlgorithm algorithm)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the mouse algorithm the client uses.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setMouseAlgorithm",
+      "signature": "public static void setMouseAlgorithm\u200b(MouseAlgorithm algorithm)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the mouse algorithm implementation the client uses for mouse movement and clicks",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMouseMovementAlgorithm",
+      "signature": "@Deprecated public static MouseMovementAlgorithm getMouseMovementAlgorithm()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the currently set mouse algorithm.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDefaultMouseAlgorithm",
+      "signature": "public static MouseAlgorithm getDefaultMouseAlgorithm()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns DreamBot's default StandardMouseAlgorithm mouse algorithm implementation Primarily used for backwards compatibility for MouseMovementAlgorithm default click implementations",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setPosition",
+      "signature": "public static void setPosition\u200b(int x, int y)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getUIDCount",
+      "signature": "public static int getUIDCount()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRawOnCursorUIDs",
+      "signature": "public static long[] getRawOnCursorUIDs()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOnCursorUIDs",
+      "signature": "public static long[] getOnCursorUIDs()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getIdleTime",
+      "signature": "public static int getIdleTime()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the idle time.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLastClicked",
+      "signature": "public static java.awt.Point getLastClicked()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets last clicked position by the client",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLastClickedTime",
+      "signature": "public static long getLastClickedTime()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the last click time in milliseconds. If there haven't been any clicks it will return 0. This method only counts clicks sent by the client itself, manual mouse clicks won't be reflected by this.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLastClickedX",
+      "signature": "public static int getLastClickedX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets last clicked x position by the client",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLastClickedY",
+      "signature": "public static int getLastClickedY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets last clicked y position by the client",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getX",
+      "signature": "public static int getX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the current mouse X coordinate of the mouse",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getY",
+      "signature": "public static int getY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the current mouse Y coordinate of the mouse",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getPosition",
+      "signature": "public static java.awt.Point getPosition()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the current mouse position",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMouseSettings",
+      "signature": "public static MouseSettings getMouseSettings()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Grabs the MouseSettings",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCrosshairColorID",
+      "signature": "public static int getCrosshairColorID()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the current crosshair color of the mouse.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCrosshairState",
+      "signature": "public static CrosshairState getCrosshairState()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the current crosshair color of the mouse.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLastCrosshairColorID",
+      "signature": "public static int getLastCrosshairColorID()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the crosshair color from the last click.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setLastCrosshairColorID",
+      "signature": "public static void setLastCrosshairColorID\u200b(int last)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Set internally during mouse click operations",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getEntitiesOnCursor",
+      "signature": "public static java.util.List<Entity> getEntitiesOnCursor()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a list of the entities that the cursor is hovering over",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getTileOnCursor",
+      "signature": "public static Tile getTileOnCursor()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the closest tile that it on the mouse's cursor",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "click",
+      "signature": "public static boolean click\u200b(java.awt.Rectangle destination)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Moves mouse to rectangle, and preforms left click.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "mouseDownUntil",
+      "signature": "public static void mouseDownUntil\u200b(int timeout, Condition c)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Hold mouse down until condition is true, with specified timeout Does not create its own thread!",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "scrollUntil",
+      "signature": "public static void scrollUntil\u200b(boolean up, int timeout, Condition c)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Scrolls mouse until the condition is true, with specified timeout",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "scroll",
+      "signature": "public static boolean scroll\u200b(boolean up, int timeout, Condition c)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Scrolls mouse until the condition is true, with specified timeout",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "scrollDownUntil",
+      "signature": "@Deprecated public static void scrollDownUntil\u200b(int timeout, Condition c)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "scrollDown",
+      "signature": "public static boolean scrollDown\u200b(int timeout, Condition c)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Scrolls mouse wheel down until Condition is true or timeout is met",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "scrollUpUntil",
+      "signature": "@Deprecated public static void scrollUpUntil\u200b(int timeout, Condition c)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "scrollUp",
+      "signature": "public static boolean scrollUp\u200b(int timeout, Condition c)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Scrolls mouse wheel up until Condition is true or timeout is met",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "move",
+      "signature": "public static boolean move\u200b(java.awt.Rectangle rectangle)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Moves the mouse to a specified rectangle",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "drag",
+      "signature": "public static boolean drag\u200b(java.awt.Point point)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Drags the mouse from current point to the given point",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "moveMouseOutsideScreen",
+      "signature": "@Deprecated public static boolean moveMouseOutsideScreen()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "moveOutsideScreen",
+      "signature": "public static boolean moveOutsideScreen()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Moves the mouse outside the screen and sends a focus lost event to the canvas See moveOutsideScreen(boolean) with param true",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "loseFocus",
+      "signature": "public static boolean loseFocus\u200b(int sleepBeforeLoseFocus)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Moves mouse outside of screen, sleeps for the given amount in ms, then calls a focus lost event Does not run if client already doesn't have focus If Mouse is already outside of screen, it will not re-move it outside of screen",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isMouseInScreen",
+      "signature": "public static boolean isMouseInScreen()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Method to determine if the mouse cursor is in the screen.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "hop",
+      "signature": "public static boolean hop\u200b(java.awt.Point destination)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Method to 'hop' the mouse position, instantly.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getPointOutsideScreen",
+      "signature": "public static java.awt.Point getPointOutsideScreen()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns a random point slightly off of the game canvas",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setLastClickPosition",
+      "signature": "public static void setLastClickPosition\u200b(java.awt.Point lastClickPosition2)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLastMouseMagnitude",
+      "signature": "public static double getLastMouseMagnitude()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setLastMouseMagnitude",
+      "signature": "public static void setLastMouseMagnitude\u200b(double lastMouseMagnitude2)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLastMouseDirection",
+      "signature": "public static double getLastMouseDirection()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setLastMouseDirection",
+      "signature": "public static void setLastMouseDirection\u200b(double lastMouseDirection2)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLastMouseMoveTime",
+      "signature": "public static long getLastMouseMoveTime()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setLastMouseMoveTime",
+      "signature": "public static void setLastMouseMoveTime\u200b(long lastMouseMoveTime2)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMouseMoveResetTimeMillis",
+      "signature": "public static long getMouseMoveResetTimeMillis()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isAlwaysHop",
+      "signature": "public static boolean isAlwaysHop()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setAlwaysHop",
+      "signature": "public static void setAlwaysHop\u200b(boolean alwaysHop)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRSLastClickedX",
+      "signature": "public static int getRSLastClickedX()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getRSLastClickedY",
+      "signature": "public static int getRSLastClickedY()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCurrentModifiers",
+      "signature": "public static int getCurrentModifiers()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the current event modifiers from holding mouse buttons",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "addModifierFromClick",
+      "signature": "public static void addModifierFromClick\u200b(MouseButton mode)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Adds to the current modifier based on the MouseButton.getMask() called before a MouseEvent.MOUSE_PRESSED event",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "removeModifierFromClick",
+      "signature": "public static void removeModifierFromClick\u200b(MouseButton mode)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Removes the mask given by MouseButton.getMask(), called after a MouseEvent.MOUSE_CLICKED event",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "toggleButtonPressed",
+      "signature": "public static void toggleButtonPressed\u200b(MouseButton button, boolean pressed)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isButtonPressed",
+      "signature": "public static boolean isButtonPressed\u200b(MouseButton button)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "resetButtons",
+      "signature": "public static void resetButtons()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setMouseDragging",
+      "signature": "public static void setMouseDragging\u200b(boolean dragging)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isForceDrag",
+      "signature": "public static boolean isForceDrag()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setForceDrag",
+      "signature": "public static void setForceDrag\u200b(boolean forceDrag)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isMouseHeldDown",
+      "signature": "public static boolean isMouseHeldDown()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isMouseDragging",
+      "signature": "public static boolean isMouseDragging()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getMouseAlgorithm",
+      "signature": "public static MouseAlgorithm getMouseAlgorithm()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the currently set",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

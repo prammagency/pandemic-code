@@ -1,0 +1,158 @@
+{
+  "name": "LocalPathFinder",
+  "full_name": "org.dreambot.api.methods.walking.pathfinding.impl.local.LocalPathFinder",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/local/LocalPathFinder.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.walking.pathfinding.impl.local",
+  "description": "The local pathfinder used for navigating within the local region This class generally doesn't need to be used if you're just trying to walk, see Walking.walk(Tile) instead For global pathfinding across regions, see WebFinder instead",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "org.dreambot.api.methods.walking.pathfinding.impl.PathFinder",
+    "Tile"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "LocalPath",
+      "return_type": "LocalPath<Tile>",
+      "modifiers": [
+        "@Nullable"
+      ],
+      "description": "Calculates and returns a valid path from the start tile to the end tile.",
+      "deprecated": false
+    },
+    {
+      "name": "PathNode",
+      "return_type": "java.util.List<PathNode>",
+      "modifiers": [
+        "static",
+        "@NonNull"
+      ],
+      "description": "Deprecated.",
+      "deprecated": false
+    },
+    {
+      "name": "LocalPathFinder",
+      "return_type": "LocalPathFinder",
+      "modifiers": [
+        "static",
+        "@NonNull"
+      ],
+      "description": "Performs the LocalPathFinder operation.",
+      "deprecated": false
+    },
+    {
+      "name": "getLocalPathFinder",
+      "signature": "public static @NonNull LocalPathFinder getLocalPathFinder()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the localpathfinder.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "calculate",
+      "signature": "public @Nullable LocalPath<Tile> calculate\u200b(@NonNull Tile start, @NonNull Tile end)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Calculates and returns a valid path from the start tile to the end tile. If you're trying to walk somewhere, you'll generally not need to use this class or method directly, see Walking.walk(Tile) instead. Example usage: LocalPath path = LocalPathFinder.getLocalPathFinder().calculate(Players.getLocal().getTile(), new Tile(1234, 2345, 1)); if (path != null && !path.isEmpty()) { Logger.log(\"We found a path: \" + path); path.walk(); } else { Logger.warn(\"No path found!\"); }",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOpen",
+      "signature": "@Deprecated public static @NonNull java.util.List<PathNode> getOpen()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the open.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getClosed",
+      "signature": "@Deprecated public static @NonNull java.util.List<PathNode> getClosed()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the closed.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCurrentDepth",
+      "signature": "public int getCurrentDepth()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the currentdepth.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setCurrentDepth",
+      "signature": "public void setCurrentDepth\u200b(int currentDepth)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the currentdepth.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getHeuristicCost",
+      "signature": "public float getHeuristicCost\u200b(int x, int y, int tx, int ty)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Get the heuristic cost for the given location. This determines in which order the locations are processed.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getWalkingDistance",
+      "signature": "public double getWalkingDistance\u200b(@NonNull Tile startTile, @NonNull Tile endTile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Walking distance based on path finding between the provided tiles.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

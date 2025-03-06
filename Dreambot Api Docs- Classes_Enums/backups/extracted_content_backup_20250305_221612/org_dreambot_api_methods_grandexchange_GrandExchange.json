@@ -1,0 +1,790 @@
+{
+  "name": "GrandExchange",
+  "full_name": "org.dreambot.api.methods.grandexchange.GrandExchange",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/grandexchange/GrandExchange.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.grandexchange",
+  "description": "Created by Nezz on 12/10/2014.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "WidgetChild",
+      "return_type": "WidgetChild",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Gets the WidgetChild of the second item slot of the open offer",
+      "deprecated": false
+    },
+    {
+      "name": "Item",
+      "return_type": "Item",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Gets the last chosen buy Item based on the ID returned from getLastChosenItemID()",
+      "deprecated": false
+    },
+    {
+      "name": "GrandExchangeItem",
+      "return_type": "GrandExchangeItem[]",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Gets an array of the GrandExchangeItems",
+      "deprecated": false
+    },
+    {
+      "name": "open",
+      "signature": "public static boolean open\u200b(java.lang.String action)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Opens the nearest Grand Exchange booth using the specified action.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isOpen",
+      "signature": "public static boolean isOpen()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns if the Grand Exchange is open or not",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isGeneralOpen",
+      "signature": "public static boolean isGeneralOpen()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the general Grand Exchange is open",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isSellOpen",
+      "signature": "public static boolean isSellOpen()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the selling screen of the Grand Exchange is open",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOpenSlot",
+      "signature": "public static int getOpenSlot()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the index of the open slot / offer",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isBuyOpen",
+      "signature": "public static boolean isBuyOpen()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the buying screen of the Grand Exchange is open.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isSearchOpen",
+      "signature": "public static boolean isSearchOpen()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks to see if the search item name widget is visible",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOfferText",
+      "signature": "public static java.lang.String getOfferText()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the text in the offer screen for whether it says Buy offer or Sell offer",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "openSellScreen",
+      "signature": "public static boolean openSellScreen\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Opens the sell screen in the Grand Exchange of the specified slot.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "openBuyScreen",
+      "signature": "public static boolean openBuyScreen\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Opens the buy screen in the Grand Exchange of the specified slot.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "openSlotInterface",
+      "signature": "public static boolean openSlotInterface\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Opens the general slot interface when a slot has an item in it",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "addSellItem",
+      "signature": "public static boolean addSellItem\u200b(java.lang.String itemName)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Adds an item to the sell offer",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "searchItem",
+      "signature": "public static boolean searchItem\u200b(java.lang.String itemName)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Searches for an item in the buy screen",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getSearchedItem",
+      "signature": "public static java.lang.String getSearchedItem()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the currently typed item in the search bar of the GE If no item is typed, widget is not visible, or buy screen is not open it will return \"\" NOT NULL",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "addBuyItem",
+      "signature": "public static boolean addBuyItem\u200b(java.lang.String itemName)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Adds an item to the buy offer Now checks if there's already an item selected, if it's the wrong item it will attempt to click the back button instead.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "itemVisible",
+      "signature": "public static boolean itemVisible\u200b(WidgetChild item)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks to see if the searched item widget is visible in the item container under the search item text",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "scrollToItem",
+      "signature": "public static boolean scrollToItem\u200b(WidgetChild item)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Scrolls to the provided widget in the item search container",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getItemChildInSearch",
+      "signature": "public static WidgetChild getItemChildInSearch\u200b(java.lang.String itemName)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the widget child of the item you searched for",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setQuantity",
+      "signature": "public static boolean setQuantity\u200b(int amount)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the quantity of a buy/sell offer",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "setPrice",
+      "signature": "public static boolean setPrice\u200b(int amount)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Sets the price of the current buy/sell offer.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "readyToEnterAmount",
+      "signature": "public static boolean readyToEnterAmount()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks to see if the Dialogue can enter input with text \"How many do you wish to\" see Dialogues.canEnterInput(String) \"How many do you wish to\"",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "readyToEnterPrice",
+      "signature": "public static boolean readyToEnterPrice()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks to see if the Dialogue can enter input with text \"Set a price for each item:\" see Dialogues.canEnterInput(String) \"Set a price for each item:\"",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOfferFirstItemWidget",
+      "signature": "public static WidgetChild getOfferFirstItemWidget()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the WidgetChild of the first item slot of the open offer",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOfferSecondItemWidget",
+      "signature": "public static WidgetChild getOfferSecondItemWidget()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the WidgetChild of the second item slot of the open offer",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getEnterQuantityButton",
+      "signature": "public static WidgetChild getEnterQuantityButton()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the WidgetChild of the \"Enter Quantity\" button",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getEnterAllButton",
+      "signature": "public static WidgetChild getEnterAllButton()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Enter All button in the offer screen",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCurrentPrice",
+      "signature": "public static int getCurrentPrice()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the currently set price of the offer based on the player settings",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCurrentAmount",
+      "signature": "public static int getCurrentAmount()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the current quantity set based on the player setting for current amount",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getEnterPriceButton",
+      "signature": "public static WidgetChild getEnterPriceButton()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Enter Price WidgetChild in the offer screen",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getGuidePriceButton",
+      "signature": "public static WidgetChild getGuidePriceButton()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Guide Price WidgetChild in the offer screen",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDecreasePriceFivePercentButton",
+      "signature": "public static WidgetChild getDecreasePriceFivePercentButton()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the -5% price WidgetChild in the offer screen",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getIncreasePriceFivePercentButton",
+      "signature": "public static WidgetChild getIncreasePriceFivePercentButton()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the +5% price WidgetChild in the offer screen",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getDecreasePriceXPercentButton",
+      "signature": "public static WidgetChild getDecreasePriceXPercentButton()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the -X% price WidgetChild in the offer screen",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getIncreasePriceXPercentButton",
+      "signature": "public static WidgetChild getIncreasePriceXPercentButton()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the +X% price WidgetChild in the offer screen",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "close",
+      "signature": "public static boolean close()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Closes the GrandExchange screen If close interface with ESC is enabled, will use esc key to close interface",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCloseButton",
+      "signature": "public static WidgetChild getCloseButton()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "sellItem",
+      "signature": "public static boolean sellItem\u200b(java.lang.String itemName, int amount, int price)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Puts an item up for sale in the Grand Exchange",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "buyItem",
+      "signature": "public static boolean buyItem\u200b(java.lang.String itemName, int amount, int price)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Puts in a buy order in the Grand Exchange",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "confirm",
+      "signature": "public static boolean confirm()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Confirms the offer in the Grand Exchange",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "goBack",
+      "signature": "public static boolean goBack()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Clicks the back button in the offer screen",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "cancelOffer",
+      "signature": "public static boolean cancelOffer\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Aborts the current offer in the slot specified in the Grand Exchange Works with buy/sell open or from main ge screen",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "cancelAll",
+      "signature": "public static boolean cancelAll()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Cancels all available offers If inside an offer, will cancel inside the offer, otherwise it will cancel from main screen",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "collect",
+      "signature": "public static boolean collect()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Presses the collect button on the main interface, collects to inventory",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "collectToBank",
+      "signature": "public static boolean collectToBank()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Uses the collect button to collect everything directly to the bank",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isReadyToCollect",
+      "signature": "public static boolean isReadyToCollect\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the slot is done selling/buying and is ready to collect. See GrandExchangeItem.isReadyToCollect()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "slotContainsItem",
+      "signature": "public static boolean slotContainsItem\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if there's an item in the slot specified",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getFirstOpenSlot",
+      "signature": "public static int getFirstOpenSlot()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the number of the first open slot",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "isSlotEnabled",
+      "signature": "public static boolean isSlotEnabled\u200b(int slot)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if the specified slot is enabled.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getItems",
+      "signature": "public static GrandExchangeItem[] getItems()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets an array of the GrandExchangeItems",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCurrentChosenItemID",
+      "signature": "public static int getCurrentChosenItemID()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the current chosen Item ID from the Set Up Buy/Sell Offer menu in the GE",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLastChosenItemID",
+      "signature": "public static int getLastChosenItemID()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Item ID of the last chosen buy item",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getCurrentChosenItem",
+      "signature": "public static Item getCurrentChosenItem()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Item based on the ID returned from getCurrentChosenItemID()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLastChosenItem",
+      "signature": "public static Item getLastChosenItem()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the last chosen buy Item based on the ID returned from getLastChosenItemID()",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getUsedSlots",
+      "signature": "public static int getUsedSlots()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the number of slots that contain an item See slotContainsItem(int)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getOpenSlots",
+      "signature": "public static int getOpenSlots()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the number of slots that do not have an item and are enabled",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "contains",
+      "signature": "public static boolean contains\u200b(java.lang.Integer... ids)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Checks if your collection contains one item which meets one of the specified ids.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getItem",
+      "signature": "public static GrandExchangeItem getItem\u200b(java.lang.Integer... ids)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets a GrandExchangeItem that matches one of the given ID's",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

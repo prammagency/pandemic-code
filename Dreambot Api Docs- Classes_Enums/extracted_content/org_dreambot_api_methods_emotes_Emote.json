@@ -1,0 +1,120 @@
+{
+  "name": "Emote",
+  "full_name": "org.dreambot.api.methods.emotes.Emote",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/emotes/Emote.html",
+  "type": "enum",
+  "package": "org.dreambot.api.methods.emotes",
+  "description": "Gets the Emote based on WidgetChild ID",
+  "page_structure": {
+    "type": "enum",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [
+    "Emote"
+  ],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "Emote",
+      "return_type": "Emote[]",
+      "modifiers": [
+        "static"
+      ],
+      "description": "Returns an array containing the constants of this enum type, in the order they are declared.",
+      "deprecated": false
+    },
+    {
+      "name": "values",
+      "signature": "public static Emote[] values()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns an array containing the constants of this enum type, in the order they are declared. This method may be used to iterate over the constants as follows: for (Emote c : Emote.values()) System.out.println(c);",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "valueOf",
+      "signature": "public static Emote valueOf\u200b(java.lang.String name)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Returns the enum constant of this type with the specified name. The string must match exactly an identifier used to declare an enum constant in this type. (Extraneous whitespace characters are not permitted.)",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "forChildWidgetId",
+      "signature": "public static Emote forChildWidgetId\u200b(int id)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the Emote based on WidgetChild ID",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [
+    {
+      "name": "childwidget",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "Method",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "values",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "valueOf",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    },
+    {
+      "name": "forChildWidgetId",
+      "signature": "",
+      "description": "",
+      "type": "",
+      "modifiers": [],
+      "deprecated": false
+    }
+  ],
+  "constructors": [],
+  "enum_constants": [
+    {
+      "name": "Enum",
+      "description": "Constant Summary\n\nEnum Constants  Enum Constant | Description  \n---|---  \n`ANGRY` |    \n`BECKON` |    \n`BLOW_KISS` |    \n`BOW` |    \n`CHEER` |    \n`CLAP` |    \n`CLIMB_ROPE` |    \n`CRY` |    \n`DANCE` |    \n`FLAP` |    \n`FLEX` |    \n`GLASS_BOX` |    \n`GLASS_WALL` |    \n`GOBLIN_BOW` |    \n`GOBLIN_SALUTE` |    \n`HEADBANG` |    \n`IDEA` |    \n`JIG` |    \n`JUMP_FOR_JOY` |    \n`LAUGH` |    \n`LEAN` |    \n`NO` |    \n`PANIC` |    \n`RABBIT_HOP` |    \n`RASPBERRY` |    \n`SALUTE` |    \n`SCARED` |    \n`SHRUG` |    \n`SKILL_CAPE` |    \n`SLAP_HEAD` |    \n`SPIN` |    \n`STAMP` |    \n`THINK` |    \n`WAVE` |    \n`YAWN` |    \n`YES` |    \n`ZOMBIE_DANCE` |    \n`ZOMBIE_WALK` |    \n    * ### Field Summary\n\nFields  Modifier and Type | Field | Description  \n---|---|---  \n`int` | `childwidget` |    \n    * ### Method Summary\n\nAll Methods [Static Methods](javascript:show\\(1\\);) [Concrete Methods](javascript:show\\(8\\);)  Modifier and Type | Method | Description  \n---|---|---  \n`static [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\")` | `forChildWidgetId\u200b(int id)` |  Gets the Emote based on WidgetChild ID  \n`static [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\")` | `valueOf\u200b(java.lang.String name)` |  Returns the enum constant of this type with the specified name.  \n`static [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\")[]` | `values()` |  Returns an array containing the constants of this enum type, in the order they are declared.  \n      * ### Methods inherited from class java.lang.Enum\n\n`compareTo, equals, getDeclaringClass, hashCode, name, ordinal, toString,\nvalueOf`\n\n      * ### Methods inherited from class java.lang.Object\n\n`getClass, notify, notifyAll, wait, wait, wait`\n\n  *     * ### Enum Constant Detail\n\n      * #### ANGRY\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") ANGRY\n\n      * #### BECKON\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") BECKON\n\n      * #### BLOW_KISS\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") BLOW_KISS\n\n      * #### BOW\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") BOW\n\n      * #### CHEER\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") CHEER\n\n      * #### CLAP\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") CLAP\n\n      * #### CLIMB_ROPE\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") CLIMB_ROPE\n\n      * #### CRY\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") CRY\n\n      * #### DANCE\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") DANCE\n\n      * #### FLAP\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") FLAP\n\n      * #### GLASS_BOX\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") GLASS_BOX\n\n      * #### GLASS_WALL\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") GLASS_WALL\n\n      * #### GOBLIN_BOW\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") GOBLIN_BOW\n\n      * #### GOBLIN_SALUTE\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") GOBLIN_SALUTE\n\n      * #### HEADBANG\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") HEADBANG\n\n      * #### IDEA\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") IDEA\n\n      * #### JIG\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") JIG\n\n      * #### JUMP_FOR_JOY\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") JUMP_FOR_JOY\n\n      * #### LAUGH\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") LAUGH\n\n      * #### LEAN\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") LEAN\n\n      * #### NO\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") NO\n\n      * #### PANIC\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") PANIC\n\n      * #### RABBIT_HOP\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") RABBIT_HOP\n\n      * #### RASPBERRY\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") RASPBERRY\n\n      * #### SALUTE\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") SALUTE\n\n      * #### SCARED\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") SCARED\n\n      * #### SHRUG\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") SHRUG\n\n      * #### SKILL_CAPE\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") SKILL_CAPE\n\n      * #### SLAP_HEAD\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") SLAP_HEAD\n\n      * #### SPIN\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") SPIN\n\n      * #### STAMP\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") STAMP\n\n      * #### THINK\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") THINK\n\n      * #### WAVE\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") WAVE\n\n      * #### YAWN\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") YAWN\n\n      * #### YES\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") YES\n\n      * #### ZOMBIE_DANCE\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") ZOMBIE_DANCE\n\n      * #### ZOMBIE_WALK\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") ZOMBIE_WALK\n\n      * #### FLEX\n            \n                        public static final [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") FLEX\n\n    * ### Field Detail\n\n      * #### childwidget\n            \n                        public final int childwidget\n\n    * ### Method Detail\n\n      * #### values\n            \n                        public static [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\")[] values()\n\nReturns an array containing the constants of this enum type, in the order they\nare declared. This method may be used to iterate over the constants as\nfollows:\n\n            \n                        for (Emote c : Emote.values())\n                System.out.println(c);\n            \n\nReturns:\n\n    an array containing the constants of this enum type, in the order they are declared\n      * #### valueOf\n            \n                        public static [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") valueOf\u200b(java.lang.String name)\n\nReturns the enum constant of this type with the specified name. The string\nmust match _exactly_ an identifier used to declare an enum constant in this\ntype. (Extraneous whitespace characters are not permitted.)\n\nParameters:\n\n    `name` \\- the name of the enum constant to be returned.\nReturns:\n\n    the enum constant with the specified name\nThrows:\n\n    `java.lang.IllegalArgumentException` \\- if this enum type has no constant with the specified name\n    `java.lang.NullPointerException` \\- if the argument is null\n      * #### forChildWidgetId\n            \n                        public static [Emote](Emote.html \"enum in org.dreambot.api.methods.emotes\") forChildWidgetId\u200b(int id)\n\nGets the Emote based on WidgetChild ID\n\nParameters:\n\n    `id` \\- WidgetChild ID\nReturns:\n\n    Emote that matches the ID\n\nSkip navigation links\n\n  * [Overview](../../../../../overview-summary.html)\n  * [Package](package-summary.html)\n  * Class\n  * [Tree](package-tree.html)\n  * [Deprecated](../../../../../deprecated-list.html)\n  * [Index](../../../../../index-all.html)\n  * [Help](../../../../../help-doc.html)\n\n  * [Frames](../../../../../index.html?org/dreambot/api/methods/emotes/Emote.html)\n  * [No Frames](Emote.html)\n\n  * [All Classes](../../../../../allclasses-noframe.html)\n\nJavaScript is disabled on your browser.\n\n  * Summary: \n  * Nested | \n  * Enum Constants | \n  * Field | \n  * Method\n\n  * Detail: \n  * Enum Constants | \n  * Field | \n  * Method"
+    }
+  ],
+  "extraction_fallback_used": true
+}

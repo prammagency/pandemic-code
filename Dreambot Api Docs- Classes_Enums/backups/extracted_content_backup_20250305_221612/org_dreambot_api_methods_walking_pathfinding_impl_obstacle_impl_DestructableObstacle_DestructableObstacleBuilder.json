@@ -1,0 +1,88 @@
+{
+  "name": "DestructableObstacle.DestructableObstacleBuilder",
+  "full_name": "org.dreambot.api.methods.walking.pathfinding.impl.obstacle.impl.DestructableObstacle.DestructableObstacleBuilder",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/pathfinding/impl/obstacle/impl/DestructableObstacle.DestructableObstacleBuilder.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.walking.pathfinding.impl.obstacle.impl",
+  "description": "",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "DestructableObstacle",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "DestructableObstacle.DestructableObstacleBuilder",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "deprecated": false
+    },
+    {
+      "name": "startTile",
+      "signature": "public DestructableObstacle.DestructableObstacleBuilder startTile\u200b(Tile startTile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "endTile",
+      "signature": "public DestructableObstacle.DestructableObstacleBuilder endTile\u200b(Tile endTile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "obstacleTile",
+      "signature": "public DestructableObstacle.DestructableObstacleBuilder obstacleTile\u200b(Tile obstacleTile)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "createDestructableObstacle",
+      "signature": "public DestructableObstacle createDestructableObstacle()",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

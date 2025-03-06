@@ -1,0 +1,61 @@
+{
+  "name": "WebNodeBuilder",
+  "full_name": "org.dreambot.api.methods.walking.web.node.builder.WebNodeBuilder",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/methods/walking/web/node/builder/WebNodeBuilder.html",
+  "type": "class",
+  "package": "org.dreambot.api.methods.walking.web.node.builder",
+  "description": "Created by Nezz on 8/11/2016.",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "getStringValue",
+      "signature": "public static java.lang.String getStringValue\u200b(java.lang.String target, java.lang.String raw)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the stringvalue.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getLocation",
+      "signature": "public static int getLocation\u200b(java.lang.String target, java.lang.String raw, int offset)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the location.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    },
+    {
+      "name": "getBooleanValue",
+      "signature": "public static boolean getBooleanValue\u200b(java.lang.String target, java.lang.String raw)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "Gets the booleanvalue.",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}

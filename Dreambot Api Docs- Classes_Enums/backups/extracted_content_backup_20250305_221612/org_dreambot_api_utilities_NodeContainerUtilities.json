@@ -1,0 +1,35 @@
+{
+  "name": "NodeContainerUtilities",
+  "full_name": "org.dreambot.api.utilities.NodeContainerUtilities",
+  "full_url": "https://dreambot.org/javadocs/org/dreambot/api/utilities/NodeContainerUtilities.html",
+  "type": "class",
+  "package": "org.dreambot.api.utilities",
+  "description": "",
+  "page_structure": {
+    "type": "class",
+    "format_version": "old",
+    "has_summary_tables": true,
+    "has_detail_sections": true,
+    "has_nested_classes": false
+  },
+  "inheritance": [],
+  "interfaces_implemented": [],
+  "nested_classes": [],
+  "methods": [
+    {
+      "name": "findNodeByHash",
+      "signature": "public static org.dreambot.internal.injector.interfaces.RSNode findNodeByHash\u200b(org.dreambot.internal.injector.interfaces.RSHashTable hashTable, long hash)",
+      "return_type": "",
+      "modifiers": [],
+      "description": "",
+      "parameters": [],
+      "return": {
+        "type": "",
+        "description": ""
+      },
+      "deprecated": false
+    }
+  ],
+  "fields": [],
+  "constructors": []
+}
