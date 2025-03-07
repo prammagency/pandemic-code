@@ -1,0 +1,58 @@
+{
+  "sleep": "500",
+  "name": "",
+  "version": 1.0,
+  "actions": [
+    {
+      "id": "IF_FILE_EXISTS",
+      "children": [
+        {
+          "id": "IF_FILE_DOES_NOT_EXIST",
+          "children": [
+            {
+              "id": "SAVE_SCREENSHOT_TO_FILE",
+              "children": [
+                {
+                  "id": "SAVE_WIDGET_SCREENSHOT_TO_FILE",
+                  "properties": {
+                    "Find Widget By": {
+                      "class": "Widget",
+                      "logic": "NONE",
+                      "type": "NONE",
+                      "operator": "EQUALS"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "WRITE_TEXT_TO_FILE",
+                      "children": [
+                        {
+                          "id": "WRITE_LIST_TO_FILE",
+                          "children": [
+                            {
+                              "id": "WRITE_LISTED_VARIABLES_TO_FILE",
+                              "children": [
+                                {
+                                  "id": "WRITE_VARIABLES_TO_FILE",
+                                  "children": [
+                                    {
+                                      "id": "LOAD_VARIABLES_FROM_FILE"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

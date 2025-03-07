@@ -1,0 +1,366 @@
+{
+  "sleep": "500",
+  "name": "",
+  "version": 1.0,
+  "actions": [
+    {
+      "id": "IF_PLAYER_EXISTS",
+      "properties": {
+        "Filter Player By": {
+          "class": "Player",
+          "logic": "NONE",
+          "type": "NAME",
+          "operator": "EQUALS",
+          "filters": [
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "NAME",
+              "operator": "DOES_NOT_EQUAL"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "NAME",
+              "operator": "CONTAINS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "NAME",
+              "operator": "DOES_NOT_CONTAIN"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "NAME",
+              "operator": "STARTS_WITH"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "NAME",
+              "operator": "ENDS_WITH"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "NAME",
+              "operator": "IS_IN_LIST"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "NAME",
+              "operator": "NOT_IN_LIST"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "ACTION",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "LEVEL",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "HEALTH",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "ORIENTATION",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "DISTANCE_TO_PLAYER",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "WALKING_DISTANCE_TO_PLAYER",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "DISTANCE_TO_ANOTHER_PLAYER",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "IS_REACHABLE",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "IS_NOT_REACHABLE",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "TILE",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "SERVER_TILE",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "IN_AREA",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "NOT_IN_AREA",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "IS_UNDER_PLAYER",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "IS_NOT_UNDER_PLAYER",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "ON_SCREEN",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "NOT_ON_SCREEN",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "ANIMATION",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "SPOT_ANIMATION",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "ANIMATING",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "NOT_ANIMATING",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "MODEL_HEIGHT",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "CAN_ATTACK_ME",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "IN_COMBAT",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "IS_HEALTH_BAR_VISIBLE",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "IS_HEALTH_BAR_NOT_VISIBLE",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "MOVING",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "NOT_MOVING",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "IS_ATTACKABLE",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "IS_NOT_ATTACKABLE",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "WE_ARE_INTERACTING",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "WE_ARE_NOT_INTERACTING",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "IS_INTERACTING",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "IS_NOT_INTERACTING",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "IS_INTERACTING_WITH_ME",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "IS_NOT_INTERACTING_WITH_ME",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "IS_BEING_INTERACTED_WITH",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "IS_NOT_BEING_INTERACTED_WITH",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "IS_INTERACTING_WITH",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "IS_LAST_OUTPUT",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "IS_NOT_LAST_OUTPUT",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "INDEX",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Player",
+              "logic": "AND",
+              "type": "FILTER_BY_ACTION",
+              "operator": "EQUALS"
+            }
+          ]
+        }
+      },
+      "children": [
+        {
+          "id": "IF_PLAYER_DOES_NOT_EXIST",
+          "properties": {
+            "Filter Player By": {
+              "class": "Player",
+              "logic": "NONE",
+              "type": "NONE",
+              "operator": "EQUALS"
+            }
+          },
+          "children": [
+            {
+              "id": "IF_PLAYER_COUNT_IS",
+              "properties": {
+                "count": {
+                  "class": "Number",
+                  "operator": "EQUALS",
+                  "value": ""
+                },
+                "Filter Player By": {
+                  "class": "Player",
+                  "logic": "NONE",
+                  "type": "NONE",
+                  "operator": "EQUALS"
+                }
+              },
+              "children": [
+                {
+                  "id": "PLAYER_INTERACT",
+                  "properties": {
+                    "Force left click": true,
+                    "Don't walk to Player": true,
+                    "Filter Player By": {
+                      "class": "Player",
+                      "logic": "NONE",
+                      "type": "NONE",
+                      "operator": "EQUALS"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

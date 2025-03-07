@@ -1,0 +1,626 @@
+{
+  "control_structures": {
+    "AND_BRANCH": {
+      "description": "Logical AND branch - executes child actions only if all conditions are true",
+      "usage_pattern": "Use for checking multiple conditions that must ALL be satisfied",
+      "nesting_rules": {
+        "can_be_nested_in": ["root", "IF_*", "WHILE_*", "AND_BRANCH", "OR_BRANCH"],
+        "can_contain": ["*"]
+      },
+      "example": {
+        "id": "AND_BRANCH",
+        "children": [
+          {
+            "id": "IF_INVENTORY_CONTAINS",
+            "properties": {
+              "Filter Item By": {
+                "class": "Item",
+                "logic": "NONE",
+                "type": "NAME",
+                "operator": "EQUALS",
+                "value": "Coins"
+              }
+            }
+          },
+          {
+            "id": "IF_BANK_IS_OPEN"
+          }
+        ]
+      },
+      "dreambot_translation": "Implemented as multiple conditional checks with && operator"
+    },
+    
+    "OR_BRANCH": {
+      "description": "Logical OR branch - executes child actions if any condition is true",
+      "usage_pattern": "Use for checking multiple conditions where ANY can be satisfied",
+      "nesting_rules": {
+        "can_be_nested_in": ["root", "IF_*", "WHILE_*", "AND_BRANCH", "OR_BRANCH"],
+        "can_contain": ["*"]
+      },
+      "example": {
+        "id": "OR_BRANCH",
+        "children": [
+          {
+            "id": "IF_INVENTORY_CONTAINS",
+            "properties": {
+              "Filter Item By": {
+                "class": "Item",
+                "logic": "NONE",
+                "type": "NAME",
+                "operator": "EQUALS",
+                "value": "Bones"
+              }
+            }
+          },
+          {
+            "id": "IF_INVENTORY_CONTAINS",
+            "properties": {
+              "Filter Item By": {
+                "class": "Item",
+                "logic": "NONE",
+                "type": "NAME",
+                "operator": "EQUALS",
+                "value": "Dragon bones"
+              }
+            }
+          }
+        ]
+      },
+      "dreambot_translation": "Implemented as multiple conditional checks with || operator"
+    },
+    
+    "IF_STATEMENT": {
+      "description": "Conditional execution based on specific condition",
+      "usage_pattern": "Use any IF_* action to check a condition and execute children only if true",
+      "nesting_rules": {
+        "can_be_nested_in": ["root", "IF_*", "WHILE_*", "AND_BRANCH", "OR_BRANCH"],
+        "can_contain": ["*"]
+      },
+      "example": {
+        "id": "IF_INVENTORY_IS_FULL",
+        "children": [
+          {
+            "id": "BANK_DEPOSIT_ALL"
+          }
+        ]
+      },
+      "dreambot_translation": "Implemented as standard if statement in Java"
+    },
+    
+    "WHILE_LOOP": {
+      "description": "Repeatedly executes child actions while condition is true",
+      "usage_pattern": "Use any WHILE_* action for repetitive execution based on a condition",
+      "nesting_rules": {
+        "can_be_nested_in": ["root", "IF_*", "WHILE_*", "AND_BRANCH", "OR_BRANCH"],
+        "can_contain": ["*"]
+      },
+      "example": {
+        "id": "WHILE_INVENTORY_IS_NOT_FULL",
+        "children": [
+          {
+            "id": "GROUND_ITEM_INTERACT",
+            "properties": {
+              "Filter Item By": {
+                "class": "GroundItem",
+                "logic": "NONE",
+                "type": "NAME",
+                "operator": "EQUALS",
+                "value": "Bones"
+              }
+            }
+          }
+        ]
+      },
+      "dreambot_translation": "Implemented as standard while loop in Java"
+    },
+    
+    "FOR_EACH_LOOP": {
+      "description": "Executes child actions for each item in a list",
+      "usage_pattern": "Use FOR_EACH to iterate through a list of items",
+      "nesting_rules": {
+        "can_be_nested_in": ["root", "IF_*", "WHILE_*", "AND_BRANCH", "OR_BRANCH"],
+        "can_contain": ["*"]
+      },
+      "example": {
+        "id": "FOR_EACH",
+        "properties": {
+          "List name": "loot_items",
+          "Variable name": "current_item"
+        },
+        "children": [
+          {
+            "id": "IF_GROUND_ITEM_EXISTS",
+            "properties": {
+              "Filter Item By": {
+                "class": "GroundItem",
+                "logic": "NONE",
+                "type": "NAME",
+                "operator": "EQUALS",
+                "value": "${current_item}"
+              }
+            },
+            "children": [
+              {
+                "id": "GROUND_ITEM_INTERACT",
+                "properties": {
+                  "Filter Item By": {
+                    "class": "GroundItem",
+                    "logic": "NONE",
+                    "type": "NAME",
+                    "operator": "EQUALS",
+                    "value": "${current_item}"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dreambot_translation": "Implemented as a for-each loop in Java"
+    },
+    
+    "SEQUENCE": {
+      "description": "Sequential execution of actions (implicit in root or within other structures)",
+      "usage_pattern": "Default behavior when adding multiple actions to root or within a structure",
+      "nesting_rules": {
+        "can_be_nested_in": ["root", "IF_*", "WHILE_*", "AND_BRANCH", "OR_BRANCH"],
+        "can_contain": ["*"]
+      },
+      "example": {
+        "actions": [
+          {
+            "id": "WALK_TO_BANK"
+          },
+          {
+            "id": "OPEN_BANK"
+          },
+          {
+            "id": "BANK_DEPOSIT_ALL"
+          }
+        ]
+      },
+      "dreambot_translation": "Implemented as sequential statements in Java"
+    },
+    
+    "CONDITION_FILTERING": {
+      "description": "Complex filtering with multiple conditions and operators",
+      "usage_pattern": "Used for precise filtering of game entities",
+      "example": {
+        "id": "IF_NPC_EXISTS",
+        "properties": {
+          "Filter NPC By": {
+            "class": "NPC",
+            "logic": "AND",
+            "conditions": [
+              {
+                "type": "NAME",
+                "operator": "EQUALS",
+                "value": "Elder Chaos druid"
+              },
+              {
+                "type": "LEVEL",
+                "operator": "GREATER_THAN",
+                "value": "100"
+              },
+              {
+                "type": "DISTANCE",
+                "operator": "LESS_THAN",
+                "value": "10"
+              }
+            ]
+          }
+        },
+        "children": [
+          {
+            "id": "NPC_INTERACT",
+            "properties": {
+              "Filter NPC By": {
+                "class": "NPC",
+                "logic": "AND",
+                "conditions": [
+                  {
+                    "type": "NAME",
+                    "operator": "EQUALS",
+                    "value": "Elder Chaos druid"
+                  },
+                  {
+                    "type": "LEVEL",
+                    "operator": "GREATER_THAN",
+                    "value": "100"
+                  },
+                  {
+                    "type": "DISTANCE",
+                    "operator": "LESS_THAN",
+                    "value": "10"
+                  }
+                ]
+              },
+              "Action": "Attack"
+            }
+          }
+        ]
+      },
+      "dreambot_translation": "Implemented using DreamBot's Filtering API with multiple conditions"
+    },
+    
+    "FIRST_RUN_CHECK": {
+      "description": "One-time initialization that runs only on first script execution",
+      "usage_pattern": "Used for setting up variables and timers on script startup",
+      "example": {
+        "id": "IF_FIRST_RUN",
+        "children": [
+          {
+            "id": "SET_VARIABLE",
+            "properties": {
+              "Variable name": "target_npc",
+              "Value": "Elder Chaos druid"
+            }
+          },
+          {
+            "id": "CREATE_TIMER",
+            "properties": {
+              "Timer name": "antiban_timer",
+              "Time": "180000"
+            }
+          },
+          {
+            "id": "CREATE_LIST",
+            "properties": {
+              "List name": "loot_items"
+            }
+          }
+        ]
+      },
+      "dreambot_translation": "Implemented using a static boolean that's checked once"
+    }
+  },
+  
+  "complex_structures": {
+    "nested_conditionals": {
+      "description": "Nesting conditionals for complex decision trees",
+      "example": {
+        "id": "IF_BANK_IS_OPEN",
+        "children": [
+          {
+            "id": "IF_INVENTORY_CONTAINS",
+            "properties": {
+              "Filter Item By": {
+                "class": "Item",
+                "logic": "NONE",
+                "type": "NAME",
+                "operator": "EQUALS",
+                "value": "Bones"
+              }
+            },
+            "children": [
+              {
+                "id": "BANK_DEPOSIT_ITEM",
+                "properties": {
+                  "Filter Item By": {
+                    "class": "Item",
+                    "logic": "NONE",
+                    "type": "NAME",
+                    "operator": "EQUALS",
+                    "value": "Bones"
+                  },
+                  "Amount": "All"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "java_pattern": "if (Bank.isOpen()) {\n    if (Inventory.contains(\"Bones\")) {\n        Bank.deposit(\"Bones\", Integer.MAX_VALUE);\n    }\n}"
+    },
+    
+    "loop_with_conditionals": {
+      "description": "Combining loops with conditional checks",
+      "example": {
+        "id": "WHILE_BANK_IS_OPEN",
+        "children": [
+          {
+            "id": "IF_INVENTORY_IS_FULL",
+            "children": [
+              {
+                "id": "BANK_DEPOSIT_ALL"
+              }
+            ]
+          },
+          {
+            "id": "IF_INVENTORY_IS_NOT_FULL",
+            "children": [
+              {
+                "id": "IF_BANK_CONTAINS",
+                "properties": {
+                  "Filter Item By": {
+                    "class": "Item",
+                    "logic": "NONE",
+                    "type": "NAME",
+                    "operator": "EQUALS",
+                    "value": "Bones"
+                  }
+                },
+                "children": [
+                  {
+                    "id": "BANK_WITHDRAW_ITEM",
+                    "properties": {
+                      "Filter Item By": {
+                        "class": "Item",
+                        "logic": "NONE",
+                        "type": "NAME",
+                        "operator": "EQUALS",
+                        "value": "Bones"
+                      },
+                      "Amount": "28"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "java_pattern": "while (Bank.isOpen()) {\n    if (Inventory.isFull()) {\n        Bank.depositAll();\n    }\n    if (!Inventory.isFull()) {\n        if (Bank.contains(\"Bones\")) {\n            Bank.withdraw(\"Bones\", 28);\n        }\n    }\n}"
+    },
+    
+    "multi_condition_branching": {
+      "description": "Combining AND/OR branches for complex decision trees",
+      "example": {
+        "id": "AND_BRANCH",
+        "children": [
+          {
+            "id": "IF_LOGGED_IN"
+          },
+          {
+            "id": "OR_BRANCH",
+            "children": [
+              {
+                "id": "IF_INVENTORY_IS_FULL"
+              },
+              {
+                "id": "IF_LOCAL_PLAYER_HEALTH_PERCENTAGE",
+                "properties": {
+                  "health": {
+                    "class": "Number",
+                    "operator": "LESS_THAN",
+                    "value": "30"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "children": [
+          {
+            "id": "WALK_TO_BANK"
+          }
+        ]
+      },
+      "java_pattern": "if (Client.isLoggedIn() && (Inventory.isFull() || Skills.getBoostedLevel(Skill.HITPOINTS) * 100 / Skills.getLevel(Skill.HITPOINTS) < 30)) {\n    Walking.walkToBank();\n}"
+    },
+    
+    "resource_gathering_loop": {
+      "description": "Common pattern for gathering resources until inventory is full",
+      "example": {
+        "id": "WHILE_INVENTORY_IS_NOT_FULL",
+        "children": [
+          {
+            "id": "IF_GAME_OBJECT_EXISTS",
+            "properties": {
+              "Filter GameObject By": {
+                "class": "GameObject",
+                "logic": "NONE",
+                "type": "NAME",
+                "operator": "EQUALS",
+                "value": "Yew tree"
+              }
+            },
+            "children": [
+              {
+                "id": "GAME_OBJECT_INTERACT",
+                "properties": {
+                  "Filter GameObject By": {
+                    "class": "GameObject",
+                    "logic": "NONE",
+                    "type": "NAME",
+                    "operator": "EQUALS",
+                    "value": "Yew tree"
+                  },
+                  "Action": "Chop down"
+                }
+              },
+              {
+                "id": "SLEEP_BETWEEN",
+                "properties": {
+                  "Minimum": "1000",
+                  "Maximum": "2000"
+                }
+              }
+            ]
+          },
+          {
+            "id": "SLEEP_BETWEEN",
+            "properties": {
+              "Minimum": "500",
+              "Maximum": "800"
+            }
+          }
+        ]
+      },
+      "java_pattern": "while (!Inventory.isFull()) {\n    GameObject tree = GameObjects.closest(obj -> obj.getName().equals(\"Yew tree\"));\n    if (tree != null) {\n        tree.interact(\"Chop down\");\n        sleep(Calculations.random(1000, 2000));\n    }\n    sleep(Calculations.random(500, 800));\n}"
+    },
+    
+    "bank_transaction_pattern": {
+      "description": "Pattern for depositing and withdrawing items at a bank",
+      "example": {
+        "id": "IF_BANK_IS_OPEN",
+        "children": [
+          {
+            "id": "BANK_DEPOSIT_ALL_EXCEPT",
+            "properties": {
+              "Filter Item By": {
+                "class": "Item",
+                "logic": "NONE",
+                "type": "NAME",
+                "operator": "EQUALS",
+                "value": "Tool"
+              }
+            }
+          },
+          {
+            "id": "SLEEP_BETWEEN",
+            "properties": {
+              "Minimum": "500",
+              "Maximum": "800"
+            }
+          },
+          {
+            "id": "IF_BANK_CONTAINS",
+            "properties": {
+              "Filter Item By": {
+                "class": "Item",
+                "logic": "NONE",
+                "type": "NAME",
+                "operator": "EQUALS",
+                "value": "Resource"
+              }
+            },
+            "children": [
+              {
+                "id": "BANK_WITHDRAW_ITEM",
+                "properties": {
+                  "Filter Item By": {
+                    "class": "Item",
+                    "logic": "NONE",
+                    "type": "NAME",
+                    "operator": "EQUALS",
+                    "value": "Resource"
+                  },
+                  "Amount": "28"
+                }
+              }
+            ]
+          },
+          {
+            "id": "CLOSE_BANK"
+          }
+        ]
+      },
+      "java_pattern": "if (Bank.isOpen()) {\n    Bank.depositAllExcept(\"Tool\");\n    sleep(Calculations.random(500, 800));\n    if (Bank.contains(\"Resource\")) {\n        Bank.withdraw(\"Resource\", 28);\n    }\n    Bank.close();\n}"
+    },
+    
+    "combat_loop_pattern": {
+      "description": "Pattern for engaging in combat and looting",
+      "example": {
+        "id": "IF_NOT_IN_COMBAT",
+        "children": [
+          {
+            "id": "AND_BRANCH",
+            "children": [
+              {
+                "id": "IF_GROUND_ITEM_EXISTS",
+                "properties": {
+                  "Filter Item By": {
+                    "class": "GroundItem",
+                    "logic": "NONE",
+                    "type": "NAME",
+                    "operator": "EQUALS",
+                    "value": "Loot"
+                  }
+                }
+              },
+              {
+                "id": "IF_INVENTORY_IS_NOT_FULL"
+              }
+            ],
+            "children": [
+              {
+                "id": "GROUND_ITEM_INTERACT",
+                "properties": {
+                  "Filter Item By": {
+                    "class": "GroundItem",
+                    "logic": "NONE",
+                    "type": "NAME",
+                    "operator": "EQUALS",
+                    "value": "Loot"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "IF_NPC_EXISTS",
+            "properties": {
+              "Filter NPC By": {
+                "class": "NPC",
+                "logic": "NONE",
+                "type": "NAME",
+                "operator": "EQUALS",
+                "value": "Enemy"
+              }
+            },
+            "children": [
+              {
+                "id": "NPC_INTERACT",
+                "properties": {
+                  "Filter NPC By": {
+                    "class": "NPC",
+                    "logic": "NONE",
+                    "type": "NAME",
+                    "operator": "EQUALS",
+                    "value": "Enemy"
+                  },
+                  "Action": "Attack"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "java_pattern": "if (!Combat.isInCombat()) {\n    if (GroundItems.closest(\"Loot\") != null && !Inventory.isFull()) {\n        GroundItems.closest(\"Loot\").interact();\n    }\n    NPC enemy = NPCs.closest(\"Enemy\");\n    if (enemy != null) {\n        enemy.interact(\"Attack\");\n    }\n}"
+    }
+  },
+  
+  "dreambot_translation_patterns": {
+    "if_statement": {
+      "pattern": "if ({condition}) {\n{children}\n}",
+      "description": "Standard Java if statement translation"
+    },
+    "while_loop": {
+      "pattern": "while ({condition}) {\n{children}\n}",
+      "description": "Standard Java while loop translation"
+    },
+    "for_each_loop": {
+      "pattern": "for ({type} {variable} : {collection}) {\n{children}\n}",
+      "description": "Standard Java for-each loop translation"
+    },
+    "and_branch": {
+      "pattern": "if ({condition1} && {condition2} && ...) {\n{children}\n}",
+      "description": "Java if statement with multiple AND conditions"
+    },
+    "or_branch": {
+      "pattern": "if ({condition1} || {condition2} || ...) {\n{children}\n}",
+      "description": "Java if statement with multiple OR conditions"
+    },
+    "method_call": {
+      "pattern": "{class}.{method}({parameters});",
+      "description": "Standard Java method call"
+    },
+    "method_call_with_chain": {
+      "pattern": "{class}.{method}({parameters}).{chain_method}({chain_parameters});",
+      "description": "Java method call with chained method call"
+    },
+    "variable_assignment": {
+      "pattern": "{type} {variable} = {value};",
+      "description": "Java variable assignment"
+    },
+    "filter_creation": {
+      "pattern": "Filter<{type}> filter = {entity} -> {condition};",
+      "description": "Creation of a filter using Java lambda expression"
+    },
+    "complex_filter": {
+      "pattern": "Filter<{type}> filter = {entity} -> {condition1} && {condition2} && ...;",
+      "description": "Complex filter with multiple conditions"
+    }
+  }
+}

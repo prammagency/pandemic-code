@@ -1,0 +1,294 @@
+{
+  "equipment_categories": [
+    "weapon", "head", "body", "legs", "hands", "feet", "cape", "neck", "ring", "ammo", "shield"
+  ],
+  
+  "equipment_sets": {
+    "melee": {
+      "tiers": ["bronze", "iron", "steel", "mithril", "adamant", "rune"],
+      "weapon_types": ["sword", "longsword", "scimitar", "battleaxe", "mace", "warhammer", "dagger", "two-handed sword"]
+    },
+    "ranged": {
+      "tiers": ["normal", "oak", "willow", "maple"],
+      "weapon_types": ["shortbow", "longbow", "crossbow"],
+      "ammo_tiers": ["bronze", "iron", "steel", "mithril", "adamant", "rune"]
+    },
+    "magic": {
+      "staves": ["staff", "magic staff", "elemental staves"],
+      "robes": ["blue wizard", "black wizard", "zamorak", "saradomin"]
+    }
+  },
+  
+  "equipment": {
+    "Rune Scimitar": {
+      "id": 1333,
+      "category": "weapon",
+      "equipment_set": "melee",
+      "tier": "rune",
+      "weapon_type": "scimitar",
+      "requirements": {
+        "attack": 40
+      },
+      "bonuses": {
+        "attack": {
+          "stab": 7,
+          "slash": 45,
+          "crush": -2
+        },
+        "defense": {
+          "stab": 0,
+          "slash": 1,
+          "crush": 0
+        },
+        "other": {
+          "strength": 44,
+          "prayer": 0
+        }
+      },
+      "speed": 6,
+      "tradeable": true,
+      "value": 15000,
+      "weight": 1.8
+    },
+    
+    "Rune Platebody": {
+      "id": 1127,
+      "category": "body",
+      "equipment_set": "melee",
+      "tier": "rune",
+      "requirements": {
+        "defense": 40,
+        "quests": ["Dragon Slayer"]
+      },
+      "bonuses": {
+        "attack": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": -30,
+          "range": -10
+        },
+        "defense": {
+          "stab": 82,
+          "slash": 80,
+          "crush": 72,
+          "magic": -30,
+          "range": 0
+        },
+        "other": {
+          "strength": 0,
+          "prayer": 0
+        }
+      },
+      "tradeable": true,
+      "value": 39000,
+      "weight": 9.979
+    },
+    
+    "Green D'hide Body": {
+      "id": 1135,
+      "category": "body",
+      "equipment_set": "ranged",
+      "tier": "green dragonhide",
+      "requirements": {
+        "ranged": 40,
+        "defense": 40
+      },
+      "bonuses": {
+        "attack": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": -15,
+          "range": 15
+        },
+        "defense": {
+          "stab": 30,
+          "slash": 28,
+          "crush": 38,
+          "magic": 20,
+          "range": 30
+        },
+        "other": {
+          "strength": 0,
+          "prayer": 0
+        }
+      },
+      "tradeable": true,
+      "value": 6800,
+      "weight": 6.8
+    },
+    
+    "Blue Wizard Robe": {
+      "id": 577,
+      "category": "body",
+      "equipment_set": "magic",
+      "tier": "blue wizard",
+      "requirements": {},
+      "bonuses": {
+        "attack": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 10,
+          "range": 0
+        },
+        "defense": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 10,
+          "range": 0
+        },
+        "other": {
+          "strength": 0,
+          "prayer": 0
+        }
+      },
+      "tradeable": true,
+      "value": 25,
+      "weight": 0.9
+    },
+    
+    "Staff of Air": {
+      "id": 1381,
+      "category": "weapon",
+      "equipment_set": "magic",
+      "tier": "elemental staff",
+      "requirements": {
+        "magic": 1,
+        "attack": 1
+      },
+      "bonuses": {
+        "attack": {
+          "stab": 0,
+          "slash": -1,
+          "crush": 7,
+          "magic": 10,
+          "range": 0
+        },
+        "defense": {
+          "stab": 2,
+          "slash": 3,
+          "crush": 1,
+          "magic": 10,
+          "range": 0
+        },
+        "other": {
+          "strength": 0,
+          "prayer": 0
+        }
+      },
+      "special_properties": {
+        "unlimited_runes": ["Air"]
+      },
+      "tradeable": true,
+      "value": 1500,
+      "weight": 2.267
+    },
+    
+    "Maple Shortbow": {
+      "id": 853,
+      "category": "weapon",
+      "equipment_set": "ranged",
+      "tier": "maple",
+      "weapon_type": "shortbow",
+      "requirements": {
+        "ranged": 30
+      },
+      "bonuses": {
+        "attack": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "range": 29
+        },
+        "defense": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "range": 0
+        },
+        "other": {
+          "strength": 0,
+          "prayer": 0
+        }
+      },
+      "tradeable": true,
+      "value": 200,
+      "weight": 1.4
+    }
+  },
+  
+  "recommended_setups": {
+    "F2P Melee": {
+      "combat_style": "melee",
+      "equipment": {
+        "head": "Rune Full Helm",
+        "body": "Rune Platebody",
+        "legs": "Rune Platelegs",
+        "hands": null,
+        "feet": null,
+        "cape": null,
+        "neck": "Amulet of Strength",
+        "ring": null,
+        "weapon": "Rune Scimitar",
+        "ammo": null,
+        "shield": "Rune Kiteshield"
+      },
+      "stats": {
+        "minimum_requirements": {
+          "attack": 40,
+          "defense": 40
+        }
+      }
+    },
+    
+    "F2P Ranged": {
+      "combat_style": "ranged",
+      "equipment": {
+        "head": "Coif",
+        "body": "Green D'hide Body",
+        "legs": "Green D'hide Chaps",
+        "hands": "Green D'hide Vambraces",
+        "feet": "Leather Boots",
+        "cape": null,
+        "neck": "Amulet of Power",
+        "ring": null,
+        "weapon": "Maple Shortbow",
+        "ammo": "Adamant Arrow",
+        "shield": null
+      },
+      "stats": {
+        "minimum_requirements": {
+          "ranged": 40,
+          "defense": 40
+        }
+      }
+    },
+    
+    "F2P Magic": {
+      "combat_style": "magic",
+      "equipment": {
+        "head": "Blue Wizard Hat",
+        "body": "Blue Wizard Robe",
+        "legs": "Blue Skirt",
+        "hands": null,
+        "feet": null,
+        "cape": null,
+        "neck": "Amulet of Magic",
+        "ring": null,
+        "weapon": "Staff of Fire",
+        "ammo": null,
+        "shield": null
+      },
+      "stats": {
+        "minimum_requirements": {
+          "magic": 1
+        }
+      }
+    }
+  }
+}

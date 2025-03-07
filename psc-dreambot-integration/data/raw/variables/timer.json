@@ -1,0 +1,188 @@
+{
+  "sleep": "500",
+  "name": "",
+  "version": 1.0,
+  "actions": [
+    {
+      "id": "IF_TIMER_EXISTS",
+      "properties": {
+        "Timer name": "x"
+      },
+      "children": [
+        {
+          "id": "IF_TIMER_DOES_NOT_EXIST",
+          "properties": {
+            "Timer name": "x"
+          },
+          "children": [
+            {
+              "id": "IF_TIMER_IS_RUNNING",
+              "properties": {
+                "Timer name": "x"
+              },
+              "children": [
+                {
+                  "id": "IF_TIMER_IS_NOT_RUNNING",
+                  "properties": {
+                    "Timer name": "x"
+                  },
+                  "children": [
+                    {
+                      "id": "IF_TIMER_IS_PAUSED",
+                      "properties": {
+                        "Timer name": "x"
+                      },
+                      "children": [
+                        {
+                          "id": "IF_TIMER_IS_PAUSED",
+                          "properties": {
+                            "Timer name": "x"
+                          },
+                          "children": [
+                            {
+                              "id": "IF_TIMER_IS_NOT_PAUSED",
+                              "properties": {
+                                "Timer name": "x"
+                              },
+                              "children": [
+                                {
+                                  "id": "IF_TIMER_IS_NOT_FINISHED",
+                                  "properties": {
+                                    "Timer name": "x"
+                                  },
+                                  "children": [
+                                    {
+                                      "id": "IF_TIMER_IS_FINISHED",
+                                      "properties": {
+                                        "Timer name": "x"
+                                      },
+                                      "children": [
+                                        {
+                                          "id": "IF_TIMER_TIME_LEFT_IS_LESS_THAN",
+                                          "properties": {
+                                            "Timer name": "x",
+                                            "Time": "y"
+                                          },
+                                          "children": [
+                                            {
+                                              "id": "IF_TIMER_TIME_LEFT_IS_GREATER_THAN",
+                                              "properties": {
+                                                "Timer name": "x",
+                                                "Time": "y"
+                                              },
+                                              "children": [
+                                                {
+                                                  "id": "START_TIMER",
+                                                  "properties": {
+                                                    "Timer name": "x",
+                                                    "Time": "y"
+                                                  },
+                                                  "children": [
+                                                    {
+                                                      "id": "RESTART_TIMER",
+                                                      "properties": {
+                                                        "Timer name": "x"
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "id": "CREATE_TIMER",
+                                                          "properties": {
+                                                            "Timer name": "x",
+                                                            "Time": "y"
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "id": "CREATE_TIMER",
+                                                              "properties": {
+                                                                "Timer name": "x",
+                                                                "Time": "y"
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "id": "PAUSE_TIMER",
+                                                                  "properties": {
+                                                                    "Timer name": "x"
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "id": "RESUME_TIMER",
+                                                                      "properties": {
+                                                                        "Timer name": "x"
+                                                                      },
+                                                                      "children": [
+                                                                        {
+                                                                          "id": "RESET_TIMER",
+                                                                          "properties": {
+                                                                            "Timer name": "x"
+                                                                          },
+                                                                          "children": [
+                                                                            {
+                                                                              "id": "DELETE_TIMER",
+                                                                              "properties": {
+                                                                                "Timer name": "x"
+                                                                              },
+                                                                              "children": [
+                                                                                {
+                                                                                  "id": "DELETE_TIMER",
+                                                                                  "properties": {
+                                                                                    "Timer name": "x"
+                                                                                  },
+                                                                                  "children": [
+                                                                                    {
+                                                                                      "id": "ADD_TO_TIMER",
+                                                                                      "properties": {
+                                                                                        "Timer name": "x",
+                                                                                        "Time": "y"
+                                                                                      },
+                                                                                      "children": [
+                                                                                        {
+                                                                                          "id": "SUBTRACT_FROM_TIMER",
+                                                                                          "properties": {
+                                                                                            "Timer name": "x",
+                                                                                            "Time": "y"
+                                                                                          }
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

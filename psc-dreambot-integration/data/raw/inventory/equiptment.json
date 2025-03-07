@@ -1,0 +1,501 @@
+{
+  "sleep": "500",
+  "name": "",
+  "version": 1.0,
+  "actions": [
+    {
+      "id": "IF_EQUIPPED_ITEM_MATCHES",
+      "properties": {
+        "Filter Item By": {
+          "class": "Item",
+          "logic": "NONE",
+          "type": "NAME",
+          "operator": "EQUALS",
+          "filters": [
+            {
+              "class": "Item",
+              "logic": "AND",
+              "type": "ID",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Item",
+              "logic": "AND",
+              "type": "AMOUNT",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Item",
+              "logic": "AND",
+              "type": "ACTION",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Item",
+              "logic": "AND",
+              "type": "VALUE",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Item",
+              "logic": "AND",
+              "type": "HIGH_ALCH_VALUE",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Item",
+              "logic": "AND",
+              "type": "LIVE_PRICE",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Item",
+              "logic": "AND",
+              "type": "SLOT",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Item",
+              "logic": "AND",
+              "type": "SELECTED",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Item",
+              "logic": "AND",
+              "type": "NOT_SELECTED",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Item",
+              "logic": "AND",
+              "type": "IS_NOTED",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Item",
+              "logic": "AND",
+              "type": "IS_NOT_NOTED",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Item",
+              "logic": "AND",
+              "type": "IS_FOOD",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Item",
+              "logic": "AND",
+              "type": "IS_NOT_FOOD",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Item",
+              "logic": "AND",
+              "type": "IS_TRADEABLE",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Item",
+              "logic": "AND",
+              "type": "IS_NOT_TRADEABLE",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Item",
+              "logic": "AND",
+              "type": "IS_STACKABLE",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Item",
+              "logic": "AND",
+              "type": "IS_NOT_STACKABLE",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Item",
+              "logic": "AND",
+              "type": "IN_INVENTORY",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Item",
+              "logic": "AND",
+              "type": "NOT_IN_INVENTORY",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Item",
+              "logic": "AND",
+              "type": "IS_VARIABLE_VALUE",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Item",
+              "logic": "AND",
+              "type": "IS_LAST_OUTPUT",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Item",
+              "logic": "AND",
+              "type": "IS_NOT_LAST_OUTPUT",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Item",
+              "logic": "AND",
+              "type": "IS_NOT_VARIABLE_VALUE",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "Item",
+              "logic": "AND",
+              "type": "FILTER_BY_ACTION",
+              "operator": "EQUALS"
+            }
+          ]
+        }
+      },
+      "children": [
+        {
+          "id": "IF_EQUIPPED_ITEM_DOES_NOT_MATCH",
+          "properties": {
+            "Filter Item By": {
+              "class": "Item",
+              "logic": "NONE",
+              "type": "NONE",
+              "operator": "EQUALS"
+            }
+          },
+          "children": [
+            {
+              "id": "IF_EQUIPMENT_SLOT_IS_EMPTY",
+              "properties": {
+                "Slot": {
+                  "class": "EquipmentSlot",
+                  "value": "HAT"
+                }
+              },
+              "children": [
+                {
+                  "id": "IF_EQUIPMENT_SLOT_IS_NOT_EMPTY",
+                  "properties": {
+                    "Slot": {
+                      "class": "EquipmentSlot",
+                      "value": "HAT"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "IF_ALL_EQUIPMENT_SLOTS_ARE_EMPTY",
+                      "children": [
+                        {
+                          "id": "IF_AMMO_COUNT_IS",
+                          "properties": {
+                            "count": {
+                              "class": "Number",
+                              "operator": "EQUALS",
+                              "value": ""
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": "INTERACT_WITH_EQUIPMENT",
+                              "properties": {
+                                "Slot": {
+                                  "class": "EquipmentSlot",
+                                  "value": "HAT"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "id": "INTERACT_WITH_EQUIPMENT",
+                                  "properties": {
+                                    "Slot": {
+                                      "class": "EquipmentSlot",
+                                      "value": "CAPE"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "id": "INTERACT_WITH_EQUIPMENT",
+                                      "properties": {
+                                        "Slot": {
+                                          "class": "EquipmentSlot",
+                                          "value": "AMULET"
+                                        }
+                                      },
+                                      "children": [
+                                        {
+                                          "id": "INTERACT_WITH_EQUIPMENT",
+                                          "properties": {
+                                            "Slot": {
+                                              "class": "EquipmentSlot",
+                                              "value": "WEAPON"
+                                            }
+                                          },
+                                          "children": [
+                                            {
+                                              "id": "INTERACT_WITH_EQUIPMENT",
+                                              "properties": {
+                                                "Slot": {
+                                                  "class": "EquipmentSlot",
+                                                  "value": "CHEST"
+                                                }
+                                              },
+                                              "children": [
+                                                {
+                                                  "id": "INTERACT_WITH_EQUIPMENT",
+                                                  "properties": {
+                                                    "Slot": {
+                                                      "class": "EquipmentSlot",
+                                                      "value": "SHIELD"
+                                                    }
+                                                  },
+                                                  "children": [
+                                                    {
+                                                      "id": "INTERACT_WITH_EQUIPMENT",
+                                                      "properties": {
+                                                        "Slot": {
+                                                          "class": "EquipmentSlot",
+                                                          "value": "LEGS"
+                                                        }
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "id": "INTERACT_WITH_EQUIPMENT",
+                                                          "properties": {
+                                                            "Slot": {
+                                                              "class": "EquipmentSlot",
+                                                              "value": "HANDS"
+                                                            }
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "id": "INTERACT_WITH_EQUIPMENT",
+                                                              "properties": {
+                                                                "Slot": {
+                                                                  "class": "EquipmentSlot",
+                                                                  "value": "FEET"
+                                                                }
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "id": "INTERACT_WITH_EQUIPMENT",
+                                                                  "properties": {
+                                                                    "Slot": {
+                                                                      "class": "EquipmentSlot",
+                                                                      "value": "RING"
+                                                                    }
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "id": "INTERACT_WITH_EQUIPMENT",
+                                                                      "properties": {
+                                                                        "Slot": {
+                                                                          "class": "EquipmentSlot",
+                                                                          "value": "ARROWS"
+                                                                        }
+                                                                      },
+                                                                      "children": [
+                                                                        {
+                                                                          "id": "EQUIP_MATCHING_ITEM",
+                                                                          "properties": {
+                                                                            "Filter Item By": {
+                                                                              "class": "Item",
+                                                                              "logic": "NONE",
+                                                                              "type": "NAME",
+                                                                              "operator": "EQUALS",
+                                                                              "filters": [
+                                                                                {
+                                                                                  "class": "Item",
+                                                                                  "logic": "AND",
+                                                                                  "type": "ID",
+                                                                                  "operator": "EQUALS"
+                                                                                },
+                                                                                {
+                                                                                  "class": "Item",
+                                                                                  "logic": "AND",
+                                                                                  "type": "AMOUNT",
+                                                                                  "operator": "EQUALS"
+                                                                                },
+                                                                                {
+                                                                                  "class": "Item",
+                                                                                  "logic": "AND",
+                                                                                  "type": "ACTION",
+                                                                                  "operator": "EQUALS"
+                                                                                },
+                                                                                {
+                                                                                  "class": "Item",
+                                                                                  "logic": "AND",
+                                                                                  "type": "VALUE",
+                                                                                  "operator": "EQUALS"
+                                                                                },
+                                                                                {
+                                                                                  "class": "Item",
+                                                                                  "logic": "AND",
+                                                                                  "type": "HIGH_ALCH_VALUE",
+                                                                                  "operator": "EQUALS"
+                                                                                },
+                                                                                {
+                                                                                  "class": "Item",
+                                                                                  "logic": "AND",
+                                                                                  "type": "LIVE_PRICE",
+                                                                                  "operator": "EQUALS"
+                                                                                },
+                                                                                {
+                                                                                  "class": "Item",
+                                                                                  "logic": "AND",
+                                                                                  "type": "SLOT",
+                                                                                  "operator": "EQUALS"
+                                                                                },
+                                                                                {
+                                                                                  "class": "Item",
+                                                                                  "logic": "AND",
+                                                                                  "type": "SELECTED",
+                                                                                  "operator": "EQUALS"
+                                                                                },
+                                                                                {
+                                                                                  "class": "Item",
+                                                                                  "logic": "AND",
+                                                                                  "type": "NOT_SELECTED",
+                                                                                  "operator": "EQUALS"
+                                                                                },
+                                                                                {
+                                                                                  "class": "Item",
+                                                                                  "logic": "AND",
+                                                                                  "type": "IS_NOTED",
+                                                                                  "operator": "EQUALS"
+                                                                                },
+                                                                                {
+                                                                                  "class": "Item",
+                                                                                  "logic": "AND",
+                                                                                  "type": "IS_NOT_NOTED",
+                                                                                  "operator": "EQUALS"
+                                                                                },
+                                                                                {
+                                                                                  "class": "Item",
+                                                                                  "logic": "AND",
+                                                                                  "type": "IS_FOOD",
+                                                                                  "operator": "EQUALS"
+                                                                                },
+                                                                                {
+                                                                                  "class": "Item",
+                                                                                  "logic": "AND",
+                                                                                  "type": "IS_NOT_FOOD",
+                                                                                  "operator": "EQUALS"
+                                                                                },
+                                                                                {
+                                                                                  "class": "Item",
+                                                                                  "logic": "AND",
+                                                                                  "type": "IS_TRADEABLE",
+                                                                                  "operator": "EQUALS"
+                                                                                },
+                                                                                {
+                                                                                  "class": "Item",
+                                                                                  "logic": "AND",
+                                                                                  "type": "IS_NOT_TRADEABLE",
+                                                                                  "operator": "EQUALS"
+                                                                                },
+                                                                                {
+                                                                                  "class": "Item",
+                                                                                  "logic": "AND",
+                                                                                  "type": "IS_STACKABLE",
+                                                                                  "operator": "EQUALS"
+                                                                                },
+                                                                                {
+                                                                                  "class": "Item",
+                                                                                  "logic": "AND",
+                                                                                  "type": "IS_NOT_STACKABLE",
+                                                                                  "operator": "EQUALS"
+                                                                                },
+                                                                                {
+                                                                                  "class": "Item",
+                                                                                  "logic": "AND",
+                                                                                  "type": "IN_INVENTORY",
+                                                                                  "operator": "EQUALS"
+                                                                                },
+                                                                                {
+                                                                                  "class": "Item",
+                                                                                  "logic": "AND",
+                                                                                  "type": "NOT_IN_INVENTORY",
+                                                                                  "operator": "EQUALS"
+                                                                                },
+                                                                                {
+                                                                                  "class": "Item",
+                                                                                  "logic": "AND",
+                                                                                  "type": "IS_VARIABLE_VALUE",
+                                                                                  "operator": "EQUALS"
+                                                                                },
+                                                                                {
+                                                                                  "class": "Item",
+                                                                                  "logic": "AND",
+                                                                                  "type": "IS_NOT_VARIABLE_VALUE",
+                                                                                  "operator": "EQUALS"
+                                                                                },
+                                                                                {
+                                                                                  "class": "Item",
+                                                                                  "logic": "AND",
+                                                                                  "type": "FILTER_BY_ACTION",
+                                                                                  "operator": "EQUALS"
+                                                                                }
+                                                                              ]
+                                                                            },
+                                                                            "Slot": {
+                                                                              "class": "EquipmentSlot",
+                                                                              "value": "HAT"
+                                                                            }
+                                                                          },
+                                                                          "children": [
+                                                                            {
+                                                                              "id": "UNEQUIP",
+                                                                              "properties": {
+                                                                                "Filter Item By": {
+                                                                                  "class": "Item",
+                                                                                  "logic": "NONE",
+                                                                                  "type": "NONE",
+                                                                                  "operator": "EQUALS"
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

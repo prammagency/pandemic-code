@@ -1,0 +1,464 @@
+{
+  "property_types": {
+    "numeric": {
+      "description": "Numeric values (integers or floating point)",
+      "subtypes": {
+        "integer": {
+          "description": "Whole number values",
+          "examples": [1, 10, 100, 1000],
+          "special_values": {
+            "All": "Used when referring to all items/quantities"
+          }
+        },
+        "float": {
+          "description": "Decimal number values",
+          "examples": [0.5, 1.5, 10.75],
+          "format_notes": "May require decimal point even for whole numbers in some contexts"
+        }
+      }
+    },
+    
+    "string": {
+      "description": "Text values",
+      "formats": {
+        "simple": {
+          "description": "Basic text string",
+          "examples": ["Bones", "Coins", "Dragon bones"]
+        },
+        "regex": {
+          "description": "Regular expression pattern",
+          "examples": ["Rune.*", "Dragon .*", "[A-Z].*"],
+          "usage_notes": "Used with MATCHES_REGEX operator"
+        }
+      }
+    },
+    
+    "boolean": {
+      "description": "True/false values",
+      "valid_values": [true, false],
+      "format_notes": "Usually represented as checkboxes in PSC UI"
+    },
+    
+    "coordinate": {
+      "description": "X, Y, Z map coordinates",
+      "format": {
+        "x": "Integer X coordinate on the map",
+        "y": "Integer Y coordinate on the map",
+        "z": "Integer Z coordinate (plane/level)",
+        "examples": [
+          {"x": 3221, "y": 3218, "z": 0},
+          {"x": 3165, "y": 3489, "z": 0}
+        ]
+      }
+    },
+    
+    "variable_reference": {
+      "description": "Reference to a variable in PSC",
+      "format": "${variable_name}",
+      "examples": ["${coin_count}", "${target_npc}", "${last_position}"],
+      "usage_notes": "Can be used in most property values to reference variables"
+    },
+    
+    "list_reference": {
+      "description": "Reference to a list in PSC",
+      "format": "list_name",
+      "examples": ["loot_items", "target_npcs", "bank_locations"],
+      "usage_notes": "Used with IS_IN_LIST operator"
+    },
+    
+    "time_duration": {
+      "description": "Duration of time in milliseconds",
+      "format": "Integer milliseconds",
+      "examples": [500, 1000, 5000, 60000],
+      "usage_notes": "Used for sleep times, timeouts, and timers"
+    },
+    
+    "percentage": {
+      "description": "Percentage value between 0 and 100",
+      "format": "Integer 0-100",
+      "examples": [25, 50, 75, 100],
+      "usage_notes": "Used for health percentages, probability, etc."
+    },
+    
+    "action_name": {
+      "description": "Name of an interaction action",
+      "format": "Simple string",
+      "examples": ["Attack", "Talk-to", "Chop down", "Mine", "Pick"],
+      "usage_notes": "Used for specifying interaction with NPCs, objects, etc."
+    },
+    
+    "filter_condition": {
+      "description": "Complex filter structure for entity filtering",
+      "format": "Object with class, logic, type, operator, and value",
+      "examples": [
+        {
+          "class": "Item",
+          "logic": "NONE",
+          "type": "NAME",
+          "operator": "EQUALS",
+          "value": "Bones"
+        },
+        {
+          "class": "NPC",
+          "logic": "AND",
+          "conditions": [
+            {"type": "NAME", "operator": "EQUALS", "value": "Man"},
+            {"type": "LEVEL", "operator": "LESS_THAN", "value": "10"}
+          ]
+        }
+      ]
+    },
+    
+    "comparison": {
+      "description": "Comparison structure for numeric comparisons",
+      "format": "Object with class, operator, and value",
+      "examples": [
+        {
+          "class": "Number",
+          "operator": "GREATER_THAN",
+          "value": "10"
+        },
+        {
+          "class": "Number",
+          "operator": "EQUALS",
+          "value": "100"
+        }
+      ]
+    }
+  },
+  
+  "common_properties": {
+    "Amount": {
+      "description": "Quantity of items to withdraw/deposit/drop",
+      "type": "numeric.integer or string",
+      "valid_values": ["Any positive integer", "All"],
+      "examples": [1, 5, 10, 28, "All"]
+    },
+    
+    "Minimum": {
+      "description": "Minimum value for ranges (sleep, random number, etc.)",
+      "type": "numeric.integer",
+      "valid_values": ["Any non-negative number"],
+      "examples": [500, 1000, 2000]
+    },
+    
+    "Maximum": {
+      "description": "Maximum value for ranges (sleep, random number, etc.)",
+      "type": "numeric.integer",
+      "valid_values": ["Any number greater than Minimum"],
+      "examples": [1000, 2000, 5000]
+    },
+    
+    "Mean": {
+      "description": "Mean value for normal distribution",
+      "type": "numeric.integer",
+      "valid_values": ["Any positive number"],
+      "examples": [500, 1000, 2000]
+    },
+    
+    "Variance": {
+      "description": "Variance value for normal distribution",
+      "type": "numeric.integer",
+      "valid_values": ["Any positive number"],
+      "examples": [100, 200, 500]
+    },
+    
+    "Timer name": {
+      "description": "Name identifier for timers",
+      "type": "string.simple",
+      "valid_values": ["Any text without spaces"],
+      "examples": ["bank_timer", "combat_timer", "antiban_timer"]
+    },
+    
+    "Time": {
+      "description": "Duration in milliseconds",
+      "type": "numeric.integer",
+      "valid_values": ["Any positive number"],
+      "examples": [1000, 60000, 300000]
+    },
+    
+    "Variable name": {
+      "description": "Name identifier for variables",
+      "type": "string.simple",
+      "valid_values": ["Any text without spaces"],
+      "examples": ["coin_count", "target_npc", "last_position"]
+    },
+    
+    "Value": {
+      "description": "Value to assign to a variable",
+      "type": "any",
+      "valid_values": ["Any valid data value"],
+      "examples": ["String value", 100, true, {"complex": "object"}]
+    },
+    
+    "List name": {
+      "description": "Name identifier for lists",
+      "type": "string.simple",
+      "valid_values": ["Any text without spaces"],
+      "examples": ["loot_items", "target_npcs", "bank_locations"]
+    },
+    
+    "Filter Item By": {
+      "description": "Filter structure for items",
+      "type": "filter_condition",
+      "valid_values": ["Valid filter condition for Item class"],
+      "examples": [
+        {
+          "class": "Item",
+          "logic": "NONE",
+          "type": "NAME",
+          "operator": "EQUALS",
+          "value": "Bones"
+        }
+      ]
+    },
+    
+    "Filter NPC By": {
+      "description": "Filter structure for NPCs",
+      "type": "filter_condition",
+      "valid_values": ["Valid filter condition for NPC class"],
+      "examples": [
+        {
+          "class": "NPC",
+          "logic": "NONE",
+          "type": "NAME",
+          "operator": "EQUALS",
+          "value": "Goblin"
+        }
+      ]
+    },
+    
+    "Filter GameObject By": {
+      "description": "Filter structure for game objects",
+      "type": "filter_condition",
+      "valid_values": ["Valid filter condition for GameObject class"],
+      "examples": [
+        {
+          "class": "GameObject",
+          "logic": "NONE",
+          "type": "NAME",
+          "operator": "EQUALS",
+          "value": "Tree"
+        }
+      ]
+    },
+    
+    "Action": {
+      "description": "Action to perform on an entity",
+      "type": "action_name",
+      "valid_values": ["Valid action for the entity type"],
+      "examples": ["Attack", "Talk-to", "Mine", "Chop down"]
+    },
+    
+    "x": {
+      "description": "X coordinate on the game map",
+      "type": "numeric.integer",
+      "valid_values": ["Any valid game map coordinate"],
+      "examples": [3200, 3221, 3165]
+    },
+    
+    "y": {
+      "description": "Y coordinate on the game map",
+      "type": "numeric.integer",
+      "valid_values": ["Any valid game map coordinate"],
+      "examples": [3200, 3218, 3489]
+    },
+    
+    "z": {
+      "description": "Z coordinate (plane level) on the game map",
+      "type": "numeric.integer",
+      "valid_values": [0, 1, 2, 3],
+      "examples": [0, 1]
+    },
+    
+    "health": {
+      "description": "Health percentage comparison",
+      "type": "comparison",
+      "valid_values": ["Valid comparison for numeric values"],
+      "examples": [
+        {
+          "class": "Number",
+          "operator": "LESS_THAN",
+          "value": "50"
+        }
+      ]
+    },
+    
+    "distance": {
+      "description": "Distance comparison",
+      "type": "comparison",
+      "valid_values": ["Valid comparison for numeric values"],
+      "examples": [
+        {
+          "class": "Number",
+          "operator": "LESS_THAN",
+          "value": "10"
+        }
+      ]
+    },
+    
+    "number": {
+      "description": "Generic number comparison",
+      "type": "comparison",
+      "valid_values": ["Valid comparison for numeric values"],
+      "examples": [
+        {
+          "class": "Number",
+          "operator": "EQUALS",
+          "value": "100"
+        }
+      ]
+    },
+    
+    "Widget ID": {
+      "description": "Parent widget ID for UI elements",
+      "type": "numeric.integer",
+      "valid_values": ["Valid widget interface ID"],
+      "examples": [548, 161, 162]
+    },
+    
+    "Child ID": {
+      "description": "Child widget ID for UI elements",
+      "type": "numeric.integer",
+      "valid_values": ["Valid widget child ID"],
+      "examples": [1, 2, 3, 4]
+    },
+    
+    "Bank Type": {
+      "description": "Type of bank to interact with",
+      "type": "string.simple",
+      "valid_values": ["Bank booth", "Bank chest", "Deposit box"],
+      "examples": ["Bank booth", "Bank chest"]
+    },
+    
+    "Noted": {
+      "description": "Whether to withdraw items in noted form",
+      "type": "boolean",
+      "valid_values": [true, false],
+      "examples": [true, false]
+    },
+    
+    "Comparison": {
+      "description": "Comparison operator for numeric comparisons",
+      "type": "string.simple",
+      "valid_values": ["EQUALS", "NOT_EQUALS", "GREATER_THAN", "LESS_THAN", "GREATER_THAN_EQUALS", "LESS_THAN_EQUALS"],
+      "examples": ["EQUALS", "GREATER_THAN"]
+    }
+  },
+  
+  "value_formats": {
+    "item_value_formats": {
+      "description": "Formatting rules for item-related values",
+      "examples": {
+        "name": {
+          "case_sensitive": false,
+          "exact_match": true,
+          "examples": ["Dragon bones", "Rune essence"]
+        },
+        "id": {
+          "format": "Integer",
+          "examples": [526, 995]
+        },
+        "amount": {
+          "formats": ["Integer", "\"All\""],
+          "examples": [1, 28, "All"]
+        }
+      }
+    },
+    
+    "coordinate_formats": {
+      "description": "Formatting rules for coordinate values",
+      "examples": {
+        "standard": {
+          "format": "x: integer, y: integer, z: integer",
+          "examples": {"x": 3221, "y": 3218, "z": 0}
+        },
+        "tile_object": {
+          "format": "new Tile(x, y, z)",
+          "examples": "new Tile(3221, 3218, 0)"
+        }
+      }
+    },
+    
+    "time_formats": {
+      "description": "Formatting rules for time values",
+      "examples": {
+        "milliseconds": {
+          "format": "Integer",
+          "examples": [500, 1000, 60000]
+        },
+        "formatted_time": {
+          "format": "HH:MM:SS",
+          "examples": ["12:30:00", "23:59:59"]
+        }
+      }
+    },
+    
+    "variable_reference_formats": {
+      "description": "Formatting rules for variable references",
+      "examples": {
+        "standard": {
+          "format": "${variable_name}",
+          "examples": ["${coin_count}", "${target_npc}"]
+        },
+        "java_format": {
+          "format": "variables.get(\"variable_name\")",
+          "examples": "variables.get(\"coin_count\")"
+        }
+      }
+    }
+  },
+  
+  "special_property_behaviors": {
+    "variable_substitution": {
+      "description": "Variable references are substituted with their values at runtime",
+      "example": {
+        "property": "Filter NPC By",
+        "value": {
+          "class": "NPC",
+          "logic": "NONE",
+          "type": "NAME",
+          "operator": "EQUALS",
+          "value": "${target_npc}"
+        },
+        "runtime_behavior": "At runtime, ${target_npc} is replaced with the current value of the target_npc variable"
+      }
+    },
+    
+    "amount_all": {
+      "description": "The special value 'All' for Amount properties means the maximum possible amount",
+      "example": {
+        "property": "Amount",
+        "value": "All",
+        "runtime_behavior": "Translated to Integer.MAX_VALUE in Java code"
+      }
+    },
+    
+    "sleep_behavior": {
+      "description": "Sleep actions pause script execution for the specified duration",
+      "example": {
+        "action": "SLEEP_BETWEEN",
+        "properties": {
+          "Minimum": "500",
+          "Maximum": "1000"
+        },
+        "runtime_behavior": "Randomly selects a duration between 500 and 1000 milliseconds and pauses execution for that period"
+      }
+    },
+    
+    "list_references": {
+      "description": "References to lists are resolved to the actual list contents at runtime",
+      "example": {
+        "property": "Filter Item By",
+        "value": {
+          "class": "Item",
+          "logic": "NONE",
+          "type": "NAME",
+          "operator": "IS_IN_LIST",
+          "value": "loot_items"
+        },
+        "runtime_behavior": "Checks if the item name is in the list identified by 'loot_items'"
+      }
+    }
+  }
+}

@@ -1,0 +1,956 @@
+{
+  "monster_categories": [
+    "low_level", "medium_level", "high_level", "boss"
+  ],
+  
+  "monsters": {
+    "Chicken": {
+      "id": 1017,
+      "combat_level": 1,
+      "hitpoints": 3,
+      "attack_style": ["melee"],
+      "max_hit": 1,
+      "aggressive": false,
+      "poisonous": false,
+      "locations": [
+        {
+          "area": "Lumbridge West Farm 1",
+          "type": "rectangle",
+          "coordinates": [
+            {"x": 3170, "y": 3290, "z": 0},
+            {"x": 3184, "y": 3303, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Lumbridge Castle Bank",
+            "distance": 650
+          }
+        },
+        {
+          "area": "Lumbridge West Farm 2",
+          "type": "rectangle",
+          "coordinates": [
+            {"x": 3184, "y": 3276, "z": 0},
+            {"x": 3192, "y": 3279, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Lumbridge Castle Bank",
+            "distance": 700
+          }
+        },
+        {
+          "area": "South Falador Farm",
+          "type": "rectangle",
+          "coordinates": [
+            {"x": 3013, "y": 3282, "z": 0},
+            {"x": 3042, "y": 3311, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Draynor Village Bank",
+            "distance": 800
+          }
+        }
+      ],
+      "drops": [
+        {"item": "Bones", "rate": "Always", "quantity": [1, 1]},
+        {"item": "Raw chicken", "rate": "Common", "quantity": [1, 1]},
+        {"item": "Feather", "rate": "Common", "quantity": [5, 15]}
+      ],
+      "weakness": ["all"],
+      "category": "low_level"
+    },
+    
+    "Cow": {
+      "id": 1763,
+      "combat_level": 2,
+      "hitpoints": 8,
+      "attack_style": ["melee"],
+      "max_hit": 1,
+      "aggressive": false,
+      "poisonous": false,
+      "locations": [
+        {
+          "area": "Lumbridge East Farm 1",
+          "type": "rectangle",
+          "coordinates": [
+            {"x": 3194, "y": 3284, "z": 0},
+            {"x": 3210, "y": 3300, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Lumbridge Castle Bank",
+            "distance": 600
+          }
+        },
+        {
+          "area": "Lumbridge East Farm 2",
+          "type": "rectangle",
+          "coordinates": [
+            {"x": 3161, "y": 3316, "z": 0},
+            {"x": 3199, "y": 3339, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Lumbridge Castle Bank",
+            "distance": 750
+          }
+        },
+        {
+          "area": "Falador Farm",
+          "type": "rectangle",
+          "coordinates": [
+            {"x": 3022, "y": 3299, "z": 0},
+            {"x": 3041, "y": 3312, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Falador East Bank",
+            "distance": 900
+          }
+        },
+        {
+          "area": "Champions' Guild Field",
+          "type": "path",
+          "coordinates": [
+            {"x": 3241, "y": 3296, "z": 0},
+            {"x": 3246, "y": 3278, "z": 0},
+            {"x": 3253, "y": 3270, "z": 0},
+            {"x": 3253, "y": 3258, "z": 0},
+            {"x": 3253, "y": 3254, "z": 0},
+            {"x": 3264, "y": 3254, "z": 0},
+            {"x": 3264, "y": 3265, "z": 0},
+            {"x": 3264, "y": 3278, "z": 0},
+            {"x": 3265, "y": 3290, "z": 0},
+            {"x": 3263, "y": 3295, "z": 0},
+            {"x": 3251, "y": 3296, "z": 0},
+            {"x": 3242, "y": 3295, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Varrock East Bank",
+            "distance": 800
+          }
+        }
+      ],
+      "drops": [
+        {"item": "Bones", "rate": "Always", "quantity": [1, 1]},
+        {"item": "Raw beef", "rate": "Common", "quantity": [1, 1]},
+        {"item": "Cowhide", "rate": "Common", "quantity": [1, 1]}
+      ],
+      "weakness": ["all"],
+      "category": "low_level"
+    },
+    
+    "Goblin": {
+      "id": 655,
+      "combat_level": 2,
+      "hitpoints": 5,
+      "attack_style": ["melee"],
+      "max_hit": 1,
+      "aggressive": false,
+      "poisonous": false,
+      "locations": [
+        {
+          "area": "Lumbridge Main Area",
+          "type": "rectangle",
+          "coordinates": [
+            {"x": 3134, "y": 3287, "z": 0},
+            {"x": 3187, "y": 3312, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Lumbridge Castle Bank",
+            "distance": 400
+          }
+        },
+        {
+          "area": "Lumbridge Individual Spots",
+          "type": "points",
+          "coordinates": [
+            {"x": 3148, "y": 3296, "z": 0},
+            {"x": 3187, "y": 3244, "z": 0},
+            {"x": 3163, "y": 3286, "z": 0},
+            {"x": 3143, "y": 3227, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Lumbridge Castle Bank",
+            "distance": 500
+          }
+        },
+        {
+          "area": "Port Sarim",
+          "type": "rectangle",
+          "coordinates": [
+            {"x": 2995, "y": 3202, "z": 0},
+            {"x": 3007, "y": 3211, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Draynor Village Bank",
+            "distance": 1000
+          }
+        }
+      ],
+      "drops": [
+        {"item": "Bones", "rate": "Always", "quantity": [1, 1]},
+        {"item": "Goblin mail", "rate": "Common", "quantity": [1, 1]},
+        {"item": "Bronze spear", "rate": "Uncommon", "quantity": [1, 1]}
+      ],
+      "weakness": ["all"],
+      "category": "low_level"
+    },
+    
+    "Giant Spider": {
+      "id": 59,
+      "combat_level": 2,
+      "hitpoints": 5,
+      "attack_style": ["melee"],
+      "max_hit": 1,
+      "aggressive": false,
+      "poisonous": false,
+      "locations": [
+        {
+          "area": "Lumbridge Individual Spots",
+          "type": "points",
+          "coordinates": [
+            {"x": 3166, "y": 3242, "z": 0},
+            {"x": 3163, "y": 3222, "z": 0},
+            {"x": 3200, "y": 3238, "z": 0},
+            {"x": 3245, "y": 3232, "z": 0},
+            {"x": 3241, "y": 3241, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Lumbridge Castle Bank",
+            "distance": 450
+          }
+        },
+        {
+          "area": "Varrock Sewers",
+          "type": "point",
+          "coordinates": [
+            {"x": 3221, "y": 9886, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Varrock West Bank",
+            "distance": 950
+          }
+        }
+      ],
+      "drops": [
+        {"item": "Nothing", "rate": "Always", "quantity": [0, 0]}
+      ],
+      "weakness": ["all"],
+      "category": "low_level"
+    },
+    
+    "Giant Rat": {
+      "id": 86,
+      "combat_level": 3,
+      "hitpoints": 10,
+      "attack_style": ["melee"],
+      "max_hit": 1,
+      "aggressive": false,
+      "poisonous": false,
+      "locations": [
+        {
+          "area": "Lumbridge Swamp",
+          "type": "rectangle",
+          "coordinates": [
+            {"x": 3164, "y": 3162, "z": 0},
+            {"x": 3230, "y": 3193, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Lumbridge Castle Bank",
+            "distance": 750
+          }
+        }
+      ],
+      "drops": [
+        {"item": "Bones", "rate": "Always", "quantity": [1, 1]},
+        {"item": "Raw rat meat", "rate": "Common", "quantity": [1, 1]}
+      ],
+      "weakness": ["all"],
+      "category": "low_level"
+    },
+    
+    "Al-Kharid Warrior": {
+      "id": 18,
+      "combat_level": 9,
+      "hitpoints": 19,
+      "attack_style": ["melee"],
+      "max_hit": 2,
+      "aggressive": false,
+      "poisonous": false,
+      "locations": [
+        {
+          "area": "Al-Kharid Palace",
+          "type": "rectangle",
+          "coordinates": [
+            {"x": 3282, "y": 3167, "z": 0},
+            {"x": 3303, "y": 3177, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Al Kharid Bank",
+            "distance": 300
+          }
+        }
+      ],
+      "drops": [
+        {"item": "Bones", "rate": "Always", "quantity": [1, 1]},
+        {"item": "Bronze arrow", "rate": "Common", "quantity": [1, 10]},
+        {"item": "Coins", "rate": "Common", "quantity": [1, 10]}
+      ],
+      "weakness": ["all"],
+      "category": "low_level"
+    },
+    
+    "Monk": {
+      "id": 2579,
+      "combat_level": 5,
+      "hitpoints": 15,
+      "attack_style": ["melee"],
+      "max_hit": 2,
+      "aggressive": false,
+      "poisonous": false,
+      "locations": [
+        {
+          "area": "Edgeville Monastery",
+          "type": "rectangle",
+          "coordinates": [
+            {"x": 3043, "y": 3482, "z": 0},
+            {"x": 3061, "y": 3499, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Edgeville Bank",
+            "distance": 550
+          }
+        }
+      ],
+      "drops": [
+        {"item": "Bones", "rate": "Always", "quantity": [1, 1]}
+      ],
+      "weakness": ["all"],
+      "category": "low_level"
+    },
+    
+    "Scorpion": {
+      "id": 107,
+      "combat_level": 14,
+      "hitpoints": 17,
+      "attack_style": ["melee"],
+      "max_hit": 2,
+      "aggressive": false,
+      "poisonous": false,
+      "locations": [
+        {
+          "area": "Al Kharid Mine",
+          "type": "rectangle",
+          "coordinates": [
+            {"x": 3295, "y": 3278, "z": 0},
+            {"x": 3304, "y": 3316, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Al Kharid Bank",
+            "distance": 600
+          }
+        },
+        {
+          "area": "Dwarven Mine Area 1",
+          "type": "rectangle",
+          "coordinates": [
+            {"x": 3039, "y": 9780, "z": 0},
+            {"x": 3046, "y": 9809, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Falador East Bank",
+            "distance": 1200
+          }
+        },
+        {
+          "area": "Dwarven Mine Area 2",
+          "type": "rectangle",
+          "coordinates": [
+            {"x": 3038, "y": 9776, "z": 0},
+            {"x": 3053, "y": 9782, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Falador East Bank",
+            "distance": 1150
+          }
+        }
+      ],
+      "drops": [
+        {"item": "Nothing", "rate": "Always", "quantity": [0, 0]}
+      ],
+      "weakness": ["all"],
+      "category": "low_level"
+    },
+    
+    "Guard": {
+      "id": 32,
+      "combat_level": 21,
+      "hitpoints": 22,
+      "attack_style": ["melee"],
+      "max_hit": 3,
+      "aggressive": false,
+      "poisonous": false,
+      "locations": [
+        {
+          "area": "Falador",
+          "type": "rectangle",
+          "coordinates": [
+            {"x": 2963, "y": 3379, "z": 0},
+            {"x": 2968, "y": 3400, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Falador East Bank",
+            "distance": 350
+          }
+        },
+        {
+          "area": "Varrock Castle",
+          "type": "rectangle",
+          "coordinates": [
+            {"x": 3203, "y": 3460, "z": 0},
+            {"x": 3222, "y": 3467, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Varrock West Bank",
+            "distance": 450
+          }
+        }
+      ],
+      "drops": [
+        {"item": "Bones", "rate": "Always", "quantity": [1, 1]},
+        {"item": "Iron arrow", "rate": "Common", "quantity": [1, 5]},
+        {"item": "Coins", "rate": "Common", "quantity": [1, 30]}
+      ],
+      "weakness": ["all"],
+      "category": "medium_level"
+    },
+    
+    "Barbarian": {
+      "id": 12,
+      "combat_level": 10,
+      "hitpoints": 25,
+      "attack_style": ["melee"],
+      "max_hit": 3,
+      "aggressive": false,
+      "poisonous": false,
+      "locations": [
+        {
+          "area": "Barbarian Village",
+          "type": "rectangle",
+          "coordinates": [
+            {"x": 3070, "y": 3406, "z": 0},
+            {"x": 3093, "y": 3431, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Edgeville Bank",
+            "distance": 650
+          }
+        }
+      ],
+      "drops": [
+        {"item": "Bones", "rate": "Always", "quantity": [1, 1]},
+        {"item": "Beer", "rate": "Common", "quantity": [1, 1]},
+        {"item": "Coins", "rate": "Common", "quantity": [1, 15]}
+      ],
+      "weakness": ["all"],
+      "category": "medium_level"
+    },
+    
+    "Dark Wizard": {
+      "id": 172,
+      "combat_level": 7,
+      "hitpoints": 12,
+      "attack_style": ["magic"],
+      "max_hit": 4,
+      "aggressive": true,
+      "poisonous": false,
+      "locations": [
+        {
+          "area": "South of Varrock",
+          "type": "rectangle",
+          "coordinates": [
+            {"x": 3222, "y": 3362, "z": 0},
+            {"x": 3234, "y": 3375, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Varrock West Bank",
+            "distance": 650
+          }
+        }
+      ],
+      "drops": [
+        {"item": "Bones", "rate": "Always", "quantity": [1, 1]},
+        {"item": "Black robe", "rate": "Uncommon", "quantity": [1, 1]},
+        {"item": "Elemental runes", "rate": "Common", "quantity": [1, 10]}
+      ],
+      "weakness": ["ranged"],
+      "category": "medium_level"
+    },
+    
+    "Dwarf": {
+      "id": 118,
+      "combat_level": 10,
+      "hitpoints": 16,
+      "attack_style": ["melee"],
+      "max_hit": 2,
+      "aggressive": false,
+      "poisonous": false,
+      "locations": [
+        {
+          "area": "Ice Mountain",
+          "type": "rectangle",
+          "coordinates": [
+            {"x": 3002, "y": 3435, "z": 0},
+            {"x": 3030, "y": 3454, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Falador East Bank",
+            "distance": 900
+          }
+        },
+        {
+          "area": "Dwarven Mine",
+          "type": "rectangle",
+          "coordinates": [
+            {"x": 3038, "y": 9759, "z": 0},
+            {"x": 3052, "y": 9794, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Falador East Bank",
+            "distance": 1100
+          }
+        }
+      ],
+      "drops": [
+        {"item": "Bones", "rate": "Always", "quantity": [1, 1]},
+        {"item": "Bronze pickaxe", "rate": "Uncommon", "quantity": [1, 1]},
+        {"item": "Coins", "rate": "Common", "quantity": [1, 5]}
+      ],
+      "weakness": ["all"],
+      "category": "medium_level"
+    },
+    
+    "Hill Giant": {
+      "id": 117,
+      "combat_level": 28,
+      "hitpoints": 35,
+      "attack_style": ["melee"],
+      "max_hit": 4,
+      "aggressive": true,
+      "poisonous": false,
+      "locations": [
+        {
+          "area": "Edgeville Dungeon",
+          "type": "path",
+          "coordinates": [
+            {"x": 3099, "y": 9827, "z": 0},
+            {"x": 3095, "y": 9835, "z": 0},
+            {"x": 3105, "y": 9840, "z": 0},
+            {"x": 3112, "y": 9850, "z": 0},
+            {"x": 3122, "y": 9851, "z": 0},
+            {"x": 3125, "y": 9844, "z": 0},
+            {"x": 3122, "y": 9834, "z": 0},
+            {"x": 3117, "y": 9828, "z": 0},
+            {"x": 3106, "y": 9823, "z": 0},
+            {"x": 3102, "y": 9825, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Edgeville Bank",
+            "distance": 750
+          }
+        }
+      ],
+      "drops": [
+        {"item": "Big bones", "rate": "Always", "quantity": [1, 1]},
+        {"item": "Iron arrow", "rate": "Common", "quantity": [1, 15]},
+        {"item": "Limpwurt root", "rate": "Common", "quantity": [1, 1]},
+        {"item": "Giant key", "rate": "Rare", "quantity": [1, 1]}
+      ],
+      "weakness": ["all"],
+      "category": "medium_level"
+    },
+    
+    "Hobgoblin": {
+      "id": 122,
+      "combat_level": 28,
+      "hitpoints": 29,
+      "attack_style": ["melee"],
+      "max_hit": 4,
+      "aggressive": true,
+      "poisonous": false,
+      "locations": [
+        {
+          "area": "Hobgoblin Peninsula",
+          "type": "path",
+          "coordinates": [
+            {"x": 2904, "y": 3297, "z": 0},
+            {"x": 2918, "y": 3267, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Draynor Village Bank",
+            "distance": 1500
+          }
+        }
+      ],
+      "drops": [
+        {"item": "Bones", "rate": "Always", "quantity": [1, 1]},
+        {"item": "Limpwurt root", "rate": "Common", "quantity": [1, 1]},
+        {"item": "Coins", "rate": "Common", "quantity": [1, 30]}
+      ],
+      "weakness": ["all"],
+      "category": "medium_level"
+    },
+    
+    "Skeleton": {
+      "id": 90,
+      "combat_level": 21,
+      "hitpoints": 29,
+      "attack_style": ["melee"],
+      "max_hit": 3,
+      "aggressive": true,
+      "poisonous": false,
+      "locations": [
+        {
+          "area": "Edgeville Dungeon",
+          "type": "rectangle",
+          "coordinates": [
+            {"x": 3094, "y": 9898, "z": 0},
+            {"x": 3107, "y": 9909, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Edgeville Bank",
+            "distance": 850
+          }
+        }
+      ],
+      "drops": [
+        {"item": "Bones", "rate": "Always", "quantity": [1, 1]},
+        {"item": "Iron arrow", "rate": "Common", "quantity": [1, 5]},
+        {"item": "Air rune", "rate": "Common", "quantity": [5, 15]}
+      ],
+      "weakness": ["crush"],
+      "category": "medium_level"
+    },
+    
+    "Ghost": {
+      "id": 97,
+      "combat_level": 19,
+      "hitpoints": 25,
+      "attack_style": ["melee"],
+      "max_hit": 3,
+      "aggressive": true,
+      "poisonous": false,
+      "locations": [
+        {
+          "area": "Stronghold of Security: Sepulchre of Death",
+          "type": "rectangle",
+          "coordinates": [
+            {"x": 1890, "y": 5217, "z": 0},
+            {"x": 1910, "y": 5236, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Barbarian Village Bank",
+            "distance": 1800
+          }
+        }
+      ],
+      "drops": [
+        {"item": "Nothing", "rate": "Always", "quantity": [0, 0]}
+      ],
+      "weakness": ["magic"],
+      "category": "medium_level"
+    },
+    
+    "Giant Frog": {
+      "id": 8700,
+      "combat_level": 13,
+      "hitpoints": 23,
+      "attack_style": ["melee"],
+      "max_hit": 2,
+      "aggressive": false,
+      "poisonous": false,
+      "locations": [
+        {
+          "area": "Lumbridge Swamp",
+          "type": "rectangle",
+          "coordinates": [
+            {"x": 3164, "y": 3162, "z": 0},
+            {"x": 3230, "y": 3193, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Lumbridge Castle Bank",
+            "distance": 750
+          }
+        }
+      ],
+      "drops": [
+        {"item": "Big bones", "rate": "Always", "quantity": [1, 1]},
+        {"item": "Raw frog legs", "rate": "Common", "quantity": [1, 1]}
+      ],
+      "weakness": ["all"],
+      "category": "medium_level"
+    },
+    
+    "Deadly Red Spider": {
+      "id": 63,
+      "combat_level": 34,
+      "hitpoints": 35,
+      "attack_style": ["melee"],
+      "max_hit": 4,
+      "aggressive": true,
+      "poisonous": false,
+      "locations": [
+        {
+          "area": "Varrock Sewers Area 1",
+          "type": "rectangle",
+          "coordinates": [
+            {"x": 3170, "y": 9882, "z": 0},
+            {"x": 3184, "y": 9896, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Varrock West Bank",
+            "distance": 950
+          }
+        },
+        {
+          "area": "Varrock Sewers Area 2",
+          "type": "rectangle",
+          "coordinates": [
+            {"x": 3117, "y": 9949, "z": 0},
+            {"x": 3128, "y": 9956, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Varrock West Bank",
+            "distance": 1100
+          }
+        }
+      ],
+      "drops": [
+        {"item": "Nothing", "rate": "Always", "quantity": [0, 0]},
+        {"item": "Spider egg", "rate": "Rare", "quantity": [1, 1]}
+      ],
+      "weakness": ["all"],
+      "category": "medium_level"
+    },
+    
+    "Minotaur": {
+      "id": 4404,
+      "combat_level": 12,
+      "hitpoints": 22,
+      "attack_style": ["melee"],
+      "max_hit": 2,
+      "aggressive": true,
+      "poisonous": false,
+      "locations": [
+        {
+          "area": "Stronghold of Security: Vault of War",
+          "type": "rectangle",
+          "coordinates": [
+            {"x": 1870, "y": 5217, "z": 0},
+            {"x": 1911, "y": 5236, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Barbarian Village Bank",
+            "distance": 1200
+          }
+        }
+      ],
+      "drops": [
+        {"item": "Bones", "rate": "Always", "quantity": [1, 1]},
+        {"item": "Iron arrow", "rate": "Common", "quantity": [2, 7]},
+        {"item": "Iron full helm", "rate": "Uncommon", "quantity": [1, 1]}
+      ],
+      "weakness": ["all"],
+      "category": "medium_level"
+    },
+    
+    "Flesh Crawler": {
+      "id": 2499,
+      "combat_level": 35,
+      "hitpoints": 44,
+      "attack_style": ["melee"],
+      "max_hit": 4,
+      "aggressive": true,
+      "poisonous": false,
+      "locations": [
+        {
+          "area": "Stronghold of Security: Catacomb of Famine",
+          "type": "rectangle",
+          "coordinates": [
+            {"x": 1980, "y": 5217, "z": 0},
+            {"x": 2015, "y": 5236, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Barbarian Village Bank",
+            "distance": 1400
+          }
+        }
+      ],
+      "drops": [
+        {"item": "Nothing", "rate": "Always", "quantity": [0, 0]},
+        {"item": "Fire rune", "rate": "Common", "quantity": [15, 60]},
+        {"item": "Body rune", "rate": "Common", "quantity": [15, 60]},
+        {"item": "Nature rune", "rate": "Uncommon", "quantity": [2, 6]}
+      ],
+      "weakness": ["slash"],
+      "category": "medium_level"
+    },
+    
+    "Moss Giant": {
+      "id": 891,
+      "combat_level": 42,
+      "hitpoints": 60,
+      "attack_style": ["melee"],
+      "max_hit": 5,
+      "aggressive": true,
+      "poisonous": false,
+      "locations": [
+        {
+          "area": "Varrock Sewers Area 1",
+          "type": "polygon",
+          "coordinates": [
+            {"x": 3162, "y": 9879, "z": 0},
+            {"x": 3165, "y": 9882, "z": 0},
+            {"x": 3166, "y": 9885, "z": 0},
+            {"x": 3169, "y": 9881, "z": 0},
+            {"x": 3165, "y": 9876, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Varrock West Bank",
+            "distance": 1000
+          }
+        },
+        {
+          "area": "Varrock Sewers Area 2",
+          "type": "polygon",
+          "coordinates": [
+            {"x": 3154, "y": 9906, "z": 0},
+            {"x": 3158, "y": 9898, "z": 0},
+            {"x": 3158, "y": 9894, "z": 0},
+            {"x": 3159, "y": 9897, "z": 0},
+            {"x": 3161, "y": 9906, "z": 0},
+            {"x": 3157, "y": 9908, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Varrock West Bank",
+            "distance": 1050
+          }
+        }
+      ],
+      "drops": [
+        {"item": "Big bones", "rate": "Always", "quantity": [1, 1]},
+        {"item": "Nature rune", "rate": "Common", "quantity": [1, 5]},
+        {"item": "Cosmic rune", "rate": "Common", "quantity": [1, 5]},
+        {"item": "Steel arrow", "rate": "Common", "quantity": [5, 15]},
+        {"item": "Mossy key", "rate": "Rare", "quantity": [1, 1]}
+      ],
+      "weakness": ["all"],
+      "category": "high_level"
+    },
+    
+    "Lesser Demon": {
+      "id": 3064,
+      "combat_level": 82,
+      "hitpoints": 79,
+      "attack_style": ["melee", "magic"],
+      "max_hit": 8,
+      "aggressive": true,
+      "poisonous": false,
+      "locations": [
+        {
+          "area": "Karamja Volcano",
+          "type": "rectangle",
+          "coordinates": [
+            {"x": 2834, "y": 9636, "z": 0},
+            {"x": 2858, "y": 9657, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Draynor Village Bank",
+            "distance": 2500
+          }
+        }
+      ],
+      "drops": [
+        {"item": "Ashes", "rate": "Always", "quantity": [1, 1]},
+        {"item": "Fire rune", "rate": "Common", "quantity": [30, 60]},
+        {"item": "Black 2h sword", "rate": "Uncommon", "quantity": [1, 1]},
+        {"item": "Rune med helm", "rate": "Rare", "quantity": [1, 1]}
+      ],
+      "weakness": ["magic"],
+      "category": "high_level"
+    },
+    
+    "Greater Demon": {
+      "id": 3067,
+      "combat_level": 92,
+      "hitpoints": 87,
+      "attack_style": ["melee", "magic"],
+      "max_hit": 9,
+      "aggressive": true,
+      "poisonous": false,
+      "locations": [
+        {
+          "area": "Wilderness Demonic Ruins",
+          "type": "rectangle",
+          "coordinates": [
+            {"x": 3283, "y": 3754, "z": 0},
+            {"x": 3302, "y": 3774, "z": 0}
+          ],
+          "nearest_bank": {
+            "name": "Edgeville Bank",
+            "distance": 4000
+          }
+        }
+      ],
+      "drops": [
+        {"item": "Ashes", "rate": "Always", "quantity": [1, 1]},
+        {"item": "Fire rune", "rate": "Common", "quantity": [60, 90]},
+        {"item": "Gold ore", "rate": "Uncommon", "quantity": [1, 1]},
+        {"item": "Rune scimitar", "rate": "Rare", "quantity": [1, 1]}
+      ],
+      "weakness": ["magic"],
+      "category": "high_level"
+    },
+    
+    "Black Knight": {
+      "id": 33,
+      "combat_level": 33,
+      "hitpoints": 42,
+      "attack_style": ["melee"],
+      "max_hit": 4,
+      "aggressive": true,
+      "poisonous": false,
+      "locations": [
+        {
+          "area": "Black Knights' Fortress 1st floor",
+          "type": "rectangle",
+          "coordinates": [
+            {"x": 3011, "y": 3513, "z": 1},
+            {"x": 3019, "y": 3519, "z": 1}
+          ],
+          "nearest_bank": {
+            "name": "Falador East Bank",
+            "distance": 1200
+          }
+        },
+        {
+          "area": "Black Knights' Fortress 2nd floor",
+          "type": "rectangle",
+          "coordinates": [
+            {"x": 3011, "y": 3513, "z": 2},
+            {"x": 3019, "y": 3519, "z": 2}
+          ],
+          "nearest_bank": {
+            "name": "Falador East Bank",
+            "distance": 1200
+          }
+        }
+      ],
+      "drops": [
+        {"item": "Bones", "rate": "Always", "quantity": [1, 1]},
+        {"item": "Iron full helm", "rate": "Uncommon", "quantity": [1, 1]},
+        {"item": "Black sword", "rate": "Uncommon", "quantity": [1, 1]},
+        {"item": "Black full helm", "rate": "Rare", "quantity": [1, 1]}
+      ],
+      "weakness": ["all"],
+      "category": "medium_level"
+    }
+  }
+}

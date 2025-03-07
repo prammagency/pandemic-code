@@ -1,0 +1,168 @@
+{
+  "sleep": "500",
+  "name": "",
+  "version": 1.0,
+  "actions": [
+    {
+      "id": "IF_TRADE_IS_OPEN",
+      "children": [
+        {
+          "id": "IF_TRADE_IS_NOT_OPEN"
+        },
+        {
+          "id": "IF_FIRST_TRADE_SCREEN_IS_OPEN"
+        },
+        {
+          "id": "IF_FIRST_TRADE_SCREEN_IS_NOT_OPEN"
+        },
+        {
+          "id": "IF_SECOND_TRADE_SCREEN_IS_OPEN"
+        }
+      ]
+    },
+    {
+      "id": "IF_SECOND_TRADE_SCREEN_IS_NOT_OPEN"
+    },
+    {
+      "id": "IF_TRADING_WITH_NAME_EQUALS",
+      "children": [
+        {
+          "id": "IF_TRADING_WITH_NAME_DOES_NOT_EQUAL",
+          "children": [
+            {
+              "id": "IF_TRADING_WITH_NAME_CONTAINS",
+              "children": [
+                {
+                  "id": "IF_TRADING_WITH_NAME_CONTAINS",
+                  "children": [
+                    {
+                      "id": "IF_TRADING_WITH_NAME_DOES_NOT_CONTAIN",
+                      "children": [
+                        {
+                          "id": "IF_OUR_ITEMS_CONTAIN_MATCH",
+                          "properties": {
+                            "Filter Item By": {
+                              "class": "Item",
+                              "logic": "NONE",
+                              "type": "NONE",
+                              "operator": "EQUALS"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": "IF_OUR_ITEMS_DO_NOT_CONTAIN_MATCH",
+                              "properties": {
+                                "Filter Item By": {
+                                  "class": "Item",
+                                  "logic": "NONE",
+                                  "type": "NONE",
+                                  "operator": "EQUALS"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "id": "IF_THEIR_ITEMS_CONTAINS_MATCH",
+                                  "properties": {
+                                    "Filter Item By": {
+                                      "class": "Item",
+                                      "logic": "NONE",
+                                      "type": "NONE",
+                                      "operator": "EQUALS"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "id": "IF_THEIR_ITEMS_DO_NOT_CONTAIN_MATCH",
+                                      "properties": {
+                                        "Filter Item By": {
+                                          "class": "Item",
+                                          "logic": "NONE",
+                                          "type": "NONE",
+                                          "operator": "EQUALS"
+                                        }
+                                      },
+                                      "children": [
+                                        {
+                                          "id": "IF_OUR_OFFER_VALUE_IS",
+                                          "properties": {
+                                            "value": {
+                                              "class": "Number",
+                                              "operator": "EQUALS",
+                                              "value": ""
+                                            }
+                                          },
+                                          "children": [
+                                            {
+                                              "id": "IF_THEIR_OFFER_VALUE_IS",
+                                              "properties": {
+                                                "value": {
+                                                  "class": "Number",
+                                                  "operator": "EQUALS",
+                                                  "value": ""
+                                                }
+                                              },
+                                              "children": [
+                                                {
+                                                  "id": "IF_WE_HAVE_ACCEPTED_TRADE"
+                                                },
+                                                {
+                                                  "id": "IF_WE_HAVE_NOT_ACCEPTED_TRADE"
+                                                },
+                                                {
+                                                  "id": "IF_THEY_HAVE_ACCEPTED_TRADE"
+                                                },
+                                                {
+                                                  "id": "IF_THEY_HAVE_NOT_ACCEPTED_TRADE"
+                                                },
+                                                {
+                                                  "id": "IF_CAN_ACCEPT_OFFER"
+                                                },
+                                                {
+                                                  "id": "IF_CANT_ACCEPT_OFFER"
+                                                },
+                                                {
+                                                  "id": "TRADE_PLAYER",
+                                                  "properties": {
+                                                    "Filter Player By": {
+                                                      "class": "Player",
+                                                      "logic": "NONE",
+                                                      "type": "NONE",
+                                                      "operator": "EQUALS"
+                                                    }
+                                                  },
+                                                  "children": [
+                                                    {
+                                                      "id": "ACCEPT_TRADE"
+                                                    },
+                                                    {
+                                                      "id": "DECLINE_TRADE"
+                                                    },
+                                                    {
+                                                      "id": "CLOSE_TRADE_SCREEN"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

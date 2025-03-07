@@ -1,0 +1,346 @@
+{
+  "sleep": "500",
+  "name": "",
+  "version": 1.0,
+  "actions": [
+    {
+      "id": "IF_LIST_CONTAINS",
+      "children": [
+        {
+          "id": "IF_LIST_DOES_NOT_CONTAIN",
+          "children": [
+            {
+              "id": "IF_LIST_CONTAINS_VARIABLE_VALUE",
+              "children": [
+                {
+                  "id": "IF_LIST_DOES_NOT_CONTAIN_VARIABLE_VALUE",
+                  "children": [
+                    {
+                      "id": "IF_LIST_SIZE_IS",
+                      "properties": {
+                        "size": {
+                          "class": "Number",
+                          "operator": "EQUALS",
+                          "value": ""
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "ADD_TO_LIST",
+                          "children": [
+                            {
+                              "id": "ADD_ALL_TO_LIST",
+                              "children": [
+                                {
+                                  "id": "ADD_LAST_OUTPUT_TO_LIST",
+                                  "children": [
+                                    {
+                                      "id": "ADD_ALL_ACCOUNTS_TO_LIST",
+                                      "children": [
+                                        {
+                                          "id": "ADD_MAP_KEYS_TO_LIST",
+                                          "children": [
+                                            {
+                                              "id": "ADD_INVENTORY_ITEMS_TO_LIST",
+                                              "properties": {
+                                                "Filter Item By": {
+                                                  "class": "Item",
+                                                  "logic": "NONE",
+                                                  "type": "NONE",
+                                                  "operator": "EQUALS"
+                                                }
+                                              },
+                                              "children": [
+                                                {
+                                                  "id": "ADD_EQUIPMENT_TO_LIST",
+                                                  "properties": {
+                                                    "Filter Item By": {
+                                                      "class": "Item",
+                                                      "logic": "NONE",
+                                                      "type": "NONE",
+                                                      "operator": "EQUALS"
+                                                    }
+                                                  },
+                                                  "children": [
+                                                    {
+                                                      "id": "ADD_OTHER_PLAYERS_EQUIPMENT_TO_LIST",
+                                                      "properties": {
+                                                        "Filter Item By": {
+                                                          "class": "Item",
+                                                          "logic": "NONE",
+                                                          "type": "NONE",
+                                                          "operator": "EQUALS"
+                                                        },
+                                                        "Filter Player By": {
+                                                          "class": "Player",
+                                                          "logic": "NONE",
+                                                          "type": "NONE",
+                                                          "operator": "EQUALS"
+                                                        }
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "id": "ADD_ENTITY_ACTIONS_TO_LIST",
+                                                          "children": [
+                                                            {
+                                                              "id": "ADD_BANK_ITEMS_TO_LIST",
+                                                              "properties": {
+                                                                "Filter Item By": {
+                                                                  "class": "Item",
+                                                                  "logic": "NONE",
+                                                                  "type": "NONE",
+                                                                  "operator": "EQUALS"
+                                                                }
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "id": "ADD_BANK_ITEMS_IN_TAB_TO_LIST",
+                                                                  "properties": {
+                                                                    "Filter Item By": {
+                                                                      "class": "Item",
+                                                                      "logic": "NONE",
+                                                                      "type": "NONE",
+                                                                      "operator": "EQUALS"
+                                                                    }
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "id": "ADD_NPCS_TO_LIST",
+                                                                      "properties": {
+                                                                        "Filter By": {
+                                                                          "class": "NPC",
+                                                                          "logic": "NONE",
+                                                                          "type": "NONE",
+                                                                          "operator": "EQUALS"
+                                                                        }
+                                                                      },
+                                                                      "children": [
+                                                                        {
+                                                                          "id": "ADD_PLAYERS_TO_LIST",
+                                                                          "properties": {
+                                                                            "Filter By": {
+                                                                              "class": "Player",
+                                                                              "logic": "NONE",
+                                                                              "type": "NONE",
+                                                                              "operator": "EQUALS"
+                                                                            }
+                                                                          },
+                                                                          "children": [
+                                                                            {
+                                                                              "id": "ADD_GAME_OBJECTS_TO_LIST",
+                                                                              "properties": {
+                                                                                "Filter By": {
+                                                                                  "class": "GameObject",
+                                                                                  "logic": "NONE",
+                                                                                  "type": "NONE",
+                                                                                  "operator": "EQUALS"
+                                                                                }
+                                                                              },
+                                                                              "children": [
+                                                                                {
+                                                                                  "id": "ADD_GROUND_ITEMS_TO_LIST",
+                                                                                  "properties": {
+                                                                                    "Filter By": {
+                                                                                      "class": "GroundItem",
+                                                                                      "logic": "NONE",
+                                                                                      "type": "NONE",
+                                                                                      "operator": "EQUALS"
+                                                                                    }
+                                                                                  },
+                                                                                  "children": [
+                                                                                    {
+                                                                                      "id": "ADD_WIDGETS_TO_LIST",
+                                                                                      "properties": {
+                                                                                        "Filter By": {
+                                                                                          "class": "Widget",
+                                                                                          "logic": "NONE",
+                                                                                          "type": "NONE",
+                                                                                          "operator": "EQUALS"
+                                                                                        }
+                                                                                      },
+                                                                                      "children": [
+                                                                                        {
+                                                                                          "id": "ADD_GRAPHICS_OBJECTS_TO_LIST",
+                                                                                          "properties": {
+                                                                                            "Filter By": {
+                                                                                              "class": "GraphicsObject",
+                                                                                              "logic": "NONE",
+                                                                                              "type": "NONE",
+                                                                                              "operator": "EQUALS"
+                                                                                            }
+                                                                                          },
+                                                                                          "children": [
+                                                                                            {
+                                                                                              "id": "ADD_BANK_LOCATIONS_TO_LIST",
+                                                                                              "children": [
+                                                                                                {
+                                                                                                  "id": "ADD_EQUIPMENT_SLOTS_TO_LIST",
+                                                                                                  "children": [
+                                                                                                    {
+                                                                                                      "id": "ADD_PRAYERS_TO_LIST",
+                                                                                                      "children": [
+                                                                                                        {
+                                                                                                          "id": "ADD_QUICK_PRAYERS_TO_LIST",
+                                                                                                          "children": [
+                                                                                                            {
+                                                                                                              "id": "ADD_QUESTS_TO_LIST",
+                                                                                                              "children": [
+                                                                                                                {
+                                                                                                                  "id": "ADD_SKILLS_TO_LIST",
+                                                                                                                  "children": [
+                                                                                                                    {
+                                                                                                                      "id": "ADD_SPELLS_TO_LIST",
+                                                                                                                      "children": [
+                                                                                                                        {
+                                                                                                                          "id": "ADD_TABS_TO_LIST",
+                                                                                                                          "children": [
+                                                                                                                            {
+                                                                                                                              "id": "ADD_SCRIPTS_TO_LIST",
+                                                                                                                              "children": [
+                                                                                                                                {
+                                                                                                                                  "id": "ADD_FILE_LINES_TO_LIST",
+                                                                                                                                  "children": [
+                                                                                                                                    {
+                                                                                                                                      "id": "ADD_AREA_TILES_TO_LIST",
+                                                                                                                                      "children": [
+                                                                                                                                        {
+                                                                                                                                          "id": "ADD_ALL_RUNNING_THREAD_NAMES_TO_LIST",
+                                                                                                                                          "children": [
+                                                                                                                                            {
+                                                                                                                                              "id": "ADD_ALL_TIMERS_TO_LIST",
+                                                                                                                                              "children": [
+                                                                                                                                                {
+                                                                                                                                                  "id": "ADD_QUICKSTART_PARAMS_TO_LIST",
+                                                                                                                                                  "children": [
+                                                                                                                                                    {
+                                                                                                                                                      "id": "SPLIT_VARIABLE_TO_LIST",
+                                                                                                                                                      "children": [
+                                                                                                                                                        {
+                                                                                                                                                          "id": "EXTRACT_VARIABLES_FROM_REGEX_TO_LIST",
+                                                                                                                                                          "children": [
+                                                                                                                                                            {
+                                                                                                                                                              "id": "REPLACE_LIST_ITEM",
+                                                                                                                                                              "children": [
+                                                                                                                                                                {
+                                                                                                                                                                  "id": "REMOVE_FROM_LIST",
+                                                                                                                                                                  "children": [
+                                                                                                                                                                    {
+                                                                                                                                                                      "id": "REMOVE_FROM_LIST_INDEX",
+                                                                                                                                                                      "children": [
+                                                                                                                                                                        {
+                                                                                                                                                                          "id": "REMOVE_LAST_OUTPUT_FROM_LIST",
+                                                                                                                                                                          "children": [
+                                                                                                                                                                            {
+                                                                                                                                                                              "id": "SET_VARIABLE_TO_LIST_ELEMENT_AT",
+                                                                                                                                                                              "children": [
+                                                                                                                                                                                {
+                                                                                                                                                                                  "id": "SET_VARIABLE_TO_LIST_ELEMENT_AT",
+                                                                                                                                                                                  "children": [
+                                                                                                                                                                                    {
+                                                                                                                                                                                      "id": "SET_VARIABLE_TO_RANDOM_LIST_ELEMENT",
+                                                                                                                                                                                      "children": [
+                                                                                                                                                                                        {
+                                                                                                                                                                                          "id": "SET_VARIABLE_TO_LIST_SIZE",
+                                                                                                                                                                                          "children": [
+                                                                                                                                                                                            {
+                                                                                                                                                                                              "id": "CLEAR_LIST",
+                                                                                                                                                                                              "children": [
+                                                                                                                                                                                                {
+                                                                                                                                                                                                  "id": "DELETE_LIST"
+                                                                                                                                                                                                }
+                                                                                                                                                                                              ]
+                                                                                                                                                                                            }
+                                                                                                                                                                                          ]
+                                                                                                                                                                                        }
+                                                                                                                                                                                      ]
+                                                                                                                                                                                    }
+                                                                                                                                                                                  ]
+                                                                                                                                                                                }
+                                                                                                                                                                              ]
+                                                                                                                                                                            }
+                                                                                                                                                                          ]
+                                                                                                                                                                        }
+                                                                                                                                                                      ]
+                                                                                                                                                                    }
+                                                                                                                                                                  ]
+                                                                                                                                                                }
+                                                                                                                                                              ]
+                                                                                                                                                            }
+                                                                                                                                                          ]
+                                                                                                                                                        }
+                                                                                                                                                      ]
+                                                                                                                                                    }
+                                                                                                                                                  ]
+                                                                                                                                                }
+                                                                                                                                              ]
+                                                                                                                                            }
+                                                                                                                                          ]
+                                                                                                                                        }
+                                                                                                                                      ]
+                                                                                                                                    }
+                                                                                                                                  ]
+                                                                                                                                }
+                                                                                                                              ]
+                                                                                                                            }
+                                                                                                                          ]
+                                                                                                                        }
+                                                                                                                      ]
+                                                                                                                    }
+                                                                                                                  ]
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    }
+                                                                                                  ]
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

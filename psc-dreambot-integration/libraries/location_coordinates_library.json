@@ -1,0 +1,173 @@
+{
+  "location_categories": [
+    "bank", "city", "dungeon", "resource", "teleport", "wilderness", "training"
+  ],
+  
+  "locations": {
+    "Lumbridge Castle Bank": {
+      "category": "bank",
+      "coordinates": {"x": 3208, "y": 3220, "z": 2},
+      "radius": 3,
+      "safe_area": true,
+      "teleport_options": [
+        {"name": "Lumbridge Teleport", "requirements": ["Magic level 31", "3 Air runes", "1 Earth rune", "1 Law rune"]},
+        {"name": "Lumbridge Teleport Tab", "requirements": []}
+      ]
+    },
+    
+    "Varrock West Bank": {
+      "category": "bank",
+      "coordinates": {"x": 3185, "y": 3436, "z": 0},
+      "radius": 5,
+      "safe_area": true,
+      "teleport_options": [
+        {"name": "Varrock Teleport", "requirements": ["Magic level 25", "3 Air runes", "1 Fire rune", "1 Law rune"]},
+        {"name": "Varrock Teleport Tab", "requirements": []}
+      ],
+      "connections": [
+        {
+          "destination": "Grand Exchange",
+          "walking_time_seconds": 60,
+          "waypoints": [
+            {"x": 3185, "y": 3445, "z": 0},
+            {"x": 3173, "y": 3456, "z": 0},
+            {"x": 3165, "y": 3470, "z": 0}
+          ]
+        }
+      ]
+    },
+    
+    "Al Kharid Mine": {
+      "category": "resource",
+      "resource_type": "mining",
+      "coordinates": {"bounds": [3295, 3278, 3304, 3316]},
+      "safe_area": true,
+      "nearest_bank": {"name": "Al Kharid Bank", "distance": 500},
+      "resources": [
+        {"name": "Copper ore", "quantity": "High"},
+        {"name": "Tin ore", "quantity": "High"},
+        {"name": "Iron ore", "quantity": "Medium"},
+        {"name": "Silver ore", "quantity": "Low"},
+        {"name": "Coal", "quantity": "Low"},
+        {"name": "Mithril ore", "quantity": "Very Low"}
+      ]
+    },
+    
+    "Edgeville Dungeon": {
+      "category": "dungeon",
+      "entrance": {"x": 3097, "y": 3468, "z": 0},
+      "safe_area": false,
+      "nearest_bank": {"name": "Edgeville Bank", "distance": 200},
+      "monsters": [
+        {"name": "Hill Giant", "level": 28, "quantity": "High"},
+        {"name": "Zombie", "level": 24, "quantity": "Medium"},
+        {"name": "Earth Warrior", "level": 51, "quantity": "Low", "wilderness": true}
+      ],
+      "training_recommendations": {
+        "combat_level": [20, 50],
+        "notes": "Hill Giants are good for training and drop big bones and limpwurt roots."
+      }
+    },
+    
+    "Stronghold of Security": {
+      "category": "dungeon",
+      "entrance": {"x": 3081, "y": 3421, "z": 0},
+      "safe_area": false,
+      "nearest_bank": {"name": "Edgeville Bank", "distance": 350},
+      "levels": [
+        {
+          "name": "Vault of War",
+          "monsters": ["Goblin", "Minotaur"],
+          "combat_level_range": [1, 27]
+        },
+        {
+          "name": "Catacomb of Famine",
+          "monsters": ["Flesh Crawler", "Zombie"],
+          "combat_level_range": [15, 40]
+        },
+        {
+          "name": "Pit of Pestilence",
+          "monsters": ["Scorpion", "Catablepon"],
+          "combat_level_range": [30, 60]
+        },
+        {
+          "name": "Sepulchre of Death",
+          "monsters": ["Ankous", "Ghost"],
+          "combat_level_range": [40, 100]
+        }
+      ],
+      "rewards": [
+        {"name": "Fancy Boots", "requirements": ["Complete all levels"]},
+        {"name": "Fighting Boots", "requirements": ["Complete all levels"]},
+        {"name": "Coins", "amount": 10000, "requirements": ["Complete all levels"]}
+      ]
+    }
+  },
+  
+  "teleport_locations": {
+    "Lumbridge": {
+      "coordinates": {"x": 3222, "y": 3218, "z": 0},
+      "spell_requirements": {
+        "magic_level": 31,
+        "runes": [
+          {"name": "Air Rune", "quantity": 3},
+          {"name": "Earth Rune", "quantity": 1},
+          {"name": "Law Rune", "quantity": 1}
+        ]
+      },
+      "alternatives": ["Lumbridge Teleport Tab"]
+    },
+    
+    "Varrock": {
+      "coordinates": {"x": 3212, "y": 3424, "z": 0},
+      "spell_requirements": {
+        "magic_level": 25,
+        "runes": [
+          {"name": "Air Rune", "quantity": 3},
+          {"name": "Fire Rune", "quantity": 1},
+          {"name": "Law Rune", "quantity": 1}
+        ]
+      },
+      "alternatives": ["Varrock Teleport Tab"]
+    },
+    
+    "Falador": {
+      "coordinates": {"x": 2964, "y": 3378, "z": 0},
+      "spell_requirements": {
+        "magic_level": 37,
+        "runes": [
+          {"name": "Air Rune", "quantity": 3},
+          {"name": "Water Rune", "quantity": 1},
+          {"name": "Law Rune", "quantity": 1}
+        ]
+      },
+      "alternatives": ["Falador Teleport Tab"]
+    }
+  },
+  
+  "training_areas": {
+    "Cows": {
+      "recommended_levels": [3, 15],
+      "location": "Lumbridge East Farm",
+      "resources": ["Cowhide", "Raw beef", "Bones"],
+      "safe_area": true,
+      "nearest_bank": {"name": "Lumbridge Castle Bank", "distance": 500}
+    },
+    
+    "Hill Giants": {
+      "recommended_levels": [30, 60],
+      "location": "Edgeville Dungeon",
+      "resources": ["Big bones", "Limpwurt root", "Giant key"],
+      "safe_area": false,
+      "nearest_bank": {"name": "Edgeville Bank", "distance": 200}
+    },
+    
+    "Dark Wizards": {
+      "recommended_levels": [20, 40],
+      "location": "South of Varrock",
+      "resources": ["Bones", "Elemental runes"],
+      "safe_area": false,
+      "nearest_bank": {"name": "Varrock West Bank", "distance": 700}
+    }
+  }
+}

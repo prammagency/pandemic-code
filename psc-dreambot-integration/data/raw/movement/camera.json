@@ -1,0 +1,100 @@
+{
+  "sleep": "500",
+  "name": "",
+  "version": 1.0,
+  "actions": [
+    {
+      "id": "IF_PITCH_IS",
+      "properties": {
+        "pitch": {
+          "class": "Number",
+          "operator": "EQUALS",
+          "value": ""
+        }
+      },
+      "children": [
+        {
+          "id": "IF_YAW_IS",
+          "properties": {
+            "yaw": {
+              "class": "Number",
+              "operator": "EQUALS",
+              "value": ""
+            }
+          },
+          "children": [
+            {
+              "id": "IF_ZOOM_IS",
+              "properties": {
+                "zoom": {
+                  "class": "Number",
+                  "operator": "EQUALS",
+                  "value": ""
+                }
+              },
+              "children": [
+                {
+                  "id": "SET_ZOOM",
+                  "children": [
+                    {
+                      "id": "ROTATE_TO_YAW_PITCH",
+                      "children": [
+                        {
+                          "id": "ROTATE_CAMERA_RANDOMLY",
+                          "children": [
+                            {
+                              "id": "ROTATE_TO_NPC",
+                              "properties": {
+                                "Filter NPC By": {
+                                  "class": "NPC",
+                                  "logic": "NONE",
+                                  "type": "NONE",
+                                  "operator": "EQUALS"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "id": "ROTATE_TO_GAME_OBJECT",
+                                  "properties": {
+                                    "Filter Object By": {
+                                      "class": "GameObject",
+                                      "logic": "NONE",
+                                      "type": "NONE",
+                                      "operator": "EQUALS"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "id": "ROTATE_TO_PLAYER",
+                                      "properties": {
+                                        "Filter Player By": {
+                                          "class": "Player",
+                                          "logic": "NONE",
+                                          "type": "NONE",
+                                          "operator": "EQUALS"
+                                        }
+                                      },
+                                      "children": [
+                                        {
+                                          "id": "ROTATE_TO_TILE"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "sleep": "500",
+  "name": "",
+  "version": 1.0,
+  "actions": [
+    {
+      "id": "PARSE_VARIABLES_FROM_JSON",
+      "children": [
+        {
+          "id": "EXTRACT_VARIABLES_FROM_REGEX",
+          "children": [
+            {
+              "id": "DELETE_VARIABLE",
+              "children": [
+                {
+                  "id": "DELETE_VARIABLES",
+                  "children": [
+                    {
+                      "id": "DELETE_ALL_VARIABLES"
+                    },
+                    {
+                      "id": "DELETE_ALL_VARIABLES_EXCEPT",
+                      "children": [
+                        {
+                          "id": "ADD_TO_VARIABLE",
+                          "children": [
+                            {
+                              "id": "SUBTRACT_FROM_VARIABLE",
+                              "children": [
+                                {
+                                  "id": "MULTIPLY_VARIABLE_BY",
+                                  "children": [
+                                    {
+                                      "id": "DIVIDE_VARIABLE_BY"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

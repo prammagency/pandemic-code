@@ -1,0 +1,144 @@
+{
+  "sleep": "500",
+  "name": "",
+  "version": 1.0,
+  "actions": [
+    {
+      "id": "IF_WORLD_MATCHES",
+      "properties": {
+        "Filter World By": {
+          "class": "World",
+          "logic": "NONE",
+          "type": "ID",
+          "operator": "EQUALS",
+          "filters": [
+            {
+              "class": "World",
+              "logic": "AND",
+              "type": "WORLD_IS_F2P",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "World",
+              "logic": "AND",
+              "type": "WORLD_IS_MEMBERS",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "World",
+              "logic": "AND",
+              "type": "WORLD_IS_NORMAL",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "World",
+              "logic": "AND",
+              "type": "WORLD_IS_NOT_NORMAL",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "World",
+              "logic": "AND",
+              "type": "WORLD_IS_PVP",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "World",
+              "logic": "AND",
+              "type": "WORLD_IS_NOT_PVP",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "World",
+              "logic": "AND",
+              "type": "WORLD_IS_BOUNTY_HUNTER",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "World",
+              "logic": "AND",
+              "type": "WORLD_IS_NOT_BOUNTY_HUNTER",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "World",
+              "logic": "AND",
+              "type": "WORLD_MINIMUM_LEVEL",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "World",
+              "logic": "AND",
+              "type": "WORLD_POPULATION",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "World",
+              "logic": "AND",
+              "type": "WORLD_LOCATION",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "World",
+              "logic": "AND",
+              "type": "WORLD_PING",
+              "operator": "EQUALS"
+            },
+            {
+              "class": "World",
+              "logic": "AND",
+              "type": "FILTER_BY_ACTION",
+              "operator": "EQUALS"
+            }
+          ]
+        }
+      },
+      "children": [
+        {
+          "id": "IF_CURRENT_WORLD_PING_IS",
+          "properties": {
+            "ping": {
+              "class": "Number",
+              "operator": "EQUALS",
+              "value": "x"
+            }
+          },
+          "children": [
+            {
+              "id": "HOP_TO_WORLD",
+              "children": [
+                {
+                  "id": "HOP_TO_RANDOM_WORLD",
+                  "properties": {
+                    "Filter World By": {
+                      "class": "World",
+                      "logic": "NONE",
+                      "type": "NONE",
+                      "operator": "EQUALS"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QUICK_HOP_TO_WORLD",
+      "children": [
+        {
+          "id": "QUICK_HOP_TO_RANDOM_WORLD",
+          "properties": {
+            "Filter World By": {
+              "class": "World",
+              "logic": "NONE",
+              "type": "NONE",
+              "operator": "EQUALS"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

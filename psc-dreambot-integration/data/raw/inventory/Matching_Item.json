@@ -1,0 +1,37 @@
+{
+  "sleep": "500",
+  "name": "",
+  "version": 1.0,
+  "actions": [
+    {
+      "id": "IF_ITEM_PROCESSING_IS_OPEN"
+    },
+    {
+      "id": "IF_ITEM_PROCESSING_IS_NOT_OPEN"
+    },
+    {
+      "id": "MAKE_ITEM_PROCESSING",
+      "properties": {
+        "Filter Item By": {
+          "class": "Item",
+          "logic": "NONE",
+          "type": "NONE",
+          "operator": "EQUALS"
+        }
+      },
+      "children": [
+        {
+          "id": "MAKE_ALL_ITEM_PROCESSING",
+          "properties": {
+            "Filter Item By": {
+              "class": "Item",
+              "logic": "NONE",
+              "type": "NONE",
+              "operator": "EQUALS"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

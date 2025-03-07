@@ -1,0 +1,518 @@
+{
+  "filter_classes": {
+    "Item": {
+      "description": "Filters for items in inventory, bank, etc.",
+      "filter_types": {
+        "NAME": {
+          "description": "Filter items by name",
+          "data_type": "string",
+          "valid_operators": [
+            "EQUALS", "NOT_EQUALS", "CONTAINS", "STARTS_WITH", 
+            "ENDS_WITH", "MATCHES_REGEX", "IS_IN_LIST"
+          ],
+          "example_values": ["Bones", "Dragon bones", "Coins", "Rune essence"]
+        },
+        "ID": {
+          "description": "Filter items by item ID",
+          "data_type": "integer",
+          "valid_operators": [
+            "EQUALS", "NOT_EQUALS", "GREATER_THAN", "LESS_THAN", 
+            "GREATER_THAN_EQUALS", "LESS_THAN_EQUALS", "BETWEEN", "IS_IN_LIST"
+          ],
+          "example_values": [526, 532, 995, 1436]
+        },
+        "STACKABLE": {
+          "description": "Filter items by stackability",
+          "data_type": "boolean",
+          "valid_operators": ["EQUALS"],
+          "example_values": [true, false]
+        },
+        "NOTED": {
+          "description": "Filter items by noted status",
+          "data_type": "boolean",
+          "valid_operators": ["EQUALS"],
+          "example_values": [true, false]
+        },
+        "VALUE": {
+          "description": "Filter items by GE value",
+          "data_type": "integer",
+          "valid_operators": [
+            "EQUALS", "NOT_EQUALS", "GREATER_THAN", "LESS_THAN", 
+            "GREATER_THAN_EQUALS", "LESS_THAN_EQUALS", "BETWEEN"
+          ],
+          "example_values": [100, 1000, 10000]
+        },
+        "TRADEABLE": {
+          "description": "Filter items by tradeability",
+          "data_type": "boolean",
+          "valid_operators": ["EQUALS"],
+          "example_values": [true, false]
+        },
+        "MEMBER": {
+          "description": "Filter items by member-only status",
+          "data_type": "boolean",
+          "valid_operators": ["EQUALS"],
+          "example_values": [true, false]
+        }
+      }
+    },
+    
+    "NPC": {
+      "description": "Filters for NPCs in the game world",
+      "filter_types": {
+        "NAME": {
+          "description": "Filter NPCs by name",
+          "data_type": "string",
+          "valid_operators": [
+            "EQUALS", "NOT_EQUALS", "CONTAINS", "STARTS_WITH", 
+            "ENDS_WITH", "MATCHES_REGEX", "IS_IN_LIST"
+          ],
+          "example_values": ["Man", "Goblin", "Elder Chaos druid", "Banker"]
+        },
+        "ID": {
+          "description": "Filter NPCs by ID",
+          "data_type": "integer",
+          "valid_operators": [
+            "EQUALS", "NOT_EQUALS", "GREATER_THAN", "LESS_THAN", 
+            "GREATER_THAN_EQUALS", "LESS_THAN_EQUALS", "BETWEEN", "IS_IN_LIST"
+          ],
+          "example_values": [3080, 655, 7995]
+        },
+        "LEVEL": {
+          "description": "Filter NPCs by combat level",
+          "data_type": "integer",
+          "valid_operators": [
+            "EQUALS", "NOT_EQUALS", "GREATER_THAN", "LESS_THAN", 
+            "GREATER_THAN_EQUALS", "LESS_THAN_EQUALS", "BETWEEN"
+          ],
+          "example_values": [2, 20, 80, 126]
+        },
+        "INTERACTING_WITH_ME": {
+          "description": "Filter NPCs by whether they're interacting with player",
+          "data_type": "boolean",
+          "valid_operators": ["EQUALS"],
+          "example_values": [true, false]
+        },
+        "INTERACTING": {
+          "description": "Filter NPCs by whether they're interacting with any entity",
+          "data_type": "boolean",
+          "valid_operators": ["EQUALS"],
+          "example_values": [true, false]
+        },
+        "DISTANCE": {
+          "description": "Filter NPCs by distance from player",
+          "data_type": "integer",
+          "valid_operators": [
+            "EQUALS", "NOT_EQUALS", "GREATER_THAN", "LESS_THAN", 
+            "GREATER_THAN_EQUALS", "LESS_THAN_EQUALS", "BETWEEN"
+          ],
+          "example_values": [1, 5, 10, 20]
+        },
+        "HEALTH_PERCENTAGE": {
+          "description": "Filter NPCs by current health percentage",
+          "data_type": "integer",
+          "valid_operators": [
+            "EQUALS", "NOT_EQUALS", "GREATER_THAN", "LESS_THAN", 
+            "GREATER_THAN_EQUALS", "LESS_THAN_EQUALS", "BETWEEN"
+          ],
+          "example_values": [25, 50, 75, 100]
+        },
+        "IN_COMBAT": {
+          "description": "Filter NPCs by combat status",
+          "data_type": "boolean",
+          "valid_operators": ["EQUALS"],
+          "example_values": [true, false]
+        },
+        "ANIMATION_ID": {
+          "description": "Filter NPCs by animation ID",
+          "data_type": "integer",
+          "valid_operators": ["EQUALS", "NOT_EQUALS"],
+          "example_values": [711, 714, 4233]
+        }
+      }
+    },
+    
+    "GameObject": {
+      "description": "Filters for game objects in the world",
+      "filter_types": {
+        "NAME": {
+          "description": "Filter game objects by name",
+          "data_type": "string",
+          "valid_operators": [
+            "EQUALS", "NOT_EQUALS", "CONTAINS", "STARTS_WITH", 
+            "ENDS_WITH", "MATCHES_REGEX", "IS_IN_LIST"
+          ],
+          "example_values": ["Grand Exchange booth", "Bank booth", "Door", "Tree"]
+        },
+        "ID": {
+          "description": "Filter game objects by ID",
+          "data_type": "integer",
+          "valid_operators": [
+            "EQUALS", "NOT_EQUALS", "GREATER_THAN", "LESS_THAN", 
+            "GREATER_THAN_EQUALS", "LESS_THAN_EQUALS", "BETWEEN", "IS_IN_LIST"
+          ],
+          "example_values": [1317, 24101, 10355]
+        },
+        "DISTANCE": {
+          "description": "Filter game objects by distance from player",
+          "data_type": "integer",
+          "valid_operators": [
+            "EQUALS", "NOT_EQUALS", "GREATER_THAN", "LESS_THAN", 
+            "GREATER_THAN_EQUALS", "LESS_THAN_EQUALS", "BETWEEN"
+          ],
+          "example_values": [1, 5, 10, 20]
+        },
+        "ACTION": {
+          "description": "Filter game objects by available action",
+          "data_type": "string",
+          "valid_operators": [
+            "EQUALS", "NOT_EQUALS", "CONTAINS", "STARTS_WITH", 
+            "ENDS_WITH", "MATCHES_REGEX", "IS_IN_LIST"
+          ],
+          "example_values": ["Open", "Close", "Use", "Search", "Climb"]
+        },
+        "TYPE": {
+          "description": "Filter game objects by type ID",
+          "data_type": "integer",
+          "valid_operators": ["EQUALS", "NOT_EQUALS"],
+          "example_values": [0, 1, 2, 3, 4, 5]
+        },
+        "MODEL_ID": {
+          "description": "Filter game objects by model ID",
+          "data_type": "integer",
+          "valid_operators": ["EQUALS", "NOT_EQUALS"],
+          "example_values": [4123, 5672, 8901]
+        }
+      }
+    },
+
+    "GroundItem": {
+      "description": "Filters for items on the ground",
+      "filter_types": {
+        "NAME": {
+          "description": "Filter ground items by name",
+          "data_type": "string",
+          "valid_operators": [
+            "EQUALS", "NOT_EQUALS", "CONTAINS", "STARTS_WITH", 
+            "ENDS_WITH", "MATCHES_REGEX", "IS_IN_LIST"
+          ],
+          "example_values": ["Bones", "Dragon bones", "Coins", "Rune essence"]
+        },
+        "ID": {
+          "description": "Filter ground items by ID",
+          "data_type": "integer",
+          "valid_operators": [
+            "EQUALS", "NOT_EQUALS", "GREATER_THAN", "LESS_THAN", 
+            "GREATER_THAN_EQUALS", "LESS_THAN_EQUALS", "BETWEEN", "IS_IN_LIST"
+          ],
+          "example_values": [526, 532, 995, 1436]
+        },
+        "DISTANCE": {
+          "description": "Filter ground items by distance from player",
+          "data_type": "integer",
+          "valid_operators": [
+            "EQUALS", "NOT_EQUALS", "GREATER_THAN", "LESS_THAN", 
+            "GREATER_THAN_EQUALS", "LESS_THAN_EQUALS", "BETWEEN"
+          ],
+          "example_values": [1, 5, 10, 20]
+        },
+        "STACKSIZE": {
+          "description": "Filter ground items by stack size",
+          "data_type": "integer",
+          "valid_operators": [
+            "EQUALS", "NOT_EQUALS", "GREATER_THAN", "LESS_THAN", 
+            "GREATER_THAN_EQUALS", "LESS_THAN_EQUALS", "BETWEEN"
+          ],
+          "example_values": [1, 10, 100, 1000]
+        },
+        "VALUE": {
+          "description": "Filter ground items by GE value",
+          "data_type": "integer",
+          "valid_operators": [
+            "EQUALS", "NOT_EQUALS", "GREATER_THAN", "LESS_THAN", 
+            "GREATER_THAN_EQUALS", "LESS_THAN_EQUALS", "BETWEEN"
+          ],
+          "example_values": [100, 1000, 10000]
+        }
+      }
+    },
+
+    "Player": {
+      "description": "Filters for player characters",
+      "filter_types": {
+        "NAME": {
+          "description": "Filter players by name",
+          "data_type": "string",
+          "valid_operators": [
+            "EQUALS", "NOT_EQUALS", "CONTAINS", "STARTS_WITH", 
+            "ENDS_WITH", "MATCHES_REGEX"
+          ],
+          "example_values": ["Zezima", "PlayerName123"]
+        },
+        "LEVEL": {
+          "description": "Filter players by combat level",
+          "data_type": "integer",
+          "valid_operators": [
+            "EQUALS", "NOT_EQUALS", "GREATER_THAN", "LESS_THAN", 
+            "GREATER_THAN_EQUALS", "LESS_THAN_EQUALS", "BETWEEN"
+          ],
+          "example_values": [3, 70, 99, 126]
+        },
+        "DISTANCE": {
+          "description": "Filter players by distance from local player",
+          "data_type": "integer",
+          "valid_operators": [
+            "EQUALS", "NOT_EQUALS", "GREATER_THAN", "LESS_THAN", 
+            "GREATER_THAN_EQUALS", "LESS_THAN_EQUALS", "BETWEEN"
+          ],
+          "example_values": [1, 5, 10, 20]
+        },
+        "INTERACTING_WITH_ME": {
+          "description": "Filter players by whether they're interacting with local player",
+          "data_type": "boolean",
+          "valid_operators": ["EQUALS"],
+          "example_values": [true, false]
+        },
+        "SKULL_ICON": {
+          "description": "Filter players by skull icon",
+          "data_type": "integer",
+          "valid_operators": ["EQUALS", "NOT_EQUALS"],
+          "example_values": [0, 1]
+        },
+        "IN_COMBAT": {
+          "description": "Filter players by combat status",
+          "data_type": "boolean",
+          "valid_operators": ["EQUALS"],
+          "example_values": [true, false]
+        },
+        "IS_MOVING": {
+          "description": "Filter players by movement status",
+          "data_type": "boolean",
+          "valid_operators": ["EQUALS"],
+          "example_values": [true, false]
+        },
+        "ANIMATION_ID": {
+          "description": "Filter players by animation ID",
+          "data_type": "integer",
+          "valid_operators": ["EQUALS", "NOT_EQUALS"],
+          "example_values": [711, 714, 4233]
+        }
+      }
+    },
+
+    "Widget": {
+      "description": "Filters for UI elements",
+      "filter_types": {
+        "ID": {
+          "description": "Filter widgets by parent ID",
+          "data_type": "integer",
+          "valid_operators": ["EQUALS"],
+          "example_values": [548, 161, 162]
+        },
+        "CHILD_ID": {
+          "description": "Filter widgets by child ID",
+          "data_type": "integer",
+          "valid_operators": ["EQUALS"],
+          "example_values": [1, 2, 3, 4]
+        },
+        "TEXT": {
+          "description": "Filter widgets by text content",
+          "data_type": "string",
+          "valid_operators": [
+            "EQUALS", "NOT_EQUALS", "CONTAINS", "STARTS_WITH", 
+            "ENDS_WITH", "MATCHES_REGEX"
+          ],
+          "example_values": ["Click here to continue", "Trade", "Close"]
+        },
+        "VISIBLE": {
+          "description": "Filter widgets by visibility",
+          "data_type": "boolean",
+          "valid_operators": ["EQUALS"],
+          "example_values": [true, false]
+        }
+      }
+    },
+
+    "Number": {
+      "description": "Filters for numeric values",
+      "filter_types": {
+        "VALUE": {
+          "description": "Filter by numeric value",
+          "data_type": "integer",
+          "valid_operators": [
+            "EQUALS", "NOT_EQUALS", "GREATER_THAN", "LESS_THAN", 
+            "GREATER_THAN_EQUALS", "LESS_THAN_EQUALS", "BETWEEN", 
+            "IS_EVEN", "IS_ODD", "IS_MULTIPLE_OF"
+          ],
+          "example_values": [0, 1, 10, 50, 100]
+        }
+      }
+    },
+
+    "Time": {
+      "description": "Filters for time values",
+      "filter_types": {
+        "VALUE": {
+          "description": "Filter by time value",
+          "data_type": "long",
+          "valid_operators": [
+            "EQUALS", "NOT_EQUALS", "GREATER_THAN", "LESS_THAN", 
+            "GREATER_THAN_EQUALS", "LESS_THAN_EQUALS", "BETWEEN"
+          ],
+          "example_values": [1000, 60000, 3600000]
+        }
+      }
+    },
+
+    "String": {
+      "description": "Filters for string values",
+      "filter_types": {
+        "VALUE": {
+          "description": "Filter by string value",
+          "data_type": "string",
+          "valid_operators": [
+            "EQUALS", "NOT_EQUALS", "CONTAINS", "STARTS_WITH", 
+            "ENDS_WITH", "MATCHES_REGEX", "IS_IN_LIST", 
+            "LENGTH_EQUALS", "LENGTH_GREATER_THAN", "LENGTH_LESS_THAN"
+          ],
+          "example_values": ["test", "hello", "value"]
+        }
+      }
+    }
+  },
+  
+  "logical_operators": {
+    "AND": {
+      "description": "Logical AND - all conditions must be true",
+      "usage": "Use when multiple filter conditions must ALL be satisfied",
+      "example": {
+        "class": "Item",
+        "logic": "AND",
+        "conditions": [
+          {"type": "NAME", "operator": "CONTAINS", "value": "rune"},
+          {"type": "VALUE", "operator": "GREATER_THAN", "value": "1000"}
+        ]
+      }
+    },
+    "OR": {
+      "description": "Logical OR - at least one condition must be true",
+      "usage": "Use when ANY of multiple filter conditions can be satisfied",
+      "example": {
+        "class": "NPC",
+        "logic": "OR",
+        "conditions": [
+          {"type": "NAME", "operator": "EQUALS", "value": "Goblin"},
+          {"type": "NAME", "operator": "EQUALS", "value": "Rat"}
+        ]
+      }
+    },
+    "NONE": {
+      "description": "No logical operator - single condition",
+      "usage": "Use when only one filter condition is needed",
+      "example": {
+        "class": "Item",
+        "logic": "NONE",
+        "type": "NAME",
+        "operator": "EQUALS",
+        "value": "Bones"
+      }
+    }
+  },
+  
+  "operator_mapping": {
+    "string_operators": {
+      "EQUALS": {
+        "java_expression": "value.equals(\"{0}\")",
+        "description": "Exact match of strings"
+      },
+      "NOT_EQUALS": {
+        "java_expression": "!value.equals(\"{0}\")",
+        "description": "String values do not match exactly"
+      },
+      "CONTAINS": {
+        "java_expression": "value.contains(\"{0}\")",
+        "description": "String contains the substring"
+      },
+      "STARTS_WITH": {
+        "java_expression": "value.startsWith(\"{0}\")",
+        "description": "String starts with the substring"
+      },
+      "ENDS_WITH": {
+        "java_expression": "value.endsWith(\"{0}\")",
+        "description": "String ends with the substring"
+      },
+      "MATCHES_REGEX": {
+        "java_expression": "value.matches(\"{0}\")",
+        "description": "String matches the regular expression pattern"
+      },
+      "IS_IN_LIST": {
+        "java_expression": "lists.get(\"{0}\").contains(value)",
+        "description": "String is in the specified list"
+      },
+      "LENGTH_EQUALS": {
+        "java_expression": "value.length() == {0}",
+        "description": "String length equals the value"
+      },
+      "LENGTH_GREATER_THAN": {
+        "java_expression": "value.length() > {0}",
+        "description": "String length is greater than the value"
+      },
+      "LENGTH_LESS_THAN": {
+        "java_expression": "value.length() < {0}",
+        "description": "String length is less than the value"
+      }
+    },
+    "numeric_operators": {
+      "EQUALS": {
+        "java_expression": "value == {0}",
+        "description": "Numeric values are exactly equal"
+      },
+      "NOT_EQUALS": {
+        "java_expression": "value != {0}",
+        "description": "Numeric values are not equal"
+      },
+      "GREATER_THAN": {
+        "java_expression": "value > {0}",
+        "description": "Value is greater than the specified number"
+      },
+      "LESS_THAN": {
+        "java_expression": "value < {0}",
+        "description": "Value is less than the specified number"
+      },
+      "GREATER_THAN_EQUALS": {
+        "java_expression": "value >= {0}",
+        "description": "Value is greater than or equal to the specified number"
+      },
+      "LESS_THAN_EQUALS": {
+        "java_expression": "value <= {0}",
+        "description": "Value is less than or equal to the specified number"
+      },
+      "BETWEEN": {
+        "java_expression": "value >= {0} && value <= {1}",
+        "description": "Value is between the two specified numbers (inclusive)"
+      },
+      "IS_EVEN": {
+        "java_expression": "value % 2 == 0",
+        "description": "Value is an even number"
+      },
+      "IS_ODD": {
+        "java_expression": "value % 2 != 0",
+        "description": "Value is an odd number"
+      },
+      "IS_MULTIPLE_OF": {
+        "java_expression": "value % {0} == 0",
+        "description": "Value is a multiple of the specified number"
+      },
+      "IS_IN_LIST": {
+        "java_expression": "lists.get(\"{0}\").contains(value)",
+        "description": "Numeric value is in the specified list"
+      }
+    },
+    "boolean_operators": {
+      "EQUALS": {
+        "java_expression": "value == {0}",
+        "description": "Boolean value matches the specified value (true/false)"
+      }
+    }
+  }
+}
