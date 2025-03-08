@@ -463,293 +463,7 @@ for file in "$RAW_DIR"/*.json; do
 done
 ```
 
-## Example Scripts and Use Cases
-
-With our completed standardization framework, we can now generate properly structured PSC scripts for various automation tasks. Here are some examples:
-
-### 1. Banking Routine
-```json
-{
-  "sleep": "500",
-  "name": "Efficient Banking Routine",
-  "version": 1.0,
-  "actions": [
-    {
-      "id": "IF_DISTANCE_TO_CLOSEST_BANK_IS",
-      "properties": {
-        "distance": {
-          "class": "Number",
-          "operator": "GREATER_THAN",
-          "value": "15"
-        }
-      },
-      "children": [
-        {
-          "id": "WALK_FULLY_TO_NEAREST_BANK_WITH_TELEPORTS"
-        },
-        {
-          "id": "SLEEP_BETWEEN",
-          "properties": {
-            "Minimum": "800",
-            "Maximum": "1200"
-          }
-        }
-      ]
-    },
-    {
-      "id": "IF_BANK_IS_NOT_OPEN",
-      "children": [
-        {
-          "id": "OPEN_BANK"
-        },
-        {
-          "id": "SLEEP_NORMAL_DISTRIBUTION",
-          "properties": {
-            "Mean": "650",
-            "Variance": "150"
-          }
-        }
-      ]
-    },
-    {
-      "id": "IF_BANK_IS_OPEN",
-      "children": [
-        {
-          "id": "IF_INVENTORY_IS_NOT_EMPTY",
-          "children": [
-            {
-              "id": "BANK_DEPOSIT_ALL_EXCEPT",
-              "properties": {
-                "Filter Item By": {
-                  "class": "Item",
-                  "logic": "OR",
-                  "type": "NAME",
-                  "operator": "EQUALS",
-                  "value": "Coins"
-                }
-              }
-            }
-          ]
-        },
-        {
-          "id": "IF_BANK_CONTAINS",
-          "properties": {
-            "Filter Item By": {
-              "class": "Item",
-              "logic": "NONE",
-              "type": "NAME",
-              "operator": "EQUALS",
-              "value": "Lobster"
-            }
-          },
-          "children": [
-            {
-              "id": "BANK_WITHDRAW_ITEM",
-              "properties": {
-                "Filter Item By": {
-                  "class": "Item",
-                  "logic": "NONE", 
-                  "type": "NAME",
-                  "operator": "EQUALS",
-                  "value": "Lobster"
-                },
-                "Amount": "10"
-              }
-            }
-          ]
-        },
-        {
-          "id": "CLOSE_BANK"
-        }
-      ]
-    }
-  ]
-}
-```
-
-### 2. Cow Training Script (Using Monster Library)
-```json
-{
-  "sleep": "500",
-  "name": "F2P Cow Training Script",
-  "version": 1.0,
-  "actions": [
-    {
-      "id": "IF_FIRST_RUN",
-      "children": [
-        {
-          "id": "SET_VARIABLE",
-          "properties": {
-            "Variable name": "target_npc",
-            "Value": "Cow"
-          }
-        },
-        {
-          "id": "SET_VARIABLE",
-          "properties": {
-            "Variable name": "training_area",
-            "Value": "Lumbridge East Farm 1"
-          }
-        },
-        {
-          "id": "CREATE_TIMER",
-          "properties": {
-            "Timer name": "antiban_timer",
-            "Time": "180000"
-          }
-        },
-        {
-          "id": "CREATE_LIST",
-          "properties": {
-            "List name": "loot_items"
-          }
-        },
-        {
-          "id": "ADD_TO_LIST",
-          "properties": {
-            "List name": "loot_items",
-            "Value": "Cowhide"
-          }
-        }
-      ]
-    },
-    {
-      "id": "IF_INVENTORY_IS_FULL",
-      "children": [
-        {
-          "id": "WALK_TO_BANK",
-          "properties": {
-            "Bank": "Lumbridge Castle Bank"
-          }
-        },
-        {
-          "id": "IF_BANK_IS_OPEN",
-          "children": [
-            {
-              "id": "BANK_DEPOSIT_ALL"
-            },
-            {
-              "id": "CLOSE_BANK"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "IF_NOT_IN_COMBAT",
-      "children": [
-        {
-          "id": "IF_GROUND_ITEM_EXISTS",
-          "properties": {
-            "Filter Item By": {
-              "class": "GroundItem",
-              "logic": "AND",
-              "type": "NAME",
-              "operator": "IS_IN_LIST",
-              "value": "loot_items"
-            }
-          },
-          "children": [
-            {
-              "id": "GROUND_ITEM_INTERACT",
-              "properties": {
-                "Filter Item By": {
-                  "class": "GroundItem",
-                  "logic": "AND",
-                  "type": "NAME",
-                  "operator": "IS_IN_LIST",
-                  "value": "loot_items"
-                },
-                "Action": "Take"
-              }
-            }
-          ]
-        },
-        {
-          "id": "IF_NPC_EXISTS",
-          "properties": {
-            "Filter NPC By": {
-              "class": "NPC",
-              "logic": "AND",
-              "type": "NAME",
-              "operator": "EQUALS",
-              "value": "${target_npc}"
-            }
-          },
-          "children": [
-            {
-              "id": "NPC_INTERACT",
-              "properties": {
-                "Filter NPC By": {
-                  "class": "NPC",
-                  "logic": "AND",
-                  "type": "NAME",
-                  "operator": "EQUALS",
-                  "value": "${target_npc}"
-                },
-                "Action": "Attack"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "IF_TIMER_IS_FINISHED",
-      "properties": {
-        "Timer name": "antiban_timer"
-      },
-      "children": [
-        {
-          "id": "ROTATE_CAMERA_RANDOMLY"
-        },
-        {
-          "id": "RESTART_TIMER",
-          "properties": {
-            "Timer name": "antiban_timer"
-          }
-        }
-      ]
-    }
-  ]
-}
-```
-
-### 3. Hill Giant Combat Script (Using Monster and Equipment Libraries)
-```json
-{
-  "sleep": "500",
-  "name": "Hill Giant Combat Script",
-  "version": 1.0,
-  "actions": [
-    {
-      "id": "IF_FIRST_RUN",
-      "children": [
-        {
-          "id": "SET_VARIABLE",
-          "properties": {
-            "Variable name": "target_npc",
-            "Value": "Hill Giant"
-          }
-        },
-        {
-          "id": "SET_VARIABLE",
-          "properties": {
-            "Variable name": "min_health_percent",
-            "Value": "50"
-          }
-        },
-        {
-          "id": "SET_VARIABLE",
-          "properties": {
-            "Variable name": "food_name",
-            "Value": "Lobster"
-          }
-        },
-        {
-          "id": "CREATE_LIST",
-          "properties": {
-            "List name": "loot_items"
+": "Big bones"
           }
         },
         {
@@ -831,14 +545,259 @@ With our completed standardization framework, we can now generate properly struc
       ]
     }
   ]
+}": "Limpwurt root"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IF_EQUIPMENT_CONTAINS",
+      "properties": {
+        "Filter Item By": {
+          "class": "Item",
+          "logic": "NONE",
+          "type": "NAME",
+          "operator": "EQUALS",
+          "value": "Rune Scimitar"
+        }
+      },
+      "children": [
+        {
+          "id": "EQUIPMENT_EQUIP_ITEM",
+          "properties": {
+            "Filter Item By": {
+              "class": "Item",
+              "logic": "NONE", 
+              "type": "NAME",
+              "operator": "EQUALS",
+              "value": "Rune Scimitar"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "IF_LOCAL_PLAYER_HEALTH_PERCENTAGE",
+      "properties": {
+        "health": {
+          "class": "Number",
+          "operator": "LESS_THAN",
+          "value": "${min_health_percent}"
+        }
+      },
+      "children": [
+        {
+          "id": "INVENTORY_INTERACT_ITEM",
+          "properties": {
+            "Filter Item By": {
+              "class": "Item",
+              "logic": "NONE",
+              "type": "NAME",
+              "operator": "EQUALS",
+              "value": "${food_name}"
+            },
+            "Action": "Eat"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IF_INVENTORY_IS_FULL",
+      "children": [
+        {
+          "id": "WALK_TO_BANK",
+          "properties": {
+            "Bank": "Edgeville Bank"
+          }
+        }
+      ]
+    }
+  ]
 }
+## Implementation Next Steps
+
+### Immediate Actions for Standardization Framework
+
+Now that we've fixed the path resolution issues in our scripts, we need to execute the following steps to complete our standardization framework:
+
+#### 1. Run the Comprehensive ActionID_CategoryMap Update
+
+We've created a comprehensive ActionID_CategoryMap with over 250 distinct action IDs organized into logical categories. Now we need to:
+
+```bash
+# Copy the ActionID_CategoryMap to the correct location
+copy action-id-category-map.json mapping\ActionID_CategoryMap.json
+
+# Run the action hierarchy updater to synchronize actions
+python scripts\action_hierarchy_updater.py --base-dir .
+
+# Validate the synchronization
+python scripts\action_sync_validator.py --base-dir . --check-scripts
 ```
 
-These examples showcase how our standardized framework enables the creation of well-structured, complex PSC scripts that incorporate our game-specific libraries (monsters, equipment, locations). The scripts follow proper nesting rules, use correct filter formats, and incorporate anti-ban measures for realistic gameplay.
+This will ensure that our action hierarchy library contains entries for all actions in the category map.
+
+#### 2. Organize and Process the Raw PSC Files
+
+With our framework in place, we can now properly organize and process the raw PSC files:
+
+```bash
+# Create necessary directories
+mkdir -p data\raw\sample
+mkdir -p data\organized
+mkdir -p data\standardized
+mkdir -p data\analysis
+mkdir -p data\validation
+mkdir -p output\java
+
+# Create a sample test file
+echo {
+  "sleep": "500",
+  "name": "Test Banking Script",
+  "version": 1.0,
+  "actions": [
+    {
+      "id": "IF_BANK_IS_NOT_OPEN",
+      "children": [
+        {
+          "id": "OPEN_BANK"
+        }
+      ]
+    }
+  ]
+} > data\raw\sample\test_banking.json
+
+# Run the organization script
+python scripts\organize_psc_files.py --source-dir data\raw\sample --target-dir data\organized\sample --category-map mapping\ActionID_CategoryMap.json --generate-report
+
+# Run the batch processing script
+cd scripts
+batch_process.bat --raw-dir ..\data\raw\sample --organized-dir ..\data\organized\sample
+cd ..
+```
+
+This will demonstrate the complete workflow from raw files to processed outputs.
+
+#### 3. Implement Standardization and Validation Workflow
+
+Once we've tested with sample files, we need to:
+
+1. **Sort all PSC files**: Use the organization script to categorize all our PSC files based on their root action
+2. **Run analysis**: Identify potential issues in our PSC JSON files before standardization
+3. **Perform standardization**: Convert files to our standardized format and enrich with game-specific data
+4. **Validate standardized files**: Ensure all standardized files meet our validation criteria
+5. **Generate DreamBot Java code**: Create Java code from our standardized PSC scripts
+
+### Building the RAG Knowledge Base
+
+After completing the standardization steps, we'll proceed to build the RAG knowledge base:
+
+#### 1. Extract Chunks from Our Libraries
+
+We need to extract meaningful chunks from:
+- Our standardized PSC scripts
+- Reference libraries (action hierarchy, filter types, etc.)
+- Game-specific libraries (monsters, equipment, locations)
+- DreamBot API documentation
+
+#### 2. Create Vector Embeddings
+
+We'll use a suitable embedding model to create vector representations of our chunks:
+
+```python
+from langflow.embeddings import HuggingFaceEmbeddings
+
+# Initialize embeddings model
+embedding_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+
+# Create embeddings for all chunks
+chunked_documents = []
+for library in libraries:
+    chunks = semantic_chunking(library)
+    for chunk in chunks:
+        chunk["metadata"] = enrich_metadata(chunk, libraries)
+        chunked_documents.append(chunk)
+
+# Create vector store
+vector_store = create_vector_store(chunked_documents, embedding_model)
+```
+
+#### 3. Set Up Hybrid Retrieval
+
+Our hybrid retrieval system will combine:
+- Vector similarity search
+- Keyword-based search
+- Entity-based retrieval
+- Context-aware re-ranking
+
+### LangFlow Integration Steps
+
+With our knowledge base prepared, we'll integrate into LangFlow:
+
+#### 1. Create Custom LangFlow Nodes
+
+Develop specialized nodes for:
+- PSC script generation
+- Script validation
+- Code translation (PSC JSON to DreamBot Java)
+- Game entity lookup (monsters, items, locations)
+
+#### 2. Build the LangFlow Pipeline
+
+Construct a pipeline that connects:
+- User input processing
+- RAG retrieval
+- Script generation
+- Validation and feedback
+- Memory and context management
+
+#### 3. Test and Refine
+
+Iteratively test and refine the system:
+- Start with simple script generation tasks
+- Progress to more complex scripts
+- Incorporate feedback mechanisms
+- Fine-tune retrieval and ranking algorithms
+
+## Comprehensive Project Implementation Plan
+
+Here's our step-by-step implementation plan to complete the project:
+
+### Phase 1: Standardization Framework (In Progress)
+- [x] Create standardized libraries (Action Hierarchy, Filter Types, Control Flow, Properties)
+- [x] Build game-specific libraries (Monster, Equipment, Location)
+- [x] Design PSC Standardizer architecture
+- [x] Resolve path resolution issues in scripts
+- [ ] Run organization script on raw PSC files
+- [ ] Process organized files with full standardization workflow
+- [ ] Generate initial DreamBot Java code examples
+
+### Phase 2: RAG Knowledge Base Creation
+- [ ] Apply semantic chunking to libraries and standardized scripts
+- [ ] Enrich chunks with detailed metadata
+- [ ] Create vector embeddings for all chunks
+- [ ] Implement hybrid retrieval system
+- [ ] Set up evaluation metrics for retrieval quality
+
+### Phase 3: LangFlow Integration
+- [ ] Create custom LangFlow nodes for the PSC workflow
+- [ ] Implement the full LangFlow pipeline
+- [ ] Add memory and context management
+- [ ] Develop validation and feedback mechanisms
+- [ ] Build natural language interface for script requests
+
+### Phase 4: Testing and Optimization
+- [ ] Test with simple script generation tasks
+- [ ] Evaluate script correctness and quality
+- [ ] Optimize retrieval and ranking algorithms
+- [ ] Improve prompt engineering for script generation
+- [ ] Conduct end-to-end testing with complex automation scenarios
+
+By following this comprehensive implementation plan, we'll create a powerful AI-driven system that can generate error-free RuneScape automation scripts through natural language requests, without requiring fine-tuning of a local LLM.
 
 ## Implementation Progress and Challenge Resolution
 
-### Key Challenges Addressed
+### Key Challenges Addressed and Resolved
 
 #### 1. Nesting Structure Misrepresentation
 We identified that the group extraction approach created artificial hierarchies where actions appear nested under other actions, which doesn't accurately reflect PSC's flexible structure. We resolved this by:
@@ -864,6 +823,13 @@ We noted logical branches weren't systematically documented. We fixed this by:
 - Defining valid child element rules
 - Providing examples of complex condition construction
 
+#### 5. Path Resolution Issues
+We encountered issues with file path resolution in our scripts, particularly on Windows systems. We solved this by:
+- Implementing script location detection using `os.path.dirname(os.path.abspath(__file__))` 
+- Ensuring consistent path handling across all scripts
+- Creating robust path resolution that works regardless of working directory
+- Supporting both relative and absolute paths for configuration files
+
 ### Completed Steps
 1. ✅ **Data Collection and Processing**
    - Extracted DreamBot API documentation (98% complete - 450 out of 459 files)
@@ -888,13 +854,71 @@ We noted logical branches weren't systematically documented. We fixed this by:
    - Implemented batch processing capabilities
    - Built validation framework with JSON schema and semantic rules
 
+### Technical Challenge Resolution
+
+We encountered and resolved critical file path issues in our Python scripts:
+
+#### Path Resolution Fixes Implemented
+
+1. **Directory Structure Alignment**
+   - Our scripts were looking for files in incorrect locations like "scripts/mapping" and "scripts/libraries"
+   - Fixed structure to correctly reference mapping and libraries directories at the root level
+
+2. **Script-Relative Path Resolution**
+   - Implemented consistent path resolution using absolute paths based on script location:
+   ```python
+   script_dir = os.path.dirname(os.path.abspath(__file__))
+   parent_dir = os.path.dirname(script_dir)
+   ```
+   
+3. **Cross-Platform Compatibility**
+   - Ensured paths work properly on Windows systems using proper path joining:
+   ```python
+   os.path.join(parent_dir, "libraries", "action_hierarchy_library.json")
+   ```
+
+4. **Flexible Path Handling**
+   - Added support for both absolute and relative paths:
+   ```python
+   if not os.path.isabs(args.category_map):
+       script_dir = os.path.dirname(os.path.abspath(__file__))
+       parent_dir = os.path.dirname(script_dir)
+       category_map_path = os.path.join(parent_dir, "mapping", os.path.basename(args.category_map))
+   else:
+       category_map_path = args.category_map
+   ```
+
+#### Specific Script Fixes
+
+1. **psc_standardizer.py**:
+   - Updated directory resolution in `__init__` method
+   - Enhanced library loading mechanism with better error handling
+   - Fixed main function to use dynamic path resolution
+
+2. **organize_psc_files.py**:
+   - Added missing `Tuple` import
+   - Implemented robust category map path resolution
+   - Added enhanced error handling for file access
+
+3. **batch_process.bat**:
+   - Updated to use parent directory paths:
+   ```batch
+   set SCRIPT_DIR=%~dp0
+   set PARENT_DIR=%SCRIPT_DIR%..
+   ```
+
+4. **action_hierarchy_updater.py** and **action_sync_validator.py**:
+   - Fixed path resolution to handle cross-directory access
+
 ### Current Progress
 We have been working on Step 4 of our implementation plan, but haven't fully completed it:
 
 🔄 **Step 4: Organizing raw PSC JSON files for standardization (In Progress)**
 - ✅ Created the directory structure for the PSC standardization framework
 - ✅ Developed the Python script (organize_psc_files.py) to organize PSC JSON files by category
+- ✅ Created comprehensive ActionID_CategoryMap with over 250 actions
 - ✅ Completed the monster, equipment, and location libraries as a side task
+- ✅ Fixed all path resolution issues in our scripts
 - ❌ Haven't yet run the organization script to properly sort all the raw files
 - ❌ Haven't validated the raw files before processing
 
