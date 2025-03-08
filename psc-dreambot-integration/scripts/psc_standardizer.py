@@ -33,36 +33,45 @@ from typing import Dict, List, Any, Optional, Union, Set, Tuple
 class PSCStandardizer:
     """Main class for standardizing PSC JSON files."""
     
-    def __init__(self, libraries_dir: str = "../libraries"):
-        """
-        Initialize the standardizer with paths to the library files.
-        
-        Args:
-            libraries_dir: Directory containing the library JSON files
-        """
-        self.libraries_dir = Path(libraries_dir)
-        self.libraries = {}
-        self.load_libraries()
+def __init__(self, libraries_dir: str = "../libraries"):
+    """
+    Initialize the standardizer with paths to the library files.
     
-    def load_libraries(self) -> None:
-        """Load all standardized libraries from JSON files."""
-        library_files = {
-            "actions": "action_hierarchy_library.json",
-            "filters": "filter_types_library.json",
-            "control_flow": "control_flow_library.json",
-            "properties": "property_values_library.json"
-        }
-        
-        missing_libraries = []
-        
-        for lib_key, lib_file in library_files.items():
-            try:
-                with open(self.libraries_dir / lib_file, 'r') as f:
-                    self.libraries[lib_key] = json.load(f)
-                print(f"Loaded library: {lib_key}")
-            except FileNotFoundError:
-                missing_libraries.append(lib_file)
-                self.libraries[lib_key] = {}
+    Args:
+        libraries_dir: Directory containing the library JSON files
+    """
+    # Use absolute path resolution based on script location
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    parent_dir = os.path.dirname(script_dir)
+    
+    if os.path.isabs(libraries_dir):
+        self.libraries_dir = Path(libraries_dir)
+    else:
+        self.libraries_dir = Path(os.path.join(parent_dir, "libraries"))
+    
+    self.libraries = {}
+    self.load_libraries()
+    
+def load_libraries(self) -> None:
+    """Load all standardized libraries from JSON files."""
+    library_files = {
+        "actions": "action_hierarchy_library.json",
+        "filters": "filter_types_library.json",
+        "control_flow": "control_flow_library.json",
+        "properties": "property_values_library.json"
+    }
+    
+    missing_libraries = []
+    
+    for lib_key, lib_file in library_files.items():
+        try:
+            lib_path = self.libraries_dir / lib_file
+            with open(lib_path, 'r') as f:
+                self.libraries[lib_key] = json.load(f)
+            print(f"Loaded library: {lib_key} from {lib_path}")
+        except FileNotFoundError:
+            missing_libraries.append(lib_file)
+            self.libraries[lib_key] = {}
         
         if missing_libraries:
             print(f"WARNING: Could not find the following library files in {self.libraries_dir}:")
@@ -2216,29 +2225,34 @@ def main():
     parser = argparse.ArgumentParser(description="PSC Standardizer - Tool for processing PSC JSON files")
     subparsers = parser.add_subparsers(dest="command", help="Command to execute")
     
+    # Get script directory for path resolution
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    parent_dir = os.path.dirname(script_dir)
+    default_libraries_dir = os.path.join(parent_dir, "libraries")
+    
     # Analyze command
     analyze_parser = subparsers.add_parser("analyze", help="Analyze a PSC JSON file")
     analyze_parser.add_argument("--input-file", required=True, help="Path to the input PSC JSON file")
     analyze_parser.add_argument("--output-file", help="Path to save the analysis report (optional)")
-    analyze_parser.add_argument("--libraries-dir", default="../libraries", help="Path to the libraries directory")
+    analyze_parser.add_argument("--libraries-dir", default=default_libraries_dir, help="Path to the libraries directory")
     
     # Standardize command
     standardize_parser = subparsers.add_parser("standardize", help="Standardize a PSC JSON file")
     standardize_parser.add_argument("--input-file", required=True, help="Path to the input PSC JSON file")
     standardize_parser.add_argument("--output-file", required=True, help="Path to save the standardized JSON")
-    standardize_parser.add_argument("--libraries-dir", default="../libraries", help="Path to the libraries directory")
+    standardize_parser.add_argument("--libraries-dir", default=default_libraries_dir, help="Path to the libraries directory")
     
     # Validate command
     validate_parser = subparsers.add_parser("validate", help="Validate a PSC JSON file")
     validate_parser.add_argument("--input-file", required=True, help="Path to the input PSC JSON file")
     validate_parser.add_argument("--output-file", help="Path to save the validation report (optional)")
-    validate_parser.add_argument("--libraries-dir", default="../libraries", help="Path to the libraries directory")
+    validate_parser.add_argument("--libraries-dir", default=default_libraries_dir, help="Path to the libraries directory")
     
     # Generate code command
     generate_parser = subparsers.add_parser("generate-code", help="Generate DreamBot Java code from a PSC JSON file")
     generate_parser.add_argument("--input-file", required=True, help="Path to the input PSC JSON file")
     generate_parser.add_argument("--output-file", required=True, help="Path to save the generated Java code")
-    generate_parser.add_argument("--libraries-dir", default="../libraries", help="Path to the libraries directory")
+    generate_parser.add_argument("--libraries-dir", default=default_libraries_dir, help="Path to the libraries directory")
     
     args = parser.parse_args()
     

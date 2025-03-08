@@ -1,0 +1,12 @@
+2025-03-07 15:23:57,217 - hierarchy_updater - INFO - Using category map: D:\RS_AI\pandemic-code\psc-dreambot-integration\scripts\mapping\ActionID_CategoryMap.json
+2025-03-07 15:23:57,217 - hierarchy_updater - INFO - Using action hierarchy: D:\RS_AI\pandemic-code\psc-dreambot-integration\scripts\libraries\action_hierarchy_library.json
+2025-03-07 15:23:57,217 - hierarchy_updater - ERROR - Category map not found: D:\RS_AI\pandemic-code\psc-dreambot-integration\scripts\mapping\ActionID_CategoryMap.json
+2025-03-07 15:25:49,139 - hierarchy_updater - INFO - Using category map: D:\RS_AI\pandemic-code\psc-dreambot-integration\scripts\mapping\ActionID_CategoryMap.json
+2025-03-07 15:25:49,139 - hierarchy_updater - INFO - Using action hierarchy: D:\RS_AI\pandemic-code\psc-dreambot-integration\scripts\libraries\action_hierarchy_library.json
+2025-03-07 15:25:49,140 - hierarchy_updater - ERROR - Action hierarchy not found: D:\RS_AI\pandemic-code\psc-dreambot-integration\scripts\libraries\action_hierarchy_library.json
+2025-03-07 15:44:51,735 - hierarchy_updater - INFO - Using category map: D:\RS_AI\pandemic-code\psc-dreambot-integration\scripts\mapping\ActionID_CategoryMap.json
+2025-03-07 15:44:51,735 - hierarchy_updater - INFO - Using action hierarchy: D:\RS_AI\pandemic-code\psc-dreambot-integration\scripts\libraries\action_hierarchy_library.json
+2025-03-07 15:44:51,735 - hierarchy_updater - ERROR - Category map not found: D:\RS_AI\pandemic-code\psc-dreambot-integration\scripts\mapping\ActionID_CategoryMap.json
+2025-03-07 15:45:43,993 - hierarchy_updater - INFO - Using category map: D:\RS_AI\pandemic-code\psc-dreambot-integration\scripts\mapping\ActionID_CategoryMap.json
+2025-03-07 15:45:43,993 - hierarchy_updater - INFO - Using action hierarchy: D:\RS_AI\pandemic-code\psc-dreambot-integration\scripts\libraries\action_hierarchy_library.json
+2025-03-07 15:45:43,993 - hierarchy_updater - ERROR - Action hierarchy not found: D:\RS_AI\pandemic-code\psc-dreambot-integration\scripts\libraries\action_hierarchy_library.json
