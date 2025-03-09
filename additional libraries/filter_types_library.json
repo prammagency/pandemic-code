@@ -1,0 +1,7 @@
+{
+  "class": "<EntityClass>",
+  "logic": "<LogicalOperator>",
+  "type": "<FilterType>",
+  "operator": "<ComparisonOperator>",
+  "value": <FilterValue>
+}

@@ -1,0 +1,720 @@
+{
+  "filters": {
+    "Item": {
+      "class_description": "Filters for inventory or bank items.",
+      "types": {
+        "NAME": {
+          "operators": ["EQUALS", "DOES_NOT_EQUAL", "CONTAINS", "DOES_NOT_CONTAIN", "STARTS_WITH", "ENDS_WITH"],
+          "value_type": "text",
+          "description": "Item name matching (full or partial)."
+        },
+        "ID": {
+          "operators": ["EQUALS", "DOES_NOT_EQUAL"],
+          "value_type": "number",
+          "description": "Item ID matching."
+        },
+        "AMOUNT": {
+          "operators": ["EQUALS", "LESS_THAN", "GREATER_THAN", "LESS_THAN_OR_EQUAL", "GREATER_THAN_OR_EQUAL"],
+          "value_type": "number",
+          "description": "Stack count of the item."
+        },
+        "VALUE": {
+          "operators": ["EQUALS", "LESS_THAN", "GREATER_THAN", "…"],
+          "value_type": "number",
+          "description": "Item GE value (coin value)."
+        },
+        "HIGH_ALCH_VALUE": {
+          "operators": ["EQUALS", "LESS_THAN", "GREATER_THAN", "…"],
+          "value_type": "number",
+          "description": "High alchemy value of the item."
+        },
+        "LIVE_PRICE": {
+          "operators": ["EQUALS", "LESS_THAN", "GREATER_THAN", "…"],
+          "value_type": "number",
+          "description": "Live price from GE (if available)."
+        },
+        "IS_NOTED": {
+          "operators": ["EQUALS"],
+          "value_type": "boolean (implicit)",
+          "description": "True if item is noted. (`IS_NOTED EQUALS` means noted)."
+        },
+        "IS_NOT_NOTED": {
+          "operators": ["EQUALS"],
+          "value_type": "boolean (implicit)",
+          "description": "True if item is unnoted."
+        },
+        "IS_FOOD": {
+          "operators": ["EQUALS"],
+          "description": "True if the item is recognized as food."
+        },
+        "IS_TRADEABLE": {
+          "operators": ["EQUALS"],
+          "description": "True if the item is tradeable."
+        },
+        "IS_STACKABLE": {
+          "operators": ["EQUALS"],
+          "description": "True if the item is stackable."
+        },
+        "IN_INVENTORY": {
+          "operators": ["EQUALS"],
+          "description": "True if the item is currently in the inventory."
+        },
+        "IS_VARIABLE_VALUE": {
+          "operators": ["EQUALS"],
+          "description": "True if the item equals the value stored in a given variable (special use)."
+        },
+        "IS_LAST_OUTPUT": {
+          "operators": ["EQUALS"],
+          "description": "True if the item is the output of the last action (special use)."
+        },
+        "FILTER_BY_ACTION": {
+          "operators": ["EQUALS"],
+          "description": "Uses the output of another action as the filter criterion."
+        }
+      }
+    },
+    "GroundItem": {
+      "class_description": "Filters for items on the ground (loot).",
+      "types": {
+        "NAME": {
+          "operators": ["EQUALS", "DOES_NOT_EQUAL", "CONTAINS", "DOES_NOT_CONTAIN", "STARTS_WITH", "ENDS_WITH"],
+          "value_type": "text",
+          "description": "Ground item name."
+        },
+        "ID": {
+          "operators": ["EQUALS", "DOES_NOT_EQUAL"],
+          "value_type": "number",
+          "description": "Ground item ID."
+        },
+        "AMOUNT": {
+          "operators": ["EQUALS", "LESS_THAN", "GREATER_THAN", "..."],
+          "value_type": "number",
+          "description": "Quantity of the ground item stack."
+        },
+        "VALUE": {
+          "operators": ["EQUALS", "LESS_THAN", "GREATER_THAN", "..."],
+          "value_type": "number",
+          "description": "Coin value of the ground item."
+        },
+        "DISTANCE_TO_PLAYER": {
+          "operators": ["EQUALS", "LESS_THAN", "GREATER_THAN", "..."],
+          "value_type": "number",
+          "description": "Straight-line distance from local player."
+        },
+        "WALKING_DISTANCE_TO_PLAYER": {
+          "operators": ["EQUALS", "LESS_THAN", "GREATER_THAN", "..."],
+          "value_type": "number",
+          "description": "Path distance (walking steps) from player."
+        },
+        "IS_REACHABLE": {
+          "operators": ["EQUALS"],
+          "description": "True if the item can be reached (no obstacles)."
+        },
+        "IS_NOT_REACHABLE": {
+          "operators": ["EQUALS"],
+          "description": "True if the item is not reachable."
+        },
+        "IS_OUR_LOOT": {
+          "operators": ["EQUALS"],
+          "description": "True if the item was dropped by our player."
+        },
+        "IN_AREA": {
+          "operators": ["EQUALS"],
+          "value_type": "Area",
+          "description": "True if the item’s tile is within a specified area."
+        },
+        "ON_SCREEN": {
+          "operators": ["EQUALS"],
+          "description": "True if the item is currently on the screen (visible)."
+        },
+        "NOT_ON_SCREEN": {
+          "operators": ["EQUALS"],
+          "description": "True if the item is not visible on screen."
+        },
+        "IS_VARIABLE_VALUE": {
+          "operators": ["EQUALS"],
+          "description": "Matches an item stored in a variable."
+        },
+        "FILTER_BY_ACTION": {
+          "operators": ["EQUALS"],
+          "description": "Uses another action’s output as filter."
+        }
+      }
+    },
+    "GameObject": {
+      "class_description": "Filters for interactive game world objects (doors, trees, bank booths, etc.).",
+      "types": {
+        "NAME": {
+          "operators": ["EQUALS", "DOES_NOT_EQUAL", "CONTAINS", "DOES_NOT_CONTAIN", "STARTS_WITH", "ENDS_WITH"],
+          "value_type": "text",
+          "description": "Object name."
+        },
+        "ID": {
+          "operators": ["EQUALS", "DOES_NOT_EQUAL"],
+          "value_type": "number",
+          "description": "Object ID."
+        },
+        "ACTION": {
+          "operators": ["EQUALS", "DOES_NOT_EQUAL"],
+          "value_type": "text",
+          "description": "Available right-click action on the object (e.g., 'Open', 'Chop down')."
+        },
+        "MODEL_COLORS": {
+          "operators": ["EQUALS"],
+          "value_type": "text/number",
+          "description": "Color or texture of the model (if applicable)."
+        },
+        "ORIENTATION": {
+          "operators": ["EQUALS"],
+          "value_type": "number",
+          "description": "Orientation (rotation) of the object (0-2047)."
+        },
+        "DISTANCE_TO_PLAYER": {
+          "operators": ["EQUALS", "LESS_THAN", "GREATER_THAN", "..."],
+          "value_type": "number",
+          "description": "Distance from player."
+        },
+        "IS_REACHABLE": {
+          "operators": ["EQUALS"],
+          "description": "True if the object can be reached by walking."
+        },
+        "IS_NOT_REACHABLE": {
+          "operators": ["EQUALS"],
+          "description": "True if not reachable."
+        },
+        "TILE": {
+          "operators": ["EQUALS"],
+          "value_type": "Tile",
+          "description": "Specific world tile the object occupies (coordinate match)."
+        },
+        "IN_AREA": {
+          "operators": ["EQUALS"],
+          "value_type": "Area",
+          "description": "Object is within a defined area."
+        },
+        "ON_SCREEN": {
+          "operators": ["EQUALS"],
+          "description": "True if object is visible on screen."
+        },
+        "NOT_ON_SCREEN": {
+          "operators": ["EQUALS"],
+          "description": "True if object is not visible."
+        },
+        "HAS_NAME": {
+          "operators": ["EQUALS"],
+          "description": "True if object has a name (some objects might be unnamed)."
+        },
+        "INDEX": {
+          "operators": ["EQUALS"],
+          "value_type": "number",
+          "description": "Internal index of the object in scene (rarely used)."
+        },
+        "IS_VARIABLE_VALUE": {
+          "operators": ["EQUALS"],
+          "description": "Matches an object stored in a variable."
+        },
+        "FILTER_BY_ACTION": {
+          "operators": ["EQUALS"],
+          "description": "Uses last action output or given action’s output to filter."
+        }
+      }
+    },
+    "NPC": {
+      "class_description": "Filters for Non-Player Characters (monsters, shopkeepers, etc.).",
+      "types": {
+        "NAME": {
+          "operators": [
+            "EQUALS", "DOES_NOT_EQUAL", 
+            "CONTAINS", "DOES_NOT_CONTAIN", 
+            "STARTS_WITH", "ENDS_WITH",
+            "IS_IN_LIST", "NOT_IN_LIST"
+          ],
+          "value_type": "text",
+          "description": "NPC name."
+        },
+        "ID": {
+          "operators": ["EQUALS", "DOES_NOT_EQUAL"],
+          "value_type": "number",
+          "description": "NPC ID."
+        },
+        "ACTION": {
+          "operators": ["EQUALS", "DOES_NOT_EQUAL"],
+          "value_type": "text",
+          "description": "An available action (option) on the NPC."
+        },
+        "LEVEL": {
+          "operators": ["EQUALS", "LESS_THAN", "GREATER_THAN", "..."],
+          "value_type": "number",
+          "description": "NPC combat level."
+        },
+        "HEALTH": {
+          "operators": ["EQUALS", "LESS_THAN", "GREATER_THAN", "..."],
+          "value_type": "number",
+          "description": "NPC health (hitpoints)."
+        },
+        "ORIENTATION": {
+          "operators": ["EQUALS"],
+          "value_type": "number",
+          "description": "Orientation of NPC (direction they face)."
+        },
+        "DISTANCE_TO_PLAYER": {
+          "operators": ["EQUALS", "LESS_THAN", "GREATER_THAN", "..."],
+          "value_type": "number",
+          "description": "Distance from player."
+        },
+        "ON_SCREEN": {
+          "operators": ["EQUALS"],
+          "description": "True if NPC is on screen (visible)."
+        },
+        "NOT_ON_SCREEN": {
+          "operators": ["EQUALS"],
+          "description": "True if NPC is off screen."
+        },
+        "IS_VARIABLE_VALUE": {
+          "operators": ["EQUALS"],
+          "description": "Matches NPC stored in a variable."
+        },
+        "FILTER_BY_ACTION": {
+          "operators": ["EQUALS"],
+          "description": "Uses another action’s output (likely an NPC) as filter."
+        }
+      }
+    },
+    "Player": {
+      "class_description": "Filters for player entities (could be local or other players).",
+      "types": {
+        "NAME": {
+          "operators": [
+            "EQUALS", "DOES_NOT_EQUAL", 
+            "CONTAINS", "DOES_NOT_CONTAIN",
+            "STARTS_WITH", "ENDS_WITH",
+            "IS_IN_LIST", "NOT_IN_LIST"
+          ],
+          "value_type": "text",
+          "description": "Player username."
+        },
+        "ACTION": {
+          "operators": ["EQUALS", "DOES_NOT_EQUAL"],
+          "value_type": "text",
+          "description": "Action the player is doing (e.g., 'Attack', 'Trade')."
+        },
+        "LEVEL": {
+          "operators": ["EQUALS", "LESS_THAN", "GREATER_THAN", "..."],
+          "value_type": "number",
+          "description": "Combat level of player."
+        },
+        "HEALTH": {
+          "operators": ["EQUALS", "LESS_THAN", "GREATER_THAN", "..."],
+          "value_type": "number",
+          "description": "Current health of player."
+        },
+        "DISTANCE_TO_PLAYER": {
+          "operators": ["EQUALS", "LESS_THAN", "GREATER_THAN", "..."],
+          "value_type": "number",
+          "description": "Distance to our player (for other players)."
+        },
+        "WALKING_DISTANCE_TO_PLAYER": {
+          "operators": ["EQUALS", "LESS_THAN", "GREATER_THAN", "..."],
+          "value_type": "number",
+          "description": "Path distance from our player."
+        },
+        "IS_REACHABLE": {
+          "operators": ["EQUALS"],
+          "description": "True if reachable (no obstacles)."
+        },
+        "TILE": {
+          "operators": ["EQUALS"],
+          "value_type": "Tile",
+          "description": "Player’s current tile equals given tile."
+        },
+        "IN_AREA": {
+          "operators": ["EQUALS"],
+          "value_type": "Area",
+          "description": "Player is inside a given area."
+        },
+        "ON_SCREEN": {
+          "operators": ["EQUALS"],
+          "description": "Player is on screen."
+        },
+        "NOT_ON_SCREEN": {
+          "operators": ["EQUALS"],
+          "description": "Player is off screen."
+        },
+        "ANIMATION": {
+          "operators": ["EQUALS"],
+          "value_type": "number",
+          "description": "Animation ID the player is performing."
+        },
+        "ANIMATING": {
+          "operators": ["EQUALS"],
+          "description": "True if player is currently animating (any animation in progress)."
+        },
+        "NOT_ANIMATING": {
+          "operators": ["EQUALS"],
+          "description": "True if player is idle (no animation)."
+        },
+        "CAN_ATTACK_ME": {
+          "operators": ["EQUALS"],
+          "description": "True if the player can attack our player (wilderness level etc.)."
+        },
+        "IN_COMBAT": {
+          "operators": ["EQUALS"],
+          "description": "True if the player is in combat."
+        },
+        "MOVING": {
+          "operators": ["EQUALS"],
+          "description": "True if the player is currently moving."
+        },
+        "NOT_MOVING": {
+          "operators": ["EQUALS"],
+          "description": "True if the player is stationary."
+        },
+        "IS_ATTACKABLE": {
+          "operators": ["EQUALS"],
+          "description": "True if our player can attack this player (PvP conditions)."
+        },
+        "WE_ARE_INTERACTING": {
+          "operators": ["EQUALS"],
+          "description": "True if our player is interacting with this player."
+        },
+        "IS_INTERACTING": {
+          "operators": ["EQUALS"],
+          "description": "True if this player is interacting with someone/something."
+        },
+        "IS_INTERACTING_WITH_ME": {
+          "operators": ["EQUALS"],
+          "description": "True if this player is interacting with our player."
+        },
+        "IS_LAST_OUTPUT": {
+          "operators": ["EQUALS"],
+          "description": "Matches the last output if it was a Player."
+        },
+        "INDEX": {
+          "operators": ["EQUALS"],
+          "value_type": "number",
+          "description": "Internal index for the player entity."
+        },
+        "FILTER_BY_ACTION": {
+          "operators": ["EQUALS"],
+          "description": "Uses another action’s output as a player filter."
+        }
+      }
+    },
+    "Projectile": {
+      "class_description": "Filters for projectiles (arrows, spells in flight).",
+      "types": {
+        "ID": {
+          "operators": ["EQUALS", "DOES_NOT_EQUAL"],
+          "value_type": "number",
+          "description": "Projectile ID (spell or ammo ID)."
+        },
+        "DISTANCE_TO_PLAYER": {
+          "operators": ["EQUALS", "LESS_THAN", "GREATER_THAN"],
+          "value_type": "number",
+          "description": "Distance of projectile from player."
+        },
+        "IS_REACHABLE": {
+          "operators": ["EQUALS"],
+          "description": "If applicable, whether projectile's path is clear (rarely used)."
+        },
+        "TILE": {
+          "operators": ["EQUALS"],
+          "value_type": "Tile",
+          "description": "Projectile’s current tile."
+        },
+        "IN_AREA": {
+          "operators": ["EQUALS"],
+          "value_type": "Area",
+          "description": "Projectile is within area."
+        },
+        "IS_VARIABLE_VALUE": {
+          "operators": ["EQUALS"],
+          "description": "Matches projectile stored in variable."
+        },
+        "IS_LAST_OUTPUT": {
+          "operators": ["EQUALS"],
+          "description": "Matches last action output if projectile."
+        },
+        "FILTER_BY_ACTION": {
+          "operators": ["EQUALS"],
+          "description": "Linked to another action’s output."
+        }
+      }
+    },
+    "GraphicsObject": {
+      "class_description": "Filters for graphics objects (animated effects on ground, e.g., spawned by spells).",
+      "types": {
+        "ID": {
+          "operators": ["EQUALS", "DOES_NOT_EQUAL"],
+          "value_type": "number",
+          "description": "Graphics object ID."
+        },
+        "SPAWN_TIME": {
+          "operators": ["EQUALS", "LESS_THAN", "GREATER_THAN", "..."],
+          "value_type": "number",
+          "description": "Time since spawn (ms)."
+        },
+        "DISTANCE_TO_PLAYER": {
+          "operators": ["EQUALS", "LESS_THAN", "GREATER_THAN", "..."],
+          "value_type": "number",
+          "description": "Distance from player."
+        },
+        "IS_REACHABLE": {
+          "operators": ["EQUALS"],
+          "description": "Reachable by player or not."
+        },
+        "TILE": {
+          "operators": ["EQUALS"],
+          "value_type": "Tile",
+          "description": "Tile where the graphics object is."
+        },
+        "IN_AREA": {
+          "operators": ["EQUALS"],
+          "value_type": "Area",
+          "description": "Within given area."
+        },
+        "IS_VARIABLE_VALUE": {
+          "operators": ["EQUALS"],
+          "description": "Matches a graphics object stored in a variable."
+        },
+        "FILTER_BY_ACTION": {
+          "operators": ["EQUALS"],
+          "description": "Matches another action’s output."
+        }
+      }
+    },
+    "Widget": {
+      "class_description": "Filters for UI widgets (interface components).",
+      "types": {
+        "WIDGET_ID": {
+          "operators": ["EQUALS"],
+          "value_type": "number",
+          "description": "The widget’s unique ID."
+        },
+        "TEXT": {
+          "operators": ["EQUALS", "CONTAINS", "DOES_NOT_CONTAIN"],
+          "value_type": "text",
+          "description": "Text content of the widget."
+        },
+        "ACTION": {
+          "operators": ["EQUALS", "CONTAINS"],
+          "value_type": "text",
+          "description": "Action name of the widget (if it’s a button, etc.)."
+        },
+        "IS_VISIBLE": {
+          "operators": ["EQUALS"],
+          "description": "True if widget is visible."
+        },
+        "IS_HIDDEN": {
+          "operators": ["EQUALS"],
+          "description": "True if widget is hidden."
+        },
+        "ENABLED_MEDIA_ID": {
+          "operators": ["EQUALS"],
+          "value_type": "number",
+          "description": "Media (sprite) ID when enabled."
+        },
+        "DISABLED_MEDIA_ID": {
+          "operators": ["EQUALS"],
+          "value_type": "number",
+          "description": "Media ID when disabled."
+        },
+        "WIDGET_ITEM_ID": {
+          "operators": ["EQUALS"],
+          "value_type": "number",
+          "description": "If widget represents an item slot, the item ID present."
+        },
+        "WIDGET_ITEM_AMOUNT": {
+          "operators": ["EQUALS", "LESS_THAN", "GREATER_THAN"],
+          "value_type": "number",
+          "description": "If widget has an item, the quantity."
+        },
+        "TEXT_COLOR": {
+          "operators": ["EQUALS"],
+          "value_type": "number",
+          "description": "Color of the widget’s text (as int)."
+        },
+        "IS_VARIABLE_VALUE": {
+          "operators": ["EQUALS"],
+          "description": "True if this widget equals a stored variable’s widget."
+        },
+        "FILTER_BY_ACTION": {
+          "operators": ["EQUALS"],
+          "description": "Uses another action’s output (widget) as filter."
+        }
+      }
+    },
+    "World": {
+      "class_description": "Filters for game worlds (for world hopping or checks).",
+      "types": {
+        "ID": {
+          "operators": ["EQUALS", "DOES_NOT_EQUAL", "IS_IN_LIST", "NOT_IN_LIST"],
+          "value_type": "number",
+          "description": "World number (e.g., 301)."
+        },
+        "WORLD_IS_MEMBERS": {
+          "operators": ["EQUALS"],
+          "description": "True if world is members-only."
+        },
+        "WORLD_IS_F2P": {
+          "operators": ["EQUALS"],
+          "description": "True if world is free-to-play."
+        },
+        "WORLD_IS_PVP": {
+          "operators": ["EQUALS"],
+          "description": "True if world is a PvP world."
+        },
+        "WORLD_IS_BOUNTY_HUNTER": {
+          "operators": ["EQUALS"],
+          "description": "True if world is a Bounty Hunter world."
+        },
+        "WORLD_IS_NORMAL": {
+          "operators": ["EQUALS"],
+          "description": "True if world is a normal (non-special) world."
+        },
+        "WORLD_LOCATION": {
+          "operators": ["EQUALS"],
+          "value_type": "ZoneId/Region",
+          "description": "Geographic location of world (e.g., USA, EU)."
+        },
+        "WORLD_POPULATION": {
+          "operators": ["LESS_THAN", "GREATER_THAN", "EQUALS"],
+          "value_type": "number",
+          "description": "Number of players in world."
+        },
+        "WORLD_PING": {
+          "operators": ["LESS_THAN", "EQUALS", "GREATER_THAN"],
+          "value_type": "number",
+          "description": "Ping to world (ms)."
+        },
+        "FILTER_BY_ACTION": {
+          "operators": ["EQUALS"],
+          "description": "Takes a world from another action’s output as filter."
+        }
+      }
+    },
+    "Variable": {
+      "class_description": "Filters for variable values (for use in conditions).",
+      "types": {
+        "AS_TEXT": {
+          "operators": [
+            "EQUALS", "DOES_NOT_EQUAL", "CONTAINS", "DOES_NOT_CONTAIN", 
+            "STARTS_WITH", "ENDS_WITH",
+            "IS_IN_LIST", "NOT_IN_LIST"
+          ],
+          "value_type": "text",
+          "description": "Interprets the variable’s value as text and applies text comparison."
+        },
+        "AS_NUMBER": {
+          "operators": [
+            "EQUALS", "DOES_NOT_EQUAL", 
+            "LESS_THAN", "LESS_THAN_OR_EQUAL", 
+            "GREATER_THAN", "GREATER_THAN_OR_EQUAL",
+            "CONTAINS", "DOES_NOT_CONTAIN"  // (for numbers, 'contains' might check digit sequence)
+          ],
+          "value_type": "number",
+          "description": "Interprets the variable’s value as a number for numeric comparisons."
+        },
+        "AS_BOOLEAN": {
+          "operators": ["IS_TRUE", "IS_FALSE"],
+          "description": "Checks a variable’s boolean value (true/false)."
+        },
+        "FILTER_BY_ACTION": {
+          "operators": ["EQUALS"],
+          "description": "Compares the variable to another action’s output."
+        }
+      }
+    }
+  },
+  "logical_operators": ["AND", "OR"],
+  "combining_filters": "You can chain multiple filters with AND/OR logic. The first filter in a chain uses 'NONE' (no preceding logic). Subsequent filters can use AND or OR to refine or broaden the criteria. PSC evaluates them left-to-right. Parentheses are not explicitly used; order of filters and use of OR/AND determines grouping (OR has lower precedence effectively).",
+  "examples": [
+    {
+      "description": "Find a Goblin NPC that is alive and on screen",
+      "filter": {
+        "class": "NPC",
+        "logic": "NONE",
+        "type": "NAME",
+        "operator": "EQUALS",
+        "value": "Goblin",
+        "filters": [
+          {
+            "class": "NPC",
+            "logic": "AND",
+            "type": "HEALTH",
+            "operator": "GREATER_THAN",
+            "value": 0
+          },
+          {
+            "class": "NPC",
+            "logic": "AND",
+            "type": "ON_SCREEN",
+            "operator": "EQUALS"
+          }
+        ]
+      }
+    },
+    {
+      "description": "Find any oak or willow tree (Game Object) within 10 tiles",
+      "filter": {
+        "class": "GameObject",
+        "logic": "NONE",
+        "type": "NAME",
+        "operator": "EQUALS",
+        "value": "Oak",
+        "filters": [
+          {
+            "class": "GameObject",
+            "logic": "OR",
+            "type": "NAME",
+            "operator": "EQUALS",
+            "value": "Willow"
+          },
+          {
+            "class": "GameObject",
+            "logic": "AND",
+            "type": "DISTANCE_TO_PLAYER",
+            "operator": "LESS_THAN_OR_EQUAL",
+            "value": 10
+          }
+        ]
+      }
+    },
+    {
+      "description": "Filter inventory items that contain 'potion' in name and are tradeable",
+      "filter": {
+        "class": "Item",
+        "logic": "NONE",
+        "type": "NAME",
+        "operator": "CONTAINS",
+        "value": "potion",
+        "filters": [
+          {
+            "class": "Item",
+            "logic": "AND",
+            "type": "IS_TRADEABLE",
+            "operator": "EQUALS"
+          }
+        ]
+      }
+    },
+    {
+      "description": "Select world with ID 302 or 303 that is a members world",
+      "filter": {
+        "class": "World",
+        "logic": "NONE",
+        "type": "ID",
+        "operator": "IS_IN_LIST",
+        "value": [302, 303],
+        "filters": [
+          {
+            "class": "World",
+            "logic": "AND",
+            "type": "WORLD_IS_MEMBERS",
+            "operator": "EQUALS"
+          }
+        ]
+      }
+    }
+  ]
+}

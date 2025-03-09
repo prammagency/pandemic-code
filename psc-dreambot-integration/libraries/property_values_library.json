@@ -124,10 +124,160 @@
           "value": "100"
         }
       ]
+    },
+    
+    "color": {
+      "description": "ARGB color value for text or drawing actions",
+      "format": "Integer representing ARGB values",
+      "examples": [-65536],
+      "special_values": {
+        "-1": "Often represents default color"
+      }
+    },
+    
+    "enum_values": {
+      "description": "Enumeration values for specific game elements",
+      "subtypes": {
+        "ActionMode": {
+          "description": "Attack option mode settings",
+          "values": ["ALWAYS_RIGHT_CLICK", "HIDDEN", "LEFT_CLICK_WHERE_AVAILABLE", "DEPENDS_ON_COMBAT_LEVELS"],
+          "api_reference": "org.dreambot.api.data.ActionMode"
+        },
+        "ClientLayout": {
+          "description": "Game client layout options",
+          "values": ["FIXED_CLASSIC", "RESIZABLE_CLASSIC", "RESIZABLE_MODERN"]
+        },
+        "Skill": {
+          "description": "Game skills",
+          "values": ["ATTACK", "DEFENCE", "STRENGTH", "HITPOINTS", "RANGED", "PRAYER", "MAGIC", "COOKING", "WOODCUTTING", "FLETCHING", "FISHING", "FIREMAKING", "CRAFTING", "SMITHING", "MINING", "HERBLORE", "AGILITY", "THIEVING", "SLAYER", "FARMING", "RUNECRAFTING", "HUNTER", "CONSTRUCTION"],
+          "api_reference": "org.dreambot.api.methods.skills.Skill"
+        },
+        "Spellbook": {
+          "description": "Magic spellbooks",
+          "values": ["NORMAL", "ANCIENT", "LUNAR", "ARCEUUS"],
+          "api_reference": "org.dreambot.api.methods.magic.Spellbook"
+        },
+        "Tab": {
+          "description": "Game interface tabs",
+          "values": ["COMBAT", "STATS", "QUESTS", "INVENTORY", "EQUIPMENT", "PRAYER", "MAGIC", "CLAN_CHAT", "FRIENDS", "ACCOUNT", "LOGOUT", "OPTIONS", "EMOTES", "MUSIC"],
+          "api_reference": "org.dreambot.api.methods.tabs.Tab"
+        }
+      }
+    },
+    
+    "area": {
+      "description": "Game world area definition",
+      "formats": {
+        "rectangle": {
+          "description": "Rectangular area defined by SW and NE corners",
+          "format": "Two coordinate pairs",
+          "example": "(3200, 3200) to (3210, 3210)"
+        },
+        "polygon": {
+          "description": "Polygon area defined by multiple points",
+          "format": "Series of coordinate pairs",
+          "example": "(3200, 3200), (3210, 3200), (3210, 3210), (3200, 3210)"
+        },
+        "radius": {
+          "description": "Circular area defined by center point and radius",
+          "format": "Center coordinate pair and radius in tiles",
+          "example": "Center: (3200, 3200), Radius: 5"
+        }
+      }
     }
   },
   
   "common_properties": {
+    "Filter Item By": {
+      "type": "filter_condition",
+      "description": "Criteria to select an item (inventory/bank). Accepts an object defining an Item filter.",
+      "allowed_values": "Any valid Item filter JSON (see Filter Types library).",
+      "examples": [
+        {
+          "class": "Item",
+          "logic": "NONE",
+          "type": "NAME",
+          "operator": "CONTAINS",
+          "value": "potion"
+        }
+      ]
+    },
+    
+    "Filter NPC By": {
+      "type": "filter_condition",
+      "description": "Criteria to select an NPC. Given as an NPC filter object.",
+      "allowed_values": "Any valid NPC filter JSON.",
+      "examples": [
+        {
+          "class": "NPC",
+          "logic": "NONE",
+          "type": "ID",
+          "operator": "EQUALS",
+          "value": 3310
+        }
+      ]
+    },
+    
+    "Filter Object By": {
+      "type": "filter_condition",
+      "description": "Criteria to select a Game Object.",
+      "allowed_values": "Any valid GameObject filter JSON.",
+      "examples": [
+        {
+          "class": "GameObject",
+          "logic": "NONE",
+          "type": "NAME",
+          "operator": "EQUALS",
+          "value": "Door"
+        }
+      ]
+    },
+    
+    "Filter By": {
+      "type": "filter_condition",
+      "description": "Criteria to filter an entity (used for classes like Projectile, GraphicsObject, etc.).",
+      "allowed_values": "Filter JSON corresponding to context (Projectile, GraphicsObject, etc.).",
+      "examples": [
+        {
+          "class": "Projectile",
+          "logic": "NONE",
+          "type": "ID",
+          "operator": "EQUALS",
+          "value": 1181
+        }
+      ]
+    },
+    
+    "Filter Player By": {
+      "type": "filter_condition",
+      "description": "Criteria to select a Player (other or local).",
+      "allowed_values": "Any valid Player filter JSON.",
+      "examples": [
+        {
+          "class": "Player",
+          "logic": "NONE",
+          "type": "NAME",
+          "operator": "EQUALS",
+          "value": "Zezima"
+        }
+      ]
+    },
+    
+    "Filter Value By": {
+      "type": "filter_condition",
+      "description": "Condition on a variable's value (used in logic/loop actions).",
+      "allowed_values": "Variable filter JSON (e.g. Variable equals something). Typically uses `class: Variable` with AS_TEXT/AS_NUMBER etc.",
+      "examples": [
+        {
+          "class": "Variable",
+          "logic": "NONE",
+          "type": "AS_NUMBER",
+          "operator": "GREATER_THAN",
+          "value": "0"
+        }
+      ]
+    },
+    
     "Amount": {
       "description": "Quantity of items to withdraw/deposit/drop",
       "type": "numeric.integer or string",
@@ -178,102 +328,214 @@
     },
     
     "Variable name": {
-      "description": "Name identifier for variables",
       "type": "string.simple",
-      "valid_values": ["Any text without spaces"],
-      "examples": ["coin_count", "target_npc", "last_position"]
+      "description": "Name of a variable (used in variable actions, loops, etc.). Case-sensitive match to PSC variable names.",
+      "valid_values": ["Any string (should match a defined variable name or define a new one)"],
+      "examples": ["Count", "target_npc", "last_position"]
     },
     
     "Value": {
-      "description": "Value to assign to a variable",
-      "type": "any",
-      "valid_values": ["Any valid data value"],
-      "examples": ["String value", 100, true, {"complex": "object"}]
+      "type": "text/number",
+      "description": "A literal value input (commonly used in Set Variable or Config actions).",
+      "valid_values": "Depending on context: could be text or number. For config varbits, often numeric; for variables, could be any.",
+      "examples": [42, "String value", true]
     },
     
     "List name": {
-      "description": "Name identifier for lists",
       "type": "string.simple",
-      "valid_values": ["Any text without spaces"],
-      "examples": ["loot_items", "target_npcs", "bank_locations"]
+      "description": "Name of a List variable.",
+      "valid_values": ["Any string (should match an existing List variable or create one)"],
+      "examples": ["Targets", "loot_items", "bank_locations"]
     },
     
-    "Filter Item By": {
-      "description": "Filter structure for items",
-      "type": "filter_condition",
-      "valid_values": ["Valid filter condition for Item class"],
-      "examples": [
-        {
-          "class": "Item",
-          "logic": "NONE",
-          "type": "NAME",
-          "operator": "EQUALS",
-          "value": "Bones"
-        }
-      ]
+    "Map name": {
+      "type": "string.simple",
+      "description": "Name of a Map variable.",
+      "valid_values": ["Any string (map variable identifier)"],
+      "examples": ["ItemPrices"]
     },
     
-    "Filter NPC By": {
-      "description": "Filter structure for NPCs",
-      "type": "filter_condition",
-      "valid_values": ["Valid filter condition for NPC class"],
-      "examples": [
-        {
-          "class": "NPC",
-          "logic": "NONE",
-          "type": "NAME",
-          "operator": "EQUALS",
-          "value": "Goblin"
-        }
-      ]
+    "Key": {
+      "type": "string.simple",
+      "description": "Key name (for map operations).",
+      "valid_values": ["Any string (must match type of keys used in the map)"],
+      "examples": ["Swordfish"]
     },
     
-    "Filter GameObject By": {
-      "description": "Filter structure for game objects",
-      "type": "filter_condition",
-      "valid_values": ["Valid filter condition for GameObject class"],
-      "examples": [
-        {
-          "class": "GameObject",
-          "logic": "NONE",
-          "type": "NAME",
-          "operator": "EQUALS",
-          "value": "Tree"
-        }
-      ]
-    },
-    
-    "Action": {
-      "description": "Action to perform on an entity",
-      "type": "action_name",
-      "valid_values": ["Valid action for the entity type"],
-      "examples": ["Attack", "Talk-to", "Mine", "Chop down"]
-    },
-    
-    "x": {
-      "description": "X coordinate on the game map",
+    "X": {
       "type": "numeric.integer",
-      "valid_values": ["Any valid game map coordinate"],
+      "description": "X-coordinate (typically for Tile or Area definitions).",
+      "valid_values": ["Any valid game world coordinate"],
       "examples": [3200, 3221, 3165]
     },
     
-    "y": {
-      "description": "Y coordinate on the game map",
+    "Y": {
       "type": "numeric.integer",
-      "valid_values": ["Any valid game map coordinate"],
+      "description": "Y-coordinate for a Tile.",
+      "valid_values": ["Any valid game world coordinate"],
       "examples": [3200, 3218, 3489]
     },
     
-    "z": {
-      "description": "Z coordinate (plane level) on the game map",
+    "Z": {
       "type": "numeric.integer",
+      "description": "Plane level (0 = ground, 1 = first floor, etc.).",
       "valid_values": [0, 1, 2, 3],
       "examples": [0, 1]
     },
     
+    "Area": {
+      "type": "area",
+      "description": "A defined area in the game world.",
+      "valid_values": ["Usually specified by two tiles (SW and NE corners) or a radius. PSC UI allows drawing an area."],
+      "examples": ["Area from (3200, 3200) to (3210, 3210)"]
+    },
+    
+    "Duration": {
+      "type": "time_duration",
+      "description": "Time duration in milliseconds (for sleep/timer).",
+      "valid_values": ["Integer >= 0 (0 often means no wait)"],
+      "examples": [500, 1000, 5000, 60000]
+    },
+    
+    "Message": {
+      "type": "string.simple",
+      "description": "Text message (for log, chat, etc.).",
+      "valid_values": ["Any string. Can include field commands like var(...) to inject variables."],
+      "examples": ["Hello, world!"]
+    },
+    
+    "Color": {
+      "type": "color",
+      "description": "ARGB color value for text or drawing actions.",
+      "valid_values": ["Integer representing color (Alpha-Red-Green-Blue). -1 often stands for default color."],
+      "examples": [-65536]  // Red color
+    },
+    
+    "Reverse order": {
+      "type": "boolean",
+      "description": "Flag (true/false) to reverse iteration order (for list loops).",
+      "valid_values": [true, false],
+      "default": false,
+      "examples": [true]
+    },
+    
+    "Random order": {
+      "type": "boolean",
+      "description": "Flag to randomize iteration order (for list loops).",
+      "valid_values": [true, false],
+      "default": false,
+      "examples": [false]
+    },
+    
+    "Thread name": {
+      "type": "string.simple",
+      "description": "Name of a script thread (for multithreading actions).",
+      "valid_values": ["Any string (identifier for new thread)"],
+      "examples": ["BackgroundWorker"]
+    },
+    
+    "Schedule name": {
+      "type": "string.simple",
+      "description": "Name of a DreamBot Schedule to start.",
+      "valid_values": ["Must match a configured Schedule name in DreamBot"],
+      "examples": ["NightmareZoneSchedule"]
+    },
+    
+    "Script name": {
+      "type": "string.simple",
+      "description": "Name of a DreamBot script to start.",
+      "valid_values": ["Must match an installed script name"],
+      "examples": ["WoodcutterPro"]
+    },
+    
+    "Mode": {
+      "type": "enum_values.ActionMode",
+      "description": "Attack option mode setting (for NPC/Player attack options).",
+      "valid_values": ["ALWAYS_RIGHT_CLICK", "HIDDEN", "LEFT_CLICK_WHERE_AVAILABLE", "DEPENDS_ON_COMBAT_LEVELS"],
+      "examples": ["ALWAYS_RIGHT_CLICK"]
+    },
+    
+    "Layout": {
+      "type": "enum_values.ClientLayout",
+      "description": "Game client layout mode.",
+      "valid_values": ["FIXED_CLASSIC", "RESIZABLE_CLASSIC", "RESIZABLE_MODERN"],
+      "examples": ["FIXED_CLASSIC"]
+    },
+    
+    "Skill": {
+      "type": "enum_values.Skill",
+      "description": "A skill identifier (used in skill tracker or XP check actions).",
+      "valid_values": ["ATTACK", "DEFENCE", "STRENGTH", "HITPOINTS", "RANGED", "PRAYER", "MAGIC", "COOKING", "WOODCUTTING", "FLETCHING", "FISHING", "FIREMAKING", "CRAFTING", "SMITHING", "MINING", "HERBLORE", "AGILITY", "THIEVING", "SLAYER", "FARMING", "RUNECRAFTING", "HUNTER", "CONSTRUCTION"],
+      "examples": ["AGILITY"]
+    },
+    
+    "Spellbook": {
+      "type": "enum_values.Spellbook",
+      "description": "Magic spellbook (used in magic actions or checks).",
+      "valid_values": ["NORMAL", "ANCIENT", "LUNAR", "ARCEUUS"],
+      "examples": ["NORMAL"]
+    },
+    
+    "Tab": {
+      "type": "enum_values.Tab",
+      "description": "Game interface tab (for opening tabs).",
+      "valid_values": ["COMBAT", "STATS", "QUESTS", "INVENTORY", "EQUIPMENT", "PRAYER", "MAGIC", "CLAN_CHAT", "FRIENDS", "ACCOUNT", "LOGOUT", "OPTIONS", "EMOTES", "MUSIC"],
+      "examples": ["INVENTORY"]
+    },
+    
+    "brightness": {
+      "type": "numeric.integer",
+      "description": "Game brightness setting level.",
+      "valid_values": [0, 1, 2, 3, 4],
+      "notes": "0 (Darkest) to 4 (Brightest). In practice OSRS has 4 levels (0-3 or 1-4 depending on how counted).",
+      "examples": [2]
+    },
+    
+    "Varbit": {
+      "type": "text/number",
+      "description": "Varbit or config ID to check/set (usually number, but PSC may treat it as text input).",
+      "valid_values": ["OSRS varbit ID or config index (as number or string)"],
+      "examples": [3004]
+    },
+    
+    "Find": {
+      "type": "string.simple",
+      "description": "Substring or pattern to find (in text replacement actions).",
+      "valid_values": ["String. (Exact substring; PSC does not support regex unless documented)"],
+      "examples": ["dragon"]
+    },
+    
+    "Replace with": {
+      "type": "string.simple",
+      "description": "Replacement text for find/replace actions.",
+      "valid_values": ["String"],
+      "examples": ["Dragon"]
+    },
+    
+    "Bank Type": {
+      "type": "string.simple",
+      "description": "Type of bank to interact with",
+      "valid_values": ["Bank booth", "Bank chest", "Deposit box"],
+      "examples": ["Bank booth", "Bank chest"]
+    },
+    
+    "Noted": {
+      "type": "boolean",
+      "description": "Whether to withdraw items in noted form",
+      "valid_values": [true, false],
+      "examples": [true, false]
+    },
+    
+    "Comparison": {
+      "type": "string.simple",
+      "description": "Comparison operator for numeric comparisons",
+      "valid_values": ["EQUALS", "NOT_EQUALS", "GREATER_THAN", "LESS_THAN", "GREATER_THAN_EQUALS", "LESS_THAN_EQUALS"],
+      "examples": ["EQUALS", "GREATER_THAN"]
+    },
+    
     "health": {
-      "description": "Health percentage comparison",
       "type": "comparison",
+      "description": "Health percentage comparison",
       "valid_values": ["Valid comparison for numeric values"],
       "examples": [
         {
@@ -285,8 +547,8 @@
     },
     
     "distance": {
-      "description": "Distance comparison",
       "type": "comparison",
+      "description": "Distance comparison",
       "valid_values": ["Valid comparison for numeric values"],
       "examples": [
         {
@@ -298,8 +560,8 @@
     },
     
     "number": {
-      "description": "Generic number comparison",
       "type": "comparison",
+      "description": "Generic number comparison",
       "valid_values": ["Valid comparison for numeric values"],
       "examples": [
         {
@@ -311,38 +573,24 @@
     },
     
     "Widget ID": {
-      "description": "Parent widget ID for UI elements",
       "type": "numeric.integer",
+      "description": "Parent widget ID for UI elements",
       "valid_values": ["Valid widget interface ID"],
       "examples": [548, 161, 162]
     },
     
     "Child ID": {
-      "description": "Child widget ID for UI elements",
       "type": "numeric.integer",
+      "description": "Child widget ID for UI elements",
       "valid_values": ["Valid widget child ID"],
       "examples": [1, 2, 3, 4]
     },
     
-    "Bank Type": {
-      "description": "Type of bank to interact with",
-      "type": "string.simple",
-      "valid_values": ["Bank booth", "Bank chest", "Deposit box"],
-      "examples": ["Bank booth", "Bank chest"]
-    },
-    
-    "Noted": {
-      "description": "Whether to withdraw items in noted form",
-      "type": "boolean",
-      "valid_values": [true, false],
-      "examples": [true, false]
-    },
-    
-    "Comparison": {
-      "description": "Comparison operator for numeric comparisons",
-      "type": "string.simple",
-      "valid_values": ["EQUALS", "NOT_EQUALS", "GREATER_THAN", "LESS_THAN", "GREATER_THAN_EQUALS", "LESS_THAN_EQUALS"],
-      "examples": ["EQUALS", "GREATER_THAN"]
+    "Action": {
+      "type": "action_name",
+      "description": "Action to perform on an entity",
+      "valid_values": ["Valid action for the entity type"],
+      "examples": ["Attack", "Talk-to", "Mine", "Chop down"]
     }
   },
   

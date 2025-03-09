@@ -1,0 +1,14 @@
+{
+  "actions": [ 
+    /* Array of all actions with full details, as in action_hierarchy_library.json */
+  ],
+  "filters": { 
+    /* Filter classes, types, and operators, as in filter_types_library.json */
+  },
+  "action_category_map": { 
+    /* Mapping of Action IDs to Categories, as in ActionID_CategoryMap.json */
+  },
+  "properties": { 
+    /* All property definitions, as in property_values_library.json */
+  }
+}

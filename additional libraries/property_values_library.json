@@ -1,0 +1,246 @@
+{
+  "properties": {
+    "Filter Item By": {
+      "type": "Item filter",
+      "description": "Criteria to select an item (inventory/bank). Accepts an object defining an Item filter.",
+      "allowed_values": "Any valid Item filter JSON (see Filter Types library).",
+      "example": {
+        "class": "Item",
+        "logic": "NONE",
+        "type": "NAME",
+        "operator": "CONTAINS",
+        "value": "potion"
+      }
+    },
+    "Filter NPC By": {
+      "type": "NPC filter",
+      "description": "Criteria to select an NPC. Given as an NPC filter object.",
+      "allowed_values": "Any valid NPC filter JSON.",
+      "example": {
+        "class": "NPC",
+        "logic": "NONE",
+        "type": "ID",
+        "operator": "EQUALS",
+        "value": 3310
+      }
+    },
+    "Filter Object By": {
+      "type": "GameObject filter",
+      "description": "Criteria to select a Game Object.",
+      "allowed_values": "Any valid GameObject filter JSON.",
+      "example": {
+        "class": "GameObject",
+        "logic": "NONE",
+        "type": "NAME",
+        "operator": "EQUALS",
+        "value": "Door"
+      }
+    },
+    "Filter By": {
+      "type": "Generic filter",
+      "description": "Criteria to filter an entity (used for classes like Projectile, GraphicsObject, etc.).",
+      "allowed_values": "Filter JSON corresponding to context (Projectile, GraphicsObject, etc.).",
+      "example": {
+        "class": "Projectile",
+        "logic": "NONE",
+        "type": "ID",
+        "operator": "EQUALS",
+        "value": 1181
+      }
+    },
+    "Filter Player By": {
+      "type": "Player filter",
+      "description": "Criteria to select a Player (other or local).",
+      "allowed_values": "Any valid Player filter JSON.",
+      "example": {
+        "class": "Player",
+        "logic": "NONE",
+        "type": "NAME",
+        "operator": "EQUALS",
+        "value": "Zezima"
+      }
+    },
+    "Filter Value By": {
+      "type": "Variable filter",
+      "description": "Condition on a variable’s value (used in logic/loop actions).",
+      "allowed_values": "Variable filter JSON (e.g. Variable equals something). Typically uses `class: Variable` with AS_TEXT/AS_NUMBER etc.",
+      "example": {
+        "class": "Variable",
+        "logic": "NONE",
+        "type": "AS_NUMBER",
+        "operator": "GREATER_THAN",
+        "value": "0"
+      }
+    },
+    "Variable name": {
+      "type": "text",
+      "description": "Name of a variable (used in variable actions, loops, etc.). Case-sensitive match to PSC variable names.",
+      "allowed_values": "Any string (should match a defined variable name or define a new one).",
+      "example": "Count"
+    },
+    "List name": {
+      "type": "text",
+      "description": "Name of a List variable.",
+      "allowed_values": "String (should match an existing List variable or create one).",
+      "example": "Targets"
+    },
+    "Map name": {
+      "type": "text",
+      "description": "Name of a Map variable.",
+      "allowed_values": "String (map variable identifier).",
+      "example": "ItemPrices"
+    },
+    "Key": {
+      "type": "text",
+      "description": "Key name (for map operations).",
+      "allowed_values": "String (must match type of keys used in the map).",
+      "example": "Swordfish"
+    },
+    "Value": {
+      "type": "text/number",
+      "description": "A literal value input (commonly used in Set Variable or Config actions).",
+      "allowed_values": "Depending on context: could be text or number. For config varbits, often numeric; for variables, could be any.",
+      "example": 42
+    },
+    "X": {
+      "type": "number",
+      "description": "X-coordinate (typically for Tile or Area definitions).",
+      "allowed_values": "Integer (game world coordinate).",
+      "example": 3200
+    },
+    "Y": {
+      "type": "number",
+      "description": "Y-coordinate for a Tile.",
+      "allowed_values": "Integer.",
+      "example": 3423
+    },
+    "Z": {
+      "type": "number",
+      "description": "Plane level (0 = ground, 1 = first floor, etc.).",
+      "allowed_values": "0, 1, 2, 3 (OSRS typically has 0-3).",
+      "example": 0
+    },
+    "Area": {
+      "type": "Area",
+      "description": "A defined area in the game world.",
+      "allowed_values": "Usually specified by two tiles (SW and NE corners) or a radius. PSC UI allows drawing an area.",
+      "example": "Area from (3200, 3200) to (3210, 3210)"
+    },
+    "Timer name": {
+      "type": "text",
+      "description": "Name of a timer (for Timer actions).",
+      "allowed_values": "String (identifier for the timer).",
+      "example": "RespawnTimer"
+    },
+    "Duration": {
+      "type": "number",
+      "description": "Time duration in milliseconds (for sleep/timer).",
+      "allowed_values": "Integer >= 0 (0 often means no wait).",
+      "example": 5000
+    },
+    "Message": {
+      "type": "text",
+      "description": "Text message (for log, chat, etc.).",
+      "allowed_values": "Any string. Can include field commands like var(...) to inject variables.",
+      "example": "Hello, world!"
+    },
+    "Color": {
+      "type": "color",
+      "description": "ARGB color value for text or drawing actions.",
+      "allowed_values": "Integer representing color (Alpha-Red-Green-Blue). -1 often stands for default color.",
+      "example": -65536  // Red color
+    },
+    "Amount": {
+      "type": "number",
+      "description": "A quantity of items (for withdraw, deposit, etc.).",
+      "allowed_values": "0 for all, or a positive integer for specific count. PSC also supports 'All' via 0 and maybe 'X' for custom amounts.",
+      "example": 10
+    },
+    "Reverse order": {
+      "type": "boolean",
+      "description": "Flag (true/false) to reverse iteration order (for list loops).",
+      "allowed_values": "true or false",
+      "default": false,
+      "example": true
+    },
+    "Random order": {
+      "type": "boolean",
+      "description": "Flag to randomize iteration order (for list loops).",
+      "allowed_values": "true or false",
+      "default": false,
+      "example": false
+    },
+    "Thread name": {
+      "type": "text",
+      "description": "Name of a script thread (for multithreading actions).",
+      "allowed_values": "Any string (identifier for new thread).",
+      "example": "BackgroundWorker"
+    },
+    "Schedule name": {
+      "type": "text",
+      "description": "Name of a DreamBot Schedule to start.",
+      "allowed_values": "Must match a configured Schedule name in DreamBot.",
+      "example": "NightmareZoneSchedule"
+    },
+    "Script name": {
+      "type": "text",
+      "description": "Name of a DreamBot script to start.",
+      "allowed_values": "Must match an installed script name.",
+      "example": "WoodcutterPro"
+    },
+    "Mode": {
+      "type": "ActionMode (enum)",
+      "description": "Attack option mode setting (for NPC/Player attack options).",
+      "allowed_values": "Enum values of org.dreambot.api.data.ActionMode (e.g., ALWAYS_RIGHT_CLICK, HIDDEN, LEFT_CLICK_WHERE_AVAILABLE, DEPENDS_ON_COMBAT_LEVELS).",
+      "example": "ALWAYS_RIGHT_CLICK"
+    },
+    "Layout": {
+      "type": "ClientLayout (enum)",
+      "description": "Game client layout mode.",
+      "allowed_values": "Enum values of ClientLayout (e.g., FIXED_CLASSIC, RESIZABLE_CLASSIC, RESIZABLE_MODERN).",
+      "example": "FIXED_CLASSIC"
+    },
+    "Skill": {
+      "type": "Skill (enum)",
+      "description": "A skill identifier (used in skill tracker or XP check actions).",
+      "allowed_values": "Enum of org.dreambot.api.methods.skills.Skill (e.g., ATTACK, MINING, FISHING...).",
+      "example": "AGILITY"
+    },
+    "Spellbook": {
+      "type": "Spellbook (enum)",
+      "description": "Magic spellbook (used in magic actions or checks).",
+      "allowed_values": "Enum of org.dreambot.api.methods.magic.Spellbook (NORMAL, ANCIENT, LUNAR, ARCEUUS).",
+      "example": "NORMAL"
+    },
+    "Tab": {
+      "type": "Tab (enum)",
+      "description": "Game interface tab (for opening tabs).",
+      "allowed_values": "Enum of org.dreambot.api.methods.tabs.Tab (e.g., COMBAT, STATS, INVENTORY, PRAYER, MAGIC, etc.).",
+      "example": "INVENTORY"
+    },
+    "brightness": {
+      "type": "number",
+      "description": "Game brightness setting level.",
+      "allowed_values": "0 (Darkest) to 4 (Brightest). In practice OSRS has 4 levels (0-3 or 1-4 depending on how counted).",
+      "example": 2
+    },
+    "Varbit": {
+      "type": "text/number",
+      "description": "Varbit or config ID to check/set (usually number, but PSC may treat it as text input).",
+      "allowed_values": "OSRS varbit ID or config index (as number or string).",
+      "example": 3004
+    },
+    "Find": {
+      "type": "text",
+      "description": "Substring or pattern to find (in text replacement actions).",
+      "allowed_values": "String. (Exact substring; PSC does not support regex unless documented).",
+      "example": "dragon"
+    },
+    "Replace with": {
+      "type": "text",
+      "description": "Replacement text for find/replace actions.",
+      "allowed_values": "String.",
+      "example": "Dragon"
+    }
+  }
+}
