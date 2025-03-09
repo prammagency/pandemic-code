@@ -1,0 +1,128 @@
+"Debugging & Logging": [
+    {
+      "id": 137,
+      "name": "Print message to console",
+      "description": "Prints a specified message to the console for debugging purposes.",
+      "category": "Debugging & Logging",
+      "properties": [
+        { "name": "Message", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Uses Java's `System.out.println()` method or DreamBot's log system.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 138,
+      "name": "Print variable value",
+      "description": "Prints the value of a specified variable to the console.",
+      "category": "Debugging & Logging",
+      "properties": [
+        { "name": "Variable Name", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Uses Java's `System.out.println(variable)` method or DreamBot's log system.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 139,
+      "name": "Print NPC details",
+      "description": "Prints the details of an NPC matching the specified filter.",
+      "category": "Debugging & Logging",
+      "properties": [
+        { "name": "NPC Filter", "type": "NPC filter" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's NPC.getName() and NPC.getID() methods for data retrieval.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 140,
+      "name": "Print GameObject details",
+      "description": "Prints the details of a GameObject matching the specified filter.",
+      "category": "Debugging & Logging",
+      "properties": [
+        { "name": "GameObject Filter", "type": "GameObject filter" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's GameObject.getName() and GameObject.getID() methods for data retrieval.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 141,
+      "name": "Print Ground Item details",
+      "description": "Prints the details of a Ground Item matching the specified filter.",
+      "category": "Debugging & Logging",
+      "properties": [
+        { "name": "Ground Item Filter", "type": "Item filter" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's GroundItem.getName() and GroundItem.getID() methods for data retrieval.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 142,
+      "name": "Print inventory contents",
+      "description": "Prints the contents of the player's inventory to the console.",
+      "category": "Debugging & Logging",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Uses DreamBot's Inventory.getItems() method to log all items.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 143,
+      "name": "Print bank contents",
+      "description": "Prints the contents of the player's bank to the console.",
+      "category": "Debugging & Logging",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Uses DreamBot's Bank.getItems() method to log all bank items.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 144,
+      "name": "Print environment data",
+      "description": "Prints environmental data such as player location, coordinates, and surroundings.",
+      "category": "Debugging & Logging",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Uses DreamBot's Player.getTile() and surrounding object scanning logic.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 145,
+      "name": "Write to log file",
+      "description": "Writes a specified message to a log file for persistent record keeping.",
+      "category": "Debugging & Logging",
+      "properties": [
+        { "name": "Log File Path", "type": "text" },
+        { "name": "Message", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Uses Java's `FileWriter()` for file output.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 146,
+      "name": "Log variable to file",
+      "description": "Writes the value of a specified variable to a log file.",
+      "category": "Debugging & Logging",
+      "properties": [
+        { "name": "Log File Path", "type": "text" },
+        { "name": "Variable Name", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Uses Java's `FileWriter()` to write the variable data.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    }
+]

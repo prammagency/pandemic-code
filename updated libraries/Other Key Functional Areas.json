@@ -1,0 +1,157 @@
+"Other Key Functional Areas": [
+    {
+      "id": 147,
+      "name": "Activate prayer",
+      "description": "Activates the specified prayer to enhance combat or protection abilities.",
+      "category": "Other Key Functional Areas",
+      "properties": [
+        { "name": "Prayer Name", "type": "text" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Prayer.activate() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 148,
+      "name": "Deactivate prayer",
+      "description": "Deactivates the specified prayer.",
+      "category": "Other Key Functional Areas",
+      "properties": [
+        { "name": "Prayer Name", "type": "text" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Prayer.deactivate() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 149,
+      "name": "Cast spell",
+      "description": "Casts a specified spell from the player's spellbook.",
+      "category": "Other Key Functional Areas",
+      "properties": [
+        { "name": "Spell Name", "type": "text" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Magic.castSpell() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 150,
+      "name": "Cast spell on NPC",
+      "description": "Casts a specified spell on an NPC matching the specified filter.",
+      "category": "Other Key Functional Areas",
+      "properties": [
+        { "name": "Spell Name", "type": "text" },
+        { "name": "NPC Filter", "type": "NPC filter" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's NPC.interact() with spell logic.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 151,
+      "name": "Cast spell on GameObject",
+      "description": "Casts a specified spell on a GameObject matching the specified filter.",
+      "category": "Other Key Functional Areas",
+      "properties": [
+        { "name": "Spell Name", "type": "text" },
+        { "name": "GameObject Filter", "type": "GameObject filter" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's GameObject.interact() with spell logic.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 152,
+      "name": "Cast spell on Ground Item",
+      "description": "Casts a specified spell on a Ground Item matching the specified filter.",
+      "category": "Other Key Functional Areas",
+      "properties": [
+        { "name": "Spell Name", "type": "text" },
+        { "name": "Ground Item Filter", "type": "Item filter" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's GroundItem.interact() with spell logic.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 153,
+      "name": "Open quest log",
+      "description": "Opens the quest log interface to display quest progress.",
+      "category": "Other Key Functional Areas",
+      "properties": [],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Tabs.open(Tabs.QUESTS) method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 154,
+      "name": "Check quest status",
+      "description": "Checks the status of a specified quest.",
+      "category": "Other Key Functional Areas",
+      "properties": [
+        { "name": "Quest Name", "type": "text" }
+      ],
+      "output": "String",
+      "api_mapping": "Uses DreamBot's Quest.isCompleted() and Quest.getStatus() methods.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 155,
+      "name": "Check skill level",
+      "description": "Returns the current level of a specified skill.",
+      "category": "Other Key Functional Areas",
+      "properties": [
+        { "name": "Skill Name", "type": "text" }
+      ],
+      "output": "Integer",
+      "api_mapping": "Uses DreamBot's Skills.getRealLevel() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 156,
+      "name": "Check XP progress",
+      "description": "Returns the current experience points for a specified skill.",
+      "category": "Other Key Functional Areas",
+      "properties": [
+        { "name": "Skill Name", "type": "text" }
+      ],
+      "output": "Integer",
+      "api_mapping": "Uses DreamBot's Skills.getExperience() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 157,
+      "name": "World hop",
+      "description": "Switches to a specified game world.",
+      "category": "Other Key Functional Areas",
+      "properties": [
+        { "name": "World Number", "type": "integer" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Worlds.hop() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 158,
+      "name": "Logout",
+      "description": "Logs the player out of the game.",
+      "category": "Other Key Functional Areas",
+      "properties": [],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Game.logout() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    }
+]

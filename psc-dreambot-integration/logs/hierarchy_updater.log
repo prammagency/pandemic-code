@@ -1,0 +1,8 @@
+2025-03-08 13:57:00,508 - __main__ - ERROR - Path validation error: Path does not exist: DRS_AIpandemic-codepsc-dreambot-integrationmappingActionID_CategoryMap.json
+2025-03-08 13:57:00,508 - __main__ - ERROR - Path does not exist: DRS_AIpandemic-codepsc-dreambot-integrationmappingActionID_CategoryMap.json
+2025-03-08 14:00:24,499 - __main__ - INFO - Using category map: D:\RS_AI\pandemic-code\psc-dreambot-integration\mapping\ActionID_CategoryMap.json
+2025-03-08 14:00:24,499 - __main__ - INFO - Using action hierarchy: D:\RS_AI\pandemic-code\psc-dreambot-integration\libraries\action_hierarchy_library.json
+2025-03-08 14:00:24,501 - __main__ - INFO - Found 1 actions in category map missing from hierarchy
+2025-03-08 14:00:24,502 - __main__ - INFO - Created backup: D:\RS_AI\pandemic-code\psc-dreambot-integration\libraries\action_hierarchy_library.json.bak
+2025-03-08 14:00:24,512 - __main__ - INFO - Successfully added 0 missing actions to the hierarchy
+2025-03-08 14:00:24,513 - __main__ - INFO - Action hierarchy is already in sync with the category map

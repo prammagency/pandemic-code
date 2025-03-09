@@ -1,0 +1,2000 @@
+{
+  "Script Controls": [
+    {
+      "id": 1,
+      "name": "Show dialog message",
+      "description": "Displays a popup dialog with the specified message.",
+      "category": "Script Controls",
+      "properties": [
+        { "name": "Message", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Displays a system dialog box (no direct DreamBot API call).",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 2,
+      "name": "Show operating system notification",
+      "description": "Shows a desktop notification with the given content.",
+      "category": "Script Controls",
+      "properties": [
+        { "name": "Message", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Uses system notification (no direct DreamBot API; uses Java AWT or OS notification).",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 3,
+      "name": "Open URL",
+      "description": "Opens the specified URL in the default web browser.",
+      "category": "Script Controls",
+      "properties": [
+        { "name": "URL", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Uses Desktop.browse or DreamBot client to open the URL.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 4,
+      "name": "Comment",
+      "description": "Does nothing (used for adding comments or notes in the script).",
+      "category": "Script Controls",
+      "properties": [
+        { "name": "Note", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "N/A (no API call, purely for script readability).",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 5,
+      "name": "Change Script",
+      "description": "Stops the current PSC script and loads another specified PSC script.",
+      "category": "Script Controls",
+      "properties": [
+        { "name": "Script Name", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's ScriptManager to stop this script and start the specified PSC script.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 6,
+      "name": "Change DreamBot Script",
+      "description": "Stops the current PSC script and starts a different DreamBot script by name.",
+      "category": "Script Controls",
+      "properties": [
+        { "name": "DreamBot Script Name", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's API to stop the current script and launch the named DreamBot script.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 7,
+      "name": "Start DreamBot Schedule",
+      "description": "Starts a DreamBot Schedule (a sequence of scripts) if one is configured.",
+      "category": "Script Controls",
+      "properties": [
+        { "name": "Schedule Name", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Invokes DreamBot's scheduling system to start the given schedule.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 8,
+      "name": "Run inside actions on script stop",
+      "description": "Defines a block of actions that will execute when the script is stopped.",
+      "category": "Script Controls",
+      "properties": [],
+      "output": null,
+      "api_mapping": "N/A (container that PSC executes on script termination).",
+      "valid_parents": ["None (top-level only)"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 9,
+      "name": "Stop Script",
+      "description": "Immediately stops the running PSC script or automation.",
+      "category": "Script Controls",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Calls DreamBot's ScriptManager.stop() to terminate the script.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 10,
+      "name": "Stop Pandemic's Script Creator",
+      "description": "Stops the Pandemic's Script Creator script itself (useful if PSC is running within another script environment).",
+      "category": "Script Controls",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Calls the PSC script's stop routine (similar to stopping the script in DreamBot).",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 11,
+      "name": "Close DreamBot Client",
+      "description": "Closes the entire DreamBot client application.",
+      "category": "Script Controls",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Invokes Client.close() or system exit to shut down the client.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 12,
+      "name": "Create label",
+      "description": "Creates a labeled checkpoint in the script that can be jumped to.",
+      "category": "Script Controls",
+      "properties": [
+        { "name": "Label Name", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "N/A (internal script label, no DreamBot API).",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 13,
+      "name": "Go to label",
+      "description": "Jumps execution to the specified label in the script.",
+      "category": "Script Controls",
+      "properties": [
+        { "name": "Label Name", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "N/A (script flow control, changes script pointer to the label).",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 14,
+      "name": "Return to start of script",
+      "description": "Loops back to the beginning of the script actions.",
+      "category": "Script Controls",
+      "properties": [],
+      "output": null,
+      "api_mapping": "N/A (jumps script execution to start, equivalent to a loop).",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 15,
+      "name": "Block scheduled stop",
+      "description": "Prevents a pending scheduled stop from stopping the script (cancels the scheduled stop).",
+      "category": "Script Controls",
+      "properties": [],
+      "output": null,
+      "api_mapping": "N/A (internal PSC scheduler control).",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 16,
+      "name": "Allow scheduled stop",
+      "description": "Re-allows the script to be stopped by a scheduled stop (if it was blocked).",
+      "category": "Script Controls",
+      "properties": [],
+      "output": null,
+      "api_mapping": "N/A (internal PSC scheduler control).",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 17,
+      "name": "Pause Item Tracker",
+      "description": "Pauses the tracking of item gains/losses (looting tracker) in the script.",
+      "category": "Script Controls",
+      "properties": [],
+      "output": null,
+      "api_mapping": "N/A (PSC internal tracking control).",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 18,
+      "name": "Resume Item Tracker",
+      "description": "Resumes the item gains/losses tracker if it was paused.",
+      "category": "Script Controls",
+      "properties": [],
+      "output": null,
+      "api_mapping": "N/A (PSC internal tracking control).",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 19,
+      "name": "Logout",
+      "description": "Logs the player out of the game to the login screen.",
+      "category": "Script Controls",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Uses DreamBot Tabs.logout() or similar to log out the player.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 20,
+      "name": "Enable mouse input",
+      "description": "Re-enables user mouse input control (if it was disabled by the script).",
+      "category": "Script Controls",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Calls Client.setMouseInputEnabled(true) in DreamBot API.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 21,
+      "name": "Disable mouse input",
+      "description": "Disables user mouse input, handing exclusive control to the script.",
+      "category": "Script Controls",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Calls Client.setMouseInputEnabled(false) in DreamBot API.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 22,
+      "name": "Enable keyboard input",
+      "description": "Re-enables user keyboard input (if previously disabled by the script).",
+      "category": "Script Controls",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Calls Client.setKeyboardInputEnabled(true) in DreamBot API.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 23,
+      "name": "Disable keyboard input",
+      "description": "Disables user keyboard input so the script can send keys exclusively.",
+      "category": "Script Controls",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Calls Client.setKeyboardInputEnabled(false) in DreamBot API.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 24,
+      "name": "Start new thread",
+      "description": "Starts a new concurrent script thread (another action sequence running in parallel).",
+      "category": "Script Controls",
+      "properties": [
+        { "name": "Thread Name", "type": "text" },
+        { "name": "Repeat until stopped", "type": "boolean" },
+        { "name": "Sleep between runs (ms)", "type": "number" }
+      ],
+      "output": null,
+      "api_mapping": "Uses a separate internal thread to run the specified actions (no direct DreamBot API, uses Java Thread).",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 25,
+      "name": "Stop thread",
+      "description": "Stops a running custom thread gracefully at its next checkpoint.",
+      "category": "Script Controls",
+      "properties": [
+        { "name": "Thread Name", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Signals the named PSC thread to stop (internal thread management).",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 26,
+      "name": "Stop thread immediately",
+      "description": "Force-stops a running custom thread immediately.",
+      "category": "Script Controls",
+      "properties": [
+        { "name": "Thread Name", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Forcibly terminates the named PSC thread (internal thread interrupt).",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 27,
+      "name": "Pause script thread",
+      "description": "Pauses the main script's execution thread (script will halt until resumed).",
+      "category": "Script Controls",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Invokes ScriptManager.pause() on the main script thread (internal PSC control).",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 28,
+      "name": "Resume script thread",
+      "description": "Resumes the main script if it was paused.",
+      "category": "Script Controls",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Invokes ScriptManager.resume() on the main script thread (internal PSC control).",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    }
+  ],
+  "Logic & Conditions": [
+    {
+      "id": 29,
+      "name": "If never fired before",
+      "description": "This branch will fire only once per script run (the first time it’s reached).",
+      "category": "Logic & Conditions",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Uses an internal flag to check if this block has executed before (no direct API).",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 30,
+      "name": "If logged in",
+      "description": "This branch will fire if the player is currently logged into the game.",
+      "category": "Logic & Conditions",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Checks DreamBot’s Client.getGameState() for LOGGED_IN state.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 31,
+      "name": "If not logged in",
+      "description": "This branch fires if the player is not currently logged in (at login screen or disconnected).",
+      "category": "Logic & Conditions",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Checks for game state != LOGGED_IN via DreamBot’s client game state.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 32,
+      "name": "If game state is",
+      "description": "This branch fires if the game’s state matches the specified state (e.g., LOGGED_IN, LOGGING_IN, etc).",
+      "category": "Logic & Conditions",
+      "properties": [
+        { "name": "State", "type": "game state" }
+      ],
+      "output": null,
+      "api_mapping": "Checks Client.getGameState() against the specified state.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 33,
+      "name": "If game message matches",
+      "description": "This branch will fire if a recent in-game chat message matches the given text pattern.",
+      "category": "Logic & Conditions",
+      "properties": [
+        { "name": "Message Text", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Checks recent chat messages via DreamBot’s Chatbox for a matching string.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 34,
+      "name": "If a break is ready to start",
+      "description": "This branch fires if a scheduled break (auto-pause) is currently due to start.",
+      "category": "Logic & Conditions",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Uses PSC’s internal break scheduler status (no direct API).",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 35,
+      "name": "If a break is not ready to start",
+      "description": "This branch fires if no scheduled break is currently due (the next break isn’t ready yet).",
+      "category": "Logic & Conditions",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Uses PSC’s internal break scheduler status.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 36,
+      "name": "If scheduled stop is pending",
+      "description": "This branch fires if a scheduled stop request is pending for the script.",
+      "category": "Logic & Conditions",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Checks PSC’s internal flag if a scheduled script termination is queued.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 37,
+      "name": "If scheduled stop is not pending",
+      "description": "This branch fires if there is no scheduled stop request pending.",
+      "category": "Logic & Conditions",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Checks PSC’s internal scheduled stop flag (negated).",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 38,
+      "name": "If running via PSC Pro Tools",
+      "description": "This branch fires if the script is running under PSC’s Pro Tools mode (advanced integration).",
+      "category": "Logic & Conditions",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Checks an internal context flag for PSC Pro Tools usage.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 39,
+      "name": "If game tick has changed",
+      "description": "This branch fires if a new game tick occurred since the last check (game state update).",
+      "category": "Logic & Conditions",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Compares current Client.getGameTick() to a stored tick value to detect change.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 40,
+      "name": "If random number is",
+      "description": "This branch will fire based on a random chance check (compares a generated random number to the threshold).",
+      "category": "Logic & Conditions",
+      "properties": [
+        { "name": "Chance (%)", "type": "number" }
+      ],
+      "output": null,
+      "api_mapping": "Uses Math.random or Random to generate a number and compares to the given percentage.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 41,
+      "name": "If time is between",
+      "description": "This branch fires if the current time (system clock) is between two specified times (e.g., between 22:00 and 06:00).",
+      "category": "Logic & Conditions",
+      "properties": [
+        { "name": "Start Time (HH:MM)", "type": "text" },
+        { "name": "End Time (HH:MM)", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Checks system time against the provided range.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 42,
+      "name": "If mouse input is enabled",
+      "description": "This branch fires if the user's mouse input is currently enabled (not blocked by script).",
+      "category": "Logic & Conditions",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Checks internal state of Client input (true if not disabled by script).",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 43,
+      "name": "If mouse input is not enabled",
+      "description": "This branch fires if user mouse input is currently disabled (script has control of mouse).",
+      "category": "Logic & Conditions",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Checks the Client’s mouse input enabled flag (expecting false).",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 44,
+      "name": "If keyboard input is enabled",
+      "description": "This branch fires if user keyboard input is currently enabled (not blocked by script).",
+      "category": "Logic & Conditions",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Checks the Client’s keyboard input flag (true if user input allowed).",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 45,
+      "name": "If keyboard input is not enabled",
+      "description": "This branch fires if user keyboard input is currently disabled.",
+      "category": "Logic & Conditions",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Checks the Client’s keyboard input flag (false if input blocked).",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 46,
+      "name": "Else",
+      "description": "This branch will fire if the previous conditional action on the same level did not fire (an else case).",
+      "category": "Logic & Conditions",
+      "properties": [],
+      "output": null,
+      "api_mapping": "N/A (control flow logic within PSC).",
+      "valid_parents": ["If condition action"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 47,
+      "name": "Or",
+      "description": "Allows the next condition to succeed if either the previous condition or the next one is true (logical OR between consecutive conditions).",
+      "category": "Logic & Conditions",
+      "properties": [],
+      "output": null,
+      "api_mapping": "N/A (modifies script flow to combine conditions logically).",
+      "valid_parents": ["If condition action"],
+      "valid_children": []
+    },
+    {
+      "id": 48,
+      "name": "And",
+      "description": "Allows the next condition to fire only if both the previous condition and the next condition are true (logical AND chaining).",
+      "category": "Logic & Conditions",
+      "properties": [],
+      "output": null,
+      "api_mapping": "N/A (combines conditions in script logic).",
+      "valid_parents": ["If condition action"],
+      "valid_children": []
+    },
+    {
+      "id": 49,
+      "name": "If variable is set",
+      "description": "This branch fires if the specified variable exists (has been set).",
+      "category": "Logic & Conditions",
+      "properties": [
+        { "name": "Variable Name", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Checks PSC’s internal variable store for the existence of the named variable.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 50,
+      "name": "If variable is not set",
+      "description": "This branch fires if the specified variable does not exist or has not been set yet.",
+      "category": "Logic & Conditions",
+      "properties": [
+        { "name": "Variable Name", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Checks PSC’s variable storage for absence of the named variable.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 51,
+      "name": "If variable matches",
+      "description": "This branch fires if the specified variable’s value matches the given value.",
+      "category": "Logic & Conditions",
+      "properties": [
+        { "name": "Variable Name", "type": "text" },
+        { "name": "Target Value", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Compares the variable’s stored value (as string/number) to the target value.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 52,
+      "name": "If variable doesn't match",
+      "description": "This branch fires if the specified variable’s value is not equal to the given value.",
+      "category": "Logic & Conditions",
+      "properties": [
+        { "name": "Variable Name", "type": "text" },
+        { "name": "Target Value", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Compares the variable’s value to the target and fires if they differ.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 53,
+      "name": "If variable has changed",
+      "description": "This branch fires if the specified variable’s value has changed since the last time this was checked.",
+      "category": "Logic & Conditions",
+      "properties": [
+        { "name": "Variable Name", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Uses an internal snapshot of the variable’s last value to detect changes (no direct API).",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 54,
+      "name": "If value matches",
+      "description": "This branch fires if a given value (or last action output) matches the specified value.",
+      "category": "Logic & Conditions",
+      "properties": [
+        { "name": "Value A", "type": "text" },
+        { "name": "Value B", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Compares two provided values or a value against the last action output.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 55,
+      "name": "If value doesn't match",
+      "description": "This branch fires if a given value (or last output) is not equal to the specified value.",
+      "category": "Logic & Conditions",
+      "properties": [
+        { "name": "Value A", "type": "text" },
+        { "name": "Value B", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Compares two values and fires if they differ.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 56,
+      "name": "Return true",
+      "description": "Returns true from the current custom action, immediately ending its execution successfully.",
+      "category": "Logic & Conditions",
+      "properties": [],
+      "output": true,
+      "api_mapping": "N/A (signals PSC to return a boolean true in the custom action).",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 57,
+      "name": "Return false",
+      "description": "Returns false from the current custom action, immediately ending its execution (as a failure/false).",
+      "category": "Logic & Conditions",
+      "properties": [],
+      "output": false,
+      "api_mapping": "N/A (signals PSC to return boolean false in the custom action).",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 58,
+      "name": "Set action output",
+      "description": "Sets the return/output value of the current custom action to a specified value.",
+      "category": "Logic & Conditions",
+      "properties": [
+        { "name": "Output Value", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "N/A (stores the given value as the custom action’s output).",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 59,
+      "name": "Set action output to variable's value",
+      "description": "Sets the output of the current custom action to the value of an existing variable.",
+      "category": "Logic & Conditions",
+      "properties": [
+        { "name": "Variable Name", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "N/A (retrieves the variable’s value and stores it as the action’s output).",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 60,
+      "name": "Return to start of custom action",
+      "description": "Jumps back to the beginning of the current custom action, effectively looping its execution.",
+      "category": "Logic & Conditions",
+      "properties": [],
+      "output": null,
+      "api_mapping": "N/A (loops within the custom action’s execution flow).",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    }
+  ],
+"Loops & Iteration": [
+    {
+      "id": 61,
+      "name": "While true",
+      "description": "Repeats the contained actions indefinitely (until explicitly stopped).",
+      "category": "Loops & Iteration",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Infinite loop logic with no condition. Equivalent to `while (true)` in Java.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 62,
+      "name": "While condition",
+      "description": "Repeats the contained actions while the specified condition is true.",
+      "category": "Loops & Iteration",
+      "properties": [
+        { "name": "Condition", "type": "boolean condition" }
+      ],
+      "output": null,
+      "api_mapping": "Standard Java-style `while (condition)` logic.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 63,
+      "name": "Until condition",
+      "description": "Repeats the contained actions until the specified condition becomes true.",
+      "category": "Loops & Iteration",
+      "properties": [
+        { "name": "Condition", "type": "boolean condition" }
+      ],
+      "output": null,
+      "api_mapping": "Equivalent to `do { ... } while (!condition)` in Java.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 64,
+      "name": "For N iterations",
+      "description": "Repeats the contained actions for a specified number of times.",
+      "category": "Loops & Iteration",
+      "properties": [
+        { "name": "Iterations", "type": "integer" }
+      ],
+      "output": null,
+      "api_mapping": "Equivalent to `for (int i = 0; i < N; i++)` in Java.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 65,
+      "name": "For each item in inventory",
+      "description": "Iterates through all items in the player's inventory, executing the contained actions for each item.",
+      "category": "Loops & Iteration",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Iterates through DreamBot's inventory container.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 66,
+      "name": "For each item in bank",
+      "description": "Iterates through all items in the player's bank, executing the contained actions for each item.",
+      "category": "Loops & Iteration",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Iterates through DreamBot's bank container.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 67,
+      "name": "For each NPC",
+      "description": "Iterates through all NPCs in the game world and runs the contained actions for each NPC.",
+      "category": "Loops & Iteration",
+      "properties": [
+        { "name": "Filter", "type": "NPC filter" }
+      ],
+      "output": null,
+      "api_mapping": "Iterates through DreamBot's NPC container.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 68,
+      "name": "For each ground item",
+      "description": "Iterates through all ground items in the game world and runs the contained actions for each item.",
+      "category": "Loops & Iteration",
+      "properties": [
+        { "name": "Filter", "type": "Item filter" }
+      ],
+      "output": null,
+      "api_mapping": "Iterates through DreamBot's GroundItems container.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 69,
+      "name": "For each game object",
+      "description": "Iterates through all game objects in the game world and runs the contained actions for each object.",
+      "category": "Loops & Iteration",
+      "properties": [
+        { "name": "Filter", "type": "GameObject filter" }
+      ],
+      "output": null,
+      "api_mapping": "Iterates through DreamBot's GameObject container.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 70,
+      "name": "Repeat every X seconds",
+      "description": "Repeats the contained actions every specified number of seconds.",
+      "category": "Loops & Iteration",
+      "properties": [
+        { "name": "Interval (Seconds)", "type": "integer" }
+      ],
+      "output": null,
+      "api_mapping": "Uses Java's Timer or DreamBot's loop system to repeat actions on a timer.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    }
+]
+"Variable Operations": [
+    {
+      "id": 71,
+      "name": "Set variable",
+      "description": "Assigns a specified value to a named variable.",
+      "category": "Variable Operations",
+      "properties": [
+        { "name": "Variable Name", "type": "text" },
+        { "name": "Value", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Uses PSC's internal variable store system.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 72,
+      "name": "Increment variable",
+      "description": "Increases the specified numeric variable by a given value.",
+      "category": "Variable Operations",
+      "properties": [
+        { "name": "Variable Name", "type": "text" },
+        { "name": "Increment Value", "type": "integer" }
+      ],
+      "output": null,
+      "api_mapping": "Uses PSC's internal variable system with increment logic.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 73,
+      "name": "Decrement variable",
+      "description": "Decreases the specified numeric variable by a given value.",
+      "category": "Variable Operations",
+      "properties": [
+        { "name": "Variable Name", "type": "text" },
+        { "name": "Decrement Value", "type": "integer" }
+      ],
+      "output": null,
+      "api_mapping": "Uses PSC's internal variable system with decrement logic.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 74,
+      "name": "Add variable to another",
+      "description": "Adds the value of one variable to another variable.",
+      "category": "Variable Operations",
+      "properties": [
+        { "name": "Source Variable", "type": "text" },
+        { "name": "Target Variable", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Uses PSC's internal variable system to combine values.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 75,
+      "name": "Subtract variable from another",
+      "description": "Subtracts the value of one variable from another variable.",
+      "category": "Variable Operations",
+      "properties": [
+        { "name": "Source Variable", "type": "text" },
+        { "name": "Target Variable", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Uses PSC's internal variable system to subtract values.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 76,
+      "name": "Multiply variable",
+      "description": "Multiplies the specified variable by a given value.",
+      "category": "Variable Operations",
+      "properties": [
+        { "name": "Variable Name", "type": "text" },
+        { "name": "Multiplier", "type": "integer" }
+      ],
+      "output": null,
+      "api_mapping": "Uses PSC's internal variable multiplication logic.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 77,
+      "name": "Divide variable",
+      "description": "Divides the specified variable by a given value.",
+      "category": "Variable Operations",
+      "properties": [
+        { "name": "Variable Name", "type": "text" },
+        { "name": "Divisor", "type": "integer" }
+      ],
+      "output": null,
+      "api_mapping": "Uses PSC's internal variable division logic.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 78,
+      "name": "Clear variable",
+      "description": "Removes a specified variable from memory.",
+      "category": "Variable Operations",
+      "properties": [
+        { "name": "Variable Name", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Deletes the variable from PSC's internal memory.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 79,
+      "name": "Clear all variables",
+      "description": "Removes all stored variables from PSC's memory.",
+      "category": "Variable Operations",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Clears PSC's entire variable memory system.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 80,
+      "name": "Set random integer",
+      "description": "Assigns a random integer value to the specified variable within a defined range.",
+      "category": "Variable Operations",
+      "properties": [
+        { "name": "Variable Name", "type": "text" },
+        { "name": "Min Value", "type": "integer" },
+        { "name": "Max Value", "type": "integer" }
+      ],
+      "output": null,
+      "api_mapping": "Uses `Random.nextInt()` logic from Java to assign a random integer.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 81,
+      "name": "Set random decimal",
+      "description": "Assigns a random decimal value to the specified variable within a defined range.",
+      "category": "Variable Operations",
+      "properties": [
+        { "name": "Variable Name", "type": "text" },
+        { "name": "Min Value", "type": "decimal" },
+        { "name": "Max Value", "type": "decimal" }
+      ],
+      "output": null,
+      "api_mapping": "Uses `Math.random()` logic from Java to assign a random decimal.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 82,
+      "name": "Copy variable value",
+      "description": "Copies the value of one variable to another variable.",
+      "category": "Variable Operations",
+      "properties": [
+        { "name": "Source Variable", "type": "text" },
+        { "name": "Target Variable", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Uses PSC's internal variable duplication system.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 83,
+      "name": "Store NPC as variable",
+      "description": "Stores a selected NPC as a variable for later reference.",
+      "category": "Variable Operations",
+      "properties": [
+        { "name": "NPC Filter", "type": "NPC filter" },
+        { "name": "Variable Name", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's NPC container to select NPC entities.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    }
+  ]
+"Entity Interactions": [
+    {
+      "id": 84,
+      "name": "Interact with NPC",
+      "description": "Interacts with an NPC matching the specified filter using the provided action (e.g., 'Talk-to', 'Attack').",
+      "category": "Entity Interactions",
+      "properties": [
+        { "name": "NPC Filter", "type": "NPC filter" },
+        { "name": "Action", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's NPC.interact() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 85,
+      "name": "Attack NPC",
+      "description": "Attacks an NPC matching the specified filter.",
+      "category": "Entity Interactions",
+      "properties": [
+        { "name": "NPC Filter", "type": "NPC filter" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's NPC.interact('Attack') method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 86,
+      "name": "Talk to NPC",
+      "description": "Talks to an NPC matching the specified filter.",
+      "category": "Entity Interactions",
+      "properties": [
+        { "name": "NPC Filter", "type": "NPC filter" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's NPC.interact('Talk-to') method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 87,
+      "name": "Pickpocket NPC",
+      "description": "Pickpockets an NPC matching the specified filter.",
+      "category": "Entity Interactions",
+      "properties": [
+        { "name": "NPC Filter", "type": "NPC filter" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's NPC.interact('Pickpocket') method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 88,
+      "name": "Use item on NPC",
+      "description": "Uses an item from the inventory on an NPC matching the specified filter.",
+      "category": "Entity Interactions",
+      "properties": [
+        { "name": "Item Filter", "type": "Item filter" },
+        { "name": "NPC Filter", "type": "NPC filter" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's InventoryItem.useOn(NPC) method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 89,
+      "name": "Examine NPC",
+      "description": "Examines an NPC matching the specified filter.",
+      "category": "Entity Interactions",
+      "properties": [
+        { "name": "NPC Filter", "type": "NPC filter" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's NPC.interact('Examine') method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 90,
+      "name": "Interact with GameObject",
+      "description": "Interacts with a GameObject matching the specified filter using the provided action (e.g., 'Open', 'Close').",
+      "category": "Entity Interactions",
+      "properties": [
+        { "name": "GameObject Filter", "type": "GameObject filter" },
+        { "name": "Action", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's GameObject.interact() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 91,
+      "name": "Examine GameObject",
+      "description": "Examines a GameObject matching the specified filter.",
+      "category": "Entity Interactions",
+      "properties": [
+        { "name": "GameObject Filter", "type": "GameObject filter" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's GameObject.interact('Examine') method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 92,
+      "name": "Interact with Ground Item",
+      "description": "Interacts with a Ground Item matching the specified filter using the provided action (e.g., 'Take', 'Examine').",
+      "category": "Entity Interactions",
+      "properties": [
+        { "name": "Ground Item Filter", "type": "Item filter" },
+        { "name": "Action", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's GroundItem.interact() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 93,
+      "name": "Take Ground Item",
+      "description": "Picks up a Ground Item matching the specified filter.",
+      "category": "Entity Interactions",
+      "properties": [
+        { "name": "Ground Item Filter", "type": "Item filter" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's GroundItem.interact('Take') method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 94,
+      "name": "Use item on GameObject",
+      "description": "Uses an item from the inventory on a GameObject matching the specified filter.",
+      "category": "Entity Interactions",
+      "properties": [
+        { "name": "Item Filter", "type": "Item filter" },
+        { "name": "GameObject Filter", "type": "GameObject filter" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's InventoryItem.useOn(GameObject) method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    }
+]
+"Inventory Management": [
+    {
+      "id": 95,
+      "name": "Check for item in inventory",
+      "description": "Checks if the specified item exists in the inventory.",
+      "category": "Inventory Management",
+      "properties": [
+        { "name": "Item Filter", "type": "Item filter" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Inventory.contains() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 96,
+      "name": "Count items in inventory",
+      "description": "Counts the total number of items in the inventory matching the specified filter.",
+      "category": "Inventory Management",
+      "properties": [
+        { "name": "Item Filter", "type": "Item filter" }
+      ],
+      "output": "Integer",
+      "api_mapping": "Uses DreamBot's Inventory.count() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 97,
+      "name": "Use item",
+      "description": "Uses the specified item from the inventory.",
+      "category": "Inventory Management",
+      "properties": [
+        { "name": "Item Filter", "type": "Item filter" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's InventoryItem.interact('Use') method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 98,
+      "name": "Drop item",
+      "description": "Drops the specified item from the inventory.",
+      "category": "Inventory Management",
+      "properties": [
+        { "name": "Item Filter", "type": "Item filter" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's InventoryItem.interact('Drop') method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 99,
+      "name": "Equip item",
+      "description": "Equips the specified item from the inventory.",
+      "category": "Inventory Management",
+      "properties": [
+        { "name": "Item Filter", "type": "Item filter" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's Equipment.equip() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 100,
+      "name": "Unequip item",
+      "description": "Unequips the specified item currently equipped.",
+      "category": "Inventory Management",
+      "properties": [
+        { "name": "Item Filter", "type": "Item filter" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's Equipment.unequip() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 101,
+      "name": "Use item on item",
+      "description": "Uses one inventory item on another.",
+      "category": "Inventory Management",
+      "properties": [
+        { "name": "Item Filter A", "type": "Item filter" },
+        { "name": "Item Filter B", "type": "Item filter" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's InventoryItem.useOn() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 102,
+      "name": "Examine inventory item",
+      "description": "Examines an item in the inventory.",
+      "category": "Inventory Management",
+      "properties": [
+        { "name": "Item Filter", "type": "Item filter" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's InventoryItem.interact('Examine') method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 103,
+      "name": "Destroy item",
+      "description": "Destroys an item in the inventory if the item supports the destroy option.",
+      "category": "Inventory Management",
+      "properties": [
+        { "name": "Item Filter", "type": "Item filter" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's InventoryItem.interact('Destroy') method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 104,
+      "name": "Check item stack size",
+      "description": "Checks the stack size of the specified item in the inventory.",
+      "category": "Inventory Management",
+      "properties": [
+        { "name": "Item Filter", "type": "Item filter" }
+      ],
+      "output": "Integer",
+      "api_mapping": "Uses DreamBot's Inventory.getStackSize() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    }
+]
+"Banking Actions": [
+    {
+      "id": 105,
+      "name": "Open bank",
+      "description": "Opens the nearest accessible bank or a specified bank location.",
+      "category": "Banking Actions",
+      "properties": [
+        { "name": "Bank Location", "type": "text", "optional": true }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Bank.open() or Bank.open(BankLocation) method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 106,
+      "name": "Close bank",
+      "description": "Closes the currently open bank interface.",
+      "category": "Banking Actions",
+      "properties": [],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Bank.close() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 107,
+      "name": "Deposit item",
+      "description": "Deposits a specified item from the inventory into the bank.",
+      "category": "Banking Actions",
+      "properties": [
+        { "name": "Item Filter", "type": "Item filter" },
+        { "name": "Quantity", "type": "integer", "optional": true }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Bank.deposit() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 108,
+      "name": "Deposit all items",
+      "description": "Deposits all inventory items into the bank.",
+      "category": "Banking Actions",
+      "properties": [],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Bank.depositAllItems() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 109,
+      "name": "Withdraw item",
+      "description": "Withdraws a specified item from the bank into the inventory.",
+      "category": "Banking Actions",
+      "properties": [
+        { "name": "Item Filter", "type": "Item filter" },
+        { "name": "Quantity", "type": "integer", "optional": true }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Bank.withdraw() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 110,
+      "name": "Withdraw all items",
+      "description": "Withdraws all available items from the bank.",
+      "category": "Banking Actions",
+      "properties": [
+        { "name": "Item Filter", "type": "Item filter" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Bank.withdrawAll() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 111,
+      "name": "Check bank item count",
+      "description": "Counts the total number of specified items in the bank.",
+      "category": "Banking Actions",
+      "properties": [
+        { "name": "Item Filter", "type": "Item filter" }
+      ],
+      "output": "Integer",
+      "api_mapping": "Uses DreamBot's Bank.count() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 112,
+      "name": "Check if bank contains item",
+      "description": "Checks if a specified item exists in the bank.",
+      "category": "Banking Actions",
+      "properties": [
+        { "name": "Item Filter", "type": "Item filter" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Bank.contains() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 113,
+      "name": "Deposit equipment",
+      "description": "Deposits all equipped gear into the bank.",
+      "category": "Banking Actions",
+      "properties": [],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Bank.depositEquipment() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 114,
+      "name": "Deposit worn items",
+      "description": "Deposits all currently worn gear into the bank.",
+      "category": "Banking Actions",
+      "properties": [],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Bank.depositWornItems() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 115,
+      "name": "Enable bank deposit mode",
+      "description": "Enables the bank deposit mode (e.g., inventory-only mode).",
+      "category": "Banking Actions",
+      "properties": [
+        { "name": "Deposit Mode", "type": "text" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Bank.setDepositMode() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 116,
+      "name": "Disable bank deposit mode",
+      "description": "Disables the current deposit mode in the bank.",
+      "category": "Banking Actions",
+      "properties": [],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Bank.setDepositMode(Bank.DepositMode.NONE) method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    }
+]
+"Walking & Movement": [
+    {
+      "id": 117,
+      "name": "Walk to tile",
+      "description": "Walks to a specified tile coordinate in the game world.",
+      "category": "Walking & Movement",
+      "properties": [
+        { "name": "X Coordinate", "type": "integer" },
+        { "name": "Y Coordinate", "type": "integer" },
+        { "name": "Z Coordinate (optional)", "type": "integer", "optional": true }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Walking.walk(Tile) method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 118,
+      "name": "Walk to NPC",
+      "description": "Walks to an NPC matching the specified filter.",
+      "category": "Walking & Movement",
+      "properties": [
+        { "name": "NPC Filter", "type": "NPC filter" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Walking.walk(NPC.getTile()) method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 119,
+      "name": "Walk to GameObject",
+      "description": "Walks to a GameObject matching the specified filter.",
+      "category": "Walking & Movement",
+      "properties": [
+        { "name": "GameObject Filter", "type": "GameObject filter" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Walking.walk(GameObject.getTile()) method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 120,
+      "name": "Walk to Ground Item",
+      "description": "Walks to a Ground Item matching the specified filter.",
+      "category": "Walking & Movement",
+      "properties": [
+        { "name": "Ground Item Filter", "type": "Item filter" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Walking.walk(GroundItem.getTile()) method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 121,
+      "name": "Web walk to tile",
+      "description": "Uses DreamBot's web walking system to navigate to a specified tile.",
+      "category": "Walking & Movement",
+      "properties": [
+        { "name": "X Coordinate", "type": "integer" },
+        { "name": "Y Coordinate", "type": "integer" },
+        { "name": "Z Coordinate (optional)", "type": "integer", "optional": true }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's WebWalking.walk(Tile) method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 122,
+      "name": "Enable run",
+      "description": "Enables the run feature to increase movement speed.",
+      "category": "Walking & Movement",
+      "properties": [],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Walking.toggleRun(true) method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 123,
+      "name": "Disable run",
+      "description": "Disables the run feature to conserve energy.",
+      "category": "Walking & Movement",
+      "properties": [],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Walking.toggleRun(false) method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 124,
+      "name": "Check if player is moving",
+      "description": "Returns true if the player is currently moving.",
+      "category": "Walking & Movement",
+      "properties": [],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Walking.isWalking() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 125,
+      "name": "Check run energy",
+      "description": "Checks the player's current run energy percentage.",
+      "category": "Walking & Movement",
+      "properties": [],
+      "output": "Integer",
+      "api_mapping": "Uses DreamBot's Walking.getRunEnergy() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 126,
+      "name": "Wait until destination reached",
+      "description": "Waits until the player arrives at their target destination.",
+      "category": "Walking & Movement",
+      "properties": [
+        { "name": "Timeout (Seconds)", "type": "integer" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's conditional wait system.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    }
+]
+"Game Settings & Toggles": [
+    {
+      "id": 127,
+      "name": "Toggle accept aid",
+      "description": "Toggles the 'Accept Aid' setting on or off.",
+      "category": "Game Settings & Toggles",
+      "properties": [
+        { "name": "Enable", "type": "boolean" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Tabs.open(Tabs.OPTIONS) and interface interactions.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 128,
+      "name": "Toggle auto retaliate",
+      "description": "Toggles the 'Auto Retaliate' setting on or off.",
+      "category": "Game Settings & Toggles",
+      "properties": [
+        { "name": "Enable", "type": "boolean" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Combat.isAutoRetaliateOn() with toggle logic.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 129,
+      "name": "Set brightness level",
+      "description": "Sets the game's brightness level (1-4).",
+      "category": "Game Settings & Toggles",
+      "properties": [
+        { "name": "Brightness Level", "type": "integer", "constraints": "1-4" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's interface system to manipulate brightness settings.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 130,
+      "name": "Enable music",
+      "description": "Enables the in-game music.",
+      "category": "Game Settings & Toggles",
+      "properties": [],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Music.isEnabled() method with toggle logic.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 131,
+      "name": "Disable music",
+      "description": "Disables the in-game music.",
+      "category": "Game Settings & Toggles",
+      "properties": [],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Music.disable() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 132,
+      "name": "Enable sound effects",
+      "description": "Enables the in-game sound effects.",
+      "category": "Game Settings & Toggles",
+      "properties": [],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Sound.isEnabled() method with toggle logic.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 133,
+      "name": "Disable sound effects",
+      "description": "Disables the in-game sound effects.",
+      "category": "Game Settings & Toggles",
+      "properties": [],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Sound.disable() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 134,
+      "name": "Change camera angle",
+      "description": "Changes the camera angle by rotating in the specified direction.",
+      "category": "Game Settings & Toggles",
+      "properties": [
+        { "name": "Direction", "type": "text", "values": ["Up", "Down", "Left", "Right"] },
+        { "name": "Degrees", "type": "integer", "optional": true }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Camera.rotateToAngle() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 135,
+      "name": "Reset camera",
+      "description": "Resets the camera to its default north-facing position.",
+      "category": "Game Settings & Toggles",
+      "properties": [],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Camera.toAngle(0) method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 136,
+      "name": "Toggle run energy notification",
+      "description": "Toggles the run energy notification setting on or off.",
+      "category": "Game Settings & Toggles",
+      "properties": [
+        { "name": "Enable", "type": "boolean" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's interface system to toggle run energy warnings.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    }
+]
+"Debugging & Logging": [
+    {
+      "id": 137,
+      "name": "Print message to console",
+      "description": "Prints a specified message to the console for debugging purposes.",
+      "category": "Debugging & Logging",
+      "properties": [
+        { "name": "Message", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Uses Java's `System.out.println()` method or DreamBot's log system.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 138,
+      "name": "Print variable value",
+      "description": "Prints the value of a specified variable to the console.",
+      "category": "Debugging & Logging",
+      "properties": [
+        { "name": "Variable Name", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Uses Java's `System.out.println(variable)` method or DreamBot's log system.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 139,
+      "name": "Print NPC details",
+      "description": "Prints the details of an NPC matching the specified filter.",
+      "category": "Debugging & Logging",
+      "properties": [
+        { "name": "NPC Filter", "type": "NPC filter" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's NPC.getName() and NPC.getID() methods for data retrieval.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 140,
+      "name": "Print GameObject details",
+      "description": "Prints the details of a GameObject matching the specified filter.",
+      "category": "Debugging & Logging",
+      "properties": [
+        { "name": "GameObject Filter", "type": "GameObject filter" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's GameObject.getName() and GameObject.getID() methods for data retrieval.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 141,
+      "name": "Print Ground Item details",
+      "description": "Prints the details of a Ground Item matching the specified filter.",
+      "category": "Debugging & Logging",
+      "properties": [
+        { "name": "Ground Item Filter", "type": "Item filter" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's GroundItem.getName() and GroundItem.getID() methods for data retrieval.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 142,
+      "name": "Print inventory contents",
+      "description": "Prints the contents of the player's inventory to the console.",
+      "category": "Debugging & Logging",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Uses DreamBot's Inventory.getItems() method to log all items.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 143,
+      "name": "Print bank contents",
+      "description": "Prints the contents of the player's bank to the console.",
+      "category": "Debugging & Logging",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Uses DreamBot's Bank.getItems() method to log all bank items.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 144,
+      "name": "Print environment data",
+      "description": "Prints environmental data such as player location, coordinates, and surroundings.",
+      "category": "Debugging & Logging",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Uses DreamBot's Player.getTile() and surrounding object scanning logic.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 145,
+      "name": "Write to log file",
+      "description": "Writes a specified message to a log file for persistent record keeping.",
+      "category": "Debugging & Logging",
+      "properties": [
+        { "name": "Log File Path", "type": "text" },
+        { "name": "Message", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Uses Java's `FileWriter()` for file output.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 146,
+      "name": "Log variable to file",
+      "description": "Writes the value of a specified variable to a log file.",
+      "category": "Debugging & Logging",
+      "properties": [
+        { "name": "Log File Path", "type": "text" },
+        { "name": "Variable Name", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Uses Java's `FileWriter()` to write the variable data.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    }
+]
+"Other Key Functional Areas": [
+    {
+      "id": 147,
+      "name": "Activate prayer",
+      "description": "Activates the specified prayer to enhance combat or protection abilities.",
+      "category": "Other Key Functional Areas",
+      "properties": [
+        { "name": "Prayer Name", "type": "text" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Prayer.activate() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 148,
+      "name": "Deactivate prayer",
+      "description": "Deactivates the specified prayer.",
+      "category": "Other Key Functional Areas",
+      "properties": [
+        { "name": "Prayer Name", "type": "text" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Prayer.deactivate() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 149,
+      "name": "Cast spell",
+      "description": "Casts a specified spell from the player's spellbook.",
+      "category": "Other Key Functional Areas",
+      "properties": [
+        { "name": "Spell Name", "type": "text" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Magic.castSpell() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 150,
+      "name": "Cast spell on NPC",
+      "description": "Casts a specified spell on an NPC matching the specified filter.",
+      "category": "Other Key Functional Areas",
+      "properties": [
+        { "name": "Spell Name", "type": "text" },
+        { "name": "NPC Filter", "type": "NPC filter" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's NPC.interact() with spell logic.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 151,
+      "name": "Cast spell on GameObject",
+      "description": "Casts a specified spell on a GameObject matching the specified filter.",
+      "category": "Other Key Functional Areas",
+      "properties": [
+        { "name": "Spell Name", "type": "text" },
+        { "name": "GameObject Filter", "type": "GameObject filter" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's GameObject.interact() with spell logic.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 152,
+      "name": "Cast spell on Ground Item",
+      "description": "Casts a specified spell on a Ground Item matching the specified filter.",
+      "category": "Other Key Functional Areas",
+      "properties": [
+        { "name": "Spell Name", "type": "text" },
+        { "name": "Ground Item Filter", "type": "Item filter" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's GroundItem.interact() with spell logic.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 153,
+      "name": "Open quest log",
+      "description": "Opens the quest log interface to display quest progress.",
+      "category": "Other Key Functional Areas",
+      "properties": [],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Tabs.open(Tabs.QUESTS) method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 154,
+      "name": "Check quest status",
+      "description": "Checks the status of a specified quest.",
+      "category": "Other Key Functional Areas",
+      "properties": [
+        { "name": "Quest Name", "type": "text" }
+      ],
+      "output": "String",
+      "api_mapping": "Uses DreamBot's Quest.isCompleted() and Quest.getStatus() methods.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 155,
+      "name": "Check skill level",
+      "description": "Returns the current level of a specified skill.",
+      "category": "Other Key Functional Areas",
+      "properties": [
+        { "name": "Skill Name", "type": "text" }
+      ],
+      "output": "Integer",
+      "api_mapping": "Uses DreamBot's Skills.getRealLevel() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 156,
+      "name": "Check XP progress",
+      "description": "Returns the current experience points for a specified skill.",
+      "category": "Other Key Functional Areas",
+      "properties": [
+        { "name": "Skill Name", "type": "text" }
+      ],
+      "output": "Integer",
+      "api_mapping": "Uses DreamBot's Skills.getExperience() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 157,
+      "name": "World hop",
+      "description": "Switches to a specified game world.",
+      "category": "Other Key Functional Areas",
+      "properties": [
+        { "name": "World Number", "type": "integer" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Worlds.hop() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 158,
+      "name": "Logout",
+      "description": "Logs the player out of the game.",
+      "category": "Other Key Functional Areas",
+      "properties": [],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Game.logout() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    }
+]
+

@@ -15,28 +15,28 @@ import logging
 import logging.handlers
 from typing import Dict, List, Set, Tuple, Optional
 
-def sanitize_path(path: str) -> str:
+def sanitize_filename(filename: str) -> str:
     """
-    Sanitize file paths to ensure cross-platform compatibility.
+    Sanitize filenames (not paths) to ensure cross-platform compatibility.
     
     Args:
-        path: Input file path
+        filename: Input filename (not full path)
     
     Returns:
-        Sanitized path safe for file systems
+        Sanitized filename safe for file systems
     """
     # Ensure input is a string
-    if not isinstance(path, str):
-        path = str(path)
+    if not isinstance(filename, str):
+        filename = str(filename)
     
     # Remove invalid filename characters
     invalid_chars = r'<>:"/\|?*'
-    sanitized_path = ''.join(char for char in path if char not in invalid_chars)
+    sanitized_filename = ''.join(char for char in filename if char not in invalid_chars)
     
     # Replace multiple consecutive spaces
-    sanitized_path = re.sub(r'\s+', ' ', sanitized_path)
+    sanitized_filename = re.sub(r'\s+', ' ', sanitized_filename)
     
-    return sanitized_path.strip()
+    return sanitized_filename.strip()
 
 def validate_and_normalize_path(path: str, must_exist: bool = False, context: str = "Path") -> str:
     """
@@ -62,50 +62,43 @@ def validate_and_normalize_path(path: str, must_exist: bool = False, context: st
         if not path:
             raise ValueError(f"{context} cannot be empty")
         
-        # Expand user directory and resolve symlinks
+        # Expand user directory and normalize path
         expanded_path = os.path.expanduser(path)
-        normalized_path = os.path.realpath(expanded_path)
+        normalized_path = os.path.normpath(expanded_path)
         
         # Ensure absolute path
         if not os.path.isabs(normalized_path):
             normalized_path = os.path.abspath(normalized_path)
         
-        # Sanitize path (remove invalid characters)
-        sanitized_path = sanitize_path(normalized_path)
-        
         # Check existence if required
-        if must_exist:
-            if not os.path.exists(sanitized_path):
-                raise FileNotFoundError(f"{context} does not exist: {sanitized_path}")
-            
-            # Additional checks for read/write permissions
-            if not os.access(sanitized_path, os.R_OK | os.W_OK):
-                raise PermissionError(f"No read/write permission for {context}: {sanitized_path}")
+        if must_exist and not os.path.exists(normalized_path):
+            raise FileNotFoundError(f"{context} does not exist: {normalized_path}")
         
-        return sanitized_path
+        return normalized_path
     
     except Exception as e:
-        logger.error(f"{context} validation error: {e}")
+        logger.error(f"{context} validation error: {str(e)}")
         raise
 
-def configure_logging(log_file="action_validator.log", log_level=logging.INFO):
+def configure_logging():
     """
     Configure comprehensive logging with rotation and detailed formatting.
-    
-    Args:
-        log_file: Path to the log file
-        log_level: Logging level
     
     Returns:
         Configured logger
     """
-    # Ensure log directory exists
-    log_dir = os.path.dirname(log_file)
+    # Get the script directory
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    # Create a 'logs' directory in the parent directory (project root)
+    log_dir = os.path.join(os.path.dirname(script_dir), 'logs')
     os.makedirs(log_dir, exist_ok=True)
+    
+    # Set up log file path
+    log_file = os.path.join(log_dir, 'action_validator.log')
     
     # Create logger
     logger = logging.getLogger("action_validator")
-    logger.setLevel(log_level)
+    logger.setLevel(logging.INFO)
     
     # Clear any existing handlers
     logger.handlers.clear()
@@ -117,11 +110,11 @@ def configure_logging(log_file="action_validator.log", log_level=logging.INFO):
         backupCount=5,
         encoding='utf-8'
     )
-    file_handler.setLevel(log_level)
+    file_handler.setLevel(logging.INFO)
     
     # Create console handler
     console_handler = logging.StreamHandler(sys.stdout)
-    console_handler.setLevel(log_level)
+    console_handler.setLevel(logging.INFO)
     
     # Create formatter
     formatter = logging.Formatter(
@@ -204,6 +197,9 @@ def save_json_file(file_path: str, data: Dict, indent: int = 2) -> bool:
         # Validate and normalize path
         normalized_path = validate_and_normalize_path(file_path, context="Output JSON file")
         
+        # Ensure directory exists
+        os.makedirs(os.path.dirname(normalized_path), exist_ok=True)
+        
         with open(normalized_path, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=indent, ensure_ascii=False)
         return True
@@ -227,63 +223,238 @@ def resolve_paths(base_dir: str, category_map: Optional[str], action_hierarchy: 
     Raises:
         FileNotFoundError: If no valid paths are found
     """
+    # Normalize base directory
+    base_dir = os.path.normpath(os.path.abspath(base_dir))
     script_dir = os.path.dirname(os.path.abspath(__file__))
     parent_dir = os.path.dirname(script_dir)
-
-    # Potential paths for category map
-    category_map_paths = [
-        category_map,
-        os.path.join(parent_dir, 'mapping', 'ActionID_CategoryMap.json'),
-        os.path.join(base_dir, 'mapping', 'ActionID_CategoryMap.json'),
-        os.path.join(script_dir, 'ActionID_CategoryMap.json')
-    ]
-
-    # Potential paths for action hierarchy
-    action_hierarchy_paths = [
-        action_hierarchy,
-        os.path.join(parent_dir, 'libraries', 'action_hierarchy_library.json'),
-        os.path.join(base_dir, 'libraries', 'action_hierarchy_library.json'),
-        os.path.join(script_dir, 'action_hierarchy_library.json')
-    ]
-
-    # Potential paths for scripts directory
-    scripts_dir_paths = [
-        scripts_dir,
-        script_dir,
-        os.path.join(parent_dir, 'scripts'),
-        base_dir
-    ]
-
-    # Find first valid category map path
-    category_map_path = next((
-        path for path in category_map_paths 
-        if path and os.path.exists(validate_and_normalize_path(path, must_exist=True))
-    ), None)
-
-    # Find first valid action hierarchy path
-    action_hierarchy_path = next((
-        path for path in action_hierarchy_paths 
-        if path and os.path.exists(validate_and_normalize_path(path, must_exist=True))
-    ), None)
-
-    # Find first valid scripts directory
-    scripts_dir_path = next((
-        path for path in scripts_dir_paths 
-        if path and os.path.isdir(validate_and_normalize_path(path, must_exist=True))
-    ), None)
-
+    
+    # List of potential paths to check (in order of priority)
+    category_map_paths = []
+    action_hierarchy_paths = []
+    scripts_dir_paths = []
+    
+    # Add user-specified paths if provided
+    if category_map:
+        category_map_paths.append(category_map)
+    if action_hierarchy:
+        action_hierarchy_paths.append(action_hierarchy)
+    if scripts_dir:
+        scripts_dir_paths.append(scripts_dir)
+    
+    # Add paths relative to base_dir
+    category_map_paths.append(os.path.join(base_dir, 'mapping', 'ActionID_CategoryMap.json'))
+    action_hierarchy_paths.append(os.path.join(base_dir, 'libraries', 'action_hierarchy_library.json'))
+    scripts_dir_paths.append(os.path.join(base_dir, 'data', 'raw'))
+    
+    # Add paths relative to script_dir's parent
+    category_map_paths.append(os.path.join(parent_dir, 'mapping', 'ActionID_CategoryMap.json'))
+    action_hierarchy_paths.append(os.path.join(parent_dir, 'libraries', 'action_hierarchy_library.json'))
+    scripts_dir_paths.append(os.path.join(parent_dir, 'data', 'raw'))
+    
+    # Add paths relative to script_dir
+    category_map_paths.append(os.path.join(script_dir, 'mapping', 'ActionID_CategoryMap.json'))
+    action_hierarchy_paths.append(os.path.join(script_dir, 'libraries', 'action_hierarchy_library.json'))
+    scripts_dir_paths.append(script_dir)
+    
+    # Default to script_dir for scripts_dir_paths
+    scripts_dir_paths.append(script_dir)
+    
+    # Check each path
+    category_map_path = None
+    for path in category_map_paths:
+        try:
+            if os.path.exists(path):
+                category_map_path = path
+                break
+        except:
+            continue
+    
+    action_hierarchy_path = None
+    for path in action_hierarchy_paths:
+        try:
+            if os.path.exists(path):
+                action_hierarchy_path = path
+                break
+        except:
+            continue
+    
+    scripts_dir_path = None
+    for path in scripts_dir_paths:
+        try:
+            if os.path.exists(path) and os.path.isdir(path):
+                scripts_dir_path = path
+                break
+        except:
+            continue
+    
     if not category_map_path:
-        raise FileNotFoundError("Could not find a valid category map file")
+        raise FileNotFoundError(f"Could not find a valid category map file. Searched: {', '.join(category_map_paths)}")
     
     if not action_hierarchy_path:
-        raise FileNotFoundError("Could not find a valid action hierarchy file")
+        raise FileNotFoundError(f"Could not find a valid action hierarchy file. Searched: {', '.join(action_hierarchy_paths)}")
     
     if not scripts_dir_path:
-        raise FileNotFoundError("Could not find a valid scripts directory")
-
+        raise FileNotFoundError(f"Could not find a valid scripts directory. Searched: {', '.join(scripts_dir_paths)}")
+    
+    # Normalize paths
+    category_map_path = os.path.normpath(os.path.abspath(category_map_path))
+    action_hierarchy_path = os.path.normpath(os.path.abspath(action_hierarchy_path))
+    scripts_dir_path = os.path.normpath(os.path.abspath(scripts_dir_path))
+    
     return category_map_path, action_hierarchy_path, scripts_dir_path
 
-# [Rest of the previous script's functions remain the same]
+def find_all_json_files(directory: str) -> List[str]:
+    """
+    Find all JSON files in a directory and its subdirectories.
+    
+    Args:
+        directory: Root directory to search
+    
+    Returns:
+        List of paths to JSON files
+    """
+    json_files = []
+    
+    for root, _, files in os.walk(directory):
+        for file in files:
+            if file.lower().endswith('.json'):
+                json_files.append(os.path.join(root, file))
+    
+    return json_files
+
+def extract_action_ids_from_json(json_file: str) -> Set[str]:
+    """
+    Extract all action IDs used in a JSON file.
+    
+    Args:
+        json_file: Path to the JSON file
+    
+    Returns:
+        Set of action IDs found in the file
+    """
+    action_ids = set()
+    
+    try:
+        data = load_json_file(json_file)
+        if not data:
+            return action_ids
+        
+        # Check if this is a PSC script
+        if 'actions' in data and isinstance(data['actions'], list):
+            # Process root actions
+            for action in data['actions']:
+                if 'id' in action and isinstance(action['id'], str):
+                    action_ids.add(action['id'])
+                
+                # Process children recursively
+                action_ids.update(extract_action_ids_from_node(action))
+    
+    except Exception as e:
+        logger.error(f"Error extracting action IDs from {json_file}: {e}")
+    
+    return action_ids
+
+def extract_action_ids_from_node(node: Dict) -> Set[str]:
+    """
+    Recursively extract action IDs from a node and its children.
+    
+    Args:
+        node: The node to process
+    
+    Returns:
+        Set of action IDs found in the node and its children
+    """
+    action_ids = set()
+    
+    # Skip if not a dictionary
+    if not isinstance(node, dict):
+        return action_ids
+    
+    # Process children if present
+    if 'children' in node and isinstance(node['children'], list):
+        for child in node['children']:
+            if isinstance(child, dict) and 'id' in child and isinstance(child['id'], str):
+                action_ids.add(child['id'])
+                # Process recursively
+                action_ids.update(extract_action_ids_from_node(child))
+    
+    return action_ids
+
+def validate_actions(category_map_path: str, action_hierarchy_path: str, scripts_dir: str) -> bool:
+    """
+    Validate all actions across the PSC framework.
+    
+    Args:
+        category_map_path: Path to the category map
+        action_hierarchy_path: Path to the action hierarchy
+        scripts_dir: Path to the scripts directory
+    
+    Returns:
+        Boolean indicating overall validation success
+    """
+    # Load necessary files
+    category_map = load_json_file(category_map_path, "Category map")
+    if not category_map:
+        return False
+    
+    action_hierarchy = load_json_file(action_hierarchy_path, "Action hierarchy")
+    if not action_hierarchy:
+        return False
+    
+    # Extract sets of action IDs
+    category_map_actions = set(category_map.keys())
+    # Remove comment entries if any
+    category_map_actions = {action for action in category_map_actions if not action.startswith("/*")}
+    
+    hierarchy_actions = set(action_hierarchy.get('actions', {}).keys())
+    
+    script_actions = set()
+    if os.path.exists(scripts_dir) and os.path.isdir(scripts_dir):
+        # Find all JSON files in scripts directory
+        json_files = find_all_json_files(scripts_dir)
+        logger.info(f"Found {len(json_files)} JSON files in {scripts_dir}")
+        
+        # Extract action IDs from JSON files
+        for json_file in json_files:
+            script_actions.update(extract_action_ids_from_json(json_file))
+    
+    # Log sizes
+    logger.info(f"Actions in category map: {len(category_map_actions)}")
+    logger.info(f"Actions in hierarchy: {len(hierarchy_actions)}")
+    logger.info(f"Actions in scripts: {len(script_actions)}")
+    
+    # Find inconsistencies
+    missing_in_hierarchy = category_map_actions - hierarchy_actions
+    missing_in_category_map = hierarchy_actions - category_map_actions
+    script_only_actions = script_actions - category_map_actions - hierarchy_actions
+    
+    # Log inconsistencies
+    overall_success = True
+    
+    if missing_in_hierarchy:
+        logger.warning(f"Found {len(missing_in_hierarchy)} actions in category map missing from hierarchy:")
+        for action in sorted(missing_in_hierarchy):
+            logger.warning(f"  - {action}")
+        overall_success = False
+    
+    if missing_in_category_map:
+        logger.warning(f"Found {len(missing_in_category_map)} actions in hierarchy missing from category map:")
+        for action in sorted(missing_in_category_map):
+            logger.warning(f"  - {action}")
+        overall_success = False
+    
+    if script_only_actions:
+        logger.warning(f"Found {len(script_only_actions)} actions in scripts not present in category map or hierarchy:")
+        for action in sorted(script_only_actions):
+            logger.warning(f"  - {action}")
+        overall_success = False
+    
+    if overall_success:
+        logger.info("All actions are in sync across the PSC framework")
+    else:
+        logger.warning("Found inconsistencies in action definitions")
+    
+    return overall_success
 
 def main():
     """Main function for the action validator."""
@@ -301,7 +472,7 @@ def main():
     try:
         # Resolve paths for category map, action hierarchy, and scripts directory
         try:
-            category_map_path, action_hierarchy_path, scripts_dir = resolve_paths(
+            category_map_path, action_hierarchy_path, scripts_dir_path = resolve_paths(
                 args.base_dir, 
                 args.category_map, 
                 args.action_hierarchy,
@@ -313,10 +484,21 @@ def main():
         
         logger.info(f"Using category map: {category_map_path}")
         logger.info(f"Using action hierarchy: {action_hierarchy_path}")
-        logger.info(f"Using scripts directory: {scripts_dir}")
+        logger.info(f"Using scripts directory: {scripts_dir_path}")
         
-        # [Rest of the main function remains the same as in the original script]
-        # ... (keep the rest of the existing main() function implementation)
+        # Validate actions across the framework
+        validation_success = validate_actions(
+            category_map_path, 
+            action_hierarchy_path, 
+            scripts_dir_path if args.check_scripts else None
+        )
+        
+        if validation_success:
+            logger.info("Validation completed successfully")
+            return 0
+        else:
+            logger.warning("Validation completed with inconsistencies")
+            return 1
     
     except Exception as e:
         logger.critical(f"Unexpected error in validation process: {e}", exc_info=True)

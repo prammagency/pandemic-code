@@ -1,0 +1,126 @@
+"Loops & Iteration": [
+    {
+      "id": 61,
+      "name": "While true",
+      "description": "Repeats the contained actions indefinitely (until explicitly stopped).",
+      "category": "Loops & Iteration",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Infinite loop logic with no condition. Equivalent to `while (true)` in Java.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 62,
+      "name": "While condition",
+      "description": "Repeats the contained actions while the specified condition is true.",
+      "category": "Loops & Iteration",
+      "properties": [
+        { "name": "Condition", "type": "boolean condition" }
+      ],
+      "output": null,
+      "api_mapping": "Standard Java-style `while (condition)` logic.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 63,
+      "name": "Until condition",
+      "description": "Repeats the contained actions until the specified condition becomes true.",
+      "category": "Loops & Iteration",
+      "properties": [
+        { "name": "Condition", "type": "boolean condition" }
+      ],
+      "output": null,
+      "api_mapping": "Equivalent to `do { ... } while (!condition)` in Java.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 64,
+      "name": "For N iterations",
+      "description": "Repeats the contained actions for a specified number of times.",
+      "category": "Loops & Iteration",
+      "properties": [
+        { "name": "Iterations", "type": "integer" }
+      ],
+      "output": null,
+      "api_mapping": "Equivalent to `for (int i = 0; i < N; i++)` in Java.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 65,
+      "name": "For each item in inventory",
+      "description": "Iterates through all items in the player's inventory, executing the contained actions for each item.",
+      "category": "Loops & Iteration",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Iterates through DreamBot's inventory container.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 66,
+      "name": "For each item in bank",
+      "description": "Iterates through all items in the player's bank, executing the contained actions for each item.",
+      "category": "Loops & Iteration",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Iterates through DreamBot's bank container.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 67,
+      "name": "For each NPC",
+      "description": "Iterates through all NPCs in the game world and runs the contained actions for each NPC.",
+      "category": "Loops & Iteration",
+      "properties": [
+        { "name": "Filter", "type": "NPC filter" }
+      ],
+      "output": null,
+      "api_mapping": "Iterates through DreamBot's NPC container.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 68,
+      "name": "For each ground item",
+      "description": "Iterates through all ground items in the game world and runs the contained actions for each item.",
+      "category": "Loops & Iteration",
+      "properties": [
+        { "name": "Filter", "type": "Item filter" }
+      ],
+      "output": null,
+      "api_mapping": "Iterates through DreamBot's GroundItems container.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 69,
+      "name": "For each game object",
+      "description": "Iterates through all game objects in the game world and runs the contained actions for each object.",
+      "category": "Loops & Iteration",
+      "properties": [
+        { "name": "Filter", "type": "GameObject filter" }
+      ],
+      "output": null,
+      "api_mapping": "Iterates through DreamBot's GameObject container.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    },
+    {
+      "id": 70,
+      "name": "Repeat every X seconds",
+      "description": "Repeats the contained actions every specified number of seconds.",
+      "category": "Loops & Iteration",
+      "properties": [
+        { "name": "Interval (Seconds)", "type": "integer" }
+      ],
+      "output": null,
+      "api_mapping": "Uses Java's Timer or DreamBot's loop system to repeat actions on a timer.",
+      "valid_parents": ["Any"],
+      "valid_children": ["Any"]
+    }
+]

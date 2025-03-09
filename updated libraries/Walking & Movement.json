@@ -1,0 +1,128 @@
+"Walking & Movement": [
+    {
+      "id": 117,
+      "name": "Walk to tile",
+      "description": "Walks to a specified tile coordinate in the game world.",
+      "category": "Walking & Movement",
+      "properties": [
+        { "name": "X Coordinate", "type": "integer" },
+        { "name": "Y Coordinate", "type": "integer" },
+        { "name": "Z Coordinate (optional)", "type": "integer", "optional": true }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Walking.walk(Tile) method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 118,
+      "name": "Walk to NPC",
+      "description": "Walks to an NPC matching the specified filter.",
+      "category": "Walking & Movement",
+      "properties": [
+        { "name": "NPC Filter", "type": "NPC filter" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Walking.walk(NPC.getTile()) method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 119,
+      "name": "Walk to GameObject",
+      "description": "Walks to a GameObject matching the specified filter.",
+      "category": "Walking & Movement",
+      "properties": [
+        { "name": "GameObject Filter", "type": "GameObject filter" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Walking.walk(GameObject.getTile()) method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 120,
+      "name": "Walk to Ground Item",
+      "description": "Walks to a Ground Item matching the specified filter.",
+      "category": "Walking & Movement",
+      "properties": [
+        { "name": "Ground Item Filter", "type": "Item filter" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Walking.walk(GroundItem.getTile()) method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 121,
+      "name": "Web walk to tile",
+      "description": "Uses DreamBot's web walking system to navigate to a specified tile.",
+      "category": "Walking & Movement",
+      "properties": [
+        { "name": "X Coordinate", "type": "integer" },
+        { "name": "Y Coordinate", "type": "integer" },
+        { "name": "Z Coordinate (optional)", "type": "integer", "optional": true }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's WebWalking.walk(Tile) method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 122,
+      "name": "Enable run",
+      "description": "Enables the run feature to increase movement speed.",
+      "category": "Walking & Movement",
+      "properties": [],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Walking.toggleRun(true) method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 123,
+      "name": "Disable run",
+      "description": "Disables the run feature to conserve energy.",
+      "category": "Walking & Movement",
+      "properties": [],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Walking.toggleRun(false) method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 124,
+      "name": "Check if player is moving",
+      "description": "Returns true if the player is currently moving.",
+      "category": "Walking & Movement",
+      "properties": [],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Walking.isWalking() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 125,
+      "name": "Check run energy",
+      "description": "Checks the player's current run energy percentage.",
+      "category": "Walking & Movement",
+      "properties": [],
+      "output": "Integer",
+      "api_mapping": "Uses DreamBot's Walking.getRunEnergy() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 126,
+      "name": "Wait until destination reached",
+      "description": "Waits until the player arrives at their target destination.",
+      "category": "Walking & Movement",
+      "properties": [
+        { "name": "Timeout (Seconds)", "type": "integer" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's conditional wait system.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    }
+]

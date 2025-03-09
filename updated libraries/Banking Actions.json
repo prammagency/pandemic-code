@@ -1,0 +1,150 @@
+"Banking Actions": [
+    {
+      "id": 105,
+      "name": "Open bank",
+      "description": "Opens the nearest accessible bank or a specified bank location.",
+      "category": "Banking Actions",
+      "properties": [
+        { "name": "Bank Location", "type": "text", "optional": true }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Bank.open() or Bank.open(BankLocation) method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 106,
+      "name": "Close bank",
+      "description": "Closes the currently open bank interface.",
+      "category": "Banking Actions",
+      "properties": [],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Bank.close() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 107,
+      "name": "Deposit item",
+      "description": "Deposits a specified item from the inventory into the bank.",
+      "category": "Banking Actions",
+      "properties": [
+        { "name": "Item Filter", "type": "Item filter" },
+        { "name": "Quantity", "type": "integer", "optional": true }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Bank.deposit() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 108,
+      "name": "Deposit all items",
+      "description": "Deposits all inventory items into the bank.",
+      "category": "Banking Actions",
+      "properties": [],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Bank.depositAllItems() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 109,
+      "name": "Withdraw item",
+      "description": "Withdraws a specified item from the bank into the inventory.",
+      "category": "Banking Actions",
+      "properties": [
+        { "name": "Item Filter", "type": "Item filter" },
+        { "name": "Quantity", "type": "integer", "optional": true }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Bank.withdraw() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 110,
+      "name": "Withdraw all items",
+      "description": "Withdraws all available items from the bank.",
+      "category": "Banking Actions",
+      "properties": [
+        { "name": "Item Filter", "type": "Item filter" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Bank.withdrawAll() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 111,
+      "name": "Check bank item count",
+      "description": "Counts the total number of specified items in the bank.",
+      "category": "Banking Actions",
+      "properties": [
+        { "name": "Item Filter", "type": "Item filter" }
+      ],
+      "output": "Integer",
+      "api_mapping": "Uses DreamBot's Bank.count() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 112,
+      "name": "Check if bank contains item",
+      "description": "Checks if a specified item exists in the bank.",
+      "category": "Banking Actions",
+      "properties": [
+        { "name": "Item Filter", "type": "Item filter" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Bank.contains() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 113,
+      "name": "Deposit equipment",
+      "description": "Deposits all equipped gear into the bank.",
+      "category": "Banking Actions",
+      "properties": [],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Bank.depositEquipment() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 114,
+      "name": "Deposit worn items",
+      "description": "Deposits all currently worn gear into the bank.",
+      "category": "Banking Actions",
+      "properties": [],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Bank.depositWornItems() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 115,
+      "name": "Enable bank deposit mode",
+      "description": "Enables the bank deposit mode (e.g., inventory-only mode).",
+      "category": "Banking Actions",
+      "properties": [
+        { "name": "Deposit Mode", "type": "text" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Bank.setDepositMode() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 116,
+      "name": "Disable bank deposit mode",
+      "description": "Disables the current deposit mode in the bank.",
+      "category": "Banking Actions",
+      "properties": [],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Bank.setDepositMode(Bank.DepositMode.NONE) method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    }
+]

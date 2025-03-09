@@ -1,0 +1,150 @@
+"Entity Interactions": [
+    {
+      "id": 84,
+      "name": "Interact with NPC",
+      "description": "Interacts with an NPC matching the specified filter using the provided action (e.g., 'Talk-to', 'Attack').",
+      "category": "Entity Interactions",
+      "properties": [
+        { "name": "NPC Filter", "type": "NPC filter" },
+        { "name": "Action", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's NPC.interact() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 85,
+      "name": "Attack NPC",
+      "description": "Attacks an NPC matching the specified filter.",
+      "category": "Entity Interactions",
+      "properties": [
+        { "name": "NPC Filter", "type": "NPC filter" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's NPC.interact('Attack') method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 86,
+      "name": "Talk to NPC",
+      "description": "Talks to an NPC matching the specified filter.",
+      "category": "Entity Interactions",
+      "properties": [
+        { "name": "NPC Filter", "type": "NPC filter" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's NPC.interact('Talk-to') method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 87,
+      "name": "Pickpocket NPC",
+      "description": "Pickpockets an NPC matching the specified filter.",
+      "category": "Entity Interactions",
+      "properties": [
+        { "name": "NPC Filter", "type": "NPC filter" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's NPC.interact('Pickpocket') method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 88,
+      "name": "Use item on NPC",
+      "description": "Uses an item from the inventory on an NPC matching the specified filter.",
+      "category": "Entity Interactions",
+      "properties": [
+        { "name": "Item Filter", "type": "Item filter" },
+        { "name": "NPC Filter", "type": "NPC filter" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's InventoryItem.useOn(NPC) method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 89,
+      "name": "Examine NPC",
+      "description": "Examines an NPC matching the specified filter.",
+      "category": "Entity Interactions",
+      "properties": [
+        { "name": "NPC Filter", "type": "NPC filter" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's NPC.interact('Examine') method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 90,
+      "name": "Interact with GameObject",
+      "description": "Interacts with a GameObject matching the specified filter using the provided action (e.g., 'Open', 'Close').",
+      "category": "Entity Interactions",
+      "properties": [
+        { "name": "GameObject Filter", "type": "GameObject filter" },
+        { "name": "Action", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's GameObject.interact() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 91,
+      "name": "Examine GameObject",
+      "description": "Examines a GameObject matching the specified filter.",
+      "category": "Entity Interactions",
+      "properties": [
+        { "name": "GameObject Filter", "type": "GameObject filter" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's GameObject.interact('Examine') method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 92,
+      "name": "Interact with Ground Item",
+      "description": "Interacts with a Ground Item matching the specified filter using the provided action (e.g., 'Take', 'Examine').",
+      "category": "Entity Interactions",
+      "properties": [
+        { "name": "Ground Item Filter", "type": "Item filter" },
+        { "name": "Action", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's GroundItem.interact() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 93,
+      "name": "Take Ground Item",
+      "description": "Picks up a Ground Item matching the specified filter.",
+      "category": "Entity Interactions",
+      "properties": [
+        { "name": "Ground Item Filter", "type": "Item filter" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's GroundItem.interact('Take') method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 94,
+      "name": "Use item on GameObject",
+      "description": "Uses an item from the inventory on a GameObject matching the specified filter.",
+      "category": "Entity Interactions",
+      "properties": [
+        { "name": "Item Filter", "type": "Item filter" },
+        { "name": "GameObject Filter", "type": "GameObject filter" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's InventoryItem.useOn(GameObject) method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    }
+]

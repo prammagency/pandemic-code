@@ -1,0 +1,182 @@
+"Variable Operations": [
+    {
+      "id": 71,
+      "name": "Set variable",
+      "description": "Assigns a specified value to a named variable.",
+      "category": "Variable Operations",
+      "properties": [
+        { "name": "Variable Name", "type": "text" },
+        { "name": "Value", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Uses PSC's internal variable store system.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 72,
+      "name": "Increment variable",
+      "description": "Increases the specified numeric variable by a given value.",
+      "category": "Variable Operations",
+      "properties": [
+        { "name": "Variable Name", "type": "text" },
+        { "name": "Increment Value", "type": "integer" }
+      ],
+      "output": null,
+      "api_mapping": "Uses PSC's internal variable system with increment logic.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 73,
+      "name": "Decrement variable",
+      "description": "Decreases the specified numeric variable by a given value.",
+      "category": "Variable Operations",
+      "properties": [
+        { "name": "Variable Name", "type": "text" },
+        { "name": "Decrement Value", "type": "integer" }
+      ],
+      "output": null,
+      "api_mapping": "Uses PSC's internal variable system with decrement logic.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 74,
+      "name": "Add variable to another",
+      "description": "Adds the value of one variable to another variable.",
+      "category": "Variable Operations",
+      "properties": [
+        { "name": "Source Variable", "type": "text" },
+        { "name": "Target Variable", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Uses PSC's internal variable system to combine values.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 75,
+      "name": "Subtract variable from another",
+      "description": "Subtracts the value of one variable from another variable.",
+      "category": "Variable Operations",
+      "properties": [
+        { "name": "Source Variable", "type": "text" },
+        { "name": "Target Variable", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Uses PSC's internal variable system to subtract values.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 76,
+      "name": "Multiply variable",
+      "description": "Multiplies the specified variable by a given value.",
+      "category": "Variable Operations",
+      "properties": [
+        { "name": "Variable Name", "type": "text" },
+        { "name": "Multiplier", "type": "integer" }
+      ],
+      "output": null,
+      "api_mapping": "Uses PSC's internal variable multiplication logic.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 77,
+      "name": "Divide variable",
+      "description": "Divides the specified variable by a given value.",
+      "category": "Variable Operations",
+      "properties": [
+        { "name": "Variable Name", "type": "text" },
+        { "name": "Divisor", "type": "integer" }
+      ],
+      "output": null,
+      "api_mapping": "Uses PSC's internal variable division logic.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 78,
+      "name": "Clear variable",
+      "description": "Removes a specified variable from memory.",
+      "category": "Variable Operations",
+      "properties": [
+        { "name": "Variable Name", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Deletes the variable from PSC's internal memory.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 79,
+      "name": "Clear all variables",
+      "description": "Removes all stored variables from PSC's memory.",
+      "category": "Variable Operations",
+      "properties": [],
+      "output": null,
+      "api_mapping": "Clears PSC's entire variable memory system.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 80,
+      "name": "Set random integer",
+      "description": "Assigns a random integer value to the specified variable within a defined range.",
+      "category": "Variable Operations",
+      "properties": [
+        { "name": "Variable Name", "type": "text" },
+        { "name": "Min Value", "type": "integer" },
+        { "name": "Max Value", "type": "integer" }
+      ],
+      "output": null,
+      "api_mapping": "Uses `Random.nextInt()` logic from Java to assign a random integer.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 81,
+      "name": "Set random decimal",
+      "description": "Assigns a random decimal value to the specified variable within a defined range.",
+      "category": "Variable Operations",
+      "properties": [
+        { "name": "Variable Name", "type": "text" },
+        { "name": "Min Value", "type": "decimal" },
+        { "name": "Max Value", "type": "decimal" }
+      ],
+      "output": null,
+      "api_mapping": "Uses `Math.random()` logic from Java to assign a random decimal.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 82,
+      "name": "Copy variable value",
+      "description": "Copies the value of one variable to another variable.",
+      "category": "Variable Operations",
+      "properties": [
+        { "name": "Source Variable", "type": "text" },
+        { "name": "Target Variable", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Uses PSC's internal variable duplication system.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 83,
+      "name": "Store NPC as variable",
+      "description": "Stores a selected NPC as a variable for later reference.",
+      "category": "Variable Operations",
+      "properties": [
+        { "name": "NPC Filter", "type": "NPC filter" },
+        { "name": "Variable Name", "type": "text" }
+      ],
+      "output": null,
+      "api_mapping": "Uses DreamBot's NPC container to select NPC entities.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    }
+  ]

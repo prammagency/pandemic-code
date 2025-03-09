@@ -16,28 +16,28 @@ import logging.handlers
 import shutil
 from typing import Dict, List, Set, Tuple, Optional
 
-def sanitize_path(path: str) -> str:
+def sanitize_filename(filename: str) -> str:
     """
-    Sanitize file paths to ensure cross-platform compatibility.
+    Sanitize filenames (not paths) to ensure cross-platform compatibility.
     
     Args:
-        path: Input file path
+        filename: Input filename (not full path)
     
     Returns:
-        Sanitized path safe for file systems
+        Sanitized filename safe for file systems
     """
     # Ensure input is a string
-    if not isinstance(path, str):
-        path = str(path)
+    if not isinstance(filename, str):
+        filename = str(filename)
     
     # Remove invalid filename characters
     invalid_chars = r'<>:"/\|?*'
-    sanitized_path = ''.join(char for char in path if char not in invalid_chars)
+    sanitized_filename = ''.join(char for char in filename if char not in invalid_chars)
     
     # Replace multiple consecutive spaces
-    sanitized_path = re.sub(r'\s+', ' ', sanitized_path)
+    sanitized_filename = re.sub(r'\s+', ' ', sanitized_filename)
     
-    return sanitized_path.strip()
+    return sanitized_filename.strip()
 
 def validate_and_normalize_path(path: str, must_exist: bool = False, context: str = "Path") -> str:
     """
@@ -63,80 +63,42 @@ def validate_and_normalize_path(path: str, must_exist: bool = False, context: st
         if not path:
             raise ValueError(f"{context} cannot be empty")
         
-        # Expand user directory and resolve symlinks
+        # Expand user directory and normalize path
         expanded_path = os.path.expanduser(path)
-        normalized_path = os.path.realpath(expanded_path)
+        normalized_path = os.path.normpath(expanded_path)
         
         # Ensure absolute path
         if not os.path.isabs(normalized_path):
             normalized_path = os.path.abspath(normalized_path)
         
-        # Sanitize path (remove invalid characters)
-        sanitized_path = sanitize_path(normalized_path)
-        
         # Check existence if required
-        if must_exist:
-            if not os.path.exists(sanitized_path):
-                raise FileNotFoundError(f"{context} does not exist: {sanitized_path}")
-            
-            # Additional checks for read/write permissions
-            if not os.access(sanitized_path, os.R_OK | os.W_OK):
-                raise PermissionError(f"No read/write permission for {context}: {sanitized_path}")
+        if must_exist and not os.path.exists(normalized_path):
+            raise FileNotFoundError(f"{context} does not exist: {normalized_path}")
         
-        return sanitized_path
+        return normalized_path
     
     except Exception as e:
-        logger.error(f"{context} validation error: {e}")
+        logger.error(f"{context} validation error: {str(e)}")
         raise
 
-def configure_logging(log_file="hierarchy_updater.log", log_level=logging.INFO):
-    """
-    Configure comprehensive logging with rotation and detailed formatting.
-    
-    Args:
-        log_file: Path to the log file
-        log_level: Logging level
-    
-    Returns:
-        Configured logger
-    """
-    # Ensure log directory exists
-    log_dir = os.path.dirname(log_file)
+def configure_logging():
+    # Get the script directory
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    # Create a 'logs' directory in the parent directory (project root)
+    log_dir = os.path.join(os.path.dirname(script_dir), 'logs')
     os.makedirs(log_dir, exist_ok=True)
     
-    # Create logger
-    logger = logging.getLogger("hierarchy_updater")
-    logger.setLevel(log_level)
-    
-    # Clear any existing handlers
-    logger.handlers.clear()
-    
-    # Create file handler with rotation
-    file_handler = logging.handlers.RotatingFileHandler(
-        log_file, 
-        maxBytes=10*1024*1024,  # 10 MB
-        backupCount=5,
-        encoding='utf-8'
+    # Set up logging configuration
+    log_file = os.path.join(log_dir, 'hierarchy_updater.log')
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+        handlers=[
+            logging.FileHandler(log_file),
+            logging.StreamHandler()
+        ]
     )
-    file_handler.setLevel(log_level)
-    
-    # Create console handler
-    console_handler = logging.StreamHandler(sys.stdout)
-    console_handler.setLevel(log_level)
-    
-    # Create formatter
-    formatter = logging.Formatter(
-        '%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-        datefmt='%Y-%m-%d %H:%M:%S'
-    )
-    file_handler.setFormatter(formatter)
-    console_handler.setFormatter(formatter)
-    
-    # Add handlers to logger
-    logger.addHandler(file_handler)
-    logger.addHandler(console_handler)
-    
-    return logger
+    return logging.getLogger(__name__)
 
 # Configure logging
 logger = configure_logging()
@@ -204,6 +166,9 @@ def save_json_file(file_path: str, data: Dict, indent: int = 2) -> bool:
     try:
         # Validate and normalize path
         normalized_path = validate_and_normalize_path(file_path, context="Output JSON file")
+        
+        # Ensure directory exists
+        os.makedirs(os.path.dirname(normalized_path), exist_ok=True)
         
         with open(normalized_path, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=indent, ensure_ascii=False)
@@ -329,43 +294,62 @@ def resolve_paths(base_dir: str, category_map: Optional[str], action_hierarchy: 
     Raises:
         FileNotFoundError: If no valid paths are found
     """
+    # Normalize base directory
+    base_dir = os.path.normpath(os.path.abspath(base_dir))
     script_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    # List of potential paths to check (in order of priority)
+    category_map_paths = []
+    action_hierarchy_paths = []
+    
+    # Add user-specified paths if provided
+    if category_map:
+        category_map_paths.append(category_map)
+    if action_hierarchy:
+        action_hierarchy_paths.append(action_hierarchy)
+    
+    # Add paths relative to base_dir
+    category_map_paths.append(os.path.join(base_dir, 'mapping', 'ActionID_CategoryMap.json'))
+    action_hierarchy_paths.append(os.path.join(base_dir, 'libraries', 'action_hierarchy_library.json'))
+    
+    # Add paths relative to script_dir's parent
     parent_dir = os.path.dirname(script_dir)
-
-    # Potential paths for category map
-    category_map_paths = [
-        category_map,
-        os.path.join(parent_dir, 'mapping', 'ActionID_CategoryMap.json'),
-        os.path.join(base_dir, 'mapping', 'ActionID_CategoryMap.json'),
-        os.path.join(script_dir, 'ActionID_CategoryMap.json')
-    ]
-
-    # Potential paths for action hierarchy
-    action_hierarchy_paths = [
-        action_hierarchy,
-        os.path.join(parent_dir, 'libraries', 'action_hierarchy_library.json'),
-        os.path.join(base_dir, 'libraries', 'action_hierarchy_library.json'),
-        os.path.join(script_dir, 'action_hierarchy_library.json')
-    ]
-
-    # Find first valid category map path
-    category_map_path = next((
-        path for path in category_map_paths 
-        if path and os.path.exists(validate_and_normalize_path(path, must_exist=True))
-    ), None)
-
-    # Find first valid action hierarchy path
-    action_hierarchy_path = next((
-        path for path in action_hierarchy_paths 
-        if path and os.path.exists(validate_and_normalize_path(path, must_exist=True))
-    ), None)
-
+    category_map_paths.append(os.path.join(parent_dir, 'mapping', 'ActionID_CategoryMap.json'))
+    action_hierarchy_paths.append(os.path.join(parent_dir, 'libraries', 'action_hierarchy_library.json'))
+    
+    # Add paths relative to script_dir
+    category_map_paths.append(os.path.join(script_dir, 'mapping', 'ActionID_CategoryMap.json'))
+    action_hierarchy_paths.append(os.path.join(script_dir, 'libraries', 'action_hierarchy_library.json'))
+    
+    # Check each path
+    category_map_path = None
+    for path in category_map_paths:
+        try:
+            if os.path.exists(path):
+                category_map_path = path
+                break
+        except:
+            continue
+    
+    action_hierarchy_path = None
+    for path in action_hierarchy_paths:
+        try:
+            if os.path.exists(path):
+                action_hierarchy_path = path
+                break
+        except:
+            continue
+    
     if not category_map_path:
-        raise FileNotFoundError("Could not find a valid category map file")
+        raise FileNotFoundError(f"Could not find a valid category map file. Searched: {', '.join(category_map_paths)}")
     
     if not action_hierarchy_path:
-        raise FileNotFoundError("Could not find a valid action hierarchy file")
-
+        raise FileNotFoundError(f"Could not find a valid action hierarchy file. Searched: {', '.join(action_hierarchy_paths)}")
+    
+    # Normalize paths
+    category_map_path = os.path.normpath(os.path.abspath(category_map_path))
+    action_hierarchy_path = os.path.normpath(os.path.abspath(action_hierarchy_path))
+    
     return category_map_path, action_hierarchy_path
 
 def update_hierarchy(hierarchy_path: str, category_map_path: str, dry_run: bool = False) -> Tuple[bool, int]:

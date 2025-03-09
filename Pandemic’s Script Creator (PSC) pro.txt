@@ -1,0 +1,482 @@
+Pandemic’s Script Creator (PSC) provides 1000+ pre-defined actions and robust scripting constructs to build OldSchool RuneScape bot scripts without coding. These actions wrap the DreamBot API, letting you perform virtually any game interaction available in DreamBot’s Java API​
+DREAMBOT.ORG
+. Below, we break down every component of PSC – the Action Catalog, Filter System, Properties, Control Flow, and Variables – and map them to DreamBot classes/methods, with usage examples, edge cases, and limitations.
+1. PSC Action Catalog
+PSC organizes its extensive action library into categories (and sub-categories), each corresponding to a domain of game interaction or scripting logic. Every PSC action has a unique ID (an uppercase code) and belongs to a category. Actions can be branches (conditions/loops that have child actions) or leaf actions (perform tasks, usually with no children). PSC’s actions mirror DreamBot’s API capabilities​
+DREAMBOT.ORG
+, so we highlight their mapping to DreamBot classes and methods. Action Hierarchy: The table below summarizes key PSC categories and example actions in each (with their DreamBot mapping in parentheses):
+Script: High-level script controls and checks (e.g. If logged in – checks Client.isLoggedIn(); Logout – calls Client.logout()).
+Logic: Flow control connectors Else, Or, And (combine conditions, no direct DreamBot mapping; analogous to else, logical ||, && in code).
+Loops: Loop structures like While and For Each (implemented via PSC’s own engine, analogous to Java loops).
+Variables: Checking or setting variables (no direct DreamBot calls; internal state management).
+Entities: Player and world entity interactions:
+Our Player: e.g. If our player is poisoned – checks status via Player.isPoisoned().
+NPC: Interact with an NPC – finds an NPC by filter and calls NPC.interact("Action")​
+PSC.DEV
+.
+Game Object: Interact with a Game Object – uses GameObject.interact("Action").
+Ground Item: Interact with Ground Item – uses GroundItem.interact() (pickup).
+Player: If player exists – checks nearby players via Players.closest() with filter.
+Projectile/Graphics: If Projectile exists – checks Projectiles.all() list for a match. (Used rarely; e.g., detect arrows or spell projectiles.)
+Walking: Movement and pathfinding actions (wrap DreamBot’s Walking/TilePath): Walk to area – calls Walking.walk(area) (leveraging DreamBot’s web walker).
+Inventory: Item use and inventory checks (wrap DreamBot Inventory):
+If inventory contains match – calls Inventory.contains(item)​
+PSC.DEV
+.
+Interact with an inventory item – finds item in inventory and calls Inventory.interact(item, "Action").
+Drop all items – iterates Inventory.dropAll().
+Bank: Banking actions (wrap DreamBot Bank class):
+Open the nearest bank – uses Bank.open() which auto-walks to a bank​
+DREAMBOT.ORG
+.
+If bank contains match – checks Bank.contains(item) after ensuring open.
+Withdraw matching item – calls Bank.withdraw(item, qty) (with qty from filter)​
+DREAMBOT.ORG
+.
+Deposit all items – calls Bank.depositAllItems()​
+DREAMBOT.ORG
+.
+Sleep/Paint: Timing and paint overlay controls (e.g. Sleep X ms, Update paint text; use DreamBot’s sleep and painting API).
+Accounts/Client: World hopping, login, client control (e.g. Change world calls DreamBot world hopper; Close DreamBot Client calls Client.shutdown() internally).
+Clan Chat/Friends: Social panel actions (e.g. Send clan message, Add friend – use DreamBot’s ClanChat/Friends API).
+Dialogue: Handling NPC dialogues (e.g. Advance dialogue – calls Dialogues.continue() until no dialog).
+Grand Exchange: Trading actions (wrap DreamBot GE API): Buy item by name – opens GE and places a buy offer (calls GrandExchange.open() then GrandExchange.buyItem(...)), etc.
+Combat/Prayer/Magic: Combat actions (activate prayers, cast spells using DreamBot’s Prayer, Magic classes).
+Shop/Trade: Shop menu and player trade actions (Shop and trade interfaces).
+Skill Tracker: XP tracking toggles.
+Sockets/Discord: Networking – e.g. sending messages to Discord or opening sockets (invokes PSC’s external integrations, not directly DreamBot).
+Tabs/Keyboard/Mouse/Text: GUI and input control (DreamBot Tabs.open(tab), Keyboard.type(...), Mouse.move(...), reading on-screen text).
+Timer: Timers for breaks or custom timing (not a DreamBot API feature – PSC internal).
+World: World data checks (e.g. If in members world – checks world number via Client.getCurrentWorld() and membership flag).
+Parent/Child Rules: PSC enforces logical nesting: branch actions (usually prefixed “If …”, or loop actions like “While …”) must have child actions indented under them (the code to execute if condition passes or loop body). Leaf actions (e.g. “Open the nearest bank”) cannot have children – they simply perform an action then return. Some special connectors (Else/Or/And) act like branches that extend or modify a prior condition:
+If/While: Executes child actions if condition is true (for While, repeats). These can nest other ifs/loops inside.
+Else: Must appear immediately after an “If …” at the same indent. It runs its children if the previous sibling If failed​
+PSC.DEV
+. (Equivalent to an else block in Java.)
+And/Or: Placed between two conditions at the same level to combine them​
+PSC.DEV
+​
+PSC.DEV
+. For example, If A ✓ AND ✓ If B ✓ … means proceed only if both A and B are true​
+PSC.DEV
+. OR allows the second condition to run if the first was false (one of them must succeed)​
+PSC.DEV
+. These connectors let you avoid deeply nested ifs by chaining conditions horizontally.
+Loops: “While …” and “For each …” actions are parent nodes that repeat their child actions. An infinite loop is possible if the condition never becomes false – use Break out of loop to exit early if needed.
+Custom Actions: User-defined action groups (like functions). Inside a Custom Action, you can use Return true/false to immediately exit and indicate success/failure​
+PSC.DEV
+​
+PSC.DEV
+. Custom actions are called just by inserting them as an action (they appear in the action list by name once created).
+DreamBot API Mappings & Examples: PSC’s actions under the hood call DreamBot methods. For instance:
+Banking: When you use “Open the nearest bank”, PSC invokes Bank.open(), which triggers DreamBot’s pathfinder to find and open the nearest bank​
+DREAMBOT.ORG
+. On success the action “fires” (turns green in PSC UI). “Deposit all items” uses Bank.depositAllItems() to empty inventory​
+DREAMBOT.ORG
+. A known limitation is that DreamBot’s bank opener can sometimes get stuck if the path is complex (e.g. in Lumbridge swamp) – this is a DreamBot quirk and can affect PSC’s bank action (anecdotally noted on forums). Edge-case: if no bank is reachable, Open bank will keep trying until timeout – ensure your player is near a bank or handle failure with an if-condition.
+Inventory: “Drop all items” will loop through inventory calling Inventory.dropAll() (which in DreamBot drops in a batch) – efficient except it won’t drop un-droppable items (those are simply skipped). “Interact with inventory item” finds the item by name/ID and calls Inventory.interact(item, "Use") or the specified action. If the item isn’t found, the PSC action fails (turns red) and its children won’t run. Use an If inventory contains check before interacting to avoid errors.
+NPC Interaction: “Interact with an NPC” uses DreamBot’s NPC API to find the first NPC matching the filter, then calls NPC.interact("Action"). For example, if Action = “Talk-to”, it right-clicks the NPC and selects Talk-to​
+PSC.DEV
+. Logic inversion: PSC provides “If NPC doesn’t exist” separately, rather than making you negate the condition – internally it just checks the same condition but inverts the result (no direct DreamBot method, it’s equivalent to if(NPCs.closest(filter)==null)). Edge-case: If multiple NPCs match, DreamBot’s closest() is used – ensure your filter is specific (e.g., add an ID or area filter) if you don’t want a random one.
+Game Objects: “If Game Object exists” -> uses GameObjects.closest(filter) to check existence​
+PSC.DEV
+; “Interact with a Game Object” -> calls GameObject.interact("Action") on the found object. Example: Open door action would find the door by name or ID and call interact("Open"). A limitation is if the object is far, DreamBot will attempt to walk to it (unless “Don’t walk” property is true). PSC exposes a “Don’t walk to object” boolean – if false (default), DreamBot will auto-path to the object before interacting​
+FILE-DFAYSV6FQXZ9EG22SWLFPP
+. If true, the action will fail unless the object is already reachable.
+Walking: “Walk to area” leverages DreamBot’s web walking. You provide an Area, and PSC calls Walking.walk(area.getRandomTile()). If the area is multi-tile, it chooses a random tile in the area (DreamBot ensures eventual arrival) – you might see the bot running long distances as it computes a path. Edge-case: if the area is very far (e.g., another continent with no path), the action will fail. Always ensure a reachable area or break the journey into steps.
+Client/World: Actions like “Change world” or “Hop to random F2P world” use DreamBot’s world hopper (e.g. WorldHopper.hopWorld(worldID)). “Close DreamBot Client” calls the DreamBot client shutdown – it will terminate the script; PSC will stop afterward. Use such actions carefully (e.g., after logging out or at script end).
+Grand Exchange: “Buy item by name” in PSC opens the GE and submits a buy offer. Under the hood, PSC calls GrandExchange.open() (waits for GE interface) then uses DreamBot’s GrandExchange.buyItem(name, price, qty). A known limitation: DreamBot’s GE API assumes the GE is open – PSC handles opening it for you, but if the GE is crowded and your click misses, the action might time out. PSC doesn’t automatically retry the whole buy action on failure – you’d need to handle an “If offer exists” check or loop to retry.
+Misc: “Pause/Resume random solver” – PSC can toggle DreamBot’s built-in random event solvers (calls SolverManager.enableSolver(...) for things like Sandwich Lady solver). “Use ChatGPT” action (if present in Set Variable To → ChatGPT) sends a prompt to an AI and stores the response – it doesn’t map to the game API but rather an external API.
+Known Limitations: While PSC covers most DreamBot functionalities, a few edge cases exist:
+Some DreamBot methods are not instantaneous – e.g., Bank.open() returns false while walking, then true when the bank opens​
+DREAMBOT.ORG
+. PSC actions like Open bank handle this by internally waiting until the bank interface is open. However, if it never opens (e.g., no path), the action will eventually fail. Always combine such actions with timeouts or alternate strategies.
+Concurrent actions: PSC’s Multithreading category allows parallel action sequences, but DreamBot itself isn’t truly thread-safe for all interactions. Use threads only for actions that wait or monitor (timers, updating GUI), not for two concurrent game interactions, or you may confuse the bot client.
+Anti-ban and Delays: PSC does not implicitly randomize delays between actions except where DreamBot does (e.g., SleepUntil after certain calls). It’s up to the user to insert Sleep actions or use the “Wait until …” conditions to throttle execution.
+Automated Recording: PSC can record gameplay into actions, but recorded sequences often need tweaking (e.g., adding conditions) to be robust​
+DREAMBOT.ORG
+. Known limitation: the recorder might use absolute coordinates for clicks that aren’t general – review recorded actions for hard-coded values.
+Action JSON Structure Example: PSC stores scripts in JSON. For illustration, an action with its properties and children might look like:
+json
+Copy
+Edit
+{
+  "id": "GAME_OBJECT_INTERACT",
+  "properties": {
+    "Filter Object By": {
+      "class": "GameObject",
+      "logic": "NONE",
+      "type": "NAME",
+      "operator": "EQUALS",
+      "value": "Door"
+    },
+    "Don't walk to object": false,
+    "Action": "Open"
+  },
+  "children": [
+    { "id": "SLEEP", "properties": { "Duration": 1000 } }
+  ]
+}
+This represents: Interact with Game Object (Open the object named “Door”), with a child Sleep action 1s. The class and filter fields are explained in the next section. The id corresponds to a PSC action (IDs are consistent, e.g., GAME_OBJECT_INTERACT), and the hierarchy is captured via nested children. This JSON style is used in the exported action_hierarchy_library.json (mapping all categories and actions, including their parameters, valid nesting, etc.).
+2. Filter System
+The filter system in PSC allows targeting specific game entities or data by various criteria. Filters are used in actions that need to “find” or reference something in the game world – NPCs, players, objects, items, widgets, etc. A filter consists of a filter class (the type of thing to match), a filter type (what attribute to compare, e.g. name, ID, etc.), an operator (equals, contains, >, <, etc.), and a value to match against. Filters can be combined logically. Filter Classes and Types: Major filter classes include: Item, NPC, GameObject, Player, GroundItem, Widget, Projectile, GraphicsObject, Number, and Text. Each class supports certain filter types appropriate to it:
+Item (Inventory/Bank items): Filter types: NAME (item name string), ID (item ID number), AMOUNT (stack quantity), IS_NOTE (noted vs unnoted). e.g., Filter Item By Name = "Lobster" finds lobsters. Supports string operators (equals, contains) for names and numeric operators for amounts.
+NPC: Types: NAME, ID, ACTION (an option in its right-click menu), IN_COMBAT (if NPC is currently in combat), INTERACTING (if NPC is targeting the player), DISTANCE (distance from player), AREA (if NPC is within a defined area). For boolean states like combat, PSC often provides pre-made filter types that imply true/false. For example, “NOT_IN_COMBAT” is a filter type under class Player (or NPC) that checks the entity’s combat state​
+FILE-DFAYSV6FQXZ9EG22SWLFPP
+. In JSON this appears as "type": "NOT_IN_COMBAT", "operator": "EQUALS" meaning “is not in combat equals true.” If you wanted the opposite (is in combat), you’d use operator NOT_EQUALS (meaning false)​
+FILE-DFAYSV6FQXZ9EG22SWLFPP
+.
+GameObject: Types: NAME, ID, ACTION (e.g. has “Open” option), TILE (exact location), DISTANCE, IS_EXISTS (exists in the scene). E.g., to filter “nearest bank booth”, you might use Name = “Bank booth” AND Distance < 15.
+Player: (Other players in the world) Types: NAME, ID (player IDs are not commonly known; usually Name is used), LEVEL (combat level), IS_FRIEND, NOT_IN_COMBAT etc. PSC’s If Player exists branch uses a Player filter; for example to detect any player in an area: Filter Player By Name anything (could use operator NOT_EQUALS "" on name to match any). More commonly you check if a specific player name is present or count players. (If count of players is uses a filter + a number condition, see below.)
+GroundItem: (Items on ground) Types: NAME, ID, AMOUNT, DISTANCE, AREA. For instance, If Ground Item exists uses an item filter (class GroundItem). You can specify Filter Item By Name “Coins” operator EQUALS to detect a coin pile​
+PSC.DEV
+. If combined with Amount > 1000, you’d find only valuable coin piles.
+Widget: (UI components) Types: ID (widget ID, typically combine group and child IDs), TEXT (the visible text), VISIBLE (boolean), CONTENT (for text content like messages), INDEX (position in hierarchy). PSC’s Find Widget By (widget matcher) supports text matching (Equals/Contains) or IDs. For example, to check if a dialog option is on screen: Filter Widget By Text Contains “Continue”​
+PSC.DEV
+. Allowed operators: equals, contains, etc. Since widgets can be nested, PSC also provides Widget Property filters in the Variable system to drill into widget attributes (e.g., get a widget’s text color via Variable Property, see later).
+Projectile/GraphicsObject: Types: ID (each projectile or graphic effect has an ID), TARGET (the target entity or tile). These are advanced; e.g., to detect a specific spell projectile, you’d filter by its ID. In practice, users rarely use these except for complex scripts (like dodging projectiles).
+Number: A special “filter” class for numeric comparisons (used in conditions like If inventory count of items is … or If wilderness level is …). The Number filter types are relational operators: EQUALS, NOT_EQUALS, GREATER_THAN, LESS_THAN, GREATER_OR_EQUALS, LESS_OR_EQUALS. You provide a numeric value. For example, If wilderness level is > 20 uses class Number with operator GREATER_THAN value 20.
+Text: Another special class for string matching (used in actions like If game message matches or If chatbox text contains). Operators: EQUALS, NOT_EQUALS, CONTAINS, NOT_CONTAINS, STARTS_WITH, ENDS_WITH, MATCHES_REGEX. The value is the string or regex pattern. DreamBot often uses regex for chat messages – PSC allows direct string contains or full regex depending on use.
+Skill: (Often treated as a value rather than filter) PSC has a Skill type for selecting a skill (e.g., in If skill level is conditions). It’s essentially an enum selection (Attack, Defence, etc.), paired with a Number filter for the level. For example, If current skill level is ≥ 50 (Skill: Strength) – PSC sets Skill=Strength and uses a Number>=50 for the level.
+Filter Operators: As noted, operators depend on the data type:
+Equality: EQUALS / NOT_EQUALS for any type (string, number, boolean, enum). For booleans, EQUALS typically means “is true” and NOT_EQUALS means “is false” when no explicit value is given (PSC assumes the filter type itself implies a boolean state, like NOT_IN_COMBAT as true/false flag).
+String containment: CONTAINS / NOT_CONTAINS, STARTS_WITH / ENDS_WITH for text fields. (E.g., Name CONTAINS “Oak” matches “Oak tree”). Case is usually exact match (case-sensitive) because the game’s names and texts are case-specific. Regex matching is possible via a specialized action (e.g., If game message matches uses regex).
+Numeric comparison: GREATER_THAN, LESS_THAN, GREATER_OR_EQUALS, LESS_OR_EQUALS for numbers (level, quantity, etc.).
+List membership: IS_IN_LIST / IS_NOT_IN_LIST to check if a value is a member of a list variable. For example, Filter Item By Name operator IS_IN_LIST value list(FOOD_ITEMS) would return true if the item’s name is one of the names in the list variable FOOD_ITEMS​
+FILE-DFAYSV6FQXZ9EG22SWLFPP
+. This is powerful for checking “one of many” without multiple OR conditions.
+Combining Filters: You can combine multiple criteria for the same filter target using the logic field. In PSC’s UI, when configuring (say) an NPC filter, you can add multiple conditions (e.g., Name = “Goblin” AND Distance < 5). Internally, PSC represents this with a logic attribute on the filter object:
+logic: "ALL" means all sub-conditions must be true (logical AND).
+logic: "ANY" means at least one condition must be true (logical OR).
+logic: "NONE" typically indicates a single condition (no combination)​
+FILE-DFAYSV6FQXZ9EG22SWLFPP
+. In JSON, combined filters are represented as an array of filter objects or a composite structure (the PSC JSON snippet in user_files shows each filter separately with a logic link). For example, to filter an NPC by Name “Goblin” and Action “Attack”: logic ALL with two conditions (Name EQUALS Goblin, Action EQUALS Attack). PSC ensures the NPC satisfies both. If logic ANY were used, it would match NPCs named Goblin or (if different condition) that have an Attack option.
+PSC does not expose an explicit NOT logic aside from choosing an inverse operator or filter type. For negation, you typically either use NOT_EQUALS or use the opposite filter (e.g., If NPC doesn’t exist rather than NOT on If NPC exists).
+Example Filter Configurations:
+Example 1: If NPC exists (Goblin not in combat): Properties: Filter NPC By – class NPC, logic ALL, containing two sub-filters: {type: "NAME", operator: "EQUALS", value: "Goblin"} AND {type: "NOT_IN_COMBAT", operator: "EQUALS"}. This fires only if a Goblin is present and currently not fighting​
+FILE-DFAYSV6FQXZ9EG22SWLFPP
+.
+Example 2: Interact with Ground Item (pick up bones within 5 tiles): Filter Item By – class GroundItem, logic ALL, filters: Name EQUALS "Bones", Distance LESS_THAN_OR_EQUALS 5. Operator EQUALS on Name is exact (could also do CONTAINS "Bones" if partial match needed). The action will target the closest ground item meeting those criteria and call pick-up.
+Example 3: If list contains variable value: This uses two filters in different contexts – it checks if a given value (perhaps in a variable) is in a list. For instance, after setting var CURRENT_TASK = "MINING", one could use If list contains (List name: TASKS, Value: v(CURRENT_TASK)) to see if “MINING” is one of the tasks in that list. Under the hood this uses IS_IN_LIST operator against the list.
+Example 4: Widget filter example: If widget exists (Continue button): Filter Widget By – class Widget with Text CONTAINS “Continue” and optionally Visible = true. PSC will search the UI for any widget whose text contains “Continue” (commonly the dialog continue button)​
+PSC.DEV
+. If found and visible, the branch succeeds. A limitation here: if multiple widgets match (e.g., multiple “Continue” texts), PSC likely takes the first found. To be specific, you could include a Parent ID or use a more specific text.
+Allowed Filter Combinations: Not all combinations make sense – PSC generally restricts filter classes to relevant actions. For example, an NPC filter is only allowed in NPC-related actions (you cannot directly use an NPC filter in an Inventory action – the UI won’t offer it). Within a filter, you can mix types freely under logic ALL/ANY (subject to logic semantics). Some filters implicitly conflict: e.g., filtering an NPC by ID and Name that don’t correspond will simply yield no result (script just won’t find anything – not an error, just no branch fire). There is no hard “invalid combination” error; it’s up to script logic. However, certain actions expect specific filter types: for instance, Add matching NPCs to list (in Variables > Lists) expects an NPC filter that usually includes a Name or other identifier – if you leave it too broad (no name/id), it will add all NPCs in the scene. Always try to specify at least one identifying filter to avoid unintended matches. Edge Cases: Filter logic can sometimes yield unexpected matches:
+Using CONTAINS on names can match more than intended. E.g., Name CONTAINS "oak" will match “Oak tree” but also “Oak plank” if such exists. Prefer equals when exact match is known.
+Distance filters measure straight-line distance in tiles. An object behind a wall within 2 tiles might satisfy Distance<3 but still be unreachable. The action might spam clicks; consider also using an area or line-of-sight check if critical.
+Multiple matches: If a filter finds multiple entities, PSC generally uses the first or closest. DreamBot usually picks closest for closest(filter). If you specifically need all matches, use an action that collects multiple (e.g., Add matching Ground Items to list will gather all items meeting the filter). Then you can iterate with a loop.
+Filter evaluation cost: Most filters are cheap (name/id checks). Extensive use of regex or very broad filters (like no criteria, meaning scanning all entities) can be slower. If you notice lag, refine your filters or limit frequency (e.g., don’t check every game tick if not needed).
+In summary, the filter system is very flexible – it mirrors DreamBot’s filtering (which also uses name/ID and predicate filters). PSC’s filter_types_library.json enumerates all filter classes, their allowed type values, and valid operators, with examples. This library serves as a reference for constructing complex filters and understanding which operators apply (for instance, string vs numeric vs boolean contexts).
+3. Properties and Parameters in Actions
+Every PSC action may have properties (parameters) that configure its behavior. Understanding property types, formats, and special syntax is essential for using actions correctly. Properties appear in the PSC UI as input fields or toggles. In the JSON representation, they are name-value pairs under "properties" for an action​
+FILE-DFAYSV6FQXZ9EG22SWLFPP
+. Property Types: Common types include:
+text: Plain text input. Used for names, chat messages, URLs, file paths, etc. Example: “Value (text)” property in Set Variable to Value expects a string​
+PSC.DEV
+. If you need an integer, you’d still enter it as text (the system will parse to number in contexts that require number). Some text fields have special meanings (see special syntax below).
+number: Numeric input. Some fields explicitly denote expecting a number (e.g., Duration (ms) in Sleep action, X coordinate, Amount). These accept integers (and sometimes accept numeric expressions or variables via syntax). If a decimal is needed (e.g., Gaussian mean for random number), PSC likely expects a numeric text that it will parse to double. Generally, provide integers unless you know a field uses float (the docs usually say if so).
+boolean: True/false toggles. Shown as checkboxes in PSC. In JSON, they appear as false or true (unquoted). Example: "Don't walk to object": false in the GameObject interact properties​
+FILE-DFAYSV6FQXZ9EG22SWLFPP
+. Unchecked = false (default), checked = true. Default values: Booleans default to false unless otherwise noted. For instance, “Force left click” is false unless you check it (meaning DreamBot will right-click if needed rather than always left-clicking).
+choice (enumeration): Dropdown selections for a fixed set of options. E.g., selecting a Skill (Attack, Strength, etc.), or Withdraw mode (Item/Noted), or Prayer name. In JSON this is often represented by a text value but the property name or class indicates its type. Example: "Skill": { "class": "Skill", "value": "PRAYER" } for selecting the Prayer skill​
+FILE-DFAYSV6FQXZ9EG22SWLFPP
+. PSC ensures the value is one of the allowed constants (it will reject invalid ones).
+entity filter (matcher): As discussed, properties named like “Filter ___ By” expect a filter object rather than a simple value. In JSON, these are structured (class, logic, type, etc.). In the UI, a special dialog is used to configure them. They appear as single property in the list, but actually encapsulate multiple sub-fields. E.g., Filter NPC By (npc matcher) is one property group with its own UI form​
+PSC.DEV
+. When viewing property_values_library.json, such properties may be represented by a placeholder indicating the filter structure.
+area: PSC allows specifying areas for actions (like “Walk to area” or filtering by area). Area can be input via a special picker (in-game selection or coordinates text). The format for manual entry is either "x1, y1, x2, y2" for a rectangular area corners​
+PSC.DEV
+ or a single coordinate for a 1-tile area. To include height (plane), use (x, y, z), (x2, y2, z) format​
+PSC.DEV
+. You can also define polygonal areas by listing more than two points separated by commas. PSC will form the polygon. Multiple Areas: You can input multiple areas separated by a colon :​
+PSC.DEV
+. This means the action will consider the entity to be in any of those areas (for walking, it will go to the nearest of them). Example: "Area": "3200, 3200, 3210, 3210: 3220, 3220, 3230, 3230" would treat two separate 11x11 areas as the target area(s). In JSON, area might just be a text string or a reference to a variable (see below).
+coordinates (tile): Some actions accept a single Tile coordinate (x, y, z). The format is either x, y (assumes ground level) or (x, y, z).
+variable reference: Many property fields can accept not just literals but references to variables. The special syntax for inserting a variable’s value is v(VARIABLE_NAME). For list variables, use list(LIST_NAME), and for map values maybe map(MAP_NAME.key) (though PSC often provides dedicated actions to get from maps, see below). Example: to use a stored value, Set camera angle to v(SAVED_ANGLE) would retrieve the numeric value in SAVED_ANGLE. In JSON, we see value: "v(AREA_CHAOS_TEMPLE_ALTAR)" which indicates an Area variable being used​
+FILE-DFAYSV6FQXZ9EG22SWLFPP
+. Default behavior: If a variable reference is used but that variable is not set yet, it may default to 0 or empty string (or simply not match anything, depending on context). Always ensure the variable is set before using it in a filter or action.
+list/map reference: Using list(NAME) in a filter value checks membership as discussed. You can also use list(NAME) in other contexts, like “Random item from list” action uses the list’s contents. For map, the notation MapName.KeyName is used in some actions (like For each key in map, you supply MapName and PSC iterates keys; if you needed a nested map, you do OuterMap.InnerMap with a dot​
+PSC.DEV
+). PSC’s Set variable to key’s value expects a map name and key. If the key or map doesn’t exist, it fails gracefully (does nothing).
+Variable Patterns in Properties: Summaries:
+v(MY_VAR) – value of variable MY_VAR (could be string or number or object reference).
+list(MY_LIST) – denotes all values in list MY_LIST (used in filters “is in list”). Also used in some actions like Add all to list which takes a list name and a source list variable.
+map(MY_MAP.key) – This pattern isn’t directly used in filters, but PSC might allow e.g. list(MY_MAP.keySet()) indirectly via actions. More often, use dedicated map actions instead of inline syntax. However, dot notation is used when specifying nested keys (e.g., to access a map inside a map, as noted).
+Special placeholders: In certain text fields, PSC provides dynamic placeholders. E.g., in Open URL action, you might use a variable for the URL. Or in Send Discord message, you can embed a variable’s value by referencing it. There’s also QuickStart parameters list which grabs command-line arguments.
+Default Values and Constraints:
+Defaults: PSC tries to supply safe defaults where possible. Booleans default to false (unchecked). Numeric fields might default to 0 (which could be unsafe in some cases, e.g., “Withdraw quantity” default 0 would withdraw all – PSC mitigates by requiring you set it or using a specific action like Withdraw all). Text fields default to empty. If you leave a required text empty, PSC will usually treat it as an error or do nothing. For example, leaving “Action” blank in an Interact action means PSC will attempt a default left-click. In DreamBot, npc.interact("") would just left-click the NPC (which triggers the first option). So if you want the default action, you can leave the Action field blank – PSC implicitly handles it as left-click. This is not always documented, but is a known behavior (e.g., to simply left-click a tree, one might leave action blank or put “Chop down” which is the same result).
+Constraints: Certain fields expect inputs in specific formats or ranges:
+Coordinates must be within the game world bounds (PSC doesn’t let you input negatives or too large numbers for tiles).
+Names are case-sensitive and must match in-game exactly (including punctuation).
+JSON fields (like in Load Variables from JSON) must be valid JSON; PSC will throw an error if not.
+File paths should be accessible; if PSC is running in DreamBot, the path is relative to the Script’s directory or absolute. PSC will not allow writing files outside allowed directories for security.
+List/Map names follow variable naming rules – likely alphanumeric and underscores. Starting a name with a number might be disallowed. (The user manual doesn’t explicitly say, but by convention use letters, digits, underscore. PSC UI will warn if name is invalid.)
+Time (ms) fields, e.g., script runtime or delays, should be non-negative. A negative Sleep duration will likely just be treated as 0.
+Bitwise operation property expects a specific format: PSC’s Set Variable to Bitwise Operation likely has sub-properties: Variable name, Operation (AND/OR/XOR/SHIFT), Operand(s). Only valid bit ops are allowed. If misused (e.g., on non-integer strings), the result will be 0 or error.
+User input prompts: If you use Set Variable to User Input, PSC will pop up a dialog during script execution. There’s no default (script will pause waiting for input). If you cancel, PSC sets the variable to empty string (as a fail-safe).
+Special Syntax Rules:
+List and Map inline usage: As mentioned, list(NAME) and MapName.Key are special – you don’t use quotes around them when entering in PSC UI. PSC recognizes this pattern. If you actually needed the literal text “list(NAME)”, that’s unusual – but you could probably escape it by concatenating strings (no direct escape sequence known; you’d workaround by constructing via variables).
+Escaping characters: PSC generally doesn’t require escaping except for regex patterns, where \ is used in patterns. When writing JSON manually, of course quotes and backslashes need escaping, but in the PSC UI you don’t worry about that.
+Case sensitivity: Most inputs are case-sensitive (matching game entities). The exception is maybe world hop quickstart parameters or file paths on Windows (case-insensitive file system). In general, treat it as case-sensitive to avoid issues.
+Variable naming conventions: By convention, PSC’s example scripts use ALL_CAPS for constant lists or areas (e.g., AREA_CHAOS_TEMPLE_ALTAR) and CamelCase for regular variables. Technically, variable names are case-sensitive and you must use exact name when referencing. Avoid using names that clash with PSC’s internal references (like don’t name a variable “true” or “null”).
+Implicit conversions: PSC will implicitly convert types in some contexts. If an action expects a number and you give v(TEXT_VAR) which contains “123”, PSC will convert that to the number 123 (it’s effectively using DreamBot’s type parsing). If conversion fails (e.g., “abc” to number), PSC uses 0 or does nothing and likely logs a warning. Similarly, using a number where a string expected just converts to string.
+Output placeholders: Some actions produce an Output that can be used by subsequent actions (without explicitly storing to a variable). For example, If NPC exists has an Output “The matching NPC”​
+PSC.DEV
+. This means inside that branch, PSC internally knows “last output” is that NPC. Actions under that branch can use a special token to refer to it. In practice, you capture it by Set Variable to Last action’s output if you need to store it​
+PSC.DEV
+​
+PSC.DEV
+. Otherwise, certain actions automatically use it: e.g., Interact with NPC will by default act on the last found NPC if one was just found by an “If NPC exists” before it. (This is an internal optimization: PSC carries context of the last entity found of a given type). To avoid confusion, it’s recommended to explicitly use outputs via variables for clarity. The “Last Matching” property in Set Variable To category can retrieve the last entity that matched a filter if needed (this is an advanced feature that can get, say, the last NPC that an “If NPC exists” found without being in the same branch).
+In the property_values_library.json, you will find each action’s properties listed with their expected data type and any special notes (e.g., Action (text) for interact actions can be blank for default, Quantity (number) must be ≥0, etc.). This documentation, along with examples, helps ensure you format properties correctly and leverage variables/lists in your properties effectively.
+4. Control Flow Structures
+PSC’s control flow structures let you shape the execution of your script similarly to programming constructs: conditional branches, loops, jumps, and concurrency. Understanding how these correspond to logic in DreamBot (or Java) helps in structuring scripts properly and avoiding mistakes like infinite loops or unreachable code. Conditional Branches: These are “If … then …” style actions that conditionally execute child actions:
+If ... (various conditions): e.g., If inventory is full, If NPC exists, If player is in area, etc. Each begins a branch that only runs its children if the condition is true​
+PSC.DEV
+. Internally, this is like if(condition) { ... }. PSC marks the branch green (true) or red (false) in the UI as it runs.
+Else: Represents the fallback block if the previous condition was false​
+PSC.DEV
+. Must be placed right after an if-branch at the same indent. (PSC will actually prevent you from putting an Else without a preceding If.) In Java terms, it’s else { ... }. Only one Else can pair with a given If in the same scope. Example usage: If inventory is full -> drop items, Else -> continue gathering. In PSC: you’d put an Else action and under it, the “continue gathering” actions. If the inventory isn’t full (If condition false), the Else path executes​
+PSC.DEV
+.
+Else If: PSC doesn’t explicitly have “Else If” as a single action, but you achieve it by using an If immediately after an Else (or an Or connector, see below). For clarity: to do If A then..., else if B then..., else ..., you’d structure: If A {..} Else { If B {..} Else {..} }. This nesting replicates else-if. PSC’s logic connectors (Or) also can handle some else-if scenarios without nesting.
+Logical Connectors (And/Or): These allow combining multiple conditions in sequence at the same level:
+And: Requires the previous condition and the next condition to both be true for the combined branch to be considered true​
+PSC.DEV
+. In effect, it creates a logical AND between an adjacent pair of conditions. Usage: Place And between two If actions. For example: If inventory is empty And If bank is open then -> withdraw items​
+PSC.DEV
+. Both must pass for the children after the second condition to run. This is equivalent to combining conditions in one if (if(invEmpty && bankOpen)), but PSC gives you visual separation. Under the hood, PSC will evaluate the first “If inventory is empty”; if false, it will skip directly past the entire And chain. If true, it then evaluates “If bank is open”; if that’s true, it proceeds inside. If any fails, the chain fails. Nesting vs And: Note that using an And chain keeps conditions at the same indent. Alternatively, you could nest one if inside another to achieve the same effect – which you choose is mostly stylistic, but And is clearer for sequential conditions on the same level.
+Or: Allows an alternative condition if the previous one failed​
+PSC.DEV
+. Place Or between two Ifs. Example: If fishing spot exists Or If timeout exceeded then -> stop script. This means: try the first condition, if it’s false, evaluate the second – if second is true, the branch overall is true. In execution, if the first condition is true, PSC will not even evaluate the second (it short-circuits like logical OR)​
+PSC.DEV
+. If the first is false, it evaluates the second. This effectively creates “if (A || B)” logic. Important: The second condition after an Or will still only execute its children if it (or the first) was true. If the first condition succeeds, PSC skips the second entirely and proceeds into the branch (since OR chain as a whole succeeded). This means any actions under the second condition will not run in that case – typically you put the common outcome after the second if. For clarity, PSC highlights in the UI which part triggered. Using Or is equivalent to an if-else-if chain logically. Edge-case: You cannot put an Or after an Else (that wouldn’t make sense logically and PSC doesn’t allow it). Or and And apply only to sibling If conditions.
+Loops: PSC provides looping constructs to repeat actions:
+While …: Repeats its child actions as long as a condition holds. PSC has variants:
+While variable matches/does not match: Loop while a variable meets a condition​
+PSC.DEV
+. E.g., While COUNT < 10 – increments count each loop, etc.
+While value matches/does not match: Loop on an arbitrary condition not tied to a variable​
+PSC.DEV
+. You give a value or expression and a matcher. This is useful for things like While time < targetTime (you could use “Time (ms)” in the condition each loop to check if a certain timestamp is reached). Essentially, PSC will evaluate the provided value each iteration anew. Example: While value matches – Value: v(HEALTH), Filter: > 50 – loop until health <= 50 (assuming you update HEALTH variable elsewhere).
+While timer is running: A convenient loop that continues until a named PSC Timer finishes (see Timer system). This abstracts the condition of checking time left > 0 for you​
+PSC.DEV
+. These translate to while(condition) { ... } in Java. Be cautious: if the condition is initially false, the loop body won’t run at all (just like standard while). If it never becomes false, you have an infinite loop. Use Break actions or ensure something inside changes the condition. PSC highlights a running while-loop in blue in the UI and you can see it iterate.
+For Each …: Iterate over elements of a collection:
+For each number in the range: Loops an index from a minimum to maximum (min inclusive, max exclusive)​
+PSC.DEV
+. Properties: Minimum, Maximum. In execution, it will start at min and run the body, increment, and stop just before reaching max. This is like for(int i=min; i<max; i++). The current index Output is available as “last action’s output” each iteration​
+PSC.DEV
+. Typically you’d capture it to a variable if needed. Example: For each number 1–5: loops 1,2,3,4 (if max is 5). If min >= max, loop doesn’t run. Negative ranges are allowed (you could loop negative to positive). However, it always increments by +1 (no custom step).
+For each in list: Iterates over each element of a list variable​
+PSC.DEV
+. The list could contain strings, numbers, or even object references. The Output each loop is the current element​
+PSC.DEV
+. PSC by default will treat it as text if it’s not an object. You can configure Reverse order or Random order toggles​
+PSC.DEV
+; by default, it goes in insertion order. This is akin to for(element : list). If the list is modified during iteration, behavior is undefined (don’t remove items from the list inside its own loop; use a separate list or use indices).
+For each key in map: Iterates all keys of a map variable (unordered, unless it’s an ordered map)​
+PSC.DEV
+. The Output each loop is the current key (as text)​
+PSC.DEV
+. You can then use Set variable to key’s value inside to get the corresponding value. Note: PSC’s map is likely a LinkedHashMap (preserving insertion order) or HashMap (undefined order). They provided that keys of inner maps can be referenced with Outer.Inner in the Map name field​
+PSC.DEV
+. If you specify a map that doesn’t exist or is empty, the loop won’t run at all.
+Loop flow control: Within loop bodies, you can use:
+Continue loop: Immediately jump to the next iteration of the nearest enclosing loop​
+PSC.DEV
+. It skips the remaining actions in the loop body and evaluates the loop condition again. This maps to Java’s continue. Use it, for example, to skip an iteration if some condition met (e.g., if item is not valuable -> continue to skip processing it).
+Break out of loop: Exit the nearest loop entirely​
+PSC.DEV
+. Equivalent to Java’s break. If loops are nested, it only breaks the innermost by default​
+PSC.DEV
+. (PSC does not have labeled breaks – so you can’t directly break an outer loop from an inner one, you’d need logic to propagate a flag and break accordingly or use “Return” from a custom action to escape multiple levels.)
+Nesting and Scope: You can nest loops inside loops and ifs inside loops freely (with sensible limits – extremely deep nesting could become hard to manage or hit recursion limits if using custom actions recursively). PSC ensures proper matching of Else with preceding If at the same level, etc. Nesting example: While true (infinite loop) containing If something -> break. This is a pattern to loop until a condition, effectively a do-while. PSC supports that structure. There isn’t a direct “do-while” (execute then check) – you simulate it by putting the condition check at end with an Or, or using a Break as shown. Labels and Jumps: PSC provides Create label and Go to label actions (found in Script category​
+PSC.DEV
+) as a form of goto. You can label a point in your script and later jump to it. This is analogous to a goto statement, which Java supports in only limited form (not recommended in structured code). In PSC, labels are useful for scenarios like repeating an entire sequence from start (e.g., a quest script might label the beginning of a stage and jump back to retry if failed). Go to label will transfer control to the labeled action (next iteration ignoring normal flow). Use this carefully: jumping out of loops or into loops can make logic confusing. PSC will handle jumping by simply continuing execution at the new location as if it were sequential. One limitation is that “Go to label” can’t jump into a different branch structure (the label must be at a global or higher level if you jump to it from outside, otherwise you might skip required setup). It’s wise to use labels sparingly – prefer structured loops and conditions when possible for clarity. Parallel Execution (Threads): The Multithreading category allows running actions in parallel threads. For example, Start thread action can spawn a new thread that executes a set of actions concurrently. This maps to creating a new Thread in Java and running code. PSC uses this for things like background timers or secondary tasks (like updating a GUI or listening on a socket while main script runs). However, DreamBot’s API is not fully thread-safe – typically only the main thread should perform game interactions. If using threads, restrict them to non-interactive tasks or to call DreamBot methods explicitly marked thread-safe. A common use is to have a thread that periodically logs status or toggles AFK behaviors independent of main logic. Known limitation: Improper use of threads (e.g., two threads clicking NPCs simultaneously) can lead to race conditions or one thread interfering with the other’s timing. Use the “Run in parallel” actions only if you know what you are doing. Many scripts won’t need this at all. DreamBot Equivalents: Summarizing the control structures in Java terms:
+If/Else: direct if-else statements​
+PSC.DEV
+.
+And/Or: part of if conditions (using &&/||) – PSC splits them for you.
+Loops: direct while/for loops​
+PSC.DEV
+​
+PSC.DEV
+.
+Continue/Break: correspond exactly to Java’s continue/break in loops​
+PSC.DEV
+​
+PSC.DEV
+.
+Label/Goto: There’s no direct Java equivalent (Java has no goto; you’d use loops or method calls). PSC labels are more like assembly jumps. Use them only if necessary – structured alternatives are preferred as they are easier to debug.
+Custom Action call: This is equivalent to a function call. In DreamBot, you might create a method and call it; PSC’s custom action is defined once and can be “called” (inserted) multiple times. Each call can have different parameter values.
+Nesting Rules & Limitations:
+There is effectively no hard depth limit coded, but extremely deep nesting might hit performance issues or memory if thousands of actions are nested. In practice, keep nesting reasonable (maybe under 5-6 levels) for readability.
+Each Else pairs with the nearest preceding unmatched If. PSC UI ensures alignment makes this clear. Misplacing an Else (like indenting it wrongly) will either be disallowed or cause it to be treated as a regular action name if not recognized (thus do nothing). The PSC editor normally won’t let you drop an Else in an invalid spot.
+And/Or usage: They must come immediately between two branch conditions. If you insert any action between, the logic link is broken. For example, you cannot do: If A, (some action), Or, If B – the Or would not link to the If A properly. Keep them adjacent.
+Break/Continue scope: Ensure they are inside a loop. PSC will warn or error if you place a Break outside of any loop (since there is nothing to break from). Similarly, Continue outside a loop is meaningless.
+Thread actions: When spawning a thread, the children under that thread action will run in the new thread, but the main thread will immediately continue with the next action after the thread block. This is like launching an async task. Be careful that the main script might end while a thread is still running – if the script stops (or user stops it), threads are likely killed too, but you might not have cleanup. PSC’s “Run inside actions on script stop” can be used to handle cleanup on stop (it’s an event hook in Script category).
+All these rules and behaviors are documented with examples in the control_flow_library.json. That JSON outlines each control structure (If, Else, Or, loops, etc.), how they nest, and provides a pseudo-code equivalent. It also references DreamBot’s approach (for those converting PSC scripts to actual code, it’s a helpful guide to replicate logic accurately). Example: A snippet showing combined control flow:
+json
+Copy
+Edit
+[
+  { "id": "IF_INVENTORY_IS_FULL", 
+    "children": [
+      { "id": "DROP_ALL_ITEMS" }
+    ] 
+  },
+  { "id": "ELSE_BRANCH", 
+    "children": [
+      { "id": "IF_BANK_IS_OPEN",
+        "children": [
+          { "id": "DEPOSIT_ALL_ITEMS" }
+        ]
+      },
+      { "id": "AND_BRANCH" },
+      { "id": "IF_BANK_IS_NOT_OPEN",
+        "children": [
+          { "id": "OPEN_NEAREST_BANK" },
+          { "id": "DEPOSIT_ALL_ITEMS" }
+        ]
+      }
+    ]
+  }
+]
+This represents: If inventory is full then drop all items; Else (inventory not full) if bank is open deposit all; And if bank is not open, open bank and deposit. This shows an Else containing an Or-chain (bank open or not open). While a bit contrived (you’d normally just open then deposit), it illustrates how PSC JSON encodes Else as ELSE_BRANCH, Or as sequential Ifs with an AND_BRANCH between as connector (since “If bank is not open” should only execute if the previous “If bank is open” was false, effectively OR logic). As you can see, PSC uses explicit branch IDs (ELSE_BRANCH, AND_BRANCH) to signify those connectors. This is parsed according to the rules above.
+5. Variable System (Scalars, Lists, Maps, and Special Variables)
+PSC includes a powerful variable system to store and manipulate data during script execution. Variables allow you to remember states (like counts, flags), store objects (like an NPC or item found), and build complex data structures (lists of items, maps of key-value pairs) that persist as the script runs. The variable scope in PSC is generally global to the script, with some special cases for custom action parameters (local to that custom action call) and outputs (local to the branch unless captured). Variable Types and Scopes:
+Scalar Variables: These are single-value holders that can contain text, numbers, or object references. You create/set them with actions under Variables (e.g., Set Variable to X). PSC is dynamically typed – a variable can hold any type of value. For example, you could store the last clicked NPC object in a variable LAST_NPC (it’s actually a reference to a DreamBot NPC object in memory), or store a string like "Mining" in CURRENT_TASK. Most scalar variables are global in scope, meaning once set, they can be accessed by any action later in the script. There is no strict local scope for normal variables; even if you set a variable inside an if or loop, it remains accessible outside (unless you manually delete it). However, Custom Actions can have parameters which act as local variables (their scope is just that execution of the custom action) and you can return values via the action output. Custom action parameters are essentially passed in by the caller and appear as a variable within the custom action (retrievable via Parameter value as discussed​
+PSC.DEV
+). Outside of custom actions, all variables are global.
+Lists: Ordered collections of values. Think of these as arrays or lists in programming. A list variable can hold multiple items, which can themselves be strings, numbers, or references. PSC provides a Lists subcategory with dozens of actions to manipulate lists (add, remove, check contents, etc.)​
+PSC.DEV
+​
+PSC.DEV
+. Lists are global by name. When you create a list (e.g., Add all NPC names to list), that list persists and can be used in loops or conditions. List variables are typically referenced by name via the list(NAME) syntax in filters or by using list-specific actions.
+List contents type: PSC does not enforce a single type per list – a list can contain heterogeneous items (e.g., a number, then a string). In practice, many scripts keep lists homogeneous (like a list of item names). When adding game objects like NPCs to a list, PSC likely stores references to those objects (not just names). For example, Add matching NPCs to list will populate the list with NPC reference objects​
+PSC.DEV
+. You can later use For each in list and the output will be an NPC object (which you could interact with). Under the hood, the list is probably a List<Object> storing DreamBot’s NPC instances. This is powerful but be aware: those references can become invalid if the game object despawns. (E.g., if you store NPC objects and then those NPCs walk away or disappear, the reference might not be usable – DreamBot might consider them null or out of scene. It’s often safer to store identifiers like names or IDs unless you need the full object.)
+Key list actions: Add to list (adds a single value), Remove value from list, Clear list, If list contains (value), If list size is ..., Split variable to list (splits a string by a delimiter into a list), Replace list item (update element at index). Many actions auto-populate lists from game data: e.g., Add all Ground Items to list (you supply a filter, it finds all ground items matching and adds them), Add all Skills to list (puts skill names into a list), Add file lines to list (reads a text file line by line into a list)​
+PSC.DEV
+. These high-level actions simplify data gathering. For example, after using Add matching Players to list (with maybe no filter to get all players in vicinity) you could loop through that list to interact with each.
+List default: An empty list, if used in a loop, just doesn’t iterate (no error). If you check “contains” on an empty list, it returns false. There isn’t a concept of a null list – if you refer to a list that hasn’t been created, PSC likely treats it as empty (but it might log a warning). It’s good practice to initialize lists (maybe by Clear list) before use.
+Maps: Key-value storage (like dictionaries). Keys are strings (or at least treated as such), and values can be any type (string, number, object, even another map or list). Maps are global by name. The Maps subcategory provides actions to set, get, and modify map entries​
+PSC.DEV
+​
+PSC.DEV
+.
+Map usage: You can Set key to value in a map (similar to map.put(key, value) in Java)​
+PSC.DEV
+. If the map doesn’t exist, PSC creates it on first use. Keys that already exist will be overwritten. Delete key from map removes a pair. If map contains key is a condition. You can load an entire JSON structure into a map with Load JSON into map (this parses a JSON string to a nested map of maps/lists)​
+PSC.DEV
+, or from a file with Load JSON file into map​
+PSC.DEV
+. E.g., reading a config file into a map for use in script. Merge maps can combine two maps. PSC maps allow nesting: a value of a map can be another map (hence the dot notation for nested keys). The Extract from existing variable action (under Variables) can also pull a portion of text into a map or list using a regex or delimiter – useful for parsing structured strings.
+Accessing map values: There’s no direct filter syntax for map like map(MY_MAP.key) to compare values; instead, you typically use Set variable to key’s value (which retrieves the value and stores in a variable)​
+PSC.DEV
+, then use that variable in conditions. Alternatively, to iterate, use For each key in map as discussed. If the map values are themselves maps, you can supply a key like OuterMap.InnerMap in actions like Set variable to key’s value – the action notes say to use Data.Player to access key “Player” in map “Data”​
+PSC.DEV
+. Under the hood, PSC splits on the dot and navigates accordingly.
+Scope note: All maps and lists are globally accessible by their unique names. There’s no local map (unless you intentionally don’t use it outside some scope, but nothing stops you from doing so).
+Special Variables/Contexts:
+Action Output: PSC does not automatically assign the result of actions to a named variable, but it provides a last output register. After certain actions (especially branches like If exists or Find nearest), PSC sets an internal variable called “Last Action Output” which can be captured. The action Set Variable to Last action's output copies that into a named variable for later use​
+PSC.DEV
+​
+PSC.DEV
+. Many entity-finding actions declare an Output in documentation (e.g., Output: The matching NPC​
+PSC.DEV
+). That means upon success, PSC’s last output is that NPC. If you directly call another action that expects an entity (and you leave its filter empty), PSC will often use the last output implicitly. For instance, if you do If NPC exists (Goblin) and inside it immediately Interact with NPC (with no filter specified in the interact), PSC knows to use the NPC found by the If. This is a convenience: it saves re-filtering the same NPC. However, it’s usually clearer to save to a variable (e.g., set variable LAST_GOBLIN to last output) and then use Interact with NPC (Filter: variable LAST_GOBLIN) via the “Variable value” filter type or an action that targets a specific stored NPC. PSC has Set Variable to Variable value (copy var to var) and Variable Property (get a sub-property of an object) which can be used to handle outputs as well. In any case, the “last output” is a sort of hidden global that gets overwritten often – so don’t rely on it remaining the same after other actions. Capture it if you need it preserved.
+Predefined variables: PSC itself might have some built-in variables (like perhaps current world, player name, etc.) – but most such data is accessed through actions rather than pre-set variables. DreamBot’s API offers static methods for those, and PSC wraps them in Set Variable to Current world, Set Variable to Player XYZ. So, you usually don’t have global variables unless you define them.
+Variable Operations (Manipulations): Once you have variables, PSC allows arithmetic and other modifications:
+Arithmetic: Add to variable by, Subtract from variable by, Multiply variable by, Divide variable by​
+PSC.DEV
+. These assume the variable value is numeric (or at least can be parsed to number). For example, if COUNT = "5" (text “5”), Add to variable by (2) will change it to “7” (still stored likely as text “7” but recognized as number). Internally, PSC probably converts to a number, does the operation, then stores back. If the variable was not set, it might treat it as 0. These operations map to var = var + X etc. Edge case: If the variable isn’t numeric (“abc”), PSC will treat it as 0 for add/subtract (so “abc” would become “0+X” = X numeric, which then stored as maybe “X”). Usually you ensure the var starts as a number. Division is integer division or float? Not explicitly documented – likely if both are divisible evenly it gives int, otherwise it might floor it. To be safe, consider it integer math (e.g., dividing 5 by 2 probably yields 2, not 2.5).
+Conversion: Set Variable to text/number: The main Set Variable actions under Set Variable To cover conversion. For example, if you have a number and want it as text, you can just set another variable to it (it will be text anyway). Or vice versa, to ensure numeric you might set variable by adding 0 (forcing numeric context). Bitwise Operation allows doing bit AND/OR/XOR/NOT on variables (e.g., flags). It expects you to specify the operation and another operand or mask​
+PSC.DEV
+. This is an advanced feature, used perhaps for bitfields from config values.
+Deleting/Clearing: Delete variable frees a scalar variable (removes it from memory)​
+PSC.DEV
+. If you check If variable is set after deletion, it will be false​
+PSC.DEV
+. Use this when a variable is no longer needed or to reset state. Delete multiple variables lets you specify a list of names to delete at once, Delete all variables clears everything (except perhaps lists/maps?), and Delete all variables except allows a whitelist to keep. These are useful to clean up between phases of a script or ensure no leftover data if reusing a script for another account. Scope note: Deleting a variable that’s in use in the script later could cause those later actions to think it’s unset – plan accordingly.
+List/Map specific: Clear list, Delete list (difference: Clear empties the list but keeps it defined (length 0), Delete actually removes the list variable from existence)​
+PSC.DEV
+. Delete map similarly removes the entire map. Clearing a map means removing all keys but keeping the map. Use Clear if you intend to reuse the same list/map name later (saves you from accidentally re-initializing).
+Extract/Parse: Extract from existing variable – PSC can extract portions of a string variable using a delimiter or regex into new variables or lists. For example, if PLAYER_POS = "3200,3200,0" as text, you could extract by delimiter “,” into a list of three items or into three separate variables (X, Y, Z). This is helpful for parsing custom-formatted strings or JSON segments. DreamBot doesn’t have a direct analog – this is convenience in PSC.
+Load/Save: You can load variables from a JSON string or file (Load Variables from JSON​
+PSC.DEV
+). This will parse the JSON keys at top level as variable names and set their values (it can instantiate lists and maps if the JSON has arrays or objects). Conversely, Set Variable to Variables as JSON will serialize all current variables into a JSON string (or a subset if specified)​
+PSC.DEV
+. This is great for saving state. For example, at script end you might save all variables to JSON and then maybe write to file (via Write text to file in Files category). Later, load them to resume where you left off. The JSON includes lists and maps as nested structures.
+User Input: Set Variable to User Input prompts the human (script runner) to input a value manually during execution​
+PSC.DEV
+​
+PSC.DEV
+. This halts the script until input is given (or canceled). This is useful for scripts that require dynamic input (e.g., ask user which item to craft at runtime). In DreamBot code, this would be like showing a GUI or using the console – PSC provides it as an action. The value entered goes into the variable. (In headless or scheduled runs, this isn’t useful since no one is there to input.)
+Special Formats and Tricks:
+Using Variables in Strings: PSC might allow concatenation by simply doing it in multiple steps (no direct var1 + var2 in one go, but you can achieve by using Set Variable to Value twice: e.g., set MESSAGE = "Hello, " then Add to variable by with v(NAME) – if NAME is "John", adding strings likely concatenates in PSC. If Add sees non-numeric, it might default to treat them as 0… however, PSC might overload Add for strings to concatenate (some languages do, not sure if PSC did that explicitly). A safer way: Set Variable to Value with placeholders – PSC doesn’t have template strings, so you do something like: set GREETING = v(PREFIX), then Add to variable by (which tries numeric… better is Set Variable to Variable value to copy prefix, then Set Variable to Value to set same var to v(GREETING) + desiredText). Actually, PSC doesn’t have an obvious string concat action aside from using Replace or treating as list of characters. Alternatively, use a list: Split variable to list (each char) then manipulate – too complex. If needed, a simpler approach: use ChatGPT integration or a Custom Action in code to concatenate. This is one minor inconvenience; but since most use-cases are numeric or known strings, it’s not often an issue.
+Default Variables Provided: PSC might automatically set some variables like USERNAME or ACCOUNT_NAME when using Accounts actions (when logging in an account from manager, maybe it sets some context). This isn’t well-documented publicly, but be aware some integration might fill variables. For instance, QuickStart parameters to list will populate a list with command-line args passed to the script​
+PSC.DEV
+. If you then Set Variable = list value at 0, you get the first argument.
+Temporary States via Variables: Because PSC lacks direct local variables in loops or branches, a common pattern is to use a variable and then delete it or reuse it. For example, in a loop, you might use TEMP variable for something and you’re okay with it being overwritten each iteration. That’s fine. Just be mindful if you nest loops that use the same TEMP. It’s the same variable reused, which could be fine or could cause conflict if inner loop runs fully and overwrites TEMP that outer loop expects. In such cases, use distinct names (like TEMP_INNER). Essentially, treat PSC variables like global variables in a C program – unique names to avoid collision, or reuse carefully knowing the timing.
+List/Map as pseudo-objects: You can simulate data structures by maps of maps or lists of maps. E.g., create a map Task with keys like name, status, target. Then you could have a list of tasks (each element is a map representing a task). PSC lets you do that since map values can be maps and you can have a list of references to maps (though adding a map to a list might require first storing the map in a variable or as a map variable and then using Add variable value to list perhaps). This is advanced usage to structure complex logic (like quest states, etc.). The variables.json libraries would document if any such complex handling is officially supported or if some manual trick is needed (the presence of actions like Add map keys to list​
+PSC.DEV
+ and Merge maps​
+PSC.DEV
+ suggests they anticipated maps of maps scenarios).
+Example Usage: To illustrate how variables can tie everything together, consider an example script logic: killing 5 goblins, then banking loot:
+Set Variable KILL_COUNT = 0 (number).
+Loop While KILL_COUNT < 5:
+If NPC exists (Goblin) -> Attack it, then Wait until NPC is dead (perhaps If NPC not exists inside a small wait loop), then Add to variable KILL_COUNT by 1.
+Else (no goblin) -> roam: maybe call a Walk to area (goblin spawn) or wait. Use Continue loop to retry finding if needed.
+After loop, use List variable: Add matching Ground Items to list (filter loot like bones or coins dropped by goblins). Now you have a list of item objects on ground.
+For each in list (loot items): Interact with Ground Item (pick up) – here inside this loop, the “current element” is a GroundItem reference (last output each iteration). You could directly do Interact with Ground Item with filter v(LAST_OUTPUT) via Variable value type or rely on context (PSC likely sets the list iteration item as last output so that the Interact action without explicit filter will pick that up – typically it works, because For each sets the output). Alternatively, you do Set VAR_LOOT = Last output at loop start, then Interact with filter VAR_LOOT.
+After collecting, Open nearest bank (action) and Deposit all items.
+Throughout this, variables KILL_COUNT and LOOT_LIST were used. They persist until script ends or you delete them. If you wanted, you could save KILL_COUNT to file or output. Also note, inside the loop, KILL_COUNT is global but we treat it like a loop counter – that’s fine. If this were a custom action, KILL_COUNT could even be a parameter (passed in how many kills needed, for reusability). The above covers the variable system highlights. The provided property_values_library.json includes definitions for each variable-related action (types of each property, e.g., Variable name (text), List name (text), etc.), and variables_usage.md (supplementary documentation) contains examples and patterns like the one above for common use-cases (counters, accumulating data, configuration via JSON, etc.). Finally, remember that PSC’s variable system, while powerful, executes within the constraints of DreamBot’s single-player client – you’re not storing data server-side or between script runs unless you explicitly save to file/JSON. Each run starts with a clean slate of variables (unless you load from a file at start). Plan for initialization of needed variables when the script starts (the Getting Started guide suggests using Load Variables from JSON at script start if you want persistence between runs).
+With all the above components documented – actions, filters, properties, flow control, and variables – you have a comprehensive understanding of the PSC ecosystem. This knowledge base enables mapping PSC scripts to DreamBot API calls and vice versa with confidence, forming the foundation for the PSC-to-DreamBot Retrieval Augmented Generation (RAG) system. Each JSON library (action_hierarchy_library.json, filter_types_library.json, property_values_library.json, control_flow_library.json, action_category_map.json) supplements this explanation with structured data for quick reference. By combining this documentation with the cited examples and official references, one can seamlessly integrate PSC scripting logic with DreamBot or generate PSC scripts from descriptions, ensuring accuracy and completeness in automation scripts. Sources:
+Pandemic’s Script Creator – DreamBot Forum Post​
+DREAMBOT.ORG
+ (overview of capabilities)
+PSC Official Docs – Action Reference (by category, e.g., Banking​
+PSC.DEV
+​
+PSC.DEV
+, Inventory​
+PSC.DEV
+​
+PSC.DEV
+, Entities​
+PSC.DEV
+, Widget​
+PSC.DEV
+, Variables​
+PSC.DEV
+, Loops​
+PSC.DEV
+, Logic​
+PSC.DEV
+​
+PSC.DEV
+​
+PSC.DEV
+, etc.)
+PSC Official Docs – Guides (Areas guide for area formats​
+PSC.DEV
+​
+PSC.DEV
+)
+Example PSC Script JSON – Community Script (Elder Chaos Druids)​
+FILE-DFAYSV6FQXZ9EG22SWLFPP
+​
+FILE-DFAYSV6FQXZ9EG22SWLFPP
+ (illustrating filter structures and logic connectors)
+DreamBot Scripter’s Guide – Banking​
+DREAMBOT.ORG
+​
+DREAMBOT.ORG
+ (to verify API behavior for mapped actions)
+PSC Documentation JSON (psc_full_documentation.json) – for verifying action outputs and parameter descriptions​
+PSC.DEV
+​
+PSC.DEV
+.

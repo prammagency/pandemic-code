@@ -1,0 +1,123 @@
+"Game Settings & Toggles": [
+    {
+      "id": 127,
+      "name": "Toggle accept aid",
+      "description": "Toggles the 'Accept Aid' setting on or off.",
+      "category": "Game Settings & Toggles",
+      "properties": [
+        { "name": "Enable", "type": "boolean" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Tabs.open(Tabs.OPTIONS) and interface interactions.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 128,
+      "name": "Toggle auto retaliate",
+      "description": "Toggles the 'Auto Retaliate' setting on or off.",
+      "category": "Game Settings & Toggles",
+      "properties": [
+        { "name": "Enable", "type": "boolean" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Combat.isAutoRetaliateOn() with toggle logic.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 129,
+      "name": "Set brightness level",
+      "description": "Sets the game's brightness level (1-4).",
+      "category": "Game Settings & Toggles",
+      "properties": [
+        { "name": "Brightness Level", "type": "integer", "constraints": "1-4" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's interface system to manipulate brightness settings.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 130,
+      "name": "Enable music",
+      "description": "Enables the in-game music.",
+      "category": "Game Settings & Toggles",
+      "properties": [],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Music.isEnabled() method with toggle logic.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 131,
+      "name": "Disable music",
+      "description": "Disables the in-game music.",
+      "category": "Game Settings & Toggles",
+      "properties": [],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Music.disable() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 132,
+      "name": "Enable sound effects",
+      "description": "Enables the in-game sound effects.",
+      "category": "Game Settings & Toggles",
+      "properties": [],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Sound.isEnabled() method with toggle logic.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 133,
+      "name": "Disable sound effects",
+      "description": "Disables the in-game sound effects.",
+      "category": "Game Settings & Toggles",
+      "properties": [],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Sound.disable() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 134,
+      "name": "Change camera angle",
+      "description": "Changes the camera angle by rotating in the specified direction.",
+      "category": "Game Settings & Toggles",
+      "properties": [
+        { "name": "Direction", "type": "text", "values": ["Up", "Down", "Left", "Right"] },
+        { "name": "Degrees", "type": "integer", "optional": true }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Camera.rotateToAngle() method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 135,
+      "name": "Reset camera",
+      "description": "Resets the camera to its default north-facing position.",
+      "category": "Game Settings & Toggles",
+      "properties": [],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's Camera.toAngle(0) method.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    },
+    {
+      "id": 136,
+      "name": "Toggle run energy notification",
+      "description": "Toggles the run energy notification setting on or off.",
+      "category": "Game Settings & Toggles",
+      "properties": [
+        { "name": "Enable", "type": "boolean" }
+      ],
+      "output": "Boolean",
+      "api_mapping": "Uses DreamBot's interface system to toggle run energy warnings.",
+      "valid_parents": ["Any"],
+      "valid_children": []
+    }
+]
