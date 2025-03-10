@@ -1,0 +1,992 @@
+{
+    "IF_INVENTORY_CONTAINS_ALL": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_INVENTORY_CONTAINS_ALL",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_INVENTORY_CONTAINS_ALL'"
+            ]
+        }
+    },
+    "IF_INVENTORY_DOES_NOT_CONTAIN": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_INVENTORY_DOES_NOT_CONTAIN",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_INVENTORY_DOES_NOT_CONTAIN'"
+            ]
+        }
+    },
+    "IF_EQUIPMENT_CONTAINS": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_EQUIPMENT_CONTAINS",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_EQUIPMENT_CONTAINS'"
+            ]
+        }
+    },
+    "IF_EQUIPMENT_DOES_NOT_CONTAIN": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_EQUIPMENT_DOES_NOT_CONTAIN",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_EQUIPMENT_DOES_NOT_CONTAIN'"
+            ]
+        }
+    },
+    "IF_LOCAL_PLAYER_IS_MOVING": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_LOCAL_PLAYER_IS_MOVING",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_LOCAL_PLAYER_IS_MOVING'"
+            ]
+        }
+    },
+    "IF_LOCAL_PLAYER_IS_NOT_MOVING": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_LOCAL_PLAYER_IS_NOT_MOVING",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_LOCAL_PLAYER_IS_NOT_MOVING'"
+            ]
+        }
+    },
+    "IF_LOCAL_PLAYER_IS_ANIMATING": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_LOCAL_PLAYER_IS_ANIMATING",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_LOCAL_PLAYER_IS_ANIMATING'"
+            ]
+        }
+    },
+    "IF_LOCAL_PLAYER_IS_NOT_ANIMATING": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_LOCAL_PLAYER_IS_NOT_ANIMATING",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_LOCAL_PLAYER_IS_NOT_ANIMATING'"
+            ]
+        }
+    },
+    "IF_LOCAL_PLAYER_PRAYER_PERCENTAGE": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_LOCAL_PLAYER_PRAYER_PERCENTAGE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_LOCAL_PLAYER_PRAYER_PERCENTAGE'"
+            ]
+        }
+    },
+    "IF_LOCAL_PLAYER_RUN_ENERGY": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_LOCAL_PLAYER_RUN_ENERGY",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_LOCAL_PLAYER_RUN_ENERGY'"
+            ]
+        }
+    },
+    "IF_OBJECT_EXISTS": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_OBJECT_EXISTS",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_OBJECT_EXISTS'"
+            ]
+        }
+    },
+    "IF_PLAYER_EXISTS": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_PLAYER_EXISTS",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_PLAYER_EXISTS'"
+            ]
+        }
+    },
+    "IF_MENU_OPEN": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_MENU_OPEN",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_MENU_OPEN'"
+            ]
+        }
+    },
+    "IF_DIALOG_OPEN": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_DIALOG_OPEN",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_DIALOG_OPEN'"
+            ]
+        }
+    },
+    "IF_VARIABLE_EQUALS": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_VARIABLE_EQUALS",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_VARIABLE_EQUALS'"
+            ]
+        }
+    },
+    "IF_VARIABLE_NOT_EQUALS": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_VARIABLE_NOT_EQUALS",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_VARIABLE_NOT_EQUALS'"
+            ]
+        }
+    },
+    "IF_VARIABLE_GREATER_THAN": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_VARIABLE_GREATER_THAN",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_VARIABLE_GREATER_THAN'"
+            ]
+        }
+    },
+    "IF_VARIABLE_LESS_THAN": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_VARIABLE_LESS_THAN",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_VARIABLE_LESS_THAN'"
+            ]
+        }
+    },
+    "IF_VARIABLE_GREATER_OR_EQUAL": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_VARIABLE_GREATER_OR_EQUAL",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_VARIABLE_GREATER_OR_EQUAL'"
+            ]
+        }
+    },
+    "IF_VARIABLE_LESS_OR_EQUAL": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_VARIABLE_LESS_OR_EQUAL",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_VARIABLE_LESS_OR_EQUAL'"
+            ]
+        }
+    },
+    "IF_VARIABLE_CONTAINS": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_VARIABLE_CONTAINS",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_VARIABLE_CONTAINS'"
+            ]
+        }
+    },
+    "IF_LIST_EMPTY": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_LIST_EMPTY",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_LIST_EMPTY'"
+            ]
+        }
+    },
+    "IF_LIST_NOT_EMPTY": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_LIST_NOT_EMPTY",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_LIST_NOT_EMPTY'"
+            ]
+        }
+    },
+    "IF_LIST_SIZE": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_LIST_SIZE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_LIST_SIZE'"
+            ]
+        }
+    },
+    "IF_TIMER_IS_RUNNING": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_TIMER_IS_RUNNING",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_TIMER_IS_RUNNING'"
+            ]
+        }
+    },
+    "IF_TIMER_IS_PAUSED": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_TIMER_IS_PAUSED",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_TIMER_IS_PAUSED'"
+            ]
+        }
+    },
+    "IF_DISTANCE_TO_POSITION": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_DISTANCE_TO_POSITION",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_DISTANCE_TO_POSITION'"
+            ]
+        }
+    },
+    "IF_DISTANCE_TO_OBJECT": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_DISTANCE_TO_OBJECT",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_DISTANCE_TO_OBJECT'"
+            ]
+        }
+    },
+    "IF_DISTANCE_TO_NPC": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_DISTANCE_TO_NPC",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_DISTANCE_TO_NPC'"
+            ]
+        }
+    },
+    "IF_DISTANCE_TO_PLAYER": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_DISTANCE_TO_PLAYER",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_DISTANCE_TO_PLAYER'"
+            ]
+        }
+    },
+    "IF_DISTANCE_TO_GROUND_ITEM": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_DISTANCE_TO_GROUND_ITEM",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_DISTANCE_TO_GROUND_ITEM'"
+            ]
+        }
+    },
+    "IF_RANDOM_CHANCE": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] IF_RANDOM_CHANCE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: IF_RANDOM_CHANCE'"
+            ]
+        }
+    },
+    "WHILE_INVENTORY_CONTAINS": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] WHILE_INVENTORY_CONTAINS",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: WHILE_INVENTORY_CONTAINS'"
+            ]
+        }
+    },
+    "WHILE_NOT_IN_COMBAT": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] WHILE_NOT_IN_COMBAT",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: WHILE_NOT_IN_COMBAT'"
+            ]
+        }
+    },
+    "WHILE_VARIABLE_EQUALS": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] WHILE_VARIABLE_EQUALS",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: WHILE_VARIABLE_EQUALS'"
+            ]
+        }
+    },
+    "WHILE_VARIABLE_NOT_EQUALS": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] WHILE_VARIABLE_NOT_EQUALS",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: WHILE_VARIABLE_NOT_EQUALS'"
+            ]
+        }
+    },
+    "WHILE_VARIABLE_GREATER_THAN": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] WHILE_VARIABLE_GREATER_THAN",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: WHILE_VARIABLE_GREATER_THAN'"
+            ]
+        }
+    },
+    "WHILE_VARIABLE_LESS_THAN": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] WHILE_VARIABLE_LESS_THAN",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: WHILE_VARIABLE_LESS_THAN'"
+            ]
+        }
+    },
+    "WHILE_TIMER_IS_RUNNING": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] WHILE_TIMER_IS_RUNNING",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: WHILE_TIMER_IS_RUNNING'"
+            ]
+        }
+    },
+    "LOOP_THROUGH_LIST": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] LOOP_THROUGH_LIST",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: LOOP_THROUGH_LIST'"
+            ]
+        }
+    },
+    "LOOP_N_TIMES": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] LOOP_N_TIMES",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: LOOP_N_TIMES'"
+            ]
+        }
+    },
+    "BREAK": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] BREAK",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: BREAK'"
+            ]
+        }
+    },
+    "CONTINUE": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] CONTINUE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: CONTINUE'"
+            ]
+        }
+    },
+    "RETURN": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] RETURN",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: RETURN'"
+            ]
+        }
+    },
+    "EXIT_SCRIPT": {
+        "category": "logic",
+        "description": "[AUTO-GENERATED] EXIT_SCRIPT",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: EXIT_SCRIPT'"
+            ]
+        }
+    }
+}

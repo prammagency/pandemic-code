@@ -1,0 +1,266 @@
+{
+    "INVENTORY_INTERACT_ITEM": {
+        "category": "inventory",
+        "description": "[AUTO-GENERATED] INVENTORY_INTERACT_ITEM",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: INVENTORY_INTERACT_ITEM'"
+            ]
+        }
+    },
+    "INVENTORY_USE_ITEM_ON_ITEM": {
+        "category": "inventory",
+        "description": "[AUTO-GENERATED] INVENTORY_USE_ITEM_ON_ITEM",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: INVENTORY_USE_ITEM_ON_ITEM'"
+            ]
+        }
+    },
+    "INVENTORY_USE_ITEM_ON_OBJECT": {
+        "category": "inventory",
+        "description": "[AUTO-GENERATED] INVENTORY_USE_ITEM_ON_OBJECT",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: INVENTORY_USE_ITEM_ON_OBJECT'"
+            ]
+        }
+    },
+    "INVENTORY_USE_ITEM_ON_NPC": {
+        "category": "inventory",
+        "description": "[AUTO-GENERATED] INVENTORY_USE_ITEM_ON_NPC",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: INVENTORY_USE_ITEM_ON_NPC'"
+            ]
+        }
+    },
+    "INVENTORY_USE_ITEM_ON_PLAYER": {
+        "category": "inventory",
+        "description": "[AUTO-GENERATED] INVENTORY_USE_ITEM_ON_PLAYER",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: INVENTORY_USE_ITEM_ON_PLAYER'"
+            ]
+        }
+    },
+    "INVENTORY_USE_ITEM_ON_GROUND_ITEM": {
+        "category": "inventory",
+        "description": "[AUTO-GENERATED] INVENTORY_USE_ITEM_ON_GROUND_ITEM",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: INVENTORY_USE_ITEM_ON_GROUND_ITEM'"
+            ]
+        }
+    },
+    "INVENTORY_GET_COUNT": {
+        "category": "inventory",
+        "description": "[AUTO-GENERATED] INVENTORY_GET_COUNT",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: INVENTORY_GET_COUNT'"
+            ]
+        }
+    },
+    "INVENTORY_GET_COUNT_STACKABLE": {
+        "category": "inventory",
+        "description": "[AUTO-GENERATED] INVENTORY_GET_COUNT_STACKABLE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: INVENTORY_GET_COUNT_STACKABLE'"
+            ]
+        }
+    },
+    "INVENTORY_ITEM_SLOT": {
+        "category": "inventory",
+        "description": "[AUTO-GENERATED] INVENTORY_ITEM_SLOT",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: INVENTORY_ITEM_SLOT'"
+            ]
+        }
+    },
+    "INVENTORY_ITEM_ACTION": {
+        "category": "inventory",
+        "description": "[AUTO-GENERATED] INVENTORY_ITEM_ACTION",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: INVENTORY_ITEM_ACTION'"
+            ]
+        }
+    },
+    "INVENTORY_OPEN": {
+        "category": "inventory",
+        "description": "[AUTO-GENERATED] INVENTORY_OPEN",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: INVENTORY_OPEN'"
+            ]
+        }
+    },
+    "INVENTORY_CLOSE": {
+        "category": "inventory",
+        "description": "[AUTO-GENERATED] INVENTORY_CLOSE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: INVENTORY_CLOSE'"
+            ]
+        }
+    }
+}

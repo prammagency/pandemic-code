@@ -1,0 +1,233 @@
+2025-03-09 15:19:21,801 - __main__ - INFO - Starting filter types library merger script
+2025-03-09 15:19:21,801 - __main__ - INFO - Filter types library path: D:\RS_AI\pandemic-code\psc-dreambot-integration\libraries\filter_types_library.json
+2025-03-09 15:19:21,801 - __main__ - INFO - Types operators library path: D:\RS_AI\pandemic-code\psc-dreambot-integration\libraries\types_operators.json
+2025-03-09 15:19:21,801 - __main__ - INFO - Output path: D:\RS_AI\pandemic-code\psc-dreambot-integration\libraries\filter_types_library_merged.json
+2025-03-09 15:19:21,802 - __main__ - INFO - Loading filter types library...
+2025-03-09 15:19:21,802 - __main__ - INFO - Loading types operators library...
+2025-03-09 15:19:21,802 - __main__ - ERROR - Invalid JSON in file: D:\RS_AI\pandemic-code\psc-dreambot-integration\libraries\types_operators.json
+2025-03-09 15:19:21,803 - __main__ - ERROR - Error during merge process: Expecting ',' delimiter: line 613 column 45 (char 21817)
+2025-03-09 15:19:21,804 - __main__ - ERROR - Traceback (most recent call last):
+  File "D:\RS_AI\pandemic-code\psc-dreambot-integration\scripts\filter_merger.py", line 220, in main
+    types_operators_lib = load_json_file(types_operators_path)
+  File "D:\RS_AI\pandemic-code\psc-dreambot-integration\scripts\filter_merger.py", line 22, in load_json_file
+    return json.load(file)
+  File "D:\Python310\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "D:\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "D:\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Python310\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 613 column 45 (char 21817)
+
+2025-03-09 15:19:21,804 - __main__ - ERROR - Script failed to complete
+2025-03-09 15:22:45,732 - __main__ - INFO - Starting filter types library merger script
+2025-03-09 15:22:45,732 - __main__ - INFO - Filter types library path: D:\RS_AI\pandemic-code\psc-dreambot-integration\libraries\filter_types_library.json
+2025-03-09 15:22:45,733 - __main__ - INFO - Types operators library path: D:\RS_AI\pandemic-code\psc-dreambot-integration\libraries\types_operators.json
+2025-03-09 15:22:45,733 - __main__ - INFO - Output path: D:\RS_AI\pandemic-code\psc-dreambot-integration\libraries\filter_types_library_merged.json
+2025-03-09 15:22:45,733 - __main__ - INFO - Loading filter types library...
+2025-03-09 15:22:45,733 - __main__ - INFO - Loading types operators library...
+2025-03-09 15:22:45,734 - __main__ - INFO - Merging libraries...
+2025-03-09 15:22:45,734 - __main__ - INFO - Merging details for filter class: Item
+2025-03-09 15:22:45,734 - __main__ - INFO - Adding new filter type AMOUNT to class Item
+2025-03-09 15:22:45,735 - __main__ - INFO - Adding new filter type HIGH_ALCH_VALUE to class Item
+2025-03-09 15:22:45,735 - __main__ - INFO - Adding new filter type LIVE_PRICE to class Item
+2025-03-09 15:22:45,735 - __main__ - INFO - Adding new filter type IS_NOTED to class Item
+2025-03-09 15:22:45,735 - __main__ - INFO - Adding new filter type IS_NOT_NOTED to class Item
+2025-03-09 15:22:45,735 - __main__ - INFO - Adding new filter type IS_FOOD to class Item
+2025-03-09 15:22:45,736 - __main__ - INFO - Adding new filter type IS_TRADEABLE to class Item
+2025-03-09 15:22:45,736 - __main__ - INFO - Adding new filter type IS_STACKABLE to class Item
+2025-03-09 15:22:45,736 - __main__ - INFO - Adding new filter type IN_INVENTORY to class Item
+2025-03-09 15:22:45,736 - __main__ - INFO - Adding new filter type IS_VARIABLE_VALUE to class Item
+2025-03-09 15:22:45,736 - __main__ - INFO - Adding new filter type IS_LAST_OUTPUT to class Item
+2025-03-09 15:22:45,736 - __main__ - INFO - Adding new filter type FILTER_BY_ACTION to class Item
+2025-03-09 15:22:45,737 - __main__ - INFO - Merging details for filter class: GroundItem
+2025-03-09 15:22:45,737 - __main__ - INFO - Adding new filter type AMOUNT to class GroundItem
+2025-03-09 15:22:45,737 - __main__ - INFO - Adding new filter type DISTANCE_TO_PLAYER to class GroundItem
+2025-03-09 15:22:45,737 - __main__ - INFO - Adding new filter type WALKING_DISTANCE_TO_PLAYER to class GroundItem
+2025-03-09 15:22:45,737 - __main__ - INFO - Adding new filter type IS_REACHABLE to class GroundItem
+2025-03-09 15:22:45,737 - __main__ - INFO - Adding new filter type IS_NOT_REACHABLE to class GroundItem
+2025-03-09 15:22:45,737 - __main__ - INFO - Adding new filter type IS_OUR_LOOT to class GroundItem
+2025-03-09 15:22:45,737 - __main__ - INFO - Adding new filter type IN_AREA to class GroundItem
+2025-03-09 15:22:45,737 - __main__ - INFO - Adding new filter type ON_SCREEN to class GroundItem
+2025-03-09 15:22:45,737 - __main__ - INFO - Adding new filter type NOT_ON_SCREEN to class GroundItem
+2025-03-09 15:22:45,737 - __main__ - INFO - Adding new filter type IS_VARIABLE_VALUE to class GroundItem
+2025-03-09 15:22:45,738 - __main__ - INFO - Adding new filter type FILTER_BY_ACTION to class GroundItem
+2025-03-09 15:22:45,738 - __main__ - INFO - Merging details for filter class: GameObject
+2025-03-09 15:22:45,738 - __main__ - INFO - Adding new filter type MODEL_COLORS to class GameObject
+2025-03-09 15:22:45,738 - __main__ - INFO - Adding new filter type ORIENTATION to class GameObject
+2025-03-09 15:22:45,738 - __main__ - INFO - Adding new filter type DISTANCE_TO_PLAYER to class GameObject
+2025-03-09 15:22:45,738 - __main__ - INFO - Adding new filter type IS_REACHABLE to class GameObject
+2025-03-09 15:22:45,738 - __main__ - INFO - Adding new filter type IS_NOT_REACHABLE to class GameObject
+2025-03-09 15:22:45,738 - __main__ - INFO - Adding new filter type TILE to class GameObject
+2025-03-09 15:22:45,738 - __main__ - INFO - Adding new filter type IN_AREA to class GameObject
+2025-03-09 15:22:45,738 - __main__ - INFO - Adding new filter type ON_SCREEN to class GameObject
+2025-03-09 15:22:45,738 - __main__ - INFO - Adding new filter type NOT_ON_SCREEN to class GameObject
+2025-03-09 15:22:45,739 - __main__ - INFO - Adding new filter type HAS_NAME to class GameObject
+2025-03-09 15:22:45,739 - __main__ - INFO - Adding new filter type INDEX to class GameObject
+2025-03-09 15:22:45,739 - __main__ - INFO - Adding new filter type IS_VARIABLE_VALUE to class GameObject
+2025-03-09 15:22:45,739 - __main__ - INFO - Adding new filter type FILTER_BY_ACTION to class GameObject
+2025-03-09 15:22:45,739 - __main__ - INFO - Merging details for filter class: NPC
+2025-03-09 15:22:45,739 - __main__ - INFO - Adding new filter type ACTION to class NPC
+2025-03-09 15:22:45,739 - __main__ - INFO - Adding new filter type HEALTH to class NPC
+2025-03-09 15:22:45,739 - __main__ - INFO - Adding new filter type ORIENTATION to class NPC
+2025-03-09 15:22:45,740 - __main__ - INFO - Adding new filter type DISTANCE_TO_PLAYER to class NPC
+2025-03-09 15:22:45,740 - __main__ - INFO - Adding new filter type ON_SCREEN to class NPC
+2025-03-09 15:22:45,740 - __main__ - INFO - Adding new filter type NOT_ON_SCREEN to class NPC
+2025-03-09 15:22:45,740 - __main__ - INFO - Adding new filter type IS_VARIABLE_VALUE to class NPC
+2025-03-09 15:22:45,740 - __main__ - INFO - Adding new filter type FILTER_BY_ACTION to class NPC
+2025-03-09 15:22:45,740 - __main__ - INFO - Merging details for filter class: Player
+2025-03-09 15:22:45,740 - __main__ - INFO - Adding new filter type ACTION to class Player
+2025-03-09 15:22:45,740 - __main__ - INFO - Adding new filter type HEALTH to class Player
+2025-03-09 15:22:45,740 - __main__ - INFO - Adding new filter type DISTANCE_TO_PLAYER to class Player
+2025-03-09 15:22:45,740 - __main__ - INFO - Adding new filter type WALKING_DISTANCE_TO_PLAYER to class Player
+2025-03-09 15:22:45,740 - __main__ - INFO - Adding new filter type IS_REACHABLE to class Player
+2025-03-09 15:22:45,741 - __main__ - INFO - Adding new filter type TILE to class Player
+2025-03-09 15:22:45,741 - __main__ - INFO - Adding new filter type IN_AREA to class Player
+2025-03-09 15:22:45,741 - __main__ - INFO - Adding new filter type ON_SCREEN to class Player
+2025-03-09 15:22:45,741 - __main__ - INFO - Adding new filter type NOT_ON_SCREEN to class Player
+2025-03-09 15:22:45,741 - __main__ - INFO - Adding new filter type ANIMATION to class Player
+2025-03-09 15:22:45,741 - __main__ - INFO - Adding new filter type ANIMATING to class Player
+2025-03-09 15:22:45,741 - __main__ - INFO - Adding new filter type NOT_ANIMATING to class Player
+2025-03-09 15:22:45,741 - __main__ - INFO - Adding new filter type CAN_ATTACK_ME to class Player
+2025-03-09 15:22:45,741 - __main__ - INFO - Adding new filter type MOVING to class Player
+2025-03-09 15:22:45,741 - __main__ - INFO - Adding new filter type NOT_MOVING to class Player
+2025-03-09 15:22:45,741 - __main__ - INFO - Adding new filter type IS_ATTACKABLE to class Player
+2025-03-09 15:22:45,741 - __main__ - INFO - Adding new filter type WE_ARE_INTERACTING to class Player
+2025-03-09 15:22:45,742 - __main__ - INFO - Adding new filter type IS_INTERACTING to class Player
+2025-03-09 15:22:45,742 - __main__ - INFO - Adding new filter type IS_INTERACTING_WITH_ME to class Player
+2025-03-09 15:22:45,742 - __main__ - INFO - Adding new filter type IS_LAST_OUTPUT to class Player
+2025-03-09 15:22:45,742 - __main__ - INFO - Adding new filter type INDEX to class Player
+2025-03-09 15:22:45,742 - __main__ - INFO - Adding new filter type FILTER_BY_ACTION to class Player
+2025-03-09 15:22:45,742 - __main__ - INFO - Adding new filter class: Projectile
+2025-03-09 15:22:45,742 - __main__ - INFO - Adding new filter class: GraphicsObject
+2025-03-09 15:22:45,742 - __main__ - INFO - Merging details for filter class: Widget
+2025-03-09 15:22:45,742 - __main__ - INFO - Adding new filter type WIDGET_ID to class Widget
+2025-03-09 15:22:45,742 - __main__ - INFO - Adding new filter type ACTION to class Widget
+2025-03-09 15:22:45,743 - __main__ - INFO - Adding new filter type IS_VISIBLE to class Widget
+2025-03-09 15:22:45,743 - __main__ - INFO - Adding new filter type IS_HIDDEN to class Widget
+2025-03-09 15:22:45,743 - __main__ - INFO - Adding new filter type ENABLED_MEDIA_ID to class Widget
+2025-03-09 15:22:45,743 - __main__ - INFO - Adding new filter type DISABLED_MEDIA_ID to class Widget
+2025-03-09 15:22:45,743 - __main__ - INFO - Adding new filter type WIDGET_ITEM_ID to class Widget
+2025-03-09 15:22:45,743 - __main__ - INFO - Adding new filter type WIDGET_ITEM_AMOUNT to class Widget
+2025-03-09 15:22:45,743 - __main__ - INFO - Adding new filter type TEXT_COLOR to class Widget
+2025-03-09 15:22:45,744 - __main__ - INFO - Adding new filter type IS_VARIABLE_VALUE to class Widget
+2025-03-09 15:22:45,744 - __main__ - INFO - Adding new filter type FILTER_BY_ACTION to class Widget
+2025-03-09 15:22:45,744 - __main__ - INFO - Adding new filter class: World
+2025-03-09 15:22:45,744 - __main__ - INFO - Adding new filter class: Variable
+2025-03-09 15:22:45,744 - __main__ - ERROR - Error during merge process: 'list' object has no attribute 'items'
+2025-03-09 15:22:45,744 - __main__ - ERROR - Traceback (most recent call last):
+  File "D:\RS_AI\pandemic-code\psc-dreambot-integration\scripts\filter_merger.py", line 295, in main
+    merged_lib = merge_filter_libraries(filter_types_lib, types_operators_lib)
+  File "D:\RS_AI\pandemic-code\psc-dreambot-integration\scripts\filter_merger.py", line 239, in merge_filter_libraries
+    for op_name, op_data in types_operators_lib["logical_operators"].items():
+AttributeError: 'list' object has no attribute 'items'
+
+2025-03-09 15:22:45,745 - __main__ - ERROR - Script failed to complete
+2025-03-09 15:34:37,656 - __main__ - INFO - Starting filter types library merger script
+2025-03-09 15:34:37,656 - __main__ - INFO - Filter types library path: D:\RS_AI\pandemic-code\psc-dreambot-integration\libraries\filter_types_library.json
+2025-03-09 15:34:37,657 - __main__ - INFO - Types operators library path: D:\RS_AI\pandemic-code\psc-dreambot-integration\libraries\types_operators.json
+2025-03-09 15:34:37,657 - __main__ - INFO - Output path: D:\RS_AI\pandemic-code\psc-dreambot-integration\libraries\filter_types_library_merged.json
+2025-03-09 15:34:37,657 - __main__ - INFO - Loading filter types library...
+2025-03-09 15:34:37,658 - __main__ - INFO - Successfully loaded filter types library with 9 filter classes
+2025-03-09 15:34:37,658 - __main__ - INFO - Loading types operators library...
+2025-03-09 15:34:37,658 - __main__ - INFO - Types operators contains keys: filters, logical_operators, combining_filters, examples
+2025-03-09 15:34:37,658 - __main__ - INFO - Found 10 filter classes in types_operators_lib
+2025-03-09 15:34:37,658 - __main__ - INFO - Logical operators in types_operators_lib has type: <class 'list'>
+2025-03-09 15:34:37,659 - __main__ - INFO - Found logical operators: AND, OR
+2025-03-09 15:34:37,659 - __main__ - INFO - Merging libraries...
+2025-03-09 15:34:37,659 - __main__ - INFO - Merging details for filter class: Item
+2025-03-09 15:34:37,659 - __main__ - INFO - Adding new filter type AMOUNT to class Item
+2025-03-09 15:34:37,659 - __main__ - INFO - Adding new filter type HIGH_ALCH_VALUE to class Item
+2025-03-09 15:34:37,660 - __main__ - INFO - Adding new filter type LIVE_PRICE to class Item
+2025-03-09 15:34:37,660 - __main__ - INFO - Adding new filter type IS_NOTED to class Item
+2025-03-09 15:34:37,660 - __main__ - INFO - Adding new filter type IS_NOT_NOTED to class Item
+2025-03-09 15:34:37,660 - __main__ - INFO - Adding new filter type IS_FOOD to class Item
+2025-03-09 15:34:37,660 - __main__ - INFO - Adding new filter type IS_TRADEABLE to class Item
+2025-03-09 15:34:37,660 - __main__ - INFO - Adding new filter type IS_STACKABLE to class Item
+2025-03-09 15:34:37,660 - __main__ - INFO - Adding new filter type IN_INVENTORY to class Item
+2025-03-09 15:34:37,660 - __main__ - INFO - Adding new filter type IS_VARIABLE_VALUE to class Item
+2025-03-09 15:34:37,660 - __main__ - INFO - Adding new filter type IS_LAST_OUTPUT to class Item
+2025-03-09 15:34:37,660 - __main__ - INFO - Adding new filter type FILTER_BY_ACTION to class Item
+2025-03-09 15:34:37,660 - __main__ - INFO - Merging details for filter class: GroundItem
+2025-03-09 15:34:37,661 - __main__ - INFO - Adding new filter type AMOUNT to class GroundItem
+2025-03-09 15:34:37,661 - __main__ - INFO - Adding new filter type DISTANCE_TO_PLAYER to class GroundItem
+2025-03-09 15:34:37,661 - __main__ - INFO - Adding new filter type WALKING_DISTANCE_TO_PLAYER to class GroundItem
+2025-03-09 15:34:37,661 - __main__ - INFO - Adding new filter type IS_REACHABLE to class GroundItem
+2025-03-09 15:34:37,661 - __main__ - INFO - Adding new filter type IS_NOT_REACHABLE to class GroundItem
+2025-03-09 15:34:37,661 - __main__ - INFO - Adding new filter type IS_OUR_LOOT to class GroundItem
+2025-03-09 15:34:37,661 - __main__ - INFO - Adding new filter type IN_AREA to class GroundItem
+2025-03-09 15:34:37,661 - __main__ - INFO - Adding new filter type ON_SCREEN to class GroundItem
+2025-03-09 15:34:37,661 - __main__ - INFO - Adding new filter type NOT_ON_SCREEN to class GroundItem
+2025-03-09 15:34:37,662 - __main__ - INFO - Adding new filter type IS_VARIABLE_VALUE to class GroundItem
+2025-03-09 15:34:37,662 - __main__ - INFO - Adding new filter type FILTER_BY_ACTION to class GroundItem
+2025-03-09 15:34:37,662 - __main__ - INFO - Merging details for filter class: GameObject
+2025-03-09 15:34:37,662 - __main__ - INFO - Adding new filter type MODEL_COLORS to class GameObject
+2025-03-09 15:34:37,662 - __main__ - INFO - Adding new filter type ORIENTATION to class GameObject
+2025-03-09 15:34:37,662 - __main__ - INFO - Adding new filter type DISTANCE_TO_PLAYER to class GameObject
+2025-03-09 15:34:37,662 - __main__ - INFO - Adding new filter type IS_REACHABLE to class GameObject
+2025-03-09 15:34:37,662 - __main__ - INFO - Adding new filter type IS_NOT_REACHABLE to class GameObject
+2025-03-09 15:34:37,662 - __main__ - INFO - Adding new filter type TILE to class GameObject
+2025-03-09 15:34:37,662 - __main__ - INFO - Adding new filter type IN_AREA to class GameObject
+2025-03-09 15:34:37,663 - __main__ - INFO - Adding new filter type ON_SCREEN to class GameObject
+2025-03-09 15:34:37,663 - __main__ - INFO - Adding new filter type NOT_ON_SCREEN to class GameObject
+2025-03-09 15:34:37,663 - __main__ - INFO - Adding new filter type HAS_NAME to class GameObject
+2025-03-09 15:34:37,663 - __main__ - INFO - Adding new filter type INDEX to class GameObject
+2025-03-09 15:34:37,663 - __main__ - INFO - Adding new filter type IS_VARIABLE_VALUE to class GameObject
+2025-03-09 15:34:37,663 - __main__ - INFO - Adding new filter type FILTER_BY_ACTION to class GameObject
+2025-03-09 15:34:37,663 - __main__ - INFO - Merging details for filter class: NPC
+2025-03-09 15:34:37,663 - __main__ - INFO - Adding new filter type ACTION to class NPC
+2025-03-09 15:34:37,663 - __main__ - INFO - Adding new filter type HEALTH to class NPC
+2025-03-09 15:34:37,663 - __main__ - INFO - Adding new filter type ORIENTATION to class NPC
+2025-03-09 15:34:37,664 - __main__ - INFO - Adding new filter type DISTANCE_TO_PLAYER to class NPC
+2025-03-09 15:34:37,664 - __main__ - INFO - Adding new filter type ON_SCREEN to class NPC
+2025-03-09 15:34:37,664 - __main__ - INFO - Adding new filter type NOT_ON_SCREEN to class NPC
+2025-03-09 15:34:37,664 - __main__ - INFO - Adding new filter type IS_VARIABLE_VALUE to class NPC
+2025-03-09 15:34:37,664 - __main__ - INFO - Adding new filter type FILTER_BY_ACTION to class NPC
+2025-03-09 15:34:37,664 - __main__ - INFO - Merging details for filter class: Player
+2025-03-09 15:34:37,664 - __main__ - INFO - Adding new filter type ACTION to class Player
+2025-03-09 15:34:37,664 - __main__ - INFO - Adding new filter type HEALTH to class Player
+2025-03-09 15:34:37,664 - __main__ - INFO - Adding new filter type DISTANCE_TO_PLAYER to class Player
+2025-03-09 15:34:37,664 - __main__ - INFO - Adding new filter type WALKING_DISTANCE_TO_PLAYER to class Player
+2025-03-09 15:34:37,664 - __main__ - INFO - Adding new filter type IS_REACHABLE to class Player
+2025-03-09 15:34:37,665 - __main__ - INFO - Adding new filter type TILE to class Player
+2025-03-09 15:34:37,665 - __main__ - INFO - Adding new filter type IN_AREA to class Player
+2025-03-09 15:34:37,665 - __main__ - INFO - Adding new filter type ON_SCREEN to class Player
+2025-03-09 15:34:37,665 - __main__ - INFO - Adding new filter type NOT_ON_SCREEN to class Player
+2025-03-09 15:34:37,665 - __main__ - INFO - Adding new filter type ANIMATION to class Player
+2025-03-09 15:34:37,665 - __main__ - INFO - Adding new filter type ANIMATING to class Player
+2025-03-09 15:34:37,665 - __main__ - INFO - Adding new filter type NOT_ANIMATING to class Player
+2025-03-09 15:34:37,665 - __main__ - INFO - Adding new filter type CAN_ATTACK_ME to class Player
+2025-03-09 15:34:37,665 - __main__ - INFO - Adding new filter type MOVING to class Player
+2025-03-09 15:34:37,665 - __main__ - INFO - Adding new filter type NOT_MOVING to class Player
+2025-03-09 15:34:37,665 - __main__ - INFO - Adding new filter type IS_ATTACKABLE to class Player
+2025-03-09 15:34:37,666 - __main__ - INFO - Adding new filter type WE_ARE_INTERACTING to class Player
+2025-03-09 15:34:37,666 - __main__ - INFO - Adding new filter type IS_INTERACTING to class Player
+2025-03-09 15:34:37,666 - __main__ - INFO - Adding new filter type IS_INTERACTING_WITH_ME to class Player
+2025-03-09 15:34:37,666 - __main__ - INFO - Adding new filter type IS_LAST_OUTPUT to class Player
+2025-03-09 15:34:37,666 - __main__ - INFO - Adding new filter type INDEX to class Player
+2025-03-09 15:34:37,666 - __main__ - INFO - Adding new filter type FILTER_BY_ACTION to class Player
+2025-03-09 15:34:37,666 - __main__ - INFO - Adding new filter class: Projectile
+2025-03-09 15:34:37,666 - __main__ - INFO - Adding new filter class: GraphicsObject
+2025-03-09 15:34:37,666 - __main__ - INFO - Merging details for filter class: Widget
+2025-03-09 15:34:37,666 - __main__ - INFO - Adding new filter type WIDGET_ID to class Widget
+2025-03-09 15:34:37,666 - __main__ - INFO - Adding new filter type ACTION to class Widget
+2025-03-09 15:34:37,666 - __main__ - INFO - Adding new filter type IS_VISIBLE to class Widget
+2025-03-09 15:34:37,667 - __main__ - INFO - Adding new filter type IS_HIDDEN to class Widget
+2025-03-09 15:34:37,667 - __main__ - INFO - Adding new filter type ENABLED_MEDIA_ID to class Widget
+2025-03-09 15:34:37,667 - __main__ - INFO - Adding new filter type DISABLED_MEDIA_ID to class Widget
+2025-03-09 15:34:37,667 - __main__ - INFO - Adding new filter type WIDGET_ITEM_ID to class Widget
+2025-03-09 15:34:37,667 - __main__ - INFO - Adding new filter type WIDGET_ITEM_AMOUNT to class Widget
+2025-03-09 15:34:37,667 - __main__ - INFO - Adding new filter type TEXT_COLOR to class Widget
+2025-03-09 15:34:37,667 - __main__ - INFO - Adding new filter type IS_VARIABLE_VALUE to class Widget
+2025-03-09 15:34:37,667 - __main__ - INFO - Adding new filter type FILTER_BY_ACTION to class Widget
+2025-03-09 15:34:37,667 - __main__ - INFO - Adding new filter class: World
+2025-03-09 15:34:37,667 - __main__ - INFO - Adding new filter class: Variable
+2025-03-09 15:34:37,668 - __main__ - INFO - Merging logical_operators from list format with existing dictionary
+2025-03-09 15:34:37,668 - __main__ - INFO - Validating merged library...
+2025-03-09 15:34:37,668 - __main__ - INFO - Merged library validation successful
+2025-03-09 15:34:37,668 - __main__ - INFO - Saving merged library...
+2025-03-09 15:34:37,671 - __main__ - INFO - Successfully saved merged data to D:\RS_AI\pandemic-code\psc-dreambot-integration\libraries\filter_types_library_merged.json
+2025-03-09 15:34:37,671 - __main__ - INFO - Successfully merged filter types libraries!
+2025-03-09 15:34:37,671 - __main__ - INFO - Script completed successfully

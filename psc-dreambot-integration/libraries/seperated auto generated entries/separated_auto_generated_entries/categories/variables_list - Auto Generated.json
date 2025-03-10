@@ -1,0 +1,420 @@
+{
+    "CREATE_VARIABLE": {
+        "category": "variables_list",
+        "description": "[AUTO-GENERATED] CREATE_VARIABLE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: CREATE_VARIABLE'"
+            ]
+        }
+    },
+    "GET_VARIABLE": {
+        "category": "variables_list",
+        "description": "[AUTO-GENERATED] GET_VARIABLE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: GET_VARIABLE'"
+            ]
+        }
+    },
+    "DELETE_VARIABLE": {
+        "category": "variables_list",
+        "description": "[AUTO-GENERATED] DELETE_VARIABLE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: DELETE_VARIABLE'"
+            ]
+        }
+    },
+    "INCREMENT_VARIABLE": {
+        "category": "variables_list",
+        "description": "[AUTO-GENERATED] INCREMENT_VARIABLE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: INCREMENT_VARIABLE'"
+            ]
+        }
+    },
+    "DECREMENT_VARIABLE": {
+        "category": "variables_list",
+        "description": "[AUTO-GENERATED] DECREMENT_VARIABLE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: DECREMENT_VARIABLE'"
+            ]
+        }
+    },
+    "CLEAR_LIST": {
+        "category": "variables_list",
+        "description": "[AUTO-GENERATED] CLEAR_LIST",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: CLEAR_LIST'"
+            ]
+        }
+    },
+    "CHECK_LIST_CONTAINS": {
+        "category": "variables_list",
+        "description": "[AUTO-GENERATED] CHECK_LIST_CONTAINS",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: CHECK_LIST_CONTAINS'"
+            ]
+        }
+    },
+    "GET_LIST_SIZE": {
+        "category": "variables_list",
+        "description": "[AUTO-GENERATED] GET_LIST_SIZE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: GET_LIST_SIZE'"
+            ]
+        }
+    },
+    "GET_LIST_ITEM": {
+        "category": "variables_list",
+        "description": "[AUTO-GENERATED] GET_LIST_ITEM",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: GET_LIST_ITEM'"
+            ]
+        }
+    },
+    "REPLACE_LIST_ITEM": {
+        "category": "variables_list",
+        "description": "[AUTO-GENERATED] REPLACE_LIST_ITEM",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: REPLACE_LIST_ITEM'"
+            ]
+        }
+    },
+    "GET_RANDOM_LIST_ITEM": {
+        "category": "variables_list",
+        "description": "[AUTO-GENERATED] GET_RANDOM_LIST_ITEM",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: GET_RANDOM_LIST_ITEM'"
+            ]
+        }
+    },
+    "SORT_LIST": {
+        "category": "variables_list",
+        "description": "[AUTO-GENERATED] SORT_LIST",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: SORT_LIST'"
+            ]
+        }
+    },
+    "SHUFFLE_LIST": {
+        "category": "variables_list",
+        "description": "[AUTO-GENERATED] SHUFFLE_LIST",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: SHUFFLE_LIST'"
+            ]
+        }
+    },
+    "EXPORT_LIST_TO_VARIABLE": {
+        "category": "variables_list",
+        "description": "[AUTO-GENERATED] EXPORT_LIST_TO_VARIABLE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: EXPORT_LIST_TO_VARIABLE'"
+            ]
+        }
+    },
+    "EXPORT_VARIABLE_TO_LIST": {
+        "category": "variables_list",
+        "description": "[AUTO-GENERATED] EXPORT_VARIABLE_TO_LIST",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: EXPORT_VARIABLE_TO_LIST'"
+            ]
+        }
+    },
+    "CHECK_TIMER": {
+        "category": "variables_list",
+        "description": "[AUTO-GENERATED] CHECK_TIMER",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: CHECK_TIMER'"
+            ]
+        }
+    },
+    "PAUSE_TIMER": {
+        "category": "variables_list",
+        "description": "[AUTO-GENERATED] PAUSE_TIMER",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: PAUSE_TIMER'"
+            ]
+        }
+    },
+    "RESUME_TIMER": {
+        "category": "variables_list",
+        "description": "[AUTO-GENERATED] RESUME_TIMER",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: RESUME_TIMER'"
+            ]
+        }
+    },
+    "DELETE_TIMER": {
+        "category": "variables_list",
+        "description": "[AUTO-GENERATED] DELETE_TIMER",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: DELETE_TIMER'"
+            ]
+        }
+    }
+}

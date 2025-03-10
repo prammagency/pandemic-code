@@ -1,0 +1,178 @@
+{
+    "GAME_OBJECT_GET_NEAREST": {
+        "category": "entities_game_objects",
+        "description": "[AUTO-GENERATED] GAME_OBJECT_GET_NEAREST",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: GAME_OBJECT_GET_NEAREST'"
+            ]
+        }
+    },
+    "GAME_OBJECT_GET_ALL": {
+        "category": "entities_game_objects",
+        "description": "[AUTO-GENERATED] GAME_OBJECT_GET_ALL",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: GAME_OBJECT_GET_ALL'"
+            ]
+        }
+    },
+    "GAME_OBJECT_GET_AT_POSITION": {
+        "category": "entities_game_objects",
+        "description": "[AUTO-GENERATED] GAME_OBJECT_GET_AT_POSITION",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: GAME_OBJECT_GET_AT_POSITION'"
+            ]
+        }
+    },
+    "GAME_OBJECT_COUNT": {
+        "category": "entities_game_objects",
+        "description": "[AUTO-GENERATED] GAME_OBJECT_COUNT",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: GAME_OBJECT_COUNT'"
+            ]
+        }
+    },
+    "GAME_OBJECT_ACTION": {
+        "category": "entities_game_objects",
+        "description": "[AUTO-GENERATED] GAME_OBJECT_ACTION",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: GAME_OBJECT_ACTION'"
+            ]
+        }
+    },
+    "GAME_OBJECT_ID": {
+        "category": "entities_game_objects",
+        "description": "[AUTO-GENERATED] GAME_OBJECT_ID",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: GAME_OBJECT_ID'"
+            ]
+        }
+    },
+    "GAME_OBJECT_NAME": {
+        "category": "entities_game_objects",
+        "description": "[AUTO-GENERATED] GAME_OBJECT_NAME",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: GAME_OBJECT_NAME'"
+            ]
+        }
+    },
+    "GAME_OBJECT_DISTANCE": {
+        "category": "entities_game_objects",
+        "description": "[AUTO-GENERATED] GAME_OBJECT_DISTANCE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: GAME_OBJECT_DISTANCE'"
+            ]
+        }
+    }
+}

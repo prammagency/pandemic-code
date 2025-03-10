@@ -85,55 +85,6 @@
         ]
       }
     },
-    "CHECK_BANK_VALUE": {
-  "category": "banking",
-  "description": "Checks the total value of items in the bank",
-  "can_be_root": true,
-  "valid_parents": ["root", "IF_*", "WHILE_*"],
-  "properties": {
-    "required": ["threshold"],
-    "optional": ["ignoreStackable"]
-  },
-  "valid_children": ["*"],
-  "dreambot_api_mapping": {
-    "class": "org.dreambot.api.methods.bank.Bank",
-    "method": "getBankValue",
-    "parameters": []
-  }
-},
-"IF_BANK_PIN_IS_SET": {
-  "category": "banking",
-  "description": "Conditional that checks if a bank PIN is set",
-  "can_be_root": true,
-  "valid_parents": ["root", "IF_*", "WHILE_*"],
-  "properties": {
-    "required": [],
-    "optional": []
-  },
-  "valid_children": ["*"],
-  "dreambot_api_mapping": {
-    "class": "org.dreambot.api.methods.bank.Bank",
-    "method": "hasPin",
-    "parameters": []
-  }
-},
-"IF_BANK_PIN_IS_NOT_SET": {
-  "category": "banking",
-  "description": "Conditional that checks if a bank PIN is not set",
-  "can_be_root": true,
-  "valid_parents": ["root", "IF_*", "WHILE_*"],
-  "properties": {
-    "required": [],
-    "optional": []
-  },
-  "valid_children": ["*"],
-  "dreambot_api_mapping": {
-    "class": "org.dreambot.api.methods.bank.Bank",
-    "method": "hasPin",
-    "parameters": [],
-    "logic_inversion": true
-  } 
-},
     "BANK_WITHDRAW_ITEM": {
       "category": "banking",
       "description": "Withdraws a specific item from the bank into inventory",
@@ -399,39 +350,6 @@
         "construct": "multiple_conditions_or"
       }
     },
-    "IF_VARIABLE_IS_SET": {
-  "category": "variables",
-  "description": "Conditional that checks if a variable is set",
-  "can_be_root": true,
-  "valid_parents": ["root", "IF_*", "WHILE_*"],
-  "properties": {
-    "required": ["variableName"],
-    "optional": []
-  },
-  "valid_children": ["*"],
-  "dreambot_api_mapping": {
-    "class": "org.dreambot.api.utilities.Variables",
-    "method": "contains",
-    "parameters": ["variableName"]
-  }
-},
-"IF_VARIABLE_IS_NOT_SET": {
-  "category": "variables",
-  "description": "Conditional that checks if a variable is not set",
-  "can_be_root": true,
-  "valid_parents": ["root", "IF_*", "WHILE_*"],
-  "properties": {
-    "required": ["variableName"],
-    "optional": []
-  },
-  "valid_children": ["*"],
-  "dreambot_api_mapping": {
-    "class": "org.dreambot.api.utilities.Variables",
-    "method": "contains",
-    "parameters": ["variableName"],
-    "logic_inversion": true
-  }
-},
     "SET_VARIABLE": {
       "category": "variables",
       "description": "Sets a variable to a specified value",
@@ -830,22 +748,6 @@
         ]
       }
     },
-    "IF_POSITION_IS_REACHABLE": {
-  "category": "movement",
-  "description": "Conditional that checks if a specific position is reachable",
-  "can_be_root": true,
-  "valid_parents": ["root", "IF_*", "WHILE_*"],
-  "properties": {
-    "required": ["x", "y"],
-    "optional": []
-  },
-  "valid_children": ["*"],
-  "dreambot_api_mapping": {
-    "class": "org.dreambot.api.methods.map.Tile",
-    "method": "isReachable",
-    "parameters": []
-  }
-},
     "WALK_TO_BANK": {
       "category": "movement",
       "description": "Walks to the nearest bank",
@@ -912,57 +814,32 @@
         "parameters": []
       }
     },
-    "SET_RUNNING_ON": {
-  "category": "movement",
-  "description": "Turns the run mode on.",
-  "can_be_root": true,
-  "valid_parents": ["root", "IF_RUN_DISABLED", "CONDITIONAL"],
-  "properties": {
-    "required": [],
-    "optional": []
-  },
-  "valid_children": ["*"],
-  "dreambot_api_mapping": {
-    "class": "org.dreambot.api.methods.walking.impl.Walking",
-    "method": "toggleRun",
-    "parameters": [],
-    "logic_inversion": false
-  },
-  "examples": [
-    {
-      "description": "Enable running if it's not already enabled.",
-      "code": {"SET_RUNNING_ON": {}}
-    }
-  ],
-  "notes": "Activates player run mode when sufficient run energy is available."
-},
-"SET_RUNNING_OFF": {
-  "category": "movement",
-  "description": "Disables running mode to preserve run energy.",
-  "can_be_root": false,
-  "valid_parents": ["root", "CONDITIONAL", "IF_RUN_ENABLED"],
-  "properties": {
-    "required": [],
-    "optional": []
-  },
-  "valid_children": ["*"],
-  "dreambot_api_mapping": {
-    "class": "org.dreambot.api.methods.walking.impl.Walking",
-    "method": "toggleRun",
-    "parameters": [],
-    "logic_inversion": false
-  },
-  "examples": [
-    {
-      "description": "Disable running to conserve energy.",
-      "code": {
-        "SET_RUNNING_OFF": {}
+    "IF_PLAYER_IS_NOT_MOVING": {
+      "category": "movement",
+      "description": "Conditional that checks if the player is not moving",
+      "can_be_root": true,
+      "valid_parents": [
+        "root",
+        "IF_*",
+        "WHILE_*",
+        "AND_BRANCH",
+        "OR_BRANCH"
+      ],
+      "properties": {
+        "required": [],
+        "optional": []
+      },
+      "valid_children": [
+        "*"
+      ],
+      "dreambot_api_mapping": {
+        "class": "org.dreambot.api.methods.interactive.Players.getLocal()",
+        "method": "isMoving",
+        "parameters": [],
+        "logic_inversion": true
       }
-    }
-  ],
-  "notes": "Useful in long-distance paths where energy conservation is desired."
-  },
-      "SLEEP_BETWEEN": {
+    },
+    "SLEEP_BETWEEN": {
       "category": "sleep",
       "description": "Pauses script execution for a random duration between min and max milliseconds",
       "can_be_root": true,
@@ -988,23 +865,6 @@
         ]
       }
     },
-    "WAIT_RANDOM_INTERVAL": {
-  "category": "sleep",
-  "description": "Waits for a random interval between defined min and max milliseconds",
-  "can_be_root": true,
-  "valid_parents": ["root"],
-  "properties": {
-    "required": ["minTime", "maxTime"],
-    "optional": []
-  },
-  "valid_children": [],
-  "dreambot_api_mapping": {
-    "class": "org.dreambot.api.utilities.Sleep",
-    "method": "sleep",
-    "parameters": []
-  }
-},
-
     "SLEEP_NORMAL_DISTRIBUTION": {
       "category": "sleep",
       "description": "Pauses script execution for a duration following normal distribution",
@@ -1374,56 +1234,6 @@
         }
       }
     },
-    "IF_WIDGET_IS_DISABLED": {
-  "category": "widget",
-  "description": "Conditional that checks if a widget is disabled",
-  "can_be_root": true,
-  "valid_parents": ["root", "IF_*", "WHILE_*"],
-  "properties": {
-    "required": ["widgetId"],
-    "optional": []
-  },
-  "valid_children": ["*"],
-  "dreambot_api_mapping": {
-    "class": "org.dreambot.api.wrappers.widgets.Widget",
-    "method": "isDisabled",
-    "parameters": ["widgetId"]
-  }
-},
-    "IF_WIDGET_IS_ENABLED": {
-      "category": "widget",
-      "description": "Conditional that checks if a specific widget is enabled",
-      "can_be_root": true,
-      "valid_parents": [
-        "root",
-        "IF_*",
-        "WHILE_*",
-        "AND_BRANCH",
-        "OR_BRANCH"
-      ],
-      "properties": {
-        "required": [
-          "Widget ID",
-          "Child ID"
-        ],
-        "optional": []
-      },
-      "valid_children": [
-        "*"
-      ],
-      "dreambot_api_mapping": {
-        "class": "org.dreambot.api.methods.widget.Widgets",
-        "method": "getWidgetChild",
-        "parameters": [
-          "Widget ID",
-          "Child ID"
-        ],
-        "chain": {
-          "method": "isEnabled",
-          "parameters": []
-        }
-      }
-    },
     "CLICK_WIDGET": {
       "category": "widget",
       "description": "Clicks on a specific widget",
@@ -1552,34 +1362,6 @@
         "value": "Value"
       }
     },
-    "MERGE_LISTS": {
-      "category": "variables",
-      "description": "Merge multiple lists into a single consolidated list.",
-      "can_be_root": false,
-      "valid_parents": ["VARIABLE_OPERATIONS", "root"],
-      "properties": {
-        "required": ["target_list", "source_lists"],
-        "optional": []
-      },
-      "valid_children": [],
-      "dreambot_api_mapping": {
-        "class": "java.util.List",
-        "method": "addAll",
-        "parameters": ["Collection<? extends E>"],
-        "logic_inversion": false
-      },
-      "examples": [
-        {
-          "description": "Merge loot and alch item lists",
-          "code": {
-            "MERGE_LISTS": {
-              "target": "lootList",
-              "sources": ["alchItems", "lootTable"]
-            }
-          }
-        }
-      ]
-    },
     "FOR_EACH": {
       "category": "logic",
       "description": "Executes child actions for each item in a list",
@@ -1630,122 +1412,6 @@
         ]
       }
     },
-    "IF_NPC_VISIBLE_ON_SCREEN": {
-  "category": "entities",
-  "description": "Conditional that checks if an NPC is visible on screen",
-  "can_be_root": true,
-  "valid_parents": ["root", "IF_*", "WHILE_*"],
-  "properties": {
-    "required": ["npcName"],
-    "optional": []
-  },
-  "valid_children": ["*"],
-  "dreambot_api_mapping": {
-    "class": "org.dreambot.api.wrappers.interactive.NPC",
-    "method": "isOnScreen",
-    "parameters": []
-  }
-},
-"IF_NPC_NOT_VISIBLE_ON_SCREEN": {
-  "category": "entities",
-  "description": "Conditional that checks if an NPC is not visible on screen",
-  "can_be_root": true,
-
-  "valid_parents": ["root", "IF_*", "WHILE_*"],
-  "properties": {
-    "required": ["npcName"],
-    "optional": []
-  },
-  "valid_children": ["*"],
-  "dreambot_api_mapping": {
-    "class": "org.dreambot.api.wrappers.interactive.NPC",
-    "method": "isOnScreen",
-    "parameters": [],
-    "logic_inversion": true
-  }
-},
-"IF_NPC_IS_INTERACTABLE": {
-  "category": "entities",
-  "description": "Conditional that checks if an NPC is interactable",
-  "can_be_root": true,
-  "valid_parents": ["root", "IF_*", "WHILE_*"],
-  "properties": {
-    "required": ["npcName"],
-    "optional": []
-  },
-  "valid_children": ["*"],
-  "dreambot_api_mapping": {
-    "class": "org.dreambot.api.wrappers.interactive.NPC",
-    "method": "isInteractable",
-    "parameters": []
-  }
-},
-"IF_NPC_IS_NOT_INTERACTABLE": {
-  "category": "entities",
-  "description": "Conditional that checks if an NPC is not interactable",
-  "can_be_root": true,
-  "valid_parents": ["root", "IF_*", "WHILE_*"],
-  "properties": {
-    "required": ["npcName"],
-    "optional": []
-  },
-  "valid_children": ["*"],
-  "dreambot_api_mapping": {
-    "class": "org.dreambot.api.wrappers.interactive.NPC",
-    "method": "isInteractable",
-    "parameters": [],
-    "logic_inversion": true
-  }
-},
-"IF_NPC_IS_ATTACKABLE": {
-  "category": "entities",
-  "description": "Conditional that checks if an NPC is attackable",
-  "can_be_root": true,
-  "valid_parents": ["root", "IF_*", "WHILE_*"],
-  "properties": {
-    "required": ["npcName"],
-    "optional": []
-  },
-  "valid_children": ["*"],
-  "dreambot_api_mapping": {
-    "class": "org.dreambot.api.wrappers.interactive.NPC",
-    "method": "isAttackable",
-    "parameters": []
-  }
-},
-"IF_NPC_IS_NOT_ATTACKABLE": {
-  "category": "entities",
-  "description": "Conditional that checks if an NPC is not attackable",
-  "can_be_root": true,
-  "valid_parents": ["root", "IF_*", "WHILE_*"],
-  "properties": {
-    "required": ["npcName"],
-    "optional": []
-  },
-  "valid_children": ["*"],
-  "dreambot_api_mapping": {
-    "class": "org.dreambot.api.wrappers.interactive.NPC",
-    "method": "isAttackable",
-    "parameters": [],
-    "logic_inversion": true
-  }
-},
-"IF_NPC_IS_VISIBLE": {
-  "category": "entities",
-  "description": "Conditional that checks if an NPC is visible",
-  "can_be_root": true,
-  "valid_parents": ["root", "IF_*", "WHILE_*"],
-  "properties": {
-    "required": ["npcName"],
-    "optional": []
-  },
-  "valid_children": ["*"],
-  "dreambot_api_mapping": {
-    "class": "org.dreambot.api.wrappers.interactive.NPC",
-    "method": "isVisible",
-    "parameters": []
-  }
-},
     "EXAMINE_RANDOM_NPC": {
       "category": "entities",
       "description": "Examines a random NPC in the vicinity",
@@ -3077,30 +2743,6 @@
         ]
       }
     },
-    "IF_POISONED": {
-  "category": "entities_player",
-  "description": "Conditional that checks if the player is poisoned",
-  "can_be_root": true,
-  "valid_parents": [
-    "root",
-    "IF_*",
-    "WHILE_*",
-    "AND_BRANCH",
-    "OR_BRANCH"
-  ],
-  "properties": {
-    "required": [],
-    "optional": []
-  },
-  "valid_children": [
-    "*"
-  ],
-  "dreambot_api_mapping": {
-    "class": "org.dreambot.api.methods.player.Player",
-    "method": "isPoisoned",
-    "parameters": []
-  }
-},
     "PLAYER_GET_NAME": {
       "category": "entities_player",
       "description": "[AUTO-GENERATED] PLAYER_GET_NAME",
@@ -4179,22 +3821,6 @@
         ]
       }
     },
-    "IF_TIME_ELAPSED": {
-  "category": "logic",
-  "description": "Conditional that checks if a specified time has elapsed",
-  "can_be_root": true,
-  "valid_parents": ["root", "IF_*", "WHILE_*"],
-  "properties": {
-    "required": ["timeInMillis"],
-    "optional": []
-  },
-  "valid_children": ["*"],
-  "dreambot_api_mapping": {
-    "class": "org.dreambot.api.utilities.Timer",
-    "method": "elapsed",
-    "parameters": []
-  }
-},
     "IF_TIMER_IS_PAUSED": {
       "category": "logic",
       "description": "[AUTO-GENERATED] IF_TIMER_IS_PAUSED",
@@ -4877,38 +4503,6 @@
         ]
       }
     },
-    "IF_GROUND_ITEM_STACK_GREATER_THAN": {
-  "category": "entities ground_items",
-  "description": "Conditional that checks if a ground item's stack is greater than a certain amount",
-  "can_be_root": true,
-  "valid_parents": ["root", "IF_*", "WHILE_*"],
-  "properties": {
-    "required": ["itemName", "stackSize"],
-    "optional": []
-  },
-  "valid_children": ["*"],
-  "dreambot_api_mapping": {
-    "class": "org.dreambot.api.methods.grounditems.GroundItems",
-    "method": "get",
-    "parameters": ["itemName"]
-  }
-},
-"IF_GROUND_ITEM_STACK_LESS_THAN": {
-  "category": "entities ground_items",
-  "description": "Conditional that checks if a ground item's stack is less than a certain amount",
-  "can_be_root": true,
-  "valid_parents": ["root", "IF_*", "WHILE_*"],
-  "properties": {
-    "required": ["itemName", "stackSize"],
-    "optional": []
-  },
-  "valid_children": ["*"],
-  "dreambot_api_mapping": {
-    "class": "org.dreambot.api.methods.grounditems.GroundItems",
-    "method": "get",
-    "parameters": ["itemName"]
-  }
-},
     "GROUND_ITEM_GET_ALL": {
       "category": "entities_ground_items",
       "description": "[AUTO-GENERATED] GROUND_ITEM_GET_ALL",
@@ -5371,30 +4965,6 @@
         ]
       }
     },
-    "IF_DRINK_POTION": {
-  "category": "inventory",
-  "description": "Drinks a specified potion from the inventory",
-  "can_be_root": true,
-  "valid_parents": [
-    "root",
-    "IF_*",
-    "WHILE_*",
-    "AND_BRANCH",
-    "OR_BRANCH"
-  ],
-  "properties": {
-    "required": ["potion_name"],
-    "optional": ["dose"]
-  },
-  "valid_children": [
-    "*"
-  ],
-  "dreambot_api_mapping": {
-    "class": "org.dreambot.api.methods.container.impl.Inventory",
-    "method": "interact",
-    "parameters": ["potion_name", "Drink"]
-  }
-},
     "INVENTORY_INTERACT_ITEM": {
       "category": "inventory",
       "description": "[AUTO-GENERATED] INVENTORY_INTERACT_ITEM",
@@ -5483,94 +5053,6 @@
         ]
       }
     },
-    "IF_FOOD_IN_INVENTORY": {
-  "category": "inventory",
-  "description": "Conditional that checks if food exists in the player's inventory",
-  "can_be_root": true,
-  "valid_parents": [
-    "root",
-    "IF_*",
-    "WHILE_*",
-    "AND_BRANCH",
-    "OR_BRANCH"
-  ],
-  "properties": {
-    "required": ["food_name"],
-    "optional": ["minimum_quantity"]
-  },
-  "valid_children": [
-    "*"
-  ],
-  "dreambot_api_mapping": {
-    "class": "org.dreambot.api.methods.container.impl.Inventory",
-    "method": "contains",
-    "parameters": ["food_name"]
-  }
-},
-"IF_INVENTORY_HAS_NOTED_ITEM": {
-  "category": "inventory",
-  "description": "Conditional that checks if inventory contains a noted item",
-  "can_be_root": true,
-  "valid_parents": ["root", "IF_*", "WHILE_*"],
-  "properties": {
-    "required": ["itemName"],
-    "optional": []
-  },
-  "valid_children": ["*"],
-  "dreambot_api_mapping": {
-    "class": "org.dreambot.api.methods.container.impl.Inventory",
-    "method": "contains",
-    "parameters": ["itemName"]
-  }
-},
-"IF_INVENTORY_HAS_ITEM": {
-  "category": "inventory",
-  "description": "Conditional that checks if inventory contains an item",
-  "can_be_root": true,
-  "valid_parents": ["root", "IF_*", "WHILE_*"],
-  "properties": {
-    "required": ["itemName"],
-    "optional": []
-  },
-  "valid_children": ["*"],
-  "dreambot_api_mapping": {
-    "class": "org.dreambot.api.methods.container.impl.Inventory",
-    "method": "contains",
-    "parameters": ["itemName"]
-  }
-},
-"IF_INVENTORY_HAS_ITEM_WITH_QUANTITY": {
-  "category": "inventory",
-  "description": "Conditional that checks if inventory contains an item with a certain quantity",
-  "can_be_root": true,
-  "valid_parents": ["root", "IF_*", "WHILE_*"],
-  "properties": {
-    "required": ["itemName", "quantity"],
-    "optional": []
-  },
-  "valid_children": ["*"],
-  "dreambot_api_mapping": {
-    "class": "org.dreambot.api.methods.container.impl.Inventory",
-    "method": "contains",
-    "parameters": ["itemName"]
-  }
-},
-"IF_INVENTORY_HAS_ITEM_WITH_QUANTITY_OR_MORE": {
-  "category": "inventory",
-  "description": "Conditional that checks if inventory contains an item with a certain quantity or more",
-  "can_be_root": true,
-  "valid_parents": ["root", "IF_*", "WHILE_*"],
-  "properties": {
-    "required": ["itemName", "quantity"],
-    "optional": []
-  },
-  "valid_children": ["*"],
-  "dreambot_api_mapping": {
-    "class": "org.dreambot.api.methods.container.impl.Inventory",
-    "method": "contains",
-    "parameters": ["itemName"]
-  }
-},
     "INVENTORY_USE_ITEM_ON_PLAYER": {
       "category": "inventory",
       "description": "[AUTO-GENERATED] INVENTORY_USE_ITEM_ON_PLAYER",
@@ -5857,30 +5339,6 @@
         ]
       }
     },
-    "EQUIP_WEAPON": {
-  "category": "equipment",
-  "description": "Equips a specified weapon from the inventory",
-  "can_be_root": true,
-  "valid_parents": [
-    "root",
-    "IF_*",
-    "WHILE_*",
-    "AND_BRANCH",
-    "OR_BRANCH"
-  ],
-  "properties": {
-    "required": ["weapon_name"],
-    "optional": ["slot"]
-  },
-  "valid_children": [
-    "*"
-  ],
-  "dreambot_api_mapping": {
-    "class": "org.dreambot.api.methods.container.impl.Equipment",
-    "method": "equip",
-    "parameters": ["weapon_name"]
-  }
-},
     "EQUIPMENT_GET_ITEM_COUNT": {
       "category": "equipment",
       "description": "[AUTO-GENERATED] EQUIPMENT_GET_ITEM_COUNT",
@@ -6208,44 +5666,6 @@
         "method": "log",
         "parameters": [
           "'Not implemented: COMBAT_TOGGLE_QUICK_PRAYER'"
-        ]
-      }
-    },
-    "IF_PRAYER_POINTS_BELOW": {
-  "category": "combat",
-  "description": "Conditional that checks if prayer points are below a certain threshold",
-  "can_be_root": true,
-  "valid_parents": ["root", "IF_*", "WHILE_*"],
-  "properties": {
-    "required": ["threshold"],
-    "optional": []
-  },
-  "valid_children": ["*"],
-  "dreambot_api_mapping": {
-    "class": "org.dreambot.api.methods.prayer.Prayer",
-    "method": "getPoints",
-    "parameters": []
-  }
-},
-    "COMBAT_CHECK_SPECIAL_ATTACK": {
-      "category": "combat",
-      "description": "[AUTO-GENERATED] COMBAT_CHECK_SPECIAL_ATTACK",
-      "can_be_root": true,
-      "valid_parents": [
-        "root"
-      ],
-      "properties": {
-        "required": [],
-        "optional": []
-      },
-      "valid_children": [
-        "*"
-      ],
-      "dreambot_api_mapping": {
-        "class": "org.dreambot.api.methods.MethodProvider",
-        "method": "log",
-        "parameters": [
-          "'Not implemented: COMBAT_CHECK_SPECIAL_ATTACK'"
         ]
       }
     },
@@ -7987,7 +7407,6 @@
         ]
       }
     },
-    
     "INTERFACE_GET_HIDDEN_STATUS": {
       "category": "interface_menu",
       "description": "[AUTO-GENERATED] INTERFACE_GET_HIDDEN_STATUS",

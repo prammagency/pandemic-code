@@ -1,0 +1,56 @@
+{
+    "IF_GROUND_ITEM_STACK_GREATER_THAN": {
+        "category": "entities ground_items",
+        "description": "Conditional that checks if a ground item's stack is greater than a certain amount",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*"
+        ],
+        "properties": {
+            "required": [
+                "itemName",
+                "stackSize"
+            ],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.grounditems.GroundItems",
+            "method": "get",
+            "parameters": [
+                "itemName"
+            ]
+        }
+    },
+    "IF_GROUND_ITEM_STACK_LESS_THAN": {
+        "category": "entities ground_items",
+        "description": "Conditional that checks if a ground item's stack is less than a certain amount",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*"
+        ],
+        "properties": {
+            "required": [
+                "itemName",
+                "stackSize"
+            ],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.grounditems.GroundItems",
+            "method": "get",
+            "parameters": [
+                "itemName"
+            ]
+        }
+    }
+}

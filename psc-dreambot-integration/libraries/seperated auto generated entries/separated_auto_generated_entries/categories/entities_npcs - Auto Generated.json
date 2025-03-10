@@ -1,0 +1,266 @@
+{
+    "NPC_GET_NAME": {
+        "category": "entities_npcs",
+        "description": "[AUTO-GENERATED] NPC_GET_NAME",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: NPC_GET_NAME'"
+            ]
+        }
+    },
+    "NPC_GET_ID": {
+        "category": "entities_npcs",
+        "description": "[AUTO-GENERATED] NPC_GET_ID",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: NPC_GET_ID'"
+            ]
+        }
+    },
+    "NPC_GET_COMBAT_LEVEL": {
+        "category": "entities_npcs",
+        "description": "[AUTO-GENERATED] NPC_GET_COMBAT_LEVEL",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: NPC_GET_COMBAT_LEVEL'"
+            ]
+        }
+    },
+    "NPC_GET_POSITION": {
+        "category": "entities_npcs",
+        "description": "[AUTO-GENERATED] NPC_GET_POSITION",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: NPC_GET_POSITION'"
+            ]
+        }
+    },
+    "NPC_GET_HEALTH_PERCENT": {
+        "category": "entities_npcs",
+        "description": "[AUTO-GENERATED] NPC_GET_HEALTH_PERCENT",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: NPC_GET_HEALTH_PERCENT'"
+            ]
+        }
+    },
+    "NPC_GET_ANIMATION": {
+        "category": "entities_npcs",
+        "description": "[AUTO-GENERATED] NPC_GET_ANIMATION",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: NPC_GET_ANIMATION'"
+            ]
+        }
+    },
+    "NPC_GET_DISTANCE": {
+        "category": "entities_npcs",
+        "description": "[AUTO-GENERATED] NPC_GET_DISTANCE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: NPC_GET_DISTANCE'"
+            ]
+        }
+    },
+    "NPC_IS_INTERACTING_WITH_ME": {
+        "category": "entities_npcs",
+        "description": "[AUTO-GENERATED] NPC_IS_INTERACTING_WITH_ME",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: NPC_IS_INTERACTING_WITH_ME'"
+            ]
+        }
+    },
+    "NPC_IS_INTERACTING_WITH_PLAYER": {
+        "category": "entities_npcs",
+        "description": "[AUTO-GENERATED] NPC_IS_INTERACTING_WITH_PLAYER",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: NPC_IS_INTERACTING_WITH_PLAYER'"
+            ]
+        }
+    },
+    "NPC_FIND_NEAREST": {
+        "category": "entities_npcs",
+        "description": "[AUTO-GENERATED] NPC_FIND_NEAREST",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: NPC_FIND_NEAREST'"
+            ]
+        }
+    },
+    "NPC_FIND_ALL": {
+        "category": "entities_npcs",
+        "description": "[AUTO-GENERATED] NPC_FIND_ALL",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: NPC_FIND_ALL'"
+            ]
+        }
+    },
+    "NPC_COUNT": {
+        "category": "entities_npcs",
+        "description": "[AUTO-GENERATED] NPC_COUNT",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: NPC_COUNT'"
+            ]
+        }
+    }
+}

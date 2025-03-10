@@ -1,0 +1,200 @@
+{
+    "MENU_CLICK_OPTION": {
+        "category": "interface_menu",
+        "description": "[AUTO-GENERATED] MENU_CLICK_OPTION",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: MENU_CLICK_OPTION'"
+            ]
+        }
+    },
+    "MENU_GET_OPTIONS": {
+        "category": "interface_menu",
+        "description": "[AUTO-GENERATED] MENU_GET_OPTIONS",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: MENU_GET_OPTIONS'"
+            ]
+        }
+    },
+    "MENU_IS_OPEN": {
+        "category": "interface_menu",
+        "description": "[AUTO-GENERATED] MENU_IS_OPEN",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: MENU_IS_OPEN'"
+            ]
+        }
+    },
+    "MENU_CLOSE": {
+        "category": "interface_menu",
+        "description": "[AUTO-GENERATED] MENU_CLOSE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: MENU_CLOSE'"
+            ]
+        }
+    },
+    "INTERFACE_CLICK_COMPONENT": {
+        "category": "interface_menu",
+        "description": "[AUTO-GENERATED] INTERFACE_CLICK_COMPONENT",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: INTERFACE_CLICK_COMPONENT'"
+            ]
+        }
+    },
+    "INTERFACE_GET_TEXT": {
+        "category": "interface_menu",
+        "description": "[AUTO-GENERATED] INTERFACE_GET_TEXT",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: INTERFACE_GET_TEXT'"
+            ]
+        }
+    },
+    "INTERFACE_GET_HIDDEN_STATUS": {
+        "category": "interface_menu",
+        "description": "[AUTO-GENERATED] INTERFACE_GET_HIDDEN_STATUS",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: INTERFACE_GET_HIDDEN_STATUS'"
+            ]
+        }
+    },
+    "INTERFACE_INPUT_TEXT": {
+        "category": "interface_menu",
+        "description": "[AUTO-GENERATED] INTERFACE_INPUT_TEXT",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: INTERFACE_INPUT_TEXT'"
+            ]
+        }
+    },
+    "INTERFACE_HANDLE_DIALOG": {
+        "category": "interface_menu",
+        "description": "[AUTO-GENERATED] INTERFACE_HANDLE_DIALOG",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: INTERFACE_HANDLE_DIALOG'"
+            ]
+        }
+    }
+}

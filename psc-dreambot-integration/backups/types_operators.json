@@ -610,7 +610,7 @@
             "EQUALS", "DOES_NOT_EQUAL", 
             "LESS_THAN", "LESS_THAN_OR_EQUAL", 
             "GREATER_THAN", "GREATER_THAN_OR_EQUAL",
-            "CONTAINS", "DOES_NOT_CONTAIN"  // (for numbers, 'contains' might check digit sequence)
+            "CONTAINS", "DOES_NOT_CONTAIN"
           ],
           "value_type": "number",
           "description": "Interprets the variable’s value as a number for numeric comparisons."

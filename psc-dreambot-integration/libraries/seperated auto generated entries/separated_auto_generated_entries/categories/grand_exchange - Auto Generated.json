@@ -1,0 +1,178 @@
+{
+    "GE_OPEN": {
+        "category": "grand_exchange",
+        "description": "[AUTO-GENERATED] GE_OPEN",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: GE_OPEN'"
+            ]
+        }
+    },
+    "GE_CLOSE": {
+        "category": "grand_exchange",
+        "description": "[AUTO-GENERATED] GE_CLOSE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: GE_CLOSE'"
+            ]
+        }
+    },
+    "GE_BUY_ITEM": {
+        "category": "grand_exchange",
+        "description": "[AUTO-GENERATED] GE_BUY_ITEM",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: GE_BUY_ITEM'"
+            ]
+        }
+    },
+    "GE_SELL_ITEM": {
+        "category": "grand_exchange",
+        "description": "[AUTO-GENERATED] GE_SELL_ITEM",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: GE_SELL_ITEM'"
+            ]
+        }
+    },
+    "GE_COLLECT": {
+        "category": "grand_exchange",
+        "description": "[AUTO-GENERATED] GE_COLLECT",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: GE_COLLECT'"
+            ]
+        }
+    },
+    "GE_CHECK_OFFER_STATUS": {
+        "category": "grand_exchange",
+        "description": "[AUTO-GENERATED] GE_CHECK_OFFER_STATUS",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: GE_CHECK_OFFER_STATUS'"
+            ]
+        }
+    },
+    "GE_ABORT_OFFER": {
+        "category": "grand_exchange",
+        "description": "[AUTO-GENERATED] GE_ABORT_OFFER",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: GE_ABORT_OFFER'"
+            ]
+        }
+    },
+    "GE_GET_ITEM_PRICE": {
+        "category": "grand_exchange",
+        "description": "[AUTO-GENERATED] GE_GET_ITEM_PRICE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: GE_GET_ITEM_PRICE'"
+            ]
+        }
+    }
+}

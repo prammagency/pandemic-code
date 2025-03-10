@@ -1,0 +1,61 @@
+{
+    "GROUND_ITEM_INTERACT": {
+        "category": "ground_items",
+        "description": "Interacts with an item on the ground",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [
+                "Filter Item By"
+            ],
+            "optional": [
+                "Action"
+            ]
+        },
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.item.GroundItems",
+            "method": "interact",
+            "parameters": [
+                "Filter Item By",
+                "Action"
+            ]
+        }
+    },
+    "IF_GROUND_ITEM_EXISTS": {
+        "category": "ground_items",
+        "description": "Conditional that checks if an item exists on the ground",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [
+                "Filter Item By"
+            ],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.item.GroundItems",
+            "method": "closest",
+            "parameters": [
+                "Filter Item By"
+            ],
+            "comparison": {
+                "method": "!= null"
+            }
+        }
+    }
+}

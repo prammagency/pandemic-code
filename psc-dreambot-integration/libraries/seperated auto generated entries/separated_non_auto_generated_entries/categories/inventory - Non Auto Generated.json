@@ -1,0 +1,420 @@
+{
+    "IF_INVENTORY_CONTAINS": {
+        "category": "inventory",
+        "description": "Conditional that checks if the inventory contains an item",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [
+                "Filter Item By"
+            ],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.container.impl.Inventory",
+            "method": "contains",
+            "parameters": [
+                "Filter Item By.value"
+            ]
+        }
+    },
+    "IF_INVENTORY_IS_FULL": {
+        "category": "inventory",
+        "description": "Conditional that checks if the inventory is full",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.container.impl.Inventory",
+            "method": "isFull",
+            "parameters": []
+        }
+    },
+    "IF_INVENTORY_IS_NOT_FULL": {
+        "category": "inventory",
+        "description": "Conditional that checks if the inventory is not full",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.container.impl.Inventory",
+            "method": "isFull",
+            "parameters": [],
+            "logic_inversion": true
+        }
+    },
+    "IF_INVENTORY_IS_EMPTY": {
+        "category": "inventory",
+        "description": "Conditional that checks if the inventory is empty",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.container.impl.Inventory",
+            "method": "isEmpty",
+            "parameters": []
+        }
+    },
+    "IF_INVENTORY_IS_NOT_EMPTY": {
+        "category": "inventory",
+        "description": "Conditional that checks if the inventory is not empty",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.container.impl.Inventory",
+            "method": "isEmpty",
+            "parameters": [],
+            "logic_inversion": true
+        }
+    },
+    "INVENTORY_DROP_ITEM": {
+        "category": "inventory",
+        "description": "Drops an item from the inventory",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [
+                "Filter Item By"
+            ],
+            "optional": [
+                "Amount"
+            ]
+        },
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.container.impl.Inventory",
+            "method": "drop",
+            "parameters": [
+                "Filter Item By.value",
+                "Amount"
+            ]
+        }
+    },
+    "INVENTORY_DROP_ALL": {
+        "category": "inventory",
+        "description": "Drops all items in the inventory",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.container.impl.Inventory",
+            "method": "dropAll",
+            "parameters": []
+        }
+    },
+    "INVENTORY_DROP_ALL_EXCEPT": {
+        "category": "inventory",
+        "description": "Drops all items except those matching the filter",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [
+                "Filter Item By"
+            ],
+            "optional": []
+        },
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.container.impl.Inventory",
+            "method": "dropAllExcept",
+            "parameters": [
+                "Filter Item By.value"
+            ]
+        }
+    },
+    "INVENTORY_USE_ITEM": {
+        "category": "inventory",
+        "description": "Uses an item in the inventory",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [
+                "Filter Item By"
+            ],
+            "optional": []
+        },
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.container.impl.Inventory",
+            "method": "interact",
+            "parameters": [
+                "Filter Item By.value",
+                "\"Use\""
+            ]
+        }
+    },
+    "WHILE_INVENTORY_IS_NOT_FULL": {
+        "category": "inventory",
+        "description": "Loop that continues while the inventory is not full",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.container.impl.Inventory",
+            "method": "isFull",
+            "parameters": [],
+            "logic_inversion": true,
+            "construct": "while_loop"
+        }
+    },
+    "IF_DRINK_POTION": {
+        "category": "inventory",
+        "description": "Drinks a specified potion from the inventory",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [
+                "potion_name"
+            ],
+            "optional": [
+                "dose"
+            ]
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.container.impl.Inventory",
+            "method": "interact",
+            "parameters": [
+                "potion_name",
+                "Drink"
+            ]
+        }
+    },
+    "IF_FOOD_IN_INVENTORY": {
+        "category": "inventory",
+        "description": "Conditional that checks if food exists in the player's inventory",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [
+                "food_name"
+            ],
+            "optional": [
+                "minimum_quantity"
+            ]
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.container.impl.Inventory",
+            "method": "contains",
+            "parameters": [
+                "food_name"
+            ]
+        }
+    },
+    "IF_INVENTORY_HAS_NOTED_ITEM": {
+        "category": "inventory",
+        "description": "Conditional that checks if inventory contains a noted item",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*"
+        ],
+        "properties": {
+            "required": [
+                "itemName"
+            ],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.container.impl.Inventory",
+            "method": "contains",
+            "parameters": [
+                "itemName"
+            ]
+        }
+    },
+    "IF_INVENTORY_HAS_ITEM": {
+        "category": "inventory",
+        "description": "Conditional that checks if inventory contains an item",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*"
+        ],
+        "properties": {
+            "required": [
+                "itemName"
+            ],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.container.impl.Inventory",
+            "method": "contains",
+            "parameters": [
+                "itemName"
+            ]
+        }
+    },
+    "IF_INVENTORY_HAS_ITEM_WITH_QUANTITY": {
+        "category": "inventory",
+        "description": "Conditional that checks if inventory contains an item with a certain quantity",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*"
+        ],
+        "properties": {
+            "required": [
+                "itemName",
+                "quantity"
+            ],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.container.impl.Inventory",
+            "method": "contains",
+            "parameters": [
+                "itemName"
+            ]
+        }
+    },
+    "IF_INVENTORY_HAS_ITEM_WITH_QUANTITY_OR_MORE": {
+        "category": "inventory",
+        "description": "Conditional that checks if inventory contains an item with a certain quantity or more",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*"
+        ],
+        "properties": {
+            "required": [
+                "itemName",
+                "quantity"
+            ],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.container.impl.Inventory",
+            "method": "contains",
+            "parameters": [
+                "itemName"
+            ]
+        }
+    }
+}

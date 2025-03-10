@@ -1,0 +1,354 @@
+{
+    "WALK_TO_POSITION": {
+        "category": "walking",
+        "description": "[AUTO-GENERATED] WALK_TO_POSITION",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: WALK_TO_POSITION'"
+            ]
+        }
+    },
+    "WALK_TO_AREA": {
+        "category": "walking",
+        "description": "[AUTO-GENERATED] WALK_TO_AREA",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: WALK_TO_AREA'"
+            ]
+        }
+    },
+    "WALK_TO_OBJECT": {
+        "category": "walking",
+        "description": "[AUTO-GENERATED] WALK_TO_OBJECT",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: WALK_TO_OBJECT'"
+            ]
+        }
+    },
+    "WALK_TO_NPC": {
+        "category": "walking",
+        "description": "[AUTO-GENERATED] WALK_TO_NPC",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: WALK_TO_NPC'"
+            ]
+        }
+    },
+    "WALK_TO_PLAYER": {
+        "category": "walking",
+        "description": "[AUTO-GENERATED] WALK_TO_PLAYER",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: WALK_TO_PLAYER'"
+            ]
+        }
+    },
+    "WALK_TO_GROUND_ITEM": {
+        "category": "walking",
+        "description": "[AUTO-GENERATED] WALK_TO_GROUND_ITEM",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: WALK_TO_GROUND_ITEM'"
+            ]
+        }
+    },
+    "WALK_PATH": {
+        "category": "walking",
+        "description": "[AUTO-GENERATED] WALK_PATH",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: WALK_PATH'"
+            ]
+        }
+    },
+    "WALK_MINIMAP_POINT": {
+        "category": "walking",
+        "description": "[AUTO-GENERATED] WALK_MINIMAP_POINT",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: WALK_MINIMAP_POINT'"
+            ]
+        }
+    },
+    "WALK_SCREEN_POINT": {
+        "category": "walking",
+        "description": "[AUTO-GENERATED] WALK_SCREEN_POINT",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: WALK_SCREEN_POINT'"
+            ]
+        }
+    },
+    "TELEPORT_TO_VARROCK": {
+        "category": "walking",
+        "description": "[AUTO-GENERATED] TELEPORT_TO_VARROCK",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: TELEPORT_TO_VARROCK'"
+            ]
+        }
+    },
+    "TELEPORT_TO_LUMBRIDGE": {
+        "category": "walking",
+        "description": "[AUTO-GENERATED] TELEPORT_TO_LUMBRIDGE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: TELEPORT_TO_LUMBRIDGE'"
+            ]
+        }
+    },
+    "TELEPORT_TO_FALADOR": {
+        "category": "walking",
+        "description": "[AUTO-GENERATED] TELEPORT_TO_FALADOR",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: TELEPORT_TO_FALADOR'"
+            ]
+        }
+    },
+    "TELEPORT_TO_CAMELOT": {
+        "category": "walking",
+        "description": "[AUTO-GENERATED] TELEPORT_TO_CAMELOT",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: TELEPORT_TO_CAMELOT'"
+            ]
+        }
+    },
+    "TELEPORT_HOME": {
+        "category": "walking",
+        "description": "[AUTO-GENERATED] TELEPORT_HOME",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: TELEPORT_HOME'"
+            ]
+        }
+    },
+    "TELEPORT_WITH_ITEM": {
+        "category": "walking",
+        "description": "[AUTO-GENERATED] TELEPORT_WITH_ITEM",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: TELEPORT_WITH_ITEM'"
+            ]
+        }
+    },
+    "TELEPORT_WITH_SPELL": {
+        "category": "walking",
+        "description": "[AUTO-GENERATED] TELEPORT_WITH_SPELL",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: TELEPORT_WITH_SPELL'"
+            ]
+        }
+    }
+}

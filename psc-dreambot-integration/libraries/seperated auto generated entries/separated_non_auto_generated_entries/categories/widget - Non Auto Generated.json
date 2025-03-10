@@ -1,0 +1,172 @@
+{
+    "IF_LOGGED_IN": {
+        "category": "widget",
+        "description": "Conditional that checks if the player is logged in",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.Client",
+            "method": "isLoggedIn",
+            "parameters": []
+        }
+    },
+    "IF_LOGGED_OUT": {
+        "category": "widget",
+        "description": "Conditional that checks if the player is logged out",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.Client",
+            "method": "isLoggedIn",
+            "parameters": [],
+            "logic_inversion": true
+        }
+    },
+    "IF_WIDGET_IS_VISIBLE": {
+        "category": "widget",
+        "description": "Conditional that checks if a specific widget is visible",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [
+                "Widget ID",
+                "Child ID"
+            ],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.widget.Widgets",
+            "method": "getWidgetChild",
+            "parameters": [
+                "Widget ID",
+                "Child ID"
+            ],
+            "chain": {
+                "method": "isVisible",
+                "parameters": []
+            }
+        }
+    },
+    "IF_WIDGET_IS_DISABLED": {
+        "category": "widget",
+        "description": "Conditional that checks if a widget is disabled",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*"
+        ],
+        "properties": {
+            "required": [
+                "widgetId"
+            ],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.wrappers.widgets.Widget",
+            "method": "isDisabled",
+            "parameters": [
+                "widgetId"
+            ]
+        }
+    },
+    "IF_WIDGET_IS_ENABLED": {
+        "category": "widget",
+        "description": "Conditional that checks if a specific widget is enabled",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [
+                "Widget ID",
+                "Child ID"
+            ],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.widget.Widgets",
+            "method": "getWidgetChild",
+            "parameters": [
+                "Widget ID",
+                "Child ID"
+            ],
+            "chain": {
+                "method": "isEnabled",
+                "parameters": []
+            }
+        }
+    },
+    "CLICK_WIDGET": {
+        "category": "widget",
+        "description": "Clicks on a specific widget",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [
+                "Widget ID",
+                "Child ID"
+            ],
+            "optional": []
+        },
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.widget.Widgets",
+            "method": "getWidgetChild",
+            "parameters": [
+                "Widget ID",
+                "Child ID"
+            ],
+            "chain": {
+                "method": "interact",
+                "parameters": []
+            }
+        }
+    }
+}

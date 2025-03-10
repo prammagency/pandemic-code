@@ -1,0 +1,32 @@
+{
+    "EQUIP_WEAPON": {
+        "category": "equipment",
+        "description": "Equips a specified weapon from the inventory",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [
+                "weapon_name"
+            ],
+            "optional": [
+                "slot"
+            ]
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.container.impl.Equipment",
+            "method": "equip",
+            "parameters": [
+                "weapon_name"
+            ]
+        }
+    }
+}

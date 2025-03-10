@@ -1,0 +1,178 @@
+{
+    "EQUIPMENT_EQUIP_ITEM": {
+        "category": "equipment",
+        "description": "[AUTO-GENERATED] EQUIPMENT_EQUIP_ITEM",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: EQUIPMENT_EQUIP_ITEM'"
+            ]
+        }
+    },
+    "EQUIPMENT_UNEQUIP_ITEM": {
+        "category": "equipment",
+        "description": "[AUTO-GENERATED] EQUIPMENT_UNEQUIP_ITEM",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: EQUIPMENT_UNEQUIP_ITEM'"
+            ]
+        }
+    },
+    "EQUIPMENT_INTERACT_ITEM": {
+        "category": "equipment",
+        "description": "[AUTO-GENERATED] EQUIPMENT_INTERACT_ITEM",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: EQUIPMENT_INTERACT_ITEM'"
+            ]
+        }
+    },
+    "EQUIPMENT_CHECK_SLOT": {
+        "category": "equipment",
+        "description": "[AUTO-GENERATED] EQUIPMENT_CHECK_SLOT",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: EQUIPMENT_CHECK_SLOT'"
+            ]
+        }
+    },
+    "EQUIPMENT_GET_ITEM_ID": {
+        "category": "equipment",
+        "description": "[AUTO-GENERATED] EQUIPMENT_GET_ITEM_ID",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: EQUIPMENT_GET_ITEM_ID'"
+            ]
+        }
+    },
+    "EQUIPMENT_GET_ITEM_COUNT": {
+        "category": "equipment",
+        "description": "[AUTO-GENERATED] EQUIPMENT_GET_ITEM_COUNT",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: EQUIPMENT_GET_ITEM_COUNT'"
+            ]
+        }
+    },
+    "EQUIPMENT_OPEN": {
+        "category": "equipment",
+        "description": "[AUTO-GENERATED] EQUIPMENT_OPEN",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: EQUIPMENT_OPEN'"
+            ]
+        }
+    },
+    "EQUIPMENT_CLOSE": {
+        "category": "equipment",
+        "description": "[AUTO-GENERATED] EQUIPMENT_CLOSE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: EQUIPMENT_CLOSE'"
+            ]
+        }
+    }
+}

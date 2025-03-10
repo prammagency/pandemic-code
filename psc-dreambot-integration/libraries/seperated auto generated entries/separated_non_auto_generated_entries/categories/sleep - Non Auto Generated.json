@@ -1,0 +1,76 @@
+{
+    "SLEEP_BETWEEN": {
+        "category": "sleep",
+        "description": "Pauses script execution for a random duration between min and max milliseconds",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [
+                "Minimum",
+                "Maximum"
+            ],
+            "optional": []
+        },
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "sleep",
+            "parameters": [
+                "org.dreambot.api.methods.Calculations.random(Minimum, Maximum)"
+            ]
+        }
+    },
+    "WAIT_RANDOM_INTERVAL": {
+        "category": "sleep",
+        "description": "Waits for a random interval between defined min and max milliseconds",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [
+                "minTime",
+                "maxTime"
+            ],
+            "optional": []
+        },
+        "valid_children": [],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.utilities.Sleep",
+            "method": "sleep",
+            "parameters": []
+        }
+    },
+    "SLEEP_NORMAL_DISTRIBUTION": {
+        "category": "sleep",
+        "description": "Pauses script execution for a duration following normal distribution",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [
+                "Mean",
+                "Variance"
+            ],
+            "optional": []
+        },
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "sleepGaussian",
+            "parameters": [
+                "Mean",
+                "Variance"
+            ]
+        }
+    }
+}

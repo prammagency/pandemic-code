@@ -1,0 +1,244 @@
+{
+    "ANTIBAN_RANDOM_MOUSE_MOVEMENT": {
+        "category": "antiban",
+        "description": "[AUTO-GENERATED] ANTIBAN_RANDOM_MOUSE_MOVEMENT",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: ANTIBAN_RANDOM_MOUSE_MOVEMENT'"
+            ]
+        }
+    },
+    "ANTIBAN_RANDOM_CAMERA_ROTATION": {
+        "category": "antiban",
+        "description": "[AUTO-GENERATED] ANTIBAN_RANDOM_CAMERA_ROTATION",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: ANTIBAN_RANDOM_CAMERA_ROTATION'"
+            ]
+        }
+    },
+    "ANTIBAN_RANDOM_IDLE": {
+        "category": "antiban",
+        "description": "[AUTO-GENERATED] ANTIBAN_RANDOM_IDLE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: ANTIBAN_RANDOM_IDLE'"
+            ]
+        }
+    },
+    "ANTIBAN_EXAMINE_ENTITY": {
+        "category": "antiban",
+        "description": "[AUTO-GENERATED] ANTIBAN_EXAMINE_ENTITY",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: ANTIBAN_EXAMINE_ENTITY'"
+            ]
+        }
+    },
+    "ANTIBAN_HOVER_PLAYER": {
+        "category": "antiban",
+        "description": "[AUTO-GENERATED] ANTIBAN_HOVER_PLAYER",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: ANTIBAN_HOVER_PLAYER'"
+            ]
+        }
+    },
+    "ANTIBAN_HOVER_NPC": {
+        "category": "antiban",
+        "description": "[AUTO-GENERATED] ANTIBAN_HOVER_NPC",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: ANTIBAN_HOVER_NPC'"
+            ]
+        }
+    },
+    "ANTIBAN_HOVER_OBJECT": {
+        "category": "antiban",
+        "description": "[AUTO-GENERATED] ANTIBAN_HOVER_OBJECT",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: ANTIBAN_HOVER_OBJECT'"
+            ]
+        }
+    },
+    "ANTIBAN_CHECK_STATS": {
+        "category": "antiban",
+        "description": "[AUTO-GENERATED] ANTIBAN_CHECK_STATS",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: ANTIBAN_CHECK_STATS'"
+            ]
+        }
+    },
+    "ANTIBAN_OPEN_RANDOM_TAB": {
+        "category": "antiban",
+        "description": "[AUTO-GENERATED] ANTIBAN_OPEN_RANDOM_TAB",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: ANTIBAN_OPEN_RANDOM_TAB'"
+            ]
+        }
+    },
+    "ANTIBAN_MOVE_RANDOMLY": {
+        "category": "antiban",
+        "description": "[AUTO-GENERATED] ANTIBAN_MOVE_RANDOMLY",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: ANTIBAN_MOVE_RANDOMLY'"
+            ]
+        }
+    },
+    "ANTIBAN_BREAK_HANDLER": {
+        "category": "antiban",
+        "description": "[AUTO-GENERATED] ANTIBAN_BREAK_HANDLER",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: ANTIBAN_BREAK_HANDLER'"
+            ]
+        }
+    }
+}

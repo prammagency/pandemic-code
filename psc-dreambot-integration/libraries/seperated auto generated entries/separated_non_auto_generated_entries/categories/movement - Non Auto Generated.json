@@ -1,0 +1,207 @@
+{
+    "WALK_TO_TILE": {
+        "category": "movement",
+        "description": "Walks to a specific tile on the map",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [
+                "x",
+                "y",
+                "z"
+            ],
+            "optional": []
+        },
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.walking.impl.Walking",
+            "method": "walk",
+            "parameters": [
+                "new Tile(x, y, z)"
+            ]
+        }
+    },
+    "IF_POSITION_IS_REACHABLE": {
+        "category": "movement",
+        "description": "Conditional that checks if a specific position is reachable",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*"
+        ],
+        "properties": {
+            "required": [
+                "x",
+                "y"
+            ],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.map.Tile",
+            "method": "isReachable",
+            "parameters": []
+        }
+    },
+    "WALK_TO_BANK": {
+        "category": "movement",
+        "description": "Walks to the nearest bank",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.walking.impl.Walking",
+            "method": "walkToBank",
+            "parameters": []
+        }
+    },
+    "WALK_TO_GRAND_EXCHANGE": {
+        "category": "movement",
+        "description": "Walks to the Grand Exchange",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.walking.impl.Walking",
+            "method": "walkToGrandExchange",
+            "parameters": []
+        }
+    },
+    "IF_PLAYER_IS_MOVING": {
+        "category": "movement",
+        "description": "Conditional that checks if the player is moving",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.interactive.Players.getLocal()",
+            "method": "isMoving",
+            "parameters": []
+        }
+    },
+    "SET_RUNNING_ON": {
+        "category": "movement",
+        "description": "Turns the run mode on.",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_RUN_DISABLED",
+            "CONDITIONAL"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.walking.impl.Walking",
+            "method": "toggleRun",
+            "parameters": [],
+            "logic_inversion": false
+        },
+        "examples": [
+            {
+                "description": "Enable running if it's not already enabled.",
+                "code": {
+                    "SET_RUNNING_ON": {}
+                }
+            }
+        ],
+        "notes": "Activates player run mode when sufficient run energy is available."
+    },
+    "SET_RUNNING_OFF": {
+        "category": "movement",
+        "description": "Disables running mode to preserve run energy.",
+        "can_be_root": false,
+        "valid_parents": [
+            "root",
+            "CONDITIONAL",
+            "IF_RUN_ENABLED"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.walking.impl.Walking",
+            "method": "toggleRun",
+            "parameters": [],
+            "logic_inversion": false
+        },
+        "examples": [
+            {
+                "description": "Disable running to conserve energy.",
+                "code": {
+                    "SET_RUNNING_OFF": {}
+                }
+            }
+        ],
+        "notes": "Useful in long-distance paths where energy conservation is desired."
+    },
+    "ROTATE_CAMERA_RANDOMLY": {
+        "category": "movement",
+        "description": "Rotates the game camera to a random angle",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.input.Camera",
+            "method": "rotateTo",
+            "parameters": [
+                "org.dreambot.api.methods.Calculations.random(0, 360)"
+            ]
+        }
+    }
+}

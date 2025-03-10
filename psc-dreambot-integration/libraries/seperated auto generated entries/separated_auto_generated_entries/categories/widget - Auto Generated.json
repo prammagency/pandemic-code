@@ -1,0 +1,332 @@
+{
+    "WIDGET_INTERACT": {
+        "category": "widget",
+        "description": "[AUTO-GENERATED] WIDGET_INTERACT",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: WIDGET_INTERACT'"
+            ]
+        }
+    },
+    "WIDGET_GET_CHILDREN": {
+        "category": "widget",
+        "description": "[AUTO-GENERATED] WIDGET_GET_CHILDREN",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: WIDGET_GET_CHILDREN'"
+            ]
+        }
+    },
+    "WIDGET_INTERACT_ITEM": {
+        "category": "widget",
+        "description": "[AUTO-GENERATED] WIDGET_INTERACT_ITEM",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: WIDGET_INTERACT_ITEM'"
+            ]
+        }
+    },
+    "WIDGET_INTERACT_TEXT": {
+        "category": "widget",
+        "description": "[AUTO-GENERATED] WIDGET_INTERACT_TEXT",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: WIDGET_INTERACT_TEXT'"
+            ]
+        }
+    },
+    "WIDGET_GET_TEXT": {
+        "category": "widget",
+        "description": "[AUTO-GENERATED] WIDGET_GET_TEXT",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: WIDGET_GET_TEXT'"
+            ]
+        }
+    },
+    "WIDGET_GET_HIDDEN_STATUS": {
+        "category": "widget",
+        "description": "[AUTO-GENERATED] WIDGET_GET_HIDDEN_STATUS",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: WIDGET_GET_HIDDEN_STATUS'"
+            ]
+        }
+    },
+    "WIDGET_COMPONENT_CLICK": {
+        "category": "widget",
+        "description": "[AUTO-GENERATED] WIDGET_COMPONENT_CLICK",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: WIDGET_COMPONENT_CLICK'"
+            ]
+        }
+    },
+    "WIDGET_SELECT_OPTION": {
+        "category": "widget",
+        "description": "[AUTO-GENERATED] WIDGET_SELECT_OPTION",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: WIDGET_SELECT_OPTION'"
+            ]
+        }
+    },
+    "DIALOG_HANDLE": {
+        "category": "widget",
+        "description": "[AUTO-GENERATED] DIALOG_HANDLE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: DIALOG_HANDLE'"
+            ]
+        }
+    },
+    "DIALOG_HANDLE_CONTINUE": {
+        "category": "widget",
+        "description": "[AUTO-GENERATED] DIALOG_HANDLE_CONTINUE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: DIALOG_HANDLE_CONTINUE'"
+            ]
+        }
+    },
+    "DIALOG_HANDLE_OPTION": {
+        "category": "widget",
+        "description": "[AUTO-GENERATED] DIALOG_HANDLE_OPTION",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: DIALOG_HANDLE_OPTION'"
+            ]
+        }
+    },
+    "DIALOG_CHAT_CONTINUE": {
+        "category": "widget",
+        "description": "[AUTO-GENERATED] DIALOG_CHAT_CONTINUE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: DIALOG_CHAT_CONTINUE'"
+            ]
+        }
+    },
+    "DIALOG_CHAT_OPTION": {
+        "category": "widget",
+        "description": "[AUTO-GENERATED] DIALOG_CHAT_OPTION",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: DIALOG_CHAT_OPTION'"
+            ]
+        }
+    },
+    "DIALOG_NPC": {
+        "category": "widget",
+        "description": "[AUTO-GENERATED] DIALOG_NPC",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: DIALOG_NPC'"
+            ]
+        }
+    },
+    "DIALOG_CHECK_TALKING": {
+        "category": "widget",
+        "description": "[AUTO-GENERATED] DIALOG_CHECK_TALKING",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: DIALOG_CHECK_TALKING'"
+            ]
+        }
+    }
+}

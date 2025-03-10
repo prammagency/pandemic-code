@@ -1,0 +1,178 @@
+{
+    "FARMING_CHECK_PATCH_STATE": {
+        "category": "farming",
+        "description": "[AUTO-GENERATED] FARMING_CHECK_PATCH_STATE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: FARMING_CHECK_PATCH_STATE'"
+            ]
+        }
+    },
+    "FARMING_HARVEST_PATCH": {
+        "category": "farming",
+        "description": "[AUTO-GENERATED] FARMING_HARVEST_PATCH",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: FARMING_HARVEST_PATCH'"
+            ]
+        }
+    },
+    "FARMING_PLANT_SEED": {
+        "category": "farming",
+        "description": "[AUTO-GENERATED] FARMING_PLANT_SEED",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: FARMING_PLANT_SEED'"
+            ]
+        }
+    },
+    "FARMING_CURE_DISEASE": {
+        "category": "farming",
+        "description": "[AUTO-GENERATED] FARMING_CURE_DISEASE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: FARMING_CURE_DISEASE'"
+            ]
+        }
+    },
+    "FARMING_COMPOST_PATCH": {
+        "category": "farming",
+        "description": "[AUTO-GENERATED] FARMING_COMPOST_PATCH",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: FARMING_COMPOST_PATCH'"
+            ]
+        }
+    },
+    "FARMING_CLEAR_PATCH": {
+        "category": "farming",
+        "description": "[AUTO-GENERATED] FARMING_CLEAR_PATCH",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: FARMING_CLEAR_PATCH'"
+            ]
+        }
+    },
+    "FARMING_GET_GROWTH_STAGE": {
+        "category": "farming",
+        "description": "[AUTO-GENERATED] FARMING_GET_GROWTH_STAGE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: FARMING_GET_GROWTH_STAGE'"
+            ]
+        }
+    },
+    "FARMING_INTERACT_PATCH": {
+        "category": "farming",
+        "description": "[AUTO-GENERATED] FARMING_INTERACT_PATCH",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: FARMING_INTERACT_PATCH'"
+            ]
+        }
+    }
+}

@@ -1,0 +1,156 @@
+{
+    "CLUE_SCROLL_SOLVE_ANAGRAM": {
+        "category": "clue_scrolls",
+        "description": "[AUTO-GENERATED] CLUE_SCROLL_SOLVE_ANAGRAM",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: CLUE_SCROLL_SOLVE_ANAGRAM'"
+            ]
+        }
+    },
+    "CLUE_SCROLL_SOLVE_CRYPTIC": {
+        "category": "clue_scrolls",
+        "description": "[AUTO-GENERATED] CLUE_SCROLL_SOLVE_CRYPTIC",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: CLUE_SCROLL_SOLVE_CRYPTIC'"
+            ]
+        }
+    },
+    "CLUE_SCROLL_SOLVE_COORDINATE": {
+        "category": "clue_scrolls",
+        "description": "[AUTO-GENERATED] CLUE_SCROLL_SOLVE_COORDINATE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: CLUE_SCROLL_SOLVE_COORDINATE'"
+            ]
+        }
+    },
+    "CLUE_SCROLL_SOLVE_EMOTE": {
+        "category": "clue_scrolls",
+        "description": "[AUTO-GENERATED] CLUE_SCROLL_SOLVE_EMOTE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: CLUE_SCROLL_SOLVE_EMOTE'"
+            ]
+        }
+    },
+    "CLUE_SCROLL_SOLVE_MAP": {
+        "category": "clue_scrolls",
+        "description": "[AUTO-GENERATED] CLUE_SCROLL_SOLVE_MAP",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: CLUE_SCROLL_SOLVE_MAP'"
+            ]
+        }
+    },
+    "CLUE_SCROLL_SOLVE_PUZZLE_BOX": {
+        "category": "clue_scrolls",
+        "description": "[AUTO-GENERATED] CLUE_SCROLL_SOLVE_PUZZLE_BOX",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: CLUE_SCROLL_SOLVE_PUZZLE_BOX'"
+            ]
+        }
+    },
+    "CLUE_SCROLL_DIG": {
+        "category": "clue_scrolls",
+        "description": "[AUTO-GENERATED] CLUE_SCROLL_DIG",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: CLUE_SCROLL_DIG'"
+            ]
+        }
+    }
+}

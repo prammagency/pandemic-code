@@ -1,0 +1,200 @@
+{
+    "FRIENDS_ADD": {
+        "category": "social",
+        "description": "[AUTO-GENERATED] FRIENDS_ADD",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: FRIENDS_ADD'"
+            ]
+        }
+    },
+    "FRIENDS_REMOVE": {
+        "category": "social",
+        "description": "[AUTO-GENERATED] FRIENDS_REMOVE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: FRIENDS_REMOVE'"
+            ]
+        }
+    },
+    "FRIENDS_IS_FRIEND": {
+        "category": "social",
+        "description": "[AUTO-GENERATED] FRIENDS_IS_FRIEND",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: FRIENDS_IS_FRIEND'"
+            ]
+        }
+    },
+    "FRIENDS_GET_LIST": {
+        "category": "social",
+        "description": "[AUTO-GENERATED] FRIENDS_GET_LIST",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: FRIENDS_GET_LIST'"
+            ]
+        }
+    },
+    "FRIENDS_SEND_MESSAGE": {
+        "category": "social",
+        "description": "[AUTO-GENERATED] FRIENDS_SEND_MESSAGE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: FRIENDS_SEND_MESSAGE'"
+            ]
+        }
+    },
+    "CLAN_CHAT_JOIN": {
+        "category": "social",
+        "description": "[AUTO-GENERATED] CLAN_CHAT_JOIN",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: CLAN_CHAT_JOIN'"
+            ]
+        }
+    },
+    "CLAN_CHAT_LEAVE": {
+        "category": "social",
+        "description": "[AUTO-GENERATED] CLAN_CHAT_LEAVE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: CLAN_CHAT_LEAVE'"
+            ]
+        }
+    },
+    "CLAN_CHAT_SEND_MESSAGE": {
+        "category": "social",
+        "description": "[AUTO-GENERATED] CLAN_CHAT_SEND_MESSAGE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: CLAN_CHAT_SEND_MESSAGE'"
+            ]
+        }
+    },
+    "CLAN_CHAT_GET_MEMBERS": {
+        "category": "social",
+        "description": "[AUTO-GENERATED] CLAN_CHAT_GET_MEMBERS",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: CLAN_CHAT_GET_MEMBERS'"
+            ]
+        }
+    }
+}

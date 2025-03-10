@@ -1,0 +1,222 @@
+{
+    "SLEEP": {
+        "category": "sleep",
+        "description": "[AUTO-GENERATED] SLEEP",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: SLEEP'"
+            ]
+        }
+    },
+    "SLEEP_GAUSSIAN": {
+        "category": "sleep",
+        "description": "[AUTO-GENERATED] SLEEP_GAUSSIAN",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: SLEEP_GAUSSIAN'"
+            ]
+        }
+    },
+    "SLEEP_UNTIL_CONDITION": {
+        "category": "sleep",
+        "description": "[AUTO-GENERATED] SLEEP_UNTIL_CONDITION",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: SLEEP_UNTIL_CONDITION'"
+            ]
+        }
+    },
+    "SLEEP_UNTIL_INVENTORY_CHANGES": {
+        "category": "sleep",
+        "description": "[AUTO-GENERATED] SLEEP_UNTIL_INVENTORY_CHANGES",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: SLEEP_UNTIL_INVENTORY_CHANGES'"
+            ]
+        }
+    },
+    "SLEEP_UNTIL_ANIMATION_ENDS": {
+        "category": "sleep",
+        "description": "[AUTO-GENERATED] SLEEP_UNTIL_ANIMATION_ENDS",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: SLEEP_UNTIL_ANIMATION_ENDS'"
+            ]
+        }
+    },
+    "SLEEP_UNTIL_DIALOG_APPEARS": {
+        "category": "sleep",
+        "description": "[AUTO-GENERATED] SLEEP_UNTIL_DIALOG_APPEARS",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: SLEEP_UNTIL_DIALOG_APPEARS'"
+            ]
+        }
+    },
+    "SLEEP_UNTIL_DIALOG_CLOSES": {
+        "category": "sleep",
+        "description": "[AUTO-GENERATED] SLEEP_UNTIL_DIALOG_CLOSES",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: SLEEP_UNTIL_DIALOG_CLOSES'"
+            ]
+        }
+    },
+    "SLEEP_UNTIL_BANK_OPENS": {
+        "category": "sleep",
+        "description": "[AUTO-GENERATED] SLEEP_UNTIL_BANK_OPENS",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: SLEEP_UNTIL_BANK_OPENS'"
+            ]
+        }
+    },
+    "SLEEP_UNTIL_BANK_CLOSES": {
+        "category": "sleep",
+        "description": "[AUTO-GENERATED] SLEEP_UNTIL_BANK_CLOSES",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: SLEEP_UNTIL_BANK_CLOSES'"
+            ]
+        }
+    },
+    "SLEEP_UNTIL_COMBAT_ENDS": {
+        "category": "sleep",
+        "description": "[AUTO-GENERATED] SLEEP_UNTIL_COMBAT_ENDS",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: SLEEP_UNTIL_COMBAT_ENDS'"
+            ]
+        }
+    }
+}

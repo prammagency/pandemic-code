@@ -1,0 +1,200 @@
+{
+    "PRAYER_ACTIVATE": {
+        "category": "prayer",
+        "description": "[AUTO-GENERATED] PRAYER_ACTIVATE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: PRAYER_ACTIVATE'"
+            ]
+        }
+    },
+    "PRAYER_DEACTIVATE": {
+        "category": "prayer",
+        "description": "[AUTO-GENERATED] PRAYER_DEACTIVATE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: PRAYER_DEACTIVATE'"
+            ]
+        }
+    },
+    "PRAYER_TOGGLE": {
+        "category": "prayer",
+        "description": "[AUTO-GENERATED] PRAYER_TOGGLE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: PRAYER_TOGGLE'"
+            ]
+        }
+    },
+    "PRAYER_ACTIVATE_ALL": {
+        "category": "prayer",
+        "description": "[AUTO-GENERATED] PRAYER_ACTIVATE_ALL",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: PRAYER_ACTIVATE_ALL'"
+            ]
+        }
+    },
+    "PRAYER_DEACTIVATE_ALL": {
+        "category": "prayer",
+        "description": "[AUTO-GENERATED] PRAYER_DEACTIVATE_ALL",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: PRAYER_DEACTIVATE_ALL'"
+            ]
+        }
+    },
+    "PRAYER_IS_ACTIVE": {
+        "category": "prayer",
+        "description": "[AUTO-GENERATED] PRAYER_IS_ACTIVE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: PRAYER_IS_ACTIVE'"
+            ]
+        }
+    },
+    "PRAYER_GET_POINTS": {
+        "category": "prayer",
+        "description": "[AUTO-GENERATED] PRAYER_GET_POINTS",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: PRAYER_GET_POINTS'"
+            ]
+        }
+    },
+    "PRAYER_SET_QUICK_PRAYERS": {
+        "category": "prayer",
+        "description": "[AUTO-GENERATED] PRAYER_SET_QUICK_PRAYERS",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: PRAYER_SET_QUICK_PRAYERS'"
+            ]
+        }
+    },
+    "PRAYER_TOGGLE_QUICK_PRAYERS": {
+        "category": "prayer",
+        "description": "[AUTO-GENERATED] PRAYER_TOGGLE_QUICK_PRAYERS",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: PRAYER_TOGGLE_QUICK_PRAYERS'"
+            ]
+        }
+    }
+}

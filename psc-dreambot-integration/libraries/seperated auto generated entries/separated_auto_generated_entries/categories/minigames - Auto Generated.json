@@ -1,0 +1,134 @@
+{
+    "MINIGAME_GET_STATE": {
+        "category": "minigames",
+        "description": "[AUTO-GENERATED] MINIGAME_GET_STATE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: MINIGAME_GET_STATE'"
+            ]
+        }
+    },
+    "MINIGAME_INTERACT": {
+        "category": "minigames",
+        "description": "[AUTO-GENERATED] MINIGAME_INTERACT",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: MINIGAME_INTERACT'"
+            ]
+        }
+    },
+    "MINIGAME_GET_POINTS": {
+        "category": "minigames",
+        "description": "[AUTO-GENERATED] MINIGAME_GET_POINTS",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: MINIGAME_GET_POINTS'"
+            ]
+        }
+    },
+    "MINIGAME_START": {
+        "category": "minigames",
+        "description": "[AUTO-GENERATED] MINIGAME_START",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: MINIGAME_START'"
+            ]
+        }
+    },
+    "MINIGAME_END": {
+        "category": "minigames",
+        "description": "[AUTO-GENERATED] MINIGAME_END",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: MINIGAME_END'"
+            ]
+        }
+    },
+    "MINIGAME_PERFORM_ACTION": {
+        "category": "minigames",
+        "description": "[AUTO-GENERATED] MINIGAME_PERFORM_ACTION",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: MINIGAME_PERFORM_ACTION'"
+            ]
+        }
+    }
+}

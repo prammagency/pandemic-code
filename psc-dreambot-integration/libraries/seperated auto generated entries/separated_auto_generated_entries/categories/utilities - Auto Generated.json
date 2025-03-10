@@ -1,0 +1,244 @@
+{
+    "LOG": {
+        "category": "utilities",
+        "description": "[AUTO-GENERATED] LOG",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: LOG'"
+            ]
+        }
+    },
+    "DEBUG_LOG": {
+        "category": "utilities",
+        "description": "[AUTO-GENERATED] DEBUG_LOG",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: DEBUG_LOG'"
+            ]
+        }
+    },
+    "ERROR_LOG": {
+        "category": "utilities",
+        "description": "[AUTO-GENERATED] ERROR_LOG",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: ERROR_LOG'"
+            ]
+        }
+    },
+    "TAKE_SCREENSHOT": {
+        "category": "utilities",
+        "description": "[AUTO-GENERATED] TAKE_SCREENSHOT",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: TAKE_SCREENSHOT'"
+            ]
+        }
+    },
+    "RANDOM_NUMBER": {
+        "category": "utilities",
+        "description": "[AUTO-GENERATED] RANDOM_NUMBER",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: RANDOM_NUMBER'"
+            ]
+        }
+    },
+    "ROTATE_CAMERA": {
+        "category": "utilities",
+        "description": "[AUTO-GENERATED] ROTATE_CAMERA",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: ROTATE_CAMERA'"
+            ]
+        }
+    },
+    "MOVE_MOUSE_RANDOMLY": {
+        "category": "utilities",
+        "description": "[AUTO-GENERATED] MOVE_MOUSE_RANDOMLY",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: MOVE_MOUSE_RANDOMLY'"
+            ]
+        }
+    },
+    "GET_CURRENT_TIME": {
+        "category": "utilities",
+        "description": "[AUTO-GENERATED] GET_CURRENT_TIME",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: GET_CURRENT_TIME'"
+            ]
+        }
+    },
+    "FORMAT_DATE_TIME": {
+        "category": "utilities",
+        "description": "[AUTO-GENERATED] FORMAT_DATE_TIME",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: FORMAT_DATE_TIME'"
+            ]
+        }
+    },
+    "CALCULATE_DISTANCE": {
+        "category": "utilities",
+        "description": "[AUTO-GENERATED] CALCULATE_DISTANCE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: CALCULATE_DISTANCE'"
+            ]
+        }
+    },
+    "EXECUTE_AFTER_DELAY": {
+        "category": "utilities",
+        "description": "[AUTO-GENERATED] EXECUTE_AFTER_DELAY",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: EXECUTE_AFTER_DELAY'"
+            ]
+        }
+    }
+}

@@ -1,0 +1,134 @@
+{
+    "GROUND_ITEM_GET_NEAREST": {
+        "category": "entities_ground_items",
+        "description": "[AUTO-GENERATED] GROUND_ITEM_GET_NEAREST",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: GROUND_ITEM_GET_NEAREST'"
+            ]
+        }
+    },
+    "GROUND_ITEM_GET_ALL": {
+        "category": "entities_ground_items",
+        "description": "[AUTO-GENERATED] GROUND_ITEM_GET_ALL",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: GROUND_ITEM_GET_ALL'"
+            ]
+        }
+    },
+    "GROUND_ITEM_GET_AT_POSITION": {
+        "category": "entities_ground_items",
+        "description": "[AUTO-GENERATED] GROUND_ITEM_GET_AT_POSITION",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: GROUND_ITEM_GET_AT_POSITION'"
+            ]
+        }
+    },
+    "GROUND_ITEM_COUNT": {
+        "category": "entities_ground_items",
+        "description": "[AUTO-GENERATED] GROUND_ITEM_COUNT",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: GROUND_ITEM_COUNT'"
+            ]
+        }
+    },
+    "GROUND_ITEM_PICKUP": {
+        "category": "entities_ground_items",
+        "description": "[AUTO-GENERATED] GROUND_ITEM_PICKUP",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: GROUND_ITEM_PICKUP'"
+            ]
+        }
+    },
+    "GROUND_ITEM_PICKUP_ALL": {
+        "category": "entities_ground_items",
+        "description": "[AUTO-GENERATED] GROUND_ITEM_PICKUP_ALL",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: GROUND_ITEM_PICKUP_ALL'"
+            ]
+        }
+    }
+}

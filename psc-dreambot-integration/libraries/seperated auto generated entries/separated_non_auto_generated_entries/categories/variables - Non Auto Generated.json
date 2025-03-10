@@ -1,0 +1,303 @@
+{
+    "IF_VARIABLE_IS_SET": {
+        "category": "variables",
+        "description": "Conditional that checks if a variable is set",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*"
+        ],
+        "properties": {
+            "required": [
+                "variableName"
+            ],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.utilities.Variables",
+            "method": "contains",
+            "parameters": [
+                "variableName"
+            ]
+        }
+    },
+    "IF_VARIABLE_IS_NOT_SET": {
+        "category": "variables",
+        "description": "Conditional that checks if a variable is not set",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*"
+        ],
+        "properties": {
+            "required": [
+                "variableName"
+            ],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.utilities.Variables",
+            "method": "contains",
+            "parameters": [
+                "variableName"
+            ],
+            "logic_inversion": true
+        }
+    },
+    "SET_VARIABLE": {
+        "category": "variables",
+        "description": "Sets a variable to a specified value",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [
+                "Variable name",
+                "Value"
+            ],
+            "optional": []
+        },
+        "dreambot_api_mapping": {
+            "type": "variable_assignment",
+            "variable": "Variable name",
+            "value": "Value"
+        }
+    },
+    "SET_VARIABLE_TO_CURRENT_TIME": {
+        "category": "variables",
+        "description": "Sets a variable to the current system time",
+        "can_be_root": false,
+        "valid_parents": [
+            "SET_VARIABLE"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "dreambot_api_mapping": {
+            "type": "value_provider",
+            "class": "System",
+            "method": "currentTimeMillis",
+            "parameters": []
+        }
+    },
+    "CREATE_TIMER": {
+        "category": "variables",
+        "description": "Creates a named timer with specified duration",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [
+                "Timer name",
+                "Time"
+            ],
+            "optional": []
+        },
+        "dreambot_api_mapping": {
+            "type": "timer_creation",
+            "timer_name": "Timer name",
+            "duration": "Time"
+        }
+    },
+    "RESTART_TIMER": {
+        "category": "variables",
+        "description": "Restarts a named timer",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [
+                "Timer name"
+            ],
+            "optional": []
+        },
+        "dreambot_api_mapping": {
+            "type": "timer_restart",
+            "timer_name": "Timer name"
+        }
+    },
+    "IF_TIMER_IS_FINISHED": {
+        "category": "variables",
+        "description": "Conditional that checks if a timer has expired",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [
+                "Timer name"
+            ],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "type": "timer_check",
+            "timer_name": "Timer name",
+            "method": "isFinished"
+        }
+    },
+    "CREATE_LIST": {
+        "category": "variables",
+        "description": "Creates a new list variable",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [
+                "List name"
+            ],
+            "optional": []
+        },
+        "dreambot_api_mapping": {
+            "type": "list_creation",
+            "list_name": "List name"
+        }
+    },
+    "ADD_TO_LIST": {
+        "category": "variables",
+        "description": "Adds a value to a list",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [
+                "List name",
+                "Value"
+            ],
+            "optional": []
+        },
+        "dreambot_api_mapping": {
+            "type": "list_add",
+            "list_name": "List name",
+            "value": "Value"
+        }
+    },
+    "REMOVE_FROM_LIST": {
+        "category": "variables",
+        "description": "Removes a value from a list",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [
+                "List name",
+                "Value"
+            ],
+            "optional": []
+        },
+        "dreambot_api_mapping": {
+            "type": "list_remove",
+            "list_name": "List name",
+            "value": "Value"
+        }
+    },
+    "IF_LIST_CONTAINS": {
+        "category": "variables",
+        "description": "Conditional that checks if a list contains a value",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [
+                "List name",
+                "Value"
+            ],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "type": "list_contains",
+            "list_name": "List name",
+            "value": "Value"
+        }
+    },
+    "MERGE_LISTS": {
+        "category": "variables",
+        "description": "Merge multiple lists into a single consolidated list.",
+        "can_be_root": false,
+        "valid_parents": [
+            "VARIABLE_OPERATIONS",
+            "root"
+        ],
+        "properties": {
+            "required": [
+                "target_list",
+                "source_lists"
+            ],
+            "optional": []
+        },
+        "valid_children": [],
+        "dreambot_api_mapping": {
+            "class": "java.util.List",
+            "method": "addAll",
+            "parameters": [
+                "Collection<? extends E>"
+            ],
+            "logic_inversion": false
+        },
+        "examples": [
+            {
+                "description": "Merge loot and alch item lists",
+                "code": {
+                    "MERGE_LISTS": {
+                        "target": "lootList",
+                        "sources": [
+                            "alchItems",
+                            "lootTable"
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

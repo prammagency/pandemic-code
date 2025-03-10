@@ -1,0 +1,209 @@
+{
+  "actions": {
+    "Debug": [
+      "PAUSE_SCRIPT",
+      "LOG",
+      "LOG_WITH_COLOR",
+      "DEBUG_LOG",
+      "LOG_ALL_VARIABLES",
+      "OPEN_EDITOR",
+      "ENABLE_ACTION_LOGGING",
+      "DISABLE_ACTION_LOGGING"
+    ],
+    "Entities": {
+      "NPC": [
+        "IF_NPC_EXISTS",
+        "IF_NPC_DOES_NOT_EXIST",
+        "ATTACK_NPC",
+        "INTERACT_NPC"
+      ],
+      "Player": [
+        "IF_PLAYER_IS_POISONED",
+        "IF_PLAYER_IS_NOT_POISONED",
+        "IF_HEALTH_BELOW",
+        "IF_HEALTH_ABOVE",
+        "EAT_FOOD",
+        "DRINK_POTION"
+      ],
+      "Game_Object": [
+        "IF_GAME_OBJECT_EXISTS",
+        "IF_GAME_OBJECT_DOES_NOT_EXIST",
+        "INTERACT_GAME_OBJECT"
+      ],
+      "Ground_Item": [
+        "IF_GROUND_ITEM_EXISTS",
+        "IF_GROUND_ITEM_DOES_NOT_EXIST",
+        "PICKUP_ITEM"
+      ],
+      "Projectile": [
+        "IF_PROJECTILE_EXISTS",
+        "IF_PROJECTILE_DOES_NOT_EXIST"
+      ]
+    },
+    "Inventory": [
+      "IF_ITEM_EXISTS",
+      "IF_ITEM_DOES_NOT_EXIST",
+      "IF_INVENTORY_IS_FULL",
+      "IF_INVENTORY_IS_NOT_FULL",
+      "IF_INVENTORY_IS_EMPTY",
+      "IF_INVENTORY_IS_NOT_EMPTY",
+      "EQUIP_ITEM",
+      "UNEQUIP_ITEM",
+      "DROP_ITEM",
+      "USE_ITEM",
+      "USE_ITEM_ON_ITEM",
+      "USE_ITEM_ON_NPC",
+      "USE_ITEM_ON_GAME_OBJECT",
+      "USE_ITEM_ON_GROUND_ITEM",
+      "USE_ITEM_ON_WIDGET",
+      "USE_ITEM_ON_TILE"
+    ],
+    "Equipment": [
+      "IF_EQUIPMENT_CONTAINS",
+      "IF_EQUIPMENT_DOES_NOT_CONTAIN",
+      "IF_EQUIPMENT_SLOT_CONTAINS",
+      "IF_EQUIPMENT_SLOT_DOES_NOT_CONTAIN"
+    ],
+    "Combat": [
+      "SET_COMBAT_STYLE",
+      "IF_COMBAT_STYLE_IS",
+      "IF_COMBAT_STYLE_IS_NOT",
+      "ENABLE_SPECIAL_ATTACK",
+      "DISABLE_SPECIAL_ATTACK",
+      "USE_SPECIAL_ATTACK",
+      "IF_SPECIAL_ATTACK_IS_ACTIVE",
+      "IF_SPECIAL_ATTACK_IS_NOT_ACTIVE"
+    ],
+    "Prayer": [
+      "IF_PRAYER_IS_ACTIVE",
+      "IF_PRAYER_IS_NOT_ACTIVE",
+      "ACTIVATE_PRAYER",
+      "DEACTIVATE_PRAYER",
+      "USE_QUICK_PRAYER",
+      "SET_QUICK_PRAYER",
+      "TOGGLE_QUICK_PRAYER"
+    ],
+    "Magic": [
+      "IF_MAGIC_AUTOCAST_IS_SET",
+      "SET_MAGIC_AUTOCAST",
+      "CAST_SPELL",
+      "CAST_SPELL_ON_NPC",
+      "CAST_SPELL_ON_GAME_OBJECT",
+      "CAST_SPELL_ON_GROUND_ITEM",
+      "CAST_SPELL_ON_PLAYER",
+      "CAST_SPELL_ON_ITEM",
+      "CAST_SPELL_ON_WIDGET",
+      "TELEPORT_TO_LOCATION",
+      "USE_TELEPORT_TAB",
+      "ALCH_ITEM"
+    ],
+    "Banking": {
+      "Bank": [
+        "OPEN_NEAREST_BANK",
+        "CLOSE_BANK",
+        "IF_BANK_IS_OPEN",
+        "IF_BANK_IS_NOT_OPEN",
+        "IF_BANK_IS_CACHED",
+        "IF_BANK_IS_NOT_CACHED",
+        "IF_BANK_CONTAINS",
+        "IF_BANK_DOES_NOT_CONTAIN",
+        "WITHDRAW_ITEM",
+        "WITHDRAW_ALL_MATCHING",
+        "DEPOSIT_ITEM",
+        "DEPOSIT_ALL_ITEMS"
+      ],
+      "Deposit_Box": [
+        "IF_DEPOSIT_BOX_IS_OPEN",
+        "IF_DEPOSIT_BOX_IS_NOT_OPEN",
+        "OPEN_DEPOSIT_BOX",
+        "CLOSE_DEPOSIT_BOX",
+        "DEPOSIT_ALL_ITEMS_BOX"
+      ]
+    },
+    "Walking": [
+      "WALK_TO_TILE",
+      "SET_RUN_THRESHOLD",
+      "IF_RUN_ENERGY_IS_BELOW",
+      "IF_RUN_ENERGY_IS_ABOVE",
+      "ENABLE_RUN",
+      "DISABLE_RUN",
+      "IF_RUN_ENABLED",
+      "IF_RUN_DISABLED"
+    ],
+    "Loops_Control_Flow": [
+      "WHILE_VARIABLE_MATCHES",
+      "CONTINUE_LOOP",
+      "BREAK_OUT_OF_LOOP",
+      "FOR_EACH_IN_LIST"
+    ],
+    "Game_Settings_Variables": [
+      "ENABLE_ACCEPT_AID",
+      "DISABLE_ACCEPT_AID",
+      "IF_ACCEPT_AID_IS_ENABLED",
+      "IF_ACCEPT_AID_IS_NOT_ENABLED",
+      "ENABLE_ESC_INTERFACE_CLOSING",
+      "DISABLE_ESC_INTERFACE_CLOSING",
+      "ENABLE_SHIFT_CLICK_DROPPING",
+      "DISABLE_SHIFT_CLICK_DROPPING"
+    ],
+    "World_Management": [
+      "CHANGE_WORLD",
+      "IF_WORLD_MATCHES",
+      "QUICK_HOP_TO_WORLD"
+    ],
+    "Dialogues_Interfaces": [
+      "IF_DIALOGUE_IS_OPEN",
+      "CONTINUE_DIALOGUE",
+      "SELECT_DIALOGUE_OPTION",
+      "IF_INTERFACE_OPEN",
+      "IF_INTERFACE_NOT_OPEN",
+      "OPEN_WORLD_MAP",
+      "CLOSE_INTERFACE",
+      "OPEN_SETTINGS_TAB",
+      "OPEN_TAB"
+    ],
+    "Chat": [
+      "IF_CHAT_CONTAINS",
+      "IF_CHAT_DOES_NOT_CONTAIN",
+      "SEND_CHAT_MESSAGE",
+      "CLEAR_CHAT_HISTORY",
+      "ENABLE_PRIVATE_CHAT",
+      "DISABLE_PRIVATE_CHAT"
+    ],
+    "Skills_Stats": [
+      "IF_SKILL_LEVEL_IS",
+      "IF_SKILL_LEVEL_IS_NOT",
+      "IF_SKILL_XP_IS",
+      "IF_SKILL_XP_IS_NOT"
+    ],
+    "Questing_Minigames": [
+      "IF_QUEST_STATE_IS",
+      "START_QUEST",
+      "COMPLETE_QUEST",
+      "JOIN_MINIGAME",
+      "LEAVE_MINIGAME"
+    ],
+    "Sound_Music": [
+      "ENABLE_MUSIC",
+      "DISABLE_MUSIC",
+      "ENABLE_SOUND_EFFECTS",
+      "DISABLE_SOUND_EFFECTS"
+    ],
+    "Mouse_Keyboard": [
+      "SET_MOUSE_SPEED",
+      "MOVE_MOUSE_TO_ENTITY",
+      "CLICK_MOUSE",
+      "TYPE_TEXT"
+    ],
+    "Camera": [
+      "MOVE_CAMERA",
+      "SET_CAMERA_ANGLE",
+      "SET_CAMERA_ZOOM"
+    ],
+    "Timing": [
+      "WAIT",
+      "WAIT_UNTIL_CONDITION",
+      "SLEEP_UNTIL"
+    ]
+  }
+}

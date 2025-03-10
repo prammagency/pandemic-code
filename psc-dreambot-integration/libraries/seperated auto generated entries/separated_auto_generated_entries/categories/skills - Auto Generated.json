@@ -1,0 +1,178 @@
+{
+    "SKILL_GET_LEVEL": {
+        "category": "skills",
+        "description": "[AUTO-GENERATED] SKILL_GET_LEVEL",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: SKILL_GET_LEVEL'"
+            ]
+        }
+    },
+    "SKILL_GET_EXPERIENCE": {
+        "category": "skills",
+        "description": "[AUTO-GENERATED] SKILL_GET_EXPERIENCE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: SKILL_GET_EXPERIENCE'"
+            ]
+        }
+    },
+    "SKILL_GET_REAL_LEVEL": {
+        "category": "skills",
+        "description": "[AUTO-GENERATED] SKILL_GET_REAL_LEVEL",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: SKILL_GET_REAL_LEVEL'"
+            ]
+        }
+    },
+    "SKILL_GET_BOOSTED_LEVEL": {
+        "category": "skills",
+        "description": "[AUTO-GENERATED] SKILL_GET_BOOSTED_LEVEL",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: SKILL_GET_BOOSTED_LEVEL'"
+            ]
+        }
+    },
+    "SKILL_GET_EXPERIENCE_TO_LEVEL": {
+        "category": "skills",
+        "description": "[AUTO-GENERATED] SKILL_GET_EXPERIENCE_TO_LEVEL",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: SKILL_GET_EXPERIENCE_TO_LEVEL'"
+            ]
+        }
+    },
+    "SKILL_GET_PERCENTAGE_TO_LEVEL": {
+        "category": "skills",
+        "description": "[AUTO-GENERATED] SKILL_GET_PERCENTAGE_TO_LEVEL",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: SKILL_GET_PERCENTAGE_TO_LEVEL'"
+            ]
+        }
+    },
+    "SKILL_TOTAL_LEVEL": {
+        "category": "skills",
+        "description": "[AUTO-GENERATED] SKILL_TOTAL_LEVEL",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: SKILL_TOTAL_LEVEL'"
+            ]
+        }
+    },
+    "SKILL_TOTAL_EXPERIENCE": {
+        "category": "skills",
+        "description": "[AUTO-GENERATED] SKILL_TOTAL_EXPERIENCE",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.MethodProvider",
+            "method": "log",
+            "parameters": [
+                "'Not implemented: SKILL_TOTAL_EXPERIENCE'"
+            ]
+        }
+    }
+}

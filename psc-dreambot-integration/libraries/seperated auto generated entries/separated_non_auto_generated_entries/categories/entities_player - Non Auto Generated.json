@@ -1,0 +1,26 @@
+{
+    "IF_POISONED": {
+        "category": "entities_player",
+        "description": "Conditional that checks if the player is poisoned",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.player.Player",
+            "method": "isPoisoned",
+            "parameters": []
+        }
+    }
+}

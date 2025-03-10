@@ -1,0 +1,172 @@
+{
+    "AND_BRANCH": {
+        "category": "logic",
+        "description": "Logical AND operation that executes child actions only if all conditions are true",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "min_children": 2,
+        "dreambot_api_mapping": {
+            "type": "logical_construct",
+            "construct": "multiple_conditions_and"
+        }
+    },
+    "OR_BRANCH": {
+        "category": "logic",
+        "description": "Logical OR operation that executes child actions if any condition is true",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "min_children": 2,
+        "dreambot_api_mapping": {
+            "type": "logical_construct",
+            "construct": "multiple_conditions_or"
+        }
+    },
+    "IF_RANDOM_NUMBER_IS": {
+        "category": "logic",
+        "description": "Conditional that checks if a random number meets criteria",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [
+                "Minimum",
+                "Maximum",
+                "number"
+            ],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.methods.Calculations",
+            "method": "random",
+            "parameters": [
+                "Minimum",
+                "Maximum"
+            ],
+            "comparison": {
+                "value": "number.value",
+                "operator": "number.operator"
+            }
+        }
+    },
+    "FOR_EACH": {
+        "category": "logic",
+        "description": "Executes child actions for each item in a list",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [
+                "List name",
+                "Variable name"
+            ],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "type": "for_each_loop",
+            "list_name": "List name",
+            "iterator_variable": "Variable name"
+        }
+    },
+    "IF_FIRST_RUN": {
+        "category": "logic",
+        "description": "Conditional that is true only on the first execution of the script",
+        "can_be_root": true,
+        "valid_parents": [
+            "root"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "type": "first_run_check"
+        }
+    },
+    "ANTI_BAN_MODULE": {
+        "category": "logic",
+        "description": "Performs random anti-ban actions",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*",
+            "AND_BRANCH",
+            "OR_BRANCH"
+        ],
+        "properties": {
+            "required": [],
+            "optional": []
+        },
+        "dreambot_api_mapping": {
+            "type": "custom_module",
+            "module": "antiBan"
+        }
+    },
+    "IF_TIME_ELAPSED": {
+        "category": "logic",
+        "description": "Conditional that checks if a specified time has elapsed",
+        "can_be_root": true,
+        "valid_parents": [
+            "root",
+            "IF_*",
+            "WHILE_*"
+        ],
+        "properties": {
+            "required": [
+                "timeInMillis"
+            ],
+            "optional": []
+        },
+        "valid_children": [
+            "*"
+        ],
+        "dreambot_api_mapping": {
+            "class": "org.dreambot.api.utilities.Timer",
+            "method": "elapsed",
+            "parameters": []
+        }
+    }
+}
